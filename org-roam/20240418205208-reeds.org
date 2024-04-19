@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       e75b5148-b0ae-4a24-ba69-154e331e7db2
+:END:
+#+title: Reeds
+
+* Reading List
+
+** TODO Lou Skinner Reed Manual
+
+** TODO Physical Forces at Work in Bassoon Reeds - James B. Kopp
+[[id:e9b73e82-8c15-4d43-9e0f-6ce367aa5eba][kopp03_physic_forces_at_work_bassoon_reeds]]
+** TODO Popkin Book
+** TODO Weaitt Book
+** TODO Tuning Book
+** TODO Reed Pedagogy Book
+** TODO Ewell Pedagogy
+[[id:5d19e409-e35b-499c-8026-ac166a56e6f6][ewell10_pedag_finis_reeds_german_system]]
+** TODO Massol Winstead article
+[[id:be5a8fcb-5d04-4b00-999b-fefbe68c9b7c][massol10_william_winst_bassoon_reed_method]]
+** TODO Klimko High Altitude
+[[id:23553057-1d84-43b2-9ab2-199c599ef491][klimko91_bassoon_reedm_at_higher_altit]]
+** TODO Heinrich Geometry
+[[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]]
+** TODO Kopp Tube Tip Aperture
+[[id:3bd499aa-8b63-4458-94b7-82ea6917b7ae][kopp13_tube_tip_apert]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       be5a8fcb-5d04-4b00-999b-fefbe68c9b7c
+:ROAM_REFS: cite:massol10_william_winst_bassoon_reed_method
+:END:
+#+title: massol10_william_winst_bassoon_reed_method
+
+* Heading
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/massol10_william_winst_bassoon_reed_method.pdf
+:END:

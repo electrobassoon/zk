@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3bd499aa-8b63-4458-94b7-82ea6917b7ae
+:ROAM_REFS: cite:kopp13_tube_tip_apert
+:END:
+#+title: kopp13_tube_tip_apert
+

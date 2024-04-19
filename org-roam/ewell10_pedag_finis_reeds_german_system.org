@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5d19e409-e35b-499c-8026-ac166a56e6f6
+:ROAM_REFS: cite:ewell10_pedag_finis_reeds_german_system
+:END:
+#+title: ewell10_pedag_finis_reeds_german_system
+

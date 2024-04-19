@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e9b73e82-8c15-4d43-9e0f-6ce367aa5eba
+:ROAM_REFS: cite:kopp03_physic_forces_at_work_bassoon_reeds
+:END:
+#+title: kopp03_physic_forces_at_work_bassoon_reeds
+
+
