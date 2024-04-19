@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ec206838-d171-4974-bcea-3180ca516e8f
+:END:
+#+title: mcdermott13-difficulty
+#+filetags: :difficulty:hci:interaction:
+
+Sometimes difficulty is a good thing. In music, some things that are imperfect give music its unique character and quality. "Fixing" the "problems" would actually harm the music instead of improve it. (An example is in [[id:02d7f51a-7a5d-4db6-834f-1a2ffd1aee7b][Acoustics and Characteristic Bassoon Sound]]). Instruments already have many difficult things about them, such as physical demands, discontinuities, multiple streams of data, and more.
+
+Playing music is often the goal itself, it is not a tool used to achieve other goals. This means that we want it to be difficult to some degree. The satisfaction comes from playing something and that the act is difficult. We also want long-term engagement in music, that's why Guitar Hero games dead end. Things that are too easy are often too restrictive; they don't allow for experimentation or doing something new and different than the design. Virtuosity is often appreciated in music, but this would also be impossible without difficulty. Even physical effort can be useful to communicate moments of intensity in music. Clearly, difficulty is a part of music and should be. Musicians need frustrations and difficulty to grow and continue in music.
+
+However, not everything needs to be difficult. Controls on digital instruments for performers for instance can be aided with presets. 
+
+cite:mcdermott13_shoul_music_inter_be_easy

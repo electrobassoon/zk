@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c43dd991-b330-432c-9deb-1698396f1206
+:END:
+#+title: brown07-difficulties
+#+filetags: :teacherstudentrelationship:
+
+One difficulty with incorporating computer music into the curriculum is the time and effort to learn new skills as a teacher. Often, the student will know more about the technology than the teacher does. Here the role of the teacher is to guide the student in learning opportunities, at times becoming a learner alongside the student.
+
+cite:brown07_comput_music_educat

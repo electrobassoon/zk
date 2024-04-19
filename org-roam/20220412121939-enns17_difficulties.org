@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       95485d8c-0e23-4fda-bf6a-95afbc9fd827
+:END:
+#+title: enns17-difficulties
+#+filetags: :feedback:physicalhealth:
+
+Balance is almost impossible to determine while you are on stage. It's also really hard to make changes to that balance on stage during a performance.
+
+Clip on mics can increase the weight of the instrument. Standing still next to a mic stand can increase tension. Transporting equipment can also put physical strain on the performer.
+
+Loudspeaker feedback can cause hearing damage. Make sure to have a way to kill the sound quickly if you are running the sound yourself.
+
+[[cite:&enns17_towar_self_suffic_approac_elect_acous_clarin]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7f8cdefe-8964-471a-9cab-d78e54fd7a92
+:ROAM_REFS: cite:david09_audio_produc_workt
+:END:
+#+TITLE: david09_audio_produc_workt
+
+* Audio production worktext: concepts, techniques, and equipment
+
+SUU catalog TK6557.5 .S28 2013

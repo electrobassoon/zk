@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f8904c79-d61b-4085-b56c-69eeb6284192
+:END:
+#+title: macdonald95-speakers
+#+filetags: :speakers:placement:performancepractice:
+
+Musical meaning is often conveyed through spatial features, so care should be taken with speaker placement that affects those spatial features. The more speakers there are, the better these features can be controlled. However it also adds to the complexity of the performance setup. Using speakers behind the audience has different social meanings and should only be used when called for.
+
+cite:macdonald95_perfor_pract_presen_elect_music

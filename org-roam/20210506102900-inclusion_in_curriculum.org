@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       e922a725-d03c-4f42-8d89-024a30d8fa41
+:END:
+#+title: Inclusion in Curriculum
+#+filetags: :inclusion:curriculum:
+
+
+
+* Worth of the music
+** Pedagogic (teaching)
+Interactive electroacoustic music can be even more important, as fixed media compositions subject the performer to the prison of the tape, [[id:b9eaeb1c-4855-4b14-9825-8679ae296c03][mcnutt03-prisoner]]. Tape music is the ultimate museumification of art. [[id:c2519db6-3bba-41c5-aab0-3fbcafae7b58][garnett01-tape]] Empowering performers can also be an important part of computer music's future, [[id:a3a7f1df-e947-424f-a778-293d4946a1a3][mcnutt03_interactivity]]. [[id:db7ae985-548c-4932-ab7e-9f3708257982][masone16-shifting-roles]] 
+
+Much of this music calls for improvisation, which can connect performers with their audiences again. This is something traditional art music has perhaps lost. [[id:b23d1410-5be3-4dfe-8322-4b5a54a68d8b][moore92-connecting-audiences]]
+
+Some think it a new form of chamber music. [[id:a2057c08-05df-4dae-9d82-00ff0e777753][feron18-chamber]]
+
+  Currently, there is a lack of training in higher education on music technology for performers, [[id:5a843b2d-9f92-40ca-829b-cb24e6e42e64][kokoras11_education]]. Composers seem to get it, just not the performers. It takes time to become comfortable with technology, not just a crash course at the dress rehearsal. [[id:2f40baf0-f7b7-4c7a-a4b2-9711df1389e9][bullock13_education]]
+
+As more composers write more of this music, people will need to be familiar with it.  [[id:810ad76e-6793-4690-811e-949ebcf534b9][behr14-education]]
+
+For a traveling musician, it is like taking your accompanist with you. [[id:6e3d43c3-95e9-4eb9-a186-05ebdc70703f][behr14-benefits]]
+
+** Aesthetic (beauty, perception)
+One, is that the language of the music could be more familiar and accessible to modern audiences. (My own thoughts)
+
+Electronic music removed the human presence from music. There seems to be a desire for a human component to music making. Now the speaker can be part of performance instead of a representation of performance. [[id:23094d6b-2a56-42f7-9829-f34adab4f00f][emmerson16-performance]] [[id:85e70284-632c-4614-895a-6cc63e3383b4][garnett01-human-to-computer]]
+
+Art changes because science changes. Technology certainly has changed, and interactive electroacoustic music changes with it. [[id:aba93d80-8035-48a3-8593-cca67223fbe6][bocast12-essential]] A side-effect of recording technology is the removal of interaction. [[id:b58b17f7-324d-4238-bf51-2c092422a66c][winkler98_interaction]] The music can be as simple, complex, challenging, or accessible as desired, including deep social commentary. [[id:a39dea80-46d4-46ab-9b20-69715c5b8c89][brown07-inclusion]] It brings back play to a field that has lost it. [[id:9ba16de3-8825-4f67-8f7a-127bab16121c][dixon06-play]]
+
+The human aspect allows for interpretation to keep music relevant as aesthetic values change. [[id:85e70284-632c-4614-895a-6cc63e3383b4][garnett01-human-to-computer]]
+
+Computer music often lacks a visual component. Performing with tape helps this, but then the performer is in "tape prison." Interactive electronic music helps alleviate this. [[id:b58b17f7-324d-4238-bf51-2c092422a66c][winkler98_interaction]] It is even exciting to performers [[id:ed621223-9e79-493c-b851-eb5a75c7b17d][chadabe97_elect_sound:human_aspect]]
+
+Sampling allows the comparison of different cultures, and brings layers of possible meanings into music. [[id:e89ffa1e-6651-4159-9677-3139875f9405][waters16_sampling]]
+
+** Artistic (creative skill)
+
+Causal relationships have been broken, which can be an opportunity [[id:bebf6bcd-41e5-44da-9ae3-2ba12eaab9a4][emmerson16_mechanical_electronic_technology]]. Not seeing the sound source creates a search for meaning in the listener. [[id:e46901c9-83bd-41b5-8597-086aa5040183][windsor16-meaning]] And this meaning does need to exist [[id:82bd5a6f-9896-4666-8d50-0d3b4a8d8a69][macdonald95-meaning]] 
+
+Additionally, the characterstics of absence and presence within live electroacoustic music can create poetic affects in the dramaturgy of performance, especially the uncanny and the sublime. [[id:dcdf66d7-a677-485a-8dc8-1b0a31fdcf17][harries14-absence-presence]] Other dramas are human vs machine, or time-space transgressions of the instrument. [[id:e3735eff-6b6d-4b71-b188-ceaa10e6aab0][feron18-concept]]
+
+
+These interactive systems are not designed to replace human performers, but to enhance their musical performances. [[id:0b987a2d-d3bd-44f2-9dff-64d057f394d4][rowe93-human]] Electronics are an additive part of music [[id:dea5c56a-7644-4475-883b-c91b51aa3bb1][grew14-additive]] The intention is still to express ideas and communicate through music. [[id:a39dea80-46d4-46ab-9b20-69715c5b8c89][brown07-inclusion]] The magic is in the composer and performer working together. [[id:488d0e3b-aa71-4002-8715-b0aef63a5b3c][freeman11-magic]]
+
+Interactive electroacoustic music can be even more important, as fixed media compositions subject the performer to the prison of the tape, [[id:b9eaeb1c-4855-4b14-9825-8679ae296c03][mcnutt03-prisoner]]. Tape music is the ultimate museumification of art. [[id:c2519db6-3bba-41c5-aab0-3fbcafae7b58][garnett01-tape]] Empowering performers can also be an important part of computer music's future, [[id:a3a7f1df-e947-424f-a778-293d4946a1a3][mcnutt03_interactivity]]. [[id:db7ae985-548c-4932-ab7e-9f3708257982][masone16-shifting-roles]] 
+
+Electroacoustic music has the ability to take performers to new heights, impossible through other means, [[id:dd8f21af-f589-4df9-a35c-aef794472e48][mcnutt03-benefits]]. Instruments can be created that are impossible in the physical world [[id:b3933473-26d8-4e69-8d95-e31e90ed55bb][emmerson16_representation]]. [[id:9b6234ff-457c-48b5-bd72-b30a2501e4f7][garnett01-computer-to-human]] This music can bring the highest of quality, as well as sound worlds impossible through other means. [[id:57937f7d-cd3f-4fa3-a2a4-a1eb80a7ad3e][stockhausen96-inclusion]] [[id:5c5aa091-8325-40e3-b15f-4d40bc6be0d3][rowe93-timbre]] Other aspects of music that don't get as much attention gain more exposure in this style of music. Part of this comes from the one-to-many relationship that gestures can have with the music, [[id:a39dea80-46d4-46ab-9b20-69715c5b8c89][brown07-inclusion]] Performers become super-performers. [[id:a4669b61-17de-46ec-ab08-b6b2d420ff38][feron18-performer]]
+
+It is a new way to use traditional instruments. [[id:05541cd1-e09a-45a2-b340-4e2b4a53ec3c][chadabe97_elect_sound:traditional_instruments]]
+
+* Why it needs to be in curriculum
+This style of music requires familiarity with technology, and frequent gradual exposure will enable performers to feel more confident with this style of music and program them more. [[id:2f40baf0-f7b7-4c7a-a4b2-9711df1389e9][bullock13_education]] This exposure is not wasted, as the skills are often transferrable to other areas. [[id:a39dea80-46d4-46ab-9b20-69715c5b8c89][brown07-inclusion]]
+
+Performers will likely be the ones who will restore older works with obsolete technology. They need technical skills and an understanding of how electroacoustic music works to inform them. This will help them preserve the repertoire. [[id:87134bed-c60b-419f-8feb-e681a90fb9bb][wetzel06-performer-responsibility]] Performers are the ambassadors for live electronic music [[id:a4669b61-17de-46ec-ab08-b6b2d420ff38][feron18-performer]]
+

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6185f914-1ff2-46f7-bffa-ec7d17fbb7a6
+:ROAM_REFS: cite:grayson96_whose_authen
+:END:
+#+title: grayson96_whose_authen
+
+* Whose Authenticity
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/grayson96_whose_authen.pdf
+:END:
+
+** Updating
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.7138964577656676)
+:END:
+Hummel was urged to enrich, reinforce, and increase the brilliance of Mozart's piano concertos, to keep them in the modern style of keyboard writing.
+The Cramer and Hummel versions were meant to update the works and also transfer them to more music making opportunities and domains.

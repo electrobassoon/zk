@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ed621223-9e79-493c-b851-eb5a75c7b17d
+:END:
+#+title: chadabe97_elect_sound:human_aspect
+#+filetags: :tape:control:
+
+Referring to his /Prasecio-IV/, Bruce Pennycook says that players that have never encountered electronic music are excited at having control over the computer, as opposed to tape.
+
+Max Matthews when talking about his Conductor Program, said that certain aspects of music, especially expressive ones, should not be controlled by the computer. They are the domain of the performer.
+
+cite:chadabe97_elect_sound

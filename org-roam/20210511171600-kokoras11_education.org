@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5a843b2d-9f92-40ca-829b-cb24e6e42e64
+:END:
+#+title: kokoras11_education
+#+filetags: :instructions:notes:curriculum:
+
+In a survey, it was shown that in higher education there were not many modules about music technology or sound engineering, both skills necessary for performing electroacoustic music. Another result was that the performance instructions provided with electroacoustic music were not helpful enough to give confidence to performers of that music. A list is provided with various aspects that are helpful for performers, including notation of electronics, and diagrams of hardware setup.
+
+
+cite:kokoras11_perfor_vs_elect

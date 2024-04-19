@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       9de7a912-125c-4139-81e8-083e909af49e
+:ROAM_REFS: cite:waters16_beyon_acous
+:END:
+#+title: waters16_beyon_acous
+
+* Beyond the acousmatic: hybrid tendencies in electroacoustic music
+  :PROPERTIES:
+  :NOTER_DOCUMENT: ../PDFs/waters16_beyon_acous.pdf
+  :END:
+
+** Shift
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.5379746835443038)
+   :END:
+There has been a change from the acousmatic culture to a sampling culture. There is an increase of hybrid forms that come from  the collision of different worlds, cultures, disciplines, etc.
+
+** 7 Issues of cultural shift
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.430379746835443)
+   :END:
+New Technollogies
+Cultural pluralism
+Perception of authority
+Tradition and innovation
+Representation
+Economics
+Environment
+
+** Human memory
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.7070524412296564)
+   :END:
+Compositional process has changed because of availability of storage of musical material. So much that the human memory can't remember all of it and there is so much more styles to draw from in a sample culture. The culturual memory is like a bathtub, that previously had a balanced flow, but now is plugged and overflowing.
+
+** Intent
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.23056057866184448)
+   :END:
+THis expansion of memory has made all time periods present, which makes composition hard. Is this quotation cynical or a parody? Politically conservative or radical? 
+
+** Sampling
+   :PROPERTIES:
+   :NOTER_PAGE: (9 . 0.5747950819672131)
+   :END:
+Sampling makes recontextualization easy, which also causes genres and cultures to collide easier. Lots of hybridisation occurs.
+
+** Authority
+   :PROPERTIES:
+   :NOTER_PAGE: (13 . 0.13934426229508196)
+   :END:
+Preceding sectino talks about the authority of the elites and techincal innovation being what separates them.
+
+** Sampling
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.3831967213114754)
+   :END:
+Sampling is the ultimate recontexulatization tool, time-manipulation, repetition, etc.
+
+** Ethics
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.6741803278688524)
+   :END:
+Is it ethical to sample? Are you going against the intent of the original composer? 
+
+** Economy
+   :PROPERTIES:
+   :NOTER_PAGE: (20 . 0.5399590163934426)
+   :END:
+Electroacoustic music is being discouraged because it is "inefficient" in resources and time. It is discouraging risk and innovation in composing. 
+
+** Novelty
+   :PROPERTIES:
+   :NOTER_PAGE: (21 . 0.5399590163934426)
+   :END:
+Technology being more accessible has taken away the novelty and innovation position of university electroacoustic music. A mixed economy instead of an academicly superior economy.

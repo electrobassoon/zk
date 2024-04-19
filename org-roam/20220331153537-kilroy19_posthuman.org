@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a3ae4ab1-3ffd-4f29-8fe2-3a4fc80ff337
+:END:
+#+title: kilroy19-posthuman
+#+filetags: :posthuman:
+The posthuman is the meeting point of humans and machines. There is a large body of literature about it generally. But in music it applies to everything that happens to sound after the performer plays their instrument. There is much variety in this because of equipment, performance contexts, etc. The posthuman creates situations in music that can't be modeled off of acoustic analogues.(like solo and accompanist, or chamber music, etc.) Additionally this creates shifts in [[id:95134836-836f-4037-bcae-a3274b31dccb][agency]]. The performer may not be in complete control of their sound anymore. Amplification, live processing, and engineers all serve as mediators that create posthuman contexts. There are several [[id:212b0657-c436-4f62-94b3-a32c24c7a40c][tropes]] of the posthuman that can help create a performance practice for electroacoustic music.
+[[cite:&kilroy19_posth_music_contex]]

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       451f7e71-be3c-4e4d-b33a-ceb5ce211312
+:END:
+#+title: nonuseful-sources
+** Verified not helpful
+
+[[id:8c24e6b3-73dd-46fd-965b-43ceefc77e35][scott96_inter_elect_perfor_trans_compos]]
+
+[[id:58c8a728-b863-4452-9c0f-9d2e3b1cee06][naylor14_approp_cultur_meanin_elect_music]]
+
+[[id:dae4c63d-7152-4a70-9aba-1d54cf07f3b5][holland13_music_inter: Music interaction: understanding music and human-computer interaction]]
+
+[[id:a7d70f5c-f6f4-4284-85e6-16f889585178][dudas10]]
+
+[[id:5fdadb90-9619-4fa9-b87e-0d2ce0d9853c][chadabe99_pefor_is_us]]
+
+[[id:3c792567-a58c-4b98-a475-e4221bb43551][chadabe84_inter_compos]]
+
+[[id:7c29da98-df95-477c-83f4-89971b14a514][welch10_progr_machin_peopl]]
+
+[[id:7a4b8723-1fcf-49ae-92cb-5bf035bdf528][benson07_music]]
+
+[[id:6116137e-35ca-42c7-9195-6926a14ec602][bramwell-dicks13_affec_music_inter]]
+
+[[id:e82a7091-3e39-46f3-8aef-776615654f11][mcguire14_moder_midi]]
+
+[[id:369433f0-aa69-4b00-a93a-66c145829598][huber07_midi_manual]]
+
+[[id:3212399e-a1c6-44ce-a32b-e86bb35d13e2][benedictis18_author_perfor_tradit_age_techn]]
+
+[[id:758aa53f-4ca3-44b1-8334-819fa6776224][scipio21_think_liven_perfor_live_elect]]

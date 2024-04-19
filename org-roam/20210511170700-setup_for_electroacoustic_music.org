@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       acfbf397-cfcc-493d-85cc-6636c95351ee
+:END:
+#+title: Setup for Electroacoustic Music
+#+filetags: :setup:speakers:microphones:soundcheck:rehearsal:
+
+There are many aspects of a successful setup for electroacoustic music
+
+A basic overview of equipment is given in [[id:635f93aa-7721-4c76-9155-3bf8cfe55594][jordan18-eq]]
+
+* Speakers
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/macdonald95_perfor_pract_presen_elect_music.pdf
+:END:
+  Speakers ideally should be set about 30\deg from center, perhaps more in large spaces, and raised.
+
+  [[id:0f84b67d-8375-49a1-a8f9-aeded4a59c81][morrill81_setup]]
+
+  Perhaps a better way to fill in "holes" in the stereo image is to have multiple speakers with the same signal. [[id:f8904c79-d61b-4085-b56c-69eeb6284192][macdonald95org-noter-speakers]]
+  
+* Soundcheck
+  Having adequate time to sound check the hardware, before the dress rehearsal, is crucial. [[id:1a6433b1-bfe2-4edb-a771-1e42fc2a9902][mcnutt03-difficulties]]
+It is also important to know where equipment is coming from. [[id:ac6466c2-4b45-44cd-8cb8-4ca88295b15b][grew14-difficulties]]
+* Microphones and Bocals
+  Microphones can give the most accurate sound, but sometimes there are issues with feedback. Most people use two microphones, one at the bell for the lowest notes, and one aimed towards the left hand fingers. This blend does well to capture all notes of the bassoon.  Bocals pick up all notes more or less evenly, but they don't sound the same as an acoustic bassoon.  The telex pickup has a strong signal, but is a bit honky. The little jake pickup requires a preamp, and is a bit heavy in the bass. A volume pedal is advised for this setup to help with the reduced dynamic range of a pickup. [[id:3b803a3f-371b-48f2-9e72-7e0b471adf79][romine13-equipment]]
+It is important with microphones to understand the type of microphone and polar pattern to avoid feedback issues. [[id:bc9c653f-47e1-4470-af6e-79f128abd2ce][grew14-microphones]]
+
+[[id:6e5ae75d-944b-4152-adc0-bc4f8145493b][behr14-gear]] has more info about microphones and bocals.
+
+* Pedals
+overview of common pedals and their effects. [[id:6e5ae75d-944b-4152-adc0-bc4f8145493b][behr14-gear]]
+
+More in depth descriptions in [[id:ef47ef15-9d86-4103-b67a-a82446c7dc4d][hunter04-pedals]]
+

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3cd23c84-ba1f-4dad-b30f-9e2ec38e91fa
+:END:
+#+title: stockhausen96-halls
+#+filetags: :halls:performancespace:acoustics:
+
+Halls are built for the performance of traditional music. They are not designed for electroacoustic music, and often have rules that prevent good performances.
+
+cite:stockhausen96_elect_perfor_pract

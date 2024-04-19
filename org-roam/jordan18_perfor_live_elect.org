@@ -1,0 +1,102 @@
+:PROPERTIES:
+:ID:       b90039f3-e49e-4f32-8364-e52830ec4b52
+:ROAM_REFS: cite:jordan18_perfor_live_elect
+:END:
+#+title: jordan18_perfor_live_elect
+
+* Performing Live with Electronics
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/jordan18_perfor_live_elect.pdf
+:END:
+
+** Lack of training
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.4882506527415143)
+:END:
+Since there is no performance practice students that are more technologically inclined learn through experimentation instead of formal learning.
+
+** List of equipment for electroacoustic music performance
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.19973890339425587)
+:END:
+Mac or PC (linux for pd maybe) running a modern operating system.
+The faster the processor the lower the latency.
+Recommended 8GB of ram and an ssd.
+
+Recommended Apple MacBook Pro, and Microsoft Surface Laptop
+
+Audio interface with at least 2 mic preamps and 4 1/4" audio outputs.
+This helps with phantom power. It also handles low buffer sizes for latency.
+Recommended Presonus Studio 2/6, Focusrite Scarlett 2i4, Behringer UMC204HD
+
+** More eq
+:PROPERTIES:
+:NOTER_PAGE: 17
+:END:
+PA speakers
+High quality is important to reproduce all of 20Hz to 20kHz.
+Recommended Presonus Air 12 and Mackie SRM450v3
+Subwoofers may be necessary if there is lots of low stuff.
+
+Cardioid Condenser mics
+Recommended Rode NT-5, Shure KSM137, Audio-Technica AT2035
+
+In ear monitors
+Wired or wireless
+This is for staying in sync with tracks. Bluetooth has too high latency for this to be viable.
+Recommended Shure PSM300 (wireless) or Behringer P2 (wired)
+
+Audio software with multi-output audio
+Allow signal path routing, effects, mix between audience and monitors.
+Recommended Logic, Apple Mainstage, Presonus Studio One 4, Max/MSP, Pure Data, ZenAud.io ALK2, Ableton Live
+
+MIDI controller
+
+** Appearances
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.7545691906005222)
+:END:
+Dress cables, make computer and tech appear inconspicuous to give the impression of a musical performance, not computer exhibition
+
+** Speaker placement
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.15535248041775457)
+:END:
+At least 10 feet to each side to give stereo width. Too much separation not desireable
+
+** Tape
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.7806788511749347)
+:END:
+tape not as easy to perform, but easier from a tech standpoint
+
+** Practicing
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.5548302872062663)
+:END:
+Still need knowledge of the score
+Drop the needle could be useful
+
+** Tape first
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.19973890339425587)
+:END:
+Second recommendation to play a piece with tape first
+
+** Computer for effects
+:PROPERTIES:
+:NOTER_PAGE: (41 . 0.2219321148825065)
+:END:
+Recommends using a computer and daw for effects because of the ability to seamlessly coordinate with other pieces using computers
+
+** Delay mistakes
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.2885117493472585)
+:END:
+You will hear them multiple times so accuracy is important with delay
+
+** Max vs others
+:PROPERTIES:
+:NOTER_PAGE: (61 . 0.42167101827676234)
+:END:
+Recommends performers learn ableton, logic, etc as they have more applications outside the performance.

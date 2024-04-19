@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       ef47ef15-9d86-4103-b67a-a82446c7dc4d
+:END:
+#+title: hunter04-pedals
+#+filetags: :pedals:gear:compression:distortion:fuzz:modulation:delay:filter:flanger:phaser:
+
+There are four main groups of effects pedals:
+1) Boost, compression, distortion, fuzz
+2) Modulation
+3) Echo & Delay
+4) Filtering and EQ
+
+* Boost, Compression, Distortion, Fuzz
+These are often some of the first pedals people get because it changes the sound most drastically.
+
+Boosters increase the signal without changing the frequency range or tone. Enough boosting gets tube amps to have some distortion.
+
+Compressors smooth the attack and decay. This usually isn't as noticeable, but can be used to thicken the tone or change a tube amp's sound. Overuse takes out the dynamics of a performance.
+
+Overdrive boosts the signal to get a tube amp to distort, or emulates that sound. The difference between this and distortion is that overdrive is a "soft" clip of the sound.
+
+Distortion drastically changes the sound of the instrument. It's more of a hard clip compared to overdrive.
+
+Fuzz adds distortion to the entire range, and changes the sound the most. But it can retain more elements of dynamics, touch, feel, etc.
+
+* Modulation
+Has numerous effects, like phasing, flanging, chorus, vibrato, tremolo, rotary speaker effects, and octave dividers.
+
+Phasing copies the sound and puts the copy out of phase with the original. It gives a swooshing sound.
+
+Flanging is similar but often has more control over notches in the sound and has many more stages of phasing. It often is used in the background because it's a bit much.
+
+Chorus is a delay that boosts the presence of the signal. 
+
+Vibrato and tremolo shift the sound a little above and below the original. They are best used sublty.
+
+Octave dividers add extra images of a note, and doesn't work as well with harmonics or intervals.
+
+Ring Modulators multiply the signal with a carrier signal. This changes the frequency ratios. Sometimes some of the original signal is mixed back in with the effect.
+
+
+* Echo and Delay
+Really the same effect, just used in differnet ways.
+
+Most delays aren't musically useful longer than 2 seconds.
+
+Reverb approximates the sound played in an empty reflective room. 
+
+* Filter and EQ
+These effects filter certain frequencies for differnet effects.
+
+Wah wah is a sweepable bandpass filter that adds notes as the pedal is pressed, which give the wah effect.
+
+Auto wah is an envelope follower, or voltage controlled filter. There is an initial attack, mostly affected by the picking (or tonguing) that swoops the filter. Softer attacks are muted, and loud attack get a wah sound.
+
+* Order of effects chains
+The standard order is 
+Filters and EQs -> boosters and overdrive -> Modulation -> Delays
+The most common switch is to flip the middle two. Wah wah also likes to go first.
+
+cite:hunter04_guitar_effec_pedal_pract_handb

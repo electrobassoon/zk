@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a3a7f1df-e947-424f-a778-293d4946a1a3
+:END:
+#+title: mcnutt03_interactivity
+#+filetags: :empower:advocate:interaction:
+
+For composers, interactive electroacoustic music involves input from a performer. However, for a performer, it can mean many different things. There is interaction with interfaces, instruments, microphones, etc. There is also interacting with composers and audiences. Additionally, there is the interaction with the "invisible" chamber music partner.
+
+Cort Lippe is quoted as saying that "empowering performers with the ability to exercise control over an electronic part, based on a performer's musical expressiveness, is an important factor in computer music's future." Collaborations with live performers creates a more musically satisfying experience than fixed media does.
+
+Performers are the biggest advocates for computer music and composers.
+
+cite:mcnutt03_perfor_elect_music

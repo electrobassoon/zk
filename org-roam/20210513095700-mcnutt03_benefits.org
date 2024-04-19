@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dd8f21af-f589-4df9-a35c-aef794472e48
+:END:
+#+title: mcnutt03-benefits
+#+filetags: :boundaries:
+
+Electroacoustic music expands performance to new horizons that human partners cannot provide. Computers can push performers' boundaries in ways nothing else can, improving their musical expressiveness.
+
+cite:mcnutt03_perfor_elect_music

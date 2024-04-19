@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       758aa53f-4ca3-44b1-8334-819fa6776224
+:ROAM_REFS: cite:scipio21_think_liven_perfor_live_elect
+:END:
+#+title: scipio21_think_liven_perfor_live_elect
+#+filetags: :live:agency:realtime:
+* Thinking Liveness
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/dissertation/PDFs/scipio21_sound_work.pdf
+:END:
+
+** Liveness
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.00831792975970425)
+:END:
+There is a loss of certainty about what live means, as we have live streaming, live sets, live music, etc. What is live in live electronic music?
+
+** Liveness definition?
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.15722543352601157)
+:END:
+Experiential dimension of the agency that can be acknowledge to the techno-cultural assemblage involved in performance, inclusive of interdependent component resources, either human or nun-human.
+
+** Tech Ecology
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.137987012987013)
+:END:
+=At their best ... live electronic performance practices may eventually define a domain of critical praxis where one asks, what is it like living in today's hyper-technologised world? How do we deal with and dwell in the techno-ecosystems we build for ourselves?=
+** Live Better
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.5109826589595375)
+:END:
+Live seems to be connected rhetorically to a more genuine experience than playback from fixed media
+
+** Live electronics
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.19653179190751444)
+:END:
+Semantic shift from live electronic music to live elctronics. 
+
+Aimed to take electronics out of the stuio and to animate it in the performance hall.
+
+After the 1980s when computers were advanced enough live electronics usually means live signal processing or an improvisational system
+
+** No prerecorded stuff
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.41271676300578036)
+:END:
+Live seems to be used now to denote there is no storage of prerecorded sound or control signals. Implying that performance involves action and emotion.(?)
+
+He argues now that just having a performer is not enough to be live.

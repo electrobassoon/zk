@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       19ec7bfe-cceb-4662-a733-c5c9ddb73130
+:END:
+#+title: protsidym99-history
+#+filetags: :realtime:computers:
+
+Real time processing in music initially was not readily available. Many pieces could only be done with the involvement of the composer and their hardware. Only certain studios and research centers had the equipment powerful enough to do live signal processing. As computers developed, it became more portable to have live prcoessing in music. As technologies like MIDI developed and computers became more powerful, it became much more cost effective for everyone to possess the tools for live signal processing. Languages like Max/MSP were able to develop and open the field to everyone.
+
+[[cite:&protsidym99_applic_max_msp_field_live]]

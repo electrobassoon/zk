@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f9be4c9d-9360-4f46-853c-4c0c2303ecc9
+:END:
+#+title: pestova18-notation
+#+filetags: :notation:
+
+Electroacoustic music does not have a unified system for notation. Each new piece requires learning a new "dialect" of the notation. The main problems are trying to graphically represent the sound, and not having symbols to accurately reflect what the electronics are doing. There are a variety of approaches to try and solve these problems. Perhaps the best option is to have a separate study score and performance score for each piece.
+
+[[cite:&pestova18_approac_notat_music_piano_live_elect]]

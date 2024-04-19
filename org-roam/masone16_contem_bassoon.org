@@ -1,0 +1,172 @@
+:PROPERTIES:
+:ID:       3207dc5f-4a66-45ac-8f42-ba4c2c68ee73
+:ROAM_REFS: cite:masone16_contem_bassoon
+:END:
+#+title: masone16_contem_bassoon
+
+* The contemporary bassoonist: music for interactive electroacoustics and bassoon
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/masone16_contem_bassoon.pdf
+:END:
+
+** Familiarity                                                   :difficulty:
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.5343422584400466)
+:END:
+Much of the music is unknown to bassoonists and is intimidating.
+
+** Contemporary
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.5145518044237485)
+:END:
+If half the composers of "contemporary" bassoon music are dead, why do we still call it "contemporary"?
+
+** Performance Practice                                                  :pp:
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.5937136204889406)
+:END:
+Performance practice mostly deals with the score, but in electroacoustic music it needs to go beyond that, and include the music, amplification, computers, hardware, etc.
+
+** Composer Performer Interaction
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.610011641443539)
+:END:
+Most works written for bassoon and interactive electronics are because of collaborations between the performer and the composer
+
+** History                                                          :history:
+:PROPERTIES:
+:NOTER_PAGE: 12
+:END:
+Most started after WWII in Europe with magnetic tape recording. The first modern recording studio was in France in 1951 with the /Groupe de Recherche de Musique Concrete/. Boulez, Stockhausen, and Messiaen started here.
+
+Synthesizers became more prominent, and Milton Babbitt and others started the Columbia-Princeton Electronic Music Center and had its first concerts by 1961.
+
+First bassoon and electroacoustic works were in the early 1970s. /Aria No. 4/ by Elliot Schwarts in 1972. Earliest for solo bassoon and tape. Miklos Maros /Manipulations No. 1/ was for bassoon and Svenson-Box in 1976. Possibly earliest bassoon and interactive electronics piece. Paul-Heinz Dittrich's /the-m for bassoon and live-electronics/ in 1982-3. Tech was limited to tape delay systems, ring modulators, contact microphones, and effect modules of tremolo, reverb, and phasing. A piece like /the-m/ can be simulated using something like Max/MSP. /The-m/ was done in 2011 this way.
+
+The 1980s had lots of newer works. /Alba/ by Richard Barrett is probably the most significant. It is now unplayable because of obsolete technology. Many bassoon and electronics pieces are just amplified bassoon, like Stockhausen's /Fagott/ in 1995.
+
+IRCAM has some of the most complex bassoon and electronics pieces.
+
+** Interactive
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.15832363213038417)
+:END:
+Some scholars would say triggering fixed media with a pedal is not interactive. It has to interpret the signal and playback something based on that.
+
+** Problems                                                      :difficulty:
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.21769499417927823)
+:END:
+Exposure. Professors aren't introducing this music to their students. Professors are often the main source of repertoire for their students.
+
+Music. The music can be the most difficult in the repertoire. 
+
+** FIxed Media                                                   :difficulty:
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.2770663562281723)
+:END:
+McNutt quotes. Fixed Media is the worst accompanist possible.
+
+Pestova's quote "It is important to note that live electronics differ from fixed media by giving the composer and the performer an opportunity to escape the potential rigidity of strict synchronization, and to have the electronic as well as instrumental parts of the piece sound different in every performance."
+
+** Techinician                                                        :setup:
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.35622817229336434)
+:END:
+A nice analogy of the reed to the bassoon being like the performer and the hardware. Either one can be at fault. We need to know our side of things well so that we can fix our problems.
+
+** Programming
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.13853317811408614)
+:END:
+It is not necessary to know how to design patches to perform these works.
+Having a basic understanding of how a patch looks and operates can be useful.
+
+** Usability
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.6135040745052386)
+:END:
+Most composers make their patches as user friendly as possible. Just a couple of mouse clicks.
+
+** Difference                                                   :setup:quote:
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.7124563445867287)
+:END:
+"Because Max/MSP is able to do so many things, and each patch is individualized, every patch will look different from another, especially from composer to composer." good quote to justify the bibliography section
+
+** Practice with tech                                       :difficulty:tech:
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.3131548311990687)
+:END:
+Solution is lots of practice with the technology. It's like rehearsing with another person in chamber music. You will have more experience of what can go wrong and how to fix it.
+
+Nathan Davis quote
+"Some performers don't realize how much they must practice with their electronics and get to know them - or think they can just learn their part and means they have learned the piece. A piece with live electronics should be chamber music. This never comes up with those who commission my pieces, but it sometimes does as the pieces go out into the world." 
+
+** Amplification                                                        :amp:
+:PROPERTIES:
+:NOTER_PAGE: (27 . 0.35622817229336434)
+:END:
+Amplification will always be a challenge because of the length of the instrument and it's uneven resonances. Little Jake works well but alters the sound. It needs a direct box of some kind.
+
+The bocal can sometimes add sounds of breathing, bocal condensation, finger noieses, etc.
+
+** Microphones                                                          :amp:
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.5506402793946449)
+:END:
+Mics sound more natural but add to the setup difficulties. They often restrict movement and can have feedback issues. Some use lapel microphones.
+
+** Sitting or standing                                           :difficulty:
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.6495925494761351)
+:END:
+The choice to sit or stand when there are pedals can be a hard one. It requires practice
+
+** Responsibility                                                     :quote:
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.7485448195576252)
+:END:
+Rachel Yoder's diss has a quote saying the composer creates and environment and gives freedom to the performer. But the performer then has more responsibility for the end result.
+
+** Co composer
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.13853317811408614)
+:END:
+Describes how she became part of the composition process in Ripped Up Maps
+
+** Pitch Tracking                                                :difficulty:
+:PROPERTIES:
+:NOTER_PAGE: (35 . 0.7124563445867287)
+:END:
+Pitch tracking is difficult on the bassoon, as resonances can throw things off. One mic can't properly capture the sound (perhaps a pickup can help this)
+
+** Score Following
+:PROPERTIES:
+:NOTER_PAGE: (36 . 0.35273573923166474)
+:END:
+On the oboe lots of things can cause a pitch trigger not to trigger. It is possible because of the tone, timbre, and articulation of double reeds that this is worse than with other instruments.
+
+** Sand Daemon
+:PROPERTIES:
+:NOTER_PAGE: (40 . 0.15832363213038417)
+:END:
+Some clues of setup for piece.  A 4-channel midi pedal (surely not 4 channels but 4 signals?) Difficult to push buttons and play at the right time
+
+** Technicians
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.3760186263096624)
+:END:
+In some venues it may not be feasible that the technician can read music to advance a patch. A foot pedal can help be more confident in a traveling performance.
+
+** Benefit of Live Composers
+:PROPERTIES:
+:NOTER_PAGE: (44 . 0.5937136204889406)
+:END:
+A benefit of playing these pieces is that often composers are still alive and can answer questions about what they wrote
+
+** composer interviews
+:PROPERTIES:
+:NOTER_PAGE: 81
+:END:
+start here

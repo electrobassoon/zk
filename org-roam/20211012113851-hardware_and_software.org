@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       598bb59f-e99a-4782-b54c-d62363f41675
+:END:
+#+title: Hardware and Software
+#+filetags: :hardware:software:
+
+[[id:acfbf397-cfcc-493d-85cc-6636c95351ee][Setup for Electroacoustic Music]]
+
+[[id:3ad1956c-3ba4-4486-bd4e-b1646833f8de][MIDI]]
+

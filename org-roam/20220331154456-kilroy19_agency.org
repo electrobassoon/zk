@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       95134836-836f-4037-bcae-a3274b31dccb
+:END:
+#+title: kilroy19-agency
+#+filetags: :agency:performancepractice:
+Performers will not always have complete control over their sound in a posthuman context. Sometimes they have high agency, such as playing with effects pedals, and others may be low agency where an engineer is controlling everything through the mixing process. This shifts the agency from just the performer to a network including the performer, engineer, computers, and perhaps other performers. An important aspect of performance practice is determining the agency of the sound, and that the performer has enough that they feel comfortable.
+
+[[cite:&kilroy19_posth_music_contex]]

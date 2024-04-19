@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       558f16d9-0fbe-4bdb-8284-3b3812e672ea
+:ROAM_REFS: cite:morrill81_louds_perfor
+:END:
+#+TITLE: morrill81_louds_perfor 
+
+* Loudspeakers and performers: some problems and proposals
+:PROPERTIES:
+:Custom_ID: morrill81_louds_perfor
+:URL: 
+:AUTHOR: Morrill, D.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/morrill81_louds_perfor.pdf
+:NOTER_PAGE:
+:END:
+** Performance Spaces
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.756728778467909)
+   :END:
+Many performance spaces created for frontal and heroic performances
+Loudspeakers often disadvantaged in these spaces
+
+Many performers turn up the speakers when they can't hear
+** Direction
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.2111801242236025)
+   :END:
+Speakers are concentrated and directional
+Live performers are diffuse
+The two don't combine very well in traditional spaces
+** Stereo Placement
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.5807453416149069)
+   :END:
+Proper stereo placement is 30 degrees from center
+Large separation disturbs the balance of performer and sound balance
+Large halls two or three on each side at various angles may be good
+Raising speakers is often beneficial

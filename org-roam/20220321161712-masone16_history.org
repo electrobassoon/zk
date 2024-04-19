@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       f1e38ffb-7080-48eb-8a92-c7203b90bcac
+:END:
+#+title: masone16-history
+
+
+Most started after WWII in Europe with magnetic tape recording. The first modern recording studio was in France in 1951 with the /Groupe de Recherche de Musique Concrete/. Boulez, Stockhausen, and Messiaen started here.
+
+Synthesizers became more prominent, and Milton Babbitt and others started the Columbia-Princeton Electronic Music Center and had its first concerts by 1961.
+
+First bassoon and electroacoustic works were in the early 1970s. /Aria No. 4/ by Elliot Schwarts in 1972. Earliest for solo bassoon and tape. Miklos Maros /Manipulations No. 1/ was for bassoon and Svenson-Box in 1976. Possibly earliest bassoon and interactive electronics piece. Paul-Heinz Dittrich's /the-m for bassoon and live-electronics/ in 1982-3. Tech was limited to tape delay systems, ring modulators, contact microphones, and effect modules of tremolo, reverb, and phasing. A piece like /the-m/ can be simulated using something like Max/MSP. /The-m/ was done in 2011 this way.
+
+The 1980s had lots of newer works. /Alba/ by Richard Barrett is probably the most significant. It is now unplayable because of obsolete technology. Many bassoon and electronics pieces are just amplified bassoon, like Stockhausen's /Fagott/ in 1995.
+
+IRCAM has some of the most complex bassoon and electronics pieces.
+
+[[cite:&masone16_contem_bassoon]]

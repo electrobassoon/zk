@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       f05457c4-da5f-499b-827a-ed74ee16ec73
+:ROAM_REFS: cite:hoffman13_perfor_elect_music
+:END:
+#+TITLE: hoffman13_perfor_elect_music: On performing electroacoustic musics: a non-idiomatic case study for adorno's theory of musical reproduction
+
+* On performing electroacoustic musics: a non-idiomatic case study for adorno's theory of musical reproduction
+:PROPERTIES:
+:Custom_ID: hoffman13_perfor_elect_music
+:URL: 
+:AUTHOR: Hoffman, E.
+:NOTER_DOCUMENT: ~/Dropbox/Dissertation/PDFs/hoffman13_perfor_elect_music.pdf
+:NOTER_PAGE:
+:END:
+** Existence of the Ideal Work
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.641396933560477)
+   :END:
+Is the existance of music in the score or in the performance of the score?
+
+What does this mean for electroacoustic music?
+** Sound File as Score
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.18824531516183984)
+   :END:
+Sound file in unrealized form like a score
+** Ideal Performance
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.7385008517887564)
+   :END:
+Sound files an ideal performance, because it is created by the composer
+** Electric music can bypass the notation of a score
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.40545144804088584)
+   :END:
+** Electroacoustic music still compared to other music on first listen
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.4199318568994889)
+   :END:
+** Good and Bad Performances
+   :PROPERTIES:
+   :NOTER_PAGE: 6
+   :END:
+Things like eq, spatialization, and amplitude make a good or bad performance just as wrong notes do in acoustic music
+** Mutable and Immutable
+   :PROPERTIES:
+   :NOTER_PAGE: 11
+   :END:
+Electroacoustic and Acoustic have distinct mutable and immutable qualities, that oppose each other

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       9267f2f9-e67c-4cba-af0a-f2414c6d3514
+:END:
+#+title: History of Electroacoustic Music
+#+filetags: :history:
+
+Interactive electroacoustic music evolved because of the need of a visual aspect of music. When performers were paired with computer music, they felt a lack of interaction with the computer's music. [[id:b58b17f7-324d-4238-bf51-2c092422a66c][winkler98_interaction]]
+
+Computer music disintermediates sound production from the body, which has been going on since the first musical instruments. [[id:94601474-c785-4805-a84f-bf605ac2a744][dean09-disintermediation]]
+
+Early pieces aimed to reproduce the concert hall experience. [[id:b3933473-26d8-4e69-8d95-e31e90ed55bb][emmerson16_representation]]
+
+Two schools developed, the French /musique concrete/ and the German synthesis school.[[id:dc24ee77-11e4-4f93-96b7-b5e1160a0c7d][yoder10-history]] More details of the progression are in [[id:50f0ed82-a637-40cf-a364-a29379247dc0][perea98-history]]
+
+John Cage had some of the first pieces. For bassoon, it was Dittrich, Schwartz, and Fongaard. With Max some of the first bassoon pieces were by Boush, Rothkopf, and Hurdy. [[id:c5507063-c143-4943-bca2-19351a8b8f0d][behr14-history]]
+
+Overview of bassoon pieces with electroncis. [[id:f1e38ffb-7080-48eb-8a92-c7203b90bcac][masone16-history]]
+
+Hardware costs and portability were initial issues that were resolved by computers as they grew more powerful. [[id:19ec7bfe-cceb-4662-a733-c5c9ddb73130][protsidym99-history]] Earlier instruments and progression are in [[id:50f0ed82-a637-40cf-a364-a29379247dc0][perea98-history]]
+
+There were basically three stages of live electronic music and three paradigms of development. [[id:a7267a64-294c-4839-b6d6-dfd8cb35f585][friedemann18-history]]
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       50f0ed82-a637-40cf-a364-a29379247dc0
+:END:
+#+title: perea98-history
+
+Technological develpments go through the Teleharmonium, then the Theremin, to the Givelet and the Magnetophon. Vocoders solved some problems, and then the synthesizer came. Transistors and integrated circuits made them smaller, cheaper, and more powerful. Then computers improved and software was developed to make music.
+
+Compositionally things begin in Italy with Futurism, and move to the French and German schools of Musique concrete and synthesis. Stockhausen fused the two and concerts with synthesizers began in Columbia and Princeton. Other synthesizer pieces came and eventually computer pieces. Davidovsky started doing pieces for instrument with tape in 1962, and continued until 1992 (possibly more since this was written in 1998)
+
+
+[[cite:&perea98_elect_acous_music]]

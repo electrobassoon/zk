@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       387bc6b4-b1df-4265-8621-03bea3c586e7
+:END:
+#+title: rothstein92-midi-messages
+#+filetags: :midi:messages:
+Messages describe an event, such as the beginning of a note, changing a controller, program selection, etc.
+
+There is a detalied (probably more so than necessary for this project) description about what a MIDI message actually looks like in binary, what each bit does, etc.
+
+Messages have two groups, Channel and System Messages. Channel messages can be further grouped in to channel mode messages and channel voice messages.
+
+Channel messages only affect a device that match the channel of the receiving device, which cannot be altered by a channel message.
+
+Channel voice messages include: Note On, Note Off, Channel Pressure, Polyphonic Key Pressure, Program Change, Control Change, and Pitch Bend.
+
+Note On tells a device to begin playing a note. The notes are numbered from 0 to 127. Importantly, this does not indicate a particular pitch (although it sort of has been standardized) but the note mapping on the device determines the pitch. Typically 60 is middle C and each number is a half step away. Also included in the Note On message is velocity, usually interpreted as loudness, also from 0 to 127. Again, the actual loudness is determined by the device playing the note.
+
+Note Off tells a device to sop playing a note. The velocity of a note off message determines how fast the release is. The velocity is not as common to be implemented on a device.
+
+Channel pressure senses the overall pressure on keys, or breath pressure for a wind controller, or similar. It is often used as aftertouch to increase volume after the attack. Vibrato is another possibility. It also can be separated to polyphonic key pressure and affect only the note being pressed. (This is probably less used in this kind of music)
+
+Program changes, or patch or voice, refer to the timbre of a sound. Again, it does not specify the sound itself. This is determined from the device receiving the message. This can vary widely from device to device. A device can only store 128 programs at a time.
+
+Control Change messages affect a sound that is already initiated from a Note On message. Volume and modulation are some examples. There are 121 different controllers, although most use just a few. Controllers 0 through 31 represent continuous controllers, that have a value from 0 to 127. It is somewhat standard that controller 1 is a modulation wheel or lever, controller 2 is a breath controller, controller 4 is a foot controller, controller 7 is main volume, 65 is portamento, 66 sostenuto, and 67 soft pedal.
+
+Again, not all devices accept all messages and may not implement all messages the same way as another device.
+
+
+[[cite:&rothstein92_midi]]

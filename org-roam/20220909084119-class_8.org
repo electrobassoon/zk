@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4cb509d7-e56d-40df-863f-19f534046d3c
+:END:
+#+title: Class 8
+
+
+* Class 8 - Swing
+** Your Hit Parade
+*** [[id:90777620-4d7a-405a-b34f-f0c0dd4afdeb][hakanen98_count_down_to_number_one]]
+** Archbishop Beckham
+** Benny Goodman
+** Count Basie
+** Glen Miller

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dea5c56a-7644-4475-883b-c91b51aa3bb1
+:END:
+#+title: grew14-additive
+
+Electronics aren't meant to replace old musical instruments, but to add to their possibilities. It's an additive, not destructive factor in art and science of music
+
+[[cite:&grew14_guide_elect_acous_perfor_acous_obois]]
+

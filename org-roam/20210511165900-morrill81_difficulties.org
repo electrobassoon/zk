@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4a0828e4-8972-449f-8b48-9d891935f13c
+:END:
+#+title: morrill81_difficulties
+#+filetags: :speakers:balance:performancespace:
+
+Speakers pose many difficulties for performing electroacoustic music.
+
+One of the main reasons is an incorrect setup for the speakers. Many performance halls are designed for live music, where the sound diffuses from its source. However, speakers are very directional and have a concentrated sound. Improper placement has the acoustics of the space working against the speakers. Performers then boost the volume of the speakers because they can't hear, which further disrupts the balance. Many halls have the two speakers spread as far as they can on each side, which is not the ideal setup.
+
+cite:morrill81_louds_perfor
+
+

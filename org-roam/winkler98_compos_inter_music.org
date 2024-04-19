@@ -1,0 +1,191 @@
+:PROPERTIES:
+:ID:       f7f10461-bb73-4bb0-95d1-1f2f3d1f00dc
+:ROAM_REFS: cite:winkler98_compos_inter_music
+:END:
+#+TITLE: winkler98_compos_inter_music
+
+* Composing interactive music: techniques and ideas using max
+:PROPERTIES:
+:Custom_ID: winkler98_compos_inter_music
+:URL: 
+:AUTHOR: Winkler, T.
+:NOTER_DOCUMENT: 
+:NOTER_PAGE:
+:END:
+
+** Chapter 1: Introduction and Background
+*** page 4
+=Interactive music is defined as music composition or improvisation where software interprets a live performance to affect music generated or modified by computers. Usually this involves a performer playing an instrument while a computer creates music that is in some way shaped by the performance.=
+
+*** page 6                                                            :inter:
+ Look at Rowe 1993 source
+
+ Five steps to creating an interactive piece:
+
+ 1. Human input, instruments - Human activity is translated into digital information and sent to the computer.
+ 2. Computer listening, performance analysis - The computer receives the human input and analyzes the performance information for timing, pitch, dynamics, or other musical characteristics.
+ 3. Interpretation - The software interprets the computer listener information, generating data that will influence the composition.
+ 4. Computer composition - Computer processes, responsible for all aspects of the computer generated music, are based on the results of the computer's interpretation of the performance.
+ 5. Sound generation and output, performance - The computer plays the music, using sounds created internally, or by sending musical information to devices that generate sound.
+
+ following pages contain history and possibly philosophy
+
+*** page 7                                                      :performance:
+  Traditional notation only gives a loose sense of how to perform music. Much is left to the sensibilities of the performer. Programs have done a lot to add musicality to computers, but they are still far from the expressive capabilities of a human performer.
+*** page 8                                                :performance:inter:
+  In live performance, a computer can take on elements of human musicality, and the computer can give the performer the ability to surpass the physical limitations of their instrument.
+*** page 9-19                                                       :history:
+  Interaction was originally in music, and has been on the decline. Recordings took away the interaction of performer and audience. Multitrack recording took away the interaction of performers with each other, as they could be layered on top of each other. Pop concerts may even have the performers lip singing so the performance sounds as close to the recording as possible. Computer music did not begin interactively, as the computers could not process calculations fast enough for live performance. However when the programming was done, some people didn't like the lack of a visual component of the music. Putting a performer next to them helped, but then it became hard for the performer because there was no interaction on their end. Thus began the experiments in interactive electronic music.
+
+ Early experiments were forms of taking acoustic signals and delaying them or using other simple effects. As microphones became available, it became much easier to use traditional instruments with the computer.
+
+ In the 80s, personal computers were more affordable, more powerful, and enabled many musicians to create music without needing to be at a large institution. Instrument manufacturers agreed on the Musical Instrument Digital Interface as a universal standard. Composers figured out how to get computers to do things in real time, follow scores, or recognize musical input.
+
+ Joel Chadabe formed a company called Intelligent Music that designed some of the first peformance software, M and Jam Factory. This software was successfully used in performance as well. Others created other software like Cypher, Kyma, and Dmix. They all worked with MIDI data, although Kyma added some sythesis and processing capabilities. Max is by far the most used of this kind of software.
+
+ Max was developed by Miller Puckette and others at IRCAM in Paris. The goal was synthesis and signal processing. It was relatively simple to create interactive works for keyboard instruments, since each key is its own switch and trigger, but it took a great deal longer for other instruments. Pitch detectors were unreliable at first. It took 3 years to make the first pieces for a flute and max with score following techniques.
+
+ Max split in two directions, one focused on being available for consumers, and one on better interaction with IRCAM hardware. This second direction became obsolete because the computer system it relied on became extinct.
+
+ Miller then merged the two systems and created Pure Data, adding video processing as well. 
+** Chapter 2: Interaction: Defining Relationships between Computers and Performers
+*** Performance Models
+**** Page 22
+     Interactive pieces can create improvisational responses because of their flexible structures based on musical input. The composer relinquishes some control to increase the performer's engagement and spontaneity.
+
+     Part of the appeal of live performance is the drama of who is in charge, and the balance of roles. Composers create the role the computer and performer have in this balance.
+**** Conductor Model - Symphony Orchestra (23)
+     The conductor is in charge, but has to listen to the orchestra as well.
+     Many of the first interactive pieces were based on this model, allowing real time control of the tempo through a glove, or baton, or following one players music
+**** Chamber Music Model - String Quartet (25)
+     While there is a leader, usually control is shared by everyone in the group. This passing of control adds to the drama.
+     Some early pieces have dynamic controls and parts where the computer is more important and parts where the performer is more important.
+**** Improvisation Model - Jazz Combo (25)
+     There is a basic structure that allows nearly unlimited freedom within it. Through many years of experience there are certain licks or styles that are more appropriate to the style.
+     Computers can recognize patterns, scales, chord progressions, tempi, etc. Then it can generate new music based on those features.
+**** Free Improvisation
+     Sometimes no one is in control. All involved have influence on what the others say, but no one has the final say.
+**** Indeterminacy (29)
+     Indeterminate actions create more spontaneity, expressiveness, and interactivity
+**** The rest of the chapter deals with opposite extremes of musical structure, like linear vs non linear, etc.
+** Chapter 3: Graphic Programming with Max 
+*** page 63                                                            :midi:
+ How Max Handles MIDI
+
+ detailed description of midi messages and bits and bytes, also why 127
+
+*** page 65                                                            :midi:
+ notein and noteout
+ note on and note off
+*** page 66
+ stripnote
+ makenote
+*** page 67                                                            :midi:
+ continuous controllers
+ ctlin ctlout
+*** page 68                                                            :midi:
+ can be remapped for lots of things
+
+ program change
+ "voice" or banks
+*** page 69                                                            :midi:
+ pgmin pgmout
+ complete midi info with midiin midiparse midiout seq
+** Chapter 6: The Computer as Listener: Analyzing and Storing Performance Data
+*** page 135
+    A listener's understanding of music is shaped by past memories and associations triggered by the music as well as the listener's general concept of music. A computer does not have emotions, but it can still compare an on-going performance to previous music that is has stored. This could be patterns of pitches and dynamics, or much more complex patterns like keys, chord types, transpositions, etc.
+*** page 136
+    What can a computer hear? When dealing with MIDI there is pitch, velocity, and time. Timbre perhaps can be mapped to continuous controllers, but is not explicitly defined in MIDI
+*** page 137
+    The first step is establishing what performance data is needed, and how they can be separated and understood by the computer.
+    | Time |
+*** page 138
+    Flexible timing between performer and computer is an important part of simulating musical interaction.
+    *Metro* and *Tempo* are max objects that output bangs at a specific rate, usually the tempo of the music
+    *Timer* and *Clocker* count miliseconds. Bang the timer starts it, the next bang outputs the time it took. This tells you the time in between events. Clocker outputs it's elapsed time at a specific rate.
+*** page 140
+    Analysis is "delta time" - the time between events, and "note duration" - the time from a key press to its release, even if sound continues past that. You can use note on and off messages to trigger timers that will give each parameter (at least for MIDI instruments)
+*** page 142
+    A MIDI sustain pedal can be used to tap the tempo and not be affected by the rhythms of other notes
+*** page 145
+    borax is the swiss army knife of timing midi messages from notein, there are several other models receiving MIDI input and looking at deltas to control tempo, and adjust for small errors
+    | Rhythm Analysis| 
+*** page 151
+    There are many human errors that need extra programming for max to handle correctly. There could be a double trigger by hitting two keys at once, weird finger combinations on other instruments, etc. Double tonguing for unlcear attack etc. Pitch to midi converters struggle with unstable pitch, strong overtones, vibrato, etc. One option to help is *speedlim* that only outputs data at specified intervals
+    | Pitch|
+*** page 155
+    The modulo operator can be used to analyze pitch class to perhaps look at themes.
+*** page 156
+    Intervals are used by subtracting midi note values from the previous note. The sign gives the direction. *abs* takes the absolute value if direction doesn't matter. Register can be found by dividing by 12 and subtracting an offset.
+*** page 157
+    Harmonies can be analyzed by grouping notes played closely enough together as a chord instead of individual notes. *tresh* groups items into a list if they happen close together, then you can sort the list, compare intervals, and then compare those chords to a collection of known chords.
+*** page 161
+    *select* and *match* look for patterns. *past* and *peak* trigger when something gets too high, or remembers the highest respectively. The opposite of peak is *trough*
+*** page 164
+    *histo* keeps track of certain numbers, and can be used to keep counts of pitches, or velocities, or whatever.
+*** page 165+
+    Caluclating a running average and comparing it to the previous average allows for tracking things like crescendo, diminuendo (via note velocity), ritardando, accelerando (via delta notes), articulation (comparing duration to delta notes)
+*** page 172
+    Listener objects can be very simple. It is then up to the composer to determine what the computer will do in response
+** Chapter 7: Composer Objects
+*** page 174
+    composer objects embody the thought process, taste, and skill of a composer
+*** page 175
+    The logic in creating an algorithm does not make a composer's talents secondary. The rules of the system are no different than the rules of music theory and history. It is the imagination of the composer and interaction with a performer that can make the music interesting
+*** page 176
+    Again, it is not necessarily a one-to-one relationship with performer input and compositional outcomes. There could be a chain reaction, or effect data storage, or who knows!
+    | Data|
+*** page 176
+    Listener objects can provide real-time data, often via midi. This can also be stored. Storage objects can also have predetermined data. Objects like *seq*, *table*, *coll*, and *detonate* can be used for this.
+    There is also generated data produced by algorithms
+    |Rowe's Types of Algorithms|
+*** page 178
+    Generative, Sequenced, and Transformative.
+    - Generative :: methods that create music from stored fundamental material
+    - Sequenced :: Use prerecorded fragments in response to real-time input
+    - Transformative :: methods to take existing material and transform into variants, which may or may not be recognizable as coming from the original
+*** pages 179-186
+    Various objects to transform data:
+    *split* *select* *range* *gate* *speedlim*
+    |Automation and Delay|
+*** pages 187- 190
+    *delay* *line*
+*** page 191
+    Mapping can be useful to connect different aspects of performance to other aspects
+*** page 210
+    Humanizing algorithms: by using constrained random values, improvisation will be different each time, but have a consistent style
+** Chapter 8: Sound Design
+*** page 221
+    Finding unique sounds, new ways to organize them or control them is the goal of computer music
+*** page 225
+    Timbre analysis not available in Max (in 1998 that is... not sure now)
+*** page 257
+    The addition of FFTs allow for more interactive options and looking at timbre
+** Chapter 9: Score Objects: Compositional Strategies, Structures, and Timing Mechanisms
+*** page 259
+    Multitude of options for interactive music makes composing difficult. Technical possibilities are overwhelming
+    What is needed is a strong aesthetic concept or voice that defines the purpose, mood, limits, and scope of the work
+*** page 260
+    The central question and difference from other modes of composition is what is the relationship between the computer and the performer? Who is following who?
+*** page 261
+Interactive works have many objects that need to be linked, enabled, disabled, reset, and reconfigured during a performance.
+Score objects allow changing many different parameters all at once that would be cumbersome otherwise
+*** page 264
+    Number boxes can be useful to jump to a certain part of the score
+    *switch* will wait for a certain event, then goes on to wait for the next one, and the next until all the events have happened.
+*** page 266
+    *match* is order specific, so it matches motives very well, but it has to be perfect
+*** page 269
+    objects that can trigger based on time are *timer*, *delay*, *pipe*, *clocker*, and *timeline* (perhaps replaced by transport?)
+*** page 275
+    *preset* does a lot for storing parameters and changing them quickly
+*** page 284
+    *follow* can be used to match a series of pitches that can then trigger other objects
+*** page 291
+    predetermined scores and algorithms allow for highly detailed, polished, and dependable works.
+    indeterminacy offers freedom, spontaneity, dialog, and excitement of the unexpected
+*** page 292
+    - Predetermined score and predetermined computer sequences
+      least interactive, perhaps should be performer and tape instead. Can be used to give the peformer more freedom in tempo
+    - Predetermined score and indeterminant computer actions
+    - Performer improvisation and Predetermined Computer sequences

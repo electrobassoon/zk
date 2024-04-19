@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       56de5f33-a22c-45e2-a405-00dee9299e61
+:ROAM_REFS: cite:lindberg03_popul_moder
+:END:
+#+title: lindberg03_popul_moder
+
+* Popular Modernism
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../Documents/PopMusicHistory/PDFs/lindberg03_popul_moder.pdf
+:END:
+** Uncertainty of living in modern times
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.43798118049615054)
+:END:
+** AABA pattern
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.7031650983746792)
+:END:
+32 bars, 8 bar units AABA, B is bridge or release
+** Hamm's American Characteristics
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.2600513259195894)
+:END:
+** Love
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.16424294268605646)
+:END:
+** Feminine liberation
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.7031650983746792)
+:END:
+** Wit and Sophistication
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.6193327630453379)
+:END:
+** Sophistication and Cole Porter
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.38323353293413176)
+:END:
+** Anti-romantci
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.5919589392643285)
+:END:

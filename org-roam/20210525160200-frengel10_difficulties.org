@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9814924d-0486-4467-9bb8-bc339a19e3aa
+:END:
+#+title: frengel10-difficulties
+#+filetags: :stimuli:
+
+
+One possible issue with mixed electronic works for audiences is the perceptual difference of aural and visual stimuli. Frequently, there is a single visual stimulus of the live performer. The electronic part, however, can be full of all sorts of different stimuli that are heard but not seen.
+
+cite:frengel10_multid_approac_to_relat_between

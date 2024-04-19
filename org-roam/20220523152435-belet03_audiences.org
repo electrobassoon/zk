@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       88b87af3-0732-45f9-afd5-202eeff9ffbe
+:END:
+#+title: belet03-audiences
+
+Audiences need to change their concert aesthetics to include computer music. This is following the classical cultural paradigm of attentive listeners
+
+[[cite:&belet03_live_perfor_inter_human_machin]]

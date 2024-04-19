@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       5c5aa091-8325-40e3-b15f-4d40bc6be0d3
+:END:
+#+title: rowe93-timbre
+#+filetags: :timbre:digital:
+
+Digital computers give composers and sound designers unprecedented levels of control of sound.
+
+[[cite:&rowe93_inter_music_system]]

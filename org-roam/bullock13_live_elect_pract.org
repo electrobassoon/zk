@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       90dad237-c2e2-4124-a1ec-29f128f0bba7
+:ROAM_REFS: cite:bullock13_live_elect_pract
+:END:
+#+TITLE: bullock13_live_elect_pract
+- keywords :: 
+
+* Live electronics in practice: approaches to training professional performers
+:PROPERTIES:
+:Custom_ID: bullock13_live_elect_pract
+:URL: 
+:AUTHOR: Bullock, J., Coccioli, L., Dooley, J., & Michailidis, T.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/bullock13_live_elect_pract.pdf
+:NOTER_PAGE:
+:END:
+** Notes for page 2
+   :PROPERTIES:
+   :NOTER_PAGE: 2
+   :END:
+   
+*** Education
+    :PROPERTIES:
+    :NOTER_PAGE: (2 . 0.30460750853242324)
+    :END:
+    It is rare to receive training with live electronic music. Composers in higher ed will get the training, but not the performers. This should change.
+ First experience is usually in final prep.
+*** Microphone Challenge
+    :PROPERTIES:
+    :NOTER_PAGE: (2 . 0.27559726962457337)
+    :END:
+
+    Performers have to be aware of their physical distance to a microphone when performing, something we don't normally have to do. Our normal expressive movements may counter what we want to do with our sound.
+
+    Speaker and cable latency can pose additional challenges
+
+   
+*** Control
+    :PROPERTIES:
+    :NOTER_PAGE: (2 . 0.4496587030716724)
+    :END:
+ As performers we want to feel in control of our sound at all times. 
+
+** Divergence
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.3771331058020478)
+   :END:
+More about the divergence of composers' education and performers' education
+
+** Problems
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.14505119453924917)
+   :END:
+Two main problems, lack of training, and lack of performer centered software
+
+Also questions to explore
+** Example 1
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.48526315789473684)
+   :END:
+
+Performer-as-enactor paradigm. Realize composer intentions through a score
+** Example 2
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.8252631578947368)
+   :END:
+Peformer-improviser paradigm. Used Integra Live
+** Example 3
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.34)
+   :END:
+Performer-as-enactor paradigm. Performer involved in composition process
+** Results
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.6263157894736842)
+   :END:
+** Discussion
+   :PROPERTIES:
+   :NOTER_PAGE: 7
+   :END:
+Performers favor practical approaches, with a performance at the end
+
+Learning tech takes time and dedication, potentially years of study
+
+Long term, gradual exposure is key
+** Benefit
+   :PROPERTIES:
+   :NOTER_PAGE: (8 . 0.5726315789473684)
+   :END:
+Potential benefits on general musicianship, should be in higher ed performance instruction regardless of end goals
+** Practice Rooms
+   :PROPERTIES:
+   :NOTER_PAGE: 9
+   :END:
+An idea for higher ed institutions to have live electronics practice rooms

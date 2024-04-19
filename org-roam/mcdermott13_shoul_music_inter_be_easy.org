@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       ebf7b12c-5a57-4051-8079-ac2eef9498ae
+:ROAM_REFS: cite:mcdermott13_shoul_music_inter_be_easy
+:END:
+#+TITLE: mcdermott13_shoul_music_inter_be_easy: Should Music Interaction Be Easy?
+
+* Should Music Interaction Be Easy?
+:PROPERTIES:
+:Custom_ID: mcdermott13_shoul_music_inter_be_easy
+:URL: 
+:AUTHOR: McDermott, J., Gifford, T., Bouwer, A., & Wagy, M.
+:END:
+
+The subject of ease of use in Music Interaction is complex with social, technical, artistic, and psychological resasons why difficulty can be a good thing. Sometimes though it is a necessary evil. (29)
+
+** 2.1 Introduction
+In music, what may seem like imperfections as far as tool design goes give personality to an instrument (30)
+
+There is a trade off between ease of use and long term power. The long term power often makes things difficult for the beginner, but this is common in music. Instrumental performance, theory, notation, recording, etc. all take a long time to master. Long term power is favored over ease of use(30)
+
+** 2.2 Dimensions of Difficulty
+ There is already a lot of difficulty in playing an instrument. There are physical demands like air pressure, span of fingers, weight of the instrument, etc. There is also coordination difficulty such as technical fingering passages, circular breathing, and more. There are discontinuities and nonlinearities in fingering systems. There is the difficulty of hearing what needs to be changed. Handling multiple streams of music, regardless if the isntrument is polyphonic or not. There can also be multiple ways to do the same thing, like multiple strings or fingerings. Basically, there are many aspects of difficulty in music that perhaps cannot be simplified without losing musical things we enjoy. (32-35)
+** 2.4 Where Musical Interaction Must Be Difficult
+ Playing the instrument or piece of music is often the goal itself, not a means to a different goal. The satisfaction comes from achieving something difficult. (37)
+ Long term engagement, if we could all master our instruments in a few weeks, none of us would continue playing music. Part of the enjoyment, and difficulty, is that there is always something to do next. Guitar Hero is an example of short term engagement. Once the game is done it is done, the skills don't transfer necessarily to anything else.
+ There is also a seemingly universal appeal for open-endedness in activities. (38)
+ Things that are easy to use often are restrictive. They don't allow for expression or doing things it wasn't designed to do. In music, this could very much be a problem (38-39)
+ Virtuosity is often appreciated in music, and this requires difficulty as well. However with digital music much of the virtousity is unseen or unrecognized by the audience (39)
+ Physical effort and difficulty at times is useful to communicate intense moments to the audience, this is also hard to do on a digital instrument. (40)
+** 2.5 Where Musical Interaction Could Be Easier
+ Transient or frivolous music (41)
+ Technical tasks like adjusting parameters for FM or Granular synthesis can be an obstacle to musicians. (41)
+ Layered affordance - ability to remove restrictions in layers
+ Adaptive affordance - System gauges when user is ready for more (42)
+** 2.6 Conclusions
+ Sometimes users find interfaces frustrating, productivity not optimal, etc. But in music this is a good thing. Musicians need frustrations to grow. Playing music for the love of music is different than evaluating software.(43-44)

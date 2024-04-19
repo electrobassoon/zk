@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a7d70f5c-f6f4-4284-85e6-16f889585178
+:ROAM_REFS: cite:dudas10
+:END:
+#+TITLE: dudas10
+#+filetags: :improvisation:composition:
+* ``comprovisation'': the various facets of composed improvisation within interactive performance systems
+:PROPERTIES:
+:Custom_ID: dudas10
+:URL: 
+:AUTHOR: Dudas, R.
+:NOTER_DOCUMENT: ../../PDFs/dudas10.pdf
+:NOTER_PAGE:
+:END:
+
+Mostly seems to talk about the balance of pre composed and improvisational elements in interactive performance systems. Breifly mentions that improvisation has disappeared since recorded music.

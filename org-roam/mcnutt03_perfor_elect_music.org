@@ -1,0 +1,81 @@
+:PROPERTIES:
+:ID:       cff262e7-6156-4f2a-84da-40de17d34ccf
+:ROAM_REFS: cite:mcnutt03_perfor_elect_music
+:END:
+#+TITLE: mcnutt03_perfor_elect_music: Performing electroacoustic music: a wider view of interactivity
+
+* Performing electroacoustic music: a wider view of interactivity
+:PROPERTIES:
+:Custom_ID: mcnutt03_perfor_elect_music
+:URL: 
+:AUTHOR: McNutt, E.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/mcnutt03_perfor_elect_music.pdf
+:NOTER_PAGE:
+:END:
+** Definition of Interactivity
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.2604255319148936)
+   :END:
+Different perhaps for composers and performers
+** Schism
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.8008510638297871)
+   :END:
+Composers and Performers, and Performers and Machines
+** Setup Difficulties
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.42468085106382975)
+   :END:
+Sound checks can be exhaustive
+
+List of difficulties
+** Difference Between Tape Music and Live Electronics
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.24595744680851062)
+   :END:
+Notation is very difficult, aural skills perhaps more important for determining cues
+** Speakers
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.36170212765957444)
+   :END:
+** Soundcheck
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.6995744680851063)
+   :END:
+Best not put before the performance
+** Practicing with Equipment
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.40510638297872337)
+   :END:
+Body types can play a big part,
+** Pieces with tape
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.4391489361702127)
+   :END:
+Prisoner of the tape
+** Empowering Performers
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.622127659574468)
+   :END:
+Allow performer's expressiveness
+
+Gives confidence because of control
+** Score tracking and its issues
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.4680851063829787)
+   :END:
+
+
+   
+** Joint Improvisation
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.3038297872340425)
+   :END:
+
+** Building Bridges
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.4629787234042553)
+   :END:
+Collaboration Crucial
+
+Performers most powerful advocates for composers and their music

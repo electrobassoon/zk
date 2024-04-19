@@ -1,0 +1,140 @@
+:PROPERTIES:
+:ID:       00ea5f4d-29df-4cf6-8948-c3f1f6287296
+:END:
+#+title: Storyboard
+
+* Questions
+** Should Interactive Electroacoustic Music Be a Part of the Music Curriculum?
+** Why Isn't Interactive Electroacoustic Music Already Part of the Curriculum?
+*** It must be because of the barriers of difficulty, cost, and unfamiliarity.
+* Hypothesis
+** Interactive Electroacoustic Music Can and Should Be Integrated into the Music Curriculum
+** The traditional barriers of difficulty, cost, and unfamiliarity are deteriorating
+*** Yoder10
+*** Well you mentioned barriers are deteriorating, but what difficulties are still there?
+**** Pieces go out of date, as technology rapidly evolves and a composer needs to keep it up to date, or a music tech specialist recreate the obsolete tech
+***** Well then why should I study music if it's going to become obsolete soon?
+****** Learning and performing the music can encourage composers to keep their music up to date and help it persist. Collaborate with composers to create something that starts new instead of revive an old out of date piece.
+**** Professors are less likely to know the repertoire and techniques
+***** Well, how can they learn? Why would they want to learn, especially if they are older.
+****** Many performers say that it is fun and invigorating to play a piece with electronics. Collaborating with composers or engineers can take many of the technical burdens out of the picture. This dissertation is a useful resource to learn.
+**** Each piece seems to require a new piece of equipment
+***** Yeah I don't want to spend $300 on every piece I learn.
+****** That is one of the reasons for this dissertation. I have found as many pieces as I can, and tell you what equipment is needed. You can see what you have and find other pieces that match. I also provide some recommendations for equipment that will get allow you to play most of the rep. Performance spaces may have some of the more pricey equipment.
+**** Issues of feedback, amplification, and hearing things on stage
+***** Yeah it all sounds like too much of a pain to deal with
+****** At first it can be, but you also don't have to do it alone if you don't want to. Composers, sound engineers, students, etc. can be willing to help. It mostly takes some extra time.
+** It takes time to learn the skills to play with computers and technology
+*** Bullock13, Brown07
+** Teachers are often the ones who influence what their students play
+*** Pennycook97, Enns17
+**** Well doesn't this mean that it shouldn't be part of the curriculum and just let teachers decide? Let the ones that can do it and leave the rest of us alone.
+***** But some students may not even know this music exists if a teacher doesn't introduce it somehow
+*** Ok, you've sold me, but I don't think my department is interested
+**** Well then start with you. See if you can get some grant money to purchase some initial equipment. Have your students perform these works. Maybe it will change some minds in your department.
+** Students currently have to learn it on their own if they want it
+*** Jordan18, enns17
+**** Well then why should we make those that aren't interested study it?
+**** Just keep things the way they are and let the techy ones do this music
+** Composers are receiving it, performers should too
+*** Behr14, Kokoras11
+*** I concede that it would be helpful for students that want a career in this, but why should we make a music ed student learn this? Don't they have enough to learn already?
+**** It may be true that music ed students might not make a career or ever perform a solo with electronics again, but the skills could transfer to dealing with solo mics in jazz bands, dealing with amplifiers, and there could be pieces for bands and orchestras with prerecorded tracks or even live processing where this could be applicable.
+** It is music worth studying
+**** It brings possibilities to performers impossible through other means
+***** mcnutt03, emmerson16, garnett01, rowe93, feron18
+**** It can communicate different meanings
+***** windsor16, macdonald95, emmerson16, waters16, brown07
+**** It brings back connections to audiences
+***** moore92, garnett01
+**** It is music that directly deals with the current issue of our relationship with tech
+***** Kiroy
+*** It all sounds like avant garde crap to me. I don't want to spend time learning all these skills to play music that sucks
+**** It may be true that there are many pieces written in this style, but there are also several others that are not. Computers are capable of imitating traditional, avant garde, and even popular music. 
+** It helps to preserve the music
+*** Wetzel06, Feron18
+**** Is this really the case? Or is this just a call to action that doesn't actually help preserve the music?
+** Traditional Music Study is dieing, this is the future
+*** Stockhausen96 
+**** I think this reason is weak on its own, but it could be a point of departure for discussion. Maybe a prelude to relationship with tech? Could it actually be the first point? Or maybe just the beginning of the conclusion?
+*** It's all a great idea, but I don't see how it's necessary. Keep the status quo.
+**** Stockhausen claimed that current music study is dieing. It may be a bit dramatic, but art constantly is changing and redefining itself. Baroque and even classical music are becoming part of the early music scene. As more time passes, romantic music may join it. As one person put it, how long can we claim the music of the 20th century is contemporary music? 
+**** The death of improvisation article (moore92) could have some arguments about relevance of music to audiences, histrocisim, the museum culture, etc.
+
+* Key words to run through....
+
+* Document plans
+
+*** worth, difficulties, pp, inclusion, works
+worth first may help readers decide if they consider the rest of the text. difficulties and pp seem to go hand in hand on all options. Inclusion fits pretty well after pp, and works just sort of is an appendix at the end
+
+*** difficulties, pp, worth, inclusion, works
+similar to above, but perhaps is a better transition from the introduction. The worth could be strong right before the inclusion.
+
+*** Difficulties, pp, worth, works, inclusion
+starting with the difficulties may make things harder as a selling point. The worth afterwards is maybe a little weird. Inclusion after works seems a little weird in this case.
+
+*** worth, works, difficulties, pp, inclusion
+Works seems a little bit out of place here, as it is a big chunk that disrupts the narrative. Similar layout for the remainder.
+
+* Plan
+** Introduction
+*** Summary of Previous Research
+*** My Definition of interactivity
+*** History of Electroacoustic Music
+*** Difficulties with the Music
+**** Hardware
+**** Positioning
+**** Notation
+**** Speakers
+**** Listening
+**** Sound
+**** Cost
+**** Longevity
+**** Amplification
+**** Rehearsal
+**** Setup
+** Performance Practice
+**** Time and Rehearsal
+**** Hardware/ Software
+***** Speakers
+***** Effects Pedals
+****** Distortion, Fuzz, Overdrive
+****** Phasers, Flangers, Chorus
+****** Loopers
+****** Delay, Reverb
+****** Harmonizers
+***** Computer Software
+****** Connecting to a Computer
+****** MIDI
+****** Electric Bocals
+****** Microphones
+****** Max/MSP
+******* Controlling Max
+******* Example Patches
+****** Other Software
+******* PureData
+******* SuperCollider
+******* Kyma
+******* IPads
+******* Ableton or other DAWs
+**** Performance Setups
+** Inclusion in Curriculum
+*** Worth of Music
+*** Each student have some experience before they graduate
+*** Have a studio electronics recital every year, or every other year
+*** Practice space
+*** Grants for EQ
+*** Show how inclusion helps solve some of the difficulties
+*** Possible pieces for undergrads
+** Annotated Bibliography of Works
+*** Introduction
+*** Computer Pieces
+*** Pedal Pieces
+** Appendix of Etudes
+***** Pedals
+****** Looper Etude
+****** Something like Electrically Tragic
+***** Max/MSP
+****** Basic Patch
+** Bibliography

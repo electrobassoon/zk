@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       3b5b27f0-4e04-4f1a-ad9f-746fb7f08ddc
+:ROAM_REFS: cite:belet03_live_perfor_inter_human_machin
+:END:
+#+title: belet03_live_perfor_inter_human_machin
+
+
+* Live Performance Interaction for Humans and Machines in the Early Twenty-First Century
+:PROPERTIES:
+:NOTER_DOCUMENT: ~/dissertation/PDFs/belet03_live_perfor_inter_human_machin.pdf
+:END:
+
+** Tech
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.325531914893617)
+:END:
+Technology always influences art.
+
+=The multiple relationships between technology and composer and performer are dynamic and of paramount importance to each party. And a true consideration of any aspect of music requires that all three areas be examined.=
+
+** Art
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.7851063829787234)
+:END:
+=Art reflects its own time and place. If art needs to have a function within society then this is one (another being that art can forge the way for society's future).=
+
+** 20th Century Machines
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.12659574468085105)
+:END:
+Machines have been portrayed both as the time-saving miracle and the diabolical threat to humanity. This has been charactarized in both ways in literature, film, and theatre. 
+
+quoting Garnett =One cannot turn one's back on the most significant technological breakthrough in history without risking irrelevance to that history=
+
+** Audiences
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.2153846153846154)
+:END:
+=Audiences are also invited to modify their conservatory-preserved concert aesthetics as they ecounter a unique event with each performance of a work. This requires dedicated active listening by a knowledgeable audience with an understanding of both deep and surface musical structures, as was necessary when Mozart and Beethoven performed their own piano sonatas, and which is still necessary today when listening actively to jazz and progressive rock. This is the classical tradition, so interactive computer music is actually adhering to a long-established and respected cultural paradigm.=
+
+** Aesthetics
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.6507018992568125)
+:END:
+=Composers, performers and listeners have the added task of discarding their inherited machine aesthetics from the last century, both the overly positive and the genralised negative. Current directions in computer technology are integrating the various aspects of music creation and performance into a seamless synergy, and there is no reason to assume that this trend can or should be reversed.=

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       F11B56CB-A5B6-4860-9294-C9F2A0AB4499
+:END:
+#+title: Class 2 Notation
+
+** Note Input
+*** Voices
+**** Color display in Choose View > Note Colors
+**** Rests
+**** Moving notes to other voices and swapping
+*** Accidentals (demonstrations only, sibelius seems to do really well with this)
+**** Where they apply
+**** Cautionary accidentals
+***** Right after barline
+***** Octaves
+**** Note Spelling
+*** Tricks
+**** Reenter notes keep rhythm
+**** Repeat measures
+**** Transpose
+** Changing Key Signatures, Time Signatures, Clefs
+*** Note double barlines for keys, not times
+*** Ledger lines for clefs (3)
+*** Before barlines
+*** Mid measure clef changes
+**** Between Beats
+**** Between Phrases
+**** Middle of Beats
+*** Changing after rests
+* Homework
+Note entry with lots of changes in key signatures, time signatures, and clefs
+Clef correction exercises

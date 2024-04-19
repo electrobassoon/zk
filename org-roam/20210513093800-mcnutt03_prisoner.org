@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b9eaeb1c-4855-4b14-9825-8679ae296c03
+:END:
+#+title: mcnutt03-prisoner
+#+filetags: :prisoner:tape:
+
+
+Fixed tape compositions put performers in the position of being a "prisoner of the tape". It forces performers to play with the worst accompanist, as it is inflexible. The performer has to put all of their attention into staying with the tape and loses the ability for any expressive gestures that deal with tempo. Unfortunately it is still one of the most common ways for performing electroacoustic music.
+
+There are other kinds of prison, imposed by score and pitch tracking. The prison of perfection.
+
+cite:mcnutt03_perfor_elect_music

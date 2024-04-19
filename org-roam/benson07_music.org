@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7a4b8723-1fcf-49ae-92cb-5bf035bdf528
+:ROAM_REFS: cite:benson07_music
+:END:
+#+title: benson07_music
+
+* Music: a mathematical offering
+
+Online and in SUU library at ML3805 .B35 2007
+
+For my dissertation purposes, contains very little. Midi messages are a very small section and covered elsewhere. May have more about sound synthesis etc.

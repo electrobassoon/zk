@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       58c8a728-b863-4452-9c0f-9d2e3b1cee06
+:ROAM_REFS: cite:naylor14_approp_cultur_meanin_elect_music
+:END:
+#+TITLE: naylor14_approp_cultur_meanin_elect_music
+#+filetags: :appropriation:sampling:culture:
+
+* Appropriation, culture and meaning in electroacoustic music: a composer's perspective
+:PROPERTIES:
+:Custom_ID: naylor14_approp_cultur_meanin_elect_music
+:URL: 
+:AUTHOR: Naylor, S.
+:NOTER_DOCUMENT: /home/jazzbassoon/dissertation/PDFs/naylor14_approp_cultur_meanin_elect_music.pdf
+:NOTER_PAGE:
+:END:
+
+Not very useful. About legal issues and ethical issues of cultural appropriation in electroacoustic music, not about what this appropriation is unique to electroacoustic music as much

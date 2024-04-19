@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       96221fd1-4c34-4110-837d-bf32e2597027
+:ROAM_REFS: cite:canazza01_preser_elect_music
+:END:
+#+TITLE: canazza01_preser_elect_music: Preserving Electroacoustic Music
+#+filetags: :preservation:durability:
+* Preserving Electroacoustic Music
+:PROPERTIES:
+:Custom_ID: canazza01_preser_elect_music
+:URL: 
+:AUTHOR: Canazza, S., & Vidolin, A.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/canazza01_preser_elect_music.pdf
+:NOTER_PAGE:
+:END:
+
+
+Not a lot here other than talking about how to preserve various aspects of electroacoustic music and how an instution is needed for it
+** Durability
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.36903039073806077)
+   :END:
+Electroacoustic music is far less durable than other culutral things, so we need to already think about how to preserve them. The storage medium is magnetic as opposed to paper, which makes it less stable

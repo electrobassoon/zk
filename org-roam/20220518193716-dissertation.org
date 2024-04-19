@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       667c4672-1735-4fc3-bb86-1dfa96b41242
+:END:
+#+title: Dissertation
+
+[[id:00ea5f4d-29df-4cf6-8948-c3f1f6287296][Storyboard]]
+
+[[id:0d84333b-533b-404e-8d7b-6e69248756a9][Todo]]
+
+[[id:451f7e71-be3c-4e4d-b33a-ceb5ce211312][nonuseful-sources]]
+
+[[id:51cbb873-c045-4f07-94a8-8537b4d4ae8c][Public Lecture]]

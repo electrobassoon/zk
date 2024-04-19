@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       dae4c63d-7152-4a70-9aba-1d54cf07f3b5
+:ROAM_REFS: cite:holland13_music_inter
+:END:
+#+TITLE: holland13_music_inter: Music interaction: understanding music and human-computer interaction
+#+filetags: :HCI:
+* Music interaction: understanding music and human-computer interaction
+:PROPERTIES:
+:Custom_ID: holland13_music_inter
+:URL: 
+:AUTHOR: Holland, S., Wilkie, K., Mulholland, P., & Seago, A.
+:END:
+
+Not really a good source. It mainly introduces the book and answers general questions about HCI and Music, as well as brief summaries of the coming chapters

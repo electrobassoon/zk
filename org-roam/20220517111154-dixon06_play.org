@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9ba16de3-8825-4f67-8f7a-127bab16121c
+:END:
+#+title: dixon06-play
+
+Interactive music technology brings back play into computer music, which from the performers' perspective had been lost. 
+
+"[W]e do not play instruments to escape difficulty, but because we crave the tremendous task they set us."
+
+[[cite:&dixon06_echos_body]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a657ffc9-d906-4c1e-ab31-8d25b5d1020b
+:END:
+#+title: rothenberg10-control
+
+One of the reasons Max has not spread is because the music gives the computer too much control. This is a creative decision since Max can emulate almost anything.
+
+[[cite:&rothenberg10_playin_into_machin]]

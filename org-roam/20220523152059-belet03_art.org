@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4c7899d1-026b-4598-8989-53de39099385
+:END:
+#+title: belet03-art
+
+Technology always influences art. There is always a relationship between technology, composers, and performers.
+
+An earlier example is the technology that created the piano, which then caused different techniques for performers than the harpsichord did. So composers began writing differently for the piano.
+
+
+[[cite:&belet03_live_perfor_inter_human_machin]]

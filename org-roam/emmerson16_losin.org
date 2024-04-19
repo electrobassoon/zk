@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       f9e4cf47-f465-41d7-8571-24d946f16af0
+:ROAM_REFS: cite:emmerson16_losin
+:END:
+#+TITLE: emmerson16_losin: Losing touch?:the human performer and electronics
+
+* Losing touch?:the human performer and electronics
+:PROPERTIES:
+:Custom_ID: emmerson16_losin
+:URL: 
+:AUTHOR: Emmerson, S.
+:NOTER_DOCUMENT: /home/jazzbassoon/dissertation/PDFs/emmerson16_losin.pdf
+:NOTER_PAGE:
+:END:
+** Live Electronic Music
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.6235521235521236)
+   :END:
+Electric technology has ruptured the traditional music model that mechanical technology promoted: that of body, object, and sound. Now music can be completely immersive or completely cerebral. Mixed music tries to repair the rupture caused by electronic technology in different ways. The boundaries between composer, performer, and audience are all changing. Some see this as a problem, while others see it as an opportunity.
+** Dislocations
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.11486486486486487)
+   :END:
+Technology effectively dislocated sound in three ways. A telephone dislocates the cause from perception. The recording dislocates time. And synthesis dislocates causality. These three effectively disembodied sound, and challenged and extended these relationships.
+** Physical Music Paradigm
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.281767955801105)
+   :END:
+At first, all technological advancements were aimed at integrating with the physical music paradigm. It was aimed at having a high fidelity concert hall experience.
+** Causality
+   :PROPERTIES:
+   :NOTER_PAGE: 6
+   :END:
+We learn about the causes of sounds through the physical world and experience. We know often through repeated observation. But acousmatic sounds challenge this.
+** Loudspeakers
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.5870165745856354)
+   :END:
+The newer generations are growing up with loudspeakers everywhere. Sound is not only produced in the physical world anymore.
+** Video Game Music
+   :PROPERTIES:
+   :NOTER_PAGE: 8
+   :END:
+Early video game music has a certain sound pallette. It has been absorbed into society's memory because of the widespread use in video games. Economy was a driving factor, but the repeated use in video games cemented it. But does it have the same effect acousmatically?
+** Reduced Listening
+   :PROPERTIES:
+   :NOTER_PAGE: 11
+   :END:
+Talks about synthesizer patches and how eventually we will know the sound only through it's description, not through the physical experience of how the sound is produced.
+** Physical Agency
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.8243243243243243)
+   :END:
+It is very possible that eventually learning sounds will come from acousmatic sources, instead of physical ones.
+** Live vs mixed
+   :PROPERTIES:
+   :NOTER_PAGE: 12
+   :END:
+Discussion of live electronics on stage versus live performers playing with an electronics accompaniment
+** Expansion of Sound
+   :PROPERTIES:
+   :NOTER_PAGE: (13 . 0.5086872586872587)
+   :END:
+Most instruments are mechanical technology solidified in the mid-19^th century. In the twentieth century we have already seen an expansion of "permissable" sound, even before electronics. This is seen in harmonies, extended techniques, etc. However, this area has not been fully developed. Not all instruments have been "extended". Mixed electroacoustic music can help develop this field.
+** Causal Link
+   :PROPERTIES:
+   :NOTER_PAGE: (14 . 0.2625482625482626)
+   :END:
+With mixed electroacoustic music the causal link is sometimes broken. The sounds won't seem to come from the instrument itself. In a way, the instrument is becoming part of the acousmatic.	
+** Accompaniment
+   :PROPERTIES:
+   :NOTER_PAGE: (14 . 0.5250965250965252)
+   :END:
+Some see the mixed pieces as a betrayal of music. The acousmatic is a substitute accompaniment, and we have resulting "super-instruments"
+** Kontakte
+   :PROPERTIES:
+   :NOTER_PAGE: (15 . 0.09845559845559847)
+   :END:
+/Kontakte/ perhaps is the work that has best acheived the balance of the live and the electronic (in his opinion) Both parts aspire to the other.		
+** Solo vs Ensemble
+   :PROPERTIES:
+   :NOTER_PAGE: (15 . 0.4594594594594595)
+   :END:
+In solo works, or small chamber works, the relation of the loudspeaker to the original is usually easy for the listener to follow, especially if nothing is pre-recorded. Delays, filters, etc. Usually line up with gestures from the performer. The trend moved more towards real-time interaction with a live acoustic performer, and then has moved back to real-time processing.
+** Loudspeakers
+   :PROPERTIES:
+   :NOTER_PAGE: (17 . 0.5781853281853282)
+   :END:
+Loudspeakers today are paradoxically usually used to transmit information with a human presence involved, such as a telephone, news, tv, etc. There seems to be a desire for live aspects in music making. Whether that is the performer being 'one of us', the possibility of human error, challenged by the virtuosity, etc.
+** Play the loudspeaker
+   :PROPERTIES:
+   :NOTER_PAGE: (18 . 0.4266409266409267)
+   :END:
+With the human action of choice, it is now possible to play the loud speaker. Channel hopping is an example. The loudspeaker is no longer just a representation of a performance, but can be part of a performance itself. Creativity and authorship make their appearnaces again. This is also enhanced by interactive technologies and controllers. It is now a source of new experiences.
+** Human presence
+   :PROPERTIES:
+   :NOTER_PAGE: (19 . 0.7915057915057916)
+   :END:
+There are two streams of human presence in new music. One is amplification of human gesture with new interfaces, etc. The second is more showing human /will/ than human /presence/. Choice and construction become the act of composition.

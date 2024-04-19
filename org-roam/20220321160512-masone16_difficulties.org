@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ea1bbb4c-f1ee-4863-8af0-015bd796d9e5
+:END:
+#+title: masone16-difficulties
+#+filetags: :teacherstudentrelationship:difficulty:unique:
+
+This music is unknown to bassoonists and can be intimidating. Furthermore professors aren't familiar with the music and thus are not introducing it to their students. Professors are the main source of a students' repertoire exposure. The music can be the most difficult of all in the repertoire.
+
+Each piece done in Max/MSP is unique and will look different from every other piece.
+
+Amplification is a problem because of the length of the instrument and uneven resonances. Both mics and pickups have their own issues.
+
+Electronics can make the issues of sitting or standing more difficult.
+
+Pitch tracking is a difficulty because of the nature of the instrument.
+
+[[cite:&masone16_contem_bassoon]]

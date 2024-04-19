@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       2a9a967a-b631-4d63-b646-451cd5b85483
+:ROAM_REFS: cite:protsidym99_applic_max_msp_field_live
+:END:
+#+title: protsidym99_applic_max_msp_field_live
+
+Note this source could be one if I need a definition of anything, as it seems like that's all that he does in the beginning is list definitions of everything.
+
+* Application of Max/MSP in the Field of Live Electronics
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/protsidym99_applic_max_msp_field_live.pdf
+:END:
+** Max/MSP
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.368763557483731)
+:END:
+The development of computer technologies made real-time signal processing available for general use. Max created a unified environment for this and other aspects of control.
+** Performability
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.44155844155844154)
+:END:
+Early pieces in live electroacoustic music almost had to be done with the composer's assistance or it was impossible to perform them.
+** Table of electro-acoustic music
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.23658051689860835)
+:END:
+** Table of live electro-acoustic music
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.10240963855421688)
+:END:
+** State of Theory
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.4620758483033932)
+:END:
+Most schools don't have a degree with an emphasis in EAM. Theory and musicology have somewhat ignored them. As such standard definitions and terminology don't quite exist yet.
+** Development of real-time systems
+:PROPERTIES:
+:NOTER_PAGE: (45 . 0.16776315789473684)
+:END:
+At first it was restricted to a small number of studios and research centers because of the cost and lack of portability.
+Computers made the portability easier, but cost was still an issue.
+MIDI developed.
+Computers improved and enabled desktop based digital audio signal processing, but the need for a unified environment remained.

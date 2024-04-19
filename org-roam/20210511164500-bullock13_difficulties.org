@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       7e41e4c8-2238-4158-b513-176a5817a4b4
+:END:
+#+title: bullock13_difficulties
+#+filetags: :difficulties:setup:rehearsal:
+
+Currently, many performers first are exposed to the technology required for a performance at the dress rehearsal. This is simply not enough time. In all the pilot studies, performers most frequent response was wanting more time with the technology.
+
+There are many things that are new from a physical standpoint for the performer as well. Microphones are often placed very close to a performer, which limits expressive motion. Cables cause latency in sound as well as at times getting in the way of movement as well.
+
+This is too much to throw at a performer in a dress rehearsal and expect them to feel confident for the performance.
+
+cite:bullock13_live_elect_pract

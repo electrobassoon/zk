@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       1ae923a4-f9f5-49de-8eca-86988c35b96c
+:END:
+#+title: Class 2
+
+* Class 2 - Beginnings
+** Minstrelsy
+*** First American Popular Music as recognized by Europeans
+*** Stock characters, the coon, the dandy, the jezebel, the mammy, etc.
+*** "Jim Crow"
+**** Progressions from making fun of black people to enforcing discrimination
+*** Why did the chicken cross the road?
+*** “the filthy scum of white society, who have stolen from us a complexion denied to them by nature, in which to make money, and pander to the corrupt taste of their white fellow citizens.” Frederick Douglass 1864
+*** Eventually allowed black people to participate in the industry
+*** 2013 Miley Cyrus Twerking Scandal
+** Stephen Collins Foster
+*** First person to make a living as a song writer
+*** Died destitute because of the industry, frequently borrowed against future successes because there were no royalties
+*** One of the first to write music with 'hooks' to sell them
+*** AABA Form
+**** "Jeanie with the Light Brown Hair"
+*** [[id:47e0f000-8619-4531-ae8d-9becae1b5b7f]["A Typology of 'Hooks' in Popular Records"]]
+**** Discussion questions
+***** What categories were suprising to you?
+***** How does identifying hooks affect your apprecitation for a song?
+***** Living on a Prayer key change, skip beat, beginning, 

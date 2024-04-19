@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       96e5e19d-340e-407f-87af-796931016d56
+:ROAM_REFS: cite:parker91_readin_chart
+:END:
+#+title: parker91_readin_chart
+
+* Reading the Charts
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../Documents/PopMusicHistory/PDFs/parker91_reading_chart.pdf
+:END:
+** insignificance of singles
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.8161943319838056)
+:END:
+** Hit Parade
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.6024291497975709)
+:END:
+** Singles continual loss makers
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.3497975708502024)
+:END:
+** gatekeeping
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.5182186234817814)
+:END:
+** selective populism	
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.6866396761133603)
+:END:
+** quality by consensus
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.47935222672064776)
+:END:
+** myth of democracy
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.15546558704453442)
+:END:
+** Youth
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.20728744939271254)
+:END:
+** newness
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.6477732793522267)
+:END:
+** vs printed words
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.557085020242915)
+:END:

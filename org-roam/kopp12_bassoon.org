@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       da67e4fc-ea80-4572-bf87-182f9a319841
+:ROAM_REFS: cite:kopp12_bassoon
+:END:
+#+TITLE: kopp12_bassoon: The Bassoon
+
+* The Bassoon
+:PROPERTIES:
+:Custom_ID: kopp12_bassoon
+:URL: 
+:AUTHOR: Kopp, J. B.
+:NOTER_DOCUMENT: 
+:NOTER_PAGE:
+:END:
+
+
+* Chapter 6: The Scientific Bassoon, c. 1830-1900
+Putting tone holes in theoretically correct places, making the bore more regular, etc. Robbed the bassoon of its characterstic tone. The sound could not easily be improved (135)
+Other experiments were rejected because the tone of the bassoon was sacrificed for efficiency. Jancourt was one of them, Heckel another. (137-138)

@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       bf083c5e-e918-4500-a5f1-6b3918d74735
+:ROAM_REFS: cite:harries14_evokin_sublim
+:END:
+#+TITLE: harries14_evokin_sublim: Evoking the sublime: absence and presence in live electroacoustic performance
+
+* Evoking the sublime: absence and presence in live electroacoustic performance
+:PROPERTIES:
+:Custom_ID: harries14_evokin_sublim
+:URL: 
+:AUTHOR: Harries, G.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/harries14_evokin_sublim.pdf
+:NOTER_PAGE:
+:END:
+** Presence
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.3042505592841164)
+   :END:
+Real, present, physical versus the simulated, disembodied
+** Poetic Affect
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.6480238627889635)
+   :END:
+Composers can use this discrepancy between real and simulated, for poetic affect. Two examples are the sublime and the uncanny.
+** Performance
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.7114093959731544)
+   :END:
+Live electroacoustic music is part of the performance discipline, which means it has some degree of dramaturgy. There are many relationships that happen at the time of performance, such as the performer and the electronics, the audience and the performer, as well as the performance space. These relationships demand some form of creating meaning.
+** Uncanny
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.17747949291573453)
+   :END:
+Ambiguity of absence and presence can create the uncanny atmosphere, being fooled in a "fake" performance.
+** Theatre
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.2915734526472782)
+   :END:
+Theatre also has this real and unreal duality. The actors are real people, but playing fictional people. Time is fluid between past and present. Theatre exists between these two options of presence and absence.
+** Live Performance Dramaturgy
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.2155108128262491)
+   :END:
+Any live performance has dramaturgy. There is the communication between the creator and the spectator. The spectator brings their previous experience, memories, etc. that interact with the performance of the creator. Aspects of space, context, staging, and presence all bear on this relationship.
+** Sublime
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.6338553318419091)
+   :END:
+The sublime is then tension between a familiar concept and that which cannot be grasped or represented.
+** Uncanny
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.749440715883669)
+   :END:
+The union of the familiar and the unfamiliar
+** Evoked Absentees
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.16480238627889637)
+   :END:
+Music can refer to specific absentees, like mythological characters, famous composers, performance history, recordings, or the score. Retro sounding equipment also can be evoking a specific time period.
+** Nostalgia
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.5846383296047726)
+   :END:
+Evoking the past can have many meanings, it could be a tribute. It could be evoking nostalgia. Perhaps it is building or assembling something new from it.
+** Phantoms
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.4817300521998509)
+   :END:
+Absent in one modality but present in another, like an organist that isn't seen. Or a movie's silent scream. In electroacoustic music the modalities are sound and vision. Phantoms force the audience to imagine the invisible modality.
+** Silence
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.5055928411633109)
+   :END:
+SIlence is another form of absence, and the audience has the role of imagining sounds in the silence or imagining the possibility of their occurence.
+** Doubling and Parallel
+   :PROPERTIES:
+   :NOTER_PAGE: (8 . 0.0760626398210291)
+   :END:
+Electroacoustic music can evoke a parallel world, or parallel objects. There is the real embodied world and the virtual disembodied world. This comes in two forms: "strange" doubling of live performers, and a sonic mask that doubles the performer's identity. This creates the uncanny effect. What is actually real and what is virtual?
+** Unfamiliar
+   :PROPERTIES:
+   :NOTER_PAGE: (8 . 0.8493661446681582)
+   :END:
+The sublime and uncanny often go with the unfamiliar. Even though there is increased familiarity with new technology, there is still ample room for electroacoustic music to reach the unknown. Juxtaposing the familiar with the unfamiliar, as in live performers with electronics, makes that transition more possible to audiences.
+** Transformation
+   :PROPERTIES:
+   :NOTER_PAGE: (10 . 0.32960477255779275)
+   :END:
+Transformation is another way of playing absence and presence against each other. De-acousmatisation is just one example, where the disembodied sound becomes embodied.
+** Conclusion
+   :PROPERTIES:
+   :NOTER_PAGE: (10 . 0.609992542878449)
+   :END:
+Electroacoustic music mixed with live performance has certainly expanded the sound palettes availble to composers and performers, but it also has more far-reaching consequences in the meaning and dramaturgy of the performance. The mixture of embodied and disembodied sounds creates a dualtiy of presence and absence that can have poetic meanings, such as the uncanny and the sublime. There are many different ways this can be used. The experience of live electroacoustic music involves the space, the performer, the staging, and meaning. It is more than just new technology or new tools. 

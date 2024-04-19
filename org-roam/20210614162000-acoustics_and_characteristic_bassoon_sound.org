@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       02d7f51a-7a5d-4db6-834f-1a2ffd1aee7b
+:END:
+#+title: Acoustics and Characteristic Bassoon Sound
+#+filetags: :acoustics:bassoon:
+
+In the late 1800s, when there was an increased understanding of acoustics, many people tried to "fix" the bassoon. This involved changing the locations of tone holes, width, covering with keys, etc. But all of these experiments failed, because the character of the bassoon sound was lost in the process.
+
+cite:kopp12_bassoon

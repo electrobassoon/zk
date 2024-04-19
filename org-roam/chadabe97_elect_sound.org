@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       360b9b71-42e3-49a0-8fbd-5e4d751b90be
+:ROAM_REFS: cite:chadabe97_elect_sound
+:END:
+#+title: chadabe97_elect_sound
+
+* Chapter 8: Inputs and Controls
+   "Traditional instruments are traditional precisely because people have played them through the ages. So, as many composers have thought, why throw away the tradition? Why not use traditional instruments to control electronics and thereby, combine traditional virtuosity with imaginative sounds? And further, why not integrate electronic music into the context and performance practices of traditional music?" p 217
+
+   By 1984 Barry Vercoe could synchronize computer playback to a live performer of a Handel flute sonata (218)
+
+   Subotnick worked with Mark Coniglio to develop Interaktor and wrote some pieces with it in the early 90s (218)
+
+   "Traditional instruments -- pianos, violins, clarinets, drums, and so on -- have indeed become traditional largely because they are enjoyable to play, because they are musically rewarding extensions of our physical selves. Keyboards, for example, extend our hands and fingers. Violin bows and drumsticks extend our arms. A clarinet extends its player's voice. Traditional instruments, consequently, have been widely imitated in electronic instruments." (220)
+
+   As John Chowning said, "It would be silly to throw away the keyboard simply because it's related to an older music -- you can apply people's keyboard facility in new and different ways" (220)
+
+   In generalm these "traditional" electronic instruments appeal to musicians who have instrumental skills. They are comfortable and familiar. And because they typically offer an expanded range of sounds, they are often fun. Dorothy Martirano, for example, plays a Zeta MIDI violin. Asked what she thinks about hearing a nonviolin sound coming out, she answers, "Well it's exciting -- I like doing it." (222)
+
+   He (Nicolas Collins, maker of a trombone-propelled electronic system) observed: "to the uninitiated there is something baffling about a movement that changes pitch at one time and loudness the next ... Nonetheless, the apparently quixotic relationship between physical action and sonic response fascinates..." (223)
+
+   (Paul DeMarinis) "The process of making interactive art needs to be interactive. When you're making an interactive piece, you have to test it out, to continuously interact with the people who'll be using it interactively. And the process of doing the piece at the Exploratorium was, for me, learning about how technology socializes, and sociology technologizes, and about the human dimension that makes interaction. I started out as Mister Weirdo with people on the staff telling me that my sticks didn't look like guitars. Then I met someone on the staff who had previously worked for Alembic -- they did guitars for The Grateful Dead -- and he agreed to make guitar-style bodies for my electronics, patterened after standard electric guitar types. There were five guitars, one was a Gibson, one was a Stratocaster, one a Flying V, and so on, all standard styles, and it was amazing how they played into everyone's musical tfantasies. The reality of the guitar, the weight, the finish, the leather straps, the smell of the tleather affected the way people played together. Suddenly, everybody knew they were making music, and their actions were reinforced by the actual experience they were having. The fantasy of the rock-and-roll guitarist, that was music making. Holding these objects meant music to them. (224)
+
+(Peter Otto) In his view, "What was lost in digital technology was the gestural, tactile immediacy of the analog world, so here you were with this incredible computing power and just a mouse to control it with." (238-239)
+
+(Xavier Chabot) "The problem was relating the body, the voice, and the space and the sound, and Noh music was a very particular and effective solution... Zeami, the founder of Noh in the 14th century, said the sound comes before the gestures. So I ask: how can I control an electronic process?" In Robert Moog's words, "It's long-term research". (240)
+
+* Chapter 12: Where Are We Going?
+
+As Bruce Pennycook said "The players that we see on a day to day basis out there making music are the players of traditional instruments -- I'd like to have my pieces played live in the kind of venues that attract music lovers as those venues have for hundreds of years" (324)
+
+He explored ways in which chamber music performers can trigger and control electronically generated accompaniments. (324)
+
+(Pennycook) As he remarks, referring to /Praescio-IV/, "Players that have never enounctered electronic music before are so excited about having truly responsive control over the computer, compared to playing with tape, that they can't stop talking about it." (325)
+
+(Max Mathews) "I wondered what useful functions computers could serve in live performance. It seemed to me that there were many things that I did /not/ want the computer to do -- like to limit or interfere with or contribute to the expressive arts of the music -- because those are the domain of the performer. But it also seemed to me that there were a number of aspects of music where the performer didn't need any freedom of choice. The sequence of notes to be played, for example, was an area in which the computer could legitimately help a performer in making it easier to do things correctly. And this led to the concept of the expressive sequencer, where the predetermined parts of the music were in the computer memory as a sequence of notes or chords or events, but where the performer was controlling everything about the way those notes got played...(333-4)
+
+

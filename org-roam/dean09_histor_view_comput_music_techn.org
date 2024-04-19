@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       921e977f-157a-4113-b2f7-d7ee87ec6f59
+:ROAM_REFS: cite:dean09_histor_view_comput_music_techn
+:END:
+#+title: dean09_histor_view_comput_music_techn
+* page 13
+The liberation of the composer from the constraints of of performers' abilities is a central theme in music technology, especially in computer music.
+* page 16
+Synthesizers and audio recording disintermediate performers. Tape music also disintermediates the musical instrument.
+* page 18
+The computer completed the disjunction from the body that began with the instrument.
+* page 19-20
+Overview of the history of digital sound synthesis
+Digital recording allowed the musique concrete skills to transfer to the computer studio.
+* page 21
+The computer allowed unprecedented control over pitch, timbre, spaital location, textural complexity, precise rhythms, etc.
+* page 24
+Computer music history is more or less divided in half by the advent of MIDI, personal computers, and the Yamaha DX7 synthesizer; all happening within months of each other
+* page 25
+Music-N langauges some of the first programming languages for music, all text based
+* page 29
+The first half of computer music featured the composer, the second half is the advent of the performer
+* page 31
+Audiences can also become part of the performance
+* page 32
+Composer releasing control is precedented by figured bass, or aleatoric computer composition
+
+Freedom for performers of one-to-many relationship with gesture and sound
+* page 40
+=Paradoxically, the ability of the computer to mimic, transform, and in some respects exceed conventional human music-making could serve to refocus humans' concern on the corporeal and emotional aspects of music -- bringing to a full circle the process of disjunciton that began with the externalization of sound production from the body.=
+
+=In summary, the historical development of music technology can be viewed as human creativity's drawing on the primal act of singing and proliferating it out from the body through a multitude of ingenious devices. ... The resulting profusion of potentail physical and virtual interconnections holds the seeds of countless sonic manifestations, which colletively constitute the musically possible. From these, it is the role of the artist to extract the musically meaningful.=
+
+

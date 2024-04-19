@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       de8ed65d-ce61-475b-a74e-8e05624ed121
+:ROAM_REFS: cite:romine13_elect
+:END:
+#+TITLE: romine13_elect: Electrobassoonica
+
+* Electrobassoonica
+:PROPERTIES:
+:Custom_ID: romine13_elect
+:URL: 
+:AUTHOR: Romine, R. D.
+ :NOTER_DOCUMENT: ~/dissertation/PDFs/romine13_elect.pdf
+:NOTER_PAGE:
+:END:
+** Microphones by Rachel Elliot
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.7458603311735061)
+   :END:
+Microphones give the most realistic sound for amplifying bassoon, potentially at the risk of feedback. Restricted movement also can be an issue.
+
+For setup, one high near the bell slighlty to the left, and the other in front of the boot and tenor joints. Don't swing the bell to hit them though!
+
+Clip on condenser mics also work but have higher possible feedback issues.	
+** Bocal Pickups by Rachel Elliot
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.18491660623640319)
+   :END:
+It allows better balance as feedback is less of an issue.
+Possible pitch issues if using the fox 2C
+
+Little Jake is a darker mellower sound, needs a preamp, and some bass eq
+Telex has a stronger signal, but a bit honkier.
+** Dynamics by Paul Hanson
+   :PROPERTIES:
+   :NOTER_PAGE: 9
+   :END:
+Dynamics are a challenge with a pickup, you need a volume pedal to make those adjustments. Bassoon has a much narrower range of dynamics than others.
+** Guitar crossover by Trent Jacobs
+   :PROPERTIES:
+   :NOTER_PAGE: (12 . 0.38898305084745766)
+   :END:
+Some things that work well for guitars don't work the same with bassoon.
+** New Stuff by Jeff Lyman
+   :PROPERTIES:
+   :NOTER_PAGE: (14 . 0.08578637510513036)
+   :END:
+Each new piece seems to require purchasing new equipment or new technical requirements.
+** Amplification by Jeff Lyman
+   :PROPERTIES:
+   :NOTER_PAGE: (14 . 0.2573591253153911)
+   :END:
+Why do we have to ask about amplifying the bassoon? There is a trend of thought that the bassoon's natural sound is beautiful and that any amplification distorts that, or is an admission of weakness on our part. Our decibel range is tiny compared to most instruments.

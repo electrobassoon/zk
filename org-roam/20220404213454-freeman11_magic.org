@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       488d0e3b-aa71-4002-8715-b0aef63a5b3c
+:END:
+#+title: freeman11-magic
+#+filetags: :human:
+What draws this composer to music is the magical union of the composer's score and the ideas of the performer.
+
+[[cite:&freeman11_bring_instr_music_into_inter]]

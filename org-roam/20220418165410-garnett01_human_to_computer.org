@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       85e70284-632c-4614-895a-6cc63e3383b4
+:END:
+#+title: garnett01-human-to-computer
+#+filetags: :nuance:interpretation:change:
+Bringing humans in to the performance of computer music brings cognition. It brings gestural nuance like rubato, articulations, phrasing, dynamics, etc. These aren't impossible without humans, but it is difficult and thus often avoided. The invariability of human performance means that interpretation happens. Interpretation allows a work to change to meet changing aesthetic values. This is perhaps why classical music has survived so long.
+
+
+[[cite:&garnett01_aesth_inter_comput_music]]

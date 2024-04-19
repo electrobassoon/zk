@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       355888d0-e006-42bd-81de-ab6e56bdfed2
+:ROAM_REFS: cite:david96_exper_music_techn
+:END:
+#+title: david96_exper_music_techn
+
+* Experiencing music technology: software, data, and hardware
+
+SUU library ML74 .W55 1996

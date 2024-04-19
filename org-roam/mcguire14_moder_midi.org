@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e82a7091-3e39-46f3-8aef-776615654f11
+:ROAM_REFS: cite:mcguire14_moder_midi
+:END:
+#+title: mcguire14_moder_midi
+
+* Modern midi: sequencing and performing using traditional and mobile tools
+
+another source to talk about the same midi things, probably unnecessary

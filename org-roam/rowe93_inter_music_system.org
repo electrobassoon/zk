@@ -1,0 +1,119 @@
+:PROPERTIES:
+:ID:       690f0643-7fa2-4f53-a31a-360263e2f5c6
+:ROAM_REFS: cite:rowe93_inter_music_system
+:END:
+#+TITLE: rowe93_inter_music_system
+
+* Interactive music systems: machine listening and composing
+
+** Chapter 1: Interactive Music Systems
+*** page 1
+   Interactive computer music systems are those whose behavior changes in response to musical input. This allows them to be used in live performance.
+*** page 1-2
+The use of computers has expanded musical thought in two farreaching directions, the first of which concerns the composition of timbre.
+*** page 2
+Digital computers afford the composer or sound designer unprecedented levels of control over the evolution and combination of sonic events. The second expansion stems from the computer's ability to implement algorithmic methods for generating musical material.
+
+What musical purpose does this serve?
+
+The responsiveness of interactive systems requires making interpretations on input.
+*** page 3
+computers emulate human musical understanding
+
+This is not always easy to accomplish.
+*** page 4
+Software does not share the concepts and experiences from musical discourse. For example a computer can't broaden a phrase if it doesn't know how to tell what a phrase is.
+
+Should computers strive to approach human peformance practice? As early as 1920 Stravinsky and other famous composers wrote for pianola to take advantage of removing the performer from the equation.
+*** page 5
+Computer music has made some great compositions that remove the performer entirely. But this is not a desirable outcome. There are social reasons, but human players also understand what music is and can communicate it.
+*** page 7
+score-driven vs performance driven
+Score-driven programs use predetermined event collections, or stored music fragments, to match against music arriving at the input. They are likely to organize events using the traditional categories of beat, meter, and tempo. Such categories allow the composer to preserve and employ familiar ways of thinking about temporal flow, such as specifying some events to occur on the downbeat of the next measure or at the end of every fourth bar.
+Performance-driven programs do not anticipate the realization of any particular score. In other words, they do not have a stored representation of the music they expect to find at the input. Further, performance-driven programs tend not to employ traditional metric categories but often use more general parameters, involving perceptual measures such as a density and regularity, to describe the temporal behavior of music coming in.
+
+transformative, generative, or sequenced
+Transformative methods take some existing musical material and apply transformations to it to produce variants. According to the technique, these variants may or may not be recognizeably related to the original. For transformative algorithms, the source material is complete musical input. This material need not be stored, however - often such transformations are applied to live input as it arrives.
+For generative algorithms, on the other hand, what source material there is will be elementary or fragmentary - for example, stored scales or duration sets. Generative methods use sets of rules to produce complete musical output from the stored fundamental material, taking pitch structures from basic scalar patterns according to random distributions, for instance, or applying serial procedures to sets of allowed duration values.
+Sequenced techniques use prerecorded music fragments in response to some real-time input. Some aspects of these fragments may be varied in performance, such as the tempo of playback, dynamic shape, slight rhythmic variations, etc.
+
+*** page 8
+instrument vs player paradigms
+Instrument paragidm systems are concerned with constructing an extended musical instruemnt: performance gestures from a human player are analyzed by the computer and guide an elaborated output exceeding normal instrumental response. Imagining such a system being played by a single performer, the musical result would be thought of as a solo.
+Systems following a player paradigm try to construct an artificial player, a musical presence with a personality and behavior of its own, though it may vary in the degree to which it follows the lead of a human partner. A player paradigm system played by a single human would produce an output more like a duet.
+
+** Chapter 2: Fundamentals
+*** page 9
+Two basic pillars are MIDI handling and scheduling. Almost all systems have to send massages and be able to perform tasks at specific points in time, since music is a temporal art.
+
+Interactive computer systems can be conceptualized in three stages: the sensing stage, the processing stage, and the response stage. These stages usually have machine boundaries between each stage. 
+*** page 10 Sensing
+Recent fast growth in IMS is partly due to the MIDI standard. It breaks up acoustic information into representation based on notes. It works especially well for keyboard style instruments.
+*** page 11
+One limitation of MIDI is the inability to standardize timbre. Each machine does this differently.
+
+Note On messages trigger complex reactions in the synthesizer.
+
+MIDI takes about a milisecond to transmit a note on message. This is not a lot, but can be noticeable if many messages are going.
+*** page 12
+Thus, the synthesis gear has to take care of processing the sound. This is one machine boundary, between sending a message and responding to it.
+Despite all of this, most IMS couldn't have been acheived without MIDI.
+
+Sound samples can also be input. They generally require more processing power as CD quality is at least 44.1k samples per second.
+
+*** page 13
+Controllers capture keyboards fairly well, but the gestures of a wind, string, or voice performance is not captured very well in controllers (yet)
+
+*** page 14
+Space performance was a novelty introduced with the Theremin. Not touching the instrument at all creates a sort of magic to the music. Many new controllers are being created to do this.
+*** page 15
+Solutions geared toward one instrument do not always map to another family of instruments, or even different players of the same instrument. One issue is pitch tracking, which is problematic. FFT are not fast enough or fail to get the correct pitch (now it seems to be fast enough) But usually two cycles of a wave are required , also the attack of a note is the least regular part of it.
+*** page 16 
+One attempt to solve this has been attaching sensors to keys, e.g. for woodwinds, to minimize the work of a FFT. Wind controllers have been made to try and make this easier.
+Most instruments have had a MIDI version created. The underlying message is that the expanded capabilities of computer-based instruments is compelling for performers and builders. The general principles of exisiting orchestral instruments is maintained to capitalize on years of professional training.
+*** page 17 2.2 Processing
+Most common protocol between sensing and processing is MIDI.
+*** page 18
+Real-time schedulers delay actions until a certain time has arrived. These are pretty important in interactive systems. Some lengthy discussion of an implementation of a rts follows.
+*** page 21 Response
+The response is similar to the sensing. MIDI is often used to communicate between devices.
+
+Real-Time Digital Signal Processing:
+Before MIDI special hardware was used for the sensing and response phases. IRCAM did a lot of work with this.
+**** page 22
+MIDI took over lots of IRCAM's 4X machine capabilities. As computer chips evolved it became more feasible to have real time digital processing.
+
+Then IRCAM created the IRCAM Signal Processing Workstation
+
+*** page 23
+After this, a new version of Max was written to have signal objects. The combination of Max's midi processing and the signal processing made interactive systems much easier.
+
+FFT and inverse FFTs could now be done in real time. A single machine can now do all of the phases of the system
+*** 2.4 Commercial Interactive Systems
+Some of the big ones before Max were M and Jam Factory
+M was designed by Chadabe.
+*** page 25
+Both M and Jam Factory are performance-driven systems. There is no score following or anything like that.
+
+Max came around as a commercial product in 1990. It is an object oriented programming language that works by manipulating graphic objects and making connections between them. It makes things easier for musicians with no prior technical training.
+*** page 26
+Although max is normally used for interactive systems, it is still a programming language and different from sequencers or patch editors.
+
+*** page 27
+Other languages exist, but the ease of use, docs, and optimization of Max put it ahead of others.
+
+Then follows some breif discussion of how Max does sensing, processing, and response. Then two examples of using max for some generative algorithms.
+** Chapter 3 Live Computer Music
+Seems to be a lengthy discussion about his program Cypher and some pieces that have used it
+** Chapter 4 Music Theory, Music Cognition
+*** page 95
+Computer emulations represent applied music theory, taking theoretical concepts and putting them in live performance
+
+Following chapters I think are using theory to justify the decisions he made in building Cypher.
+
+** Chapter 8 Conclusion
+*** page 262
+"If I wanted flawlessness, I'd stay home with the album. The spontaneity, uncerainty and ensemble coordination that automation eliminates are exactly what I go to concerts to see; the risk brings the suspense, and the sense of triumph, to live pop."
+
+Interactive systems are not concerned with replacing human players but with enriching the performance situations in which humans work. The goal of incorporation humanlike music intelligence grows out of the desire to fashion computer performers able to play music with humans, not for them. A program able to understand and play along with other musicians ranging from the awkward neophyte to the most accomplished professional should encourage more people to play music, not discourage those who already do.
+

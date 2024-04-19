@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       b58b17f7-324d-4238-bf51-2c092422a66c
+:END:
+#+title: winkler98_interaction
+#+filetags: :visual:human:interaction:performance:drama:agency:
+
+Interactive music is defined as a music composition or improvisation where software interprets a live performance to affect music generated or modified by computers.
+
+For a piece to be interactive, Winkler describes a five step process. First, there must be human input of some kind. Then, a computer has to receive the input and analyze it in some way. Then the computer interprets what it has received. Fourth, the computer then processes something. Finally, the computer outputs sound.
+
+This interaction between human and computer lets a computer take on some aspects of human musicality, and also lets a human overcome the physical limitations of their instrument.
+
+Interaction in music is disappearing. Recordings have taken away the interaction between the performer and the audience. Pop musicians will sometimes lip sing to appear as close as possible to the recording. Computer music initially started without interaction, as computers were not powerful enough for live performance. But many audience members felt the absence of a visual component to music. Mixing live performers with the computer music brought this back, but then the performer struggled with not being able to interact with the music. So experiments began to give more interaction to computer music.
+
+Part of the appeal of interactive computer music is the drama of who is in charge of the interactions. Is it the computer or the performer? This is largely determined by the composer.
+
+cite:winkler98_compos_inter_music
+

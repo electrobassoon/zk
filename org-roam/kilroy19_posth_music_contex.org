@@ -1,0 +1,198 @@
+:PROPERTIES:
+:ID:       d3040445-9ee3-420e-845f-5c6495c2b819
+:ROAM_REFS: cite:kilroy19_posth_music_contex
+:END:
+#+title: kilroy19_posth_music_contex
+
+* Posthuman Music Contexts: Live Processing's Impact on Performance Practice in Electroacoustic Music
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/kilroy19_posth_music_contex.pdf
+:END:
+** Posthuman
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.43337195828505215)
+:END:
+Posthuman is everything after the musician plays that adjusts timbre, tuning, dynamics, etc. Everything that gets modified by electronics basically.	
+** Perf Practice
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.6106604866743917)
+:END:
+There is an unprecedented amount of variety in the posthuman. Different equipment, contexts, and other factors make a single performane pratice difficult.
+** Models
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.4727694090382387)
+:END:
+There are many times that the interaction between player and electronics is modeled after a non electronic analogue, but this is not always the case.
+** Lack of Performer literature
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.7288528389339514)
+:END:
+Scholarly literature seems to have a lack of performer-led discourse (well we are performers not scholars after all)
+** Notation
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.13789107763615296)
+:END:
+Music notation will never fully represent the details of music when it is performerd. Performers have to create a realization of the notation that addresses the ambiguities of the notated rhythm, rubato, tone, dynamics, intonation, etc. Many different resources are used in this process.
+** Recordings
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.5527230590961761)
+:END:
+The main source of contemporary performance practice is recordings, as opposed to treatises and oral traditions previously used.
+** Main issues
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.354577056778679)
+:END:
+The main issues of contemporary performance practice are the performers relationship to the score, and the interpretation of notation.
+** Live Processing
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.1772885283893395)
+:END:
+Current models don't adequately describe situations with live processing.
+** Posthuman Practice
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.4727694090382387)
+:END:
+Electronics create effects that are impossible or impractical to replicate through acoustic means. There can be a shift in agency and performance priorities and even the performers' conception of themselves on stage.
+
+Performers may have to focus on details more than just playing their part. They may need to communicate with engineers to deal with their tone quality, or have to work with new interfaces and sound systems.
+** Definitions
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.7891077636152956)
+:END:
+*Performance Practice* refers to how musicans realize their part in a musical work, either through notation or recalling music learned orally.
+** Oral Recitation
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.49246813441483195)
+:END:
+Information can be lost in oral recitation, as it is likely to be different each time. A similar thing happens when performing music from notation.
+Eventually oral traditions are forgotten and text resources are the only remnants. Then they have to be reconstructed.
+** Interpretation
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.5909617612977983)
+:END:
+Interpretation results from the creative process of performers. The feedback after rehearsals and performances contributes to the evolution of a performance practice. 
+** Control
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.4727694090382387)
+:END:
+Performers can engage in different relationships with non-interactive electronics if they have a high degree of control.
+** Live Processing Notation
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.5527230590961761)
+:END:
+Live processing often does not fit well into traditional notatione (This therefore is an opportunity for posthuman performance practice and ambiguity of notation)
+** Mediation
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.7103128621089224)
+:END:
+Live processing mediates the sound between the performer and the audience. It can be simple amplification to complex live processing. Engineers also serve as mediators. These mediations create the posthuman musical context
+** Tropes
+:PROPERTIES:
+:NOTER_PAGE: (36 . 0.43337195828505215)
+:END:
+Frequent terms are mutation, hybridity, cyborg, virtuality, simulation, and disembodiment. These are all only possible using technology. Mutation modifies the input of the performer.Hybridity mixes human and electronic sound. Cyborg is also a mix but implies that technology is incorporated into the creation of musical gestures.Virtuality gives the impression of pressence or environment not physically located in the performance space. This comes from simulation that comes from things like spatial aoustic and specific timbres. Reverb copies the acoustics of a room for example.  Disembodiment is removing the sound from the source.
+** Disconnect
+:PROPERTIES:
+:NOTER_PAGE: (39 . 0.8277066356228173)
+:END:
+There is a high degree of disconnect between the perceived sound on stage and the house balance.
+** Agency and Tropes
+:PROPERTIES:
+:NOTER_PAGE: (41 . 0.2770663562281723)
+:END:
+Sometimes performers have high agency, and sometimes low agency in the posthuman context. The tropes will be used to enhance them instead of incompatible acoustic parallels.
+** Posthuman
+:PROPERTIES:
+:NOTER_PAGE: (43 . 0.49126891734575084)
+:END:
+The meeting point of humans and machines that reconfigures humanistic conceptions of the autonomous, creative self.
+** Music and Posthuman
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.17811408614668217)
+:END:
+No where has technology infiltrated human culture so completely as it has in music.
+** Mutation in Music
+:PROPERTIES:
+:NOTER_PAGE: (47 . 0.3131548311990687)
+:END:
+** Hybridity in Music 
+:PROPERTIES:
+:NOTER_PAGE: (48 . 0.17811408614668217)
+:END:
+** Cyborg in music
+:PROPERTIES:
+:NOTER_PAGE: (50 . 0.25727590221187424)
+:END:
+** Interfaces
+:PROPERTIES:
+:NOTER_PAGE: (50 . 0.629802095459837)
+:END:
+Interfaces impact performance, because performers have to spend time learning to operate them. Especially when it requires new movement.
+** Virtuality in Music
+:PROPERTIES:
+:NOTER_PAGE: (52 . 0.17811408614668217)
+:END:
+Musicians may need to modify how they play when their sound is being processed.
+** Dissembodiment in music
+:PROPERTIES:
+:NOTER_PAGE: (53 . 0.13853317811408614)
+:END:
+** Example of non cyborg
+:PROPERTIES:
+:NOTER_PAGE: (66 . 0.4749708963911525)
+:END:
+Here is an example where having a pedal is not cyborg, because the performer has no control over the outcome.
+** Engineers
+:PROPERTIES:
+:NOTER_PAGE: (68 . 0.11874272409778812)
+:END:
+In some spaces the performer is at the mercy of the engineer, who is the one who knows what the music sounds like in the house. They have agency in this process of creating music.
+** Preparation
+:PROPERTIES:
+:NOTER_PAGE: (72 . 0.15832363213038417)
+:END:
+Electronic part played no role in the performers creative process (in this piece) because they had no control over it
+** Engineer as musician
+:PROPERTIES:
+:NOTER_PAGE: (77 . 0.5541327124563445)
+:END:
+One describes the engineer as a fifth chamber musician, and that he's playing a computer while they play a piece of wood. 
+** Agency
+:PROPERTIES:
+:NOTER_PAGE: (89 . 0.7089639115250291)
+:END:
+Performing with electronics and amplification the performer does not have total agency over their sound. There is a disconnect because the performer cannot adjust the mix while they are performing realistically.
+** Mix of agency
+:PROPERTIES:
+:NOTER_PAGE: (91 . 0.25727590221187424)
+:END:
+Having your own in ear monitors can be a nice way for the performer to hear what they need in order to perform and allow an engineer to take care of the house.
+** Performance Space
+:PROPERTIES:
+:NOTER_PAGE: (91 . 0.7287543655413272)
+:END:
+In acoustic settings, it is not uncommon for musicians to adjust their tone, articulation, note lengths, etc to match the performance hall. Electronics complicate this a bit, and there is a bit of disconnect.
+** Pedal Cyborg
+:PROPERTIES:
+:NOTER_PAGE: (111 . 0.7683352735739232)
+:END:
+Using effects pedals is cyborg because the performer works with their equipment to transform their sound.
+** Posthuman tropes
+:PROPERTIES:
+:NOTER_PAGE: (150 . 0.6495925494761351)
+:END:
+Posthuman tropes provide a way to discuss electronic performance practice
+** Controllers
+:PROPERTIES:
+:NOTER_PAGE: (152 . 0.6135040745052386)
+:END:
+Picking controllers is best considering what the tasks is. Sometimes a single button is all that is needed, some are more complex. 
+** table of tropes
+:PROPERTIES:
+:NOTER_PAGE: (156 . 0.21769499417927823)
+:END:
+** Agency balance
+:PROPERTIES:
+:NOTER_PAGE: (158 . 0.2968568102444703)
+:END:
+Distributed cognition can cause performers to be uncomfortable. An aspect of performance practice is to give enough agency over sound to the performers so they feel comfortable. Networks can be a way to look at this.

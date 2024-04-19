@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0f84b67d-8375-49a1-a8f9-aeded4a59c81
+:END:
+#+title: morrill81_setup
+#+filetags: :speakers:
+
+It has been shown that speakers angled 30\deg off center are ideal. In large spaces, having multiple speakers on each side with varying angles works well. It is often beneficial to raise speakers off the ground as well.
+
+cite:morrill81_louds_perfor

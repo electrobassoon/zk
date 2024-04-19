@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID:       47e0f000-8619-4531-ae8d-9becae1b5b7f
+:ROAM_REFS: cite:burns87_typol_popul_recor
+:END:
+#+title: burns87_typol_popul_recor
+
+* Typology of Hooks
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../Documents/PopMusicHistory/PDFs/burns87_typol_popul_recor.pdf
+:END:
+
+** Definition
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.601119104716227)
+:END:
+=A Musical or lyrical phrase that stands out and is easily remembered.=
+
+** Repetition	
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.6794564348521183)
+:END:
+=Repetition is meaningless without its opposite, change.=
+
+** degrees of change
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.38369304556354916)
+:END:
+repetition (little change) variation (moderate change) modulation (much change)
+
+** Textual and Non Textual Elements
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.5947242206235012)
+:END:
+
+2** Rhythm Hooks
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.4924060751398881)
+:END:
+=Rhythmic hooks are thus a result of change rather than repetition=
+
+** riff
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.8505195843325339)
+:END:
+Repetitive melodic hook.
+
+** Melody Hooks
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.4860111910471623)
+:END:
+
+** Harmony Hooks
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.34532374100719426)
+:END:
+
+** Lyric Hooks
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.812150279776179)
+:END:
+
+** Instrumentation hook
+:PROPERTIES:
+:NOTER_PAGE: (14 . 0.2941646682653877)
+:END:
+
+** Tempo hooks
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.44764188649080733)
+:END:
+
+** Dynamics hooks
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.709832134292566)
+:END:
+
+** Improvisation and accident hooks
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.42206235011990406)
+:END:
+
+** Sound Effects Hooks
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.7865707434052758)
+:END:
+
+** Editing as hook
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.14068745003996802)
+:END:
+
+** Mix Hook
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.6330935251798561)
+:END:
+
+** Conclusion 
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.7609912070343725)
+:END:
+ 

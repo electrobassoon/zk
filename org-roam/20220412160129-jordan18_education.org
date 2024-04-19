@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       92645fe9-ab51-47dc-a7f4-6809d30886d7
+:END:
+#+title: jordan18-education
+
+Technological students are more or less left to experimentation to learn to perform electroacoustic music.
+
+Learning a piece with tape may be a good step for beginners
+
+[[cite:&jordan18_perfor_live_elect]]

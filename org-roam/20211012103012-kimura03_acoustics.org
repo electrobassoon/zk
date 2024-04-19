@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5241e1f5-5723-4889-892d-0ea367ff1157
+:END:
+#+title: kimura03_acoustics
+#+filetags: :halls:performancespaces:rehearsal:
+Many recital spaces are not acoustically designed for electronics. Unfortunately the dress rehearsal is the only time to really tweak things like eq. Intonation is also an issue seldom discussed, as the computer will probably use equal temperament.
+
+cite:kimura03_creat_proces_perfor_pract_inter_comput_music

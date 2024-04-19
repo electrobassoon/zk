@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       49b9324e-151d-4df1-a824-a7a9ba7a3757
+:END:
+#+title: Education for Electroacoustic Music
+#+filetags: :education:
+
+This style of music requires familiarity with technology, and frequent gradual exposure will enable performers to feel more confident with this style of music and program them more. It takes time to be comfortable with the tech. There are several different approaches to teach the technology, outlined in [[id:2f40baf0-f7b7-4c7a-a4b2-9711df1389e9][bullock13_education]].
+
+Traditional music study is dieing, and musicians should be learning the new technology to renew the art form. [[id:4555042f-72dc-4793-9b75-7a89ee1e5294][stockhausen96-education]]
+
+It is still possible for students to go through their entire secondary education without being exposed to electroacoustic music. The best way to change this is for professors to learn the rep and teach it to their students. [[id:f397a568-a085-477c-9b07-5c1dc3249bcb][enns17-education]] Often technologically-minded students have to learn on their own. [[id:92645fe9-ab51-47dc-a7f4-6809d30886d7][jordan18-education]] 
+
+The traditional barriers of difficulty, cost, and unfamiliarity are deteriorating. It is time to start having formal courses for electroacoustic music. [[id:d87d4561-e519-49ec-bc7b-cc78d4f6e8f6][yoder10-education]]
+
+It falls often on the teachers to instill artistic value and demonstration for their students. [[id:57b4352e-a950-44d7-a7bb-d12bd50b2081][pennycook97-education]]
+
+Learning a piece with tape could be a good introduction. [[id:92645fe9-ab51-47dc-a7f4-6809d30886d7][jordan18-education]]

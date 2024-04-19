@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       ed64eb8a-547b-4d2a-ae0b-8c3ececdcbde
+:ROAM_REFS: cite:brown07_comput_music_educat
+:END:
+#+TITLE: brown07_comput_music_educat: Computers in music education: amplifying musicality
+
+* Computers in music education: amplifying musicality
+:PROPERTIES:
+:Custom_ID: brown07_comput_music_educat
+:URL: 
+:AUTHOR: Brown, A. R.
+:END:
+
+* Preface
+  A computer can participate in music as a tool, medium, or an instrument. They can amplify musicality.
+* Chapter 1: Ways of Making Music with Technology
+  
+Require a change of curriculum to add skill development (4)
+As recorder to piano makes a shift from monophony to polyphony, so to does piano to computer in the form of timbre, time, space, etc. (6)
+Any musical instrument, including the computer, amplifies musicality (10)
+
+A difference between acoustic instruments and computers is the realtionship of gestures to results. Acoustic instruments are a one-to-one relationship: one gesture yeilds one sonic result. Computers, however, work with a one-to-many relationship. One parameter change can control many different sonic results. (11)
+
+The relationship between computer as instrument is more about partnering than controlling. The instrument-player partnership involves deep interaction, understanding, and trust. Just as possible with a computer as with other instruments. A more skilled musician will be able to better use the computer as an instrument (12)
+
+Learning to use the computer in making music can be rewarding, but requires regular and focused practice. With a positive attitude towards the computer as a musical partner, can develop music that will be enjoyable (13)
+
+As an instrument, the computer is a sounding board that reflects, shapes, and amplifies our musicality. The approach is musical expressiveness in partnership with the computer. This leads to novel experiences, and new ways of thinking. (15)
+
+* Chapter 2: Philosophical Consideraitons
+  Technologies extend human capacities (18)
+  Being aware of metaphors used in software helps us understand its capabilities and behavior. But understanding what is underneath the metaphor allows us to see what is possible or impossible past the metaphor (22)
+
+  The use of computers in music making makes little change to the intention of a musician. The intention is still to express, communicate, etc. (23)
+
+* Chapter 3: A brief history of music technology
+
+* Chapter 11: Interactive Computer Music
+  Description of one-to-many relationship of interactive music (133)
+  Music can be as simple or complex and challenging or accesible (134)
+  Music can be invested with serious social comment and take on cultural issues (134)
+  Interactive performance can scaffold a learners' performance. Preparing a piece requires more analysis into musical interaction, which can help understanding the complexity of musical communication (134)
+  Different levels of performance and how they can use interactive performance (134-135)
+  Computer listens and responds (135)
+  Sequenced, transformative, and generative responses (135-136)
+
+  It takes time and pracitce for a performer to learn how to control each piece. (138)
+  
+  Computer functions as an instrument, often with an external controller of some type. This creates a relationship between the performer and electronics. Sometimes it is like solo accompaniment, and others and improvisational duet. This can change with each piece as the composer decides which part controls what parameters. (138-139)
+
+  Interaction is a key ingredient in music making, and interacting with a responsive computer music system is a rich area of musical experience to be investigated. (143)
+
+*  Chapter 23: Intergrating New Technologies
+Integration of new technology in music education has some implications. It affects more than just the equipment and may disrupt existing practices. (295)
+Computers are an almost ever present part of the new generation's lives. There will be more pressure for students to be able to use computers in the music making process.(295)
+Bringing computer music into the curriculum is not just about new tech, but about a musical culture. (296)
+Access without a positive attitude is a waste of resources, and enthusiasm without access leads to frustration. (296)
+When producing music with a computer, students are not only developing their musical intelligence, but they are gaining transferable technological skills and confidence. (297)
+Resistance to change comes from time and effort to learn new skills, new teaching resources. Change is a threat to existing practices, risk that it will all be for naught and no improvement. However, it may also be wasteful to continue in labor intensive, tedious processes of music making without technology, or being marginalized and irrelevant by focusing on musical practices with less and less audience value (297)
+
+Pattern of technological advance is it begins by imitating existing metaphors, and then innovates to become a new metaphor. It is part of evolution. Programs can incorporate the new technology and evolve, or be left behind. (298)
+Teachers will likely not be more knowleadgeable than their students in some respects with the new technology. So the teacher will function more as a guide to promote further learning. It challenges the role of the teacher. (299)
+
+Technology has changed the existing structure of learning. The previous divisions of performer, composer, and audience are blending. Recordings and electronic music blur the line of composer and performer, since technology does the performing. A better framework focuses on the relationship and experience of the student with music. The aim is the development of musical intuition and intelligence. (300)
+
+Musical meaning can be personal, social, or cultural depending on the nature of the activity (301)
+

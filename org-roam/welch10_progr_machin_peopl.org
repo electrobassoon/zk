@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       7c29da98-df95-477c-83f4-89971b14a514
+:ROAM_REFS: cite:welch10_progr_machin_peopl
+:END:
+#+title: welch10_progr_machin_peopl
+
+* Programming machines and people: techniques for live improvisation with electronics
+:PROPERTIES:
+:NOTER_DOCUMENT: /home/jazzbassoon/dissertation/PDFs/welch10_progr_machin_peopl.pdf
+:END:
+
+** Complexity with computer
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.35064935064935066)
+:END:
+Adding a computer adds complexity to the improvising situation
+
+** Creation of method
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.2727272727272727)
+:END:
+Aims to show examples to create rules for a controlled improvistational system with electronics
+
+** Passing Control
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.2727272727272727)
+:END:
+Passing control to the performers as a composer is liberating and unnerving. The "glitches" in the system come from sensibilities of performers that no algorithm can predict. Unpredictability is at the heart of improvisation.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3e38b5ac-eef2-4ac0-9af5-c9c096f30795
+:END:
+#+title: masone16-performance-practice
+
+
+Performance practice normally deals with the score of a piece. In electroacoustic music, it needs to go further. Amplification, computers, hardware, etc. are possibilities.
+
+Performers need lots of time rehearsing with the electronics.
+
+"Some performers don't realize how much they must practice with their electronics and get to know them - or think they can just learn their part and means they have learned the piece. A piece with live electronics should be chamber music. This never comes up with those who commission my pieces, but it sometimes does as the pieces go out into the world." -- Nathan Davis
+
+[[cite:&masone16_contem_bassoon]]

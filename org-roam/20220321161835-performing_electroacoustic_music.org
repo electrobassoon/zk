@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8da14155-46b6-44e1-8d33-dbcc3adba4a5
+:END:
+#+title: Performing Electroacoustic Music
+#+filetags: :performancepractice:
+
+Performers need lots of time with the electronics. [[id:3e38b5ac-eef2-4ac0-9af5-c9c096f30795][masone16-performance-practice]]
+
+Issues of performace practice need to be expanded to include electronics. [[id:3e38b5ac-eef2-4ac0-9af5-c9c096f30795][masone16-performance-practice]] [[id:3b281ea4-740d-481f-860c-8609298ce5fb][yoder10-performancepractice]]
+
+The ambiguity of notation means that performers have to make interpretive decisions. [[id:316a357c-59ed-4558-b6f5-2668bd2414bf][kilroy19-notation]] Many like having a study score and a performance score [[id:3a0b6e58-8726-49f7-ad28-a25da4926b6a][yoder10-notation]]
+
+The posthuman perspective could inform perfomance practice for electronics. However a single practice is unlikely due to the variety and ever changing technology. [[id:a3ae4ab1-3ffd-4f29-8fe2-3a4fc80ff337][kilroy19-posthuman]]
+
+The loudspeaker can become an instrument to play itself. [[id:23094d6b-2a56-42f7-9829-f34adab4f00f][emmerson16-performance]]
+
+Enns has developed a self-sufficient approach to reduce the dependence on sound designers and composers in performing live electroacoustic music. [[id:84a53d2f-f002-45e5-9565-751ce7fb5946][enns17-self-sufficient]]
+
+Interactive music requires more roles and different skills than other types of music [[id:3b281ea4-740d-481f-860c-8609298ce5fb][yoder10-performancepractice]]

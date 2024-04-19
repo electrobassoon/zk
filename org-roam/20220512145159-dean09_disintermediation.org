@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       94601474-c785-4805-a84f-bf605ac2a744
+:END:
+#+title: dean09-disintermediation
+
+Synthesizers, audio recording, tape music, digital sound synthesis all serve to disintermediate performers, engineers, instruments, etc. The computer completed the disjunction of sound from the body that began with the first instruments. However, the second half of computer music's history has turned focus back to performers.
+
+[[cite:&dean09_histor_view_comput_music_techn]]

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       b5e1bfd2-f7e9-422b-bc69-7c52aec09623
+:ROAM_REFS: cite:laing91_voice_without_face
+:END:
+#+title: laing91_voice_without_face
+
+* Voice Without a Face
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../Documents/PopMusicHistory/PDFs/laing91_voice_without_face.pdf
+:END:
+** Birth of industry
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.38725901089689857)
+:END:
+Do you agree with the invention of the phonograph as the birth of an industry?
+** Applications of the phonograph by edison
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.24140821458507963)
+:END:
+Is a phonograph an instrument? Or a talking machine?
+** Piano to phonograph
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.36043587594300086)
+:END:
+** Ideal Performance
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.22799664710813075)
+:END:
+Pianola. This could be a discussion point. Should we play covers of songs?
+** Legality of recording
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.5079631181894384)
+:END:

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       db7ae985-548c-4932-ab7e-9f3708257982
+:END:
+#+title: masone16-shifting-roles
+#+filetags: :freedom:responsibility:
+
+Many pieces have the composer create an environment or system, and then leaves the result to the performer. This results in more freedom for the performer, but also more responsibility for the outcome.
+
+[[cite:&masone16_contem_bassoon]]

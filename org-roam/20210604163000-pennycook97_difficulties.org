@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5ff398dd-0c97-4e47-b8f0-c3c157c4a39a
+:END:
+#+title: pennycook97-difficulties
+#+filetags: :setup:speakers:cost:
+
+Contemporary electroacoustic music is not something that can be found in the store, or in the library. Often it includes interfacing directly with the composer. There is no performance tradition, and few recordings if any. The performer has to do much more work for this body of reprtoire.
+
+The cost of equipment and the acoustics of performance spaces are often issues that perpetuate each other.
+
+This music falls under chamber music, which survives largely by performers wanting to play the music, which at times is hard if they have to buy lots of equipment because their performance space doesn't have it.
+
+Balancing live and electronic sound sources is a challenge, but positioning the speakers on stage as if they were players can be helpful.
+
+cite:pennycook97_live_elect_music

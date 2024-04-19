@@ -1,0 +1,179 @@
+:PROPERTIES:
+:ID:       87b97200-ce04-453e-925d-4d71e4c3b59e
+:ROAM_REFS: cite:yoder10_perfor_pract_inter_music_clarin
+:END:
+#+title: yoder10_perfor_pract_inter_music_clarin
+
+* Performance Practice of Interactive Music for  Clarinet and Computer
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/yoder10_perfor_pract_inter_music_clarin.pdf
+:END:
+** Reluctance
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.2885117493472585)
+:END:
+="many performers are reluctant to approach these works due to unfamiliarity with the genre and its technical and musical considerations."=
+** Performance Practice
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.35509138381201044)
+:END:
+Performance practice traditionally has dealt with the written score, but needs to expand to include computer software, technology, microphones, pedals, etc.
+
+Interactive music requires specific knowledge and skills that performers may not encounter in other genres of contemporary music.
+Microphone technique, spatialization, sound processing, improvisation
+
+PP is often solved with close collaboration between composer and performer, but doesn't get spread to new performers
+** History
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.443864229765013)
+:END:
+Early pioneers were Varese, Busoni, and Italian Futurists. Timbre was most important, including noise, nature sounds, etc.
+** Two schools
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.3772845953002611)
+:END:
+French created musique concrete
+German like Stockhausen dealt with sound synthesis and processing electronic sound
+** multichannel
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.577023498694517)
+:END:
+Development of multichannel in the 1960s to create spatialization
+** concert music
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.13315926892950392)
+:END:
+by 1960 many composers found performance of tape music lacking, and created works for musician + tape
+Wasn't really active, although good performers could make it seem that way
+** Computers
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.2219321148825065)
+:END:
+Signal processing of computers made old hardware things possible on software. Computers offered textural complexity, rhythmic precision, and control over everything.
+
+Access to these was not easy early on because of size, cost, and expertise. That didn't come until the 80
+** MIDI
+:PROPERTIES:
+:NOTER_PAGE: (14 . 0.08877284595300261)
+:END:
+Midi came in 1982 to make communication easier. This combined with computers to create systems like Cypher, Kyma, and Max.
+** Max/MSP and 4X
+:PROPERTIES:
+:NOTER_PAGE: (14 . 0.26631853785900783)
+:END:
+max was created at IRCAM and has become the most popular. Initially the program was to control the 4X synthesizer, and was used in the early interactive pieces from ircam.
+** MSP
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.26631853785900783)
+:END:
+MSP came to max in 1997.
+
+It has grown and many composers use it now.
+** Interactive works
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.510443864229765)
+:END:
+=Interactive composition offers the combination of the best human qualities of a live performer (gestural nuance, stage presence, character) with the best machine qualities of a computer (infinite sound possibilities, instant processing, rapid calculations).=
+
+=Electronics can extend the sound world of the live performer, while the performer can communicate musical understanding to an audience, eliminating the detachment and isolation of the typical electroacoustic performance.= quoted in [[cite:&rowe93_inter_music_system]] page 5 or [[cite:&garnett01_aesth_inter_comput_music]] page 32
+** philosophy
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.08877284595300261)
+:END:
+=Philosophical territory explored by interactive composition is a fundamental theme of life in the twenty-first century: the question of the nature of our relationship to machines, computers, and artificial intelligence systems.= quoted from Brian Belet, "Live Performance Interaction for Humans and Machines in the Early Twenty-First Century: One Composer's Aesthetics for Composition and Performance Practice" Organized Sound 8 (December 2003): 306.
+** Overview of Rowe
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.3328981723237598)
+:END:
+** Other systems
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.17754569190600522)
+:END:
+Kyma - very expensive but has external hardware for dsp called a pacarana
+
+chuck, supercollider
+** PP
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.35509138381201044)
+:END:
+The numerous roles the performer has to fill goes beyond what is required in 18th, 19th, and 20th century works.
+** The Score
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.11096605744125325)
+:END:
+Notation is similar to 20th century work, graphical notation, complex rhythms, extended techniques, etc. However the computer part is something unique and new and inconsistent. Some options are staff notation, graphic notation, or textual descriptions.
+** Performance vs Study Scores
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.3772845953002611)
+:END:
+Some performers like having two versions, the study score with as much info as possible and the performance score for easier page turns *paraphrasing a Luara Carmichael quote*
+** Score
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.5171957671957672)
+:END:
+=In interactive music, the notated score often only tells part of the story; the rest of the "score" is hidden inside of Max patches and lines of code.=
+** Amplification
+:PROPERTIES:
+:NOTER_PAGE: (36 . 0.6296296296296297)
+:END:
+Following the Stockhausen quote, Yoder says the same responsibility applies to amplified, processed, and playback sound. Working with sound engineers can help
+** Mic choice
+:PROPERTIES:
+:NOTER_PAGE: (37 . 0.5396825396825397)
+:END:
+If the sound is very processed, close dynamic mics or contact mics can help prevent feedback. If the sound is to amplify the beautiful and pure clarinet, then having high quality mics is important. *paraphrasing a Laura Carmichael block quote*
+** Mic use
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.3148148148148148)
+:END:
+From McNutt (unsure if I used it already) Acoustic musicians are rarely trained to work with microphones. Using it effectively requires practice and experience. It can expand sound, and make quiet sounds audible. It can be used for disembodied sound, or amplification of private sounds like breathing and key noise. *probably too close of a paraphrase*
+** Speaker positioning
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.6296296296296297)
+:END:
+Two approaches, the recreation of studio sound where th espeakres are often in front of the performer pointing away. Musicians will usually need a monitor. An angle can help protect the performers ears
+** Approach 2
+:PROPERTIES:
+:NOTER_PAGE: (39 . 0.24735449735449735)
+:END:
+This is to put the speakers onstage with the player, and the sound comes from the player
+
+Both approaches can work depending on the piece.
+** Score following
+:PROPERTIES:
+:NOTER_PAGE: (40 . 0.42724867724867727)
+:END:
+Score following is freeing, but often unreliable. Pitch tracking alone has issues because of the harmnoic spectrum, and doesn't deal well with multiphonics etc. And it is always vulnerable to performer error
+** Pedals
+:PROPERTIES:
+:NOTER_PAGE: (41 . 0.24735449735449735)
+:END:
+Many like the pedal, but some like Kimura don't. It can create a visual distraction, or a performer can push a pedal twice or miss it
+** Assistants
+:PROPERTIES:
+:NOTER_PAGE: 42
+:END:
+Some like sound engineers, projectionists, technologists, or collaborative partners. Can they read a score? Can they run a mixer? Do they have good musical instincts?
+** Musical Function
+:PROPERTIES:
+:NOTER_PAGE: (49 . 0.38227513227513227)
+:END:
+Just like when playing with a piano, you may try and evoke different things. Similarly with electronics you have to ask questions like, am I foreground or background? Overpowered or fighting? Harsh articulations to match electronics? What is the character?
+** Conclusions
+:PROPERTIES:
+:NOTER_PAGE: (56 . 0.6203703703703705)
+:END:
+Study scores vs performance scores
+Interface is often neglected.
+** More conclusions
+:PROPERTIES:
+:NOTER_PAGE: (78 . 0.10317460317460317)
+:END:
+Many performers avoid the rep because it is difficult, costly, and unfamiliar. This is changing and is not insurmountable. Computers that can handle this are cheaper and cheaper, interface design is improving, open source pd has emerged (and free max runtime)
+Barriers are coming down. It is time to consider formal courses of instruction for performers at universities. 
+** Outlook
+:PROPERTIES:
+:NOTER_PAGE: (79 . 0.552910052910053)
+:END:
+Collaboration could come between composition department and vocal/instrumental studios
+Positive outlook. More and more performers will be drawn to it. Graduate specializations may come. It is a compelling genre.

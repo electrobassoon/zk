@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       53da1656-9f7e-495a-9919-8a8188aa55aa
+:END:
+#+title: romine13-difficulties
+#+filetags: :equipment:feedback:cost:
+
+While microphones provide the most accurate sound, there is a risk of feedback. The bocals reduce that, but sacrifice the bassoon's tone quality.
+
+Paul Hanson talks about the narrower dynamic range of playing on a pickup. The bassoon already has a small range compared to other instruments (Jeff Lyman) but it's even smaller in an electric bocal. Getting a volume pedal can help solve this difficulty.
+
+Jeff Lyman says that each piece seems to require buying a new piece of equipment, or some new technical setup.
+
+Trent Jacobs says that while guitar resources can be helpful with effects pedals, not everything transfers to bassoon easily or well or even at all.
+
+cite:romine13_elect
+

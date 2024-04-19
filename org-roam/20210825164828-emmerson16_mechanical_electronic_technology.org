@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       bebf6bcd-41e5-44da-9ae3-2ba12eaab9a4
+:END:
+#+title: emmerson16_mechanical_electronic_technology
+#+filetags: :cause:
+
+Traditional musical instruments have been based on mechanical technology, and are closely related to physical experience. New electronic technology has the ability to break that relationship. For some this is an opportunity, others a problem. Sound has been dislocated from the physical world; its causal relationships, temporal relationships, and perceptual relationships all being disrupted.
+
+cite:emmerson16_losin

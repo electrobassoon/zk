@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       5343ec8b-7754-4ff3-9653-7d216e65ade4
+:ROAM_REFS: cite:rothenberg10_playin_into_machin
+:END:
+#+TITLE: rothenberg10_playin_into_machin
+#+filetags: :boredom:
+
+* Playing into the machine: improvising across the electronic abyss
+:PROPERTIES:
+:Custom_ID: rothenberg10_playin_into_machin
+:URL: 
+:AUTHOR: Rothenberg, D., & Neill, B.
+:NOTER_DOCUMENT: ../../PDFs/rothenberg10_playin_into_machin.pdf
+:NOTER_PAGE:
+:END:
+
+** Effects vs instrument
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.2792270531400966)
+:END:
+=The electric guitar is the most perfect musical sound to be effected, because it is a pure, high-volume, clear tone... However wind players learn their individuality through years of practice at personalizing a tone, so when we confront the machine, we have a whole different challenge. Our instrument and its tradition seem somehow opposed to mashing up the sound in odd electronic ways.=
+
+** Regularity
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.4270531400966184)
+:END:
+=The regularity of delays adds order and rhythm .... But it quickly becomes expected and listeners figure it out.=
+Further experimentation and randomization often will cause confusion trying to get out of the boredom of these effects.
+
+** Great Battle of Our Age
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.6570048309178744)
+:END:
+
+=Digital errors ... have given rise to their own aesthetic of "glitch" -- noisy, uneven, but still somehow precise sounds that come easily to digital devices. Turn a clarinet into these kinds of sounds, and the immediate conflict between resonating air and strange machinations comes to the fore. The war begins! The primal human quandary between extending ourselves with technology and just getting the song out appears right there. Music comments on the great battle of our age.=
+
+** Max
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.11497584541062802)
+:END:
+=One reason the brilliant sonic language Max has not appealed to us is that much of what is composed using it sounds like the computer is making too many decisions, taking too much control.... But is this anything more than personal prejudice, when computers can now be programmed to emulate almost anything, artificial or natural?= 
+

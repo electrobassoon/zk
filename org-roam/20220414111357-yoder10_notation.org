@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3a0b6e58-8726-49f7-ad28-a25da4926b6a
+:END:
+#+title: yoder10-notation
+Notation is similar to other 20th century music. There can be graphical notation, complex rhythms, extended techniques, etc. The addition is how the electronics are represented. Sometimes there is staff notation, sometimes graphical notation, sometimes a description of what is happening. The difficulty is the balance of information. Many performers want two scores, one that is very detailed for study and analysis, and a performance score that makes fewer page turns.
+
+[[cite:&yoder10_perfor_pract_inter_music_clarin]]

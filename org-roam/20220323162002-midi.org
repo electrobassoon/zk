@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3ad1956c-3ba4-4486-bd4e-b1646833f8de
+:END:
+#+title: MIDI
+#+filetags: :midi:
+
+MIDI stands for Musical Instrument Digital Interface. [[id:fa0f674a-6699-4b95-bc45-472ec080f05b][hofstetter88-midi]] [[id:12d1dc38-9151-45e8-b1ee-88e7061d73bd][rothstein92-midi-basics]]
+
+MIDI is not really a musical language, it does not tell equipment how to sound. It is only a data transfer protocol. [[id:12d1dc38-9151-45e8-b1ee-88e7061d73bd][rothstein92-midi-basics]]
+
+Descriptions of pins, data transfer speeds, etc. are given in [[id:fa0f674a-6699-4b95-bc45-472ec080f05b][hofstetter88-midi]]
+
+There are many kinds of MIDI messages. Common ones include Note On, Note Off, Program Change, and Control Change. They are analyzed in depth in [[id:387bc6b4-b1df-4265-8621-03bea3c586e7][rothstein92-midi-messages]] including how the bytes are constructed.

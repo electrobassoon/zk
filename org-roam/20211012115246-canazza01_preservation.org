@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       e4ce0537-83dc-4b6f-be74-5aba3ee571c5
+:END:
+#+title: canazza01-preservation
+#+filetags: :unique:longevity:
+
+Electroacoustic music is stored with magnetic storage instead of paper, it is more vulnerable to failure. Each piece is its own system, and if any element of that system disappears, so to does the ability to perform that piece.
+
+cite:canazza01_preser_elect_music

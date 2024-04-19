@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       D6DC0635-9D2D-4FFC-AF38-1725C1944094
+:END:
+#+title: Class 5 Notation
+* 
+** Slurs
+
+*** Different Meanings
+
+**** Winds and Brass
+
+**** Strings
+
+**** Voice
+*** s or select passage
+
+*** During input S and shift S
+
+*** Flipping with X
+
+*** Adjusting handles
+
+**** Resetting if you mess up
+
+****  Disable magnetic for cross staff
+
+*** Adjusting ends when extending over breaks
+
+** Articulations
+
+*** Except in two stemmed, it goes over the noteheads
+
+**** Or limited space below, and except the marcato (sibelius won't let you flip it)
+
+*** Double stemmed
+
+**** Each voice needs its own articulations, including unisons!
+
+**** Aritculations go to the stem side
+
+***** Don't move it closer than the end of the stem!
+
+*** During input and after input
+
+*** Clearing articulations
+
+*** Flip with X
+
+** Grace Notes
+
+*** Always stem up except double stemmed writing
+
+*** Slurs below notehead (sibelius won't do this automatically!)
+
+*** Independent slurs, even when slur is long
+
+*** Articulations where they are conspicuous (sibelius doesn't do this automatically!)
+
+*** Dynamics tend to go to main note unless there are a lot of grace notes
+
+** Beams
+
+*** Sibelius usually good on secondary beams, but not always (3/8 eg)
+
+*** Manually add a secondary beam for 4 64ths notes
+
+*** Global change
+
+*** Feathered Beams
+
+*** over rests
+
+
+

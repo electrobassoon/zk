@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       8c24e6b3-73dd-46fd-965b-43ceefc77e35
+:ROAM_REFS: cite:scott96_inter_elect_perfor_trans_compos
+:END:
+#+TITLE: scott96_inter_elect_perfor_trans_compos
+
+* Interactive Electroacoustic Performance Transactional Composition
+:PROPERTIES:
+:Custom_ID: scott96_inter_elect_perfor_trans_compos
+:URL: 
+:AUTHOR: Scott, C. L.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/scott96_inter_elect_perfor_trans_compos.pdf
+:NOTER_PAGE:
+:END:
+
+Not really useful, just describes his setup for an improvisational piece using max and acoustic performers. Probably not feasible anymore

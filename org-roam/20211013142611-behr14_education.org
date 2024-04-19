@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       810ad76e-6793-4690-811e-949ebcf534b9
+:END:
+#+title: behr14-education
+#+filetags: :curriculum:gear:
+
+Using gear is not part of the bassoon performance degree.
+
+When more composers write more pieces for this medium, it will necessitate a familiarity with the medium and the genre. (Rodgers)
+
+cite:behr14_elect_bassoon

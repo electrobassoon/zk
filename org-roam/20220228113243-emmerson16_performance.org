@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       23094d6b-2a56-42f7-9829-f34adab4f00f
+:END:
+#+title: emmerson16-performance
+#+filetags: :livemusic:acousmatic:
+Electric technology ruptered the traditional music model. Mixed music repairs that rupture.
+
+In mixed electroacoustic music, the causal link can be broken. Sounds don't seem to come from the instrument itself. The instrument becomes acousmatic. Sometimes this results in "super-instruments" that can do much more than the traditional instrument through the acousmatic accompaniment.
+
+In some pieces, the speakers relationship is easily tied to gestures of performance, like delays, filters, etc. This is true as trends have moved towards real time interaction and signal processing. There seems to be a desire for live aspects of music making. Now it is possible to play the loudspeaker, where the speaker becaomes part of the performance, not a representation of a performance. Interactive technologies bring back creativity and authorship.
+
+[[cite:&emmerson16_losin]]

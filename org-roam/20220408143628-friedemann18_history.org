@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a7267a64-294c-4839-b6d6-dfd8cb35f585
+:END:
+#+title: friedemann18-history
+
+There are three classifications by Ungeheuer of live electronic music are firstly performer and tape, second that which allows a performer to surpass physical limitations, and third interaction between different agents. These are more or less chronological and also line up with Emmerson's three paradigms of development. First was the miniaturization of circuits that allowed signal processing. Second was the revolution of personal computers and the development of midi for processing events in real time. Last was the jump in processing power of computers and laptops to allow real time processing.
+
+[[cite:&friedemann18_introd]]

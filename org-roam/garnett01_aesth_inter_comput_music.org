@@ -1,0 +1,171 @@
+:PROPERTIES:
+:ID:       406da2db-60f7-49c2-80bf-a5070b779346
+:ROAM_REFS: cite:garnett01_aesth_inter_comput_music
+:END:
+#+title: garnett01_aesth_inter_comput_music
+
+* The Aesthetics of Interactive Computer Music
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/garnett01_aesth_inter_comput_music.pdf
+:END:
+
+** Performance Oriented Music
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.3181286549707602)
+:END:
+Interactive computer music a sub-genre of performance-oriented computer music. This genre requires at least one live performer joined with electronics.
+
+The interactive in this article is narrowed to the performer having some kind of control over the electronics or electronics that affect the performer's sound
+
+** Aesthetic
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.5368421052631579)
+:END:
+An aesthetic is the artistic valorization in a work of art.
+
+** Interaction
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.783625730994152)
+:END:
+Either the performer affects the computer's output, or the computer affects the performer's output.
+
+** Domain
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.6561403508771929)
+:END:
+At least requires that the performer has some control over timing, (which basically excludes things like pushing play to start a recording)
+
+** Transparency
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.2982456140350877)
+:END:
+As software and hardware advance one will feel less like one is working with a computer and just simply working.
+
+** Reconnecting with past traditions
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.5964912280701754)
+:END:
+This will be a theme through the article.
+
+** What the Human Performer Brings to Computer Music
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.6842105263157895)
+:END:
+
+Inclusion of a live performer re-introduces into computer music elements that had been almost entirely removed from computer music in recent past.
+
+One of these is the element of human performance and human cognition. Computer music has tended towards abstraction and objectivity instead of the human.
+
+** Gestural Nuance
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.743859649122807)
+:END:
+Rubato, subtleties of articulation and phrasing and dynamics come with the human performer. It is difficult in non interactive computer music to achieve these things. Instead the focus has been on extreme contrast gestures, or timbral development. It's not impossible to have these, but because of the difficulty to create them there is a tendency to avoid them.
+
+** Physical and Cognitive Constraints
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.35789473684210527)
+:END:
+Constraint that a work be performable. It means the performance gestures must be cognizable.
+
+** Interpretation
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.4175438596491228)
+:END:
+Invariability of a human performer brings about interpretation.
+
+Each performance is a version of the work, not the work itself
+
+** Change
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.45730994152046783)
+:END:
+This interpretation allows a work to grow and change to meet changing aesthetic values
+
+** Flexibility and survivability
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.4456140350877193)
+:END:
+The flexibility of performance has perhaps allowed classical music to survive for over 250 years. 
+
+Recordings and mass marketing start performers works against this.
+
+The ability of interactive computer music to evolve to cultural changes is a strength not a weakness.
+
+These come just by the nature of introducing a human performer to a work.
+** Modernism and Humanism
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.2584795321637427)
+:END:
+Obsession with "making it new"
+Constant building systems, because it is taboo to do something someone else has already done.
+** Algorithmic Tape Music
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.743859649122807)
+:END:
+Most objectivist performance. No human performer or composer conveying anything.
+
+A bit of an ideological extreme
+
+The counter to the extreme precision and formalism is that it tends to be further and further from what people want to endure in a concert. It does not advance knowledge, it is too simplistic to stand alone as art.
+
+Tape music with a composer has been more successful but is still missing something.
+
+In his opinion, the gains of new material, timbre, and modes of listening don't compensate for what is lost.
+** Lost in tape music
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.743859649122807)
+:END:
+Over-emphasis on precision, that precision is and end not a means to an end.
+
+Complexity without import, detail without result
+
+Loss of dynamic life. Even listening to the same recording of Beethoven's 9th, there is a possibility of a new performance or new recording bring life to it. Not so in electronic music
+
+Fixed in so many ways you can't give a significant new interpretation
+
+The ultimate museumification of art.
+
+It is out of touch with what is needed to rejuvinate art, of being harmonious with the needs of the times
+
+The time to objectify and formalize is past. We need a new aesthetic goal.
+** De-museumize
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.21871345029239764)
+:END:
+It is time to popularize music again. That doesn't mean dumb it down to the banal of popular music, but to bring true artistic achievment to present culture. Otherwise we risk the death of art music.
+
+Bringing humans into computer music can help break the paradigm of formalism	
+** What the Computer Brings to Human Performance
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.5847953216374269)
+:END:
+Computer becomes extension of performer as a "cyber performer"
+
+It extends the performers skills that they already have to create a whole new instrument.
+
+Physical gestures of the performer can now effect the sound
+
+Possibilities are endless for different kinds of music
+** Music performance as shared human endeavor
+:PROPERTIES:
+:NOTER_PAGE: (12 . 0.8233918128654971)
+:END:
+Describes an electroacoustic music concert where the hall was darkened. Audience closed eyes or stared at the mixer LEDs. The audience became detached, isolated, and emotionally removed. When was the last standing ovation for electroacoustic music? It loses the aspect of the audience experiencing an event together, a shared cultural community.
+** Uniting with the past
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.2783625730994152)
+:END:
+Just like opera in 1600 was a result of reawakened interest in the ancient world, interactive electroacoustic music takes advantage of the ideas and technology of today and unites them with the past.
+** Human vs tech
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.35789473684210527)
+:END:
+Instead of human vs tech where we know the tech is faster, louder, etc., use it without the dichotomy to join the power of the machine to the nuance and subjective control of the human performer.
+
+Invent more human, more organic music instead of the sound of the machine. Instead of it being the inhuman other, let it be an extension to performance. 
+** Ignore Tech
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.5318039624608968)
+:END:
+=One cannot turn one's back on the most significant technological breakthrough in history without risking irrelevance to that history. One cannot avoid taking advantage of the ubiquity of this technological marvel because that very ubiquity renders all other technologies in some sense less significant. One must take computers into account, and take them to task, because it is a response to the technology of our time, to the situation of our time. To make music with the technology of our time, and specifically the computer, poses a tremendous challenge for the artist. To address this challenge, in itself, will help keep music alive and significant.=

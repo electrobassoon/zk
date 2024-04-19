@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       87134bed-c60b-419f-8feb-e681a90fb9bb
+:END:
+#+title: wetzel06-performer-responsibility
+#+filetags: :survival:performer:responsibility:obsolete:
+
+Performers have a large responsibility for the survival of electroacoustic music. As technology becomes obsolete, original performers and composers pass on, more technically skilled performers will be needed to preserve electroacoustic works. Another reason for inclusion in the curriculum, so performers are more familiar with the work and can gain skills for restoration of older works.
+
+cite:wetzel06_model_conser_inter_elect_reper

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9b6234ff-457c-48b5-bd72-b30a2501e4f7
+:END:
+#+title: garnett01-computer-to-human
+
+Computers can create a cymber performer. It expands the capabilities of the human performer beyond their physical limitations. Physical gestures can now control the sound.
+
+It is time to play with the machine instead of against it.
+
+[[cite:&garnett01_aesth_inter_comput_music]]

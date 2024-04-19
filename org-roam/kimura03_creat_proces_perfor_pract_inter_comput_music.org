@@ -1,0 +1,62 @@
+:PROPERTIES:
+:ID:       2585d737-231d-460c-ad63-208fdaa14b97
+:ROAM_REFS: cite:kimura03_creat_proces_perfor_pract_inter_comput_music
+:END:
+#+TITLE: kimura03_creat_proces_perfor_pract_inter_comput_music: Creative process and performance practice of interactive computer music: a performer's tale
+
+* Creative process and performance practice of interactive computer music: a performer's tale
+:PROPERTIES:
+:Custom_ID: kimura03_creat_proces_perfor_pract_inter_comput_music
+:URLcite:scott96_inter_elect_perfor_trans_compos: 
+:AUTHOR: Kimura, M.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/kimura03_creat_proces_perfor_pract_inter_comput_music.pdf
+:NOTER_PAGE:
+:END:
+** Foot pedal
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.6843455945252352)
+   :END:
+Foot peadals are a bit of a giveaway. For some instruments it can have performance implications, like a violinst turning their head. But the audience sees the pedal and then hears the change, instead of being shocked by the change.
+** One touch
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.7570573139435415)
+   :END:
+She strives to have the least setup in front of an audience as possible, writing patches that make it easier to do that. She also has a computer generate a 440 sin wave as a disguised sound check to tune the instrument. She "tunes" the computer as well.
+** George Lewis
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.3781009409751925)
+   :END:
+He claims that having the "magic button" reduces the communication between performer and program, and removes the flexibility of the performer (odd since most people talk about how being able to trigger the patch gives more freedom. He is talking about an improvisational system though)
+** External player
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.6398631308810949)
+   :END:
+She also doesn't like having someone controlling the computer. It looks like a duo that is not a duo. The other person is just there to fill a technical role because the system is not advanced enough to go without them. 
+** Flexible Time
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.6689478186484175)
+   :END:
+Uses a flexible time system that triggers will activate within a certain interval. 
+** Tape
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.8725406330196749)
+   :END:
+Tape is worse, that's too restricting
+** Acoustics
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.3781009409751925)
+   :END:
+Many performance spaces are not acoustically designed for interactive electroacoustic music. She gives and example of adjustments she had to make to her eq just by changing spaces.
+** Intonation
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.43627031650983744)
+   :END:
+Computers are often in equal temperament, and create intonation issues for performers. A truly interactive system should be able to track pitch and adjust tuning as much as we do when we play with piano. The more simple sound waves tend to highlight intonation problems more than a piano does.
+** Questions for Comp
+   :PROPERTIES:
+   :NOTER_PAGE: (8 . 0.15996578272027373)
+   :END:
+When and how do you want to start playing or interacting?
+When and how do you want to end the piece or the interaction?
+When and how do you know you have had 'enough' of one section, and how do you measure this? By numbers of notes, repititions, or increasing amplitude, etc.
+How do you define which section should be the climax or the new material?

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b07f71bd-431d-4ddb-adc8-3e635668679a
+:END:
+#+title: wetzel06-restoration
+#+filetags: :restoration:model:analysis:reproduction:performance:
+
+Wetzel proposes a three step model of analysis, reproduction, and performance for the renewal and preservation of electroacoustic music. The analysis needs to be as abstract and machine-independent as possible, since existing technology has a short lifespan. It should contain details about human-machine interaction, controls, functions, effects, and more to give an accurate picture for reconstruction. The score, recordings, original technology, and post-compositional commentary can all be used as sources for this analysis.
+
+Reproducing the system with new technology can be tricky, but if the analysis is done well should be possible. A useful experiment can be recreating the system in multiple forms of technology.
+
+Performance informs changes and nuances needed in the reproduction.
+
+cite:wetzel06_model_conser_inter_elect_reper

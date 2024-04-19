@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cba4a75c-ad29-4642-8e68-ebe6b2359549
+:END:
+#+title: waters16_economy
+#+filetags: :funding:
+
+Electroacoustic music is being discouraged in the way of funding. It is seen as resource and time intensive, and "inefficient." Thus, it is not being funded the same way as other types of music. 
+
+cite:waters16_beyon_acous

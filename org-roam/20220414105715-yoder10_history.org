@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       dc24ee77-11e4-4f93-96b7-b5e1160a0c7d
+:END:
+#+title: yoder10-history
+
+Early pioneers of electronic music were Varese, Busoni, and the Italian Futurists. They were mostly concerned with timbre, and included noise, nature sounds, etc.
+
+From here two schools emerged: the French musique concrete that created music from non musical sounds, and the German school that dealt with sound synthesis and processing sound. Spatialization techniques emerged in the 60s.
+
+By this point, many composers found the performance of tape music lacking, and started creating works for a musician to play with the tape. 
+
+Computers made it possible to manipulate sound, but were initially large, expensive, and difficult to use. In the 80s personal computers started to become an option. MIDI came and made communication between devices easier. Soon, MIDI and computers combined to create programs like Cypher, Kyma, and Max.
+
+By 1997, Max added MSP, and realtime processing was more feasible.
+
+[[cite:&yoder10_perfor_pract_inter_music_clarin]]

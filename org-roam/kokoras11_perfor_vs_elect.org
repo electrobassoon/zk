@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       6484bfd6-25db-46a7-8a35-6983f3dfa8dc
+:ROAM_REFS: cite:kokoras11_perfor_vs_elect
+:END:
+#+TITLE: kokoras11_perfor_vs_elect: Performer vs electronics: performing music for instrument and electronics
+- keywords :: 
+
+* Performer vs electronics: performing music for instrument and electronics
+:PROPERTIES:
+:Custom_ID: kokoras11_perfor_vs_elect
+:URL: 
+:AUTHOR: Kokoras, P.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/kokoras11_perfor_vs_elect.pdf
+:NOTER_PAGE:
+:END:
+** Education
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.7)
+   :END:
+Education had not offered modules on music tech and sound engineering
+
+Performance material did not help enough
+** Information
+   :PROPERTIES:
+   :NOTER_PAGE: 3
+   :END:
+The more complete the range of inofrmation the more confident the composer and performer will be.
+Composers responsibility to keep updated

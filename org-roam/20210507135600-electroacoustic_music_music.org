@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       edf7afd4-a938-48c7-a5a2-4400a2136b33
+:END:
+#+title: Electroacoustic Music
+#+filetags: :electroacoustic:
+
+[[id:34fb169f-e75d-466a-9e84-78da7d88fbd8][Interactive Music]] 
+
+[[id:9267f2f9-e67c-4cba-af0a-f2414c6d3514][History of Electroacoustic Music]]
+
+[[id:8da14155-46b6-44e1-8d33-dbcc3adba4a5][Performing Electroacoustic Music]]
+
+[[id:e922a725-d03c-4f42-8d89-024a30d8fa41][Inclusion in Curriculum]]
+
+[[id:6c19d542-f8f0-4a6e-9630-8a5c2468ecb9][Difficulties in Electroacoustic Performance]]
+
+[[id:598bb59f-e99a-4782-b54c-d62363f41675][Hardware and Software]] 
+
+[[id:49b9324e-151d-4df1-a824-a7a9ba7a3757][Education for Electroacoustic Music]]
+
+[[id:667c4672-1735-4fc3-bb86-1dfa96b41242][Dissertation]]

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       6e5ae75d-944b-4152-adc0-bc4f8145493b
+:END:
+#+title: behr14-gear
+#+filetags: :gear:pedals:distortion:compression:flanger:phaser:chorus:reverb:delay:looper:
+Overview of different pedal effects and how they work with the bassoon. Also discussion of microphones versus bocals.
+
+The bassoon has a more complex sound than a guitar, and so effects may behave a little differently than on a guitar or synth.
+
+Distortion boosts the signal until it clips, and boosts the overtones. The bassoon has more complex overtones, so it can be oversaturated.
+
+Compression usually dampens the beginning of the notes and boosts the sustain portion of the envelope.
+
+Flangers, phaser, and chorus add depth, dimension, and movement to the sound.
+
+Reverb and delay add echoes. Loopers give overdubbing capabilites which gives the monophonic bassoon more options.
+
+Microphones capture the sound better, but restrict movement and can have feedback issues depending on the ensemble.
+
+Electronic bocals have a different tone, but pick up the whole instrument better.
+
+cite:behr14_elect_bassoon

@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       2b999fd2-d3ff-4eb4-9d4a-7077aa02f030
+:ROAM_REFS: cite:dixon06_echos_body
+:END:
+#+TITLE: dixon06_echos_body
+
+* Echo's body: play and representation in interactive music software
+:PROPERTIES:
+:Custom_ID: dixon06_echos_body
+:URL: 
+:AUTHOR: Dixon, M.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/dixon06_echos_body.pdf
+:NOTER_PAGE:
+:END:
+** Truth
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.7146302250803859)
+:END:
+=Truth requires of us that we look deeply into the phenomenon, for what is originary in it. And we encounter art only in the fullness of its truth. There is no consideration of art outside the truth since we go to art, we attend to it, we make and perform it, precisely because we seek what is true in it. The posture of detachment from the phenomenon ... affords only a false clarity ...; an engagement, without which art, in any case, emaciates to nothing.=
+** Definition of art
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.21864951768488747)
+:END:
+=work of art as /play transformed into structure/=
+** Play
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.3517241379310345)
+   :END:
+Interactive music technology brings play back into a field that was antithetical to play, e.g. the electronic music of the past that was very labored and calculated to make its sound.
+** Max Patch
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.5233118971061094)
+:END:
+A MAX/MSP patch with decaying delays becomes play as we realize that it responds to our input.
+** Changes of Play
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.31430868167202575)
+:END:
+Play brings about the "emotional states of tension, elation, and disappointment" within the closed system of play.
+
+Quote of Gadamer =The attraction of a game, the fascination that it exerts, consists precisely in the fact that the game masters the players.... What holds the player in its spell, draws him into play, and keeps him there is the game itself= and =The player experiences the game as a reality that surpasses him=
+** Movement
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.2459807073954984)
+:END:
+Play has a 'to-and-fro', back and forth sort of movement. (otherwise a game is boring because one side has all the movement) This also means that games are not played alone. There has to be something to play /with/, whether that's an opponent, a deck or something else. This is part of what seals the game into its own world.
+** Max Patch Revisited
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.6599678456591641)
+:END:
+This back and forth is easily seen in the delay patch. The patch asks us to discover how to play it. We try different intervals, aligning things differently, as we play with the patch.
+** Play of the instrument
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.3279742765273312)
+:END:
+Musical instruments have all of the aspects of play like the patch does. The play is double by the interactive software.
+
+=Certainly, playing a musical instrument has all the seriousness of play (there is clearly nothing idle or non-serious in the playing of a musical instrument); the demands they make on us are in excess of anything we might encounter in everyday life. And we do not play instruments to escape difficulty, but because we crave the tremendous task they set us.=
+
+Reverb gives life to our sound, and we see the 'reality that surpasses us'
+** Representation
+:PROPERTIES:
+:NOTER_PAGE: (6 . 0.13665594855305466)
+:END:
+Art begins when the (natural?) presentation is shown to a spectator.
+
+For art, mimesis is necessary. We recognize in a play of Hamlet that the actors are not actually Hamlet going mad, but they represent Hamlet.
+
+=Imitation is a genuine knowledge insofar as the thing imitated is understood in its essence=
+** Mask
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.40197044334975374)
+   :END:
+Is a microphone a mask? What about amplification? Is it mimetic? Could it be a distortion that represents truth?
+** Work
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.5643086816720257)
+:END:
+Work is repeatable and exists outside of the performance act and outside of the players.
+
+A work of art sublates the world (meaning that it negates the real world, but preserves aspects of it I think?). Reality is what is untransformed, and art raises it to its truth.
+** Improvisation Piece
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.48484848484848486)
+:END:
+In a purely improvisational piece, there is no closed work. Instead the drama is trying to present the performer, finding their way through the sounds of the software. It uncovers the /true/.
+** Truth
+:PROPERTIES:
+:NOTER_PAGE: (9 . 0.3939393939393939)
+:END:
+Technology can distract us from the truth of experiences, can also disclose them, albeit with a gentler voice.

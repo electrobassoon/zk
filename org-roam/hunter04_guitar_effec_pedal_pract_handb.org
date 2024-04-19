@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       ba045b4f-0f94-4b91-b180-a1c66e87d8ed
+:ROAM_REFS: cite:hunter04_guitar_effec_pedal_pract_handb
+:END:
+#+title: hunter04_guitar_effec_pedal_pract_handb
+
+* Chapter 2 Effects Explained
+** Page 20
+4 broad headings
+ 1) Boost, compression, distortion, fuzz
+ 2) modulation
+ 3) Echo & Delay
+ 4) Filtering and EQ
+
+*** Boost Compression Distortion & Fuzz
+usually one of the first pedals that people own, as it is the easiest and change to the pure unaffected sound
+** page 23
+*** Boosters
+Preamp boosters often called linear, clean, or distortion free boosters
+Purpose is to increase the signal, not change the frequency range or change tone in any way
+most use it to get the tube amp distortion sound at lower levels
+** page 24
+*** Compressors
+smooth the attack and decay by softeining the front edge and boosting the tail
+not always super apparent in the sound, but some again use it to change what the tube amp sounds like
+some compressors thicken the tone a little bit
+** page 25
+overuse will take out all the dynamics as everything is squished together
+*** Overdrives
+** page 26
+overdrive boosts the signal to get the tube amp to distort, or emulates an overdriven tube amp
+the difference between overdrive and distortions is how it treats the signal when it clips. Overdrive is a soft clip and distortion is a hard clip
+sound is 'natural' 'warm' and 'tubey' because of symettrical clipping and reducing high harmonics
+** page 27
+designed to be used with a tube amp, and so can sound cold without one
+*** Distortions
+serious adulteration of the guitar's signal
+** page 28
+may sound more like it's supposed to going straight into a mixer
+*** Fuzz
+** page 29
+puts a distrotion through the entire range, affects the sound the most, but can be retain more elements of dynamics, touch, feel and the core tonality
+** page 30
+*** Modulation
+includes pahsing, flanging, chorus, vibrato, tremolo, rotary speaker effects, and octave dividers
+*** Phasing
+copy the sound and make one signal be out of phase with the original. When they are 180 degrees out of phase they cancel each other out and you get a notch. It has a swooshing sound
+generally 4 stages of phasing, so 0 to 720 degrees with 3 peaks and 2 notches
+** page 32
+*** Flanging
+flangers are similar to phasers, but try to impose more control over the notches in the phase relationship. They can have hundreds of stages to the phasing
+** page 33
+often less used than a phaser because it's a bit much. Mostly used in background stuff it claims
+*** Chorus
+really a delay, but sonically it's to change the tone so it fits in modulation
+like a flanger but changes where the modulation is happening to a specific spectrum that eliminates most of the swooshing
+best heard perhaps in stereo
+** page 34
+digital chorus copies the signal, delays and pitch modulates just a little bit so it sounds like different players
+*** Vibrato & Tremolo
+vibrato wavers the sound a little above and below. It is best used subtly
+tremelo is rapid on off states that alternate
+** page 35
+*** Octave Divider
+** page 36
+adds extra images of a note, doesn't work as well with harmonics or intervals
+*** Ring Modulators
+Takes the original sound and multiplies with a carrier signal. This could be internally controlled or come from another source
+** page 37
+the result is mathematical, with no harmonic relationship to the orinigal sound. Some pedals take a little of the original to mix back in with it to keep some of the sound.
+*** Echo & Delay
+Really the same thing used differnetly
+*** Analog Delay
+** page 38
+input to output pin with anything from 68 to 4096 stages
+*** Digital Delay
+made it possible to have longer delay times
+most decided after the novelty that there was not much use for delays longer than 2 seconds
+** page 39
+*** Reverb
+approximates the sound when played in an empty reflective room
+most powerful digital reverbs are rack units
+** page 40
+*** Filtering and EQ
+filtering certain frequencies of the sound for emotive effects
+*** Wah wah
+wah circuit is a sweepiable peaking filter, it's a bandpass filter that adds in other notes as the pedal is pressed towards the peak, which gives the wah effect
+** page 42
+*** Auto wah
+enevelope follower, or voltage controlled filter, or autowah
+Makes the initial attack, the picking (or tonguing) affect the swoop of the filter
+Soft attacks will sound bassy and muted, and loud attacks get the wah sound
+* Chapter 5 Tips and Tricks
+** page 139
+*** Standard pedal order
+Filters and EQs first, boosters and overdrives second, modulation third, and delays fourth
+a common swap is to flip the middle two
+** page 140
+wah wah likes to go first

@@ -1,0 +1,49 @@
+ :PROPERTIES:
+:ID:       3efc4fa0-0576-48d6-9652-ba9e22671e1a
+:ROAM_REFS: cite:wetzel06_model_conser_inter_elect_reper
+:END:
+#+TITLE: wetzel06_model_conser_inter_elect_reper: A model for the conservation of interactive electroacoustic repertoire: analysis, reconstruction, and performance in the face of technological obsolescence
+
+* A model for the conservation of interactive electroacoustic repertoire: analysis, reconstruction, and performance in the face of technological obsolescence
+:PROPERTIES:
+:Custom_ID: wetzel06_model_conser_inter_elect_reper
+:URL: 
+:AUTHOR: Wetzel, D. B.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/wetzel06_model_conser_inter_elect_reper.pdf
+:NOTER_PAGE:
+:END:
+** Equipment
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.47923322683706066)
+   :END:
+Many pieces require expensive or rare equipment, and are ignored by performers because of it. Separating the original instrumentation will be necessary as equipment, and the composers themselves, are unavailable if the music is to survive.
+** Model
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.472620050547599)
+   :END:
+Model to renew outdated works is Analysis, trying to be as machine-neutral as possible, reconstruction with new technology, and performance	
+** Analysis Sources
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.3866891322662173)
+   :END:
+Sources for analysis are scores, using the original technology, recordings, updated versions of old software, and post-compositional commentary either from composers or original performers.
+** Analysis
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.11457455770850884)
+   :END:
+The analysis has to have detailed information about the human-machine interactions, controls, functions, effects, etc. of the whole system so that it can be reconstructed. While useful for musicologists, it is more useful for performers
+** Life of EQ
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.2864363942712721)
+   :END:
+Quote of others. "The patches must be documented in an abstract form or in other terms in an independent manner by the system used, since the machines have an extremely brief life.
+** Conserving Rep
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.10025273799494523)
+   :END:
+Another quote of Canazza and Vidolin. Says that the amount of data to be saved is a big problem. Probably needs an instution devoted to it.
+** Responsibility of performers
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.3150800336983993)
+   :END:
+Performers again have a huge repsonsibility for the survival of the repertoire, not just in performing the original music, but also in preserving it and updating rep with obsolete technology. We need performers with technical skills, and insightful musical judgement to preserve this body of repertoire.

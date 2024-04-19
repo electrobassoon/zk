@@ -1,0 +1,254 @@
+:PROPERTIES:
+:ID:       8755211e-0d0b-444b-b59f-ee51f75a5b9b
+:ROAM_REFS: cite:enns17_towar_self_suffic_approac_elect_acous_clarin
+:END:
+#+title: enns17_towar_self_suffic_approac_elect_acous_clarin
+
+* Toward a Self-Sufficient Approach for the  Electronic-Acoustic Clarinetist
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/enns17_towar_self_suffic_approac_electr_acous_clarin.pdf
+:END:
+
+** musique mixte                                                      :terms:
+:PROPERTIES:
+:NOTER_PAGE: (8 . 0.7545691906005222)
+:END:
+Various terms for musique mixte in English
+
+** Education state                                                :education:
+:PROPERTIES:
+:NOTER_PAGE: (10 . 0.08877284595300261)
+:END:
+Quote from Cort Lippe. "It may come as a surprise to some that presently it is still possible for performers, musicologists, and composers to complete their secondary education through the Ph.D. without ever coming into contact with electronic music."
+
+Without exposure and education, the tech may be beyond the capabilities of most performers
+
+** Pedagogical Goals
+:PROPERTIES:
+:NOTER_PAGE: (11 . 0.7545691906005222)
+:END:
+technology, equipment, notation, listening, interaction, intonation, balance, analysis, musician's health
+
+** Professional Musicians                                         :education:
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.17754569190600522)
+:END:
+Some reasons professional electro-acoustic musicians may not be the best resource
+
+1) Demanding rehearsal and performance schedules
+2) Teachers teach what they were taught, and because of how new it is, it doesn't make it into their teaching
+3) Limited time in private lessons and prioritizing fundamental skills
+4) Teacher doesn't have the skills
+5) Teacher doesn't like the repertoire
+6) In lessons the teacher focuses on the instrumental part instead of a holistic approach
+
+** Assistants
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.24412532637075715)
+:END:
+IRCAM is almost a utopia with the teams of sound engineers and designers. In the real world many performers have to take control of their own electronics. 
+
+** Pedagogical Challenges
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.13315926892950392)
+:END:
+** Technology
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.15535248041775457)
+:END:
+
+
+Tech is the most challenging part and time consuming, and students have the least experience. Same with the professors.
+Hardware: laptops, audio interfaces, foot pedals, cables, microphones, stage monitors, loud speakers
+Software: iTunes, Max/MSP
+All need to be used in rehearsal and performance setups
+
+It may be easier to start a student with pre-recorded electronics
+
+Tape pieces can be practiced anywhere just using an ipod and headphones
+** tech knowledge
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.6879895561357702)
+:END:
+contrasting Yoder, says that not having knowledge of tech will hinder the independent performer
+** Score
+:PROPERTIES:
+:NOTER_PAGE: (20 . 0.6436031331592689)
+:END:
+consult the score to see if the composer has given specific instructions
+** stage map
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.35509138381201044)
+:END:
+Create a stage map for each piece.Helps to identify problems with hardware as well as to help the stage assistants. It also works as a checklist.
+
+There are added responsibilities for self sufficient musicians, mostly around equipment. A missing cable or dead battery can ruin a performance	
+** Notation
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.17754569190600522)
+:END:
+Each piece is different and needs a different approach to analysis
+** Listening
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.39947780678851175)
+:END:
+Students need additional listening skills when sound sources are ambiguous
+** Listen in different places
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.577023498694517)
+:END:
+Musicians need to learn how balance works in a variety of rooms
+** Interaction
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.19973890339425587)
+:END:
+Difference between the electronics interacting vs the performer interacting with electronics
+** Tape
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.42167101827676234)
+:END:
+Contrasting view that the tape is not a bad performer (perhaps a bad accompanist is different) It is similar to playing in an ensemble where most things are dictated
+** Tempo
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.15535248041775457)
+:END:
+Can be hard because of the tempo and students being unable to match it. Recommends using software to adjust the tempo for practice and gradually make it to performance tempo
+** Live Electronics
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.46605744125326365)
+:END:
+Live electronics may require more sophistication and be difficult for performers without technical knowledge
+** Intonation
+:PROPERTIES:
+:NOTER_PAGE: (27 . 0.15535248041775457)
+:END:
+Intonation can be an issue especially with fixed media compositions. Most composers don't indicate the temperament in the score, which can cause confusion and difficulty for performers 
+** Balance
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.31070496083550914)
+:END:
+Performers often are not aware of balance and EQ techniques
+
+Acoustics will be different in rehearsal rooms and concert halls. Balance between parts and EQ will always need to be addressed
+
+Dress rehearsals often happen the day of performance because of setting up the equipment
+** Independent Performers
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.577023498694517)
+:END:
+Not having a sound person creates several issues.
+1) Balance is almost impossible to determine from the stage
+2) It's almost impossible to make changes during the performance
+** Volume Pedals
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.2219321148825065)
+:END:
+Volume pedals can be used to adjust balance during a performance
+** Analysis
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.3328981723237598)
+:END:
+Software called Eanalysis can be helpful without a dedicated score of the electronics   
+** Musician's Health
+:PROPERTIES:
+:NOTER_PAGE: (32 . 0.5326370757180157)
+:END:
+Clip on mics increase the weight of the instrument that can have physical effects
+Standing still with a mic on a stand also can lead to tension
+Transportation of equipment can be an issue
+** Hearing Damage
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.3328981723237598)
+:END:
+Loudspeaker feedback and monitors is common and can be harmful.
+Self sufficient performers should have earplugs (like when you can't figure things out?!?!) to protect themselves in an emergency
+** Self-Sufficient Approach
+:PROPERTIES:
+:NOTER_PAGE: (34 . 0.6879895561357702)
+:END:
+1) Execute set-ups for their own practice and performance
+2) Operate electronics during a performance
+3) Teach students basic hardware and software setups
+4) Engage in discourse with composers and technicians
+
+Performers should not feel powerless during a concert if things malfunction
+** tours
+:PROPERTIES:
+:NOTER_PAGE: (35 . 0.443864229765013)
+:END:
+taking the composer along is not always possible on a tour, so the performer should be able to handle things (Errante)
+** Purchasing Equipment
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.5992167101827676)
+:END:
+It is usually better to purchase your own equipment if possible. Institutions may have limitations on practice time or access. It also helps a performer to be self-sufficient in their equipment. They can also teach with it.
+** Learning a patch
+:PROPERTIES:
+:NOTER_PAGE: (51 . 0.24412532637075715)
+:END:
+It may help to have someone who can help you decipher a patch in a self-sufficient model
+** Learning a piece
+:PROPERTIES:
+:NOTER_PAGE: (54 . 0.08877284595300261)
+:END:
+Get the score and all the materials
+Familiarize the score layout, timings, and sequence of musical events
+** Learning electronics
+:PROPERTIES:
+:NOTER_PAGE: (55 . 0.35509138381201044)
+:END:
+Listening to tape parts, creating max patches, practicing setting up hardware are all part of practice time.
+
+collaborate when creating a max patch
+test the patch on different computers
+practice with the patch
+incorporate the patch into regular practice
+** Pedagogical recommendations
+:PROPERTIES:
+:NOTER_PAGE: (55 . 0.6697127937336814)
+:END:
+create a study score - the student should make a clarinet part and a tape part
+** more pedagogical recommendations
+:PROPERTIES:
+:NOTER_PAGE: (56 . 0.06657963446475196)
+:END:
+study the graphic notation - have student compose with graphic notation
+** Roles
+:PROPERTIES:
+:NOTER_PAGE: (98 . 0.7362924281984334)
+:END:
+In the self-sufficient approach attention will be split between instrumentalist and technician
+** Alex Shapiro quote
+:PROPERTIES:
+:NOTER_PAGE: (99 . 0.443864229765013)
+:END:
+Letting go of one's knowledge of how things have always been is among the most important techniques for successful paradigm shifting.
+The musician will likely need to be on stage before the concert, at intermission, etc. Instead of waiting backstage
+** Stage
+:PROPERTIES:
+:NOTER_PAGE: (100 . 0.13315926892950392)
+:END:
+Performers should plan to stay on stage to minimize the damaging equipment, extra sound bursts, etc.
+** Benefits
+:PROPERTIES:
+:NOTER_PAGE: (100 . 0.510443864229765)
+:END:
+More independent and marketable
+More convient performing (debatable)
+Perform in any venue
+Decreased reliance on technicians and musical assistants and engineers
+Long term cost efficiency
+Confidence and consistency in performance
+
+Also transfers to the teaching studio to help students
+** Disadvantages
+:PROPERTIES:
+:NOTER_PAGE: (101 . 0.17754569190600522)
+:END:
+Lots of time at the beginning to learn equipment etc.
+Up front costs of eq
+Transportation difficulties
+Planning and organization for equipment
+Responsibility for damage and theft
+Obsolete technology that needs more purchases
+Lack of programming knowledge needs more support from music technicians

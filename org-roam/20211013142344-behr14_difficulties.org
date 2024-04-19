@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d757a1ba-c2e7-48ff-b624-ddf71db77ac9
+:END:
+#+title: behr14-difficulties
+#+filetags: :curriculum:monitor:balance:pedals:
+
+Using foot pedals is not part of the performance degree, and takes time and coordination to play. Not being able to hear the electronics is another difficulty, frequently solved by monitors. But the balance with those is another issue.
+
+Dynamics through a bocal (Hanson)
+
+cite:behr14_elect_bassoon

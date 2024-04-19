@@ -1,0 +1,113 @@
+:PROPERTIES:
+:ID:       308ae880-35b4-4546-a787-2c4b24ec214d
+:ROAM_REFS: cite:perea98_elect_acous_music
+:END:
+#+title: perea98_elect_acous_music
+
+* Electro-acoustic Music 
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/perea98_electr_acous_music.pdf
+:END:
+** Tech Developments
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.6573333333333333)
+:END:
+** Teleharmonium
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.13765182186234817)
+:END:
+The first musical instrument producing noise by manipulating an electric current (1906) It used a piano style keyboard to control it, which may have influenced future synthesizers
+** Theremin
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.6363636363636364)
+:END:
+Created in 1920. It used antenna-like rods to maipulate the pitch and amplitude.
+** Ondes Martenot
+:PROPERTIES:
+:NOTER_PAGE: (27 . 0.2931034482758621)
+:END:
+1928 created an instrument with a keyboard like interface and a sliding ribbon for glissando. Got a little more attention from classical composers
+** Givelet
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.6599732262382866)
+:END:
+Forerunner of the Hammond organ in 1929. One of the first electronic instruments that could do chords. Also could be preprogrammed.
+** Magnetophon
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.544)
+:END:
+1935 first instrument to use magnetic tape. But lacked a visual representation
+** Vocoder
+:PROPERTIES:
+:NOTER_PAGE: (32 . 0.11213720316622691)
+:END:
+1948 gave a graphic representation. Used filters.
+** RCA Synthesizer
+:PROPERTIES:
+:NOTER_PAGE: (33 . 0.6136363636363636)
+:END:
+1956 generated sound with controllers, filters, modulators, and oscillators. Wasn't portable and was expensive. Columbia-Princeton only ones to buy it at $175,000.
+** Voltage-controlled synths
+:PROPERTIES:
+:NOTER_PAGE: (35 . 0.4753661784287616)
+:END:
+1964 transistors could replace vaccuum tubes and the Moog synth. Much cheaper and smaller.
+** Semi-conductor integrated circuits
+:PROPERTIES:
+:NOTER_PAGE: (39 . 0.13618157543391188)
+:END:
+1970s semi-conductor integrated circuits made computers smaller and cheaper. Could hold 100,000 transistors.
+** Personal Computer
+:PROPERTIES:
+:NOTER_PAGE: (40 . 0.5178807947019868)
+:END:
+Processing power improved, cost, and size.
+** Uses
+:PROPERTIES:
+:NOTER_PAGE: (41 . 0.36510067114093964)
+:END:
+Used in music for composition, transcribing, arranging, sequencing, sampling, sound generation, sound editing, music notation. Allowed composers to focus more on creativity instead of computations for synthesizers etc.
+** Software
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.47919463087248326)
+:END:
+growing rapidly (1998) and allow composers to have the state-of-the-art facitilites. Both for recording and synthesis and midi	
+** Compositional Developments
+:PROPERTIES:
+:NOTER_PAGE: (43 . 0.4312416555407209)
+:END:
+** Italy Futurism
+:PROPERTIES:
+:NOTER_PAGE: (43 . 0.49933244325767684)
+:END:
+Cultural movement in 1909 dealing with the age of the machine, motion, war, and violence called Futurism. Started experimenting with using noise in music. Franceso Pratella and Luigi Russolo, who created a treatise L'arte dei rumori. There was a furuist orchestra concert in 1929 in Paris that Ravel, Stravinsky, and Varese were at. Varese is the one who pursued it further. 
+** France Musique Concrete
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.2727272727272727)
+:END:
+Emerged in 1948 with Pierre Schaeffer's Etudes aux chemis de fer. After the development of tape in the 50s it grew and more manipulation was possible.
+** West Germany: Cologne Studio
+:PROPERTIES:
+:NOTER_PAGE: (48 . 0.20454545454545456)
+:END:
+Dr. Herbert Eimert began taping sounds generated electronically, first pieces in 1952-53. Stockhausen fused the two together, and ended up directing the studio in Cologne.
+** US Columbia-Princeton
+:PROPERTIES:
+:NOTER_PAGE: (49 . 0.5262449528936743)
+:END:
+In 1961 concerts with the RCA synthesizer happened. Milton Babbitt, Otto Luening, Vladimir Ussachevsky, and Mario Davidovsky were featured.
+** West Coast
+:PROPERTIES:
+:NOTER_PAGE: (50 . 0.5227272727272727)
+:END:
+Morton Subotnik worked with Buchla Synthesizer for composition. Silver Apples of the Moon in 1967. Had many works 
+** Computer Music
+:PROPERTIES:
+:NOTER_PAGE: (52 . 0.3858477970627503)
+:END:
+Charles Dodge in 1970 composed with computer. "Earth's Magnetic Field"
+** Mario Davidovsky Synchronisms
+:PROPERTIES:
+:NOTER_PAGE: (54 . 0.3641231593038822)
+:END:
+Started combining tape and performer in 1962.

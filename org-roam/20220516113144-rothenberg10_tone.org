@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       dfa3b3d3-4558-4e56-b418-cf8ad2bbd4f7
+:END:
+#+title: rothenberg10-tone
+
+The guitar is best suited for effects units because of its tone. The tone of the clarinet and other wind instruments however seem to be opposed to digital effects.
+
+[[cite:&rothenberg10_playin_into_machin]]

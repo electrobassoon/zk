@@ -1,0 +1,102 @@
+:PROPERTIES:
+:ID:       65f1493a-448b-4ffc-9cd9-12a8e4fd76f2
+:ROAM_REFS: cite:grew14_guide_elect_acous_perfor_acous_obois
+:END:
+#+title: grew14_guide_elect_acous_perfor_acous_obois
+
+* Guide to Electro-acoustic Performance on Acoustic Oboe
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/grew14_guide_elect_acous_perfor_acous_obois.pdf
+:END:
+** Varese quote
+:PROPERTIES:
+:NOTER_PAGE: (14 . 0.5343422584400466)
+:END:
+Electronics are not meant to replace the old musical instruments which composers, including myself, will continue to use. Electronics is an additive, not a destructive factor in the art and science of music. (From varese and Wen-chung "The Liberation of Sound" Perspectives of New Music Vol 5 No 1 pp 15
+** Rep needs upgrades
+:PROPERTIES:
+:NOTER_PAGE: (22 . 0.41559953434225844)
+:END:
+The electronic repertoire requires frequent technological upgrade for survival.
+** Composer reception
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.11874272409778812)
+:END:
+Some composers are more willing than others to update their pieces for a performance
+** Mic Details
+:PROPERTIES:
+:NOTER_PAGE: (32 . 0.25727590221187424)
+:END:
+Detailed about chords etc with microphones
+** Dress Rehearsal considerations
+:PROPERTIES:
+:NOTER_PAGE: (36 . 0.8277066356228173)
+:END:
+Which equipment is the performer providing and what is the venue providing? 
+** Issues of foot pedals
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.23748544819557624)
+:END:
+They visually give away the fact that the computer is going to do something. Sometimes they can be noisy. They can also add a physical restraint.
+** Max pieces
+:PROPERTIES:
+:NOTER_PAGE: (50 . 0.3958090803259604)
+:END:
+Composers take effort to not make their patches hard to use. They know if it isn't user friendly that performers will stop there.
+** Double Reeds
+:PROPERTIES:
+:NOTER_PAGE: (51 . 0.4318975552968568)
+:END:
+It's possible pieces listening for specific notes can misfire with double reeds because of the differences in reeds.
+
+Sometimes it may be better to have someone running the patch.
+** Pictures
+:PROPERTIES:
+:NOTER_PAGE: (63 . 0.35622817229336434)
+:END:
+At the end of a rehearsal take pictures of the knobs and settings to not lose the work.
+** Learning Curve
+:PROPERTIES:
+:NOTER_PAGE: (67 . 0.590221187427241)
+:END:
+With live processing the performer needs to be familiar enough with equipment to diagnose the problem quickly. Perhaps have a few stories and jokes prepared in case it takes a while to fix.
+** Fun!
+:PROPERTIES:
+:NOTER_PAGE: (68 . 0.0989522700814901)
+:END:
+It is fun playing with live processing!
+** Polar Patterns
+:PROPERTIES:
+:NOTER_PAGE: (70 . 0.07916181606519208)
+:END:
+Omnidirectional is probably not a good choice as it will pickup the audience.
+Figure 8 likewise is not ideal for an acoustic instrument.
+Hyper cardioid could be good if you want to capture some of the reverb, but not necessarily for a signal for processing 
+Cardioid is probablye best for isolating a signal
+** Mic types
+:PROPERTIES:
+:NOTER_PAGE: (73 . 0.23748544819557624)
+:END:
+Ribbon is usually bidirectional, so may not be the best choice. However they are good for bass frequencies, and roll off at 14hz (not really a problem for bassoon like it is with oboe) 
+Dynamic is cheap, and works well in close quarters, but probably sacrifices the sound
+** Condenser
+:PROPERTIES:
+:NOTER_PAGE: (75 . 0.07916181606519208)
+:END:
+Condensers capture frequencies the best, but require phantom power (or a pp box) and are a little more expensive
+** Contact Microphone
+:PROPERTIES:
+:NOTER_PAGE: (75 . 0.6693830034924331)
+:END:
+Convenience of not worrying about proximity to the mic. They are often wireless.
+They do add batteries, and weight.
+** Feedback
+:PROPERTIES:
+:NOTER_PAGE: (81 . 0.37252619324796277)
+:END:
+Feedback is the biggest issue with microphones. Usually it is because of the monitor's proximity to the mic
+** Line Noise
+:PROPERTIES:
+:NOTER_PAGE: (82 . 0.5110593713620489)
+:END:
+Sound cables and electric cables may need to be separated if the cables aren't isolated.

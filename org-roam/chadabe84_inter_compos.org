@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       3c792567-a58c-4b98-a475-e4221bb43551
+:ROAM_REFS: cite:chadabe84_inter_compos
+:END:
+#+TITLE: chadabe84_inter_compos
+#+filetags: :interactive_composing:existence:
+* Interactive composing: an overview
+:PROPERTIES:
+:Custom_ID: chadabe84_inter_compos
+:URL: 
+:AUTHOR: Chadabe, J.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/chadabe84_inter_compos.pdf
+:NOTER_PAGE:
+:END:
+** First interactive composing
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.38998957247132426)
+   :END:
+Claims that his piece is the first interactive computer composing
+** Interactive Composing
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.7205422314911366)
+   :END:
+=Interactive composing redefines composing and performing.=
+** Existence
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.7737226277372262)
+   :END:
+Existence of music and performance are inseperable, unlike traditional composing that has a score

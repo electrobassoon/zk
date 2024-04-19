@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       212b0657-c436-4f62-94b3-a32c24c7a40c
+:END:
+#+title: kilroy19-tropes
+
+Some frequent posthuman tropes are mutation, hybridity, cyborg, virtuality, simulation, and disembodiment. These are only accomplishable in music through technology. Mutation modifies the input of the performer.Hybridity mixes human and electronic sound. Cyborg is also a mix but implies that technology is incorporated into the creation of musical gestures. An example of this is effects pedals, because the performer controls how the equipment changes the sound. Virtuality gives the impression of pressence or environment not physically located in the performance space. This comes from simulation that comes from things like spatial aoustic and specific timbres. Reverb copies the acoustics of a room for example.  Disembodiment is removing the sound from the source.
+
+[[cite:&kilroy19_posth_music_contex]]

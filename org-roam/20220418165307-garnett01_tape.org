@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c2519db6-3bba-41c5-aab0-3fbcafae7b58
+:END:
+#+title: garnett01-tape
+#+filetags: :museum:objective:human:
+Tape performance, especially algorithmic tape performance, is the most objective performance that removes the conveyance of humans entirely. It gains new material, new timbre, and more but loses the ability to be rejuvinated.  There is no revitalization or way to have a new interpretation. It is the ultimate "museumification" of art. 
+
+
+[[cite:&garnett01_aesth_inter_comput_music]]

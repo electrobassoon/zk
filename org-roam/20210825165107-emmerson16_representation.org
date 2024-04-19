@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       b3933473-26d8-4e69-8d95-e31e90ed55bb
+:END:
+#+title: emmerson16_representation
+#+filetags: :recording:
+
+Early electric technologies aimed at reproducing the concert hall experience. Recordings tried to be a faithful representation of the concert itself. Electronic music didn't have the same traits, since the instruments could be impossible to create in the physical world. However, newer generations are accustomed to hearing music from loudspeakers everywhere.
+
+cite:emmerson16_losin

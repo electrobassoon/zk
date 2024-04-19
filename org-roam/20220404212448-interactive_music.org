@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       34fb169f-e75d-466a-9e84-78da7d88fbd8
+:END:
+#+title: Interactive Music
+#+filetags: :interactive:
+
+Systems that change their behavior in response to musical input. They can be score-driven or performance-driven. It can be transformative, generative, or sequenced. They all have a 3 stage process of sensing, processing, and response. [[id:7ac61fb8-4898-42a3-865c-ddaf68c77a2e][rowe93-interactive-systems]] 
+
+Music composition or improvisation where software interprets a live performance to affect music generated or modified by computers. There is a 5 step process. Human input, receive and analyze input, interpret, process, computer output.  [[id:b58b17f7-324d-4238-bf51-2c092422a66c][winkler98_interaction]]
+

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       5fdadb90-9619-4fa9-b87e-0d2ce0d9853c
+:ROAM_REFS: cite:chadabe99_pefor_is_us
+:END:
+#+TITLE: chadabe99_pefor_is_us
+
+* The Peformer Is Us
+:PROPERTIES:
+:NOTER_DOCUMENT: /home/jazzbassoon/dissertation/PDFs/chadabe99_perfor_is_us.pdf
+:Custom_ID: chadabe99_pefor_is_us
+:URL: 
+:AUTHOR: Chadabe, J.
+:NOTER_PAGE:
+:END:
+
+Not super useful. Mostly talks about the role of the composer in interactive music now that the performer is composing

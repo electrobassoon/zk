@@ -1,0 +1,119 @@
+:PROPERTIES:
+:ID:       8b0df1a3-a712-4424-a98b-dcdc869783f5
+:ROAM_REFS: cite:moore92_declin_improv_wester_art_music
+:END:
+#+TITLE: moore92_declin_improv_wester_art_music: The decline of improvisations in western art music: an interpretation of change
+
+* The decline of improvisations in western art music: an interpretation of change
+:PROPERTIES:
+:Custom_ID: moore92_declin_improv_wester_art_music
+:URL: 
+:AUTHOR: Moore, R.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/moore92_declin_improv_wester_art_music.pdf
+:NOTER_PAGE:
+:END:
+** Contrast
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.12454212454212454)
+   :END:
+Many non-western musical cultures heavily feature improvisation, whereas traditional western music it is mostly absent. There is little deviation from the score that is tolerated.
+** Ernst Ferand Quote
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.41098901098901097)
+   :END:
+="There is scarcely a single field in music that has remained unaffected by improvisation, scarecly a musical technique or form of composition that did not originate in improvisatory performance or was not essentially inluenced by it. The whole history of the development of [Western art] music is accompanied by manifestations of the drive to improvise."=
+** Attitudes
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.5978021978021978)
+   :END:
+In the last hundred and fifty years, there has been a large shift in the attitude towards improvisation. It now seems threatening, unfamiliar, or undeserving of interest.
+** Structure
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.28644688644688643)
+   :END:
+Structure of improvisation. It is only relative freedom. It only works when a certain musical vocabulary is used. The language has to be understood.
+** Familiarity
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.4483516483516483)
+   :END:
+Acquiring familiarity with a style of improvisation usually requires performing the same piece or groups of pieces over and over again. /This is another reason that playing with technology needs to happen before the dress rehearsal so that you can gain familiarity with the improvisation/
+** Modern Improvisation
+   :PROPERTIES:
+   :NOTER_PAGE: (7 . 0.3238095238095238)
+   :END:
+Modern improvisation is often less interesting for listeners if it is too avant garde, because the language is unfamiliar to them. The improvisers may be chastised instead of praised because of this.
+** Popular Music
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.31135531135531136)
+   :END:
+Most of the lower class musicians were versed in the popular music of their day, and not the prevailing art music. It was stylistically distinct. This is a change because of the social structures changing and music opening up to everyone instead of court musicians only.
+** Separation
+   :PROPERTIES:
+   :NOTER_PAGE: (12 . 0.41098901098901097)
+   :END:
+By the time of Schoenberg, the connection of improvisatory music and art music was gone.
+** Notation
+   :PROPERTIES:
+   :NOTER_PAGE: (13 . 0.22417582417582416)
+   :END:
+Notation and sheet music allowed for middle class people to learn music without actually being exposed to it in its original context, without hearing it.
+** Warnings
+   :PROPERTIES:
+   :NOTER_PAGE: (13 . 0.4483516483516483)
+   :END:
+After sheet music became more available, professionals cautioned amatures that they should not embellish the music without fully grasping the composition. Some people started writing embellishments out so that the untrained wouldn't improvise poorly. Since the amatures were not exposed to art music very often, naturally their additions were more in style with the music they new. It is compared to putting new wine in old bottles.
+** Reverence
+   :PROPERTIES:
+   :NOTER_PAGE: (14 . 0.11208791208791208)
+   :END:
+With conservatory education, the advent of conducting, and later with recordings, more and more people were self concious about their performance and that it had to be done a certain way. They asked for the opinions of professionals so that they could get it right. There was little to no room for contemporary improvisation.
+** Education
+   :PROPERTIES:
+   :NOTER_PAGE: (15 . 0.5230769230769231)
+   :END:
+There was a strong movement, mostly by Germans, to educate the public with "proper" music. Children's concerts began in some countries, with the idea to bring the "best" music to children early. Some question where the education begins and the indoctrination ends.
+** Aristocratic Music
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.5230769230769231)
+   :END:
+The change of music becoming a symbol of status resulted in people not being aware of the music in its original form, so the differences in the improvisation would be lost on the audience. The music also was less frequently a part of the patrons' lives.
+** Modern Perspectives
+   :PROPERTIES:
+   :NOTER_PAGE: (17 . 0.21172161172161172)
+   :END:
+Modern composers have lost the support of the public. The schism between popular music and art music grew even more. It became a bad thing to be a popular artist. It was better to be difficult to understand than accessible to all. Many composer take pride in not being intelligible to their audience. They are chiefly supported by other acadmeics. However, without the understanding between composer and audience, music loses the emotional power it can evoke.
+** Popular Music
+   :PROPERTIES:
+   :NOTER_PAGE: (18 . 0.7406593406593406)
+   :END:
+Ironically, depsite the education and indoctrinisation of audiences, popular music exploded at the turn of the century. It was found across all boundaries of class, race, etc. Comparing Korngold and Schoenberg shows what happened.
+** Historicity
+   :PROPERTIES:
+   :NOTER_PAGE: (20 . 0.13699633699633698)
+   :END:
+The rise of performance practice music led to trying to preserve ancient music in its original form. It also works against improvisation.
+** Jack Talbott Museum Quote
+   :PROPERTIES:
+   :NOTER_PAGE: (20 . 0.23663003663003662)
+   :END:
+="I wonder whether the decline of improvisation in classical music shares some things in common with the rise of the museum as a middle class pastime? both demand reverential attitudes towards artifacts of the past. Just as a moustache is not to be drawn on the Mona Lisa, so Mozart is not to be embellished."=
+** Conflict
+   :PROPERTIES:
+   :NOTER_PAGE: (20 . 0.33626373626373623)
+   :END:
+Modern musicians have the conflict of their own learned music intuition balancing against their desires to perform correctly, interpret correctly, with the tyranny of tradition.
+** The Past
+   :PROPERTIES:
+   :NOTER_PAGE: (21 . 0.21172161172161172)
+   :END:
+Musicians are imprisoned by the past. Everything is focused on being able to perform the music of the past. It is not their music anymore, because they cannot perform it in their own way.
+** Contemporary taste
+   :PROPERTIES:
+   :NOTER_PAGE: (22 . 0.22417582417582416)
+   :END:
+The problem is not studying classical music. The problem is exclusively studying classical music that cannot be altered. Most European and North American people are not familiar with it. We are discriminating against ourselves.
+** Conclusion
+   :PROPERTIES:
+   :NOTER_PAGE: (23 . 0.18681318681318682)
+   :END:
+Modern composers should try and speak to audiences in their own musical understanding. The music needs to connect with audiences. History shouldn't rule the aesthetic tastes of today. The quest for experimental music also can work against this. Instead there should be reworking and elaboration of living traditions. Art music should belong to everyone, as performers and spectators. It is how we should express ourselves. Improvisation can be a big part of that.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       1a6433b1-bfe2-4edb-a771-1e42fc2a9902
+:END:
+#+title: mcnutt03-difficulties
+#+filetags: :setup:notation:speakers:
+
+There are many challenges for classical musicians that are somewhat unique to electroacoustic music. Notation is one, as it is difficult to notate everything that the electronics are doing. Cues are important, but not always given in the notation.
+
+Hearing the electronics can also be challenging. The sound can be projecting well in the hall, and be unrecognizable on stage. Especially in pieces where improvisation with the computer is needed, or listening for a vital cue, it is important that the performer can hear what is going on.
+
+Interactive hardware poses more difficulties, as they are often different for each piece and completely foreign to classically trained performers. It is important to practice with these things as soon as possible, not at the dress rehearsal. At times, the differences in performers' physical body can create issues, such as the distance between pedals.
+
+Fixed media compositions imprison the performer, [[id:b9eaeb1c-4855-4b14-9825-8679ae296c03][mcnutt03-prisoner]]
+
+cite:mcnutt03_perfor_elect_music

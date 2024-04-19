@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c5507063-c143-4943-bca2-19351a8b8f0d
+:END:
+#+title: behr14-history
+
+
+Cage possibly had the first work for live instruments with prerecorded sound. MIDI helped standardize communication. Max came about in the late 90s.
+
+For bassoon, the first piece with tape was probably Dittrich's /Kammermusic I/. Schwartz and Fongarrd also had some in the 70s. As Max came to be, Boush, Rothkopf, and Hurdy have some seminal works.
+
+cite:behr14_elect_bassoon

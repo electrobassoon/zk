@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bc9c653f-47e1-4470-af6e-79f128abd2ce
+:END:
+#+title: grew14-microphones
+#+filetags: :microphones:polarpattern:feedback:
+The polar patterns of microphones are important to consider, as certain patterns are more prone to have feedback issues. Cardioid is probably the best pattern for micing an acoustic instrument, as it is the most directional of patterns. Condenser mics are also probably the best type of mic for the sound quality.
+
+Feedback most likely occurs when the on stage monitor is too close to the microphone. Angling it away from the microphone can help alleviate that. If sound cables are not insulated they could have problems if they are running with electric cables.
+
+[[cite:&grew14_guide_elect_acous_perfor_acous_obois]]

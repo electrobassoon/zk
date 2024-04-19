@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b23d1410-5be3-4dfe-8322-4b5a54a68d8b
+:END:
+#+title: moore92-connecting-audiences
+#+filetags: :improvisation:audience:
+
+
+Improvisation requires performers to be very familiar with the vocabulary of the music they play. If the audience is also familiar with the vocabulary, there is great meaning in the expression of emotion through improvisation.
+
+
+cite:moore92_declin_improv_wester_art_music
+
+/Since many of these new electroacoustic pieces require improvisation, they can be a way to reconnect performers with their audiences, especially in the case of music that shares characteristics with popular music/

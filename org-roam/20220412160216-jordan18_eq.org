@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       635f93aa-7721-4c76-9155-3bf8cfe55594
+:END:
+#+title: jordan18-eq
+#+filetags: :daw:
+Perspective performers of electroacoustic music will need:
+
+A computer, that has at least 8gb of ram and preferrably a solid state drive.
+An audio interface that has at least 2 inputs and 4 outputs.
+PA speakers
+2 Cardioid condenser mics
+In ear monitors
+Audio software
+MIDI controller
+
+Using a daw for basic effects like delay and reverb may have better return than getting physical pedals
+Learning a DAW likely has more applications than max/msp and pure data do for beginners
+
+[[cite:&jordan18_perfor_live_elect]]

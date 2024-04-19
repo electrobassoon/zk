@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       74889272-ff76-4955-bf1e-06e484ed7eb2
+:END:
+#+title: yoder10-philosophy
+
+One of the central themes of the twenty first century is the realtionship of humans to machines, computers, and artificial intelligence. Interactive music composition can be a part of that discourse. This music combines the best qualities of both the human and the machine.
+
+
+[[cite:&yoder10_perfor_pract_inter_music_clarin]]

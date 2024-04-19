@@ -1,0 +1,101 @@
+:PROPERTIES:
+:ID:       51cbb873-c045-4f07-94a8-8537b4d4ae8c
+:END:
+#+title: Public Lecture
+
+[[id:C10F873F-B687-4C09-8E07-2AC7F7D70D75][lectureDraft]]
+* Public Lecture Overview
+
+** Brief introduction to meaning - 2 min
+
+** Brief Historical Overview - 5 min 
+
+** Difficulties - 5 min
+
+*** Setup - 1
+
+*** Technology -1
+
+*** Balance - 1
+
+*** Rehearsal - 1
+
+*** Importance of difficulty in music - 1
+
+** Benefits - 8 min
+
+*** Improved Musicianship - 1
+
+*** Transferrable Skills -1
+ 
+*** Super Instrument - 1
+
+*** Improvisation -1 
+
+*** Freedom of expression - 1
+
+*** Connect with audiences -2
+
+*** Fun - 1
+
+** Pedal Side - 10 min
+
+*** How to hook up - 4
+
+*** Demonstration of different effect types - 3
+
+**** Use a separate piece? a loop? excerpts for each one?
+
+***** I think a loop could be good. It shows just the difference in each of the effects
+
+*** Example Literature - include maybe 30 second clips of portions with effects?  - 3 min
+
+**** Black Lion
+
+**** Fort Greene
+
+**** Electrically Tragic
+
+**** Perfectly Logical
+
+** Computer Side -16 min
+
+*** How to hook up - 5 min
+
+**** Pickup vs mics?
+
+*** Software - 5 min
+
+**** Max/MSP
+
+***** Video of opening and starting different max patches?
+
+*** Performance Video Bassoonification?-  3 min
+
+**** Pedal view in a corner, max view in another, score across the top?
+
+*** Example literature - 30 second clips - video of screen? - 3 min
+
+**** Shoot the Well
+
+**** Brown Velvet
+
+**** Gnarkill
+
+**** Mask 
+
+**** Reaction, Reflection
+
+**** Concatenation?
+
+** Curriculum Inclusion - 6 min
+
+*** Necessity for improved learning - 1 min
+
+*** Examples in faculty or guest artists - 1 min
+
+*** Equipment to Purchase - 4min
+
+**** Pedals
+
+**** Computers

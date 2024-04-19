@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       7e097017-cfd9-42b3-9494-c113f9e905e0
+:ROAM_REFS: cite:pennycook97_live_elect_music
+:END:
+#+TITLE: pennycook97_live_elect_music: Live electroacoustic music: old problems, new solutions
+
+* Live electroacoustic music: old problems, new solutions
+:PROPERTIES:
+:Custom_ID: pennycook97_live_elect_music
+:URL: 
+:AUTHOR: Pennycook, B.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/pennycook97_live_elect_music.pdf
+:NOTER_PAGE:
+:END:
+** Role of Performer
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.7321089297023433)
+   :END:
+The performer is now the conductor, system manager, console and lighting operator, and sometime manipulator of musical materials. They have a new role in the triangle of composer, interpreter, and audience.
+** Genre Failure
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.6128266033254157)
+   :END:
+Genre has failed to migrate as a regular part of concert performance of classically trained musicians.
+** Tutorial Tradition
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.7474267616785432)
+   :END:
+Not many teachers are specialists in live electroacoustic music, despite claiming to be contemporary music specialists. This often transitions to students, who may be entirely unaware the genre exists. Thus the teacher-student-teacher cycle perpetuates itself and contemporary music is not being learned by students.
+** Role of teacher
+   :PROPERTIES:
+   :NOTER_PAGE: (3 . 0.8416468725257323)
+   :END:
+While there are some courses that bring in contemporary music, the relationship with the instrumental teacher is perhaps the most important. The master sets the stage for learning technique, but also artistic value.
+** Performance Materials
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.1749802058590657)
+   :NOTER_DOCUMENT: ../PDFs/pennycook97_live_elect_music.pdf
+   :END:
+Contemporary music is likely not found in libraries or stores as more traditional music is.
+There is also a lack of recordings and a performance tradition, so there is more work placed on the performer to learn how to perform a piece. Often this involves just the score, or interacting with the composer directly. It takes a lot more time to acquire a contemporary electroacoustic piece than traditional repertoire. What is on the score often can be unhelfpul. There is often a lack of cues, representation of the electronics, etc. Often you have to start the piece over anytime there is a mistake.
+** Gear
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.33650039588281866)
+   :END:
+Most halls and performance spaces do not have the equipment necessary to perform electroacoustic works. Performers have little training on the equipment, so they don't program the pieces. Spaces don't have them, so you would have to purchase all of your own gear. It's a bit of a circle.
+** Listening
+   :PROPERTIES:
+   :NOTER_PAGE: (5 . 0.5455265241488519)
+   :END:
+Listening to two streams of sound (acoustic and digital) often is disjunct for listeners, especially if the sound is unbalanced as it often is. The directionality of the speakers makes balance tricky. Using multiple high quality speakers often can help this.
+** Chamber Music
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.33650039588281866)
+   :END:
+Electroacoustic music often falls under the umbrella of chamber music, which has survived traditionally by performers wanting to play the music.
+** Fusion
+   :PROPERTIES:
+   :NOTER_PAGE: (6 . 0.8416468725257323)
+   :END:
+The fusion of acoustic chamber music with electroacoustic pop/rock music has rarely worked in the past. They often feel like curiosities instead of serious music
+** Demands of space
+   :PROPERTIES:
+   :NOTER_PAGE: (8 . 0.29612034837688045)
+   :END:
+Many places do not have lots of speakers for multichannel diffuse works. It is also generally technically or financially infeasible for spaces to adopt this. The most appropriate spaces for multi speaker arrays also are not suitable for the acoutsic instruments or voice.
+** Overwhelm Audience
+   :PROPERTIES:
+   :NOTER_PAGE: (9 . 0.8345209817893903)
+   :END:
+In many halls, it has been designed to bring acoustic sounds to the whole space. Putting speakers in to evenly mix everything together often will overwhelm the audience
+** On Stage Positioning
+   :PROPERTIES:
+   :NOTER_PAGE: (10 . 0.4845605700712589)
+   :END:
+On stage positioning with the players can often help with the hall, instead of being on the sides. However this can be expensive

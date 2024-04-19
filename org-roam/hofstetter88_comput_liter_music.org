@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       e3b9b773-6ce1-4f54-8519-ca0a0e659548
+:ROAM_REFS: cite:hofstetter88_comput_liter_music
+:END:
+#+TITLE: hofstetter88_comput_liter_music: Computer literacy for musicians
+
+* Computer literacy for musicians
+:PROPERTIES:
+:Custom_ID: hofstetter88_comput_liter_music
+:URL: 
+:AUTHOR: Hofstetter, F. T.
+:NOTER_DOCUMENT: 
+:NOTER_PAGE:
+:END:
+
+
+** page 77
+NAMM convention 1983 released v 1.0 of Musical Instrument Digital Interface (MIDI)
+5 pin DIN plug (Deutscher Industrie Normenausschus)
+** page 78
+only 3 pins used
+MIDI IN
+MIDI OUT
+MIDI THRU
+50ft long cable limit (Still applicable?)
+Daisy chain through midi thru
+midi speed of 31.25 kBaud or bits per second
+sent in 1s and 0s 8 bits long with a a start and stop bit
+** page 79
+Key On and Key Off messages (Note on and off?)
+Program Select controls timbre
+channel select - 16 channels
+midi mode - monophonic or polyphonic
+** page 80
+omni mode - talks to all devices on all channels when on, off only corresponding channels
+mono mode
+poly mode

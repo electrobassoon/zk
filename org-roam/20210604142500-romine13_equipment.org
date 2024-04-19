@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3b803a3f-371b-48f2-9e72-7e0b471adf79
+:END:
+#+title: romine13-equipment
+#+filetags: :equipment:microphones:pickups:
+
+There are many options for amplifying the bassoon, whether that is traditional microphones, clip on microphones, or pickups attached to the bocal. Microphones give the most realistic sound, at the expense of possible feedback issues, especially depending on what else is happening in the performance. Most people prefer having two microphones, one at the bell and one closer to the fingers to capture all of the sounds. The bocal pickups give the most even sound without risking feedback, but often sound like a different instrument. The Telex pickup has the strongest signal, but is a bit honkier. The little Jake is darker and mellower, but needs the preamp and some bass eq. With bocal pickups, dynamic contrast is a difficult thing. It is advisable to get a volume pedal to help.
+
+cite:romine13_elect

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2f40baf0-f7b7-4c7a-a4b2-9711df1389e9
+:END:
+#+title: bullock13_education
+#+filetags: :training:curriculum:
+
+Composers often receive education and experience in electronic music, however performers often don't receive the same training. For a performer, the first exposure to the technology required for electroacoustic performance is at the dress rehearsal for the performance. The software used is often also geared towards programmers, and less towards the performers. This adds to the difficulty of training new performers.
+
+The technology is also not something that can be learned in a short time before the performance. The skills grow gradually with frequent exposure. This implies that electroacoustic music needs to be a more present part of the curriculum to allow for this growth. This also means that applied educators should take steps to master the technology as well. Indeed, in the pilot program of this study it took a significant time to train the educators before they could train the students.
+
+The study showed three approaches to educating performers: workshops, incorporate it to the curriculum, and the performer working with the composer as a piece is being composed. All types showed an increase in confidence and familiarity with the technology for the performance. There was also a tendancy to see an increase in overall musicianship.
+
+cite:bullock13_live_elect_pract

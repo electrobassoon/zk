@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       0d84333b-533b-404e-8d7b-6e69248756a9
+:END:
+#+title: Todo
+
+* Sources to link review and link up
+* Sources to study
+[[id:7f8cdefe-8964-471a-9cab-d78e54fd7a92][david09_audio_produc_workt]]
+[[id:c3ffd196-f042-4c33-91b6-b44c228e02ea][dunn92_pioneer_elect_art]]
+[[id:355888d0-e006-42bd-81de-ab6e56bdfed2][david96_exper_music_techn]]
+
+*Find Thorsten Dart "The Interpretation of Music" for the quote found in Moore* page 163
+
+auslander, philip. Liveness: Performance in a Mediatized Culture. New York Routledge 2008
+bowen, jose antonio. Performance Practice vs performance analysis: why should performers study performance. Performance practice review 9 1996 no 1 article 3 
+Brant, Henry. Space as an Essential Aspect of Musical Composition. In Contemporary Composers on Contemporary Music, ed Elliott Schwartz, Barney Childs, 221-242. 1978
+Pace, Ian. "Notation, TIme, and the Performer's Relationship to the Score in Contemporary Music." In Unfolding Time, ed Darla Crispin, 149-191. Leuven University 2009.
+Sanden, Paul. Liveness in Modern Music: Musicians, Technology, and the Perception of Performance. NY Routledge, 2013
+Warfield, Nancy. "Performing with Tape: Problems and Solutions" The Double Reed 8 Winter 1985
+Busoni, Ferruccio. "Sketch of a New Esthetic of Music." In Source Readings in Music History, by Oliver Strunk, edited by Leo Treitler, 1321-1328. New York, New York: W.W.Norton & Company, Inc, 1998.
+Reiss, Joshua D. /Audio Effects/ CRC Press Oct 2014.
+Russcol, Herbert. The Liberation of Sound: An Introduction to Electronic Music. Englewood Cliffs, New Jersey: Prentice Hall, 1972.
+25-30. doi:10.1080/07494469900640321.
+Journal of New Music Research 26.
+across the Electronic Abyss". Leonardo Music Journal 20 (January): 19-20. doi:10.1162/lmj_a_00006.
+Norah Post "The Oboe in an Electronic Era" Journal of IDRS no 8 may have to go check masone diss to get better citation
+
+*page 13 of bassoon and live electronics search*
+* Pieces Under Investigation
+ - [ ] Alba by Barrett (old one)
+ - [ ] AfterImages Matthew Grouse for bassoon, 2 synths, and live elect
+ - [ ] ...and also a fountain - Marcos Balter
+ - Fagotto Digitale - Ivan Patachich
+ - I and the Electrician - Deborah Cost
+
+
+* Not used perhaps?
+ - Katherine Young - Where the Moss Glows
+ - Katherine Young - The Air Itself
+ - Points Against Fields - Sam Pluta (tape)
+ - Infinity ?? - Edgar Guzman (tape)
+ - Heavy Metals - Joao Pedro Oliviera (tape)
+ - Hyperion-Eos - Filippo Zapponi (tape)
+ - For Daphne and Delia II - Katherine Young All improv, so not an option
+ - Central Heating - Hannah hartman Actually for bassoon and potato starch
+
+ - [ ] Swagger by Charles Norman Mason amplified only, so it's basically a work with tape
+ - Feed by Ted Moore- not really a distributable piece
+ - [X] Javier Álvarez – De tus manos brotan pájaros (2010) tape
+ - [ ] Mary Jane Leach – Feu de Joie (1992) tape
+ - [ ] Dorian Reeds - Terry Riley arranged (probably have to contact Dana Jessen)
+ - [ ] Jacob Ter Veldhuis, Ticking Time (find the bassoon part from Josh Hart) arranged
+ - Monster Garage - Randall Woolf (tape)
+ - [ ] a firefly in the belly - Erik Spangler (uses turntables, not software)
+ - [ ] Tetrishead by Zoe Keating (arranged)
+ - [ ] gottesspur by Jan Muller-Wieland (too hard to get contact info)
+ - [ ] Felipe Lara – Metafagote (2015) (think it's tape)
+ - Traces - Bret Bohman (email bounces)
+ - [X] Sonia Paco-Rocchia (all improv)
+ - [ ] Love Machine - Sabrina Schroeder (can't find)
+ - [ ] Elmsly, John - Hall of Mirrors (can't find email)
+
+** Pieces that use supercollider to see if they are pieces with tape or interactive
+
+27 Miles east of headquarters ID - Ruby Fulton?
+Machines of Loving Grace - Leland Smith
+

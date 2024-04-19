@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       acafeca7-283e-4d6f-a3b2-b728123207ef
+:END:
+#+title: Music Notation
+
+[[id:324AA1ED-14B8-43C3-9C9E-F58EF03B27FB][MUSC3553]]

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       fa0f674a-6699-4b95-bc45-472ec080f05b
+:END:
+#+title: hofstetter88-midi
+#+filetags: :midi:
+MIDI stands for Musical Instrument Digital Interface.
+
+It uses 5 pins, but only 3 of them are used: MIDI IN, MIDI OUT, and MIDI THRU
+It has a cable limit of 50 ft (unsure if this is still true)
+MIDI THRU is used to daisy chain and bypass this limit.
+The speed is 31.25 kBaud or bits per second.
+Functions used are Key On and Key Off, Program Select, Channel Select.
+Different modes, omni, mono, and poly.
+
+
+cite:hofstetter88_comput_liter_music

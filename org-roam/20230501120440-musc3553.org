@@ -1,0 +1,162 @@
+:PROPERTIES:
+:ID:       324AA1ED-14B8-43C3-9C9E-F58EF03B27FB
+:END:
+#+title: MUSC3553
+
+* [[id:6D2D56CE-D34F-416B-A63D-F19A18956F31][Class 1 8/31/2023]]
+
+* [[id:F11B56CB-A5B6-4860-9294-C9F2A0AB4499][Class 2 9/5/2023]]
+
+* [[id:1E6856B4-C7F1-4FC1-9366-6CADBD40DCAF][Class 3 9/7/2023]]
+
+* [[id:5C5ADBCC-A208-4D8F-81D0-03FA8297A08D][Class 4 9/12/2023]]
+
+* [[id:D6DC0635-9D2D-4FFC-AF38-1725C1944094][Class 5 9/14/2023]]
+
+* [[id:0C7F91A6-34F7-4032-8987-41FB197DD2EC][Class 6 9/19/2023]]
+
+* [[id:280F0D7E-AF1E-4416-956F-41DCC85650F3][Class 7 9/21/2023]]
+
+* [[id:dc68db78-af8c-43fa-8601-c7871a900a9f][Class 8 9/26/2023]]
+
+* Class 9 9/28/2023
+
+** Page Layout
+
+** Focus On Staffs
+
+** Hiding Staffs
+
+** Spacing, margins, page size
+
+** Magnetic Layout
+
+* Class 10 10/3/2023
+
+** Dynamic Parts
+
+*** When to use which?
+
+** Extracting Parts
+
+** Cues
+
+* Class 11 10/5/2023
+
+** Midterm Projects
+
+* Class 12 10/10/2023
+
+** Midterm Projects
+
+* Class 13 10/12/20232
+
+** Midterm Projects
+
+* Fundamentals of Notation
+
+** Double Stemmed Writing                                                 :2:
+
+*** Rests - 36
+
+*** Articulations - 118
+** Accidentals                                                            :2:
+
+*** Where they apply - 78-79
+
+*** Right after a barline - 81
+
+*** Octave displacement - 82
+
+*** Cautionary accidentals - 83
+
+*** Note spelling - 85
+** Drumset 281                                                            :3:
+** Braces 303                                                             :3:
+** Split beams 314                                                        :3:
+** Pedaling 334                                                           :3:
+** Vocal writing 434                                                      :4:
+** Clef Changes                                                           :5:
+
+*** Ledger Lines  - 7
+
+*** At Beginning of the bar, mid measure, after rests - 8
+** Key Changes                                                            :5:
+
+*** Double bar line - 39
+
+** Tuplets 193                                                            :5:
+** Tempo Marks 182                                                        :5:
+** Meter                                                                  :5:
+
+*** Rests 160
+
+*** Syncopation - 170
+
+*** Simple to Compound - 172
+
+** Articulations                                                          :6:
+
+*** Placement - 117
+
+*** Double stemmed placement - 118
+
+*** Arpeggiated Chords - 131
+** Dynamics                                                               :6:
+
+*** Typefaces - 101
+
+*** Placement - 101-103
+
+*** Hairpins vs words 106
+
+*** subito 107
+
+** Ties                                                                   :7:
+
+*** Only same note - 60
+
+*** Flattening in chords - 61
+
+*** Distance between ties - 66
+** Slurs                                                                  :7:
+
+*** Over a break - 112
+
+*** Chords - 114
+
+** Octave Signs                                                           :8:
+
+*** Where its placed -28
+
+*** Precedence of slurs, octaves, and tuplets, Tempo Markings, pedal instructions - 29
+
+*** Extension Lines - 30
+
+*** Octave signs vs ledger liens - 33
+** Grace Notes - 126                                                      :8:
+** Trills 135                                                             :8:
+
+*** Accidentals with trills - 84
+
+** Glissandi                                                              :8:
+** Pauses                                                                 :9:
+
+*** ' and // 187
+
+*** Fermata 187-188
+
+** Repeats 219                                                            :9:
+
+*** Slash notation 219
+
+*** Tremolos 225
+
+*** Beat repetition 230
+
+*** Repeat barlines 233
+
+*** DC and DS 238
+
+** Page Layout                                                           :10:
+** Extracting Parts                                                      :11:

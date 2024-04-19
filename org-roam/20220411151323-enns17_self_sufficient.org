@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       84a53d2f-f002-45e5-9565-751ce7fb5946
+:END:
+#+title: enns17-self-sufficient
+#+filetags: :selfsufficient:
+Technology will initially be the most challenging part of the approach, and is also likely where students and professors have the least experience.
+
+Balance is a key part that will likely at least need someone in the hall with trusted ears.
+
+The self-sufficient approach requires performers to set up their own practice and performance. They must operate their own electronics during a performance. They also need to be able to teach students basic hardware and software. They also should engage in discourse with composers and technicians.
+
+Self-sufficient musicians occupy both the instrumentalist and technician roles during performance. This requires some different practices in the performance itself, such as staying on stage to prevent damage, appearing on stage before the concert and during intermission, etc.
+
+The [[id:185b67bb-9dc1-479e-aecc-af08396a2380][advantages]] and [[id:d44bcb69-0f28-45f6-ba73-831686c2d3ad][disadvantages]] of this approach are reviewed.
+
+[[cite:&enns17_towar_self_suffic_approac_elect_acous_clarin]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d44bcb69-0f28-45f6-ba73-831686c2d3ad
+:END:
+#+title: enns17-disadvantages
+
+Self-sufficient performers face some challenges. There is a lot of time needed at the beginning to learn the equipment and other things. The up front costs of the equipment can be a lot. Transporting the equipment is more of a challenge. Planning and organizing all of the batteries, cables, mics, etc. takes time. The performer is responsible for theft or damage of equipment. As technology becomes obsolete there will be more costs to replace equipment. If the performer doesn't want to learn programming they will still need support from technicians.
+
+[[cite:&enns17_towar_self_suffic_approac_elect_acous_clarin]]

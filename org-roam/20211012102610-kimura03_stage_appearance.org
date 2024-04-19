@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       44eec835-2189-43d5-88cd-73964fb58ce5
+:END:
+#+title: kimura03_stage_appearance
+#+filetags: :audience:system:
+
+Having a one touch system is very attractive to the audience, especially for instruments you have to hold, having a one handed way to start things easily makes for a better stage experience. You can even have a sound check by tuning your instrument to a 440 sin wave.
+
+Foot pedals are not a great option, because they take away from the music and signal to the audience that something is happening. It can even cause playing issues for some instruments because of head movement looking for the button, or the process of pushing the button itself, especially while standing. One person talks about how the button takes away freedom and communication (in an improvisational system)
+
+Having someone there to operate a patch is not much better. They are not a musical partner, but just another distraction for the audience. It's a way to cover up for the system not being advanced enough.
+
+cite:kimura03_creat_proces_perfor_pract_inter_comput_music

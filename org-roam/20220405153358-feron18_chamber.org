@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a2057c08-05df-4dae-9d82-00ff0e777753
+:END:
+#+title: feron18-chamber
+#+filetags: :chamber:
+Can a solo with live electronics be considered chamber music?
+
+Some think so, and familiarity needs to develop between the performer and the electronics. The relationship is the same as it is with another instrumentalist. Even if you are alone on stage, you are not really alone in the performance.
+
+
+[[cite:&feron18_instr_solo_works_live_elect]]

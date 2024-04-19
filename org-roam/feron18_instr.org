@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       5c95ebca-ae06-4ddb-9bef-414fb0d90c87
+:ROAM_REFS: cite:feron18_instr_solo_works_live_elect
+:END:
+#+title: feron18_instr_solo_works_live_elect
+
+* page 101
+Three potential configurations for live performers and electronics.
+1) Electronics are created before the performance
+2) Electronics are created at the time of performance
+3) A mixture of the two. This is the most common
+
+Are solo pieces with electronics a new archetypical form of chamber music?
+
+* page 104
+their definitions of actors, performers, instrumentalists, etc.
+with a table of the different roles
+* page 105
+One interviewer talks of the importance of the performer knowing something about microphones. It becomes part of their instrument.
+
+One feels that having a knowledge of Max/MSP makes them more comfortable and able to fix problems. Another says they have no clue about how a max patch works.
+* page 106
+someone skilled needs to be at the computer in case something goes wrong
+
+one comments on the performer being the ambassador for the work
+* page 107
+a quote. "The electronic element supplements the instrumentalist such that he becomes a super-performer. It allows him to play faster, higher, lower, all those things he cannot do because no matter what, he /is/ limited, even if he is the best in the world.
+
+Ungeheuer's conceptualization of the types of live electronic music.
+1) opposition between human and machine (historically fixed media) as dramaturgic concept
+2) instruement's time-space transgression. Instrument transgresses time and space through the electronics
+3) the interaction. Chamber music
+
+* page 108
+lots of views that playing with electronics is chamber music
+
+factors that create chamber music:
+number of musicians, notion of interaction, room types for performance
+can a solo piece be considered chamber music?
+
+* page 109
+definitions often conflict with each other , and is quite subjective
+
+* page 110
+a quote about dialogue and confrontation or symbiosis with the electronics. " Thus, it is similar to two strangers. They will get to know each other, it is once we are properly acquainted that the piece is ready to be performed in public. It is exactly the same as any relationship with another instrumentalist.
+* page 111
+quote on chamber. "We are alone on stage, but in the case of a piece with electronics, we are not even alone. At the very least, we work as a duo and I find that very pleasant. According to me, it is similar to chamber music."
+* page 112
+comment about control that could be tied in with agency. "You have to relinquish the idea of absolute control over the music you are producing"
+* page 114
+At least one of the musical partners needs to be a musician. It is more than just sound projection, it is a performance.
+* page 116
+courses about musique mixte rarely exist

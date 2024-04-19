@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       369433f0-aa69-4b00-a93a-66c145829598
+:ROAM_REFS: cite:huber07_midi_manual
+:END:
+#+title: huber07_midi_manual
+
+* The midi manual: a practical guide to midi in the project studio
+
+Unsure where this is. Maybe meant to ILL but never got to it. Probably not really necessary either

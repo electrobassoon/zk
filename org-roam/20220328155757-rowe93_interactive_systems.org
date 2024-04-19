@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7ac61fb8-4898-42a3-865c-ddaf68c77a2e
+:END:
+#+title: rowe93-interactive-systems
+#+filetags: :interactive:system:
+Interactive computer music systems change their behavior in response to musical input. This also allows them to be used in live performance.
+
+There are a few classifications of interactive music systems. The first is score-driven versus performance-driven, which largely deals with what is stored. The next is transformative, generative, and sequenced. These deal with how the system is creating music. Additionally there is a difference between instrument and player paradigms. Is the instrument enhanced or are there unseen performers as well?
+
+All of these interactive systems use a three-stage process of sensing, processing, and response. MIDI is often the bridge between all of these stages.
+[[cite:&rowe93_inter_music_system]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ec59cc94-41c1-4d14-85f5-e86a69b0c570
+:END:
+#+title: Class 1
+
+* Class 1 - Introduction and Syllabus
+** Introduction if necessary 2 min
+** Start by listening to "After the Ball" 3 min
+** Listen to the top of the Hot 100 at the time 3min
+** Differences between the two and how much music we have to cover, not going to get all, etc. 2min
+** Syllabus, Canvas, etc. 30 min
+** Assign "Typology of Hooks" and talk about the discussions, writing assignments, etc. 10min

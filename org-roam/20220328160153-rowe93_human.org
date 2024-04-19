@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0b987a2d-d3bd-44f2-9dff-64d057f394d4
+:END:
+#+title: rowe93-human
+#+filetags: :human:
+Interactive music systems are not designed to replace human performers, but to enhance them. No one wants to take humans out of live performance. Humans understand what music is and can communicate through it.
+
+[[cite:&rowe93_inter_music_system]]

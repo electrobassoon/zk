@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       6ed87199-0da5-429b-8ac3-0d58f3160a57
+:ROAM_REFS: cite:stockhausen96_elect_perfor_pract
+:END:
+#+TITLE: stockhausen96_elect_perfor_pract
+
+* Electroacoustic Performance Practice
+:PROPERTIES:
+:Custom_ID: stockhausen96_elect_perfor_pract
+:URL: 
+:AUTHOR: Stockhausen, K.
+:NOTER_DOCUMENT: ~/Dropbox/Dissertation/PDFs/stockhausen96_elect_perfor_pract.pdf
+:NOTER_PAGE:
+:END:
+** Importance of Recording
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.5743440233236151)
+   :END:
+Every musician should be responsible for knowing how their instrument should be recorded. It is as important as knowing how to play it. This also crosses over into live electroacoustic music for understanding mic placement.
+** Quality
+   :PROPERTIES:
+   :NOTER_PAGE: (4 . 0.5782312925170068)
+   :END:
+The modern recording techniques allow for greater exactness, balance, etc. than a live group can acheive in live performance.
+** Halls
+   :PROPERTIES:
+   :NOTER_PAGE: (11 . 0.5413022351797862)
+   :END:
+Halls are built for performance of traditional music. They are not designed for electroacoustic music.
+** Prefabricated
+   :PROPERTIES:
+   :NOTER_PAGE: (19 . 0.26433430515063167)
+   :END:
+Prefab music is very important because it is usually of the highest quality, and brings sound worlds that could never be created with familiar sound sources.
+** Education
+   :PROPERTIES:
+   :NOTER_PAGE: (31 . 0.3138969873663751)
+   :END:
+Many musicians don't like the new technology. He claims this is schizophrenia, as we use the new tech in almost all other areas of life. Musicians should be interested in expanding their timbres.
+** State of Traditional Music
+   :PROPERTIES:
+   :NOTER_PAGE: (31 . 0.6112730806608357)
+   :END:
+Traditional instrumentarium is at an end. It will be preserved by the best soloists like Japanese Gagaku performers, or other small groups. They will preserve the art as timeless, but only the best can do that. There should be much effort to renew music study and incorporate what modern technology brings so we can produce more original sound worlds, more coordinated, coherent, balanced, adventuresome, mysterious, and fanciful music. All to serve beauty.

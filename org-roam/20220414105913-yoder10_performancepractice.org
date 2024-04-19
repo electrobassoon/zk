@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3b281ea4-740d-481f-860c-8609298ce5fb
+:END:
+#+title: yoder10-performancepractice
+
+Performance practice traditionally has dealt with the score, but needs to expand to inculde loudspeakers, computers, microphones, pedals, etc. 
+
+Interactive music requires specific knowledge and skills that performers may not encounter in other genres of contemporary music. Additionally more roles are required than in 18th, 19th, and even 20th century works.
+
+Performance practice problems often are solved in collaboration with the composer, but don't always get passed on to future performances.
+
+
+[[cite:&yoder10_perfor_pract_inter_music_clarin]]

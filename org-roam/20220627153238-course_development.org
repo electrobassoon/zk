@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       684ec799-204b-48c6-a49e-5bd288dba966
+:END:
+#+title: MUSC3550
+
+* [[id:ec59cc94-41c1-4d14-85f5-e86a69b0c570][Class 1 - Introduction and Syllabus]]
+* [[id:1ae923a4-f9f5-49de-8eca-86988c35b96c][Class 2 - Beginnings]]
+* [[id:f40910fd-655a-4736-ad14-286b2e10daa8][Class 3 - Tin Pan Alley]]
+* [[id:bae3c3a8-97b5-457a-b348-56d797d77c9e][Class 4 - Jazz]]
+* [[id:c33e47e0-4d9a-4604-8bb9-6536b2866f36][Class 5 - Golden Age of Tin Pan Alley]]
+* [[id:0b126f91-5ae7-4b93-9904-09983ed659d9][Class 6 - Race Records]] 
+* [[id:dac80827-c441-4112-ae91-65a641b0db95][Class 7 - Hillbilly]]
+* [[id:4cb509d7-e56d-40df-863f-19f534046d3c][Class 8 - Swing]]
+* [[id:e27eb5c6-639f-4e6a-bdaa-586cd2e034e2][Class 9 - Swing singers]]
+* ----------- [[id:151ef767-2582-4288-b90c-96e81b2b7688][Exam 1]]
+* [[id:11e24c35-1f73-4d2b-8cea-b6ec42497ba1][Class 10 - Postwar Singers and Country]] 9/23
+* [[id:b97c1010-8ff9-4171-9bf6-4e26b42e38f6][Class 11 - R&B]] 9/26
+* [[id:e79f1d01-56ec-41c3-92d4-70c478dfe452][Class 12 - Rock and Roll]] 9/28
+* [[id:3ce6b349-e1fd-4e1a-a0fd-c099a05c2e62][Class 13 - Rockabilly]] 10/3
+* [[id:d4997ac4-6eb5-4446-a5c5-e247eb935621][Class 14 - Phil Spector, Berry Gordy]] 10/5
+* [[id:56F95EDE-01F9-42F1-8898-271726C867AD][Class 15 - Beach Boys and Beatles]] 10/7
+* [[id:b0a89125-2331-482b-b271-0815cf6033e9][Class 16 - More Beach Boys and Beatles]] 10/10
+* ----------- [[id:DA76E78C-9273-4840-9F6F-5FA750DC4C38][Exam 2]]
+* [[id:A52D9330-3C8B-4AE2-80FA-5598133EBD4D][Class 17 - Soul]] 10/14
+* [[id:d85054a8-8b57-4c9e-b346-96e94ee9fb2e][Class 18 - Urban Folk]] 10/19
+* [[id:11de1f1d-82d6-4411-8211-33627806340d][Class 19 - Psychadelic Rock]] 10/21
+* [[id:31299cd9-35a8-416e-a26b-10ae2a20fe67][Class 20]] - 70s singer songwriter / country 10/24
+* [[id:3b4c49b2-4dcd-46c1-9908-b05a86ec6002][Class 21 - 70s rock]] 10/26
+* [[id:54cb064b-00c8-4024-a75a-d988c122436e][Class 22 - Concept Albums]] 10/28
+* [[id:5DF1479C-7D3B-4CE6-A37E-E80491D4CEAE][Class 23]] - Disco 10/31
+* ----------- [[id:2c4db2fc-bed1-4349-97c6-22302ee617e2][Exam 3]]
+* [[id:996493CC-10D6-4E97-8CCC-111FDE80AC8A][Class 24 - Reggae and Salsa]] 11/2
+* [[id:E000C2B6-2EFC-47B8-BB0A-CB62856FC799][Class 25 - Punk and New Wave]] 11/14
+* [[id:0B9B4FE8-F1C5-43B3-A694-DD22A7FE59D2][Class 26 - Funk and Rap]] 11/16
+* [[id:4D94A466-506C-43D5-9D3E-070551D61092][Class 27 - Digital Media / Hits]] 
+* [[id:1840EA8B-D54E-44AB-846C-CBABF55E2892][Class 28 - Thriller, Madonna, Prince]] 11/09
+* [[id:C08CC377-A587-4B8E-8C34-AE0B1EE3243A][Class 29 - Hip Hop]] 11/11
+* [[id:FC1CB15E-0DB4-4001-819A-CA4367FAD955][Class 30 - East vs west]] 11/28
+* [[id:7FDFB8FA-67FB-4EF0-ACE5-18BBC3F29743][Class 31 - Alternatives]] 11/30
+* [[id:E10B8DC5-C2C3-443E-9D94-E02D1F0A9A3D][Class 32 - Country and Latin]] 12/2
+* -------------- [[id:271A8953-A8A4-422F-BC14-81B43849F363][Exam 4]]
+* [[id:11557889-D7DB-4BC5-8E1B-A9546F2076B4][Class 33 - New Industry Rock 12/5]]
+* Class 34 - New Industry Hip hop 12/7
+** Jay Z
+** Eminem
+** Outkast
+** Nicki Minaj
+** Kendrick Lamar
+* Class 35 - New Industry Pop 12/9
+** Bruno Mars
+** Beyonce
+** Adele
+** T Swift 2
+** K Pop, BTS and Black Pink?
+* Class 38 - Final Presentations TBA 12/9
+* Unused readings this time
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/23325809 - Corpus analysis of Rock Harmony 24pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/931297 - Bridging Gap with Musicology 14pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/3877525 - Accidents, Hooks, and Theory 17pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853283 - Count Basie 35pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853322 - Hank Williams 16pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853225 - Chuck Berry Johnny Be Good 14pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853364 - Maybellene 18pp
+*** Muddy Waters, Louis Jordan, Son House article
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853651 - Bohemian Rhapsody Opera Influences 15pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/24736781 - Popular Music Cannon 21pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/4500315 - Queer Disco 14pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/40212400 - Beastie Boys Whiteface 20pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/853600 - PMRC 14pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/3877594 - Reccuring Patterns and Hooks in 80s 21pp
+*** https://www-jstor-org.proxy.li.suu.edu:2443/stable/23359907 - Kurt Cobain's journal 19pp

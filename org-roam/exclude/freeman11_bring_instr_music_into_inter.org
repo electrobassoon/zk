@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       744b2ef2-002d-4920-ae8f-61814cd90822
+:ROAM_REFS: cite:freeman11_bring_instr_music_into_inter
+:END:
+#+TITLE: freeman11_bring_instr_music_into_inter
+#+filetags: :laptop:improvisation:notation:
+
+* Bringing Instrumental Musicians Into Interactive Music Systems Through Notation
+:PROPERTIES:
+:Custom_ID: freeman11_bring_instr_music_into_inter
+:URL: 
+:AUTHOR: Freeman, J.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/freeman11_bring_instr_music_into_inter.pdf
+:NOTER_PAGE:
+:END:
+
+Relatively useless for my purposes.
+Counsels against composers being too dense in their notation, it drives away the creativity of the performer which is where the magic of music happens. That's what draws him to music.
+Instead, he describes an approach he has used to bring collaboration between digital performers and live performers. The computer generates notation that the performers have to play.

@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       6c19d542-f8f0-4a6e-9630-8a5c2468ecb9
+:END:
+#+title: Difficulties in Electroacoustic Performance
+#+filetags: :setup:performance:
+
+There are many difficulties a performer has to deal with when performing electroacoustic music.
+
+One is the proximity of microphones, cables, and limiting a performer's normal expressive movements.
+[[id:7e41e4c8-2238-4158-b513-176a5817a4b4][bullock13_difficulties]]
+
+Sometimes electroacoustic pieces can put additional strain on your body and physical health. [[id:95485d8c-0e23-4fda-bf6a-95afbc9fd827][enns17-difficulties]]
+
+Another, in some pieces, is the inflexibility of the accompanist of fixed media.
+[[id:b9eaeb1c-4855-4b14-9825-8679ae296c03][mcnutt03-prisoner]]
+
+The notation of electronic music is not standard and does not seem to have a solution for all situations. [[id:f9be4c9d-9360-4f46-853c-4c0c2303ecc9][pestova18-notation]] Notation can be unhelpful. Hearing the electronics on stage can pose difficulties. The physical differneces in each performer make some setups difficult.
+[[id:1a6433b1-bfe2-4edb-a771-1e42fc2a9902][mcnutt03-difficulties]]
+
+Using speakers poses other problems. They are directional and concentrated, instead of diffuse like acoustic performers. Mixing the two is a difficulty.
+[[id:4a0828e4-8972-449f-8b48-9d891935f13c][morrill81_difficulties]], [[id:5ff398dd-0c97-4e47-b8f0-c3c157c4a39a][pennycook97-difficulties]]
+
+Additionally, there is a perceptual difficulty for listeners. Only one audio source is seen, yet several are heard.
+[[id:9814924d-0486-4467-9bb8-bc339a19e3aa][frengel10-difficulties]] Audiences also need to discard previous conceptions of computer music as things have changed a lot. [[id:88b87af3-0732-45f9-afd5-202eeff9ffbe][belet03-audiences]]
+
+Another difficulty arises from the knowledge of the teacher. At times, the student may know more about the technology than the teacher does. It takes considerable time and effort for the teacher to learn new skills and develop new teaching resources.
+[[id:c43dd991-b330-432c-9deb-1698396f1206][brown07-difficulties]], [[id:57b4352e-a950-44d7-a7bb-d12bd50b2081][pennycook97-education]] [[id:d757a1ba-c2e7-48ff-b624-ddf71db77ac9][behr14-difficulties]] [[id:ea1bbb4c-f1ee-4863-8af0-015bd796d9e5][masone16-difficulties]]
+
+Halls are not desgned for electroacoustic music, but for traditional music. [[id:3cd23c84-ba1f-4dad-b30f-9e2ec38e91fa][stockhausen96-halls]], [[id:5ff398dd-0c97-4e47-b8f0-c3c157c4a39a][pennycook97-difficulties]], [[id:5241e1f5-5723-4889-892d-0ea367ff1157][kimura03_acoustics]] A performance can be bad because of spatialization, eq, etc as much as wrong notes. [[id:11a44c7b-c1c0-42ca-bf87-6c97a87344d8][hoffman13-ideal]]
+
+Dynamics can be a large issue for the bassoon, especially when using electric bocals. [[id:53da1656-9f7e-495a-9919-8a8188aa55aa][romine13-difficulties]] [[id:d757a1ba-c2e7-48ff-b624-ddf71db77ac9][behr14-difficulties]]
+
+Every piece seems to require purchasing some new form of equipment, or has a new technical setup. [[id:53da1656-9f7e-495a-9919-8a8188aa55aa][romine13-difficulties]]
+
+There is a balance of sound to feedback with microphones and pickups [[id:53da1656-9f7e-495a-9919-8a8188aa55aa][romine13-difficulties]]
+
+The cost of the equipment is a major issue for performers (the ones that do the most for the genre to survive), and many performance spaces don't want to spend money on things that won't get used. It's a vicious circle.[[id:5ff398dd-0c97-4e47-b8f0-c3c157c4a39a][pennycook97-difficulties]]
+
+Similarly, institutions are not funding, and thus not encouraging, the development of electroacoustic music. [[id:cba4a75c-ad29-4642-8e68-ebe6b2359549][waters16_economy]]
+
+Controllers can be distracting to the audience and the music. [[id:44eec835-2189-43d5-88cd-73964fb58ce5][kimura03_stage_appearance]]
+
+However, music playing is already frought with difficulties and should be, or it would not be satisfying [[id:ec206838-d171-4974-bcea-3180ca516e8f][mcdermott13-difficulty]] That is why we play instruments [[id:9ba16de3-8825-4f67-8f7a-127bab16121c][dixon06-play]]
+
+Pieces go out of date, and if one piece of a system is gone, the whole piece needs to be rebuilt by the composer. [[id:e4ce0537-83dc-4b6f-be74-5aba3ee571c5][canazza01-preservation]] Some composer are more willing to do this than others. [[id:ac6466c2-4b45-44cd-8cb8-4ca88295b15b][grew14-difficulties]]
+
+Hearing the eletronics on stage can be difficult and cause syncing issues. [[id:d757a1ba-c2e7-48ff-b624-ddf71db77ac9][behr14-difficulties]]
+
+The bassoon itself makes amplification and pitch tracking more difficult perhaps than other instruments. [[id:ea1bbb4c-f1ee-4863-8af0-015bd796d9e5][masone16-difficulties]] Many effects units are designed for guitar which has a clear tone, unlike wind instruments. [[id:dfa3b3d3-4558-4e56-b418-cf8ad2bbd4f7][rothenberg10-tone]]

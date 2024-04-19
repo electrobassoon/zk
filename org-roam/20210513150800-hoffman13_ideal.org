@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       11a44c7b-c1c0-42ca-bf87-6c97a87344d8
+:END:
+#+title: hoffman13-ideal
+#+filetags: :adorno:ideal:philosophy:
+
+
+Adorno's theory puts the score as the identity of musical work. Performances are attempts to realize what the score has. Performers struggle perhaps to reach the intents of the composer and extract everything they can from the score. However, with electroacoustic music this can be bypassed. The sound file can be "performed" exactly the same way every time. There is perhaps no need for a score of an electroacoustical work.
+
+However, there are still good and bad performances of electroacoustic music. This comes more down to balance, speaker placement, eq, and things of that nature. So there still is the quest for the perfect realization. It just looks and sounds a little differnet than acoustic music does.
+
+cite:hoffman13_perfor_elect_music

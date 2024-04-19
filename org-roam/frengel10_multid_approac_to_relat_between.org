@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       0c18d03a-eb31-4383-81dc-9b7d4db3b4a9
+:ROAM_REFS: cite:frengel10_multid_approac_to_relat_between
+:END:
+#+TITLE: frengel10_multid_approac_to_relat_between: A multidimensional approach to relationships between live and non-live sound sources in mixed works
+
+* A multidimensional approach to relationships between live and non-live sound sources in mixed works
+:PROPERTIES:
+:Custom_ID: frengel10_multid_approac_to_relat_between
+:URL: 
+:AUTHOR: Frengel, M.
+:NOTER_DOCUMENT: ~/dissertation/PDFs/frengel10_multid_approac_to_relat_between.pdf
+:NOTER_PAGE:
+:END:
+** Perceptual Dissonance
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.32210526315789473)
+   :END:
+By nature of mixed electroacoustic works, some sound sources are seen and some are not. This causes some perceptual dissonance between the aural and visual stimuli. Only one stimulus is seen ( the live performer) while many different ones are heard.
+** Relationships
+   :PROPERTIES:
+   :NOTER_PAGE: (1 . 0.32210526315789473)
+   :END:
+The relationship between the live source and the non-live sources play a central part in the plan of the piece.
+** Framework
+   :PROPERTIES:
+   :NOTER_PAGE: (2 . 0.10736842105263157)
+   :END:
+Many different aspects of the sound. 

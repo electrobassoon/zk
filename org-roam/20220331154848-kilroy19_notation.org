@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       316a357c-59ed-4558-b6f5-2668bd2414bf
+:END:
+#+title: kilroy19-notation
+#+filetags: :notation:
+
+Music notation never fully represents all the details of music to be performed. Performers make interpretive decisions because of the ambiguities of notated rhythms, rubato, tone, dynamics, intonation, etc. Electronics and live processing create even more ambiguities and necessitate the interpretation of performers. The very nature of the score can be different in electroacoustic music.
+
+
+[[cite:&kilroy19_posth_music_contex]]

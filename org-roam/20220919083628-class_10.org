@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       11e24c35-1f73-4d2b-8cea-b6ec42497ba1
+:END:
+#+title: Class 10
+
+* Class 10 - Postwar Singers
+** Technology
+** Sinatra
+*** PRSR 4
+** Nat King Cole
+** Mambo
+** Hank Williams
+** Patti Page
+** Honky Tonk 
+*** PRSR 12 Country Music as Folk Music, Country Music as Novelty 4pp  :PRSR:
+*** PRSR 13 Country Music Approaches the Mainstream 3pp

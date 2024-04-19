@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       d87d4561-e519-49ec-bc7b-cc78d4f6e8f6
+:END:
+#+title: yoder10-education
+
+Musicians are often not trained in microphone techinques. (from McNutt)
+
+Performers should treat the electronics as they do an accompanying piano or chamber music partner. Questions like "Am I foreground or background? Should I be overpowered or fighting to overpower? Should I change my articulation to match the electronics? What is the character?
+
+Reasons that performers avoid this repetoire are the difficulty, cost, and unfamiliarity. All of these can be overcome. Computers are cheaper, max runtime or pd are free, tech is cheaper. These barriers are starting to come down and it is time to consider having formal courses of instruction in universities.
+
+Perhaps a good starting point is a collaboration between a composition studio and and performance studio.
+
+[[cite:&yoder10_perfor_pract_inter_music_clarin]]

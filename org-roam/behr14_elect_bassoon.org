@@ -1,0 +1,167 @@
+:PROPERTIES:
+:ID:       ad40c3af-0022-40c9-9df5-9c9d597c3908
+:ROAM_REFS: cite:behr14_elect_bassoon
+:END:
+#+title: behr14_elect_bassoon
+
+* The electroacoustic bassoon: an exploration of a modern use for the traditional instrument
+  :PROPERTIES:
+  :NOTER_DOCUMENT: ../PDFs/behr14_elect_bassoon.pdf
+  :END:
+** Cage
+   :PROPERTIES:
+   :NOTER_PAGE: (12 . 0.17)
+   :END:
+Cage perhaps has the first work for live acoustic instruments and recorded sounds. /Imaginary Landscape No. 1/
+** Effects
+   :PROPERTIES:
+   :NOTER_PAGE: (15 . 0.23181818181818184)
+   :END:
+Effects began in the 1960s, but we had to wait until the 70s and 80s for it to be usable in real time live performance. Filters, flanging, phasing, panning, echo, and delay.
+** MIDI
+   :PROPERTIES:
+   :NOTER_PAGE: (15 . 0.5872727272727273)
+   :END:
+Midi standardized software for electronic communication. 1983
+** MAX
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.12363636363636364)
+   :END:
+max in the late 90s	
+** Possibility
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.40181818181818185)
+   :END:
+Many subgenres within electroacoustic music. 
+Electronics allows the pairing of traditional bassoon with an infinite palette of electroacoustic sounds, as well as greater flexibility by altering bassoon tone.
+** First piece
+   :PROPERTIES:
+   :NOTER_PAGE: (16 . 0.8190909090909091)
+   :END:
+First live with tape would be Dittrich's /Kammermusic I/, also Schwartz's /Aria no 4/ and Fongarrds works in 1976.
+** Early Live pieces
+   :PROPERTIES:
+   :NOTER_PAGE: (18 . 0.20090909090909093)
+   :END:
+Boush /Espace Temps/ Rothkopf /At a Crossroads/ and Hurdy's /Impromptu pour un Monodrame/
+** Amplification
+   :PROPERTIES:
+   :NOTER_PAGE: (21 . 0.4481818181818182)
+   :END:
+To be heard in modern ensembles like jazz, rock, etc Amplification is needed. There are usually two options, the electric bocal and traditional microphones.
+** Mics
+   :PROPERTIES:
+   :NOTER_PAGE: (22 . 0.20090909090909093)
+   :END:
+If using one mic, it should be about head level pointing towards the center of the bassoon. Most like to use 2 mics, on at the bell and one by the right hand. Clip on mics make movement easier.
+** Mic issues
+   :PROPERTIES:
+   :NOTER_PAGE: (23 . 0.17)
+   :END:
+If they are fixed, movement causes a change in amplification. One mic will also have changes becuase of not picking the entire instrument up evenly. Levels may need to be high which affects other instruments, or feedback.
+** Bocal issues
+   :PROPERTIES:
+   :NOTER_PAGE: (24 . 0.4172727272727273)
+   :END:
+The prospect of drilling into bocal can be a deterrent itself. It's almost a leap of faith, as bocals are expensive and you still want a good bocal.
+** Telex
+   :PROPERTIES:
+   :NOTER_PAGE: (25 . 0.51)
+   :END:
+Telex discontinued, and is more prone to feedback, emphasizes high frequencies
+** Notes for page 26
+   :PROPERTIES:
+   :NOTER_PAGE: 26
+   :END:
+** LJ
+   :PROPERTIES:
+   :NOTER_PAGE: (26 . 0.12363636363636364)
+   :END:
+Little jake need preamp, a couple different setups described.	
+** Mix
+   :PROPERTIES:
+   :NOTER_PAGE: (26 . 0.5563636363636364)
+   :END:
+Mixing both may be the best of both worlds. However it is more complex for setup and blending signals and needs a good technician.
+** PA
+   :PROPERTIES:
+   :NOTER_PAGE: (27 . 0.17)
+   :END:
+Most seem to prefer a PA system than an amp.
+** Bassoon sound
+   :PROPERTIES:
+   :NOTER_PAGE: (27 . 0.6490909090909092)
+   :END:
+Bassoon sound is more complex, so effects may behave differently than a guitar or synth.
+** Distortion
+   :PROPERTIES:
+   :NOTER_PAGE: (28 . 0.17)
+   :END:
+Frequently used. Boost the signal, clip, and add overtones. However the bassoon already has complex harmonic content, so distortion needs to be chosen carefully or it can be oversaturated and produce mostly white noise. It also creates feedback issues (Jacobs) Overdrive and Fuzz are related.
+** Compressor
+   :PROPERTIES:
+   :NOTER_PAGE: (28 . 0.5254545454545455)
+   :END:
+Louds softer and softs louder. Usually this dampens the notes beginning and boosts sustain.	
+** Pitch Shifting
+   :PROPERTIES:
+   :NOTER_PAGE: (28 . 0.68)
+   :END:
+Octaves are most common, but sophisticated options available.
+** Filters
+   :PROPERTIES:
+   :NOTER_PAGE: (29 . 0.17)
+   :END:
+Weaken or boost specific freqs or range of freqs. Wah-wah most common. Adjust tone
+** Modulation
+   :PROPERTIES:
+   :NOTER_PAGE: (29 . 0.4481818181818182)
+   :END:
+Flangers, phaser, chorus. Often add depth, dimension, and movement.
+Flanger adds a variable delay. Phaser splits signal and alters phase. Create a vowel shifting or swish. Chorus constant delay very short.
+** Time Based
+   :PROPERTIES:
+   :NOTER_PAGE: (30 . 0.09272727272727273)
+   :END:
+Reverb lots of echoes that gradually fade. Delay and echo duplicate signal and delay. Loopers or phase loopers record and playback verbatim. Overdubbing also possible. Gives options to bassoon as a monophonic instrument.
+** Test
+   :PROPERTIES:
+   :NOTER_PAGE: (31 . 0.5718181818181819)
+   :END:
+Rodgers says test all pedals against full range of the instrument.
+** Pedagogy
+   :PROPERTIES:
+   :NOTER_PAGE: (32 . 0.43272727272727274)
+   :END:
+Using gear was not part of bassoon performance degree. Using feet with pedals needed more coordination than he thought. (Rodgers) Had to get help outside the orchestral world.
+** Performance Issues - Burns
+   :PROPERTIES:
+   :NOTER_PAGE: (37 . 0.23181818181818184)
+   :END:
+Not being able to hear the electronics. A monitor will probably help. Also not being able to read the notation of the electronic part and understand cues.
+Live interactives may have a mind of their own.
+** Traveling
+   :PROPERTIES:
+   :NOTER_PAGE: (39 . 0.18545454545454546)
+   :END:
+   You can take your accompanist with you. No worrying about their qualtiy or the instrument. Also interaction with composers, as they are frequently alive.	
+** Difficulty of Looping
+   :PROPERTIES:
+   :NOTER_PAGE: (47 . 0.43272727272727274)
+   :END:
+Rhythm and intonation have to be perfect
+** Necessity of Familiarity
+   :PROPERTIES:
+   :NOTER_PAGE: (48 . 0.6181818181818182)
+   :END:
+When more composers write more pieces for this medium, it will necessitate a familiarity with the medium and the genre. (Rodgers)
+** Music
+   :PROPERTIES:
+   :NOTER_PAGE: (55 . 0.6490909090909092)
+   :END:
+Music is music no matter how you slice it. Tools are just that - tools in order to coax expression and feelings out. (Hanson)
+** Volume Pedal
+   :PROPERTIES:
+   :NOTER_PAGE: (57 . 0.4790909090909091)
+   :END:
+Discussion of dynamics and the need of a volume pedal.

@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       5f5eb9cf-f3f9-4fbd-a98a-0ca390c8c7ef
+:ROAM_REFS: cite:pestova18_approac_notat_music_piano_live_elect
+:END:
+#+title: pestova18_approac_notat_music_piano_live_elect
+
+
+* Approaches to Notation in Music for Piano and Live Electronics: The Performer's Perspective
+
+** page 131
+Lack of unified notation is a major issue in electronic repertoire
+
+"Like other forms of writing, a score for electroacoustic music is not a neutral means of representation but the expression of a system of relations; you have to understand the language to be able to read the text. But the notation of electroacoustic music is not based on a widely accepted system of signs; there are a number of dialects." Gregorio Garcia Karman
+
+** page 132
+The performer has to learn a new dialect for almost every new piece.
+
+Score sometimes has more info than reasonable for page turns. This requires reduction which introduces other kinds of problems.
+
+No unified terminology for the field of live electronic music.
+
+Notation of electronic music has been an issue from the start
+** page 133
+Two main problmes, one is that we don't have symbols to accurately reflect electronic sounds, and two is the graphical representation of sound.
+
+One notation approach is to show the sound wave on a horizontal scale to try and synchronize with the shape of the envelope.
+** page 138
+Another type is to use traditional music notation symbols to represent the electronics part. But we don't have symbols that match up very well with the sounds the electronic part can create
+
+Additionally if the parts are complex, this can make performance almost impossible because of page turns. It can work well as a study or analysis score.
+** page 140
+Some graphical notation is helpful to simplify the learning process of the electronics, although it does not comunicate the sound by itself
+** page 142
+The graphic representation of the computer part is purely referential (Kojs)
+
+It doesn't give enough info to perform the piece without the max patch
+** page 147
+another approach is to provide cues that will trigger sounds in the electronics, most commonly done through a midi pedal. However this often does not prepare the performer for what the sound will be, and requires frequent playing with the electronics to understand the electronics part.
+** page 157 conclusions
+There is no unified notation protocol or terminology.
+** page 158
+A possible solution is to have a study score in addition to a performance score

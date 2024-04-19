@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a39dea80-46d4-46ab-9b20-69715c5b8c89
+:END:
+#+title: brown07-inclusion
+#+filetags: :musicality:instrument:intention:
+
+Computer music shifts the focus onto other aspects of music that get less atention, such as timbre, space, time. With traditional acoustic instruments the timbre change rather limited in comparison to what computers are able to acheive. Overall there are many more possibilites with computer music, since the gestures are of a one-to-many relationship. Traditional acoustic music has one outcome for each gesture, but computers are able to expand what music can do because of this one-to-many relationship. This interaction is rewarding, and rich with new musical experiences.
+
+Using computers in the music making process does not change the intention of the musician. The intention of the musician is still to express ideas and communicate through music. The only difference is the instrument that is being used. This music can be very simple or complex, challenging or accessible. It can even be deeply infused with social comment.
+
+The ability to perfom with computers take consistent and focused practice. Many of the skills incorporating new music technology are transferrable to other areas of life. 
+
+cite:brown07_comput_music_educat

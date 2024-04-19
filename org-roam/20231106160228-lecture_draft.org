@@ -1,0 +1,107 @@
+:PROPERTIES:
+:ID:       C10F873F-B687-4C09-8E07-2AC7F7D70D75
+:END:
+#+title: lectureDraft
+
+
+
+Hello everyone, and welcome to this lecture about interactive electroacoustic music for the bassoon. What does that even mean? Electroacoustic music refers to the mixture of electronic music---synthesized, recorded, or processed---with traditional acoustic instruments, like the bassoon. Most are probably familiar with the concept of a piece with "tape" or prerecorded track, where someone presses play on the electronic music and a performer plays some music in time with the electronic part. That's not quite what we are talking about today. That music is missing the interactive element. Interactive electroacoustic music generally has some way to control the electronic music during the performance, or the electronic music is generated in real time.
+
+~2:00
+
+So how did this music develop? It really begins with the history of electronic music, which begins with the invention of the phonograph at the turn of the 20th century. Once sound could be reliably recorded and played back, composers started experimenting with creating music from recorded sound. For some, this meant taking the sounds of the natural world and organizing it into musical structures, and for others it meant creating or synthesizing sounds that could be written to a record and played back in a performance. 
+
+One of the problems that many associated with this music was that there was no apparent element of human interaction. Performers didn't take the stage to perform the music, someone just pushed the play button. Many audience members found that they missed the human aspect of the music. By the 1960s, composers were bringing back the human to the music performance by writing pieces with a human performer, and a "tape" part that was performed at the same time. 
+
+This approach had a lot of benefits. There was a human performer on stage that the audience had grown accustomed to over centuries of music-making. The electronics part still provided new sounds that were exciting for the audience. However, there was one group of people that were not completely satisfied with this new development: the performers themselves. 
+
+Anyone that has performed a piece with fixed media accompaniment knows of the challenge it places on the performer. The electronic part has no flexibility whatsoever. You want that fermata to be a little longer this performance? Nope. You want to push ahead in this section? Can't do that either. That part is too fast for you to play? Sorry. With acoustic music, the other performers on stage can make those types of allowances. But with fixed media, it is fixed, as in fixed in place. Several performers have described the relationship (perhaps too dramatically) as one were the performer is in a prison. This was a problem that really could not be solved with the technology of the 1960s.
+
+It wasn't until the invention of the modern computer in the 1980s that this relationship could be altered. Computers were powerful enough to "listen" to sounds, and then change the output in real time. This allowed electronic music to behave more like acoustic performers do. It can change from performance to performance. The performer can sometimes even control how the computer will change. In some cases, the computer can even improvise! This interaction empowers the human performers of electroacoustic music.
+
+~ 7:00
+
+Now with this power comes some additional issues for performers to deal with. Perhaps the biggest issue is knowing how to use all of the electronic equipment. Bassoonists and other acoustic performers usually don't have a lot of experience with loudspeakers, microphones, mixing boards, or computer languages. These are all aspects that could frighten prospective performers from delving into this style of music. Fortunately, performers usually don't have to go on this journey alone. There are many people in the music industry that have experience with audio hardware, and most of the time performers don't need to know any programming languages. Composers of this music are often quite willing to help in any way they can!
+
+Once all of the hardware issues are dealt with, the question of balance between the acoustic and acousmatic (or electronic) appears. Having someone else with good ears in a performance space is crucial. Performers on stage just can't adequately judge the balance by themselves. Adequate rehearsal time needs to be devoted to balancing these sounds. This rehearsal can't be an hour before the performance. Preferably it should not even happen on the same day! In a recent performance I had, it took 3 hours to setup the equipment and get everything balanced correctly. 
+
+~10:00
+
+While this may sound intimidating enough to discourage some performers, there are many benefits that interactive electroacoustic music can provide that are unavailable anywhere else in art music.
+
+One of the benefits for students learning more of this style of music, particularly for future music educators, is gaining transferable skills. Learning more about electric bocals and effects pedals can transfer to a greater understanding of the needs of electric guitar and bass players if they teach a jazz band or guitar class. Using microphones and learning more about digital audio can transfer to solo mics in choirs, or making recordings for submissions to conferences.
+
+Another aspect of performing electroacoustic music well is that it often requires a higher level of musicianship. Consider playing with delay pedals, or loops. Any mistake will be heard multiple times, especially with loops. If a max patch is listening for a certain pitch to trigger the next cue, it won't trigger if that note is missed. Perhaps, "the addition of music technology instruction to performance curricula may be advantageous solely for its potential benefits on general musicianship." Bullock et all 176.
+
+Improvisation is a valued skill for musicians that often is not developed in bassoonists. One likely reason for this is that most of the music that music majors study don't require improvisation. That is something that is different with interactive electroacoustic music. It is the body of repertoire for the bassoon that features improvisation more than any other. In fact, some pieces are completely improvised by the bassoonist and the computer!
+
+In some pieces, adding electronics to the bassoon sound creates a sort of super instrument. It is physically impossible for the bassoon to make all of the sounds that the audience hears.
+
+Freedom of expression for performers is a big reason that interactive electroacoustic music for the bassoon even exists. The bassoonist has more control over the electronics than pieces with fixed media, and can bring different interprative perspectives to each performance. 
+
+Another important reason is that this style of music has the potential to reach contemporary audiences in ways that traditional western art music perhaps can't do. Much of the music the average person listens to today is full of electronic sounds and the popular music idiom. Interactive electroacoustic music can contain more of those sounds that they are accustomed too. Garnett puts it a bit more boldly. Speaking concerning computers, he said:
+
+"One cannot turn one's back on the most significant technological breakthrough in history without risking irrelevance to that histroy. One cannot avoid taking advantage of the ubiquity of this technological marvel because that very ubiquity renders all other technologies in some sense less significant. One must take computers into accout, and take them to task, because it is a response to the technology of our time, to the situation of our time. To make music with the technology of our time, and specifically the computer, poses a tremendous challenge for the artist. To address this challenge, in itself, will help keep music alive and significant." (32)
+
+And perhaps one of the most important reasons, many performers find playing with the electronics to be an enriching and fun experience!
+
+So let's move on to some performance practice issues for this music. We will start with music that utilizes effects pedals, beginning with hardware. The first piece of this performance system is a microphone, which is usually attached to the bocal. The most readily available option for the bassoon is the "Little-Jake" pickup. This pickup is attached to an adapter that is soldered to the bocal. A hole is also drilled into the bocal. Retailers like Forrests Music and Midwest Musical Imports can install the adapter to an existing bocal, and also sell cheaper bocals with the adapter preinstalled. This microphone listens to the bassoon's sound from inside the instrument itself, and carries that sound through a quarter inch cable, which is the standard connection type for most effects pedals. Before going into effects pedals though, the sound needs to go through a preamp. Forrests sells a preamp inside an altoids can that is designed specifically for the bassoon and the Little-Jake. Another preamp recommended by Trent Jacobs, the designer, is the L. R. Baggs Gigpro. The preamp boosts the signal from the microphone before sending it to effects pedals. From here, the sound can go through any number of effects pedals to alter the sound. After going through all of the pedals in the effects chain, the sound goes to an amplifier. The amp takes the incoming signal and plays that sound through its speaker.
+
+There are many different effects, but most of them are variations of a few categories. The first type is distortion-based effects. These effects amplify the sound until it is too loud, and flattens the peaks in the sound. Similar sounding effects are overdrives and fuzz. This effect does not work as well for the bassoon as it does for electric guitar. Trent Jacobs says this is because the bassoon's sound has more overtones than a guitar, and the distortion brings all of those overtones out and it washes out the sound. In my experience, fuzz effects tend to work better than true distortions. 
+
+Modulation pedals, on the other hand, tend to work well with the more complex sound of the bassoon. This group contains chorus, phaser, flanger, and harmonizer effects. 
+
+Filters make another group, with the most common members being the wah pedal and the autowah, or envelope filter.
+
+Another category of effects is delay-based effects. These include reverb pedals, delay pedals, and looper pedals. These effects copy the incoming signal, and then play it back at a different time. Reverb pedals play multiple copies of the sound very close together to emulate a bigger space. Delay pedals usually can change the time of the delay, as well as how many times it should play a sound. Looper pedals save sound input and repeat them over and over again, frequently allowing the performer to record more layers on top of the original loop.
+
+Here is a short video of me playing a loop, and adding most of these effects so that you can hear the different kinds of sounds that these effects pedals give to the bassoon. All of these have numerous variations and parameters that can be tweaked, but these are the basics.
+
+Play video 1:21
+
+The pedal I used in that clip is called a multi-effects pedal. This type of pedal is useful for having a wide variety of sounds in one device, in fact that pedal has almost anything you could ever want. However, it does usually come at a higher price than individual effects pedals. But you could buy individual effects pedals gradually as they are needed. Delays, octave pedals, and distortion pedals are among the most commonly used effects. 
+
+There are at least 15 pieces written for bassoon with effects pedals, that vary in difficulty, effects used, and instrumentation. I have selected four pieces that could be a good fit for undergradaute students wanting to explore this genre of music and created a short demo video for them. The pieces are "Fort Greene" by Padma Newsome, "Electrically Tragic" by Gene Pritsker, "Black Lion" by George Fetner, and "Perfectly Logical" by Tawnie Olson. 
+
+Play video 3:32
+
+Hopefully that is enough to give you a taste of the possibilities pairing effects pedals with the bassoon.
+
+Now let's transition to pieces that use a computer during the performance. One of the first performance practice issues with these pieces is how to get the computer to hear the sound of the bassoon. This is often easiest to achieve by using a USB audio interface. These interfaces have inputs for microphones or electronic bocals, as well as outputs for speakers after the computer has processed the sound.
+The world of microphones is one with lots of options. There are different kinds of microphones, like dynamic, ribbon, and condensers, that have their own method for capturing sound. Each of these has different polar patterns that determine where it picks up sound. Each microphone also picks up certain frequencies stronger than others. Microphone selection is important for capturing the sound of the bassoon faithfully, as well as avoiding feedback on stage. Many performers use large diaphragm condenser microphones with a cardioid pattern. This often strikes a good balance between the sound of the microphone, as well as avoiding feedback on stage. 
+
+With this configuration, many performers find that two microphones are needed to accurately capture the full range of the bassoon. One is placed near the tone holes of the left hand, and another is placed towards the bell. 
+
+The electric bocal used for effects pedals can also be used as a microphone for these pieces, however the sound inside the bocal is different from how we are accustomed to the bassoon sounding. However, it does have some benefits over using other microphones. The pickup is able to capture the full range of the bassoon by itself, and does not usually produce feedback. But the tradeoff is the difference in the sound. For a quick comparison, here is a clip of a piece called "Concatenation" by Rand Steiger recorded using a normal microphone.
+
+Clip 1
+
+Now here is the same section recorded using the electric bocal.
+
+Clip 2
+
+You can hear the difference in the sound. The bocal sounds more electronic, and perhaps more like a saxophone than a bassoon. But remember that in most performance situations the acoustic sound of the bassoon will still be present in the performance space alongside the electronic sound. As a rough example, here is the acoustic sound from the first clip blended with the electronic sounds of the second. 
+
+Clip 3
+
+The decision on whether to use an electric bocal or microphones may depend on the sound of the piece, the performance space, and the preference of the performer.
+
+These microphones are placed on a microphone stand and connected to the audio interface via XLR cables. The computer listens to these microphones through the USB connection, and then outputs sound through that same USB connection to send to the outputs, often XLR outputs or 1/4 inch outputs. These cables go to speakers and play the computer's sound output. 
+
+Once the sound of the bassoon reaches the computer, different software programs are used to react to the sound. The most common programs are Max/MSP, Puredata, and Supercollider. These are programming languages for sound and can be used to create a variety of sound worlds and approaches to performance. 
+
+For bassoon repertoire, Max/MSP is by far the most common software used. Max is not free to use for writing programs, but it is free to use for performers to run an existing program or patch. 
+
+Let's watch a short video of how to run a Max patch.
+
+Video 3:16
+
+It is worth noting that many of these pieces can be performed with a separate performer that is running the Max patch, or they can be performed by the bassoonist using a MIDI controller to control the patch. Having a patch operator during the performance could relieve some of the stress for a newer performer, but being able to run the patch independently makes it easier to perform the piece in different places.
+
+There are over 25 pieces for bassoon and computer-based electronics, again with a variety of difficulties, styles, and approaches to performance. Again, I have selected four pieces that would be appropriate for undergraduate students. They are "Mask" by Stefano Scarani, "Shoot the Well" by Clara Allison, "Bassoonification" by Dan VanHassel, and "Reaction, Reflection" by Shuyu Lin. There is a mixture of pieces using microphones and electric bocals. 
+
+Video 3:58
+
+Now that we have explored hardware, software, and some of the literature for bassoon and interactive electronics, let's take a moment to talk about including this repertoire in the undergraduate music curriculum. Research shows that it takes time for performers to become comfortable with electronics in performance, much more than just a dress rehearsal before a performance. University music programs can be a great benefit for prospective electroacoustic performers. Bassoon studios could purchase an electric bocal and a cheap multieffects pedal for students to use in performance. 
+
+There are various models to help students gain this familiarity. Students can collaborate with student composers to work on a new piece. Students can attend a workshop that focuses on interactive electroacoustic music and immerse themselves. Students can work with their professor and program this music on their recitals. Combinations of all of these would of course be wonderful. But there are also smaller ways to help students become more familiar with this music. Faculty members can program these pieces on faculty recitals, guest artists can come perform these works. Studio class time could be used to practice setting up hardware and software.

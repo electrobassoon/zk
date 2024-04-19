@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       12d1dc38-9151-45e8-b1ee-88e7061d73bd
+:END:
+#+title: rothstein92-midi-basics
+#+filetags: :midi:
+
+MIDI stands for Musical Instrument Digital Interface.
+
+It is not a musical language, and does not actually have any information about sound. It is strictly for data communication between music equipment, computers, and software. It does not describe how an instrument should sound. Rather, each piece of equipment responds to messages in its own way. Equipment will not necessarily have all of the functions that MIDI provides.
+
+[[cite:&rothstein92_midi]]
