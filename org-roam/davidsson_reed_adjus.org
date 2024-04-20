@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c5bb4926-7d3a-4ecc-aec0-3cba33a5545c
+:ROAM_REFS: cite:davidsson_reed_adjus
+:END:
+#+title: davidsson_reed_adjus
+

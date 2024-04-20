@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f6d5b83c-b332-499a-8a62-5851f477437a
+:ROAM_REFS: cite:barber_healt_reed_check
+:END:
+#+title: barber_healt_reed_check
+

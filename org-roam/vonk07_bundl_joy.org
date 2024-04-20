@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9f957943-d0e5-4331-bbff-63f47f923742
+:ROAM_REFS: cite:vonk07_bundl_joy
+:END:
+#+title: vonk07_bundl_joy
+
