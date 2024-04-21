@@ -2,6 +2,14 @@
 :ID:       e75b5148-b0ae-4a24-ba69-154e331e7db2
 :END:
 #+title: Reeds
+#+filetags: :reeds:
+
+
+For a diagnosis of problems, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
+
+For testing procedures, see [[id:e4f9c614-b430-4dc4-b4c3-052b06d47790][reed test]].
+
+For construction of the reed, see [[id:476df1b5-ce88-460b-aaba-bd2bb0bc76c6][reed construction]].
 
 * Reading List
 
@@ -31,5 +39,4 @@
 [[id:903a565f-60fd-46d3-a8f7-152d5b522aa4][eubanks86_advan_reed_desig_testin_proced_bassoon]]
 ** TODO Barber Checklist
 [[id:f6d5b83c-b332-499a-8a62-5851f477437a][barber_healt_reed_check]]
-** TODO Davidsson Adjusting
-[[id:c5bb4926-7d3a-4ecc-aec0-3cba33a5545c][davidsson_reed_adjus]]
+

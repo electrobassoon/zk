@@ -4,3 +4,207 @@
 :END:
 #+title: davidsson_reed_adjus
 
+* Reed Adjusting
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/davidsson_reed_adjus.pdf
+:END:
+
+** Resistant
+:PROPERTIES:
+:NOTER_PAGE: (1 0.6295081967213115 . 0.06574761399787914)
+:END:
+Too think in the middle and too thin at the edges is all-through resistant
+
+** Diagnosis
+*** Too Hard
+:PROPERTIES:
+:NOTER_PAGE: (2 0.2360655737704918 . 0.05832449628844117)
+:END:
+Middle isn't too thick compared to edges (the very center of the spine), or too much wood everywhere, then whole reed evenly.
+Check to see if high register becomes light and low becomes heavy. Then stop and target those areas. If cane is very hard, dip the entire reed in boiling water for 10 seconds.
+
+*** Too Soft
+:PROPERTIES:
+:NOTER_PAGE: (2 0.34098360655737703 . 0.05832449628844117)
+:END:
+Try tightening wires first. Pinch sides right behind first wire. If still soft, cut tip 0.5 to 1.0mm
+
+*** Too Heavy in the Low Register
+:PROPERTIES:
+:NOTER_PAGE: (2 0.380327868852459 . 0.06574761399787914)
+:END:
+Scrape back quarter of the reed, close the second wire. Very corners can also make a small difference. This also makes high notes easier. 
+The rails in the back quarter of the reed also can help a little, but tends to free up the whole reed.
+
+*** Too Heavy in the High Register
+:PROPERTIES:
+:NOTER_PAGE: (2 0.4459016393442623 . 0.05090137857900321)
+:END:
+Scrape the very edge on the front third of the reed. Open second wire. Scrape the front third in the thumbnail area. Possibly bowtie scrapes and very corners as well
+Reaming or cutting the tip as well.	
+
+*** Too Dark
+:PROPERTIES:
+:NOTER_PAGE: (2 0.4852459016393443 . 0.05090137857900321)
+:END:
+Scrape front third evenly. Check that the heart  isn't too thick. Scrape carefully! Trading sound and stabiblity for freedom and flexibility.  Bowtie can help too. Open wire 2.
+Last resort make spine more narrow.
+
+*** Too bright or sparkling
+:PROPERTIES:
+:NOTER_PAGE: (2 0.5770491803278689 . 0.05090137857900321)
+:END:
+Take down rails of both sides. A little more to the channels in the back quarter helps. Pinch sides right behind wire 1. May have to close tip with fingers in front of first wire.
+Close second wire can help too.
+
+*** Too hard to tongue
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6557377049180327 . 0.043478260869565244)
+:END:
+Very edge of the tip, also bowtie. The front third in general will make striking easier and have more flexibility. Can also try back channels and the heart.
+
+*** Too Easy Tonguing
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6967213114754098 . 0.05832449628844117)
+:END:
+Pinch reed together and sand the tip edge. or clip reed 0.5mm. Open first wire. Scrape rails at front third more (increase the change from center to edges?). Can also pinch right behind wire 1.
+
+*** Too Low in High Register
+:PROPERTIES:
+:NOTER_PAGE: (2 0.7622950819672131 . 0.05832449628844117)
+:END:
+Ream the reed or clip tip. Open second wire. or close first wire.
+
+*** Too High in Low Register
+:PROPERTIES:
+:NOTER_PAGE: (2 0.8016393442622951 . 0.05090137857900321)
+:END:
+Open second wire, scrape back channels, maybe even entire back third, the eyes (channels in heart area)
+
+** Specific Areas
+*** Back rails/channels
+:PROPERTIES:
+:NOTER_PAGE: (3 0.18360655737704917 . 0.05090137857900321)
+:END:
+
+Freer reed, darens the sound and increases lows (is that volume or pitch?)
+*** Thumbnail edges
+:PROPERTIES:
+:NOTER_PAGE: (3 0.2098360655737705 . 0.05090137857900321)
+:END:
+Tonguing is easier, better flexibbility over whole register. Intruding sounds muted (is that buzziness?, airiness?)
+
+*** Back Third
+:PROPERTIES:
+:NOTER_PAGE: (3 0.2360655737704918 . 0.05090137857900321)
+:END:
+Low register easier (surprised it doesn't mention too much will kill the reed)
+
+*** Heart
+:PROPERTIES:
+:NOTER_PAGE: (3 0.2754098360655738 . 0.043478260869565244)
+:END:
+Core of the tone. Too little and it collapses, too much will make the reed heavy and hard to tongue, and hard to play legato. 
+Try other approaches first, but if you must only do it a little at a time. Tone will get brighter and weaker, but freer.
+
+*** Tip edge
+:PROPERTIES:
+:NOTER_PAGE: (3 0.32786885245901637 . 0.05832449628844117)
+:END:
+Tonguing easier, pianissimo in upper registers also easier
+
+*** Rails
+:PROPERTIES:
+:NOTER_PAGE: (3 0.36721311475409835 . 0.05090137857900321)
+:END:
+Dampens the sound and slightly darkens the tone. Reed becomes more flexible. Too much in comparison to spine makes an imbalance and reed is unstable, stiff, and resistant. 
+
+*** Bowtie
+:PROPERTIES:
+:NOTER_PAGE: (3 0.419672131147541 . 0.05090137857900321)
+:END:
+Easier high register and tonguing, also brighter sound
+
+*** Whole reed
+:PROPERTIES:
+:NOTER_PAGE: (3 0.45901639344262296 . 0.05090137857900321)
+:END:
+Keeps internal relationships and becomes lighter
+
+*** Front Third
+:PROPERTIES:
+:NOTER_PAGE: (3 0.4852459016393443 . 0.05832449628844117)
+:END:
+High register is easier, better tonguing, brighter sound, more flexibility
+
+*** Open first wire
+:PROPERTIES:
+:NOTER_PAGE: (3 0.5114754098360655 . 0.05090137857900321)
+:END:
+Shouldn't be too tight to restrain vibrations. Loosen for a freer sound if it's too tight. Opening gives larger aperture, more resistance, darker sound, and easier low register (didn't think that was true!)
+
+*** Open second wire
+:PROPERTIES:
+:NOTER_PAGE: (3 0.5770491803278689 . 0.05832449628844117)
+:END:
+Should be firm. Opening creates smaller opening, better stability, and easier high register
+
+*** Close first wire
+:PROPERTIES:
+:NOTER_PAGE: (3 0.6295081967213115 . 0.05832449628844117)
+:END:
+Smaller opening, brighter sound, easier high register
+
+*** Close Second Wire
+:PROPERTIES:
+:NOTER_PAGE: (3 0.6688524590163935 . 0.05090137857900321)
+:END:
+Larger opening, more volume, easier legato, darker sound, easier low register
+
+*** Side behind first wire
+:PROPERTIES:
+:NOTER_PAGE: (3 0.7081967213114754 . 0.05832449628844117)
+:END:
+Darker sound, more resistance and stability
+
+*** Spine
+:PROPERTIES:
+:NOTER_PAGE: (3 0.7475409836065574 . 0.05090137857900321)
+:END:
+Too much wood is hard and stubborn, too little will collapse
+
+*** Eyes (side of heart)
+:PROPERTIES:
+:NOTER_PAGE: (3 0.7737704918032787 . 0.05832449628844117)
+:END:
+More flexible and vibrant, better high register, brighter sound
+
+*** Front of tip
+:PROPERTIES:
+:NOTER_PAGE: (3 0.8131147540983606 . 0.05832449628844117)
+:END:
+Pinch together and sand if tonguing too easy
+
+*** Corners
+:PROPERTIES:
+:NOTER_PAGE: (3 0.839344262295082 . 0.05832449628844117)
+:END:
+Improves high register tonguing, freer lows. More towards the middle makes a more dark, flexible, better striking and legato sound
+
+*** Narrow spine
+:PROPERTIES:
+:NOTER_PAGE: (3 0.8918032786885246 . 0.05832449628844117)
+:END:
+If it's dead, as last resort narrow the spine once or twice to add more sting to the sound.
+
+*** Measurements
+:PROPERTIES:
+:NOTER_PAGE: (4 0.06557377049180328 . 0.06574761399787914)
+:END:
+4mm 55, 8 65, 12 70, 16 80, 20 85, 24 90
+
+*** Rails in front third
+:PROPERTIES:
+:NOTER_PAGE: (4 0.18360655737704917 . 0.05090137857900321)
+:END:
+Hold back the sound, gives more resistance and darker sound. Better upper register

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       af880b0c-5077-4bd5-9317-4ee9d769fc40
+:END:
+#+title: diagnosis
+#+filetags: :reeds: :diagnosis: 
+
+
+
+Much information is contained in [[id:c5bb4926-7d3a-4ecc-aec0-3cba33a5545c][davidsson_reed_adjus]]
+
+* Reed is Too Hard
+Check that the spine to rails ratio is not too great. Check if the whole reed is too thick in general. As work is done, check to see if the high register becomes light or the low register becomes heavy. If that happens, then stop and target those areas. If it's very hard, ,dip the reed in boiling water for 10 seconds.[[cite:&davidsson_reed_adjus]]
+* Reed is Too Soft
+Tighten wires first, open behind the first wire. If it's still soft, clip the tip 0.5mm to 1.0mm[[cite:&davidsson_reed_adjus]]
+* Too Heavy in the Low Register
+Scrape back quarter of the reed, close the second wire. Very corners can make a small difference. Corners will also make high notes easier. 
+Rails in the back quarter can help a little, but tends to free whole reed.[[cite:&davidsson_reed_adjus]]
+* Too Heavy in the High Register
+Scrape very edge of front third. Open second wire. Scrape the front third in thumbnail area. Possibly bowtie and very corners as well. Reaming and cutting tip can help too. [[cite:&davidsson_reed_adjus]]
+* Too Dark
+Front third evenly. Check heart isn't too thick. Scrape heart with care! Bowtie can help. Open wire 2. Last resort is narrow the spine.[[cite:&davidsson_reed_adjus]]
+* Too Bright
+Take down rails on both sides. A little more in back channels as well. Pinch sides behind wire 1. May have to pinch in front of first wire after this. Closing second wire helps too. [[cite:&davidsson_reed_adjus]]
+* Too hard to tongue
+Very edge of tip, also bowtie. Front third in general helps tonguing and flexibility. Can also try back channels and heart.[[cite:&davidsson_reed_adjus]]
+* Too easy to tongue
+Pinch reed together and sand the tip edge. Can also clip tip a small amount. Open first wire. Scrape rails at front third. Can also pinch behind wire 1[[cite:&davidsson_reed_adjus]]
+* Too low in high register
+Ream or clip tip. Open second wire, close first wire[[cite:&davidsson_reed_adjus]]
+* Too high in low register
+Open second wire, scrape back channels, maybe entire back third, narrow the heart (the eyes)[[cite:&davidsson_reed_adjus]]
