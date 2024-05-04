@@ -4,3 +4,38 @@
 :END:
 #+title: klimko91_bassoon_reedm_at_higher_altit
 
+* High Altitude
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/klimko91_bassoon_reedm_at_higher_altit.pdf
+:END:
+** Altitude effects
+:PROPERTIES:
+:NOTER_PAGE: (1 0.56657223796034 . 0.05832449628844117)
+:END:
+Arundo donax is highly effected by altitude. The higher you go, the thinner the air, and the greater the pressure needed to displace the cane.	
+** Rainy Days
+:PROPERTIES:
+:NOTER_PAGE: (1 0.7252124645892352 . 0.05832449628844117)
+:END:
+Don't work on reeds on rainy days with changes of pressure. Wait for high pressure days.
+** Solutions
+:PROPERTIES:
+:NOTER_PAGE: (1 0.3059490084985836 . 0.5334040296924708)
+:END:
+1) Softer, less resilient cane
+2) Bigger shape that is a little wider, even perhaps at the tip and throat
+3) Thicker gouge. The effect is getting to softer cane. He uses 1.5mm at around the 5000 ft level. Other locals prefer 1.35mm for general use and 1.5 for extra high. Apparently some swiss bassoonists go to 1.6mm
+4) A trick is to store reeds in the refridgerator to stabilize them. This comes from Manny Ziegler in Double Reed 13, no 2 pg 53.
+5) Another option from John Wetherill is to work more on the back 1/4 inch of the reed, especially on either side of the spine. This is because the low register suffers the most at high altitudes.
+** Wire Techniques
+:PROPERTIES:
+:NOTER_PAGE: (2 0.45325779036827196 . 0.08801696712619303)
+:END:
+From Richard Meek. Moving first wire closer to the collar. The reeds don't swell as much and it feels like it is collapsing. He got this from an Almanraeder treatise.
+** Parallel trim options
+:PROPERTIES:
+:NOTER_PAGE: (2 0.368141592920354 . 0.5789124668435013)
+:END:
+If wire tricks don't work, thin the whole thing a little bit. Parallel trim seems to do better at this?
+
+His reeds tend to be a little more oval, especially at the first wire. Pyramid trims need a longer tip or thinner back.

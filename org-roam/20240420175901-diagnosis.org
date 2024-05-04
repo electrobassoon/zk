@@ -5,27 +5,47 @@
 #+filetags: :reeds: :diagnosis: 
 
 
-
-Much information is contained in [[id:c5bb4926-7d3a-4ecc-aec0-3cba33a5545c][davidsson_reed_adjus]]
-
-* Reed is Too Hard
+* General Characteristics
+** Reed is Too Hard
 Check that the spine to rails ratio is not too great. Check if the whole reed is too thick in general. As work is done, check to see if the high register becomes light or the low register becomes heavy. If that happens, then stop and target those areas. If it's very hard, ,dip the reed in boiling water for 10 seconds.[[cite:&davidsson_reed_adjus]]
-* Reed is Too Soft
+** Reed is Too Soft
 Tighten wires first, open behind the first wire. If it's still soft, clip the tip 0.5mm to 1.0mm[[cite:&davidsson_reed_adjus]]
-* Too Heavy in the Low Register
+** Too Heavy in the Low Register
 Scrape back quarter of the reed, close the second wire. Very corners can make a small difference. Corners will also make high notes easier. 
 Rails in the back quarter can help a little, but tends to free whole reed.[[cite:&davidsson_reed_adjus]]
-* Too Heavy in the High Register
+** Too Heavy in the High Register
 Scrape very edge of front third. Open second wire. Scrape the front third in thumbnail area. Possibly bowtie and very corners as well. Reaming and cutting tip can help too. [[cite:&davidsson_reed_adjus]]
-* Too Dark
+** Too Dark
 Front third evenly. Check heart isn't too thick. Scrape heart with care! Bowtie can help. Open wire 2. Last resort is narrow the spine.[[cite:&davidsson_reed_adjus]]
-* Too Bright
+** Too Bright
 Take down rails on both sides. A little more in back channels as well. Pinch sides behind wire 1. May have to pinch in front of first wire after this. Closing second wire helps too. [[cite:&davidsson_reed_adjus]]
-* Too hard to tongue
+Rails could be too heavy, or the back is too heavy near the collar. Corners could also be too heavy. Tip opening could be uneven. Wires could also be a little loose. [[cite:&barber_healt_reed_check]]
+** Too hard to tongue
 Very edge of tip, also bowtie. Front third in general helps tonguing and flexibility. Can also try back channels and heart.[[cite:&davidsson_reed_adjus]]
-* Too easy to tongue
+** Too easy to tongue
 Pinch reed together and sand the tip edge. Can also clip tip a small amount. Open first wire. Scrape rails at front third. Can also pinch behind wire 1[[cite:&davidsson_reed_adjus]]
-* Too low in high register
+** Too low in high register
 Ream or clip tip. Open second wire, close first wire[[cite:&davidsson_reed_adjus]]
-* Too high in low register
+** Too high in low register
 Open second wire, scrape back channels, maybe entire back third, narrow the heart (the eyes)[[cite:&davidsson_reed_adjus]]
+** Reed is stuffy
+Too hard or too thin. May be leaking, or too long. Corners could be too thin, which is unfixable.[[cite:&barber_healt_reed_check]]
+
+* Tests
+
+** Crow
+Crow should be easy, or something isn't balanced. [[cite:&barber_healt_reed_check]]
+** C D E (mid register)
+If the E is flat, wires are too loose, reed is too long, cane is too soft, or rails are too heavy in comparison to spine. [[cite:&barber_healt_reed_check]]
+** E - Eb slur
+If too close to each other, heart is too wide. Thumbnail shape is too wide. Could also be too thick. [[cite:&barber_healt_reed_check]]
+** Slur C to Low F
+If F is sharp, rough, unfocused, then tip is too open, back of reed is too hard, channels are too hard, or overall reed is too hard [[cite:&barber_healt_reed_check]]
+** Bocal pitch
+Pitch of just reed and bocal should be a C, if it's sharp, the thumbnail is too far back, hopefully the tip can be clipped. If it's flat, blend the thumbnail into the tip more [[cite:&barber_healt_reed_check]]
+** A Bb B C (flick register)
+If they crack or are unfocused, thin the tip a little more [[cite:&barber_healt_reed_check]]
+** Slur G to High G
+If the slur is hard or unfocused, blend the rails behind the tip area. [[cite:&barber_healt_reed_check]]
+** Slur 2 Octave F Scale
+Everything should be even, if not the balance of the rails needs work. [[cite:&barber_healt_reed_check]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       fce04dc4-a84b-47aa-8734-ab1956563bff
+:END:
+#+title: christlieb
+
+Created the dial indicator, but recognized it wasn't a cure all. It helps avoid lack of symmetry and adds a dimension of measurement for consistency and accuracy.
+
+Primary fault in reed making is human error
+
+Created GSP cane for sale, which helps reed pedagogues start at various stages of the process.
+
+[[cite:&schillinger16_bassoon_reed_makin]] 109-116
+

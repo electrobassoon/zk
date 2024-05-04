@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       fd0faf27-7a8d-40b9-8f4e-92b6d8348539
+:END:
+#+title: art of reedmaking
+
+"Viewing reed making as an imperfect art paired with a methodical process assists in understanding the difficulty of reed-making pedagogy." [[cite:&schillinger16_bassoon_reed_makin]] 10
+
+"A successful pedagogy of reed making, then, must be a model of flexibility and situational adaptation." [[cite:&schillinger16_bassoon_reed_makin]]
+
+"There are rules established which determine the proportions which a reed must have to be of the right quality to match the bassoon's tone in its entirety. But in spite of all the precision with which we have tried for a long time to put these rules into effect, we cannot rely on the established principles of this subject. It often happens that the best constructed reed make according to all the proportions is still no good at all; and one that is less well-made will play just fine, or at least be usable." - Cugnier quoted in [[cite:&schillinger16_bassoon_reed_makin]] 61
+
+Weissenborn said that precise measurements are impossible, because the physical capacity and ability of the player play a big role. [[cite:&schillinger16_bassoon_reed_makin]] 89
+
+"Progress beyond [reed finishing] involves a creative procedure that, if successful, elevates the mechanical craft of reed making to the level of an art form. Suffice to say that only those individuals willing to risk losing a few second stage reeds can hope to aspire to this higher standard of excellence." - Cooper quoted in [[cite:&schillinger16_bassoon_reed_makin]] 133
+
+After 200 years of reed making, there is still a dilemma of art vs science. [[cite:&schillinger16_bassoon_reed_makin]] 134
+
+There is no guarantee in reed making. [[cite:&schillinger16_bassoon_reed_makin]] 139

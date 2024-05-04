@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       215a7d74-2cb8-4909-886d-ffc70a7fedd3
+:END:
+#+title: bassoon roles
+
+The bassoon changed from being a member of the basso continuo to an independent voice. Haydn's symphonies show this change around 1780s. This also coincides with the bassoon being the most popular solo instrument in the Paris Concert Spirtuels
+ [[cite:&schillinger16_bassoon_reed_makin]] info coming from Harold Eugene Griswold, "Changes in the Tonal Character of the Eighteenth Century French Bassoon" Journal of IDRS 17 (1989): 29-34

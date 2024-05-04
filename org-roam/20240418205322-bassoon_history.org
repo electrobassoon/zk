@@ -3,3 +3,6 @@
 :END:
 #+title: Bassoon History
 
+[[id:7a52e73c-50f3-4f13-9fc5-f34d5101594a][Historical Performers]]
+
+[[id:6830e128-3ce7-4b5e-8f40-d5999605637a][history of methods and reedmaking]]

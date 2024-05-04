@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4d9b7d0a-81df-4b99-aa9c-f6c23ae153d2
+:END:
+#+title: reed pedagogy
+
+One of the best resources for the history of bassoon reed pedagogy is [[cite:&schillinger16_bassoon_reed_makin]]
+
+History of reed making pedagogy, [[id:6830e128-3ce7-4b5e-8f40-d5999605637a][history of methods and reedmaking]]
+
+[[id:5e2c6e6b-d736-4778-84cd-bf6b50400f11][reed journal]]

@@ -1,0 +1,324 @@
+:PROPERTIES:
+:ID:       7680244c-64c6-4aa1-a72c-1025b6b418ab
+:ROAM_REFS: cite:schillinger16_bassoon_reed_makin
+:END:
+#+title: schillinger16_bassoon_reed_makin
+
+Overall impressions: I learned a lot from this book about the history of not just reed making, but also the bassoon and bassoon method books. It makes me want to dive more in to the teachings of Herzberg, Christlieb, and Cooper. And find some scraping wheels to try more of Skinner's gouge variations!
+
+* Introduction
+** Page 10
+=Viewing reed making as an imperfect art paired with a methodical process assists in understanding the difficulty of reed-making pedagogy.=
+** Page 11
+=A successful pedagogy of reed making, then, must be a model of flexibility and situational adaptation.=
+* Pedagogic Methods 1697-1803
+** Page 14
+Speer's Grundrichtige, Kurtz-Leicht- und Nothiger jetzt Wolvermehrter Unterricht der Musicalischen Kunst oder Vierfaches Musicalisches Kleeblatt Wortinnen zu ersehen wie man fuglich und in kurzer Zeit (Fundamental Instructions in the art of music ...) has fingering charts for two keyed dulcian.
+** page 14
+First instructional book only about bassoon was by an anonymous Englishman. Compleat Instructions for the Bassoon ...
+** page 17
+First thing written by a professional bassoonists is "Le Basson" by Pierre Cugnier.
+** page 17
+Ozi's Methode Novelle (1787) one of the first bassoon methods to have printed exercises
+** page 20
+Paris conservatory is the birthplace of modern bassoon pedagogy
+** page 21
+Sarrette and Francois Gossec created the Paris conservatory stemming from training military musicians
+** page 21
+Beginning of conservatorie trained in solfege (!), composition, and singing in addition to instrumental proficiency
+* Pedagogic Methods 1803-1887
+** page 24
+Ozi's Novelle Method (1803) has the first extensive instructions about reed making and also included diagrams and measurements
+** page 25
+Joseph Frohlich's Vollstandige theoretisch-praktische Musikschule is the first instructive German method. Stole a lot from Ozi.
+** page 28
+Almenraeder new method for his newly designed bassoon.
+** page 29
+Almenraeder's method the first to discuss slow practice, troubling intervals, looping, in a published method
+** page 30
+Jancourt's Methode theorique et pratique replaced Ozi's Novelle Method at Paris Consevatorie
+** page 31
+Jancourt's method also has an article about orchestral etiquette
+** page 32
+Emmanuele Krakamp metodo por fagotto is apparently still in use
+** page 35
+Weissenborn suggests bassoon should be studied after piano and violin. Bassoon should be studied after a "somewhat manly development of the body"
+** page 35
+Weissenborn also is first to talk about practice time. He says an hour daily, 20 minutes at a time, and then little by little make those 20 minutes be 30 minutes. After 3 to 4 months, two hours a day one hour at a time. After a year or so, three hours one at a time. More than that is seldom beneficial.
+** page 37
+With Weber andante and hungarian rondo, Weissenborn takes a bassoonist from first note to solo debut.
+* Instrument Maker/Reed Maker
+** page 39
+Bassoons came with multiple wing joints and bocals for controlling intonation
+** page 40
+Instrument makers made the reeds, because there were so many instruments
+** page 40
+Hand gouging makes much longer-lasting reeds. The gouge was tapered so the blade of the reed was thicker. (Perhaps a side benefit of lateral dampening from Skinner?)
+** page 41
+Triebert created a mechanical gouger, but many used it for initial work and then hand gouged the middle of the reed
+** page 42
+Sandpaper makes cane less water proof, which deteriorates quicker. Dutch Rush is what they used to use. Sandpaper also shortens reed lifespan.
+** page 43
+Quote from Laborde's introduction to Cugnier's article:
+=He decided he never wanted to play alone in public, for he is convinced that whatever the talent one has for the bassoon, this instrument can never please as much as the violin, the flute, the oboe, and the cello=
+** page 44
+Haydn's symphonies demonstrate the change for the bassoon as basso continue to be part of the wind choir. This happened around the 1780s.
+** page 44
+Ozi's goal was singing quality of the bassoon. He also played a German bassoon.
+** page 45
+After 1780, bassoonists were most popular soloists at Paris Concert Spirtuel (comes from Harold Eugene Griswold, "Changes in the Tonal Character of the Eighteenth Century French Bassoon" Journal of IDRS 17 (1989): 29-34)
+** page 47
+Narrower throat frees up the tenor and high range
+* Performer/Reed Maker
+** page 48
+Ozi studied with Georg Wenzel Ritter (JC Bach Concerto)
+** page 49
+Ozi's bassoon was incompatible with reeds of French makers
+** page 50
+Reed making was a necessity, not a convenience.
+** page 54
+Almenraeder-Heckel bassoon did not spread to France. Jancourt created French basson, instrument maker/reed maker paradigm.
+** page 55
+Wing joint and bocal as a tuning agent changed to reed scraping
+** page 56
+Simon Kovar is largely responsible for the widespread success of Weissenborn's method for the new Heckel bassoon
+* Pedagogic Methods 1697-1787
+** page 58
+Majer's Museum musicum says best double reed players make their own reeds, to their own embouchres. A good reed is half the playing. Physiology of the player is unique and reed making should tailor to that.
+** page 60
+Garsault's Notionnaire, ou memorial raisonne has first publication of the reed-making process (1761)
+** page 61
+Cugnier perspective on failure of science in reed making
+=There are rules established which determine the proportions which a reed must have to be of the right quality to match the bassoon's tone in its entirety. But in spite of all the precision with which we have tried for a long time to put these rules into effect, we cannot rely on the established principles of this subject. It often happens that the best constructed reed make according to all the proportions is still no good at all; and one that is less well-made will play just fine, or at least be usable.=
+* The Birth of Reed Making Pedagogy
+** page 67
+Ozi's introduction to reed making:
+1) Pedagogic leap for including reed making instructions (remember France was instrument maker/reed maker paradigm)
+2) It was still common in France to get reeds from instrument makers
+3) Freedom from learning reed making
+4) Links reed making with performer's unique physiology
+* Pedagogic Methods 1803-1843
+** page 75
+Frohlich's method indicates ancestor of the modern shaper. Also describes the gratoir rond, which seems like a scraping wheel from Skinner.
+** page 77
+If a reed is old and worn out, clipping it a little shorter can strengthen it again for a while
+** page 79
+Almenraeder stresses importance of the reed:
+=The bassoonist, even when arriving at an advanced stage through study and practice, must nevertheless depend to a great extent upon his reed. He may have one of the finest instruments and may be in a perfect mind for practicing but if his reed is defective he will remain its slave; a slave to whom all freedom of movement is prohibited.=
+** page 80
+Almenraeder implies that if a reed process fails for a student, it may not be the student's fault, but a difference in physiology
+* Pedagogic Methods 1844-1887
+** page 89
+Weissienborn in method says precise measurements are impossible, because the physical capacity and ability of the player play a big part
+** page 91
+Weissenborn is the first to talk about needing to break in reeds and not making adjustments too quickly with a new reed. He also suggests a reed making journal (which will be reiterated with almost everyone after him)
+* The Modern Era
+** page 93
+After world war I, many german bassoonists emigrated to the US, including professional reed makers *Carl Mechler*, *Wilhelm Knochenhauer*, Kurt Ludwig, and Hans Weber. There was a lot of secrecy to protect their jobs.
+** page 94
+Mechler's reeds tapered evenly from collar to tip: A balanced distribution of resistance and vibration.
+** page 94
+Mechler made lots of blanks, and asked client to come in person to finish reeds for them. He played their instrument with one of his reeds and knew the adjustments to make to blanks for their instrument
+** page 95
+Knochenhauer front third tapers dramatically compared to Mechler. Definitive points of resistance in the vibration of the blades.
+** page 96
+Secrecy of reed making made reed making pedagogy all but disappear
+** page 97
+Many players adjust their playing to meet the needs of their reeds, instead of the other way around.
+* Researcher/Pedagogue: Louis Skinner
+** page 98
+Schoenbach performed on both Mechler and Knochenhauer reeds.
+** page 99
+Skinner worked individually with students, made them take notes with two copies. 1 for student and 1 for Skinner. This was for consistency in future questions with large time gaps or distances.
+The written tradition is important in retention and re-creation
+** page 100
+Sink Method stabilizes individual fibers, removes impurities.
+** page 101
+Scraping wheels innovative contribution. Draws from the historic pedagogy of historic reed scrapes
+** page 102
+Eliptical gouge has a more direct sound because the spine is pithier but supported by the hard rails
+** page 103
+=Skinner's customizations encourage creativity and flexibility, but demand accuracy.=
+** page 105
+Skinner's pedagogy includes that reed making demands space and materials if it is to be treated with importance
+** page 106
+Skinner's tip aperture and modern pedagogy link physiology to individual reed styles
+** page 107                                                                                        
+Exact coordination between reed, player, instrument, and musical demands.
+* Reed Maker/Innovator: Don Christlieb
+** page 109
+Created the Dial Indicator
+** page 110
+Dial indicator is not a cure all, but helps avoid lack of symmetry. 
+** page 111
+Added a dimension of measurement to improve consistency and accuracy
+** page 111
+Primary fault in reed making is human error
+** page 114
+Began creating GSP cane for sale
+** page 116
+This helps pedagogues start at varying points in the reed making process
+* Artist/Scholar I: Norman Herzberg
+** page 119
+First task is to reduce human error as much as possible
+** page 119
+Despite innovative machines, no reed can remain untouched. - quote from Herzberg
+** page 120
+Because of the undependability of cane, quantity and quality of craftsmanship are what can be controlled. Reeds also have shorter lifespans now, so we need more of them.
+** page 121
+Herzberg gave exams to check student's knowledge of reed making. First pedagogic assessment for reed making.
+** page 122
+Wide shapers make notes in the "money register" too flat (middle C to F)
+** page 122
+Students were to diagnose deficiencies in a reed so they could personalize their design for their body and instrument
+** Herzberg's 4 systems
+*** Shape (121)
+*** Wires (122)
+Gave the how and why for wire placement
+*** Beveling (124)
+Vital to tip aperture, blade arch, and tube shape
+*** Blade Finishing (124)
+** page 125
+Weakness of C# and E is a lack of resistance. Sharp, unstable forked Eb indicates resistance
+* Artist/Scholar II: Lewis Hugh Cooper
+** page 127
+Cane selection was very rigorous
+** page 129
+Used dial indicator to check the gouge before forming. It affects the function fo the reed's mechanical fulcrum
+** page 129
+Would soak and let dry and recheck gouge accuracy. repeated until stability was achieved.
+** page 130
+Cooper exchanges time in cane preparation instead of cane finishing
+** page 131
+Tip apertures that can't be fixed are failed reeds
+** page 133
+Cooper quote:
+=Progress beyond [reed finishing] involves a creative procedure that, if successful, elevates the mechanical craft of reed making to the level of an art form. Suffice to say that only those individuals willing to risk losing a few second stage reeds can hope to aspire to this higher standard of excellence.=
+** page 134
+Dilemma of art vs science remains the same after 200 years of reed making
+** page 136
+Cooper's pedagogy is spread through many publications, so it's easy to only be adhering to part of his pedagogy, or ignore it alltogether
+* Conclusion
+** page 137
+=Reed pedagogy was born of and is still driven by need.=
+** page 139
+=There is no gaurantee in reed making=
+** page 139
+=Consistency is developed from practice: quantity yields quality=
+* Appendix 1: Reed Notes: Don Christlieb (1945)
+Descriptions for how to assess reeds? No explanation given about why this is here or what it is.
+** History
+** Maker
+** Playing Characterstics
+*** Tone (for each octave)
+- Hard
+- Unresonant
+- Light, reedy
+- Brilliant
+- Mellow
+- Soft
+- Muffled
+- With Edge
+- Improved
+- Deteriorated
+*** Intonation (for each octave)
+- Excellent
+- Fair
+- Controllable
+- Poor
+- Uncontrollable
+- Improved
+- Deteriorated
+*** Flexibility (each octave)
+- Excellent
+- Good
+- Fiar
+- Poor
+*** Volume (each octave)
+- Strong
+- Effortless
+- With Effort
+- Average
+- Limited
+- Weak
+- Quality Change
+- Tone Collapses
+*** Attack (each octave)
+- Excellent
+- Good
+- Fair
+- Poor
+- Impossible
+*** Vibrato (each octave)
+- Excellent
+- Good
+- Fiar
+- Poor
+- Impossible
+** Remarks:
+* Appendix 2 Herzberg Bassoon Reed Exam (1991)
+1) State the Four Systems employed in trimming and adjusting reeds.
+2) Give an example of how you would use each system to correct or adjust the fault in the reed with which you are working.
+3) If you were to carry each system to its furthest extent, what would the reed look like?
+4) Can you recognize a good reed by looking at it? What qualities in its appearance would encourage you?
+5) In order of importance, state the qualities necessary in a reed.
+6) Define by means of analogy the parenchyma and the sclerenchyma
+7) Describe the example Heinrich uses in heavy clarinet reeds
+8) Which side of the reed is played up and why?
+9) Are there any advantages to a flat shaper over a foldover shaper? If so explaing them.
+10) How do you attenuate the efefcts produced in the folding of a shaped piece of cane?
+11) According to Heinrich, describe (draw) the opening of a brilliant reed and a dark reed.
+12) How can you condemn a reed before you make it?
+13) Give three ways to make a reed brighter.
+14) Give two ways to darken a reed.
+15) Describe each system in constructing an ideal reed for the following solos: Bolero; Peter and the Wolf; Marriage of Figaro; Tchaikovsky 6th.
+16) What effect does the trimming of the top half of a reed have? What effect does trimming the back half of a reed have?
+17) How long should a reed blank dry? Why? What example does Heinrich use?
+18) Prescribe the reed remedies for playing too sharp. What reed remedies can you use for playing too flat?
+19) Draw the optimum shape of the first two wires of a reed before you trim it. Explain why they are optimum shapes. Give and describe the two different methods that will insure that the wires are the optimum shapes.
+20) When you trim a reed, which side should be trimmed first?
+21) What decides the length of the tube? What decides the length of the blade?
+22) Where should the first wire be placed? Why? Where should the second wire be placed? Why? Where should the third wire be placed? Why?
+23) Draw the shape of the optimum opening of a reed during the finishing stage. Why is this considered the optimum opening?
+24) Define a good piece of cane.
+25) Wires on a reed sometimes get loose when the reed dries. Do you tighten them? If so which ones?
+26) In trimming the blades of a reed during the final trial period, which general areas are trimmed first and why?
+27) Which system in reed making is the one of preference in trimming? Why?
+28) Give an example of one system enhancing another. Give an example of one system negating the other.
+29) Suppose your playing reeds consistenlty have the second wire crushed so that it is below the level of the first wire. Give two ways that this condition can be avoided.
+* Bibliography 
+These are some sources that look like good follow up reading.
+
+Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." Published by the author, 1966. (may have to actually purchase this from Christlieb directly
+
+Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84.
+
+Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. /The Double Reed/ 28, no. 4 (2005):77-84.
+
+Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.
+
+Cooper, Lewis Hugh. "Reed Making Notes: Selection and Preparation of Gouged Cane," ed. Mark Avery. /Journal of IDRS/ 19 (1991): 43-49.
+
+Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." /The Double Reed/ 31, no. 4 (2008): 79-94.
+
+Cooper, Lewis Hugh, Mark Avery, and Mark Clague. "Slippage: Reed Making's Most Benevolent Fault." /The Double Reed/ 32, no. 2 (2009): 85-90.
+
+--- . "Variable Damping: Window of Expressive Opportunity." /The Double Reed/ 32, no. 4 (2009): 105-112.
+
+Corey, Gerald E. "On the Making of Bassoon Reeds: Karl Almenraeder." /Journal of the IDRS/ 8 (1980): 1-6.
+
+Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." /The Double Reed/ 17, no. 1 (1994): 1-4.
+
+Heinrich, J. M. "The Bassoon Reed," translated by Joelle Amar. /Journal of IDRS/ 7 (1979): 17-43.
+
+Herzberg, Norman. "Reedmaking." /The Double Reed/ 24, no. 1 (2001): 41-42.
+
+Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." /The Double Reed/ 18, no. 3 (1995): 53-63.
+
+Intravaia, Lawrence and Gerald Corey. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." /Journal of IDRS/ 6 (1978): 30-46.
+
+Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA diss., University of North Carolina, Greensboro, 2008.
+
+Lyman Jeffrey, and Mark Clague. "Tributes to Lewis Hugh Cooper." /The Double Reed/ 30, no. 3 (2007): 29-39.
+
+Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise, Florida State University, 2005.

@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       7db7d28a-23c8-42be-a487-1f1633d5b5b3
+:END:
+#+title: herzberg exam
+
+* Reed Making Exam
+1) State the Four Systems employed in trimming and adjusting reeds.
+2) Give an example of how you would use each system to correct or adjust the fault in the reed with which you are working.
+3) If you were to carry each system to its furthest extent, what would the reed look like?
+4) Can you recognize a good reed by looking at it? What qualities in its appearance would encourage you?
+5) In order of importance, state the qualities necessary in a reed.
+6) Define by means of analogy the parenchyma and the sclerenchyma
+7) Describe the example Heinrich uses in heavy clarinet reeds
+8) Which side of the reed is played up and why?
+9) Are there any advantages to a flat shaper over a foldover shaper? If so explaing them.
+10) How do you attenuate the efefcts produced in the folding of a shaped piece of cane?
+11) According to Heinrich, describe (draw) the opening of a brilliant reed and a dark reed.
+12) How can you condemn a reed before you make it?
+13) Give three ways to make a reed brighter.
+14) Give two ways to darken a reed.
+15) Describe each system in constructing an ideal reed for the following solos: Bolero; Peter and the Wolf; Marriage of Figaro; Tchaikovsky 6th.
+16) What effect does the trimming of the top half of a reed have? What effect does trimming the back half of a reed have?
+17) How long should a reed blank dry? Why? What example does Heinrich use?
+18) Prescribe the reed remedies for playing too sharp. What reed remedies can you use for playing too flat?
+19) Draw the optimum shape of the first two wires of a reed before you trim it. Explain why they are optimum shapes. Give and describe the two different methods that will insure that the wires are the optimum shapes.
+20) When you trim a reed, which side should be trimmed first?
+21) What decides the length of the tube? What decides the length of the blade?
+22) Where should the first wire be placed? Why? Where should the second wire be placed? Why? Where should the third wire be placed? Why?
+23) Draw the shape of the optimum opening of a reed during the finishing stage. Why is this considered the optimum opening?
+24) Define a good piece of cane.
+25) Wires on a reed sometimes get loose when the reed dries. Do you tighten them? If so which ones?
+26) In trimming the blades of a reed during the final trial period, which general areas are trimmed first and why?
+27) Which system in reed making is the one of preference in trimming? Why?
+28) Give an example of one system enhancing another. Give an example of one system negating the other.
+29) Suppose your playing reeds consistenlty have the second wire crushed so that it is below the level of the first wire. Give two ways that this condition can be avoided.

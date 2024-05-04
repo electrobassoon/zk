@@ -4,39 +4,12 @@
 #+title: Reeds
 #+filetags: :reeds:
 
+For frustration and understanding, [[id:fd0faf27-7a8d-40b9-8f4e-92b6d8348539][art of reedmaking]]
 
-For a diagnosis of problems, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
-
-For testing procedures, see [[id:e4f9c614-b430-4dc4-b4c3-052b06d47790][reed test]].
+For a diagnosis of problems and testing procedures, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
 
 For construction of the reed, see [[id:476df1b5-ce88-460b-aaba-bd2bb0bc76c6][reed construction]].
 
-* Reading List
+[[id:4d9b7d0a-81df-4b99-aa9c-f6c23ae153d2][Reed pedagogy]]
 
-** TODO Lou Skinner Reed Manual
-
-** TODO Physical Forces at Work in Bassoon Reeds - James B. Kopp
-[[id:e9b73e82-8c15-4d43-9e0f-6ce367aa5eba][kopp03_physic_forces_at_work_bassoon_reeds]]
-** TODO Popkin Book
-** TODO Weaitt Book
-** TODO Tuning Book
-** TODO Reed Pedagogy Book
-** TODO Ewell Pedagogy
-[[id:5d19e409-e35b-499c-8026-ac166a56e6f6][ewell10_pedag_finis_reeds_german_system]]
-** TODO Massol Winstead article
-[[id:be5a8fcb-5d04-4b00-999b-fefbe68c9b7c][massol10_william_winst_bassoon_reed_method]]
-** TODO Klimko High Altitude
-[[id:23553057-1d84-43b2-9ab2-199c599ef491][klimko91_bassoon_reedm_at_higher_altit]]
-** TODO Heinrich Geometry
-[[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]]
-** TODO Kopp Tube Tip Aperture
-[[id:3bd499aa-8b63-4458-94b7-82ea6917b7ae][kopp13_tube_tip_apert]]
-** TODO Bundle of Joy Chapter
-[[id:9f957943-d0e5-4331-bbff-63f47f923742][vonk07_bundl_joy]]
-** TODO Points of Resistance
-[[id:27789022-6105-4c0e-b35c-817414a44500][clark00_point_resis_bassoon_reeds]]
-** TODO Eubanks Reed Design
-[[id:903a565f-60fd-46d3-a8f7-152d5b522aa4][eubanks86_advan_reed_desig_testin_proced_bassoon]]
-** TODO Barber Checklist
-[[id:f6d5b83c-b332-499a-8a62-5851f477437a][barber_healt_reed_check]]
 

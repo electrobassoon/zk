@@ -3,6 +3,7 @@
 :ROAM_REFS: cite:davidsson_reed_adjus
 :END:
 #+title: davidsson_reed_adjus
+#+filetags: :adjusting:
 
 * Reed Adjusting
 :PROPERTIES:

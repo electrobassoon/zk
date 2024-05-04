@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       6830e128-3ce7-4b5e-8f40-d5999605637a
+:END:
+#+title: history of methods and reedmaking
+#+filetags: :history: :methods: 
+
+First instructional book only about the bassoon was by an anonymous Englishman. It was called Compleat Instructions for the Bassoon....
+
+The first writing by a professional bassoonist was "Le Basson" by Pierre Cugnier.
+
+Ozi's Methode Novelle from 1787 was the first bassoon method to have prined excercises instead of relying on the teacher for music.
+
+Ozi's Novelle Methode (1803) was the first method to have reed making diagrams, instructions, and measurements.
+
+Joseph Frohlich's Vollstandige theoretisch-praktische Musikschule was the first German instructional method. It stole a lot from Ozi's Novelle Method.
+
+Almenraeder created a new method for his new bassoon. It was the first to discuss slow practicing, isolating intervals, etc.
+
+Jancourt's method eventually replaced Ozi's Novelle Method at the Paris Conservatorie. It also included an article about orchestral etiquette.
+
+Weissenborn's method was based on the new Heckel bassoon. Among other things, he is one of the first to talk about practice time. At max practicing 3 hours in hour chunks.
+
+Carl Mechler and Wilhelm Knochenhauer are the link between German reed maker traditions and the US after WW I. Mechler has straight taper, Knochenhauer the tip taper
+
+After secrecy, [[id:b8bec225-f5f7-48c8-ab86-80a42f3c66fb][Louis Skinner]], [[id:fce04dc4-a84b-47aa-8734-ab1956563bff][Don Christlieb]], [[id:257fac7f-b804-41db-aab8-66c2a38256e9][Hugh Lewis Cooper]], and [[id:254e0843-5154-4955-8219-bb73b46f26da][Norman Herzberg]] brought a new era of reed pedagogy.
+
+[[cite:&schillinger16_bassoon_reed_makin]]

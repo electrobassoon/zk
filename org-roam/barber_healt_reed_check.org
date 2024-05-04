@@ -3,4 +3,74 @@
 :ROAM_REFS: cite:barber_healt_reed_check
 :END:
 #+title: barber_healt_reed_check
-
+#+filetags: :testing:
+* Checklist
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/barber_healt_reed_check.pdf
+:END:
+** Crow
+:PROPERTIES:
+:NOTER_PAGE: (1 0.13114754098360656 . 0.11028632025450692)
+:END:
+Crow should have different pitches, and be easy. If not, something isn't balanced correctly
+** CDE
+:PROPERTIES:
+:NOTER_PAGE: (1 0.3950819672131147 . 0.12513255567338286)
+:END:
+If E sinks or is flat, wire may be too loose, or reed may be too long. Or it's too soft. The rails could also be too heavy in comparison to the spine
+** E-Eb slur
+:PROPERTIES:
+:NOTER_PAGE: (1 0.6049180327868853 . 0.11028632025450692)
+:END:
+If E is too close to Eb, heart is too wide. Thumbnail shape needs to be more round. Heart could also bee too thick. Scrape top 1/4 of blade with knife	
+** Slur C to F
+:PROPERTIES:
+:NOTER_PAGE: (1 0.7098360655737705 . 0.11770943796394488)
+:END:
+If low F is sharp, rough, unfocused, or doesn't speak. 
+Tip may be too open, close wire 1 or open wire 2. Back of reed may be too hard. Channels could also be too hard. Or the overall reed is too hard.
+** Bocal
+:PROPERTIES:
+:NOTER_PAGE: (2 0.09344262295081968 . 0.11770943796394488)
+:END:
+Reed and bocal should sound a C. If it's flat, blend the edge of the thumbnail into the tip. If it's sharp, thumbnail is too far back. Clip the tip if its too long.
+** A Bb B C
+:PROPERTIES:
+:NOTER_PAGE: (2 0.30327868852459017 . 0.11770943796394488)
+:END:
+If they crack or are unfocused, thin the tip, mostly the chisel edge
+** G to High G
+:PROPERTIES:
+:NOTER_PAGE: (2 0.3950819672131147 . 0.11028632025450692)
+:END:
+If the slur is hard, unfocused, needs too much embouchre to control pitch, then blend the rails just behind the tip area.
+** Slur 2 octave F scale
+:PROPERTIES:
+:NOTER_PAGE: (2 0.5 . 0.11770943796394488)
+:END:
+Should be even in pitch and sound. If not, rails may be uneven, or too thin. Check their balance.
+** Bright
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6311475409836066 . 0.12513255567338286)
+:END:
+Overall brightness. Rails may be too heavy, back too heavy near the collar. Corners could be too heavy. Tip opening may be uneven. Wires may not be snug.
+** Stuffy
+:PROPERTIES:
+:NOTER_PAGE: (2 0.7754098360655738 . 0.09544008483563099)
+:END:
+Muffled tone, response issues. (Likely will fail the crow test). Then too hard or thin. Might leak. Could be too long. Corners could be too thin. Can't fix that.
+** Wire Adjustment
+:PROPERTIES:
+:NOTER_PAGE: (3 0.10655737704918032 . 0.08801696712619303)
+:END:
+1st wire rounder -> open tip, harder/more resistant; flatter -> easier response, less resistant. More dampened tone, closes tip.
+2nd wire rounder -> harder/more resistant. Raises pitch of crow. Closes tip; flatter -> opens tip. Less resistant. Lowers pitch of the crow.
+** Visual Inspections
+:PROPERTIES:
+:NOTER_PAGE: (3 0.2639344262295082 . 0.12513255567338286)
+:END:
+The shadow, hold up to light and look at thumbnail
+Thickness of tip
+Blade length
+Tip opening and how it closes
+Profile/Side View - look for even blade taper
