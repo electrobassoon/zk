@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e775af75-1576-46a6-b82e-0983c7df3d2b
+:ROAM_REFS: cite:cooper90_reed_contr
+:END:
+#+title: cooper90_reed_contr
+

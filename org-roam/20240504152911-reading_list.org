@@ -3,62 +3,55 @@
 :END:
 #+title: reading list
 
-** TODO Lou Skinner Reed Manual
-
-** TODO Physical Forces at Work in Bassoon Reeds - James B. Kopp
-[[id:e9b73e82-8c15-4d43-9e0f-6ce367aa5eba][kopp03_physic_forces_at_work_bassoon_reeds]]
-** TODO Popkin Book
-** TODO Weaitt Book
-** TODO Tuning Book
-
-** TODO Ewell Pedagogy
-[[id:5d19e409-e35b-499c-8026-ac166a56e6f6][ewell10_pedag_finis_reeds_german_system]]
-** TODO Massol Winstead article
-[[id:be5a8fcb-5d04-4b00-999b-fefbe68c9b7c][massol10_william_winst_bassoon_reed_method]]
-** TODO Heinrich Geometry
-[[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]]
-** TODO Kopp Tube Tip Aperture
-[[id:3bd499aa-8b63-4458-94b7-82ea6917b7ae][kopp13_tube_tip_apert]]
-** TODO Bundle of Joy Chapter
-[[id:9f957943-d0e5-4331-bbff-63f47f923742][vonk07_bundl_joy]]
-** TODO Points of Resistance
-[[id:27789022-6105-4c0e-b35c-817414a44500][clark00_point_resis_bassoon_reeds]]
-** TODO Eubanks Reed Design
-[[id:903a565f-60fd-46d3-a8f7-152d5b522aa4][eubanks86_advan_reed_desig_testin_proced_bassoon]]
-
+- TODO Lou Skinner Reed Manual
+- TODO Physical Forces at Work in Bassoon Reeds - James B. Kopp [[id:e9b73e82-8c15-4d43-9e0f-6ce367aa5eba][kopp03_physic_forces_at_work_bassoon_reeds]]
+- TODO Popkin Book
+- TODO Weaitt Book
+- TODO Tuning Book
+- TODO Ewell Pedagogy [[id:5d19e409-e35b-499c-8026-ac166a56e6f6][ewell10_pedag_finis_reeds_german_system]]
+- TODO Massol Winstead article [[id:be5a8fcb-5d04-4b00-999b-fefbe68c9b7c][massol10_william_winst_bassoon_reed_method]]
+- TODO Heinrich Geometry [[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]]
+- TODO Kopp Tube Tip Aperture [[id:3bd499aa-8b63-4458-94b7-82ea6917b7ae][kopp13_tube_tip_apert]]
+- TODO Bundle of Joy Chapter [[id:9f957943-d0e5-4331-bbff-63f47f923742][vonk07_bundl_joy]]
+- TODO Points of Resistance [[id:27789022-6105-4c0e-b35c-817414a44500][clark00_point_resis_bassoon_reeds]]
+- TODO Eubanks Reed Design [[id:903a565f-60fd-46d3-a8f7-152d5b522aa4][eubanks86_advan_reed_desig_testin_proced_bassoon]]
 
 Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." Published by the author, 1966. (may have to actually purchase this from Christlieb directly
 
-Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84.
+Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84. (brief glance seems not too important)
 
-Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. /The Double Reed/ 28, no. 4 (2005):77-84.
+Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. /The Double Reed/ 28, no. 4 (2005):77-84.  [[id:3648cfb6-9e7a-420f-ade3-70e54aae2cbe][cooper05_bevel]]
 
-Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.
+Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.[[id:e775af75-1576-46a6-b82e-0983c7df3d2b][cooper90_reed_contr]]
 
 Cooper, Lewis Hugh. "Reed Making Notes: Selection and Preparation of Gouged Cane," ed. Mark Avery. /Journal of IDRS/ 19 (1991): 43-49.
+[[id:72da2993-ea16-45e6-b927-f8e2a1c388b0][cooper91_reed_makin_notes]]
 
 Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." /The Double Reed/ 31, no. 4 (2008): 79-94.
+[[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]
 
 Cooper, Lewis Hugh, Mark Avery, and Mark Clague. "Slippage: Reed Making's Most Benevolent Fault." /The Double Reed/ 32, no. 2 (2009): 85-90.
+[[id:a4ced4c8-dea9-47f4-ada8-35fc467c0897][cooper09_slipp]]
 
 --- . "Variable Damping: Window of Expressive Opportunity." /The Double Reed/ 32, no. 4 (2009): 105-112.
+[[id:58ba5c57-46a0-4d9a-80e4-b42d469b8956][cooper09_variab_dampin]]
 
-Corey, Gerald E. "On the Making of Bassoon Reeds: Karl Almenraeder." /Journal of the IDRS/ 8 (1980): 1-6.
+
+Almenraeder, Karl. "On the Making of Bassoon Reeds." /Journal of the IDRS/ 8 (1980): 1-6.
 
 Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." /The Double Reed/ 17, no. 1 (1994): 1-4.
-
-Heinrich, J. M. "The Bassoon Reed," translated by Joelle Amar. /Journal of IDRS/ 7 (1979): 17-43.
 
 Herzberg, Norman. "Reedmaking." /The Double Reed/ 24, no. 1 (2001): 41-42.
 
 Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." /The Double Reed/ 18, no. 3 (1995): 53-63.
 
-Intravaia, Lawrence and Gerald Corey. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." /Journal of IDRS/ 6 (1978): 30-46.
+Intravaia, Lawrence. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." /Journal of IDRS/ 6 (1978): 30-46.
 
 Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA diss., University of North Carolina, Greensboro, 2008.
+[[id:6e0d2d50-8d9f-4aba-9a13-6b6854c75630][lowe08_norman_herzb]]
 
 Lyman Jeffrey, and Mark Clague. "Tributes to Lewis Hugh Cooper." /The Double Reed/ 30, no. 3 (2007): 29-39.
 
-Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise, Florida State University, 2005.
+Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise, Florida State University, 2005. [[id:f5ef52d1-b1a0-4b07-b032-a50a5befd9da][morris05_teach_method_lewis_hugh_cooper]]
 
 

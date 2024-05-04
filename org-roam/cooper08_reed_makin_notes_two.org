@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       97ffc43a-0074-4618-9403-cc56de1219de
+:ROAM_REFS: cite:cooper08_reed_makin_notes_two
+:END:
+#+title: cooper08_reed_makin_notes_two
+

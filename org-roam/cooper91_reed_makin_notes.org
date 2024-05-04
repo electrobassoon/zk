@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       72da2993-ea16-45e6-b927-f8e2a1c388b0
+:ROAM_REFS: cite:cooper91_reed_makin_notes
+:END:
+#+title: cooper91_reed_makin_notes
+

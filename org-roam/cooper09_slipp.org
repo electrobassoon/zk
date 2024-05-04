@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a4ced4c8-dea9-47f4-ada8-35fc467c0897
+:ROAM_REFS: cite:cooper09_slipp
+:END:
+#+title: cooper09_slipp
+

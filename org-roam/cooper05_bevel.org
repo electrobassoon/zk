@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3648cfb6-9e7a-420f-ade3-70e54aae2cbe
+:ROAM_REFS: cite:cooper05_bevel
+:END:
+#+title: cooper05_bevel
+

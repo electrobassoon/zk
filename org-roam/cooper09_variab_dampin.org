@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       58ba5c57-46a0-4d9a-80e4-b42d469b8956
+:ROAM_REFS: cite:cooper09_variab_dampin
+:END:
+#+title: cooper09_variab_dampin
+
