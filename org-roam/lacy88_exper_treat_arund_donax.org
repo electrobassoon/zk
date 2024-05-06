@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       d146d65b-181e-48ee-8827-aec99a8b9f75
+:ROAM_REFS: cite:lacy88_exper_treat_arund_donax
+:END:
+#+title: lacy88_exper_treat_arund_donax
+
+* Treatment of Arundo Donax
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/lacy88_exper_treat_arund_donax.pdf
+:END:
+
+** Tradition
+:PROPERTIES:
+:NOTER_PAGE: (1 0.1631265930331351 . 0.0703324808184143)
+:END:
+Double reed players tend to not question what they were taught or their method
+
+** Soaking
+:PROPERTIES:
+:NOTER_PAGE: (1 0.17672047578589634 . 0.5358056265984654)
+:END:
+Soaking cane takes something out of the cane if it's done long enough. 
+
+** Method
+:PROPERTIES:
+:NOTER_PAGE: (1 0.4205607476635514 . 0.5358056265984654)
+:END:
+Container tightly covered, in the dark, and water changed every 48 hours
+
+** Teaching convenience
+:PROPERTIES:
+:NOTER_PAGE: (1 0.842820730671198 . 0.0703324808184143)
+:END:
+The convenience of this is that whenever you need to teach a student reed making, you have cane that is soaked and ready to go
+** Extreme
+:PROPERTIES:
+:NOTER_PAGE: (1 0.8827527612574342 . 0.5447570332480819)
+:END:
+Using distilled water he soaked some cane for eight months!!!!
+
+** What is removed
+:PROPERTIES:
+:NOTER_PAGE: (2 0.15081405312767782 . 0.07928388746803067)
+:END:
+Water soluble salts. Sodium in addition to calcium, copper, iron, and magnesium
+
+** 0 sodium
+:PROPERTIES:
+:NOTER_PAGE: (2 0.21936589545844046 . 0.5626598465473146)
+:END:
+At the end of the third water change, or six days, no sodium present in the water (which I suppose means really that 4 days is enough because there is nothing in the third batch?)	
+
+** Five days
+:PROPERTIES:
+:NOTER_PAGE: (2 0.4661525278491859 . 0.5537084398976982)
+:END:
+Five days changing the water after 24, 48, and 60? hours	
+
+** Observations
+:PROPERTIES:
+:NOTER_PAGE: (2 0.8226221079691517 . 0.5537084398976982)
+:END:
+1) Cane has more uniform color after this soaking
+2) texture will be consistent
+3) There is no break in period for these reeds!
+4) reeds last longer
+5) more consistent reed making	
+
+** Gouged
+:PROPERTIES:
+:NOTER_PAGE: (4 0.17823479005998286 . 0.5447570332480819)
+:END:
+He says to use gouged cane, so I should do this with my GSP cane! (not sure I want to use distilled water though)
+** Confidence
+:PROPERTIES:
+:NOTER_PAGE: (4 0.6718080548414739 . 0.0703324808184143)
+:END:
+confidence that the reeds won't change, so when weather changes, just change the reed and go back to the other one when the weather is back

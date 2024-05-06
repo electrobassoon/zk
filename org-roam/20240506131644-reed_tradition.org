@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ba2d6d5a-a974-47b6-b602-c3a70bb5ed7b
+:END:
+#+title: reed tradition
+#+filetags: :tradition:
+Double reed players tend to follow tradition and not question methods in reed making. [[cite:&lacy88_exper_treat_arund_donax]]

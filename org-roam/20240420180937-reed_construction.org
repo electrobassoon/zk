@@ -3,6 +3,9 @@
 :END:
 #+title: reed construction
 
+[[id:5ced6094-88e6-42cc-9ad2-f4355ccb08e4][soaking]]
+
+
 [[id:4adab6df-42c5-4350-92b0-2b23ceb1a925][gouge]]
 
 High Altitude Adjustments [[cite:&klimko91_bassoon_reedm_at_higher_altit]]

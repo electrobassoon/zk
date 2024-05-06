@@ -42,10 +42,13 @@ Almenraeder, Karl. "On the Making of Bassoon Reeds." /Journal of the IDRS/ 8 (19
 Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." /The Double Reed/ 17, no. 1 (1994): 1-4.
 
 Herzberg, Norman. "Reedmaking." /The Double Reed/ 24, no. 1 (2001): 41-42.
+[[id:9dcb37bd-7787-4796-8d10-80d3c049326e][herzberg01_reedm]]
 
 Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." /The Double Reed/ 18, no. 3 (1995): 53-63.
+[[id:57c03c4a-4d0d-4e66-a6bd-050c088abc8e][herzberg95_years_ignor_neglec_denial]]
 
 Intravaia, Lawrence. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." /Journal of IDRS/ 6 (1978): 30-46.
+[[id:534e791b-b6ce-40cc-b7d6-2293c536eb6b][intravaia78_effec_hardn_stiff_bassoon_cane]]
 
 Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA diss., University of North Carolina, Greensboro, 2008.
 [[id:6e0d2d50-8d9f-4aba-9a13-6b6854c75630][lowe08_norman_herzb]]
@@ -53,5 +56,6 @@ Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA di
 Lyman Jeffrey, and Mark Clague. "Tributes to Lewis Hugh Cooper." /The Double Reed/ 30, no. 3 (2007): 29-39.
 
 Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise, Florida State University, 2005. [[id:f5ef52d1-b1a0-4b07-b032-a50a5befd9da][morris05_teach_method_lewis_hugh_cooper]]
+
 
 
