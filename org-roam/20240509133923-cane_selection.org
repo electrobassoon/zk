@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       55a8d9af-61b1-4d29-bd61-05a9402bb519
+:END:
+#+title: Cane selection
+
+Cooper has an extensive cane selection procedure to try and ensure the best cane possible. Pieces of cane that are not good, should be discarded to not waste time.
+
+The grain should be straight from end to end. The cane should be flat when the bark is layed on a flat surface. It shouldn't have the ends stick up, or the middle stick up. Measuring with a dial indicator, there should not be variances more than .05mm. Correct it with sanding if possible. The gouge should not be offcenter. It can be concentric or eccentric, but not offcenter.
+
+The color should be consistent. Slightly green cane should be stored to cure longer. Dark green probably won't cure. Concentrated green and black spots indicate fungal growth and should be discarded. Thin dark lines indicate the presence of mold in the fibers. This is all inside the gouge. On the bark, brown sections indicate mature cane. The spots come from the mold of the leaves that the cane was wrapped in. A more brown color indicates high mineral or sap content and is usually very hard. Very white cane is usually too soft. The wood right under the bark should be an orangeish-gold with mature cane.
+
+Mature cane also breathes. You can draw air through the end. You can also blow cane through the end and air bubbles will show up on profiled surfaces.
+
+Grooves in the gouge turn into cracks at the tip. Sanding can correct raised fibers.
+
+Some more tests include flexing the cane laterally, seeing how quickly the cane sinks (1 hour for hard cane, 3 hours for soft cane). You can listen to the pitch when it's dropped. Soft cane takes a deep gouge from a thumbnail (in parts that will be shaped away!)
+
+Only 20-25% of cane will pass all the tests.
+
+[[cite:&cooper91_reed_makin_notes]]

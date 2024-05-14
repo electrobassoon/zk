@@ -4,3 +4,192 @@
 :END:
 #+title: cooper91_reed_makin_notes
 
+* Gouge
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/cooper91_reed_making_notes.pdf
+:END:
+
+** Time
+:PROPERTIES:
+:NOTER_PAGE: (1 0.6990856192851206 . 0.0971867007672634)
+:END:
+"The most costly element in reed making is time!"
+Discard any pieces of cane that do not show promise of making a good reed.
+
+** Straight Grain
+:PROPERTIES:
+:NOTER_PAGE: (1 0.7921862011637573 . 0.07928388746803067)
+:END:
+Gouged surface should run true from end to end.
+Is it straight when you lay the bark on a table? As in does the bark touch the table the entire time.
+
+** Thickness
+:PROPERTIES:
+:NOTER_PAGE: (1 0.9384871155444722 . 0.0971867007672634)
+:END:
+Should be symmetric.
+Measure with dial indicator from end to end. Should not vary more than .05mm or .002". Discard if you can't correct with sanding.
+Side to side symmetry as well. Gouge should not be off-center. Both concentric and eccentric gouging is ok. This is more critical than end to end symmetry
+
+** Mutated Gouges
+:PROPERTIES:
+:NOTER_PAGE: (1 0.8969243557772236 . 0.6074168797953965)
+:END:
+Some people apparently intentionally make an asymmetric gouge, Mechler for example. Maybe Skinner's internal gouge things would apply?
+** Incosistency
+:PROPERTIES:
+:NOTER_PAGE: (2 0.46550290939318373 . 0.11508951406649615)
+:END:
+Incosistent goues result in inconsistent reeds!
+So try not to change variables too much.
+** Color
+:PROPERTIES:
+:NOTER_PAGE: (2 0.5054031587697423 . 0.08823529411764704)
+:END:
+Discolorations should be avoided.
+Slightly green can be stored for months to cure longer
+Dark green probably won't cure
+Concentrated green and black spots indicate fungal growth and should be discarded
+Thin dark lines in vascular tubes indicate mold.
+This does not apply to brown flecks in the bark of the cane. This actually shows mature cane because mold grew in the leaves that wrap the cane.
+** Hardness
+:PROPERTIES:
+:NOTER_PAGE: (2 0.9160432252701579 . 0.06777493606138107)
+:END:
+Other color variations can show indications of hardness.
+If it's more brown, there is high mineral or sap content and are usually very hard.
+Very white cane can be excessively soft and pithy
+Rich cream color to light yellow represents the middle ground.
+Experience will show the color that works best for the individual.
+** Maturity
+:PROPERTIES:
+:NOTER_PAGE: (2 0.2660016625103907 . 0.571611253196931)
+:END:
+ Maturity can be judged by the "sap wood" or the dermis right below the bark. It's an intense shade of orangish-gold when you look at the end of the gouged cane.
+** Breathes
+:PROPERTIES:
+:NOTER_PAGE: (2 0.3857024106400665 . 0.571611253196931)
+:END:
+Mature cane breathes!?
+Air can be drawn through the end grain of gouged cane
+Air can be blown through profiled and shaped cane that show bubbles when immersed in water
+The degree of porosity also shows density of cane.
+** Major imperfections
+:PROPERTIES:
+:NOTER_PAGE: (2 0.5320033250207814 . 0.5805626598465474)
+:END:
+Major imperfections should be disqualifying.
+Grooves turn into cracks after scraping to it.
+Small imperfections can be sanded out, but could go too thin
+Fibers rising above the gouge can be sanded out.
+** More sophisticated methods
+:PROPERTIES:
+:NOTER_PAGE: (3 0.14630091438071488 . 0.0703324808184143)
+:END:
+Flexing the cane can give relative hardness
+When immersing dry cane into water, denser harder cane will sink more than shallow soft cane
+*** Sinking
+Cane should sink after 1 to 3 hours. Faster means harder, slower means softer
+Sooner than 1 hour is too hard
+Longer than 3 hours are too soft
+*** Pitch when dropping
+Higher pitch is harder, lower pitch is softer
+*** Thumbnail test
+Push with thubmnail in part that will be shaped away. Deep grooves are softer, shallow grooves are harder. If you can mark the bark it's too soft.
+There are hardness testers
+** Ideally Gouge Your Own
+:PROPERTIES:
+:NOTER_PAGE: (3 0.22610141313383209 . 0.5537084398976982)
+:END:
+If you get from a vendor, stick with the same vendor. If you like a batch ask if you can get more of the same batch.
+** 20 to 25%
+:PROPERTIES:
+:NOTER_PAGE: (3 0.9368246051537822 . 0.6074168797953965)
+:END:
+This is all that Cooper expects to meet all the criteria
+** Sand inner side of gouge before using
+:PROPERTIES:
+:NOTER_PAGE: (4 0.13300083125519535 . 0.07928388746803067)
+:END:
+It corrects minor imperfections in symmetry.
+Use 400 to 600 grit emery cloth to smooth the inner gouge. 600 is brighter sounding than 400.
+Must remove any grooves that become cracks, or any raised fibers.
+** Continuation of fibers
+:PROPERTIES:
+:NOTER_PAGE: (5 0.3325020781379884 . 0.10613810741687978)
+:END:
+Piling up (dark spots) will make vibrations past that point more difficult
+Light pots or depressions will also mess up vabrations past the weak poit.
+Sand until all fibers go from end to end.
+** Wet the gouged cane
+:PROPERTIES:
+:NOTER_PAGE: (5 0.4979218620116376 . 0.0971867007672634)
+:END:
+Run wet finger over cane, wipe off excess moisture.
+Lay under a lamp to dry more quickly.
+After doing 10 to 12 corrective sanding pieces, the first ones will be dry and there will be more raised fibers
+Repeat the sanding, then repeat the wetting process
+Typically it takes three to four times before it stays smooth.
+This should be done before proceeding to form.
+** Results!
+:PROPERTIES:
+:NOTER_PAGE: (5 0.5112219451371571 . 0.5537084398976982)
+:END:
+Being this careful with the gouge is the primary element of the reed tips final contour. 
+** Prolonged soaking
+:PROPERTIES:
+:NOTER_PAGE: (5 0.8171238570241064 . 0.5537084398976982)
+:END:
+Leaches out soluble saps and minerals
+Makes cane less likely to cause allergic reactions
+Minimizes the break in process. Breaking in is the process of removing entrapped vegetable and mineral material. Playing it makes the dissolution very slow.
+Improves the quality and workability of cane. Greater success rate and better final results.
+** Convenience
+:PROPERTIES:
+:NOTER_PAGE: (6 0.372402327514547 . 0.13299232736572889)
+:END:
+It's conventient to always have soaked cane at a moment's notice.
+** Soaking procedure
+:PROPERTIES:
+:NOTER_PAGE: (6 0.4995843724023275 . 0.0971867007672634)
+:END:
+Can use distilled or hot tap water
+Fill to brim before screwing on the top
+If doing 10 to 20 pieces of cane, probably best to change every 24 hours
+Wait until water is clear after a day or two in water
+Once it remains clear, refill the jar and remove all air, then keep it in a dark place.
+Apparently best quality is after two to three months.
+** Misleading hardening
+:PROPERTIES:
+:NOTER_PAGE: (6 0.4389027431421446 . 0.6342710997442456)
+:END:
+During the first two or three weeks it seems the like the cane gets harder, but it's false?
+
+** Testing procedure
+:PROPERTIES:
+:NOTER_PAGE: (6 0.3458021612635079 . 0.5895140664961638)
+:END:
+Soak 25-30 pieces of cane, get to the clear stage and go for 3 weeks.
+Then make 2 or 3 reeds.
+Wait a week then make 2 or 3, repeat
+Reeds will get better as it goes.
+Make sure to check the jar for signs of mold or algae. Immediately take corrective actions if it shows up.
+** Water quality
+:PROPERTIES:
+:NOTER_PAGE: (7 0.09310058187863675 . 0.10613810741687978)
+:END:
+Tap water with lots of minerals will probably contribute through reverse osmosis, so use distilled water!
+Especially avoid city water with high potassium permanganate
+** Saps and minerals take longer than mineral salts to dissolve
+:PROPERTIES:
+:NOTER_PAGE: (7 0.4256026600166251 . 0.0971867007672634)
+:END:
+** Other approaches
+:PROPERTIES:
+:NOTER_PAGE: (7 0.7182044887780549 . 0.0971867007672634)
+:END:
+** Don't rush
+:PROPERTIES:
+:NOTER_PAGE: (7 0.7581047381546134 . 0.5537084398976982)
+:END:
+These minutia are often negleceted to finish reeds quickly. But he claims this will elevate reedmaking to an art

@@ -24,9 +24,7 @@ Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark A
 
 Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.[[id:e775af75-1576-46a6-b82e-0983c7df3d2b][cooper90_reed_contr]]
 
-Cooper, Lewis Hugh. "Reed Making Notes: Selection and Preparation of Gouged Cane," ed. Mark Avery. /Journal of IDRS/ 19 (1991): 43-49.
-[[id:72da2993-ea16-45e6-b927-f8e2a1c388b0][cooper91_reed_makin_notes]]
-
+* TODO Process 
 Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." /The Double Reed/ 31, no. 4 (2008): 79-94.
 [[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]
 

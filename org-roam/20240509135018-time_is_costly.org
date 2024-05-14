@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3725afa9-3a15-481d-a6da-bd741170ee04
+:END:
+#+title: time is costly
+
+
+"The most costly element in reed making is time!" [[cite:&cooper91_reed_makin_notes]]

@@ -4,3 +4,279 @@
 :END:
 #+title: cooper08_reed_makin_notes_two
 
+* Cooper's Cubist Reed Concept
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/cooper08_reed_makin_notes_two.pdf
+:END:
+
+** Parallel Scrape
+:PROPERTIES:
+:NOTER_PAGE: (1 0.32365875109938436 . 0.12404092071611252)
+:END:
+Cooper at least used parallel. Seems to also use a brevis
+
+** Starts from gouge
+:PROPERTIES:
+:NOTER_PAGE: (1 0.3940193491644679 . 0.10613810741687978)
+:END:
+Claims economical in time, material, and cost
+
+** Hand Profiling Importance
+:PROPERTIES:
+:NOTER_PAGE: (1 0.46437994722955145 . 0.11508951406649615)
+:END:
+A freeing skill for experimentation
+
+** Hand Profiling Method
+:PROPERTIES:
+:NOTER_PAGE: (1 0.5813544415127528 . 0.12404092071611252)
+:END:
+1) Mark center on the bark side
+2) Mark outer limits of blade profile, around an inch or 25.4mm on each side of center
+3) Notch marks with thin sharp knife. Pen blade of jack knife, or exacto knife. Watch edges if eccentric gouge is used.
+4) Using same knife, pull from far collar to center, just barely taking bark off. Minimum of 9-10 sections
+5) Make an arrow head pattern on each blade, again from far point to center. Cuts should gradually deepen towards the center
+6) Use a file like a half round bastard, or swiss grobet 0 or 00 cut pillar files to take out the ridges between cuts
+7) Center should be around .38mm to avoid breaking when it folds over
+8) using a dial indicator, mark the spots the are the desired thickness of the back of the reed (he says .71mm) Ideally should be equidistant from the center and halfway down the blade. If they aren't file the thicker side down so they are in the same place. 
+9) Remeasure the center and mark it. Inaccuracies count double here. 
+10) Rescore the center fold mark
+
+** Foldover shaper
+:PROPERTIES:
+:NOTER_PAGE: (4 0.5672823218997362 . 0.0971867007672634)
+:END:
+He prefers a foldover shaper, claiming that most straight shapers don't match, and a foldover shaper ensures that the sides will match. It also helps to pre-establish the degenerative/regenerative tip function.
+
+** Straight Shapers
+:PROPERTIES:
+:NOTER_PAGE: (5 0.4925241864555849 . 0.11508951406649615)
+:END:
+Admits they can be used with acceptable results
+
+** Folding
+:PROPERTIES:
+:NOTER_PAGE: (5 0.5910290237467019 . 0.11508951406649615)
+:END:
+Fold cane over a thin ruler, back of a knife, or some other thin, straight edge. Take the edge out before the entire fold is completed so it doesn't cause the tip to break open. Keep pressure on the tip until it is on the folding shaper. Repeated flexing of the cane will cause it to break as well.
+
+** Loading shaper
+:PROPERTIES:
+:NOTER_PAGE: (5 0.8487247141600703 . 0.0971867007672634)
+:END:
+Carefully take equal amounts from each side until it matches the shaper tip
+
+** Loosely tightened
+:PROPERTIES:
+:NOTER_PAGE: (6 0.2673702726473175 . 0.0971867007672634)
+:END:
+Don't tighten it all the way while taking the majority of it out. Use thumb and finger to hold it from slipping. Apparently most cane will crack if you tighten the shaper handle all the way at first.
+
+** Sand
+:PROPERTIES:
+:NOTER_PAGE: (6 0.6895338610378188 . 0.0971867007672634)
+:END:
+Sand the edges of the shaped cane with 220 WD
+
+** Forming the tube
+:PROPERTIES:
+:NOTER_PAGE: (7 0.3940193491644679 . 0.10613810741687978)
+:END:
+Function of the bevel is to modify the shape contour to make sure the mechanical fulcrum at the second wire works correctly. It also helps tubes seal, and be more secure on the bocal. It can also reduce the interior volume of the reed, equivalent to a more narrow shaper. Also can reinforce the de/regenerative tip function. (see another of his articles)
+
+** Method
+:PROPERTIES:
+:NOTER_PAGE: (7 0.5910290237467019 . 0.11508951406649615)
+:END:
+Bevels at 30 degrees on all four sides. Inner edge only at the collar, then 100% depth by the second wire to the end. Also says that beveling one side on each side works as well.
+
+** Scoring
+:PROPERTIES:
+:NOTER_PAGE: (8 0.32365875109938436 . 0.08823529411764704)
+:END:
+7 cuts, just through the bark from collar to butt. One in center, then equidistant on either side, then half every section. Center score must be exact.
+
+** Slippage
+:PROPERTIES:
+:NOTER_PAGE: (8 0.5628847845206685 . 0.11508951406649615)
+:END:
+Thinks some slippage is integral to successful reeds. Most people's torque is to the right, so lip the upper butt end to the left a little
+Beveling can be used to guarantee slippage. Wire twist direction should also match. Counterclockwise if the upper butt is slipped left, and clockwise if it is slipped right. (See his other article)
+
+** Wires
+:PROPERTIES:
+:NOTER_PAGE: (9 0.3940193491644679 . 0.0971867007672634)
+:END:
+Make sure there are isosceles triangles when pulling wire and twisting to tighten. At the last, push the pliers towards the cane and do a quarter turn to close the remaining gap and lock the twist. Puts the first and second wires on.
+
+** Split cane
+:PROPERTIES:
+:NOTER_PAGE: (9 0.6816182937554969 . 0.12404092071611252)
+:END:
+Uses needle nose pliers between the two halves of the butt, and uses a twisting motion to separate the center score from the back to the second wire. Does this for all eight sections of the cane. This is  the first mention I have seen of doing something like this. It also the first time an article has mentioned what I've been doing. He says some do this with razor blades, but the cuts are parallel and not in concurrance with the curvature and grain of the cane.
+
+** Rounding the tube
+:PROPERTIES:
+:NOTER_PAGE: (9 0.8645558487247141 . 0.12404092071611252)
+:END:
+Pinch sides of second wire until the mandrel can get in. Wiggle the reed onto the mandrel. Then put on the third wire
+
+** Mashing
+:PROPERTIES:
+:NOTER_PAGE: (10 0.11257695690413369 . 0.08823529411764704)
+:END:
+After the third wire is on, mash with the round ends of pliers on the tube from butt to second wire. Then retighten the third wire. The side seam should neck in (maybe more with eccentric gouging?)
+
+** 360 second wire
+:PROPERTIES:
+:NOTER_PAGE: (10 0.22515391380826738 . 0.07928388746803067)
+:END:
+Rotate the second wire around the reed with pressure from the pliers. Then lock it in position.
+
+** After drying
+:PROPERTIES:
+:NOTER_PAGE: (10 0.4080914687774846 . 0.0703324808184143)
+:END:
+After drying, insert the forming mandrel again. The seam should separate. Mash the tube again with the round part of the pliers. Tension the third wire, rotate 360, and then relock. Then do the same with the second wire. First wire needs to be a little loose still. (Apparently short bladed reeds really need this)
+
+** Herring notches
+:PROPERTIES:
+:NOTER_PAGE: (10 0.5065963060686016 . 0.08823529411764704)
+:END:
+File herring bone notches on the tube. Four rows (1 under the third wire). This helps the bindind stay in place. It also improves the second wire's reverse function. (the fulcrum?)
+
+** No duco underneath?
+:PROPERTIES:
+:NOTER_PAGE: (10 0.5795954265611258 . 0.3286445012787724)
+:END:
+#+BEGIN_QUOTE
+Do not, under
+any circumstances, use duco cement or other type lac-
+quers and glue under the wrapping!
+#+END_QUOTE
+Claims it has ruined more potentially good reeds than anything else except maybe overtightening the first wire
+** Wrapping
+:PROPERTIES:
+:NOTER_PAGE: (10 0.633245382585752 . 0.0971867007672634)
+:END:
+3 or 4 coats of duco...
+** 1 year!
+:PROPERTIES:
+:NOTER_PAGE: (10 0.6895338610378188 . 0.0971867007672634)
+:END:
+Ideally says that blanks should be stored for a year before finishing them.
+** Soaking blank
+:PROPERTIES:
+:NOTER_PAGE: (10 0.7801231310466139 . 0.07928388746803067)
+:END:
+Only soaking up to the first wire until capillary action brings the water to the butt end. 
+** Create the collar
+:PROPERTIES:
+:NOTER_PAGE: (10 0.8364116094986808 . 0.08823529411764704)
+:END:
+Puts collar 6mm or 1/4" from the bottom of the first wire. Take care with thinner edges as usual.
+** Cuts
+:PROPERTIES:
+:NOTER_PAGE: (10 0.920844327176781 . 0.0971867007672634)
+:END:
+Make five cuts from the back thickness mark to the collar. One in the center, then one on each side a little closer to the tip. And on the edges even closer to the back. Then clip the tip 29.4mm in front of first wire
+** Basic finishing
+:PROPERTIES:
+:NOTER_PAGE: (11 0.33773087071240104 . 0.12404092071611252)
+:END:
+Thumbnail shape first, more convex than I usually imagine
+Check the spine thickness 1cm back from the tip. It's the critical point and cannot be more than .58mm (this is probably a little before the midpoint? Or maybe is the midpoint? So many "cricital points" for each maker.
+First day should preferrably be more vibrant and lower in pitch than desired. Playable but lacking refinement.
+** Knockenhauer measurements
+:PROPERTIES:
+:NOTER_PAGE: (12 0.08443271767810026 . 0.07928388746803067)
+:END:
+Third wire 6.4mm from butt, first wire is the midpoint of the entire reed to middle of wire. Max is 28.6mm, min is 27mm. Those same measurements are on the other side to the tip. Second wire is a quarter inch behind that (6.4mm). The collar is 6.4mm or a quarter inch from the back of the first wire. Tip width is max 14.3, min is 13.5 (that's a lot thinner than Chris Weaitt's 15mm). Opening should be 1.6mm or 1/16th of an inch. The tube should be 6.1mm tall at the second wire, and 6.2mm at the first wire. Gouge is 1.27mm at center and .89mm at tip width.
+** Blade measurements
+:PROPERTIES:
+:NOTER_PAGE: (12 0.4925241864555849 . 0.11508951406649615)
+:END:
+8 stations that are 1/8 inch apart or 3.2mm. Critical point is station 5, which is 9.6mm from tip, or 3/8". 
+
+| Station                     | 1     |     2 |    3 |    4 |   *5*  |    6 |    7 |    8 |
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+| Maximum 1st Stage Reed      | .76mm | .71mm |  .66 |  .61 |  .56 |  .46 |  .36 |  .25 |
+|                             | .03"  |  .028 | .026 | .024 | .022 | .018 | .014 |  .01 |
+| Average 2nd Stage Reeds     | .71mm |   .66 |  .61 |  .56 |  .51 |  .41 |  .31 |   .2 |
+|                             | .028" |  .026 | .024 | .022 |  .02 | .016 | .012 | .008 |
+| Minimum 3rd Stage Reeds     | .66mm |   .61 |  .56 |  .51 |  .46 |  .36 |  .26 |  .15 |
+|                             | .026" |  .024 | .022 |  .02 | .018 | .014 |  .01 | .006 |
+| Summer or 2nd Bassoon Reeds | .58mm |   .58 |      |      |      |      |      |      |
+|                             | .023" |  .023 |      |      |      |      |      |      |
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+
+This implies I think that in summers he was playing at high altitudes, and took more out at the back.
+** Seven Finishing Procedures
+:PROPERTIES:
+:NOTER_PAGE: (13 0.08443271767810026 . 0.13299232736572889)
+:END:
+With shaped plaque
+1) Establish spine dimensions by filing or scraping a flat ribbon of middle fifth of each blade. This ribbon widens at the tip as the arch flattens
+2) File or scrape flat ribbons down both rails matching the the straight tapers rail to rail, blade to blade. The line of contact is tangential to the curve, 1/16" in from the edge of the rail
+3) File or scrape ribons down the channels. This eliminates ridges from 1 and 2. Avoid areas already established. He prefers a grobet 4" extra narrow two sided 0 cut pillar file.
+4) With flat plaque in do wings of the blade. Nearly 90 degree angle from cane. Starts about 2/3 back from tip and deepens and widens as it gets to the tip. This establishes the de/regenerative curve.
+5) Do the corners, don't tear them! About 3mm equilateral triangles.
+6) Snap in extreme tip 2mm back from tip. This blends in with the earsand tapers slightly from center to corners.
+7) Smooth out work with fine file. Check for de/regenerative curve. Take out more wings to get it to the desired cupid bowing. If the tip closing is succession of intersecting arcs until nearly parallel, snaps closed and jumps open abruptly, this will be a raucous undamped sound. Work on wings again. If it's assymetrical, then work on the bad quadrant wings. If it is excessively bowed, there is little that can be done. Opening the tip with the second wire can help a little bit.
+8) Check with seven acoustic reed criteria (of course, in another aritcle)
+** Testing
+:PROPERTIES:
+:NOTER_PAGE: (14 0.7036059806508356 . 0.0971867007672634)
+:END:
+Should play well, but don't panic if it still has the following
+1) somewhat flat
+2) E is a little unstable and drops
+3) Sound too open or lacks focus
+4) High registre attacks unsure
+5) C# unstable or drops
+Most will be fixed with a few minutes of playing. Don't prematurely clip the tips of the more vibrant reeds. 
+As reeds break in they become more resistant, more focused, higher in pitch, and lose the lows and gain the highs
+Experienced reed makers use this to make more vibrant, free, lower pitched, first stage reeds succeed on their own.
+** The next days
+:PROPERTIES:
+:NOTER_PAGE: (15 0.18293755496921724 . 0.12404092071611252)
+:END:
+As reeds heavy and sharpen, check first for tip symmetry and correct with wing work. Repeat the seven finishing techniques but removing less and less each time
+** Structure vs Substance
+:PROPERTIES:
+:NOTER_PAGE: (15 0.3518029903254178 . 0.12404092071611252)
+:END:
+Structure is the mechanical elements (levers/fulcrums, arches, etc.) that contribute to strength
+Substance is mass of cane in the blade that contributes to strength
+When cane is removed from blades, structural elements substitute for the removed cane.
+** Two Approaches
+:PROPERTIES:
+:NOTER_PAGE: (15 0.5813544415127528 . 0.10613810741687978)
+:END:
+1) Remove as little cane as possible from the blade. This is the wedge scrape, straight-taper reed design. Strong heavy blades with weaker structural components.
+2) Remove as much cane as possible from the blade. This is the parallel scrape, tip-taper reed design. Weak, thin, free blades with stronger structural elements.
+** Cooper Parallel
+:PROPERTIES:
+:NOTER_PAGE: (15 0.7502198768689534 . 0.13299232736572889)
+:END:
+As the finishing procedures take place, blades become thinner, and weaker as cane is removed. Shorter and stronger from miniscule clippings, and narrower and stronger in width from slippage or planing of rails.
+1st wire fulcrums are gradually arched.
+Higher and narrower (stronger) by opening first wire from the sides. If needed, closing the first wire reduces structural arch strength and size of tip opening.
+Second wire's reverse function micro-adjusts tip openings, pitch center, and freedom of vibration without effecting the blades strength.
+Vertical pinching opens the tip, lowers the pitch, and frees vibrations, especially lows.
+Pinching from sides results in opposite but equal results.
+Reverse second wire function is essential of superior reeds. Almost impossible to final balance a reed without it.
+Strive for parallelism between the first and second wire heights. Parallel blades require parallel throats.
+** Don't be afraid to remove cane
+:PROPERTIES:
+:NOTER_PAGE: (16 0.2673702726473175 . 0.08823529411764704)
+:END:
+Historically more bad reeds from too much cane than too much taken away
+If too much is removed, arching the first wire or clipping tip can compensate.
+Wire function is a precise tool for final balance of resistance and flexibility
+Using cubist procedures should result in a good number of second stage reeds. Very usable but requiring a little more refinement.
+** Eubanks book
+:PROPERTIES:
+:NOTER_PAGE: (16 0.534740545294635 . 0.0971867007672634)
+:END:
+Refers to the advanced reed design testing and procedures for the finishing stage. Presumably this means he uses them (at least the original publication) with good results on a parallel scrape blade.

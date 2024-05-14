@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c46a1d72-b286-406e-aac5-192a72cdfc9d
+:END:
+#+title: good cane definition
+
+"A good piece of cane is one that responds to the trimming and adjustments and maintains them. Conversly, a bad piece of cane will not respond and will require constant trimming and adjustment until there is no further adjustment or trimming possible." Norman Herzberg
+
+[[cite:&herzberg01_reedm]]

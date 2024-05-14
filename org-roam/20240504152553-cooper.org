@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       257fac7f-b804-41db-aab8-66c2a38256e9
 :END:
-#+title: cooper
+#+title: Hugh Lewis Cooper
 
 Cooper taught very rigorous cane selection. He would use a dial indicator to correct imperfections in the gouge. He would soak dry and repeat until it was stable.
 
@@ -15,3 +15,9 @@ Reed making takes risks:
 His pedagogy is spread through many publications, so it's hard to track it all down and follow all of it.
 
 [[cite:&schillinger16_bassoon_reed_makin]] 127-139
+
+His reed soaking procedure is described in [[id:5ced6094-88e6-42cc-9ad2-f4355ccb08e4][soaking]].
+
+His selection of cane is described in [[id:55a8d9af-61b1-4d29-bd61-05a9402bb519][Cane selection]]
+
+Then see [[id:a8df25eb-7453-4398-aa98-ce835c896d54][preparing gouged cane]]
