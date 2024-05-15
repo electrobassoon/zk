@@ -28,8 +28,6 @@ Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, n
 Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." /The Double Reed/ 31, no. 4 (2008): 79-94.
 [[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]
 
-Cooper, Lewis Hugh, Mark Avery, and Mark Clague. "Slippage: Reed Making's Most Benevolent Fault." /The Double Reed/ 32, no. 2 (2009): 85-90.
-[[id:a4ced4c8-dea9-47f4-ada8-35fc467c0897][cooper09_slipp]]
 
 --- . "Variable Damping: Window of Expressive Opportunity." /The Double Reed/ 32, no. 4 (2009): 105-112.
 [[id:58ba5c57-46a0-4d9a-80e4-b42d469b8956][cooper09_variab_dampin]]

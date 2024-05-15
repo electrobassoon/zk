@@ -3,3 +3,4 @@
 :END:
 #+title: Forming
 
+[[id:f4a88926-73b2-4340-81c8-23c7dd000e67][Slippage of the cane]]

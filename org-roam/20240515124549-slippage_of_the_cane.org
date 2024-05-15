@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       f4a88926-73b2-4340-81c8-23c7dd000e67
+:END:
+#+title: Slippage of the cane
+
+All reeds have some form of slippage, so there is no use fighting it. (Even if you can't see it in the tip it's there in the tube) There are four types, two are scissored in opposite directions, and two are embraced in opposite directions. Embraced (which is one blade slipping over both ends of the other) slippage is unacceptable, unrepairable, and should just be tossed. This likely comes either from an inconsistent fold while using a straight shaper, an inaccurate shaper, or a major crack on one side of the tube and not the other.
+
+Furthermore, of the two scissored types, only one direction works with any players embouchre. Most people need clockwise torque in the blades. This means the top blade is shifted to the right of the bottom blade.
+
+To predetermine the slippage, the butt ends should be offset after beveling and scoring, but before putting on the wires. The direction should be opposite of what the desired slippage is. So for most people, this means offseting the top butt to the left, or counterclockwise. The wire should match this opposite, so counterclockwise turns in the wire for clockwise slippage.
+
+The slippage can be adjusted at the end by turning the turk's head the opposite direction of the intended slippage. But only if you don't duco the entire tube before putting thread on! 
+
+[[cite:&cooper09_slipp]]
