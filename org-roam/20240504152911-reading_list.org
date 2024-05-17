@@ -20,6 +20,7 @@ Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." 
 
 Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84. (brief glance seems not too important)
 
+* TODO Process
 Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. /The Double Reed/ 28, no. 4 (2005):77-84.  [[id:3648cfb6-9e7a-420f-ade3-70e54aae2cbe][cooper05_bevel]]
 
 Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.[[id:e775af75-1576-46a6-b82e-0983c7df3d2b][cooper90_reed_contr]]

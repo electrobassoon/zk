@@ -4,3 +4,115 @@
 :END:
 #+title: cooper05_bevel
 
+* Beveling
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/cooper05_bevel.pdf
+:END:
+** Functions of the Bevel
+:PROPERTIES:
+:NOTER_PAGE: (1 0.2593957258658806 . 0.18451749734888656)
+:END:
+1) Modify the shape's contour to correctly position the mechanical fulcrum of the reed. Resisting tips that collapse, and ensuring reverse wire function
+2) Produce sealed tubes and reed/bocal junctures
+3) Reduce the interior volume of the tube, equivalent to a narrower shape
+4) Slightly reinforce degenerative/regenerative tip function by stressing lines of inflection in the blades
+** Proportions
+:PROPERTIES:
+:NOTER_PAGE: (1 0.5187914517317612 . 0.19194061505832452)
+:END:
+How much will depend on making sure the fulcrum is correctly placed at or slightly behind the first wire position
+** Possibilities
+:PROPERTIES:
+:NOTER_PAGE: (1 0.5895357406042742 . 0.19194061505832452)
+:END:
+By knowing how to adjust the bevel length and depth, you can manipulate the contours and get similar results from many shapes, or many results from the same shape.
+** 127mm cane
+:PROPERTIES:
+:NOTER_PAGE: (1 0.7310243183492999 . 0.22905620360551432)
+:END:
+claims that using 127mm cane is like owning many shapers because of the extra 1/4" to trim from either end of the reed
+** Freedom
+:PROPERTIES:
+:NOTER_PAGE: (1 0.8017686072218129 . 0.22905620360551432)
+:END:
+Freedom from needing to buy lots of different shapers
+** Cooper Personal Method
+:PROPERTIES:
+:NOTER_PAGE: (2 0.16507000736919675 . 0.1548250265111347)
+:END:
+Based on Knockenhauer parallel scrape reed. Uses 127mm cane, trims 1/4" from the tip end. Any changes to that mean needing to change the bevel...
+1) With a penknife or sapphire fingernail file, shallow bevel at the collar with a 30 degree angle to the lower inner edge of the side axis of the shape...
+2) Gradually deepen the 30 degree bevel until full depth is reached at the second wire position
+3) Continue at 100% depth until the back of the shape
+4) Repeat on all four sides
+5) Common error is to be too horizontal on all four sides that gives a leaky tube
+** Alternate bevel
+:PROPERTIES:
+:NOTER_PAGE: (2 0.45983787767133383 . 0.16224814422057265)
+:END:
+Equally acceptable results is one side of the tube. 30 degrees up or 60 degrees down..
+This produces lap type seams instead of symmetric butt styles. But ensures consistent slippage.
+** Narrower Adjustments
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6131171702284451 . 0.1548250265111347)
+:END:
+A narrower throat or shaper would require starting the bevel closer to the butt end and/or reducing the depth
+** Another alternate
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6831245394252027 . 0.13255567338282082)
+:END:
+Someone uses both approaches, and starts assymetrical and converts to four sided around the third wire
+Someone else takes the wires off and sands all four sides.
+** Bevel Variables
+:PROPERTIES:
+:NOTER_PAGE: (3 0.21223286661753868 . 0.18451749734888656)
+:END:
+1) Beveling reduces the oustides diameter, and the inside diameter of the tube at the point of the bevel. This also reduces the size of the shape.
+2) This amount is 75% the gouge thickness times the depth of the bevel. (Assuming rounded tube, concentric gouge, and 30/60 degree bevels
+3) Individuals can control the change in the diameters very precisely
+** Length and Depth
+:PROPERTIES:
+:NOTER_PAGE: (3 0.7170228445099485 . 0.19194061505832452)
+:END:
+Starting a bevel further back towards the butt end has larger reed cavities, stronger fulcrums, improved reverse wire function, and more open tips
+This increases the static volume, the vibratory contribution of the reed, and the damping is reduced.
+This lowers the pitch center, improves the low register, less secure high register, and more projective quality. It can produce flexible timbres, dynamics, and pitch nuances with pro-active emouchre/breath
+
+Starting the bevel more towards the collar results in smaller reed cavities, weaker fulcrums, less reverse wire function, less open tips.
+The effects are opposite of the ones listed above.
+** Results
+:PROPERTIES:
+:NOTER_PAGE: (4 0.45983787767133383 . 0.11028632025450692)
+:END:
+Mixing the above with wire placements, forward for larger reeds, or back for smaller reeds, allows excellent results from almost any shaper
+This is more flexible than buying a ton of shapers
+** Mechanical Function of Wires
+:PROPERTIES:
+:NOTER_PAGE: (5 0.6831245394252027 . 0.11770943796394488)
+:END:
+Full parallel (all wires same height), partial (1st and second wires same height) and reverse double wedge (3>1>2) seem to have the highest mechanical fulcrum at the first wire. These also are paired with parallel scrapes by cooper.
+
+Partial wedge (3=2>1) and Full (3>2>1) are weakest fulcrums
+** Symmetric Bevels
+:PROPERTIES:
+:NOTER_PAGE: (6 0.16507000736919675 . 0.11028632025450692)
+:END:
+No bevel is the most unstable tube, basically meeting at the ends
+A 50% beven is stable, but has a medium size tube
+100% is the smallest tube, but also the most stable
+** Asymmetric Bevels
+:PROPERTIES:
+:NOTER_PAGE: (6 0.45983787767133383 . 0.11770943796394488)
+:END:
+No bevel again largest but unstable tube
+50% is a smaller somewhat stable tube
+100% is smallest more stable tube, I guess not quite as stable as symmetric beveling
+** Common error
+:PROPERTIES:
+:NOTER_PAGE: (6 0.7781871775976419 . 0.12513255567338286)
+:END:
+If the angle is too horizontal, then there are unstable leaky tubes
+** Picture of symmetrical bevel
+:PROPERTIES:
+:NOTER_PAGE: (8 0.12748710390567428 . 0.08801696712619303)
+:END:
