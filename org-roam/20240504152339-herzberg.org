@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       254e0843-5154-4955-8219-bb73b46f26da
 :END:
-#+title: herzberg
+#+title: Norman Herzberg
 
 First task is to reduce human error as much as posisble.
 
@@ -9,10 +9,12 @@ Even with innovative machines, no reed comes out perfect.
 
 Since cane is undependable, quantity and quality of craftsmanship is what we can control. Reeds have shorter lifespans so we need more of them.
 
+[[id:c46a1d72-b286-406e-aac5-192a72cdfc9d][good cane definition]]
+
 Gave exams to check student's knowledge of reed making. [[id:7db7d28a-23c8-42be-a487-1f1633d5b5b3][herzberg exam]]
 
 Discouraged too wide of a shape for tenor register intonation.
 
-Had 4 systems: shape, wires, bevel, and blade. All had the how and the why.
+Had 4 systems: shape, wires, bevel, and blade. [[cite:&herzberg01_reedm]] All had the how and the why.
 
 [[cite:&schillinger16_bassoon_reed_makin]]

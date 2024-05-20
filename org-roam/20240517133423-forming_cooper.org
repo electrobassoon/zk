@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       1b8ae276-07fe-407e-b3ec-69a32d5f826c
+:END:
+#+title: forming cooper
+
+First there is the [[id:21d35c9f-49c9-4158-ba61-682f25d6fb93][beveling]]
+
+Then [[id:0314ee53-2604-4c65-ab98-2798b733c1d0][scoring]]
+
+Then making sure the [[id:f4a88926-73b2-4340-81c8-23c7dd000e67][slippage]] will be correct.
+
+Then [[id:25cea99b-ef6f-41a9-836b-c85ac8d9114b][wires]]
+ 
+After the second wire is on, he splits the sections that were scored up to the second wire. He does this by using thing needle nose pliers and twisting each section. Then he puts the mandrel in and puts the third wire on.
+
+Then he mashes the tube with round parts of reed pliers up to the second wire. Then he retightens the third wire. He says the seam should neck in.
+
+Then he rotates the second wire 360 degrees around and locks it in. Then the reed dries.
+
+After it's dry, insert the forming mandrel again. The seam should separate. Mash the tube again. Tension the third wire, rotate it 360 degrees, and relock it into place. Do the same for the second wire. The first wire should stay loose. 
+
+Then put herring notches into the tube. There should be 4 rows, one of which is below the third wire. This helps the binding to stay in place and helps the second wire's reverse function. Don't put duco underneath!! This is probably because it takes away the ability to change the slippage afterwards. Then wrap the reed and put 3 to 4 coats of duco on it. Then wait a year before doing anything else (who has time for that really? Probably need to get up to that very gradaully)
+
+After a really long time (or not) soak the blank and create the collar 1/4" or 6mm from the bottom of the first wire. Remember to take care of the thinner edges if using eccentrically gouged cane. Create the collar by making 5 cuts from the previously marked point on the blade matching the back of the reed. Cut from this point to the collar. One in the center, one on each side a little closer to the tip, and then one on the edges still closer to the tip. Then the tip is ready to be clipped.
+

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       010bf0b0-b629-4b54-a820-c8999e732d94
+:END:
+#+title: reed contribution
+
+
+The bassoon is a conical bore instrument, but the end has been cut off. The reed has to make up the missing volume for the instrument to vibrate in tune. The average reed is about 10% of the cone's length. The reed contributes to the missing volume in three ways. 1) the static volume inside the reed at rest (has to be less than overall missing volume because of vibration changes) 2) the vibratory contribution (measure of how violently the reed vibrates) and 3) damping (acoustic friction). These three factors interact with each other to create the phantom bore, or missing volume. If the contribution is too much, then the upper modes will be sharp. If they are flat, it is because the contribution is not enough. One of the consequences of this is that larger reeds need to be more resistant, and smaller reeds need to be more free. Differences in German, American, or Garfield style reeds largely is a change in the relationship of these three factors.
+
+The bocal length also affects the missing volume. In general, the crow needs to shift a half step for each change in bocal number to maintain the same contribution. Other factors are the angle of the bore, which is a main difference between French and German bassoons.
+
+
+[[cite:&cooper90_reed_contr]]

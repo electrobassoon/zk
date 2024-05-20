@@ -3,3 +3,6 @@
 :END:
 #+title: Finishing
 
+[[id:53aea820-ca3b-48ee-a27b-5fd2187fc9c4][cooper finishing]]
+
+For a diagnosis of problems and testing procedures, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].

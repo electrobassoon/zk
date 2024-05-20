@@ -3,3 +3,4 @@
 :END:
 #+title: Profiling
 
+[[id:56805d02-4fbf-48a6-9feb-1c2e65454e1b][hand profiling]] by Cooper

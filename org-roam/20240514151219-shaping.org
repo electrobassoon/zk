@@ -3,3 +3,4 @@
 :END:
 #+title: Shaping
 
+[[id:b53f863a-eccf-4a9a-8852-957a4cf6a199][shaping cooper]] as well as his preference for a [[id:50ef276c-13d8-48fb-962c-9a829508eab0][foldover shaper]]

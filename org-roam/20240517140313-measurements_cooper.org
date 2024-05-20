@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       c537e724-f66b-4453-ade2-775637d2b44f
+:END:
+#+title: measurements cooper
+
+
+Cooper's finished parallel scrape reeds.
+
+Wire 3 is 6.4mm from the butt, or 1/4". The first wire is at the midpoint of the blade to the middle of the wire. The max is 28.6mm, the min is 27mm. Those same measurements apply to the other side to the tip. The second wire is a quarter inch behind the first wire, or 6.4mm (middle to middle). The collar is 6.4mm or a quarter inch from the back of the first wire. The tip width is a max of 14.3mm, and min of 13.5mm. The opening should be 1.6mm or 1/16". The tube should be 6.1mm tall at the second wire, and 6.2mm at the first wire. Gouge is 1.27mm at the center and .89 at the tip width.
+
+
+His stations are 1/8" or 3.2mm segments starting from the collar. This does not seem to match most dial indicators unfortunately... 5 is most important, which is actually 9.6mm instead of 10mm. 
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+| Station                     | 1     |     2 |    3 |    4 |    *5* |    6 |    7 |    8 |
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+| Maximum 1st Stage Reed      | .76mm | .71mm |  .66 |  .61 |  .56 |  .46 |  .36 |  .25 |
+|                             | .03"  |  .028 | .026 | .024 | .022 | .018 | .014 |  .01 |
+| Average 2nd Stage Reeds     | .71mm |   .66 |  .61 |  .56 |  .51 |  .41 |  .31 |   .2 |
+|                             | .028" |  .026 | .024 | .022 |  .02 | .016 | .012 | .008 |
+| Minimum 3rd Stage Reeds     | .66mm |   .61 |  .56 |  .51 |  .46 |  .36 |  .26 |  .15 |
+|                             | .026" |  .024 | .022 |  .02 | .018 | .014 |  .01 | .006 |
+| Summer or 2nd Bassoon Reeds | .58mm |   .58 |      |      |      |      |      |      |
+|                             | .023" |  .023 |      |      |      |      |      |      |
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+
+
+[[cite:&cooper08_reed_makin_notes_two]]

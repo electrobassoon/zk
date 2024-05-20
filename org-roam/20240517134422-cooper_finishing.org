@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       53aea820-ca3b-48ee-a27b-5fd2187fc9c4
+:END:
+#+title: cooper finishing
+
+First is to cut in the thubmnail shape. It's a bit more convex in his pictures than I am used to. Then check the measurement 1cm from the tip. This cannot be more than .58mm He calls this the critical point. (Unsure if this matches any of Skinner's critical points) Then look at the tip closing. If it doens't close symmetrically and in a damped function, scrape the appropriate wings until it does. The reed should crow around an E flat. At this point, the reed should play freely and homogenously throughout the entire range of the instrument. It should be a little more vibrant and low in pitch than the desired result. This is now a /first stage reed/. It is playable, but lacks refinement.
+
+Seven reed finishing procedures:
+1) Establish the correct dimensions of the spine by filing or scraping a flat ribbon in the middle fifth of each blade. Note that this widens toward the tip as the arch flattens out.
+2) File or scrape ribbons down the rails to match the taper rail to rail and blade to blade. The contact point is actually about a 1/16" from the edge of the rail.
+3) File or scrape ribbons of the channels. This will also take out any ridges from steps 1 and 2. He prefers a 4" extra narrow pillar file.
+4) Finish the wings of the blade, at nearly a 90 degree angle from the cane. This starts shallow and about 2/3rds down the length of the blade. It deepens as you progress to the tip. It should be between the spine and the rails. This is the primary scrape for the degenerative/regenerative function of the tip and may be repeated frequently.
+5) Cut in corners, about 3mm equilateral triangles. Don't tear the corner off!
+6) Snap in the extreme tip edge, about 2mm back from the edge.
+7) Smooth all work with a fine file and check the degenerative/regenerative tip function. Use scrape 4 to improve. If it's too far, you can help a little by opening the tip from the second wire. 
+8) Check the seven acoustic reed criteria ([[id:41ff1af3-65d4-431d-b803-b8fee5cf37dd][7 Bassoon Reed Criteria]])
+
+It should play well now, but could be somewhat flat still, E could sag a little, sound could be a little too open and unfocused, high register attacks could still be unsure, and the C# could sag too. These can break in as the reed stiffens a little. 
+
+This should be now /second stage/ reeds.
+
+In future days the reed may stiffen and sharpen a little. Always check first for tip symmetry and adjust with scrape 4. The structure of the reed will gradually replace some of the substance of the reed. More bad reeds have too much cane instead of too much taken away. 
+
+Getting to /third stage/ seems to point to [[id:903a565f-60fd-46d3-a8f7-152d5b522aa4][Eubanks testing procedures]].
+
+[[cite:&cooper08_reed_makin_notes_two]]

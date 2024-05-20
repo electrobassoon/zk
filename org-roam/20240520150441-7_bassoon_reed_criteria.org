@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       41ff1af3-65d4-431d-b803-b8fee5cf37dd
+:END:
+#+title: 7 Bassoon Reed Criteria
+
+
+Aural tests to determine the compatibility of the reed within the acoustic system (lab measurements would destroy the reed) Supposedly, many reed makers leave the instrument in the case until the reed meets these 7 criteria
+1) The reed should crow when using a proper embouchre. Use E flat crows for #2, D for a #1 bocal, and E for a #3 bocal
+2) Reed plus bocal should be a slightly flat middle c with a primary register embouchre
+3) Relaxed and maximum volume vibration on bocal should drop to a stable b
+4) Trying to go further should result in a B "crow". If the relationship is out of tune, the various registers will also be distorted. There will be other pitches present, but tuning the octave is the important one
+5) Minimum range of reed and bocal should be a minor third ( b to slightly flat d). This represents the necessary flexibility to play in various registers of the bassoon. In essence, B is the low register, c is the primary register, c# is the second register, d is the high register
+6) Cut off frequency of the reed blown alone must be a minimum of a perfect fifth above the dominant crow pitch. So D reed to A, Eflat to Bflat, E to B. The pitch change is produced by embouchre manipulation and change in oral cavity. The cut off frequency is probably the high peep pitch? It's the highest frequency possible in the crow
+7) The reed blown alone, must have a minimum range of one octave, the dominant pitch above and below the crow pitch. If it can go more in one direction it shows a propensity to be a good high or low note reed. Both directions is rare and plays equally well in all registers. Playing melodies within an octave is a good lesson activity for showing the flexibility in embouchre, oral cavity, and the reed while playing.
+
+[[cite:&cooper90_reed_contr]]

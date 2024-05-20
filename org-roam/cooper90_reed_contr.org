@@ -4,3 +4,116 @@
 :END:
 #+title: cooper90_reed_contr
 
+* Reed Contribution
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/cooper90_reed_contr.pdf
+:END:
+** Straight Cone
+:PROPERTIES:
+:NOTER_PAGE: (1 0.4815133276010318 . 0.07928388746803067)
+:END:
+One of the few geometric shapes with whole number overtone series
+** Real world
+:PROPERTIES:
+:NOTER_PAGE: (1 0.646603611349957 . 0.07928388746803067)
+:END:
+This doesnt exist in real world, because the end has to be cut off to blow through. This effects the higher modes exponentially more (but also frequency exponentially grows)
+** Cut off volume
+:PROPERTIES:
+:NOTER_PAGE: (1 0.8392089423903697 . 0.08823529411764704)
+:END:
+The reed must contribute the missing volume from cutting off the bocal. It's about 10% of the cone's total length. Shape , style, etc. does not matter as much as equaling the missing volume.
+** Diagram
+:PROPERTIES:
+:NOTER_PAGE: (2 0.3164230438521066 . 0.11508951406649615)
+:END:
+<================<
+Missing volume -> Bocal -> Wing -> Boot -> U -> Boot -> Long Joint -> Bell
+This whole lenght is half the length of low B flat...
+Missing volume = Reed contribution = Phantom bore
+** 3 Ways Reed Contributes
+:PROPERTIES:
+:NOTER_PAGE: (2 0.6603611349957008 . 0.10613810741687978)
+:END:
+1) Static Volume - the internal volume of the reed at rest. In a functioning instrument this must be less than the missing volume to allow for vibrations and damping
+2) Vibratory Contribution - Measure of relative violence that a reed vibrates. This is independent of vibrating frequency, and is due to the amount of blade involved in the reed's oscillatory motion. An increase here acts as a substitute for static volume or damping
+3) Damping - Elements that reduce the speed and vigor of oscillation. Acoustic friction. More minor than the other two, but can serve as a substitute for both
+** Relationship
+:PROPERTIES:
+:NOTER_PAGE: (3 0.0825451418744626 . 0.06138107416879793)
+:END:
+Three factors can be combined infinitely, but always have to contirbue 100%. If it's less than 100%, then the upper modes become way too sharp because of the exponentially augmented frequency. If it's more than 100%, the upper registers will be flat for similar reasons. Complaints about a reed making the upper registers too sharp or flat should instead be directed to the reed contribution
+** Conclusions
+:PROPERTIES:
+:NOTER_PAGE: (3 0.40842648323301806 . 0.10485933503836319)
+:END:
+#+BEGIN_QUOTE
+1. THE LARGER A REED, THE MORE RESISTANT (Harder/Stiffer/Heavier) IT
+MUST BE.
+2. THE SMALLER A REED, THE LESS RESISTANT (Softer/Freer/Lighter) IT
+MUST BE.
+#+END_QUOTE
+** Damping
+:PROPERTIES:
+:NOTER_PAGE: (3 0.6878761822871883 . 0.07928388746803067)
+:END:
+Damping complicates things, but controls tone more. Reduces the amplitude of the upper partials. It darkens the sound by lowering the energy of the highs.
+** Three Reed Types
+:PROPERTIES:
+:NOTER_PAGE: (4 0.09630266552020636 . 0.3030690537084399)
+:END:
+German, American, and Garfield styles:
+German High static volume, equal vib and damp (60-20-20)
+American 50-40-10
+Garfield 40-40-20
+
+German is a large, resistant/heavy, very damped reed
+American is medium size, free and light, and lightly damped
+Garfield reed is small, free and light, heavily damped
+
+German is restricted, dark, less flexible
+American is free, flexible, somewhat bright
+Garfield is free, flexible, dark
+
+Cooper's reeds are in between American and Garfield (45-40-15)
+** Bocal Length Influence
+:PROPERTIES:
+:NOTER_PAGE: (6 0.09630266552020636 . 0.1867007672634271)
+:END:
+Varying the length of the bocal changes the missing volume. The dominant crow must shift one half step for each change in bocal number.
+
+Changing the bocal one number changes the fundamental 1/10th of a halfstep. Using A 440, each change is about 2.5Hz
+
+Each change by a halfstep in the reed's crow pitch raises or lowers the instrument by 1/10th of a halfstep. Upper modes exponentially raised or lowered. 
+** Limits
+:PROPERTIES:
+:NOTER_PAGE: (6 0.7987962166809974 . 0.10613810741687978)
+:END:
+Seems 1/10th of a semitone is about the limit of keeping things consistent for the player. Players may make an e flat reed with a #1 bocal, or a d reed with a #2 bocal depending on the literature
+** Angle of the Bore Influence
+:PROPERTIES:
+:NOTER_PAGE: (7 0.12381771281169389 . 0.08823529411764704)
+:END:
+Inverse relationship. The steeper the angle, the lower the missing volume. A large difference between the German and French bassoon is the length and angle of the bore. You can't use the same reed between French, German, and Baroque bassoons because the missing volume is so drastically different
+** 7 Bassoon Reed Criteria
+:PROPERTIES:
+:NOTER_PAGE: (8 0.0825451418744626 . 0.24936061381074168)
+:END:
+Aural tests to determine the compatibility of the reed within the acoustic system (lab measurements would destroy the reed) Supposedly, many reed makers leave the instrument in the case until the reed meets these 7 criteria
+1) The reed should crow when using a proper embouchre. Use E flat crows for #2, D for a #1 bocal, and E for a #3 bocal
+2) Reed plus bocal should be a slightly flat middle c with a primary register embouchre
+3) Relaxed and maximum volume vibration on bocal should drop to a stable b
+4) Trying to go further should result in a B "crow". If the relationship is out of tune, the various registers will also be distorted. There will be other pitches present, but tuning the octave is the important one
+5) Minimum range of reed and bocal should be a minor third ( b to slightly flat d). This represents the necessary flexibility to play in various registers of the bassoon. In essence, B is the low register, c is the primary register, c# is the second register, d is the high register
+6) Cut off frequency of the reed blown alone must be a minimum of a perfect fifth above the dominant crow pitch. So D reed to A, Eflat to Bflat, E to B. The pitch change is produced by embouchre manipulation and change in oral cavity. The cut off frequency is probably the high peep pitch? It's the highest frequency possible in the crow
+7) The reed blown alone, must have a minimum range of one octave, the dominant pitch above and below the crow pitch. If it can go more in one direction it shows a propensity to be a good high or low note reed. Both directions is rare and plays equally well in all registers. Playing melodies within an octave is a good lesson activity for showing the flexibility in embouchre, oral cavity, and the reed while playing.
+** Fool
+:PROPERTIES:
+:NOTER_PAGE: (9 0.4875974486180014 . 0.06480505795574293)
+:END:
+The reed must in effect fool the instrument into thinking it has not been cut off.
+** Instrument Variety
+:PROPERTIES:
+:NOTER_PAGE: (9 0.6576895818568391 . 0.07218124341412016)
+:END:
+Each instrument has minor variants that necessitate adjustments to reed design

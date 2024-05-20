@@ -82,7 +82,7 @@ Sand the edges of the shaped cane with 220 WD
 :PROPERTIES:
 :NOTER_PAGE: (7 0.3940193491644679 . 0.10613810741687978)
 :END:
-Function of the bevel is to modify the shape contour to make sure the mechanical fulcrum at the second wire works correctly. It also helps tubes seal, and be more secure on the bocal. It can also reduce the interior volume of the reed, equivalent to a more narrow shaper. Also can reinforce the de/regenerative tip function. (see another of his articles)
+Function of the bevel is to modify the shape contour to make sure the mechanical fulcrum at the second wire works correctly. It also helps tubes seal, and be more secure on the bocal. It can also reduce the interior volume of the reed, equivalent to a more narrow shaper. Also can reinforce the de/regenerative tip function. ([[id:3648cfb6-9e7a-420f-ade3-70e54aae2cbe][see another of his articles]])
 
 ** Method
 :PROPERTIES:
@@ -101,7 +101,7 @@ Bevels at 30 degrees on all four sides. Inner edge only at the collar, then 100%
 :NOTER_PAGE: (8 0.5628847845206685 . 0.11508951406649615)
 :END:
 Thinks some slippage is integral to successful reeds. Most people's torque is to the right, so lip the upper butt end to the left a little
-Beveling can be used to guarantee slippage. Wire twist direction should also match. Counterclockwise if the upper butt is slipped left, and clockwise if it is slipped right. (See his other article)
+Beveling can be used to guarantee slippage. Wire twist direction should also match. Counterclockwise if the upper butt is slipped left, and clockwise if it is slipped right. ([[id:a4ced4c8-dea9-47f4-ada8-35fc467c0897][See his other article]])
 
 ** Wires
 :PROPERTIES:
@@ -198,7 +198,8 @@ Third wire 6.4mm from butt, first wire is the midpoint of the entire reed to mid
 :END:
 8 stations that are 1/8 inch apart or 3.2mm. Critical point is station 5, which is 9.6mm from tip, or 3/8". 
 
-| Station                     | 1     |     2 |    3 |    4 |   *5*  |    6 |    7 |    8 |
+|-----------------------------+-------+-------+------+------+------+------+------+------|
+| Station                     | 1     |     2 |    3 |    4 |    *5* |    6 |    7 |    8 |
 |-----------------------------+-------+-------+------+------+------+------+------+------|
 | Maximum 1st Stage Reed      | .76mm | .71mm |  .66 |  .61 |  .56 |  .46 |  .36 |  .25 |
 |                             | .03"  |  .028 | .026 | .024 | .022 | .018 | .014 |  .01 |

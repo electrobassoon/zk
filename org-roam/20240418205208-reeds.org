@@ -6,8 +6,6 @@
 
 For frustration and understanding, [[id:fd0faf27-7a8d-40b9-8f4e-92b6d8348539][art of reedmaking]]
 
-For a diagnosis of problems and testing procedures, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
-
 For construction of the reed, see [[id:476df1b5-ce88-460b-aaba-bd2bb0bc76c6][reed construction]].
 
 [[id:4d9b7d0a-81df-4b99-aa9c-f6c23ae153d2][Reed pedagogy]]

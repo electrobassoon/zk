@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       25cea99b-ef6f-41a9-836b-c85ac8d9114b
+:END:
+#+title: wires cooper
+
+
+[[id:9351c61f-beb9-4e8c-8a5e-27cce36e42fa][mechanical wires]]
+
+He instructs that when pulling the wires it should always form an isosceles triangle (meaning that one side isn't being pulled more than the other). He also locks wires into place by at the very end pushing with the pliers and doing a quarter turn. During the forming process, he also will rotate the second and third wires 360 to round the tube evenly.

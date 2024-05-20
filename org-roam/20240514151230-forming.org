@@ -4,3 +4,9 @@
 #+title: Forming
 
 [[id:f4a88926-73b2-4340-81c8-23c7dd000e67][Slippage of the cane]]
+
+[[id:21d35c9f-49c9-4158-ba61-682f25d6fb93][beveling]]
+
+[[id:9351c61f-beb9-4e8c-8a5e-27cce36e42fa][mechanical wires]]
+
+[[id:1b8ae276-07fe-407e-b3ec-69a32d5f826c][forming cooper]]

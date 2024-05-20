@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9351c61f-beb9-4e8c-8a5e-27cce36e42fa
+:END:
+#+title: mechanical wires
+
+The height (looking from the side of the reed) of the wires effects the mechanical fulcrum of the first wire. 
+The strongest fulcrums are created from all wires being the same height (a true parallel tube), having the first and second wires at the same height (smaller than the third), and the reverse double wedge, which has the third wire being the highest, followed by the first wire, and the second wire the lowest (Interestingly enough, there seems to be something in Herzberg's exam about this situation as if it is a bad thing). The double wedge is what Cooper uses. With the strong fulcrums, he puts parallel scrape blades. Perhaps for the parallel blade to work well there needs to be a strong mechanical fulcrum so they don't collapse?
+
+[[cite:&cooper05_bevel]]

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       21d35c9f-49c9-4158-ba61-682f25d6fb93
+:END:
+#+title: beveling
+
+The bevel has several functions. The first is to modify the contour of the shape so that the mechanical fulcrum of the reed works. This helps prevent tips that collapse, and ensures the reverse wire function of the reed. The second function is to create tubes that are sealed, and have a good junction between the reed and the bocal. It also functions to narrow the inside of the tube, which narrows the shape. It also slightly reinforces the degenerateive/regenerative tip function. 
+
+By knowing how to adjust the length and depth of the bevel, you can manipulate the contour of the shape to get similar results from many different shapes, or get different results from the same shape.
+
+There are several methods to beveling. There is a symmetric 30 degree bevel on all four sides, a 60 degree bevel on only two sides, and some mixtures of the two. Cooper starts the bevel at the collar, but not all the way through the edge. He moves to that full depth at about the second wire and keeps that depth to the end of the tube. Others disassemble the reed and put it on sandpaper to get a perfect bevel.
+
+Starting the bevel further back towards the butt end will give a larger inside of the tube, stronger fulcrums, improved reverse wire function, and more open tips. This also increases the vibratory contribution of the reed, and reduces the damping of the rails. It also lowers the pitch center, improves the low register, and has a less secure high register, and projects more.
+
+Starting the bevel more towards the collar will result in smaller reed cavities, weaker fulcrums, less reverse wire function, less open tips. It then also decreases the vibratory contribution of the reed, dampens the rails more, raises the pitch, greater high register, less secure low register, and projects less and blends more. 
+
+Increased bevel depths create more stable tubes and smaller tubes.
+
+[[cite:&cooper05_bevel]]
+
+Briefly summarized in [[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]

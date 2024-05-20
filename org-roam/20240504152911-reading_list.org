@@ -20,14 +20,8 @@ Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." 
 
 Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84. (brief glance seems not too important)
 
-* TODO Process
-Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. /The Double Reed/ 28, no. 4 (2005):77-84.  [[id:3648cfb6-9e7a-420f-ade3-70e54aae2cbe][cooper05_bevel]]
 
 Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.[[id:e775af75-1576-46a6-b82e-0983c7df3d2b][cooper90_reed_contr]]
-
-* TODO Process 
-Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." /The Double Reed/ 31, no. 4 (2008): 79-94.
-[[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]
 
 
 --- . "Variable Damping: Window of Expressive Opportunity." /The Double Reed/ 32, no. 4 (2009): 105-112.
@@ -38,8 +32,6 @@ Almenraeder, Karl. "On the Making of Bassoon Reeds." /Journal of the IDRS/ 8 (19
 
 Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." /The Double Reed/ 17, no. 1 (1994): 1-4.
 
-Herzberg, Norman. "Reedmaking." /The Double Reed/ 24, no. 1 (2001): 41-42.
-[[id:9dcb37bd-7787-4796-8d10-80d3c049326e][herzberg01_reedm]]
 
 Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." /The Double Reed/ 18, no. 3 (1995): 53-63.
 [[id:57c03c4a-4d0d-4e66-a6bd-050c088abc8e][herzberg95_years_ignor_neglec_denial]]
