@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cooper09_variab_dampin</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">cooper09_variab_dampin</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgae804f8">Damping</a></li>
+<li><a href="#orga3958c6">Acoustical Extremes</a></li>
+<li><a href="#orgce49b07">Musical Instruments</a></li>
+<li><a href="#orgdc91ef7">Styles</a></li>
+<li><a href="#org5e04feb">Good sound</a></li>
+<li><a href="#org6b971a5">Four controlling modes of embouchre</a></li>
+<li><a href="#orgc3b3223">Cushioning</a></li>
+<li><a href="#org8c0d447">Tuning</a></li>
+<li><a href="#orgebba0f2">Dynamics are possible!</a></li>
+<li><a href="#org3054327">Timbral Variance</a></li>
+<li><a href="#org642f9aa">Horizontal Cushioning</a></li>
+<li><a href="#org6275767">Weissenborn</a></li>
+<li><a href="#orgd00c140">Early warm-up excercise</a></li>
+<li><a href="#orgb517482">Weissenbron 3</a></li>
+<li><a href="#orgdd30c48">Eureka!</a></li>
+<li><a href="#orgac8da80">Torquing</a></li>
+<li><a href="#org065d6a8">How to torque</a></li>
+<li><a href="#orga673f93">Direction</a></li>
+<li><a href="#org4e812e4">Method</a></li>
+<li><a href="#org4f2b0c5">Rotary torquing</a></li>
+<li><a href="#orga54e0d6">Pedagogy with Low A</a></li>
+<li><a href="#orgb47c716">Single Lesson</a></li>
+<li><a href="#org9409bf5">Damping is damping</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgae804f8" class="outline-2">
+<h2 id="orgae804f8">Damping</h2>
+<div class="outline-text-2" id="text-orgae804f8">
+<p>
+Any effect that reduces the vigor of the oscillation of the reed. In other words, it's friction. It has a more or less inverse relationship with amplitude. However it has a direct relationship with flexibility. More damping means more flexibility in pitch, dynamic, and timbre.
+</p>
+</div>
+</div>
+<div id="outline-container-orga3958c6" class="outline-2">
+<h2 id="orga3958c6">Acoustical Extremes</h2>
+<div class="outline-text-2" id="text-orga3958c6">
+<p>
+Totally damped would have an infinitely broad frequency response bandwidth. Equal response amplitude in all frequencies. But the resonance would be zero at all frequencies. The ultimate mute.
+Totally undamped would be infinite response amplitude at an infinitely narrow frequency. Like a lethal lazer beam
+</p>
+</div>
+</div>
+<div id="outline-container-orgce49b07" class="outline-2">
+<h2 id="orgce49b07">Musical Instruments</h2>
+<div class="outline-text-2" id="text-orgce49b07">
+<p>
+Viable instruments have some sort of damping in their basic design. The best instrument quality mixes the damping the best. These could be from many factors.
+</p>
+<ol class="org-ol">
+<li>Bore damping (diameter and contour)</li>
+<li>Tone-hole damping (diameter, chimney length, contour)</li>
+<li>Wall damping (smooth reflective surfaces vs rough)</li>
+<li>Hermetic damping (porosity of surfaces/diffused leaks)</li>
+<li>Pad clearance and reflectiviy</li>
+<li>Bocal choice (bore, material, wall thickness, plating)</li>
+<li>Choice of reed type (relativley damped or un-damped)</li>
+</ol>
+<p>
+Reed is the only one we can control
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc91ef7" class="outline-2">
+<h2 id="orgdc91ef7">Styles</h2>
+<div class="outline-text-2" id="text-orgdc91ef7">
+<p>
+Solo recording artists, chamber players, studio musicians,  prefer more damped, less vibrant reed/instrument combo because it requires less projection and is more flexible.
+These players can be disappointing to hear live because their sound doesn't project to the audience without a sound engineer and amplification
+</p>
+
+<p>
+Orchestral players probably choose less damped reed/instrument combo. But without being able to vary the damping, likely need lots of different reeds to cope with the variety of demands in the orchestra
+</p>
+</div>
+</div>
+<div id="outline-container-org5e04feb" class="outline-2">
+<h2 id="org5e04feb">Good sound</h2>
+<div class="outline-text-2" id="text-org5e04feb">
+<p>
+There is no such thing as a good sound. Only sounds that are appropriate for the musical passage involved. Only through flexible reeds with pro-active embouchre/breath relationship can musical nuance be varied during performance
+</p>
+</div>
+</div>
+<div id="outline-container-org6b971a5" class="outline-2">
+<h2 id="org6b971a5">Four controlling modes of embouchre</h2>
+<div class="outline-text-2" id="text-org6b971a5">
+<p>
+Vertical cushioning, horizontal cushioning, horiztonal torquing, and rotary torquing. Only by being able to use them all in combination can you defeat the myth that double reeds are incapable of effectively expressing dynamic nuance.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc3b3223" class="outline-2">
+<h2 id="orgc3b3223">Cushioning</h2>
+<div class="outline-text-2" id="text-orgc3b3223">
+<p>
+Vertical cushioning is the most prevalent form of damping (but least effective by itself) It involves using a soft lip-supported embouchre to bring more or less inner-lip into contact with the reed blades. Any increase or decrease in lip area contacting the blades should be done with minimal change to the vertical pressure. However, this will always happen to some extent and affect the reed's static volume. More vertical cushioning = higher freequency; less = lower frequency
+</p>
+</div>
+</div>
+<div id="outline-container-org8c0d447" class="outline-2">
+<h2 id="org8c0d447">Tuning</h2>
+<div class="outline-text-2" id="text-org8c0d447">
+<p>
+Since tuning is so important, this leads to many young artists using stiff, heavy, linearly-damped reeds with "skin of the teeth" jaw support that can't play dynamics.
+</p>
+</div>
+</div>
+<div id="outline-container-orgebba0f2" class="outline-2">
+<h2 id="orgebba0f2">Dynamics are possible!</h2>
+<div class="outline-text-2" id="text-orgebba0f2">
+<p>
+We can do dynamics! We can have a 50db dynamic difference (still nothing compared to brass)
+</p>
+</div>
+</div>
+<div id="outline-container-org3054327" class="outline-2">
+<h2 id="org3054327">Timbral Variance</h2>
+<div class="outline-text-2" id="text-org3054327">
+<p>
+Timbral variance is not a substitute, in face those with the most dynamics also tend to have the most timbral variance
+</p>
+</div>
+</div>
+<div id="outline-container-org642f9aa" class="outline-2">
+<h2 id="org642f9aa">Horizontal Cushioning</h2>
+<div class="outline-text-2" id="text-org642f9aa">
+<p>
+When paired with vertical cushioning doubles the damping with little change to frequency. It turns a high five into a warm handshake
+</p>
+</div>
+</div>
+<div id="outline-container-org6275767" class="outline-2">
+<h2 id="org6275767">Weissenborn</h2>
+<div class="outline-text-2" id="text-org6275767">
+<p>
+An early weissenborn lesson (3rd) introduces the low a-natural. This is a great opportunity to introduce damping to the typically harsh note. And it gives the student an early responisbility for their sound.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd00c140" class="outline-2">
+<h2 id="orgd00c140">Early warm-up excercise</h2>
+<div class="outline-text-2" id="text-orgd00c140">
+<p>
+Start by playing a B natural while fingering a C. Then use breath support until it is a C. This ensures a relaxed lip-supported embouchre and discourages biting.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb517482" class="outline-2">
+<h2 id="orgb517482">Weissenbron 3</h2>
+<div class="outline-text-2" id="text-orgb517482">
+<p>
+Slur down to the A several times and ask about the timbral difference
+Then secretly push the low C#/Db key. This mechanically damps the A and removes a lot of the harsh quality.
+Then using finger push the students' lower lip inward and upward to increase the area. Pitch will vary alot. Shows that just vertical cushioing is not enough (not sure we can do this these days)
+Then do the same, but also pinch the lip horizontally between the thumb and middle finger. This has a much more stable pitch center.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdd30c48" class="outline-2">
+<h2 id="orgdd30c48">Eureka!</h2>
+<div class="outline-text-2" id="text-orgdd30c48">
+<p>
+Student realizes the benefits of the damping (but still needs to develop the muscles to do it on their own). Using the cushioning potentially doubles the available decibel excursion.
+</p>
+</div>
+</div>
+<div id="outline-container-orgac8da80" class="outline-2">
+<h2 id="orgac8da80">Torquing</h2>
+<div class="outline-text-2" id="text-orgac8da80">
+<p>
+Most players have some torquing in their embouchre already, but are unaware of it
+Torquing just means a turning force that causes something to twist
+The way we hold the instrument means that the reed is usually twisted in some angle so the player can hold and play at the same time.
+Most players have a habitual angle of entry because of seat strap, chair type, bocal angle, etc. This isn't useful for variable damping because we never change it
+</p>
+</div>
+</div>
+<div id="outline-container-org065d6a8" class="outline-2">
+<h2 id="org065d6a8">How to torque</h2>
+<div class="outline-text-2" id="text-org065d6a8">
+<p>
+Moving the head in small no-no motions and at the same time using the wrists and hands to turn the instruments body in the opposite direction on the longitudinal axis. 
+</p>
+</div>
+</div>
+<div id="outline-container-orga673f93" class="outline-2">
+<h2 id="orga673f93">Direction</h2>
+<div class="outline-text-2" id="text-orga673f93">
+<p>
+Can be clockwise (top of the head rotating to the right most common) or counter-clockwise (to the left least common). Slippage of reeds should be paired with this (<a href="cooper09_slipp.html#ID-a4ced4c8-dea9-47f4-ada8-35fc467c0897">cooper09_slipp</a>)
+</p>
+</div>
+</div>
+<div id="outline-container-org4e812e4" class="outline-2">
+<h2 id="org4e812e4">Method</h2>
+<div class="outline-text-2" id="text-org4e812e4">
+<p>
+To increase the torquing and its damping, turn the head as if to look clockwise to the player to their right. Turn the bassoon counter-clockwise. To decrease the damping, turn the head back to the center and turn the bassoon clockwise. The way it works is by bringing one of the rails (left usually) into contact with the soft inner surface of the lower lip. Similar to cushioing, increasing the horizontal torquing = more lip contact = more damping. Decrease = less lip = less damping.
+</p>
+</div>
+</div>
+<div id="outline-container-org4f2b0c5" class="outline-2">
+<h2 id="org4f2b0c5">Rotary torquing</h2>
+<div class="outline-text-2" id="text-org4f2b0c5">
+<p>
+Rotary torquing is rotating the head on its horizontal axis. It controls the contact are between the inner-lip and rail on both sides of the reed. It is normally paired with horizontal torquing as a pair. Right is most common again (likely depending on the reed's slippage) This also can be paired with rotating the instrument's body in the opposite direction as the head.
+Again, more torquing = more lip contact = more damping. (apparently pairing the two works very well for the morendo on the open F in Tchaik 4
+</p>
+</div>
+</div>
+<div id="outline-container-orga54e0d6" class="outline-2">
+<h2 id="orga54e0d6">Pedagogy with Low A</h2>
+<div class="outline-text-2" id="text-orga54e0d6">
+<p>
+Again student sustains the low a, the instructor on top of the head and turns it clockwise on its vertical axis toward's the right shoulder Also turning the the instrument at the boot joint and wing joing juncture. Then let the student mimic these motions. Rotarty torquing can be paired with that by cocking the head to the right slightly
+</p>
+</div>
+</div>
+<div id="outline-container-orgb47c716" class="outline-2">
+<h2 id="orgb47c716">Single Lesson</h2>
+<div class="outline-text-2" id="text-orgb47c716">
+<p>
+This can all be done in a single lesson. Practice will be necessary to master it, not just for movements, but also for muscle development. Avoid longtone assigments too early, as muscle development is not there yet and promotes the heavy lip embouchre. Don't insist on control too soon, mobility needs to be the ultimate goal.
+</p>
+</div>
+</div>
+<div id="outline-container-org9409bf5" class="outline-2">
+<h2 id="org9409bf5">Damping is damping</h2>
+<div class="outline-text-2" id="text-org9409bf5">
+<p>
+It doesn't matter too much which type is used, but to get the best results all four are necessary.
+</p>
+
+<p>
+(It's still a little unclear to me how this will work in practice. Damping I assume makes things softer? So adding more damping helps you play softer [very welcome!] but not sure how to play louder. Just by undamping? I guess that's what pushing the distance of the top teeth up maybe reduces lip contact with makes things louder. Or maybe it means making reeds that are more vibrant and using these damping techniques to tame it for softer dynamics?
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

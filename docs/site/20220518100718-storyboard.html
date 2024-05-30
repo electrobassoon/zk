@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Storyboard</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Storyboard</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org0b56b5f">Questions</a>
+<ul>
+<li><a href="#orgea26702">Should Interactive Electroacoustic Music Be a Part of the Music Curriculum?</a></li>
+<li><a href="#org221ced0">Why Isn't Interactive Electroacoustic Music Already Part of the Curriculum?</a>
+<ul>
+<li><a href="#org791b6de">It must be because of the barriers of difficulty, cost, and unfamiliarity.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgede403b">Hypothesis</a>
+<ul>
+<li><a href="#org8e72993">Interactive Electroacoustic Music Can and Should Be Integrated into the Music Curriculum</a></li>
+<li><a href="#org72c1ad5">The traditional barriers of difficulty, cost, and unfamiliarity are deteriorating</a>
+<ul>
+<li><a href="#org47f5164">Yoder10</a></li>
+<li><a href="#org7e4418b">Well you mentioned barriers are deteriorating, but what difficulties are still there?</a></li>
+</ul>
+</li>
+<li><a href="#orga639420">It takes time to learn the skills to play with computers and technology</a>
+<ul>
+<li><a href="#org270821e">Bullock13, Brown07</a></li>
+</ul>
+</li>
+<li><a href="#orgf908adb">Teachers are often the ones who influence what their students play</a>
+<ul>
+<li><a href="#org265cd55">Pennycook97, Enns17</a></li>
+<li><a href="#org5ccb835">Ok, you've sold me, but I don't think my department is interested</a></li>
+</ul>
+</li>
+<li><a href="#orga188a4d">Students currently have to learn it on their own if they want it</a>
+<ul>
+<li><a href="#orgb3b65d7">Jordan18, enns17</a></li>
+</ul>
+</li>
+<li><a href="#orgfa0b58f">Composers are receiving it, performers should too</a>
+<ul>
+<li><a href="#orgcbc040b">Behr14, Kokoras11</a></li>
+<li><a href="#orga10a3be">I concede that it would be helpful for students that want a career in this, but why should we make a music ed student learn this? Don't they have enough to learn already?</a></li>
+</ul>
+</li>
+<li><a href="#orgf177df9">It is music worth studying</a>
+<ul>
+<li><a href="#org0262e0d">It all sounds like avant garde crap to me. I don't want to spend time learning all these skills to play music that sucks</a></li>
+</ul>
+</li>
+<li><a href="#orgec12fc1">It helps to preserve the music</a>
+<ul>
+<li><a href="#org24cac94">Wetzel06, Feron18</a></li>
+</ul>
+</li>
+<li><a href="#org18c5421">Traditional Music Study is dieing, this is the future</a>
+<ul>
+<li><a href="#org036a52f">Stockhausen96</a></li>
+<li><a href="#org038835e">It's all a great idea, but I don't see how it's necessary. Keep the status quo.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8450099">Key words to run through&#x2026;.</a></li>
+<li><a href="#orgb295c6e">Document plans</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org6f49565">worth, difficulties, pp, inclusion, works</a></li>
+<li><a href="#orgedf727f">difficulties, pp, worth, inclusion, works</a></li>
+<li><a href="#orgde15a39">Difficulties, pp, worth, works, inclusion</a></li>
+<li><a href="#orgf7f4057">worth, works, difficulties, pp, inclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org234ad5b">Plan</a>
+<ul>
+<li><a href="#orgf996d5d">Introduction</a>
+<ul>
+<li><a href="#org603b1d5">Summary of Previous Research</a></li>
+<li><a href="#org4b60a54">My Definition of interactivity</a></li>
+<li><a href="#org0e0af98">History of Electroacoustic Music</a></li>
+<li><a href="#orga901c95">Difficulties with the Music</a></li>
+</ul>
+</li>
+<li><a href="#orgb0b1f6c">Performance Practice</a></li>
+<li><a href="#org92e14f7">Inclusion in Curriculum</a>
+<ul>
+<li><a href="#orgba8aec0">Worth of Music</a></li>
+<li><a href="#orga5478b5">Each student have some experience before they graduate</a></li>
+<li><a href="#org288477e">Have a studio electronics recital every year, or every other year</a></li>
+<li><a href="#orge27ce73">Practice space</a></li>
+<li><a href="#org6cae4a3">Grants for EQ</a></li>
+<li><a href="#org38ec76c">Show how inclusion helps solve some of the difficulties</a></li>
+<li><a href="#org7593c6f">Possible pieces for undergrads</a></li>
+</ul>
+</li>
+<li><a href="#org791290f">Annotated Bibliography of Works</a>
+<ul>
+<li><a href="#orgbecc59e">Introduction</a></li>
+<li><a href="#org746410e">Computer Pieces</a></li>
+<li><a href="#orgdb59bad">Pedal Pieces</a></li>
+</ul>
+</li>
+<li><a href="#org5b6bc51">Appendix of Etudes</a></li>
+<li><a href="#org8d2cd4c">Bibliography</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0b56b5f" class="outline-2">
+<h2 id="org0b56b5f">Questions</h2>
+<div class="outline-text-2" id="text-org0b56b5f">
+</div>
+<div id="outline-container-orgea26702" class="outline-3">
+<h3 id="orgea26702">Should Interactive Electroacoustic Music Be a Part of the Music Curriculum?</h3>
+</div>
+<div id="outline-container-org221ced0" class="outline-3">
+<h3 id="org221ced0">Why Isn't Interactive Electroacoustic Music Already Part of the Curriculum?</h3>
+<div class="outline-text-3" id="text-org221ced0">
+</div>
+<div id="outline-container-org791b6de" class="outline-4">
+<h4 id="org791b6de">It must be because of the barriers of difficulty, cost, and unfamiliarity.</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgede403b" class="outline-2">
+<h2 id="orgede403b">Hypothesis</h2>
+<div class="outline-text-2" id="text-orgede403b">
+</div>
+<div id="outline-container-org8e72993" class="outline-3">
+<h3 id="org8e72993">Interactive Electroacoustic Music Can and Should Be Integrated into the Music Curriculum</h3>
+</div>
+<div id="outline-container-org72c1ad5" class="outline-3">
+<h3 id="org72c1ad5">The traditional barriers of difficulty, cost, and unfamiliarity are deteriorating</h3>
+<div class="outline-text-3" id="text-org72c1ad5">
+</div>
+<div id="outline-container-org47f5164" class="outline-4">
+<h4 id="org47f5164">Yoder10</h4>
+</div>
+<div id="outline-container-org7e4418b" class="outline-4">
+<h4 id="org7e4418b">Well you mentioned barriers are deteriorating, but what difficulties are still there?</h4>
+<div class="outline-text-4" id="text-org7e4418b">
+</div>
+<ul class="org-ul">
+<li><a id="orgbd44c80"></a>Pieces go out of date, as technology rapidly evolves and a composer needs to keep it up to date, or a music tech specialist recreate the obsolete tech<br />
+<ul class="org-ul">
+<li><a id="orga8fafb4"></a>Well then why should I study music if it's going to become obsolete soon?<br />
+<ul class="org-ul">
+<li><a id="orgfa9073e"></a>Learning and performing the music can encourage composers to keep their music up to date and help it persist. Collaborate with composers to create something that starts new instead of revive an old out of date piece.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orga169355"></a>Professors are less likely to know the repertoire and techniques<br />
+<ul class="org-ul">
+<li><a id="orgcbecce4"></a>Well, how can they learn? Why would they want to learn, especially if they are older.<br />
+<ul class="org-ul">
+<li><a id="orgf2ceea5"></a>Many performers say that it is fun and invigorating to play a piece with electronics. Collaborating with composers or engineers can take many of the technical burdens out of the picture. This dissertation is a useful resource to learn.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org86cfebf"></a>Each piece seems to require a new piece of equipment<br />
+<ul class="org-ul">
+<li><a id="org6ba69d7"></a>Yeah I don't want to spend $300 on every piece I learn.<br />
+<ul class="org-ul">
+<li><a id="org07dafcf"></a>That is one of the reasons for this dissertation. I have found as many pieces as I can, and tell you what equipment is needed. You can see what you have and find other pieces that match. I also provide some recommendations for equipment that will get allow you to play most of the rep. Performance spaces may have some of the more pricey equipment.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org6fe8a36"></a>Issues of feedback, amplification, and hearing things on stage<br />
+<ul class="org-ul">
+<li><a id="org5ac9aed"></a>Yeah it all sounds like too much of a pain to deal with<br />
+<ul class="org-ul">
+<li><a id="org6bb8304"></a>At first it can be, but you also don't have to do it alone if you don't want to. Composers, sound engineers, students, etc. can be willing to help. It mostly takes some extra time.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga639420" class="outline-3">
+<h3 id="orga639420">It takes time to learn the skills to play with computers and technology</h3>
+<div class="outline-text-3" id="text-orga639420">
+</div>
+<div id="outline-container-org270821e" class="outline-4">
+<h4 id="org270821e">Bullock13, Brown07</h4>
+</div>
+</div>
+<div id="outline-container-orgf908adb" class="outline-3">
+<h3 id="orgf908adb">Teachers are often the ones who influence what their students play</h3>
+<div class="outline-text-3" id="text-orgf908adb">
+</div>
+<div id="outline-container-org265cd55" class="outline-4">
+<h4 id="org265cd55">Pennycook97, Enns17</h4>
+<div class="outline-text-4" id="text-org265cd55">
+</div>
+<ul class="org-ul">
+<li><a id="org6b758f7"></a>Well doesn't this mean that it shouldn't be part of the curriculum and just let teachers decide? Let the ones that can do it and leave the rest of us alone.<br />
+<ul class="org-ul">
+<li><a id="org03035b8"></a>But some students may not even know this music exists if a teacher doesn't introduce it somehow<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org5ccb835" class="outline-4">
+<h4 id="org5ccb835">Ok, you've sold me, but I don't think my department is interested</h4>
+<div class="outline-text-4" id="text-org5ccb835">
+</div>
+<ul class="org-ul">
+<li><a id="orga61cc66"></a>Well then start with you. See if you can get some grant money to purchase some initial equipment. Have your students perform these works. Maybe it will change some minds in your department.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga188a4d" class="outline-3">
+<h3 id="orga188a4d">Students currently have to learn it on their own if they want it</h3>
+<div class="outline-text-3" id="text-orga188a4d">
+</div>
+<div id="outline-container-orgb3b65d7" class="outline-4">
+<h4 id="orgb3b65d7">Jordan18, enns17</h4>
+<div class="outline-text-4" id="text-orgb3b65d7">
+</div>
+<ul class="org-ul">
+<li><a id="orgc6e84a0"></a>Well then why should we make those that aren't interested study it?<br /></li>
+<li><a id="org8ac74df"></a>Just keep things the way they are and let the techy ones do this music<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa0b58f" class="outline-3">
+<h3 id="orgfa0b58f">Composers are receiving it, performers should too</h3>
+<div class="outline-text-3" id="text-orgfa0b58f">
+</div>
+<div id="outline-container-orgcbc040b" class="outline-4">
+<h4 id="orgcbc040b">Behr14, Kokoras11</h4>
+</div>
+<div id="outline-container-orga10a3be" class="outline-4">
+<h4 id="orga10a3be">I concede that it would be helpful for students that want a career in this, but why should we make a music ed student learn this? Don't they have enough to learn already?</h4>
+<div class="outline-text-4" id="text-orga10a3be">
+</div>
+<ul class="org-ul">
+<li><a id="orga67534c"></a>It may be true that music ed students might not make a career or ever perform a solo with electronics again, but the skills could transfer to dealing with solo mics in jazz bands, dealing with amplifiers, and there could be pieces for bands and orchestras with prerecorded tracks or even live processing where this could be applicable.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf177df9" class="outline-3">
+<h3 id="orgf177df9">It is music worth studying</h3>
+<div class="outline-text-3" id="text-orgf177df9">
+</div>
+<ul class="org-ul">
+<li><a id="orgf5664a4"></a>It brings possibilities to performers impossible through other means<br />
+<ul class="org-ul">
+<li><a id="orgf9c5b83"></a>mcnutt03, emmerson16, garnett01, rowe93, feron18<br /></li>
+</ul>
+</li>
+<li><a id="orgde87cd3"></a>It can communicate different meanings<br />
+<ul class="org-ul">
+<li><a id="org52613e5"></a>windsor16, macdonald95, emmerson16, waters16, brown07<br /></li>
+</ul>
+</li>
+<li><a id="orgb2413a9"></a>It brings back connections to audiences<br />
+<ul class="org-ul">
+<li><a id="org3e88690"></a>moore92, garnett01<br /></li>
+</ul>
+</li>
+<li><a id="orga24173e"></a>It is music that directly deals with the current issue of our relationship with tech<br />
+<ul class="org-ul">
+<li><a id="org0977748"></a>Kiroy<br /></li>
+</ul>
+</li>
+</ul>
+<div id="outline-container-org0262e0d" class="outline-4">
+<h4 id="org0262e0d">It all sounds like avant garde crap to me. I don't want to spend time learning all these skills to play music that sucks</h4>
+<div class="outline-text-4" id="text-org0262e0d">
+</div>
+<ul class="org-ul">
+<li><a id="org1d297e5"></a>It may be true that there are many pieces written in this style, but there are also several others that are not. Computers are capable of imitating traditional, avant garde, and even popular music.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgec12fc1" class="outline-3">
+<h3 id="orgec12fc1">It helps to preserve the music</h3>
+<div class="outline-text-3" id="text-orgec12fc1">
+</div>
+<div id="outline-container-org24cac94" class="outline-4">
+<h4 id="org24cac94">Wetzel06, Feron18</h4>
+<div class="outline-text-4" id="text-org24cac94">
+</div>
+<ul class="org-ul">
+<li><a id="org59ccca6"></a>Is this really the case? Or is this just a call to action that doesn't actually help preserve the music?<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org18c5421" class="outline-3">
+<h3 id="org18c5421">Traditional Music Study is dieing, this is the future</h3>
+<div class="outline-text-3" id="text-org18c5421">
+</div>
+<div id="outline-container-org036a52f" class="outline-4">
+<h4 id="org036a52f">Stockhausen96</h4>
+<div class="outline-text-4" id="text-org036a52f">
+</div>
+<ul class="org-ul">
+<li><a id="org4c27352"></a>I think this reason is weak on its own, but it could be a point of departure for discussion. Maybe a prelude to relationship with tech? Could it actually be the first point? Or maybe just the beginning of the conclusion?<br /></li>
+</ul>
+</div>
+<div id="outline-container-org038835e" class="outline-4">
+<h4 id="org038835e">It's all a great idea, but I don't see how it's necessary. Keep the status quo.</h4>
+<div class="outline-text-4" id="text-org038835e">
+</div>
+<ul class="org-ul">
+<li><a id="org9bc53d6"></a>Stockhausen claimed that current music study is dieing. It may be a bit dramatic, but art constantly is changing and redefining itself. Baroque and even classical music are becoming part of the early music scene. As more time passes, romantic music may join it. As one person put it, how long can we claim the music of the 20th century is contemporary music?<br /></li>
+<li><a id="org63a6d6b"></a>The death of improvisation article (moore92) could have some arguments about relevance of music to audiences, histrocisim, the museum culture, etc.<br /></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8450099" class="outline-2">
+<h2 id="org8450099">Key words to run through&#x2026;.</h2>
+</div>
+
+<div id="outline-container-orgb295c6e" class="outline-2">
+<h2 id="orgb295c6e">Document plans</h2>
+<div class="outline-text-2" id="text-orgb295c6e">
+</div>
+<div id="outline-container-org6f49565" class="outline-4">
+<h4 id="org6f49565">worth, difficulties, pp, inclusion, works</h4>
+<div class="outline-text-4" id="text-org6f49565">
+<p>
+worth first may help readers decide if they consider the rest of the text. difficulties and pp seem to go hand in hand on all options. Inclusion fits pretty well after pp, and works just sort of is an appendix at the end
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgedf727f" class="outline-4">
+<h4 id="orgedf727f">difficulties, pp, worth, inclusion, works</h4>
+<div class="outline-text-4" id="text-orgedf727f">
+<p>
+similar to above, but perhaps is a better transition from the introduction. The worth could be strong right before the inclusion.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgde15a39" class="outline-4">
+<h4 id="orgde15a39">Difficulties, pp, worth, works, inclusion</h4>
+<div class="outline-text-4" id="text-orgde15a39">
+<p>
+starting with the difficulties may make things harder as a selling point. The worth afterwards is maybe a little weird. Inclusion after works seems a little weird in this case.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf7f4057" class="outline-4">
+<h4 id="orgf7f4057">worth, works, difficulties, pp, inclusion</h4>
+<div class="outline-text-4" id="text-orgf7f4057">
+<p>
+Works seems a little bit out of place here, as it is a big chunk that disrupts the narrative. Similar layout for the remainder.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org234ad5b" class="outline-2">
+<h2 id="org234ad5b">Plan</h2>
+<div class="outline-text-2" id="text-org234ad5b">
+</div>
+<div id="outline-container-orgf996d5d" class="outline-3">
+<h3 id="orgf996d5d">Introduction</h3>
+<div class="outline-text-3" id="text-orgf996d5d">
+</div>
+<div id="outline-container-org603b1d5" class="outline-4">
+<h4 id="org603b1d5">Summary of Previous Research</h4>
+</div>
+<div id="outline-container-org4b60a54" class="outline-4">
+<h4 id="org4b60a54">My Definition of interactivity</h4>
+</div>
+<div id="outline-container-org0e0af98" class="outline-4">
+<h4 id="org0e0af98">History of Electroacoustic Music</h4>
+</div>
+<div id="outline-container-orga901c95" class="outline-4">
+<h4 id="orga901c95">Difficulties with the Music</h4>
+<div class="outline-text-4" id="text-orga901c95">
+</div>
+<ul class="org-ul">
+<li><a id="org421ecb7"></a>Hardware<br /></li>
+<li><a id="org2de3d18"></a>Positioning<br /></li>
+<li><a id="orgbde1d63"></a>Notation<br /></li>
+<li><a id="org8b0132c"></a>Speakers<br /></li>
+<li><a id="org3b35022"></a>Listening<br /></li>
+<li><a id="orgf7ebfea"></a>Sound<br /></li>
+<li><a id="org446a51f"></a>Cost<br /></li>
+<li><a id="org990ab05"></a>Longevity<br /></li>
+<li><a id="orgca4a6ed"></a>Amplification<br /></li>
+<li><a id="org85601af"></a>Rehearsal<br /></li>
+<li><a id="org71c5b37"></a>Setup<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb0b1f6c" class="outline-3">
+<h3 id="orgb0b1f6c">Performance Practice</h3>
+<div class="outline-text-3" id="text-orgb0b1f6c">
+</div>
+<ul class="org-ul">
+<li><a id="org3030bce"></a>Time and Rehearsal<br /></li>
+<li><a id="org023fe8f"></a>Hardware/ Software<br />
+<ul class="org-ul">
+<li><a id="org96e0253"></a>Speakers<br /></li>
+<li><a id="org3d71a3a"></a>Effects Pedals<br />
+<ul class="org-ul">
+<li><a id="org9b3c844"></a>Distortion, Fuzz, Overdrive<br /></li>
+<li><a id="org25ef0f0"></a>Phasers, Flangers, Chorus<br /></li>
+<li><a id="orgd3158c1"></a>Loopers<br /></li>
+<li><a id="org00825f2"></a>Delay, Reverb<br /></li>
+<li><a id="org3930c13"></a>Harmonizers<br /></li>
+</ul>
+</li>
+<li><a id="org4ec8ea2"></a>Computer Software<br />
+<ul class="org-ul">
+<li><a id="org0ec0f61"></a>Connecting to a Computer<br /></li>
+<li><a id="org7992d21"></a>MIDI<br /></li>
+<li><a id="orgbae65a0"></a>Electric Bocals<br /></li>
+<li><a id="orgaf0ddfe"></a>Microphones<br /></li>
+<li><a id="org8263b35"></a>Max/MSP<br />
+<ul class="org-ul">
+<li><a id="orgb371dc0"></a>Controlling Max<br /></li>
+<li><a id="org3d920a6"></a>Example Patches<br /></li>
+</ul>
+</li>
+<li><a id="org1d1a2d5"></a>Other Software<br />
+<ul class="org-ul">
+<li><a id="org41454b9"></a>PureData<br /></li>
+<li><a id="org296ee25"></a>SuperCollider<br /></li>
+<li><a id="orgeb3c717"></a>Kyma<br /></li>
+<li><a id="orgf854e48"></a>IPads<br /></li>
+<li><a id="orge602fcf"></a>Ableton or other DAWs<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org4c66f96"></a>Performance Setups<br /></li>
+</ul>
+</div>
+<div id="outline-container-org92e14f7" class="outline-3">
+<h3 id="org92e14f7">Inclusion in Curriculum</h3>
+<div class="outline-text-3" id="text-org92e14f7">
+</div>
+<div id="outline-container-orgba8aec0" class="outline-4">
+<h4 id="orgba8aec0">Worth of Music</h4>
+</div>
+<div id="outline-container-orga5478b5" class="outline-4">
+<h4 id="orga5478b5">Each student have some experience before they graduate</h4>
+</div>
+<div id="outline-container-org288477e" class="outline-4">
+<h4 id="org288477e">Have a studio electronics recital every year, or every other year</h4>
+</div>
+<div id="outline-container-orge27ce73" class="outline-4">
+<h4 id="orge27ce73">Practice space</h4>
+</div>
+<div id="outline-container-org6cae4a3" class="outline-4">
+<h4 id="org6cae4a3">Grants for EQ</h4>
+</div>
+<div id="outline-container-org38ec76c" class="outline-4">
+<h4 id="org38ec76c">Show how inclusion helps solve some of the difficulties</h4>
+</div>
+<div id="outline-container-org7593c6f" class="outline-4">
+<h4 id="org7593c6f">Possible pieces for undergrads</h4>
+</div>
+</div>
+<div id="outline-container-org791290f" class="outline-3">
+<h3 id="org791290f">Annotated Bibliography of Works</h3>
+<div class="outline-text-3" id="text-org791290f">
+</div>
+<div id="outline-container-orgbecc59e" class="outline-4">
+<h4 id="orgbecc59e">Introduction</h4>
+</div>
+<div id="outline-container-org746410e" class="outline-4">
+<h4 id="org746410e">Computer Pieces</h4>
+</div>
+<div id="outline-container-orgdb59bad" class="outline-4">
+<h4 id="orgdb59bad">Pedal Pieces</h4>
+</div>
+</div>
+<div id="outline-container-org5b6bc51" class="outline-3">
+<h3 id="org5b6bc51">Appendix of Etudes</h3>
+<div class="outline-text-3" id="text-org5b6bc51">
+</div>
+<ul class="org-ul">
+<li><a id="org6178123"></a>Pedals<br />
+<ul class="org-ul">
+<li><a id="org6700667"></a>Looper Etude<br /></li>
+<li><a id="org00a9bb7"></a>Something like Electrically Tragic<br /></li>
+</ul>
+</li>
+<li><a id="org7299277"></a>Max/MSP<br />
+<ul class="org-ul">
+<li><a id="orgd36daa5"></a>Basic Patch<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org8d2cd4c" class="outline-3">
+<h3 id="org8d2cd4c">Bibliography</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

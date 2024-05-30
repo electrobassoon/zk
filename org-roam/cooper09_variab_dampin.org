@@ -1,6 +1,142 @@
 :PROPERTIES:
 :ID:       58ba5c57-46a0-4d9a-80e4-b42d469b8956
 :ROAM_REFS: cite:cooper09_variab_dampin
+:NOTER_DOCUMENT: ../PDFs/cooper09_variab_dampin.pdf
 :END:
 #+title: cooper09_variab_dampin
+* Damping
+:PROPERTIES:
+:NOTER_PAGE: (1 0.2673702726473175 . 0.10613810741687978)
+:END:
+Any effect that reduces the vigor of the oscillation of the reed. In other words, it's friction. It has a more or less inverse relationship with amplitude. However it has a direct relationship with flexibility. More damping means more flexibility in pitch, dynamic, and timbre.
+* Acoustical Extremes
+:PROPERTIES:
+:NOTER_PAGE: (1 0.40816326530612246 . 0.13255567338282082)
+:END:
+Totally damped would have an infinitely broad frequency response bandwidth. Equal response amplitude in all frequencies. But the resonance would be zero at all frequencies. The ultimate mute.
+Totally undamped would be infinite response amplitude at an infinitely narrow frequency. Like a lethal lazer beam
+* Musical Instruments
+:PROPERTIES:
+:NOTER_PAGE: (1 0.641399416909621 . 0.11770943796394488)
+:END:
+Viable instruments have some sort of damping in their basic design. The best instrument quality mixes the damping the best. These could be from many factors.
+1) Bore damping (diameter and contour)
+2) Tone-hole damping (diameter, chimney length, contour)
+3) Wall damping (smooth reflective surfaces vs rough)
+4) Hermetic damping (porosity of surfaces/diffused leaks)
+5) Pad clearance and reflectiviy
+6) Bocal choice (bore, material, wall thickness, plating)
+7) Choice of reed type (relativley damped or un-damped)
+Reed is the only one we can control
+* Styles
+:PROPERTIES:
+:NOTER_PAGE: (1 0.9212827988338192 . 0.13255567338282082)
+:END:
+Solo recording artists, chamber players, studio musicians,  prefer more damped, less vibrant reed/instrument combo because it requires less projection and is more flexible.
+These players can be disappointing to hear live because their sound doesn't project to the audience without a sound engineer and amplification
 
+Orchestral players probably choose less damped reed/instrument combo. But without being able to vary the damping, likely need lots of different reeds to cope with the variety of demands in the orchestra
+* Good sound
+:PROPERTIES:
+:NOTER_PAGE: (2 0.5597667638483965 . 0.08059384941675506)
+:END:
+There is no such thing as a good sound. Only sounds that are appropriate for the musical passage involved. Only through flexible reeds with pro-active embouchre/breath relationship can musical nuance be varied during performance
+* Four controlling modes of embouchre
+:PROPERTIES:
+:NOTER_PAGE: (2 0.7215743440233237 . 0.09544008483563099)
+:END:
+Vertical cushioning, horizontal cushioning, horiztonal torquing, and rotary torquing. Only by being able to use them all in combination can you defeat the myth that double reeds are incapable of effectively expressing dynamic nuance.
+* Cushioning
+:PROPERTIES:
+:NOTER_PAGE: (2 0.8615160349854227 . 0.11770943796394488)
+:END:
+Vertical cushioning is the most prevalent form of damping (but least effective by itself) It involves using a soft lip-supported embouchre to bring more or less inner-lip into contact with the reed blades. Any increase or decrease in lip area contacting the blades should be done with minimal change to the vertical pressure. However, this will always happen to some extent and affect the reed's static volume. More vertical cushioning = higher freequency; less = lower frequency
+* Tuning
+:PROPERTIES:
+:NOTER_PAGE: (3 0.44314868804664725 . 0.13255567338282082)
+:END:
+Since tuning is so important, this leads to many young artists using stiff, heavy, linearly-damped reeds with "skin of the teeth" jaw support that can't play dynamics.
+* Dynamics are possible!
+:PROPERTIES:
+:NOTER_PAGE: (3 0.6180758017492711 . 0.11028632025450692)
+:END:
+We can do dynamics! We can have a 50db dynamic difference (still nothing compared to brass)
+* Timbral Variance
+:PROPERTIES:
+:NOTER_PAGE: (3 0.8032069970845481 . 0.09544008483563099)
+:END:
+Timbral variance is not a substitute, in face those with the most dynamics also tend to have the most timbral variance
+* Horizontal Cushioning
+:PROPERTIES:
+:NOTER_PAGE: (4 0.15160349854227406 . 0.08059384941675506)
+:END:
+When paired with vertical cushioning doubles the damping with little change to frequency. It turns a high five into a warm handshake
+* Weissenborn
+:PROPERTIES:
+:NOTER_PAGE: (4 0.4314868804664723 . 0.0731707317073171)
+:END:
+An early weissenborn lesson (3rd) introduces the low a-natural. This is a great opportunity to introduce damping to the typically harsh note. And it gives the student an early responisbility for their sound.
+* Early warm-up excercise
+:PROPERTIES:
+:NOTER_PAGE: (4 0.7900874635568513 . 0.08801696712619303)
+:END:
+Start by playing a B natural while fingering a C. Then use breath support until it is a C. This ensures a relaxed lip-supported embouchre and discourages biting.
+* Weissenbron 3
+:PROPERTIES:
+:NOTER_PAGE: (5 0.10495626822157435 . 0.11770943796394488)
+:END:
+Slur down to the A several times and ask about the timbral difference
+Then secretly push the low C#/Db key. This mechanically damps the A and removes a lot of the harsh quality.
+Then using finger push the students' lower lip inward and upward to increase the area. Pitch will vary alot. Shows that just vertical cushioing is not enough (not sure we can do this these days)
+Then do the same, but also pinch the lip horizontally between the thumb and middle finger. This has a much more stable pitch center.
+* Eureka!
+:PROPERTIES:
+:NOTER_PAGE: (5 0.6064139941690962 . 0.13255567338282082)
+:END:
+Student realizes the benefits of the damping (but still needs to develop the muscles to do it on their own). Using the cushioning potentially doubles the available decibel excursion.
+* Torquing
+:PROPERTIES:
+:NOTER_PAGE: (5 0.7434402332361516 . 0.12513255567338286)
+:END:
+Most players have some torquing in their embouchre already, but are unaware of it
+Torquing just means a turning force that causes something to twist
+The way we hold the instrument means that the reed is usually twisted in some angle so the player can hold and play at the same time.
+Most players have a habitual angle of entry because of seat strap, chair type, bocal angle, etc. This isn't useful for variable damping because we never change it
+* How to torque 
+:PROPERTIES:
+:NOTER_PAGE: (6 0.19825072886297376 . 0.0731707317073171)
+:END:
+Moving the head in small no-no motions and at the same time using the wrists and hands to turn the instruments body in the opposite direction on the longitudinal axis. 
+* Direction
+:PROPERTIES:
+:NOTER_PAGE: (6 0.26822157434402333 . 0.0731707317073171)
+:END:
+Can be clockwise (top of the head rotating to the right most common) or counter-clockwise (to the left least common). Slippage of reeds should be paired with this ([[id:a4ced4c8-dea9-47f4-ada8-35fc467c0897][cooper09_slipp]])
+* Method
+:PROPERTIES:
+:NOTER_PAGE: (6 0.6618075801749271 . 0.08801696712619303)
+:END:
+To increase the torquing and its damping, turn the head as if to look clockwise to the player to their right. Turn the bassoon counter-clockwise. To decrease the damping, turn the head back to the center and turn the bassoon clockwise. The way it works is by bringing one of the rails (left usually) into contact with the soft inner surface of the lower lip. Similar to cushioing, increasing the horizontal torquing = more lip contact = more damping. Decrease = less lip = less damping.
+* Rotary torquing
+:PROPERTIES:
+:NOTER_PAGE: (6 0.8367346938775511 . 0.09544008483563099)
+:END:
+Rotary torquing is rotating the head on its horizontal axis. It controls the contact are between the inner-lip and rail on both sides of the reed. It is normally paired with horizontal torquing as a pair. Right is most common again (likely depending on the reed's slippage) This also can be paired with rotating the instrument's body in the opposite direction as the head.
+Again, more torquing = more lip contact = more damping. (apparently pairing the two works very well for the morendo on the open F in Tchaik 4
+* Pedagogy with Low A
+:PROPERTIES:
+:NOTER_PAGE: (7 0.4198250728862974 . 0.11770943796394488)
+:END:
+Again student sustains the low a, the instructor on top of the head and turns it clockwise on its vertical axis toward's the right shoulder Also turning the the instrument at the boot joint and wing joing juncture. Then let the student mimic these motions. Rotarty torquing can be paired with that by cocking the head to the right slightly
+* Single Lesson
+:PROPERTIES:
+:NOTER_PAGE: (7 0.6384839650145773 . 0.13255567338282082)
+:END:
+This can all be done in a single lesson. Practice will be necessary to master it, not just for movements, but also for muscle development. Avoid longtone assigments too early, as muscle development is not there yet and promotes the heavy lip embouchre. Don't insist on control too soon, mobility needs to be the ultimate goal.
+* Damping is damping
+:PROPERTIES:
+:NOTER_PAGE: (8 0.2536443148688047 . 0.08801696712619303)
+:END:
+It doesn't matter too much which type is used, but to get the best results all four are necessary.
+
+(It's still a little unclear to me how this will work in practice. Damping I assume makes things softer? So adding more damping helps you play softer [very welcome!] but not sure how to play louder. Just by undamping? I guess that's what pushing the distance of the top teeth up maybe reduces lip contact with makes things louder. Or maybe it means making reeds that are more vibrant and using these damping techniques to tame it for softer dynamics?

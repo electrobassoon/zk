@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Difficulties in Electroacoustic Performance</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Difficulties in Electroacoustic Performance</h1>
+<p>
+There are many difficulties a performer has to deal with when performing electroacoustic music.
+</p>
+
+<p>
+One is the proximity of microphones, cables, and limiting a performer's normal expressive movements.
+<a href="20210511164500-bullock13_difficulties.html#ID-7e41e4c8-2238-4158-b513-176a5817a4b4">bullock13_difficulties</a>
+</p>
+
+<p>
+Sometimes electroacoustic pieces can put additional strain on your body and physical health. <a href="20220412121939-enns17_difficulties.html#ID-95485d8c-0e23-4fda-bf6a-95afbc9fd827">enns17-difficulties</a>
+</p>
+
+<p>
+Another, in some pieces, is the inflexibility of the accompanist of fixed media.
+<a href="20210513093800-mcnutt03_prisoner.html#ID-b9eaeb1c-4855-4b14-9825-8679ae296c03">mcnutt03-prisoner</a>
+</p>
+
+<p>
+The notation of electronic music is not standard and does not seem to have a solution for all situations. <a href="20220406152455-pestova18_notation.html#ID-f9be4c9d-9360-4f46-853c-4c0c2303ecc9">pestova18-notation</a> Notation can be unhelpful. Hearing the electronics on stage can pose difficulties. The physical differneces in each performer make some setups difficult.
+<a href="20210513093200-mcnutt03_difficulties.html#ID-1a6433b1-bfe2-4edb-a771-1e42fc2a9902">mcnutt03-difficulties</a>
+</p>
+
+<p>
+Using speakers poses other problems. They are directional and concentrated, instead of diffuse like acoustic performers. Mixing the two is a difficulty.
+<a href="20210511165900-morrill81_difficulties.html#ID-4a0828e4-8972-449f-8b48-9d891935f13c">morrill81_difficulties</a>, <a href="20210604163000-pennycook97_difficulties.html#ID-5ff398dd-0c97-4e47-b8f0-c3c157c4a39a">pennycook97-difficulties</a>
+</p>
+
+<p>
+Additionally, there is a perceptual difficulty for listeners. Only one audio source is seen, yet several are heard.
+<a href="20210525160200-frengel10_difficulties.html#ID-9814924d-0486-4467-9bb8-bc339a19e3aa">frengel10-difficulties</a> Audiences also need to discard previous conceptions of computer music as things have changed a lot. <a href="20220523152435-belet03_audiences.html#ID-88b87af3-0732-45f9-afd5-202eeff9ffbe">belet03-audiences</a>
+</p>
+
+<p>
+Another difficulty arises from the knowledge of the teacher. At times, the student may know more about the technology than the teacher does. It takes considerable time and effort for the teacher to learn new skills and develop new teaching resources.
+<a href="20210520152600-brown07_difficulties.html#ID-c43dd991-b330-432c-9deb-1698396f1206">brown07-difficulties</a>, <a href="20210604162800-pennycook97_education.html#ID-57b4352e-a950-44d7-a7bb-d12bd50b2081">pennycook97-education</a> <a href="20211013142344-behr14_difficulties.html#ID-d757a1ba-c2e7-48ff-b624-ddf71db77ac9">behr14-difficulties</a> <a href="20220321160512-masone16_difficulties.html#ID-ea1bbb4c-f1ee-4863-8af0-015bd796d9e5">masone16-difficulties</a>
+</p>
+
+<p>
+Halls are not desgned for electroacoustic music, but for traditional music. <a href="20210527154300-stockhausen96_halls.html#ID-3cd23c84-ba1f-4dad-b30f-9e2ec38e91fa">stockhausen96-halls</a>, <a href="20210604163000-pennycook97_difficulties.html#ID-5ff398dd-0c97-4e47-b8f0-c3c157c4a39a">pennycook97-difficulties</a>, <a href="20211012103012-kimura03_acoustics.html#ID-5241e1f5-5723-4889-892d-0ea367ff1157">kimura03_acoustics</a> A performance can be bad because of spatialization, eq, etc as much as wrong notes. <a href="20210513150800-hoffman13_ideal.html#ID-11a44c7b-c1c0-42ca-bf87-6c97a87344d8">hoffman13-ideal</a>
+</p>
+
+<p>
+Dynamics can be a large issue for the bassoon, especially when using electric bocals. <a href="20210604142900-romine13_difficulties.html#ID-53da1656-9f7e-495a-9919-8a8188aa55aa">romine13-difficulties</a> <a href="20211013142344-behr14_difficulties.html#ID-d757a1ba-c2e7-48ff-b624-ddf71db77ac9">behr14-difficulties</a>
+</p>
+
+<p>
+Every piece seems to require purchasing some new form of equipment, or has a new technical setup. <a href="20210604142900-romine13_difficulties.html#ID-53da1656-9f7e-495a-9919-8a8188aa55aa">romine13-difficulties</a>
+</p>
+
+<p>
+There is a balance of sound to feedback with microphones and pickups <a href="20210604142900-romine13_difficulties.html#ID-53da1656-9f7e-495a-9919-8a8188aa55aa">romine13-difficulties</a>
+</p>
+
+<p>
+The cost of the equipment is a major issue for performers (the ones that do the most for the genre to survive), and many performance spaces don't want to spend money on things that won't get used. It's a vicious circle.<a href="20210604163000-pennycook97_difficulties.html#ID-5ff398dd-0c97-4e47-b8f0-c3c157c4a39a">pennycook97-difficulties</a>
+</p>
+
+<p>
+Similarly, institutions are not funding, and thus not encouraging, the development of electroacoustic music. <a href="20211005105730-waters16_economy.html#ID-cba4a75c-ad29-4642-8e68-ebe6b2359549">waters16_economy</a>
+</p>
+
+<p>
+Controllers can be distracting to the audience and the music. <a href="20211012102610-kimura03_stage_appearance.html#ID-44eec835-2189-43d5-88cd-73964fb58ce5">kimura03_stage_appearance</a>
+</p>
+
+<p>
+However, music playing is already frought with difficulties and should be, or it would not be satisfying <a href="20210614171000-mcdermott13_difficulty.html#ID-ec206838-d171-4974-bcea-3180ca516e8f">mcdermott13-difficulty</a> That is why we play instruments <a href="20220517111154-dixon06_play.html#ID-9ba16de3-8825-4f67-8f7a-127bab16121c">dixon06-play</a>
+</p>
+
+<p>
+Pieces go out of date, and if one piece of a system is gone, the whole piece needs to be rebuilt by the composer. <a href="20211012115246-canazza01_preservation.html#ID-e4ce0537-83dc-4b6f-be74-5aba3ee571c5">canazza01-preservation</a> Some composer are more willing to do this than others. <a href="20220404161616-grew14_difficulties.html#ID-ac6466c2-4b45-44cd-8cb8-4ca88295b15b">grew14-difficulties</a>
+</p>
+
+<p>
+Hearing the eletronics on stage can be difficult and cause syncing issues. <a href="20211013142344-behr14_difficulties.html#ID-d757a1ba-c2e7-48ff-b624-ddf71db77ac9">behr14-difficulties</a>
+</p>
+
+<p>
+The bassoon itself makes amplification and pitch tracking more difficult perhaps than other instruments. <a href="20220321160512-masone16_difficulties.html#ID-ea1bbb4c-f1ee-4863-8af0-015bd796d9e5">masone16-difficulties</a> Many effects units are designed for guitar which has a clear tone, unlike wind instruments. <a href="20220516113144-rothenberg10_tone.html#ID-dfa3b3d3-4558-4e56-b418-cf8ad2bbd4f7">rothenberg10-tone</a>
+</p>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

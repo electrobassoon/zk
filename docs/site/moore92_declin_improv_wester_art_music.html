@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>moore92_declin_improv_wester_art_music: The decline of improvisations in western art music: an interpretation of change</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">moore92_declin_improv_wester_art_music: The decline of improvisations in western art music: an interpretation of change</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#moore92_declin_improv_wester_art_music">The decline of improvisations in western art music: an interpretation of change</a>
+<ul>
+<li><a href="#orgabc00dd">Contrast</a></li>
+<li><a href="#orgdb53a8f">Ernst Ferand Quote</a></li>
+<li><a href="#org08994bd">Attitudes</a></li>
+<li><a href="#org7280973">Structure</a></li>
+<li><a href="#orgea45c17">Familiarity</a></li>
+<li><a href="#org3708f53">Modern Improvisation</a></li>
+<li><a href="#org3ce7370">Popular Music</a></li>
+<li><a href="#orgb18f597">Separation</a></li>
+<li><a href="#orgd748878">Notation</a></li>
+<li><a href="#orga630f4e">Warnings</a></li>
+<li><a href="#org31a0ecd">Reverence</a></li>
+<li><a href="#org477b511">Education</a></li>
+<li><a href="#org0298402">Aristocratic Music</a></li>
+<li><a href="#org923d5c2">Modern Perspectives</a></li>
+<li><a href="#org4a7c96b">Popular Music</a></li>
+<li><a href="#orgcacdf01">Historicity</a></li>
+<li><a href="#orgb087d0e">Jack Talbott Museum Quote</a></li>
+<li><a href="#org6784c53">Conflict</a></li>
+<li><a href="#org6b6055c">The Past</a></li>
+<li><a href="#org5719495">Contemporary taste</a></li>
+<li><a href="#orgaf9575e">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-moore92_declin_improv_wester_art_music" class="outline-2">
+<h2 id="moore92_declin_improv_wester_art_music">The decline of improvisations in western art music: an interpretation of change</h2>
+<div class="outline-text-2" id="text-moore92_declin_improv_wester_art_music">
+</div>
+<div id="outline-container-orgabc00dd" class="outline-3">
+<h3 id="orgabc00dd">Contrast</h3>
+<div class="outline-text-3" id="text-orgabc00dd">
+<p>
+Many non-western musical cultures heavily feature improvisation, whereas traditional western music it is mostly absent. There is little deviation from the score that is tolerated.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdb53a8f" class="outline-3">
+<h3 id="orgdb53a8f">Ernst Ferand Quote</h3>
+<div class="outline-text-3" id="text-orgdb53a8f">
+<p>
+<code>"There is scarcely a single field in music that has remained unaffected by improvisation, scarecly a musical technique or form of composition that did not originate in improvisatory performance or was not essentially inluenced by it. The whole history of the development of [Western art] music is accompanied by manifestations of the drive to improvise."</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org08994bd" class="outline-3">
+<h3 id="org08994bd">Attitudes</h3>
+<div class="outline-text-3" id="text-org08994bd">
+<p>
+In the last hundred and fifty years, there has been a large shift in the attitude towards improvisation. It now seems threatening, unfamiliar, or undeserving of interest.
+</p>
+</div>
+</div>
+<div id="outline-container-org7280973" class="outline-3">
+<h3 id="org7280973">Structure</h3>
+<div class="outline-text-3" id="text-org7280973">
+<p>
+Structure of improvisation. It is only relative freedom. It only works when a certain musical vocabulary is used. The language has to be understood.
+</p>
+</div>
+</div>
+<div id="outline-container-orgea45c17" class="outline-3">
+<h3 id="orgea45c17">Familiarity</h3>
+<div class="outline-text-3" id="text-orgea45c17">
+<p>
+Acquiring familiarity with a style of improvisation usually requires performing the same piece or groups of pieces over and over again. <i>This is another reason that playing with technology needs to happen before the dress rehearsal so that you can gain familiarity with the improvisation</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org3708f53" class="outline-3">
+<h3 id="org3708f53">Modern Improvisation</h3>
+<div class="outline-text-3" id="text-org3708f53">
+<p>
+Modern improvisation is often less interesting for listeners if it is too avant garde, because the language is unfamiliar to them. The improvisers may be chastised instead of praised because of this.
+</p>
+</div>
+</div>
+<div id="outline-container-org3ce7370" class="outline-3">
+<h3 id="org3ce7370">Popular Music</h3>
+<div class="outline-text-3" id="text-org3ce7370">
+<p>
+Most of the lower class musicians were versed in the popular music of their day, and not the prevailing art music. It was stylistically distinct. This is a change because of the social structures changing and music opening up to everyone instead of court musicians only.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb18f597" class="outline-3">
+<h3 id="orgb18f597">Separation</h3>
+<div class="outline-text-3" id="text-orgb18f597">
+<p>
+By the time of Schoenberg, the connection of improvisatory music and art music was gone.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd748878" class="outline-3">
+<h3 id="orgd748878">Notation</h3>
+<div class="outline-text-3" id="text-orgd748878">
+<p>
+Notation and sheet music allowed for middle class people to learn music without actually being exposed to it in its original context, without hearing it.
+</p>
+</div>
+</div>
+<div id="outline-container-orga630f4e" class="outline-3">
+<h3 id="orga630f4e">Warnings</h3>
+<div class="outline-text-3" id="text-orga630f4e">
+<p>
+After sheet music became more available, professionals cautioned amatures that they should not embellish the music without fully grasping the composition. Some people started writing embellishments out so that the untrained wouldn't improvise poorly. Since the amatures were not exposed to art music very often, naturally their additions were more in style with the music they new. It is compared to putting new wine in old bottles.
+</p>
+</div>
+</div>
+<div id="outline-container-org31a0ecd" class="outline-3">
+<h3 id="org31a0ecd">Reverence</h3>
+<div class="outline-text-3" id="text-org31a0ecd">
+<p>
+With conservatory education, the advent of conducting, and later with recordings, more and more people were self concious about their performance and that it had to be done a certain way. They asked for the opinions of professionals so that they could get it right. There was little to no room for contemporary improvisation.
+</p>
+</div>
+</div>
+<div id="outline-container-org477b511" class="outline-3">
+<h3 id="org477b511">Education</h3>
+<div class="outline-text-3" id="text-org477b511">
+<p>
+There was a strong movement, mostly by Germans, to educate the public with "proper" music. Children's concerts began in some countries, with the idea to bring the "best" music to children early. Some question where the education begins and the indoctrination ends.
+</p>
+</div>
+</div>
+<div id="outline-container-org0298402" class="outline-3">
+<h3 id="org0298402">Aristocratic Music</h3>
+<div class="outline-text-3" id="text-org0298402">
+<p>
+The change of music becoming a symbol of status resulted in people not being aware of the music in its original form, so the differences in the improvisation would be lost on the audience. The music also was less frequently a part of the patrons' lives.
+</p>
+</div>
+</div>
+<div id="outline-container-org923d5c2" class="outline-3">
+<h3 id="org923d5c2">Modern Perspectives</h3>
+<div class="outline-text-3" id="text-org923d5c2">
+<p>
+Modern composers have lost the support of the public. The schism between popular music and art music grew even more. It became a bad thing to be a popular artist. It was better to be difficult to understand than accessible to all. Many composer take pride in not being intelligible to their audience. They are chiefly supported by other acadmeics. However, without the understanding between composer and audience, music loses the emotional power it can evoke.
+</p>
+</div>
+</div>
+<div id="outline-container-org4a7c96b" class="outline-3">
+<h3 id="org4a7c96b">Popular Music</h3>
+<div class="outline-text-3" id="text-org4a7c96b">
+<p>
+Ironically, depsite the education and indoctrinisation of audiences, popular music exploded at the turn of the century. It was found across all boundaries of class, race, etc. Comparing Korngold and Schoenberg shows what happened.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcacdf01" class="outline-3">
+<h3 id="orgcacdf01">Historicity</h3>
+<div class="outline-text-3" id="text-orgcacdf01">
+<p>
+The rise of performance practice music led to trying to preserve ancient music in its original form. It also works against improvisation.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb087d0e" class="outline-3">
+<h3 id="orgb087d0e">Jack Talbott Museum Quote</h3>
+<div class="outline-text-3" id="text-orgb087d0e">
+<p>
+<code>"I wonder whether the decline of improvisation in classical music shares some things in common with the rise of the museum as a middle class pastime? both demand reverential attitudes towards artifacts of the past. Just as a moustache is not to be drawn on the Mona Lisa, so Mozart is not to be embellished."</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org6784c53" class="outline-3">
+<h3 id="org6784c53">Conflict</h3>
+<div class="outline-text-3" id="text-org6784c53">
+<p>
+Modern musicians have the conflict of their own learned music intuition balancing against their desires to perform correctly, interpret correctly, with the tyranny of tradition.
+</p>
+</div>
+</div>
+<div id="outline-container-org6b6055c" class="outline-3">
+<h3 id="org6b6055c">The Past</h3>
+<div class="outline-text-3" id="text-org6b6055c">
+<p>
+Musicians are imprisoned by the past. Everything is focused on being able to perform the music of the past. It is not their music anymore, because they cannot perform it in their own way.
+</p>
+</div>
+</div>
+<div id="outline-container-org5719495" class="outline-3">
+<h3 id="org5719495">Contemporary taste</h3>
+<div class="outline-text-3" id="text-org5719495">
+<p>
+The problem is not studying classical music. The problem is exclusively studying classical music that cannot be altered. Most European and North American people are not familiar with it. We are discriminating against ourselves.
+</p>
+</div>
+</div>
+<div id="outline-container-orgaf9575e" class="outline-3">
+<h3 id="orgaf9575e">Conclusion</h3>
+<div class="outline-text-3" id="text-orgaf9575e">
+<p>
+Modern composers should try and speak to audiences in their own musical understanding. The music needs to connect with audiences. History shouldn't rule the aesthetic tastes of today. The quest for experimental music also can work against this. Instead there should be reworking and elaboration of living traditions. Art music should belong to everyone, as performers and spectators. It is how we should express ourselves. Improvisation can be a big part of that.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

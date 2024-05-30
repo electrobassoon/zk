@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cooper08_reed_makin_notes_two</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">cooper08_reed_makin_notes_two</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7a24288">Cooper's Cubist Reed Concept</a>
+<ul>
+<li><a href="#orgff60105">Parallel Scrape</a></li>
+<li><a href="#org5ece741">Starts from gouge</a></li>
+<li><a href="#org4463241">Hand Profiling Importance</a></li>
+<li><a href="#orgb88421b">Hand Profiling Method</a></li>
+<li><a href="#org28092d5">Foldover shaper</a></li>
+<li><a href="#orgea03ca3">Straight Shapers</a></li>
+<li><a href="#orgbd2a9ac">Folding</a></li>
+<li><a href="#org0cb88bb">Loading shaper</a></li>
+<li><a href="#orged9eb35">Loosely tightened</a></li>
+<li><a href="#org89ed67c">Sand</a></li>
+<li><a href="#orge11cbf1">Forming the tube</a></li>
+<li><a href="#org56642da">Method</a></li>
+<li><a href="#org68b13e8">Scoring</a></li>
+<li><a href="#org8dd1e82">Slippage</a></li>
+<li><a href="#org24d97cd">Wires</a></li>
+<li><a href="#org081bf2b">Split cane</a></li>
+<li><a href="#org20380b3">Rounding the tube</a></li>
+<li><a href="#org5468a08">Mashing</a></li>
+<li><a href="#org3e7a0a6">360 second wire</a></li>
+<li><a href="#org77593b9">After drying</a></li>
+<li><a href="#orgfae3e4e">Herring notches</a></li>
+<li><a href="#orga13a422">No duco underneath?</a></li>
+<li><a href="#org341a073">Wrapping</a></li>
+<li><a href="#org278a43d">1 year!</a></li>
+<li><a href="#org978f5e0">Soaking blank</a></li>
+<li><a href="#org2ad35b4">Create the collar</a></li>
+<li><a href="#org92f91f6">Cuts</a></li>
+<li><a href="#org3de0f74">Basic finishing</a></li>
+<li><a href="#org672a916">Knockenhauer measurements</a></li>
+<li><a href="#orgd331c7b">Blade measurements</a></li>
+<li><a href="#orgf6c253e">Seven Finishing Procedures</a></li>
+<li><a href="#orgf128985">Testing</a></li>
+<li><a href="#org988619b">The next days</a></li>
+<li><a href="#org5bf10c1">Structure vs Substance</a></li>
+<li><a href="#orgf02cc84">Two Approaches</a></li>
+<li><a href="#orge4e97e2">Cooper Parallel</a></li>
+<li><a href="#org6604990">Don't be afraid to remove cane</a></li>
+<li><a href="#orgd8899e4">Eubanks book</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7a24288" class="outline-2">
+<h2 id="org7a24288">Cooper's Cubist Reed Concept</h2>
+<div class="outline-text-2" id="text-org7a24288">
+</div>
+
+<div id="outline-container-orgff60105" class="outline-3">
+<h3 id="orgff60105">Parallel Scrape</h3>
+<div class="outline-text-3" id="text-orgff60105">
+<p>
+Cooper at least used parallel. Seems to also use a brevis
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5ece741" class="outline-3">
+<h3 id="org5ece741">Starts from gouge</h3>
+<div class="outline-text-3" id="text-org5ece741">
+<p>
+Claims economical in time, material, and cost
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4463241" class="outline-3">
+<h3 id="org4463241">Hand Profiling Importance</h3>
+<div class="outline-text-3" id="text-org4463241">
+<p>
+A freeing skill for experimentation
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb88421b" class="outline-3">
+<h3 id="orgb88421b">Hand Profiling Method</h3>
+<div class="outline-text-3" id="text-orgb88421b">
+<ol class="org-ol">
+<li>Mark center on the bark side</li>
+<li>Mark outer limits of blade profile, around an inch or 25.4mm on each side of center</li>
+<li>Notch marks with thin sharp knife. Pen blade of jack knife, or exacto knife. Watch edges if eccentric gouge is used.</li>
+<li>Using same knife, pull from far collar to center, just barely taking bark off. Minimum of 9-10 sections</li>
+<li>Make an arrow head pattern on each blade, again from far point to center. Cuts should gradually deepen towards the center</li>
+<li>Use a file like a half round bastard, or swiss grobet 0 or 00 cut pillar files to take out the ridges between cuts</li>
+<li>Center should be around .38mm to avoid breaking when it folds over</li>
+<li>using a dial indicator, mark the spots the are the desired thickness of the back of the reed (he says .71mm) Ideally should be equidistant from the center and halfway down the blade. If they aren't file the thicker side down so they are in the same place.</li>
+<li>Remeasure the center and mark it. Inaccuracies count double here.</li>
+<li>Rescore the center fold mark</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org28092d5" class="outline-3">
+<h3 id="org28092d5">Foldover shaper</h3>
+<div class="outline-text-3" id="text-org28092d5">
+<p>
+He prefers a foldover shaper, claiming that most straight shapers don't match, and a foldover shaper ensures that the sides will match. It also helps to pre-establish the degenerative/regenerative tip function.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgea03ca3" class="outline-3">
+<h3 id="orgea03ca3">Straight Shapers</h3>
+<div class="outline-text-3" id="text-orgea03ca3">
+<p>
+Admits they can be used with acceptable results
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbd2a9ac" class="outline-3">
+<h3 id="orgbd2a9ac">Folding</h3>
+<div class="outline-text-3" id="text-orgbd2a9ac">
+<p>
+Fold cane over a thin ruler, back of a knife, or some other thin, straight edge. Take the edge out before the entire fold is completed so it doesn't cause the tip to break open. Keep pressure on the tip until it is on the folding shaper. Repeated flexing of the cane will cause it to break as well.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0cb88bb" class="outline-3">
+<h3 id="org0cb88bb">Loading shaper</h3>
+<div class="outline-text-3" id="text-org0cb88bb">
+<p>
+Carefully take equal amounts from each side until it matches the shaper tip
+</p>
+</div>
+</div>
+
+<div id="outline-container-orged9eb35" class="outline-3">
+<h3 id="orged9eb35">Loosely tightened</h3>
+<div class="outline-text-3" id="text-orged9eb35">
+<p>
+Don't tighten it all the way while taking the majority of it out. Use thumb and finger to hold it from slipping. Apparently most cane will crack if you tighten the shaper handle all the way at first.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org89ed67c" class="outline-3">
+<h3 id="org89ed67c">Sand</h3>
+<div class="outline-text-3" id="text-org89ed67c">
+<p>
+Sand the edges of the shaped cane with 220 WD
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge11cbf1" class="outline-3">
+<h3 id="orge11cbf1">Forming the tube</h3>
+<div class="outline-text-3" id="text-orge11cbf1">
+<p>
+Function of the bevel is to modify the shape contour to make sure the mechanical fulcrum at the second wire works correctly. It also helps tubes seal, and be more secure on the bocal. It can also reduce the interior volume of the reed, equivalent to a more narrow shaper. Also can reinforce the de/regenerative tip function. (<a href="cooper05_bevel.html#ID-3648cfb6-9e7a-420f-ade3-70e54aae2cbe">see another of his articles</a>)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org56642da" class="outline-3">
+<h3 id="org56642da">Method</h3>
+<div class="outline-text-3" id="text-org56642da">
+<p>
+Bevels at 30 degrees on all four sides. Inner edge only at the collar, then 100% depth by the second wire to the end. Also says that beveling one side on each side works as well.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org68b13e8" class="outline-3">
+<h3 id="org68b13e8">Scoring</h3>
+<div class="outline-text-3" id="text-org68b13e8">
+<p>
+7 cuts, just through the bark from collar to butt. One in center, then equidistant on either side, then half every section. Center score must be exact.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8dd1e82" class="outline-3">
+<h3 id="org8dd1e82">Slippage</h3>
+<div class="outline-text-3" id="text-org8dd1e82">
+<p>
+Thinks some slippage is integral to successful reeds. Most people's torque is to the right, so lip the upper butt end to the left a little
+Beveling can be used to guarantee slippage. Wire twist direction should also match. Counterclockwise if the upper butt is slipped left, and clockwise if it is slipped right. (<a href="cooper09_slipp.html#ID-a4ced4c8-dea9-47f4-ada8-35fc467c0897">See his other article</a>)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org24d97cd" class="outline-3">
+<h3 id="org24d97cd">Wires</h3>
+<div class="outline-text-3" id="text-org24d97cd">
+<p>
+Make sure there are isosceles triangles when pulling wire and twisting to tighten. At the last, push the pliers towards the cane and do a quarter turn to close the remaining gap and lock the twist. Puts the first and second wires on.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org081bf2b" class="outline-3">
+<h3 id="org081bf2b">Split cane</h3>
+<div class="outline-text-3" id="text-org081bf2b">
+<p>
+Uses needle nose pliers between the two halves of the butt, and uses a twisting motion to separate the center score from the back to the second wire. Does this for all eight sections of the cane. This is  the first mention I have seen of doing something like this. It also the first time an article has mentioned what I've been doing. He says some do this with razor blades, but the cuts are parallel and not in concurrance with the curvature and grain of the cane.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org20380b3" class="outline-3">
+<h3 id="org20380b3">Rounding the tube</h3>
+<div class="outline-text-3" id="text-org20380b3">
+<p>
+Pinch sides of second wire until the mandrel can get in. Wiggle the reed onto the mandrel. Then put on the third wire
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5468a08" class="outline-3">
+<h3 id="org5468a08">Mashing</h3>
+<div class="outline-text-3" id="text-org5468a08">
+<p>
+After the third wire is on, mash with the round ends of pliers on the tube from butt to second wire. Then retighten the third wire. The side seam should neck in (maybe more with eccentric gouging?)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3e7a0a6" class="outline-3">
+<h3 id="org3e7a0a6">360 second wire</h3>
+<div class="outline-text-3" id="text-org3e7a0a6">
+<p>
+Rotate the second wire around the reed with pressure from the pliers. Then lock it in position.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org77593b9" class="outline-3">
+<h3 id="org77593b9">After drying</h3>
+<div class="outline-text-3" id="text-org77593b9">
+<p>
+After drying, insert the forming mandrel again. The seam should separate. Mash the tube again with the round part of the pliers. Tension the third wire, rotate 360, and then relock. Then do the same with the second wire. First wire needs to be a little loose still. (Apparently short bladed reeds really need this)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfae3e4e" class="outline-3">
+<h3 id="orgfae3e4e">Herring notches</h3>
+<div class="outline-text-3" id="text-orgfae3e4e">
+<p>
+File herring bone notches on the tube. Four rows (1 under the third wire). This helps the bindind stay in place. It also improves the second wire's reverse function. (the fulcrum?)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga13a422" class="outline-3">
+<h3 id="orga13a422">No duco underneath?</h3>
+<div class="outline-text-3" id="text-orga13a422">
+<blockquote>
+<p>
+Do not, under
+any circumstances, use duco cement or other type lac-
+quers and glue under the wrapping!
+</p>
+</blockquote>
+<p>
+Claims it has ruined more potentially good reeds than anything else except maybe overtightening the first wire
+</p>
+</div>
+</div>
+<div id="outline-container-org341a073" class="outline-3">
+<h3 id="org341a073">Wrapping</h3>
+<div class="outline-text-3" id="text-org341a073">
+<p>
+3 or 4 coats of duco&#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-org278a43d" class="outline-3">
+<h3 id="org278a43d">1 year!</h3>
+<div class="outline-text-3" id="text-org278a43d">
+<p>
+Ideally says that blanks should be stored for a year before finishing them.
+</p>
+</div>
+</div>
+<div id="outline-container-org978f5e0" class="outline-3">
+<h3 id="org978f5e0">Soaking blank</h3>
+<div class="outline-text-3" id="text-org978f5e0">
+<p>
+Only soaking up to the first wire until capillary action brings the water to the butt end. 
+</p>
+</div>
+</div>
+<div id="outline-container-org2ad35b4" class="outline-3">
+<h3 id="org2ad35b4">Create the collar</h3>
+<div class="outline-text-3" id="text-org2ad35b4">
+<p>
+Puts collar 6mm or 1/4" from the bottom of the first wire. Take care with thinner edges as usual.
+</p>
+</div>
+</div>
+<div id="outline-container-org92f91f6" class="outline-3">
+<h3 id="org92f91f6">Cuts</h3>
+<div class="outline-text-3" id="text-org92f91f6">
+<p>
+Make five cuts from the back thickness mark to the collar. One in the center, then one on each side a little closer to the tip. And on the edges even closer to the back. Then clip the tip 29.4mm in front of first wire
+</p>
+</div>
+</div>
+<div id="outline-container-org3de0f74" class="outline-3">
+<h3 id="org3de0f74">Basic finishing</h3>
+<div class="outline-text-3" id="text-org3de0f74">
+<p>
+Thumbnail shape first, more convex than I usually imagine
+Check the spine thickness 1cm back from the tip. It's the critical point and cannot be more than .58mm (this is probably a little before the midpoint? Or maybe is the midpoint? So many "cricital points" for each maker.
+First day should preferrably be more vibrant and lower in pitch than desired. Playable but lacking refinement.
+</p>
+</div>
+</div>
+<div id="outline-container-org672a916" class="outline-3">
+<h3 id="org672a916">Knockenhauer measurements</h3>
+<div class="outline-text-3" id="text-org672a916">
+<p>
+Third wire 6.4mm from butt, first wire is the midpoint of the entire reed to middle of wire. Max is 28.6mm, min is 27mm. Those same measurements are on the other side to the tip. Second wire is a quarter inch behind that (6.4mm). The collar is 6.4mm or a quarter inch from the back of the first wire. Tip width is max 14.3, min is 13.5 (that's a lot thinner than Chris Weaitt's 15mm). Opening should be 1.6mm or 1/16th of an inch. The tube should be 6.1mm tall at the second wire, and 6.2mm at the first wire. Gouge is 1.27mm at center and .89mm at tip width.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd331c7b" class="outline-3">
+<h3 id="orgd331c7b">Blade measurements</h3>
+<div class="outline-text-3" id="text-orgd331c7b">
+<p>
+8 stations that are 1/8 inch apart or 3.2mm. Critical point is station 5, which is 9.6mm from tip, or 3/8". 
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Station</th>
+<th scope="col" class="org-left">1</th>
+<th scope="col" class="org-right">2</th>
+<th scope="col" class="org-right">3</th>
+<th scope="col" class="org-right">4</th>
+<th scope="col" class="org-right"><b>5</b></th>
+<th scope="col" class="org-right">6</th>
+<th scope="col" class="org-right">7</th>
+<th scope="col" class="org-right">8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Maximum 1st Stage Reed</td>
+<td class="org-left">.76mm</td>
+<td class="org-right">.71mm</td>
+<td class="org-right">.66</td>
+<td class="org-right">.61</td>
+<td class="org-right">.56</td>
+<td class="org-right">.46</td>
+<td class="org-right">.36</td>
+<td class="org-right">.25</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">.03"</td>
+<td class="org-right">.028</td>
+<td class="org-right">.026</td>
+<td class="org-right">.024</td>
+<td class="org-right">.022</td>
+<td class="org-right">.018</td>
+<td class="org-right">.014</td>
+<td class="org-right">.01</td>
+</tr>
+
+<tr>
+<td class="org-left">Average 2nd Stage Reeds</td>
+<td class="org-left">.71mm</td>
+<td class="org-right">.66</td>
+<td class="org-right">.61</td>
+<td class="org-right">.56</td>
+<td class="org-right">.51</td>
+<td class="org-right">.41</td>
+<td class="org-right">.31</td>
+<td class="org-right">.2</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">.028"</td>
+<td class="org-right">.026</td>
+<td class="org-right">.024</td>
+<td class="org-right">.022</td>
+<td class="org-right">.02</td>
+<td class="org-right">.016</td>
+<td class="org-right">.012</td>
+<td class="org-right">.008</td>
+</tr>
+
+<tr>
+<td class="org-left">Minimum 3rd Stage Reeds</td>
+<td class="org-left">.66mm</td>
+<td class="org-right">.61</td>
+<td class="org-right">.56</td>
+<td class="org-right">.51</td>
+<td class="org-right">.46</td>
+<td class="org-right">.36</td>
+<td class="org-right">.26</td>
+<td class="org-right">.15</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">.026"</td>
+<td class="org-right">.024</td>
+<td class="org-right">.022</td>
+<td class="org-right">.02</td>
+<td class="org-right">.018</td>
+<td class="org-right">.014</td>
+<td class="org-right">.01</td>
+<td class="org-right">.006</td>
+</tr>
+
+<tr>
+<td class="org-left">Summer or 2nd Bassoon Reeds</td>
+<td class="org-left">.58mm</td>
+<td class="org-right">.58</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">.023"</td>
+<td class="org-right">.023</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+This implies I think that in summers he was playing at high altitudes, and took more out at the back.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf6c253e" class="outline-3">
+<h3 id="orgf6c253e">Seven Finishing Procedures</h3>
+<div class="outline-text-3" id="text-orgf6c253e">
+<p>
+With shaped plaque
+</p>
+<ol class="org-ol">
+<li>Establish spine dimensions by filing or scraping a flat ribbon of middle fifth of each blade. This ribbon widens at the tip as the arch flattens</li>
+<li>File or scrape flat ribbons down both rails matching the the straight tapers rail to rail, blade to blade. The line of contact is tangential to the curve, 1/16" in from the edge of the rail</li>
+<li>File or scrape ribons down the channels. This eliminates ridges from 1 and 2. Avoid areas already established. He prefers a grobet 4" extra narrow two sided 0 cut pillar file.</li>
+<li>With flat plaque in do wings of the blade. Nearly 90 degree angle from cane. Starts about 2/3 back from tip and deepens and widens as it gets to the tip. This establishes the de/regenerative curve.</li>
+<li>Do the corners, don't tear them! About 3mm equilateral triangles.</li>
+<li>Snap in extreme tip 2mm back from tip. This blends in with the earsand tapers slightly from center to corners.</li>
+<li>Smooth out work with fine file. Check for de/regenerative curve. Take out more wings to get it to the desired cupid bowing. If the tip closing is succession of intersecting arcs until nearly parallel, snaps closed and jumps open abruptly, this will be a raucous undamped sound. Work on wings again. If it's assymetrical, then work on the bad quadrant wings. If it is excessively bowed, there is little that can be done. Opening the tip with the second wire can help a little bit.</li>
+<li>Check with seven acoustic reed criteria (of course, in another aritcle)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf128985" class="outline-3">
+<h3 id="orgf128985">Testing</h3>
+<div class="outline-text-3" id="text-orgf128985">
+<p>
+Should play well, but don't panic if it still has the following
+</p>
+<ol class="org-ol">
+<li>somewhat flat</li>
+<li>E is a little unstable and drops</li>
+<li>Sound too open or lacks focus</li>
+<li>High registre attacks unsure</li>
+<li>C# unstable or drops</li>
+</ol>
+<p>
+Most will be fixed with a few minutes of playing. Don't prematurely clip the tips of the more vibrant reeds. 
+As reeds break in they become more resistant, more focused, higher in pitch, and lose the lows and gain the highs
+Experienced reed makers use this to make more vibrant, free, lower pitched, first stage reeds succeed on their own.
+</p>
+</div>
+</div>
+<div id="outline-container-org988619b" class="outline-3">
+<h3 id="org988619b">The next days</h3>
+<div class="outline-text-3" id="text-org988619b">
+<p>
+As reeds heavy and sharpen, check first for tip symmetry and correct with wing work. Repeat the seven finishing techniques but removing less and less each time
+</p>
+</div>
+</div>
+<div id="outline-container-org5bf10c1" class="outline-3">
+<h3 id="org5bf10c1">Structure vs Substance</h3>
+<div class="outline-text-3" id="text-org5bf10c1">
+<p>
+Structure is the mechanical elements (levers/fulcrums, arches, etc.) that contribute to strength
+Substance is mass of cane in the blade that contributes to strength
+When cane is removed from blades, structural elements substitute for the removed cane.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf02cc84" class="outline-3">
+<h3 id="orgf02cc84">Two Approaches</h3>
+<div class="outline-text-3" id="text-orgf02cc84">
+<ol class="org-ol">
+<li>Remove as little cane as possible from the blade. This is the wedge scrape, straight-taper reed design. Strong heavy blades with weaker structural components.</li>
+<li>Remove as much cane as possible from the blade. This is the parallel scrape, tip-taper reed design. Weak, thin, free blades with stronger structural elements.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge4e97e2" class="outline-3">
+<h3 id="orge4e97e2">Cooper Parallel</h3>
+<div class="outline-text-3" id="text-orge4e97e2">
+<p>
+As the finishing procedures take place, blades become thinner, and weaker as cane is removed. Shorter and stronger from miniscule clippings, and narrower and stronger in width from slippage or planing of rails.
+1st wire fulcrums are gradually arched.
+Higher and narrower (stronger) by opening first wire from the sides. If needed, closing the first wire reduces structural arch strength and size of tip opening.
+Second wire's reverse function micro-adjusts tip openings, pitch center, and freedom of vibration without effecting the blades strength.
+Vertical pinching opens the tip, lowers the pitch, and frees vibrations, especially lows.
+Pinching from sides results in opposite but equal results.
+Reverse second wire function is essential of superior reeds. Almost impossible to final balance a reed without it.
+Strive for parallelism between the first and second wire heights. Parallel blades require parallel throats.
+</p>
+</div>
+</div>
+<div id="outline-container-org6604990" class="outline-3">
+<h3 id="org6604990">Don't be afraid to remove cane</h3>
+<div class="outline-text-3" id="text-org6604990">
+<p>
+Historically more bad reeds from too much cane than too much taken away
+If too much is removed, arching the first wire or clipping tip can compensate.
+Wire function is a precise tool for final balance of resistance and flexibility
+Using cubist procedures should result in a good number of second stage reeds. Very usable but requiring a little more refinement.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd8899e4" class="outline-3">
+<h3 id="orgd8899e4">Eubanks book</h3>
+<div class="outline-text-3" id="text-orgd8899e4">
+<p>
+Refers to the advanced reed design testing and procedures for the finishing stage. Presumably this means he uses them (at least the original publication) with good results on a parallel scrape blade.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a28be241-e2bf-4c62-892a-71308ee296f7
+:END:
+#+title: Tone difference
+
+
+The perspective we have as a performer needs to be brighter, reedier, and louder than the ideal sound we want the listener to hear. At the distance of about 15-20 feet, the edginess of the sound disappears in to the resonance of the listener. If we try and make a reed that plays extra dark, etc., it will sound dead to the listener 15-20 feet away. The challenge is to find the balance.
+
+[[cite:&morris05_teach_method_lewis_hugh_cooper]]

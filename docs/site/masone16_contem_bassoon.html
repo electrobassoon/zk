@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>masone16_contem_bassoon</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">masone16_contem_bassoon</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org4d09e9f">The contemporary bassoonist: music for interactive electroacoustics and bassoon</a>
+<ul>
+<li><a href="#org7210595">Familiarity&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></a></li>
+<li><a href="#orgd5fa10c">Contemporary</a></li>
+<li><a href="#org06e200f">Performance Practice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pp">pp</span></span></a></li>
+<li><a href="#orge3ab57c">Composer Performer Interaction</a></li>
+<li><a href="#org33b3138">History&#xa0;&#xa0;&#xa0;<span class="tag"><span class="history">history</span></span></a></li>
+<li><a href="#org43bf5f1">Interactive</a></li>
+<li><a href="#orgb3a7191">Problems&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></a></li>
+<li><a href="#org12f3421">FIxed Media&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></a></li>
+<li><a href="#org68d5fca">Techinician&#xa0;&#xa0;&#xa0;<span class="tag"><span class="setup">setup</span></span></a></li>
+<li><a href="#org1656e93">Programming</a></li>
+<li><a href="#org33f263f">Usability</a></li>
+<li><a href="#org18d81a9">Difference&#xa0;&#xa0;&#xa0;<span class="tag"><span class="setup">setup</span>&#xa0;<span class="quote">quote</span></span></a></li>
+<li><a href="#orge0a7bc0">Practice with tech&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span>&#xa0;<span class="tech">tech</span></span></a></li>
+<li><a href="#orga1be64e">Amplification&#xa0;&#xa0;&#xa0;<span class="tag"><span class="amp">amp</span></span></a></li>
+<li><a href="#orgeed7283">Microphones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="amp">amp</span></span></a></li>
+<li><a href="#org423f100">Sitting or standing&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></a></li>
+<li><a href="#orga1f111a">Responsibility&#xa0;&#xa0;&#xa0;<span class="tag"><span class="quote">quote</span></span></a></li>
+<li><a href="#org7e6945b">Co composer</a></li>
+<li><a href="#orga24833b">Pitch Tracking&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></a></li>
+<li><a href="#org7c46708">Score Following</a></li>
+<li><a href="#orgdf908ba">Sand Daemon</a></li>
+<li><a href="#org4935bfc">Technicians</a></li>
+<li><a href="#orgb5adf01">Benefit of Live Composers</a></li>
+<li><a href="#orgf383eee">composer interviews</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4d09e9f" class="outline-2">
+<h2 id="org4d09e9f">The contemporary bassoonist: music for interactive electroacoustics and bassoon</h2>
+<div class="outline-text-2" id="text-org4d09e9f">
+</div>
+
+<div id="outline-container-org7210595" class="outline-3">
+<h3 id="org7210595">Familiarity&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></h3>
+<div class="outline-text-3" id="text-org7210595">
+<p>
+Much of the music is unknown to bassoonists and is intimidating.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd5fa10c" class="outline-3">
+<h3 id="orgd5fa10c">Contemporary</h3>
+<div class="outline-text-3" id="text-orgd5fa10c">
+<p>
+If half the composers of "contemporary" bassoon music are dead, why do we still call it "contemporary"?
+</p>
+</div>
+</div>
+
+<div id="outline-container-org06e200f" class="outline-3">
+<h3 id="org06e200f">Performance Practice&#xa0;&#xa0;&#xa0;<span class="tag"><span class="pp">pp</span></span></h3>
+<div class="outline-text-3" id="text-org06e200f">
+<p>
+Performance practice mostly deals with the score, but in electroacoustic music it needs to go beyond that, and include the music, amplification, computers, hardware, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge3ab57c" class="outline-3">
+<h3 id="orge3ab57c">Composer Performer Interaction</h3>
+<div class="outline-text-3" id="text-orge3ab57c">
+<p>
+Most works written for bassoon and interactive electronics are because of collaborations between the performer and the composer
+</p>
+</div>
+</div>
+
+<div id="outline-container-org33b3138" class="outline-3">
+<h3 id="org33b3138">History&#xa0;&#xa0;&#xa0;<span class="tag"><span class="history">history</span></span></h3>
+<div class="outline-text-3" id="text-org33b3138">
+<p>
+Most started after WWII in Europe with magnetic tape recording. The first modern recording studio was in France in 1951 with the <i>Groupe de Recherche de Musique Concrete</i>. Boulez, Stockhausen, and Messiaen started here.
+</p>
+
+<p>
+Synthesizers became more prominent, and Milton Babbitt and others started the Columbia-Princeton Electronic Music Center and had its first concerts by 1961.
+</p>
+
+<p>
+First bassoon and electroacoustic works were in the early 1970s. <i>Aria No. 4</i> by Elliot Schwarts in 1972. Earliest for solo bassoon and tape. Miklos Maros <i>Manipulations No. 1</i> was for bassoon and Svenson-Box in 1976. Possibly earliest bassoon and interactive electronics piece. Paul-Heinz Dittrich's <i>the-m for bassoon and live-electronics</i> in 1982-3. Tech was limited to tape delay systems, ring modulators, contact microphones, and effect modules of tremolo, reverb, and phasing. A piece like <i>the-m</i> can be simulated using something like Max/MSP. <i>The-m</i> was done in 2011 this way.
+</p>
+
+<p>
+The 1980s had lots of newer works. <i>Alba</i> by Richard Barrett is probably the most significant. It is now unplayable because of obsolete technology. Many bassoon and electronics pieces are just amplified bassoon, like Stockhausen's <i>Fagott</i> in 1995.
+</p>
+
+<p>
+IRCAM has some of the most complex bassoon and electronics pieces.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org43bf5f1" class="outline-3">
+<h3 id="org43bf5f1">Interactive</h3>
+<div class="outline-text-3" id="text-org43bf5f1">
+<p>
+Some scholars would say triggering fixed media with a pedal is not interactive. It has to interpret the signal and playback something based on that.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb3a7191" class="outline-3">
+<h3 id="orgb3a7191">Problems&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></h3>
+<div class="outline-text-3" id="text-orgb3a7191">
+<p>
+Exposure. Professors aren't introducing this music to their students. Professors are often the main source of repertoire for their students.
+</p>
+
+<p>
+Music. The music can be the most difficult in the repertoire. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org12f3421" class="outline-3">
+<h3 id="org12f3421">FIxed Media&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></h3>
+<div class="outline-text-3" id="text-org12f3421">
+<p>
+McNutt quotes. Fixed Media is the worst accompanist possible.
+</p>
+
+<p>
+Pestova's quote "It is important to note that live electronics differ from fixed media by giving the composer and the performer an opportunity to escape the potential rigidity of strict synchronization, and to have the electronic as well as instrumental parts of the piece sound different in every performance."
+</p>
+</div>
+</div>
+
+<div id="outline-container-org68d5fca" class="outline-3">
+<h3 id="org68d5fca">Techinician&#xa0;&#xa0;&#xa0;<span class="tag"><span class="setup">setup</span></span></h3>
+<div class="outline-text-3" id="text-org68d5fca">
+<p>
+A nice analogy of the reed to the bassoon being like the performer and the hardware. Either one can be at fault. We need to know our side of things well so that we can fix our problems.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1656e93" class="outline-3">
+<h3 id="org1656e93">Programming</h3>
+<div class="outline-text-3" id="text-org1656e93">
+<p>
+It is not necessary to know how to design patches to perform these works.
+Having a basic understanding of how a patch looks and operates can be useful.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org33f263f" class="outline-3">
+<h3 id="org33f263f">Usability</h3>
+<div class="outline-text-3" id="text-org33f263f">
+<p>
+Most composers make their patches as user friendly as possible. Just a couple of mouse clicks.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org18d81a9" class="outline-3">
+<h3 id="org18d81a9">Difference&#xa0;&#xa0;&#xa0;<span class="tag"><span class="setup">setup</span>&#xa0;<span class="quote">quote</span></span></h3>
+<div class="outline-text-3" id="text-org18d81a9">
+<p>
+"Because Max/MSP is able to do so many things, and each patch is individualized, every patch will look different from another, especially from composer to composer." good quote to justify the bibliography section
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge0a7bc0" class="outline-3">
+<h3 id="orge0a7bc0">Practice with tech&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span>&#xa0;<span class="tech">tech</span></span></h3>
+<div class="outline-text-3" id="text-orge0a7bc0">
+<p>
+Solution is lots of practice with the technology. It's like rehearsing with another person in chamber music. You will have more experience of what can go wrong and how to fix it.
+</p>
+
+<p>
+Nathan Davis quote
+"Some performers don't realize how much they must practice with their electronics and get to know them - or think they can just learn their part and means they have learned the piece. A piece with live electronics should be chamber music. This never comes up with those who commission my pieces, but it sometimes does as the pieces go out into the world." 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga1be64e" class="outline-3">
+<h3 id="orga1be64e">Amplification&#xa0;&#xa0;&#xa0;<span class="tag"><span class="amp">amp</span></span></h3>
+<div class="outline-text-3" id="text-orga1be64e">
+<p>
+Amplification will always be a challenge because of the length of the instrument and it's uneven resonances. Little Jake works well but alters the sound. It needs a direct box of some kind.
+</p>
+
+<p>
+The bocal can sometimes add sounds of breathing, bocal condensation, finger noieses, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgeed7283" class="outline-3">
+<h3 id="orgeed7283">Microphones&#xa0;&#xa0;&#xa0;<span class="tag"><span class="amp">amp</span></span></h3>
+<div class="outline-text-3" id="text-orgeed7283">
+<p>
+Mics sound more natural but add to the setup difficulties. They often restrict movement and can have feedback issues. Some use lapel microphones.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org423f100" class="outline-3">
+<h3 id="org423f100">Sitting or standing&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></h3>
+<div class="outline-text-3" id="text-org423f100">
+<p>
+The choice to sit or stand when there are pedals can be a hard one. It requires practice
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga1f111a" class="outline-3">
+<h3 id="orga1f111a">Responsibility&#xa0;&#xa0;&#xa0;<span class="tag"><span class="quote">quote</span></span></h3>
+<div class="outline-text-3" id="text-orga1f111a">
+<p>
+Rachel Yoder's diss has a quote saying the composer creates and environment and gives freedom to the performer. But the performer then has more responsibility for the end result.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7e6945b" class="outline-3">
+<h3 id="org7e6945b">Co composer</h3>
+<div class="outline-text-3" id="text-org7e6945b">
+<p>
+Describes how she became part of the composition process in Ripped Up Maps
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga24833b" class="outline-3">
+<h3 id="orga24833b">Pitch Tracking&#xa0;&#xa0;&#xa0;<span class="tag"><span class="difficulty">difficulty</span></span></h3>
+<div class="outline-text-3" id="text-orga24833b">
+<p>
+Pitch tracking is difficult on the bassoon, as resonances can throw things off. One mic can't properly capture the sound (perhaps a pickup can help this)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7c46708" class="outline-3">
+<h3 id="org7c46708">Score Following</h3>
+<div class="outline-text-3" id="text-org7c46708">
+<p>
+On the oboe lots of things can cause a pitch trigger not to trigger. It is possible because of the tone, timbre, and articulation of double reeds that this is worse than with other instruments.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdf908ba" class="outline-3">
+<h3 id="orgdf908ba">Sand Daemon</h3>
+<div class="outline-text-3" id="text-orgdf908ba">
+<p>
+Some clues of setup for piece.  A 4-channel midi pedal (surely not 4 channels but 4 signals?) Difficult to push buttons and play at the right time
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4935bfc" class="outline-3">
+<h3 id="org4935bfc">Technicians</h3>
+<div class="outline-text-3" id="text-org4935bfc">
+<p>
+In some venues it may not be feasible that the technician can read music to advance a patch. A foot pedal can help be more confident in a traveling performance.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb5adf01" class="outline-3">
+<h3 id="orgb5adf01">Benefit of Live Composers</h3>
+<div class="outline-text-3" id="text-orgb5adf01">
+<p>
+A benefit of playing these pieces is that often composers are still alive and can answer questions about what they wrote
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf383eee" class="outline-3">
+<h3 id="orgf383eee">composer interviews</h3>
+<div class="outline-text-3" id="text-orgf383eee">
+<p>
+start here
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

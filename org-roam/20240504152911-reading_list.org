@@ -20,18 +20,9 @@ Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." 
 
 Christlieb, Don. "The Reed Problem." /Journal of IDRS/ 25 (1997): 83-84. (brief glance seems not too important)
 
-
-Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. /The Double Reed/ 13, no. 3 (1990):59-68.[[id:e775af75-1576-46a6-b82e-0983c7df3d2b][cooper90_reed_contr]]
-
-
---- . "Variable Damping: Window of Expressive Opportunity." /The Double Reed/ 32, no. 4 (2009): 105-112.
-[[id:58ba5c57-46a0-4d9a-80e4-b42d469b8956][cooper09_variab_dampin]]
-
-
 Almenraeder, Karl. "On the Making of Bassoon Reeds." /Journal of the IDRS/ 8 (1980): 1-6.
 
 Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." /The Double Reed/ 17, no. 1 (1994): 1-4.
-
 
 Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." /The Double Reed/ 18, no. 3 (1995): 53-63.
 [[id:57c03c4a-4d0d-4e66-a6bd-050c088abc8e][herzberg95_years_ignor_neglec_denial]]

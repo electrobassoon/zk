@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c412bb8c-3f53-4494-96da-39d14be7fe06
+:END:
+#+title: Tonal accuity
+
+We need to train students to develop their tonal accuity. “Equal tempered tuners guarantee being out of tune on everything but the fundamental and its various octaves, in comparison to the frequency requirements of our non-linear hearing mechanism which is the final arbiter of the harmonic nature of man's system (the natural overtone series).”
+
+Some ways to train it (before having electronic sound programming! Idea for future teaching)
+
+Have three glasses of water. Fill one with a random amount of water to be the control pitch. Then use the two other glasses to get the second one to match the first pitch.
+
+You can also have two students play the same pitch. Ideally start them without any beats, then have one student bend pitch up and down to hear the beats. Then reverse roles. This can also be done with the consonant intervals. Note that the tuner will say that you are out of tune because the tuner is equal temperment based.
+
+[[cite:&morris05_teach_method_lewis_hugh_cooper]]

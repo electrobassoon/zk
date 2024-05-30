@@ -2,7 +2,7 @@
 :ID:       ed64eb8a-547b-4d2a-ae0b-8c3ececdcbde
 :ROAM_REFS: cite:brown07_comput_music_educat
 :END:
-#+TITLE: brown07_comput_music_educat: Computers in music education: amplifying musicality
+#+TITLE: brown07_comput_music_educat
 
 * Computers in music education: amplifying musicality
 :PROPERTIES:

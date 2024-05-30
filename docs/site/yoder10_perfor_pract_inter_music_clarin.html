@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>yoder10_perfor_pract_inter_music_clarin</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">yoder10_perfor_pract_inter_music_clarin</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7b640c2">Performance Practice of Interactive Music for  Clarinet and Computer</a>
+<ul>
+<li><a href="#org4731ec8">Reluctance</a></li>
+<li><a href="#orgd5b98b2">Performance Practice</a></li>
+<li><a href="#org8c60fcd">History</a></li>
+<li><a href="#org6b6e866">Two schools</a></li>
+<li><a href="#org678a25d">multichannel</a></li>
+<li><a href="#org0666a67">concert music</a></li>
+<li><a href="#org260f260">Computers</a></li>
+<li><a href="#orgf792427">MIDI</a></li>
+<li><a href="#org130d460">Max/MSP and 4X</a></li>
+<li><a href="#org71c6c91">MSP</a></li>
+<li><a href="#org96e4202">Interactive works</a></li>
+<li><a href="#org39e019c">philosophy</a></li>
+<li><a href="#org4849f3e">Overview of Rowe</a></li>
+<li><a href="#orgb8a1f62">Other systems</a></li>
+<li><a href="#org6138b44">PP</a></li>
+<li><a href="#org1b549f5">The Score</a></li>
+<li><a href="#org104f6a5">Performance vs Study Scores</a></li>
+<li><a href="#orgefbf99b">Score</a></li>
+<li><a href="#org443f339">Amplification</a></li>
+<li><a href="#org82bff37">Mic choice</a></li>
+<li><a href="#orgc5e5cbc">Mic use</a></li>
+<li><a href="#org25659da">Speaker positioning</a></li>
+<li><a href="#orge4b0c10">Approach 2</a></li>
+<li><a href="#orgb015b3c">Score following</a></li>
+<li><a href="#org12a80b3">Pedals</a></li>
+<li><a href="#org5395618">Assistants</a></li>
+<li><a href="#org4bd0a1f">Musical Function</a></li>
+<li><a href="#orgfa46a35">Conclusions</a></li>
+<li><a href="#orgc2022c5">More conclusions</a></li>
+<li><a href="#orgbdfad64">Outlook</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7b640c2" class="outline-2">
+<h2 id="org7b640c2">Performance Practice of Interactive Music for  Clarinet and Computer</h2>
+<div class="outline-text-2" id="text-org7b640c2">
+</div>
+<div id="outline-container-org4731ec8" class="outline-3">
+<h3 id="org4731ec8">Reluctance</h3>
+<div class="outline-text-3" id="text-org4731ec8">
+<p>
+<code>"many performers are reluctant to approach these works due to unfamiliarity with the genre and its technical and musical considerations."</code>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd5b98b2" class="outline-3">
+<h3 id="orgd5b98b2">Performance Practice</h3>
+<div class="outline-text-3" id="text-orgd5b98b2">
+<p>
+Performance practice traditionally has dealt with the written score, but needs to expand to include computer software, technology, microphones, pedals, etc.
+</p>
+
+<p>
+Interactive music requires specific knowledge and skills that performers may not encounter in other genres of contemporary music.
+Microphone technique, spatialization, sound processing, improvisation
+</p>
+
+<p>
+PP is often solved with close collaboration between composer and performer, but doesn't get spread to new performers
+</p>
+</div>
+</div>
+<div id="outline-container-org8c60fcd" class="outline-3">
+<h3 id="org8c60fcd">History</h3>
+<div class="outline-text-3" id="text-org8c60fcd">
+<p>
+Early pioneers were Varese, Busoni, and Italian Futurists. Timbre was most important, including noise, nature sounds, etc.
+</p>
+</div>
+</div>
+<div id="outline-container-org6b6e866" class="outline-3">
+<h3 id="org6b6e866">Two schools</h3>
+<div class="outline-text-3" id="text-org6b6e866">
+<p>
+French created musique concrete
+German like Stockhausen dealt with sound synthesis and processing electronic sound
+</p>
+</div>
+</div>
+<div id="outline-container-org678a25d" class="outline-3">
+<h3 id="org678a25d">multichannel</h3>
+<div class="outline-text-3" id="text-org678a25d">
+<p>
+Development of multichannel in the 1960s to create spatialization
+</p>
+</div>
+</div>
+<div id="outline-container-org0666a67" class="outline-3">
+<h3 id="org0666a67">concert music</h3>
+<div class="outline-text-3" id="text-org0666a67">
+<p>
+by 1960 many composers found performance of tape music lacking, and created works for musician + tape
+Wasn't really active, although good performers could make it seem that way
+</p>
+</div>
+</div>
+<div id="outline-container-org260f260" class="outline-3">
+<h3 id="org260f260">Computers</h3>
+<div class="outline-text-3" id="text-org260f260">
+<p>
+Signal processing of computers made old hardware things possible on software. Computers offered textural complexity, rhythmic precision, and control over everything.
+</p>
+
+<p>
+Access to these was not easy early on because of size, cost, and expertise. That didn't come until the 80
+</p>
+</div>
+</div>
+<div id="outline-container-orgf792427" class="outline-3">
+<h3 id="orgf792427">MIDI</h3>
+<div class="outline-text-3" id="text-orgf792427">
+<p>
+Midi came in 1982 to make communication easier. This combined with computers to create systems like Cypher, Kyma, and Max.
+</p>
+</div>
+</div>
+<div id="outline-container-org130d460" class="outline-3">
+<h3 id="org130d460">Max/MSP and 4X</h3>
+<div class="outline-text-3" id="text-org130d460">
+<p>
+max was created at IRCAM and has become the most popular. Initially the program was to control the 4X synthesizer, and was used in the early interactive pieces from ircam.
+</p>
+</div>
+</div>
+<div id="outline-container-org71c6c91" class="outline-3">
+<h3 id="org71c6c91">MSP</h3>
+<div class="outline-text-3" id="text-org71c6c91">
+<p>
+MSP came to max in 1997.
+</p>
+
+<p>
+It has grown and many composers use it now.
+</p>
+</div>
+</div>
+<div id="outline-container-org96e4202" class="outline-3">
+<h3 id="org96e4202">Interactive works</h3>
+<div class="outline-text-3" id="text-org96e4202">
+<p>
+<code>Interactive composition offers the combination of the best human qualities of a live performer (gestural nuance, stage presence, character) with the best machine qualities of a computer (infinite sound possibilities, instant processing, rapid calculations).</code>
+</p>
+
+<p>
+<code>Electronics can extend the sound world of the live performer, while the performer can communicate musical understanding to an audience, eliminating the detachment and isolation of the typical electroacoustic performance.</code> quoted in <a href="&amp;rowe93_inter_music_system">&amp;rowe93_inter_music_system</a> page 5 or <a href="&amp;garnett01_aesth_inter_comput_music">&amp;garnett01_aesth_inter_comput_music</a> page 32
+</p>
+</div>
+</div>
+<div id="outline-container-org39e019c" class="outline-3">
+<h3 id="org39e019c">philosophy</h3>
+<div class="outline-text-3" id="text-org39e019c">
+<p>
+<code>Philosophical territory explored by interactive composition is a fundamental theme of life in the twenty-first century: the question of the nature of our relationship to machines, computers, and artificial intelligence systems.</code> quoted from Brian Belet, "Live Performance Interaction for Humans and Machines in the Early Twenty-First Century: One Composer's Aesthetics for Composition and Performance Practice" Organized Sound 8 (December 2003): 306.
+</p>
+</div>
+</div>
+<div id="outline-container-org4849f3e" class="outline-3">
+<h3 id="org4849f3e">Overview of Rowe</h3>
+<div class="outline-text-3" id="text-org4849f3e">
+</div>
+</div>
+<div id="outline-container-orgb8a1f62" class="outline-3">
+<h3 id="orgb8a1f62">Other systems</h3>
+<div class="outline-text-3" id="text-orgb8a1f62">
+<p>
+Kyma - very expensive but has external hardware for dsp called a pacarana
+</p>
+
+<p>
+chuck, supercollider
+</p>
+</div>
+</div>
+<div id="outline-container-org6138b44" class="outline-3">
+<h3 id="org6138b44">PP</h3>
+<div class="outline-text-3" id="text-org6138b44">
+<p>
+The numerous roles the performer has to fill goes beyond what is required in 18th, 19th, and 20th century works.
+</p>
+</div>
+</div>
+<div id="outline-container-org1b549f5" class="outline-3">
+<h3 id="org1b549f5">The Score</h3>
+<div class="outline-text-3" id="text-org1b549f5">
+<p>
+Notation is similar to 20th century work, graphical notation, complex rhythms, extended techniques, etc. However the computer part is something unique and new and inconsistent. Some options are staff notation, graphic notation, or textual descriptions.
+</p>
+</div>
+</div>
+<div id="outline-container-org104f6a5" class="outline-3">
+<h3 id="org104f6a5">Performance vs Study Scores</h3>
+<div class="outline-text-3" id="text-org104f6a5">
+<p>
+Some performers like having two versions, the study score with as much info as possible and the performance score for easier page turns <b>paraphrasing a Luara Carmichael quote</b>
+</p>
+</div>
+</div>
+<div id="outline-container-orgefbf99b" class="outline-3">
+<h3 id="orgefbf99b">Score</h3>
+<div class="outline-text-3" id="text-orgefbf99b">
+<p>
+<code>In interactive music, the notated score often only tells part of the story; the rest of the "score" is hidden inside of Max patches and lines of code.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org443f339" class="outline-3">
+<h3 id="org443f339">Amplification</h3>
+<div class="outline-text-3" id="text-org443f339">
+<p>
+Following the Stockhausen quote, Yoder says the same responsibility applies to amplified, processed, and playback sound. Working with sound engineers can help
+</p>
+</div>
+</div>
+<div id="outline-container-org82bff37" class="outline-3">
+<h3 id="org82bff37">Mic choice</h3>
+<div class="outline-text-3" id="text-org82bff37">
+<p>
+If the sound is very processed, close dynamic mics or contact mics can help prevent feedback. If the sound is to amplify the beautiful and pure clarinet, then having high quality mics is important. <b>paraphrasing a Laura Carmichael block quote</b>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5e5cbc" class="outline-3">
+<h3 id="orgc5e5cbc">Mic use</h3>
+<div class="outline-text-3" id="text-orgc5e5cbc">
+<p>
+From McNutt (unsure if I used it already) Acoustic musicians are rarely trained to work with microphones. Using it effectively requires practice and experience. It can expand sound, and make quiet sounds audible. It can be used for disembodied sound, or amplification of private sounds like breathing and key noise. <b>probably too close of a paraphrase</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org25659da" class="outline-3">
+<h3 id="org25659da">Speaker positioning</h3>
+<div class="outline-text-3" id="text-org25659da">
+<p>
+Two approaches, the recreation of studio sound where th espeakres are often in front of the performer pointing away. Musicians will usually need a monitor. An angle can help protect the performers ears
+</p>
+</div>
+</div>
+<div id="outline-container-orge4b0c10" class="outline-3">
+<h3 id="orge4b0c10">Approach 2</h3>
+<div class="outline-text-3" id="text-orge4b0c10">
+<p>
+This is to put the speakers onstage with the player, and the sound comes from the player
+</p>
+
+<p>
+Both approaches can work depending on the piece.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb015b3c" class="outline-3">
+<h3 id="orgb015b3c">Score following</h3>
+<div class="outline-text-3" id="text-orgb015b3c">
+<p>
+Score following is freeing, but often unreliable. Pitch tracking alone has issues because of the harmnoic spectrum, and doesn't deal well with multiphonics etc. And it is always vulnerable to performer error
+</p>
+</div>
+</div>
+<div id="outline-container-org12a80b3" class="outline-3">
+<h3 id="org12a80b3">Pedals</h3>
+<div class="outline-text-3" id="text-org12a80b3">
+<p>
+Many like the pedal, but some like Kimura don't. It can create a visual distraction, or a performer can push a pedal twice or miss it
+</p>
+</div>
+</div>
+<div id="outline-container-org5395618" class="outline-3">
+<h3 id="org5395618">Assistants</h3>
+<div class="outline-text-3" id="text-org5395618">
+<p>
+Some like sound engineers, projectionists, technologists, or collaborative partners. Can they read a score? Can they run a mixer? Do they have good musical instincts?
+</p>
+</div>
+</div>
+<div id="outline-container-org4bd0a1f" class="outline-3">
+<h3 id="org4bd0a1f">Musical Function</h3>
+<div class="outline-text-3" id="text-org4bd0a1f">
+<p>
+Just like when playing with a piano, you may try and evoke different things. Similarly with electronics you have to ask questions like, am I foreground or background? Overpowered or fighting? Harsh articulations to match electronics? What is the character?
+</p>
+</div>
+</div>
+<div id="outline-container-orgfa46a35" class="outline-3">
+<h3 id="orgfa46a35">Conclusions</h3>
+<div class="outline-text-3" id="text-orgfa46a35">
+<p>
+Study scores vs performance scores
+Interface is often neglected.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc2022c5" class="outline-3">
+<h3 id="orgc2022c5">More conclusions</h3>
+<div class="outline-text-3" id="text-orgc2022c5">
+<p>
+Many performers avoid the rep because it is difficult, costly, and unfamiliar. This is changing and is not insurmountable. Computers that can handle this are cheaper and cheaper, interface design is improving, open source pd has emerged (and free max runtime)
+Barriers are coming down. It is time to consider formal courses of instruction for performers at universities. 
+</p>
+</div>
+</div>
+<div id="outline-container-orgbdfad64" class="outline-3">
+<h3 id="orgbdfad64">Outlook</h3>
+<div class="outline-text-3" id="text-orgbdfad64">
+<p>
+Collaboration could come between composition department and vocal/instrumental studios
+Positive outlook. More and more performers will be drawn to it. Graduate specializations may come. It is a compelling genre.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

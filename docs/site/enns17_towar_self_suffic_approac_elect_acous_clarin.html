@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>enns17_towar_self_suffic_approac_elect_acous_clarin</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">enns17_towar_self_suffic_approac_elect_acous_clarin</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgbf80a04">Toward a Self-Sufficient Approach for the  Electronic-Acoustic Clarinetist</a>
+<ul>
+<li><a href="#orgaed9e4d">musique mixte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="terms">terms</span></span></a></li>
+<li><a href="#org3822367">Education state&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a></li>
+<li><a href="#org8102822">Pedagogical Goals</a></li>
+<li><a href="#org8037206">Professional Musicians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a></li>
+<li><a href="#org5cd04d3">Assistants</a></li>
+<li><a href="#orgfe5f63a">Pedagogical Challenges</a></li>
+<li><a href="#org042016d">Technology</a></li>
+<li><a href="#org0bc048d">tech knowledge</a></li>
+<li><a href="#org5bcefe4">Score</a></li>
+<li><a href="#org6067c85">stage map</a></li>
+<li><a href="#org6b5c865">Notation</a></li>
+<li><a href="#org3043d7c">Listening</a></li>
+<li><a href="#orgb411cf2">Listen in different places</a></li>
+<li><a href="#orgf474922">Interaction</a></li>
+<li><a href="#org3a4a784">Tape</a></li>
+<li><a href="#org31a8cb2">Tempo</a></li>
+<li><a href="#org055243f">Live Electronics</a></li>
+<li><a href="#orge491134">Intonation</a></li>
+<li><a href="#org3225858">Balance</a></li>
+<li><a href="#orgf1ad38b">Independent Performers</a></li>
+<li><a href="#org057e709">Volume Pedals</a></li>
+<li><a href="#org97aaf67">Analysis</a></li>
+<li><a href="#orgb12fa44">Musician's Health</a></li>
+<li><a href="#org106b69a">Hearing Damage</a></li>
+<li><a href="#org10bda36">Self-Sufficient Approach</a></li>
+<li><a href="#orgedba696">tours</a></li>
+<li><a href="#org5232f51">Purchasing Equipment</a></li>
+<li><a href="#org919cb6f">Learning a patch</a></li>
+<li><a href="#org533456b">Learning a piece</a></li>
+<li><a href="#org5736a1f">Learning electronics</a></li>
+<li><a href="#org52407ed">Pedagogical recommendations</a></li>
+<li><a href="#orgd8394f7">more pedagogical recommendations</a></li>
+<li><a href="#org520004d">Roles</a></li>
+<li><a href="#org6b6666c">Alex Shapiro quote</a></li>
+<li><a href="#orgb31c512">Stage</a></li>
+<li><a href="#org7d9d4e5">Benefits</a></li>
+<li><a href="#org9c7d121">Disadvantages</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbf80a04" class="outline-2">
+<h2 id="orgbf80a04">Toward a Self-Sufficient Approach for the  Electronic-Acoustic Clarinetist</h2>
+<div class="outline-text-2" id="text-orgbf80a04">
+</div>
+
+<div id="outline-container-orgaed9e4d" class="outline-3">
+<h3 id="orgaed9e4d">musique mixte&#xa0;&#xa0;&#xa0;<span class="tag"><span class="terms">terms</span></span></h3>
+<div class="outline-text-3" id="text-orgaed9e4d">
+<p>
+Various terms for musique mixte in English
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3822367" class="outline-3">
+<h3 id="org3822367">Education state&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h3>
+<div class="outline-text-3" id="text-org3822367">
+<p>
+Quote from Cort Lippe. "It may come as a surprise to some that presently it is still possible for performers, musicologists, and composers to complete their secondary education through the Ph.D. without ever coming into contact with electronic music."
+</p>
+
+<p>
+Without exposure and education, the tech may be beyond the capabilities of most performers
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8102822" class="outline-3">
+<h3 id="org8102822">Pedagogical Goals</h3>
+<div class="outline-text-3" id="text-org8102822">
+<p>
+technology, equipment, notation, listening, interaction, intonation, balance, analysis, musician's health
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8037206" class="outline-3">
+<h3 id="org8037206">Professional Musicians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h3>
+<div class="outline-text-3" id="text-org8037206">
+<p>
+Some reasons professional electro-acoustic musicians may not be the best resource
+</p>
+
+<ol class="org-ol">
+<li>Demanding rehearsal and performance schedules</li>
+<li>Teachers teach what they were taught, and because of how new it is, it doesn't make it into their teaching</li>
+<li>Limited time in private lessons and prioritizing fundamental skills</li>
+<li>Teacher doesn't have the skills</li>
+<li>Teacher doesn't like the repertoire</li>
+<li>In lessons the teacher focuses on the instrumental part instead of a holistic approach</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org5cd04d3" class="outline-3">
+<h3 id="org5cd04d3">Assistants</h3>
+<div class="outline-text-3" id="text-org5cd04d3">
+<p>
+IRCAM is almost a utopia with the teams of sound engineers and designers. In the real world many performers have to take control of their own electronics. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfe5f63a" class="outline-3">
+<h3 id="orgfe5f63a">Pedagogical Challenges</h3>
+<div class="outline-text-3" id="text-orgfe5f63a">
+</div>
+</div>
+<div id="outline-container-org042016d" class="outline-3">
+<h3 id="org042016d">Technology</h3>
+<div class="outline-text-3" id="text-org042016d">
+<p>
+Tech is the most challenging part and time consuming, and students have the least experience. Same with the professors.
+Hardware: laptops, audio interfaces, foot pedals, cables, microphones, stage monitors, loud speakers
+Software: iTunes, Max/MSP
+All need to be used in rehearsal and performance setups
+</p>
+
+<p>
+It may be easier to start a student with pre-recorded electronics
+</p>
+
+<p>
+Tape pieces can be practiced anywhere just using an ipod and headphones
+</p>
+</div>
+</div>
+<div id="outline-container-org0bc048d" class="outline-3">
+<h3 id="org0bc048d">tech knowledge</h3>
+<div class="outline-text-3" id="text-org0bc048d">
+<p>
+contrasting Yoder, says that not having knowledge of tech will hinder the independent performer
+</p>
+</div>
+</div>
+<div id="outline-container-org5bcefe4" class="outline-3">
+<h3 id="org5bcefe4">Score</h3>
+<div class="outline-text-3" id="text-org5bcefe4">
+<p>
+consult the score to see if the composer has given specific instructions
+</p>
+</div>
+</div>
+<div id="outline-container-org6067c85" class="outline-3">
+<h3 id="org6067c85">stage map</h3>
+<div class="outline-text-3" id="text-org6067c85">
+<p>
+Create a stage map for each piece.Helps to identify problems with hardware as well as to help the stage assistants. It also works as a checklist.
+</p>
+
+<p>
+There are added responsibilities for self sufficient musicians, mostly around equipment. A missing cable or dead battery can ruin a performance	
+</p>
+</div>
+</div>
+<div id="outline-container-org6b5c865" class="outline-3">
+<h3 id="org6b5c865">Notation</h3>
+<div class="outline-text-3" id="text-org6b5c865">
+<p>
+Each piece is different and needs a different approach to analysis
+</p>
+</div>
+</div>
+<div id="outline-container-org3043d7c" class="outline-3">
+<h3 id="org3043d7c">Listening</h3>
+<div class="outline-text-3" id="text-org3043d7c">
+<p>
+Students need additional listening skills when sound sources are ambiguous
+</p>
+</div>
+</div>
+<div id="outline-container-orgb411cf2" class="outline-3">
+<h3 id="orgb411cf2">Listen in different places</h3>
+<div class="outline-text-3" id="text-orgb411cf2">
+<p>
+Musicians need to learn how balance works in a variety of rooms
+</p>
+</div>
+</div>
+<div id="outline-container-orgf474922" class="outline-3">
+<h3 id="orgf474922">Interaction</h3>
+<div class="outline-text-3" id="text-orgf474922">
+<p>
+Difference between the electronics interacting vs the performer interacting with electronics
+</p>
+</div>
+</div>
+<div id="outline-container-org3a4a784" class="outline-3">
+<h3 id="org3a4a784">Tape</h3>
+<div class="outline-text-3" id="text-org3a4a784">
+<p>
+Contrasting view that the tape is not a bad performer (perhaps a bad accompanist is different) It is similar to playing in an ensemble where most things are dictated
+</p>
+</div>
+</div>
+<div id="outline-container-org31a8cb2" class="outline-3">
+<h3 id="org31a8cb2">Tempo</h3>
+<div class="outline-text-3" id="text-org31a8cb2">
+<p>
+Can be hard because of the tempo and students being unable to match it. Recommends using software to adjust the tempo for practice and gradually make it to performance tempo
+</p>
+</div>
+</div>
+<div id="outline-container-org055243f" class="outline-3">
+<h3 id="org055243f">Live Electronics</h3>
+<div class="outline-text-3" id="text-org055243f">
+<p>
+Live electronics may require more sophistication and be difficult for performers without technical knowledge
+</p>
+</div>
+</div>
+<div id="outline-container-orge491134" class="outline-3">
+<h3 id="orge491134">Intonation</h3>
+<div class="outline-text-3" id="text-orge491134">
+<p>
+Intonation can be an issue especially with fixed media compositions. Most composers don't indicate the temperament in the score, which can cause confusion and difficulty for performers 
+</p>
+</div>
+</div>
+<div id="outline-container-org3225858" class="outline-3">
+<h3 id="org3225858">Balance</h3>
+<div class="outline-text-3" id="text-org3225858">
+<p>
+Performers often are not aware of balance and EQ techniques
+</p>
+
+<p>
+Acoustics will be different in rehearsal rooms and concert halls. Balance between parts and EQ will always need to be addressed
+</p>
+
+<p>
+Dress rehearsals often happen the day of performance because of setting up the equipment
+</p>
+</div>
+</div>
+<div id="outline-container-orgf1ad38b" class="outline-3">
+<h3 id="orgf1ad38b">Independent Performers</h3>
+<div class="outline-text-3" id="text-orgf1ad38b">
+<p>
+Not having a sound person creates several issues.
+</p>
+<ol class="org-ol">
+<li>Balance is almost impossible to determine from the stage</li>
+<li>It's almost impossible to make changes during the performance</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org057e709" class="outline-3">
+<h3 id="org057e709">Volume Pedals</h3>
+<div class="outline-text-3" id="text-org057e709">
+<p>
+Volume pedals can be used to adjust balance during a performance
+</p>
+</div>
+</div>
+<div id="outline-container-org97aaf67" class="outline-3">
+<h3 id="org97aaf67">Analysis</h3>
+<div class="outline-text-3" id="text-org97aaf67">
+<p>
+Software called Eanalysis can be helpful without a dedicated score of the electronics   
+</p>
+</div>
+</div>
+<div id="outline-container-orgb12fa44" class="outline-3">
+<h3 id="orgb12fa44">Musician's Health</h3>
+<div class="outline-text-3" id="text-orgb12fa44">
+<p>
+Clip on mics increase the weight of the instrument that can have physical effects
+Standing still with a mic on a stand also can lead to tension
+Transportation of equipment can be an issue
+</p>
+</div>
+</div>
+<div id="outline-container-org106b69a" class="outline-3">
+<h3 id="org106b69a">Hearing Damage</h3>
+<div class="outline-text-3" id="text-org106b69a">
+<p>
+Loudspeaker feedback and monitors is common and can be harmful.
+Self sufficient performers should have earplugs (like when you can't figure things out?!?!) to protect themselves in an emergency
+</p>
+</div>
+</div>
+<div id="outline-container-org10bda36" class="outline-3">
+<h3 id="org10bda36">Self-Sufficient Approach</h3>
+<div class="outline-text-3" id="text-org10bda36">
+<ol class="org-ol">
+<li>Execute set-ups for their own practice and performance</li>
+<li>Operate electronics during a performance</li>
+<li>Teach students basic hardware and software setups</li>
+<li>Engage in discourse with composers and technicians</li>
+</ol>
+
+<p>
+Performers should not feel powerless during a concert if things malfunction
+</p>
+</div>
+</div>
+<div id="outline-container-orgedba696" class="outline-3">
+<h3 id="orgedba696">tours</h3>
+<div class="outline-text-3" id="text-orgedba696">
+<p>
+taking the composer along is not always possible on a tour, so the performer should be able to handle things (Errante)
+</p>
+</div>
+</div>
+<div id="outline-container-org5232f51" class="outline-3">
+<h3 id="org5232f51">Purchasing Equipment</h3>
+<div class="outline-text-3" id="text-org5232f51">
+<p>
+It is usually better to purchase your own equipment if possible. Institutions may have limitations on practice time or access. It also helps a performer to be self-sufficient in their equipment. They can also teach with it.
+</p>
+</div>
+</div>
+<div id="outline-container-org919cb6f" class="outline-3">
+<h3 id="org919cb6f">Learning a patch</h3>
+<div class="outline-text-3" id="text-org919cb6f">
+<p>
+It may help to have someone who can help you decipher a patch in a self-sufficient model
+</p>
+</div>
+</div>
+<div id="outline-container-org533456b" class="outline-3">
+<h3 id="org533456b">Learning a piece</h3>
+<div class="outline-text-3" id="text-org533456b">
+<p>
+Get the score and all the materials
+Familiarize the score layout, timings, and sequence of musical events
+</p>
+</div>
+</div>
+<div id="outline-container-org5736a1f" class="outline-3">
+<h3 id="org5736a1f">Learning electronics</h3>
+<div class="outline-text-3" id="text-org5736a1f">
+<p>
+Listening to tape parts, creating max patches, practicing setting up hardware are all part of practice time.
+</p>
+
+<p>
+collaborate when creating a max patch
+test the patch on different computers
+practice with the patch
+incorporate the patch into regular practice
+</p>
+</div>
+</div>
+<div id="outline-container-org52407ed" class="outline-3">
+<h3 id="org52407ed">Pedagogical recommendations</h3>
+<div class="outline-text-3" id="text-org52407ed">
+<p>
+create a study score - the student should make a clarinet part and a tape part
+</p>
+</div>
+</div>
+<div id="outline-container-orgd8394f7" class="outline-3">
+<h3 id="orgd8394f7">more pedagogical recommendations</h3>
+<div class="outline-text-3" id="text-orgd8394f7">
+<p>
+study the graphic notation - have student compose with graphic notation
+</p>
+</div>
+</div>
+<div id="outline-container-org520004d" class="outline-3">
+<h3 id="org520004d">Roles</h3>
+<div class="outline-text-3" id="text-org520004d">
+<p>
+In the self-sufficient approach attention will be split between instrumentalist and technician
+</p>
+</div>
+</div>
+<div id="outline-container-org6b6666c" class="outline-3">
+<h3 id="org6b6666c">Alex Shapiro quote</h3>
+<div class="outline-text-3" id="text-org6b6666c">
+<p>
+Letting go of one's knowledge of how things have always been is among the most important techniques for successful paradigm shifting.
+The musician will likely need to be on stage before the concert, at intermission, etc. Instead of waiting backstage
+</p>
+</div>
+</div>
+<div id="outline-container-orgb31c512" class="outline-3">
+<h3 id="orgb31c512">Stage</h3>
+<div class="outline-text-3" id="text-orgb31c512">
+<p>
+Performers should plan to stay on stage to minimize the damaging equipment, extra sound bursts, etc.
+</p>
+</div>
+</div>
+<div id="outline-container-org7d9d4e5" class="outline-3">
+<h3 id="org7d9d4e5">Benefits</h3>
+<div class="outline-text-3" id="text-org7d9d4e5">
+<p>
+More independent and marketable
+More convient performing (debatable)
+Perform in any venue
+Decreased reliance on technicians and musical assistants and engineers
+Long term cost efficiency
+Confidence and consistency in performance
+</p>
+
+<p>
+Also transfers to the teaching studio to help students
+</p>
+</div>
+</div>
+<div id="outline-container-org9c7d121" class="outline-3">
+<h3 id="org9c7d121">Disadvantages</h3>
+<div class="outline-text-3" id="text-org9c7d121">
+<p>
+Lots of time at the beginning to learn equipment etc.
+Up front costs of eq
+Transportation difficulties
+Planning and organization for equipment
+Responsibility for damage and theft
+Obsolete technology that needs more purchases
+Lack of programming knowledge needs more support from music technicians
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

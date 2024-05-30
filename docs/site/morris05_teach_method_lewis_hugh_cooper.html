@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>morris05_teach_method_lewis_hugh_cooper</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">morris05_teach_method_lewis_hugh_cooper</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgef26b9e">Lewis Hugh Cooper</a>
+<ul>
+<li><a href="#orgaaa8825">Chapter 1 Bio</a>
+<ul>
+<li><a href="#org8af3b43">Self Taught</a></li>
+<li><a href="#org385076b">Puchner influence</a></li>
+<li><a href="#orga19af5f">Bassoon Clinic Series</a></li>
+</ul>
+</li>
+<li><a href="#orga0ff072">Chapter 2 Pedagogy</a></li>
+<li><a href="#orgbb01bfc">Educated Students</a></li>
+<li><a href="#org5d1db4f">Breath Builder</a></li>
+<li><a href="#orgb768340">Hissing</a></li>
+<li><a href="#orgb47918c">Soft cushion</a></li>
+<li><a href="#orge6ab1a0">Embouchure technique</a></li>
+<li><a href="#orgb7e9766">Tone Production</a></li>
+<li><a href="#org47a3477">Prep student for first sounds on the bassoon</a></li>
+<li><a href="#org242781f">Tone Color</a></li>
+<li><a href="#org91332e2">Internal Pitch</a></li>
+<li><a href="#org573b3d9">Acoustic training</a></li>
+<li><a href="#org0049e2e">Tuner deficiencies</a></li>
+<li><a href="#orgce465a9">Table of comparisons</a></li>
+<li><a href="#orga047bf7">Combating tuning acuity</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgef26b9e" class="outline-2">
+<h2 id="orgef26b9e">Lewis Hugh Cooper</h2>
+<div class="outline-text-2" id="text-orgef26b9e">
+</div>
+<div id="outline-container-orgaaa8825" class="outline-3">
+<h3 id="orgaaa8825">Chapter 1 Bio</h3>
+<div class="outline-text-3" id="text-orgaaa8825">
+</div>
+<div id="outline-container-org8af3b43" class="outline-4">
+<h4 id="org8af3b43">Self Taught</h4>
+<div class="outline-text-4" id="text-org8af3b43">
+<p>
+Largely self taught, as there was no bassoon faculty at University of Michigan. Got advice from Hugo Fox, Sol Schoenbach, and SImon Kovar from visiting orchestras 
+</p>
+</div>
+</div>
+<div id="outline-container-org385076b" class="outline-4">
+<h4 id="org385076b">Puchner influence</h4>
+<div class="outline-text-4" id="text-org385076b">
+<p>
+Lots of influence with Puchner bassoons
+</p>
+</div>
+</div>
+<div id="outline-container-orga19af5f" class="outline-4">
+<h4 id="orga19af5f">Bassoon Clinic Series</h4>
+<div class="outline-text-4" id="text-orga19af5f">
+<p>
+Seems these were published in the Etude Magazine. In 2005 the book referenced in the articles seems to not have materialized.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga0ff072" class="outline-3">
+<h3 id="orga0ff072">Chapter 2 Pedagogy</h3>
+<div class="outline-text-3" id="text-orga0ff072">
+</div>
+</div>
+<div id="outline-container-orgbb01bfc" class="outline-3">
+<h3 id="orgbb01bfc">Educated Students</h3>
+<div class="outline-text-3" id="text-orgbb01bfc">
+<blockquote>
+<p>
+My approach to teaching is one that recognizes the analytical capabilities
+unique to the human species. There are two kinds of musicians, those who
+perform primarily by rote, and those who maintain intellectual control
+over their performance. Rote response represents man’s lowest form of
+learning, the way we teach animals tricks. Certainly, university students
+are deserving of a more intellectual basis for their music making,
+especially in view of the superior results achieved. Intellectual players,
+because they are capable of adjusting to an ever-changing environment,
+will always triumph over animalistic responses, no matter how adept a rote
+player. If all subject matter were taught like most music performance,
+mankind would not yet have invented the wheel.1 What is happening and
+why? The power of observation and intellectual curiosity – the two
+necessary attributes of any truly educated individual.
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org5d1db4f" class="outline-3">
+<h3 id="org5d1db4f">Breath Builder</h3>
+<div class="outline-text-3" id="text-org5d1db4f">
+<p>
+The cytinder with the ping-pong ball. Doesn't say which holes to use or anything like that (at least not here)
+</p>
+</div>
+</div>
+<div id="outline-container-orgb768340" class="outline-3">
+<h3 id="orgb768340">Hissing</h3>
+<div class="outline-text-3" id="text-orgb768340">
+<p>
+Clenched teeth, and blocking the space between upper and lower teeth. This is like an athlete adding weights to a movement, it creates extra resistance
+</p>
+</div>
+</div>
+<div id="outline-container-orgb47918c" class="outline-3">
+<h3 id="orgb47918c">Soft cushion</h3>
+<div class="outline-text-3" id="text-orgb47918c">
+<p>
+Pronounce the word "cue", or whistling
+</p>
+</div>
+</div>
+<div id="outline-container-orge6ab1a0" class="outline-3">
+<h3 id="orge6ab1a0">Embouchure technique</h3>
+<div class="outline-text-3" id="text-orge6ab1a0">
+<ol class="org-ol">
+<li>Whistle the lowest pitch you can produce</li>
+<li>Whistle that pitch up one octave, noting the tightening of muscles to get higher. This is similar to the muscles used when playing bassoon.</li>
+<li>Tighten those muscles until the whistle is lost. This is the basis of the embouchure.</li>
+<li>Yawn to feel the pivoting motion of the jaw's hinge</li>
+<li>With the jaw somewhat down and back, use that embouchure and blow as if blowing out candles on a birthday cake, this should get the crow</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb7e9766" class="outline-3">
+<h3 id="orgb7e9766">Tone Production</h3>
+<div class="outline-text-3" id="text-orgb7e9766">
+<p>
+Breath control <b>is</b> the basic foundation for all tone production
+</p>
+</div>
+</div>
+<div id="outline-container-org47a3477" class="outline-3">
+<h3 id="org47a3477">Prep student for first sounds on the bassoon</h3>
+<div class="outline-text-3" id="text-org47a3477">
+<ol class="org-ol">
+<li>Crow the reed several times</li>
+<li>Place the reed on the bocal alone, getting the four semi-tone range of the bocal, special attention to getting the B (see reed criteria in chapter 3)</li>
+<li>Assemble the bassoon</li>
+<li>Crow again several times</li>
+<li>Get ready to play</li>
+</ol>
+<p>
+Then we get the first sounds
+</p>
+<ol class="org-ol">
+<li>Finger C, ,and blow exactly how the crow was no matter how bad it sounds</li>
+<li>Get the embouchure so that it sounds a B</li>
+<li>If it isn't flat enough, they need to relax the embouchure, go back to reed or just reed and bocal</li>
+</ol>
+<p>
+Then we bring it up
+</p>
+<ol class="org-ol">
+<li>Add breath support to raise it to a C. Not by biting!!!!!</li>
+<li>Repeat until a full resonant in tune sound can be produced with just breath support.</li>
+<li>Recognize pitch level is primarily maintained by breath support</li>
+</ol>
+<p>
+This gets a charactersitci bassoon sound in a minimum legnth of time (usually within the first lesson)
+</p>
+</div>
+</div>
+<div id="outline-container-org242781f" class="outline-3">
+<h3 id="org242781f">Tone Color</h3>
+<div class="outline-text-3" id="text-org242781f">
+<p>
+There is a mix of vibrancy (or edge) and resonance (core) in the bassoon sound. There are two subdivisions of the tone. The performer's concept, or what we hear as we are playing, and the listener's concept. The performer's concept is always more vibrant, edgy, reediers, and louder than the listener's concept, which is always darker, smoother, softer, and less vibrant that the performer's. The closer that the performer's concept is to the ideal listener's concept, the further he/she is from their goal. The desired smooth, dark, in-tune concept is achieved by a vibrant, somewhat reedy, free full-blown performer's concept. 15 to 20 feet is about the point where the reediness dissipates and is absorbed into the core of resonance
+</p>
+</div>
+</div>
+<div id="outline-container-org91332e2" class="outline-3">
+<h3 id="org91332e2">Internal Pitch</h3>
+<div class="outline-text-3" id="text-org91332e2">
+<p>
+Internal pitch is the most important element of good intonation. The finest reed, bocal, instrument, breath control will still present tuning problems
+</p>
+</div>
+</div>
+<div id="outline-container-org573b3d9" class="outline-3">
+<h3 id="org573b3d9">Acoustic training</h3>
+<div class="outline-text-3" id="text-org573b3d9">
+<p>
+Cooper suggests some form of acoustic being introduced into the traditional theory/ear training sequence, adding exercises to develop tuning acuity. Tuners are not good enough.
+</p>
+</div>
+</div>
+<div id="outline-container-org0049e2e" class="outline-3">
+<h3 id="org0049e2e">Tuner deficiencies</h3>
+<div class="outline-text-3" id="text-org0049e2e">
+<blockquote>
+<p>
+“Equal tempered tuners guarantee being out of tune on everything but the
+fundamental and its various octaves, in comparison to the frequency requirements of our
+non-linear hearing mechanism which is the final arbiter of the harmonic nature of man's
+system (the natural overtone series).”
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-orgce465a9" class="outline-3">
+<h3 id="orgce465a9">Table of comparisons</h3>
+<div class="outline-text-3" id="text-orgce465a9">
+<p>
+Shows what each pitch should be within the natural major scale, and the difference of what equal tempered gives
+</p>
+</div>
+</div>
+<div id="outline-container-orga047bf7" class="outline-3">
+<h3 id="orga047bf7">Combating tuning acuity</h3>
+<div class="outline-text-3" id="text-orga047bf7">
+<p>
+Use three glasses filled with water. The first galss is the goal pitch. Then add or pour out water from the second glass to the third glass to match the tap pitch
+Have two students play the same pitch. One student moves pitch up and down to hear the beats. Switch roles. Do it with octaves, fifths, fourths, and thirds and sixths. Note that the tuner will be "out of tune", or when it is in tune, there will be beats because it is in fact not in tune
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e68a99e7-02d9-44cb-b59f-fa8a9af71c39
+:END:
+#+title: Damping
+
+All instruments incorporate some form of damping, as the theoretical extremes are an instrument that has a lethal lazer energy on one frequency, or is completely muted on all frequencies. Instruments operate in a relatively narrow blend of damping and undamping factors. Some damping factors could be:
+1) Bore damping (diameter and contour)
+2) Tone-hole damping (diameter, chimney length, contour)
+3) Wall damping (smooth reflective surfaces vs rough)
+4) Hermetic damping (porosity of surfaces/diffused leaks)
+5) Pad clearance and reflectiviy
+6) Bocal choice (bore, material, wall thickness, plating)
+7) Choice of reed type (relativley damped or un-damped)
+
+Reed type is often the only choice for woodwinds.
+
+Soloists and recording artists often use lots of damping in their setup because of microphones or close audiences. Orchestral players tend to have less damping so they can project through the orchestra
+
+[[id:ba0f3f90-0d4e-4ed3-a86e-bc6b7451a14b][bassoon damping]]
+
+[[cite:&cooper09_variab_dampin]]

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My ZK</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">My ZK</h1>
+<ul class="org-ul">
+<li><a href="20240520150441-7_bassoon_reed_criteria.html">7 Bassoon Reed Criteria</a></li>
+<li><a href="20240521162929-acoustics.html">Acoustics</a></li>
+<li><a href="20210614162000-acoustics_and_characteristic_bassoon_sound.html">Acoustics and Characteristic Bassoon Sound</a></li>
+<li><a href="20240521163000-acoustics_of_performance_spaces.html">Acoustics of Performance Spaces</a></li>
+<li><a href="20240418205103-bassoon.html">Bassoon</a></li>
+<li><a href="20240418205322-bassoon_history.html">Bassoon History</a></li>
+<li><a href="20240418205333-bassoon_repertoire.html">Bassoon Repertoire</a></li>
+<li><a href="20240509133923-cane_selection.html">Cane selection</a></li>
+<li><a href="20220922141719-chapter_13.html">Class 13</a></li>
+<li><a href="20240521163034-damping.html">Damping</a></li>
+<li><a href="20210511165500-difficulties_in_electroacoustic_performance.html">Difficulties in Electroacoustic Performance</a></li>
+<li><a href="20220518193716-dissertation.html">Dissertation</a></li>
+<li><a href="20210511172200-education_for_electroacoustic_music.html">Education for Electroacoustic Music</a></li>
+<li><a href="20210507135600-electroacoustic_music_music.html">Electroacoustic Music</a></li>
+<li><a href="20240514151236-finishing.html">Finishing</a></li>
+<li><a href="20240524152516-first_sounds.html">First sounds</a></li>
+<li><a href="20240514151230-forming.html">Forming</a></li>
+<li><a href="20211012113851-hardware_and_software.html">Hardware and Software</a></li>
+<li><a href="20240504123731-historical_performers.html">Historical Performers</a></li>
+<li><a href="20210820163400-history_of_electroacoustic_music.html">History of Electroacoustic Music</a></li>
+<li><a href="20240504152553-cooper.html">Hugh Lewis Cooper</a></li>
+<li><a href="20210506102900-inclusion_in_curriculum.html">Inclusion in Curriculum</a></li>
+<li><a href="20220404212448-interactive_music.html">Interactive Music</a></li>
+<li><a href="20220323162002-midi.html">MIDI</a></li>
+<li><a href="20210507135600-music_hub.html">Music Hub</a></li>
+<li><a href="20230711155026-music_notation.html">Music Notation</a></li>
+<li><a href="20240504145301-music_pedagogy.html">Music Pedagogy</a></li>
+<li><a href="20240504152339-herzberg.html">Norman Herzberg</a></li>
+<li><a href="20240504145332-paris_conservatorie.html">Paris Conservatorie</a></li>
+<li><a href="20240418205311-pedagogy.html">Pedagogy</a></li>
+<li><a href="20220321161835-performing_electroacoustic_music.html">Performing Electroacoustic Music</a></li>
+<li><a href="20220627153218-popular_music.html">Popular Music</a></li>
+<li><a href="20240504145544-practicing.html">Practicing</a></li>
+<li><a href="20240514151212-profiling.html">Profiling</a></li>
+<li><a href="20231006104037-public_lecture.html">Public Lecture</a></li>
+<li><a href="20240418205208-reeds.html">Reeds</a></li>
+<li><a href="20210511170700-setup_for_electroacoustic_music.html">Setup for Electroacoustic Music</a></li>
+<li><a href="20240514151219-shaping.html">Shaping</a></li>
+<li><a href="20240515124549-slippage_of_the_cane.html">Slippage of the cane</a></li>
+<li><a href="20220518100718-storyboard.html">Storyboard</a></li>
+<li><a href="20220113155133-todo.html">Todo</a></li>
+<li><a href="20240524152637-tonal_accuity.html">Tonal accuity</a></li>
+<li><a href="20240524152940-tone_difference.html">Tone difference</a></li>
+<li><a href="20240504152932-top_hub.html">Top Hub</a></li>
+<li><a href="20240504143746-art_of_reedmaking.html">art of reedmaking</a></li>
+<li><a href="barber_healt_reed_check.html">barber_healt_reed_check</a></li>
+<li><a href="20240521163319-bassoon_damping.html">bassoon damping</a></li>
+<li><a href="20240504145725-bassoon_roles.html">bassoon roles</a></li>
+<li><a href="20211013142513-behr14_benefits.html">behr14-benefits</a></li>
+<li><a href="20211013142344-behr14_difficulties.html">behr14-difficulties</a></li>
+<li><a href="20211013142611-behr14_education.html">behr14-education</a></li>
+<li><a href="20211013142209-behr14_gear.html">behr14-gear</a></li>
+<li><a href="20211013142003-behr14_history.html">behr14-history</a></li>
+<li><a href="behr14_elect_bassoon.html">behr14_elect_bassoon</a></li>
+<li><a href="20220523152059-belet03_art.html">belet03-art</a></li>
+<li><a href="20220523152435-belet03_audiences.html">belet03-audiences</a></li>
+<li><a href="belet03_live_perfor_inter_human_machin.html">belet03_live_perfor_inter_human_machin</a></li>
+<li><a href="benedictis18_author_perfor_tradit_age_techn.html">benedictis18_author_perfor_tradit_age_techn</a></li>
+<li><a href="benson07_music.html">benson07_music</a></li>
+<li><a href="20240517124226-beveling.html">beveling</a></li>
+<li><a href="20210513142900-bocast12_essential.html">bocast12-essential</a></li>
+<li><a href="20210513143900-bocast12_piraha.html">bocast12-piraha</a></li>
+<li><a href="bocast12_examin_place_music_wester_eco.html">bocast12_examin_place_music_wester_eco: Examining the place of music in western eco-cosmology, with implications for electroacoustic musical practice</a></li>
+<li><a href="bramwell-dicks13_affec_music_inter.html">bramwell-dicks13_affec_music_inter</a></li>
+<li><a href="20240504150201-breaking_in_reeds.html">breaking in reeds</a></li>
+<li><a href="20210520152600-brown07_difficulties.html">brown07-difficulties</a></li>
+<li><a href="20210520151100-brown07_inclusion.html">brown07-inclusion</a></li>
+<li><a href="brown07_comput_music_educat.html">brown07_comput_music_educat: Computers in music education: amplifying musicality</a></li>
+<li><a href="20210511164500-bullock13_difficulties.html">bullock13_difficulties</a></li>
+<li><a href="20210511162600-bullock13_education.html">bullock13_education</a></li>
+<li><a href="bullock13_live_elect_pract.html">bullock13_live_elect_pract</a></li>
+<li><a href="burns87_typol_popul_recor.html">burns87_typol_popul_recor</a></li>
+<li><a href="20211012115246-canazza01_preservation.html">canazza01-preservation</a></li>
+<li><a href="canazza01_preser_elect_music.html">canazza01_preser_elect_music: Preserving Electroacoustic Music</a></li>
+<li><a href="chadabe84_inter_compos.html">chadabe84_inter_compos</a></li>
+<li><a href="chadabe97_elect_sound.html">chadabe97_elect_sound</a></li>
+<li><a href="20210920092724-chadabe97_elect_sound_human_aspect.html">chadabe97_elect_sound:human_aspect</a></li>
+<li><a href="20210920093118-chadabe97_elect_sound_traditional_instruments.html">chadabe97_elect_sound:traditional_instruments</a></li>
+<li><a href="20240504152159-christlieb.html">christlieb</a></li>
+<li><a href="clark00_point_resis_bassoon_reeds.html">clark00_point_resis_bassoon_reeds</a></li>
+<li><a href="20240517134422-cooper_finishing.html">cooper finishing</a></li>
+<li><a href="cooper05_bevel.html">cooper05_bevel</a></li>
+<li><a href="cooper08_reed_makin_notes_two.html">cooper08_reed_makin_notes_two</a></li>
+<li><a href="cooper09_slipp.html">cooper09_slipp</a></li>
+<li><a href="cooper09_variab_dampin.html">cooper09_variab_dampin</a></li>
+<li><a href="cooper90_reed_contr.html">cooper90_reed_contr</a></li>
+<li><a href="cooper91_reed_makin_notes.html">cooper91_reed_makin_notes</a></li>
+<li><a href="20240521163834-damping_lesson.html">damping lesson</a></li>
+<li><a href="david09_audio_produc_workt.html">david09_audio_produc_workt</a></li>
+<li><a href="david96_exper_music_techn.html">david96_exper_music_techn</a></li>
+<li><a href="davidsson_reed_adjus.html">davidsson_reed_adjus</a></li>
+<li><a href="20220512145159-dean09_disintermediation.html">dean09-disintermediation</a></li>
+<li><a href="dean09_histor_view_comput_music_techn.html">dean09_histor_view_comput_music_techn</a></li>
+<li><a href="20240420175901-diagnosis.html">diagnosis</a></li>
+<li><a href="20220517111154-dixon06_play.html">dixon06-play</a></li>
+<li><a href="dunn92_pioneer_elect_art.html">dunn92_pioneer_elect_art</a></li>
+<li><a href="20220228113243-emmerson16_performance.html">emmerson16-performance</a></li>
+<li><a href="emmerson16_losin.html">emmerson16_losin: Losing touch?:the human performer and electronics</a></li>
+<li><a href="20210825164828-emmerson16_mechanical_electronic_technology.html">emmerson16_mechanical_electronic_technology</a></li>
+<li><a href="20210825165107-emmerson16_representation.html">emmerson16_representation</a></li>
+<li><a href="20220411150933-enns17_advantages.html">enns17-advantages</a></li>
+<li><a href="20220412121939-enns17_difficulties.html">enns17-difficulties</a></li>
+<li><a href="20220411151055-enns17_disadvantages.html">enns17-disadvantages</a></li>
+<li><a href="20220411150523-enns17_education.html">enns17-education</a></li>
+<li><a href="20220411151323-enns17_self_sufficient.html">enns17-self-sufficient</a></li>
+<li><a href="enns17_towar_self_suffic_approac_elect_acous_clarin.html">enns17_towar_self_suffic_approac_elect_acous_clarin</a></li>
+<li><a href="eubanks86_advan_reed_desig_testin_proced_bassoon.html">eubanks86_advan_reed_desig_testin_proced_bassoon</a></li>
+<li><a href="ewell10_pedag_finis_reeds_german_system.html">ewell10_pedag_finis_reeds_german_system</a></li>
+<li><a href="20220405153358-feron18_chamber.html">feron18-chamber</a></li>
+<li><a href="20220405154143-feron18_concept.html">feron18-concept</a></li>
+<li><a href="20220405153836-feron18_performer.html">feron18-performer</a></li>
+<li><a href="feron18_instr.html">feron18_instr_solo_works_live_elect</a></li>
+<li><a href="20240517132216-foldover_shaper.html">foldover shaper</a></li>
+<li><a href="20240517133423-forming_cooper.html">forming cooper</a></li>
+<li><a href="20220404213454-freeman11_magic.html">freeman11-magic</a></li>
+<li><a href="20210525160200-frengel10_difficulties.html">frengel10-difficulties</a></li>
+<li><a href="frengel10_multid_approac_to_relat_between.html">frengel10_multid_approac_to_relat_between: A multidimensional approach to relationships between live and non-live sound sources in mixed works</a></li>
+<li><a href="20220408143628-friedemann18_history.html">friedemann18-history</a></li>
+<li><a href="friedemann18_introd.html">friedemann18_introd</a></li>
+<li><a href="20220418165425-garnett01_computer_to_human.html">garnett01-computer-to-human</a></li>
+<li><a href="20220418165410-garnett01_human_to_computer.html">garnett01-human-to-computer</a></li>
+<li><a href="20220418165307-garnett01_tape.html">garnett01-tape</a></li>
+<li><a href="garnett01_aesth_inter_comput_music.html">garnett01_aesth_inter_comput_music</a></li>
+<li><a href="20240508124955-good_cane_definition.html">good cane definition</a></li>
+<li><a href="20240504151639-gouge.html">gouge</a></li>
+<li><a href="grayson96_whose_authen.html">grayson96_whose_authen</a></li>
+<li><a href="20220404161525-grew14_additive.html">grew14-additive</a></li>
+<li><a href="20220404161616-grew14_difficulties.html">grew14-difficulties</a></li>
+<li><a href="20220404161907-grew14_microphones.html">grew14-microphones</a></li>
+<li><a href="grew14_guide_elect_acous_perfor_acous_obois.html">grew14_guide_elect_acous_perfor_acous_obois</a></li>
+<li><a href="hakanen98_count_down_to_number_one.html">hakanen98_count_down_to_number_one</a></li>
+<li><a href="20240517131136-hand_profiling.html">hand profiling</a></li>
+<li><a href="20210527103300-harries14_absence_presence.html">harries14-absence-presence</a></li>
+<li><a href="harries14_evokin_sublim.html">harries14_evokin_sublim: Evoking the sublime: absence and presence in live electroacoustic performance</a></li>
+<li><a href="heinrich79_bassoon_reed.html">heinrich79_bassoon_reed</a></li>
+<li><a href="20240504152823-herzberg_exam.html">herzberg exam</a></li>
+<li><a href="herzberg01_reedm.html">herzberg01_reedm</a></li>
+<li><a href="herzberg95_years_ignor_neglec_denial.html">herzberg95_years_ignor_neglec_denial</a></li>
+<li><a href="20240504144446-history_of_methods_and_reedmaking.html">history of methods and reedmaking</a></li>
+<li><a href="20210513150800-hoffman13_ideal.html">hoffman13-ideal</a></li>
+<li><a href="hoffman13_perfor_elect_music.html">hoffman13_perfor_elect_music: On performing electroacoustic musics: a non-idiomatic case study for adorno's theory of musical reproduction</a></li>
+<li><a href="20211012114023-hofstetter88_midi.html">hofstetter88-midi</a></li>
+<li><a href="hofstetter88_comput_liter_music.html">hofstetter88_comput_liter_music: Computer literacy for musicians</a></li>
+<li><a href="huber07_midi_manual.html">huber07_midi_manual</a></li>
+<li><a href="20220228105640-hunter04_pedals.html">hunter04-pedals</a></li>
+<li><a href="hunter04_guitar_effec_pedal_pract_handb.html">hunter04_guitar_effec_pedal_pract_handb</a></li>
+<li><a href="intravaia78_effec_hardn_stiff_bassoon_cane.html">intravaia78_effec_hardn_stiff_bassoon_cane</a></li>
+<li><a href="20220412160129-jordan18_education.html">jordan18-education</a></li>
+<li><a href="20220412160216-jordan18_eq.html">jordan18-eq</a></li>
+<li><a href="jordan18_perfor_live_elect.html">jordan18_perfor_live_elect</a></li>
+<li><a href="20220331154456-kilroy19_agency.html">kilroy19-agency</a></li>
+<li><a href="20220331154848-kilroy19_notation.html">kilroy19-notation</a></li>
+<li><a href="20220331153537-kilroy19_posthuman.html">kilroy19-posthuman</a></li>
+<li><a href="20220331154144-kilroy19_tropes.html">kilroy19-tropes</a></li>
+<li><a href="kilroy19_posth_music_contex.html">kilroy19_posth_music_contex</a></li>
+<li><a href="20211012103012-kimura03_acoustics.html">kimura03_acoustics</a></li>
+<li><a href="kimura03_creat_proces_perfor_pract_inter_comput_music.html">kimura03_creat_proces_perfor_pract_inter_comput_music: Creative process and performance practice of interactive computer music: a performer's tale</a></li>
+<li><a href="20211012102610-kimura03_stage_appearance.html">kimura03_stage_appearance</a></li>
+<li><a href="klimko91_bassoon_reedm_at_higher_altit.html">klimko91_bassoon_reedm_at_higher_altit</a></li>
+<li><a href="20210511171600-kokoras11_education.html">kokoras11_education</a></li>
+<li><a href="kokoras11_perfor_vs_elect.html">kokoras11_perfor_vs_elect: Performer vs electronics: performing music for instrument and electronics</a></li>
+<li><a href="kopp03_physic_forces_at_work_bassoon_reeds.html">kopp03_physic_forces_at_work_bassoon_reeds</a></li>
+<li><a href="kopp12_bassoon.html">kopp12_bassoon: The Bassoon</a></li>
+<li><a href="kopp13_tube_tip_apert.html">kopp13_tube_tip_apert</a></li>
+<li><a href="lacy88_exper_treat_arund_donax.html">lacy88_exper_treat_arund_donax</a></li>
+<li><a href="laing91_voice_without_face.html">laing91_voice_without_face</a></li>
+<li><a href="20231106160228-lecture_draft.html">lectureDraft</a></li>
+<li><a href="lindberg03_popul_moder.html">lindberg03_popul_moder</a></li>
+<li><a href="lowe08_norman_herzb.html">lowe08_norman_herzb</a></li>
+<li><a href="20211012113241-macdonald95_meaning.html">macdonald95-meaning</a></li>
+<li><a href="20210527115700-macdonald95_speakers.html">macdonald95-speakers</a></li>
+<li><a href="macdonald95_perfor_pract_presen_elect_music.html">macdonald95_perfor_pract_presen_elect_music: Performance practice in the presentation of electroacoustic music</a></li>
+<li><a href="20220321160512-masone16_difficulties.html">masone16-difficulties</a></li>
+<li><a href="20220321161712-masone16_history.html">masone16-history</a></li>
+<li><a href="20220321161233-masone16_performance_practice.html">masone16-performance-practice</a></li>
+<li><a href="20220321161525-masone_shifting_roles.html">masone16-shifting-roles</a></li>
+<li><a href="masone16_contem_bassoon.html">masone16_contem_bassoon</a></li>
+<li><a href="massol10_william_winst_bassoon_reed_method.html">massol10_william_winst_bassoon_reed_method</a></li>
+<li><a href="20210614171000-mcdermott13_difficulty.html">mcdermott13-difficulty</a></li>
+<li><a href="mcdermott13_shoul_music_inter_be_easy.html">mcdermott13_shoul_music_inter_be_easy: Should Music Interaction Be Easy?</a></li>
+<li><a href="mcguire14_moder_midi.html">mcguire14_moder_midi</a></li>
+<li><a href="20210513095700-mcnutt03_benefits.html">mcnutt03-benefits</a></li>
+<li><a href="20210513093200-mcnutt03_difficulties.html">mcnutt03-difficulties</a></li>
+<li><a href="20210513093800-mcnutt03_prisoner.html">mcnutt03-prisoner</a></li>
+<li><a href="20210513092300-mcnutt03_interactivity.html">mcnutt03_interactivity</a></li>
+<li><a href="mcnutt03_perfor_elect_music.html">mcnutt03_perfor_elect_music: Performing electroacoustic music: a wider view of interactivity</a></li>
+<li><a href="20240517140313-measurements_cooper.html">measurements cooper</a></li>
+<li><a href="20240517125759-mechanical_wires.html">mechanical wires</a></li>
+<li><a href="20210528114400-moore92_connecting_audiences.html">moore92-connecting-audiences</a></li>
+<li><a href="20210528113900-moore92_death_of_improv.html">moore92-death-of-improv</a></li>
+<li><a href="moore92_declin_improv_wester_art_music.html">moore92_declin_improv_wester_art_music: The decline of improvisations in western art music: an interpretation of change</a></li>
+<li><a href="20210511165900-morrill81_difficulties.html">morrill81_difficulties</a></li>
+<li><a href="morrill81_louds_perfor.html">morrill81_louds_perfor</a></li>
+<li><a href="20210511170400-morrill81_setup.html">morrill81_setup</a></li>
+<li><a href="morris05_teach_method_lewis_hugh_cooper.html">morris05_teach_method_lewis_hugh_cooper</a></li>
+<li><a href="parker91_readin_chart.html">parker91_readin_chart</a></li>
+<li><a href="20210604163000-pennycook97_difficulties.html">pennycook97-difficulties</a></li>
+<li><a href="20210604162800-pennycook97_education.html">pennycook97-education</a></li>
+<li><a href="pennycook97_live_elect_music.html">pennycook97_live_elect_music: Live electroacoustic music: old problems, new solutions</a></li>
+<li><a href="20220414121405-perea98_history.html">perea98-history</a></li>
+<li><a href="perea98_elect_acous_music.html">perea98_elect_acous_music</a></li>
+<li><a href="20220406152455-pestova18_notation.html">pestova18-notation</a></li>
+<li><a href="pestova18_approac.html">pestova18_approac_notat_music_piano_live_elect</a></li>
+<li><a href="20240509134654-preparing_gouged_cane.html">preparing gouged cane</a></li>
+<li><a href="20220401142012-protsidym99_history.html">protsidym99-history</a></li>
+<li><a href="protsidym99_applic_max_msp_field_live.html">protsidym99_applic_max_msp_field_live</a></li>
+<li><a href="20240504152911-reading_list.html">reading list</a></li>
+<li><a href="20240420180937-reed_construction.html">reed construction</a></li>
+<li><a href="20240520145826-reed_contribution.html">reed contribution</a></li>
+<li><a href="20240504150246-reed_journal.html">reed journal</a></li>
+<li><a href="20240504150420-reed_pedagogy.html">reed pedagogy</a></li>
+<li><a href="20240508125410-reed_room_quotes.html">reed room quotes</a></li>
+<li><a href="20240420180914-reed_test.html">reed test</a></li>
+<li><a href="20240506131644-reed_tradition.html">reed tradition</a></li>
+<li><a href="20240508125238-reeds_deserved.html">reeds deserved</a></li>
+<li><a href="20210604142900-romine13_difficulties.html">romine13-difficulties</a></li>
+<li><a href="20210604142500-romine13_equipment.html">romine13-equipment</a></li>
+<li><a href="romine13_elect.html">romine13_elect: Electrobassoonica</a></li>
+<li><a href="20220516112708-rothenberg10_battle.html">rothenberg10-battle</a></li>
+<li><a href="20220516112914-rothenberg10_control.html">rothenberg10-control</a></li>
+<li><a href="20220516113144-rothenberg10_tone.html">rothenberg10-tone</a></li>
+<li><a href="20220323163523-rothstein92_midi_basics.html">rothstein92-midi-basics</a></li>
+<li><a href="20220324153158-rothstein92_midi_messages.html">rothstein92-midi-messages</a></li>
+<li><a href="rothstein92_midi.html">rothstein92_midi</a></li>
+<li><a href="20220328160153-rowe93_human.html">rowe93-human</a></li>
+<li><a href="20220328155757-rowe93_interactive_systems.html">rowe93-interactive-systems</a></li>
+<li><a href="20220328160317-rowe93_timbre.html">rowe93-timbre</a></li>
+<li><a href="rowe93_inter_music_system.html">rowe93_inter_music_system</a></li>
+<li><a href="schillinger16_bassoon_reed_makin.html">schillinger16_bassoon_reed_makin</a></li>
+<li><a href="scipio21_think_liven_perfor_live_elect.html">scipio21_think_liven_perfor_live_elect</a></li>
+<li><a href="20240517132903-scoring_cooper.html">scoring cooper</a></li>
+<li><a href="20240517132523-shaping_cooper.html">shaping cooper</a></li>
+<li><a href="20240504151936-skinner.html">skinner</a></li>
+<li><a href="20240506131220-soaking.html">soaking</a></li>
+<li><a href="20210527153500-stockhausen96_education.html">stockhausen96-education</a></li>
+<li><a href="20210527154300-stockhausen96_halls.html">stockhausen96-halls</a></li>
+<li><a href="20210527154000-stockhausen96_inclusion.html">stockhausen96-inclusion</a></li>
+<li><a href="stockhausen96_elect_perfor_pract.html">stockhausen96_elect_perfor_pract</a></li>
+<li><a href="20240509135018-time_is_costly.html">time is costly</a></li>
+<li><a href="20240508125109-uniquness_of_cane.html">uniquness of cane</a></li>
+<li><a href="vonk07_bundl_joy.html">vonk07_bundl_joy</a></li>
+<li><a href="waters16_beyon_acous.html">waters16_beyon_acous</a></li>
+<li><a href="20211005105730-waters16_economy.html">waters16_economy</a></li>
+<li><a href="20211005110030-waters16_sampling.html">waters16_sampling</a></li>
+<li><a href="welch10_progr_machin_peopl.html">welch10_progr_machin_peopl</a></li>
+<li><a href="20210603112800-wetzel06_performer_responsibility.html">wetzel06-performer-responsibility</a></li>
+<li><a href="20210603113300-wetzel06_restoration.html">wetzel06-restoration</a></li>
+<li><a href="wetzel06_model_conser_inter_elect_reper.html">wetzel06_model_conser_inter_elect_reper: A model for the conservation of interactive electroacoustic repertoire: analysis, reconstruction, and performance in the face of technological obsolescence</a></li>
+<li><a href="20211012112625-windsor16_meaning.html">windsor16-meaning</a></li>
+<li><a href="windsor16_throug_aroun_acous.html">windsor16_throug_aroun_acous</a></li>
+<li><a href="winkler98_compos_inter_music.html">winkler98_compos_inter_music</a></li>
+<li><a href="20210820160500-winkler98_interaction.html">winkler98_interaction</a></li>
+<li><a href="20240517133119-wires_cooper.html">wires cooper</a></li>
+<li><a href="20220414110021-yoder10_education.html">yoder10-education</a></li>
+<li><a href="20220414105715-yoder10_history.html">yoder10-history</a></li>
+<li><a href="20220414111357-yoder10_notation.html">yoder10-notation</a></li>
+<li><a href="20220414105913-yoder10_performancepractice.html">yoder10-performancepractice</a></li>
+<li><a href="20220516112244-yoder10_philosophy.html">yoder10-philosophy</a></li>
+<li><a href="yoder10_perfor_pract_inter_music_clarin.html">yoder10_perfor_pract_inter_music_clarin</a></li>
+</ul>
+
+<div id="org03c6a79" class="figure">
+<p><img src="sitemap.svg" alt="sitemap.svg" class="org-svg" /></p>
+</div>
+</div>
+</body>
+</html>

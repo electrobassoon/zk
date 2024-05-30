@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>pennycook97_live_elect_music: Live electroacoustic music: old problems, new solutions</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">pennycook97_live_elect_music: Live electroacoustic music: old problems, new solutions</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#pennycook97_live_elect_music">Live electroacoustic music: old problems, new solutions</a>
+<ul>
+<li><a href="#orgb858745">Role of Performer</a></li>
+<li><a href="#org21774fb">Genre Failure</a></li>
+<li><a href="#org1e968aa">Tutorial Tradition</a></li>
+<li><a href="#org4d4e566">Role of teacher</a></li>
+<li><a href="#orgeb3a617">Performance Materials</a></li>
+<li><a href="#org6baad73">Gear</a></li>
+<li><a href="#org2f12fb3">Listening</a></li>
+<li><a href="#org6c07297">Chamber Music</a></li>
+<li><a href="#org2595b42">Fusion</a></li>
+<li><a href="#org2fb192d">Demands of space</a></li>
+<li><a href="#orgbdb3dca">Overwhelm Audience</a></li>
+<li><a href="#orga44c803">On Stage Positioning</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-pennycook97_live_elect_music" class="outline-2">
+<h2 id="pennycook97_live_elect_music">Live electroacoustic music: old problems, new solutions</h2>
+<div class="outline-text-2" id="text-pennycook97_live_elect_music">
+</div>
+<div id="outline-container-orgb858745" class="outline-3">
+<h3 id="orgb858745">Role of Performer</h3>
+<div class="outline-text-3" id="text-orgb858745">
+<p>
+The performer is now the conductor, system manager, console and lighting operator, and sometime manipulator of musical materials. They have a new role in the triangle of composer, interpreter, and audience.
+</p>
+</div>
+</div>
+<div id="outline-container-org21774fb" class="outline-3">
+<h3 id="org21774fb">Genre Failure</h3>
+<div class="outline-text-3" id="text-org21774fb">
+<p>
+Genre has failed to migrate as a regular part of concert performance of classically trained musicians.
+</p>
+</div>
+</div>
+<div id="outline-container-org1e968aa" class="outline-3">
+<h3 id="org1e968aa">Tutorial Tradition</h3>
+<div class="outline-text-3" id="text-org1e968aa">
+<p>
+Not many teachers are specialists in live electroacoustic music, despite claiming to be contemporary music specialists. This often transitions to students, who may be entirely unaware the genre exists. Thus the teacher-student-teacher cycle perpetuates itself and contemporary music is not being learned by students.
+</p>
+</div>
+</div>
+<div id="outline-container-org4d4e566" class="outline-3">
+<h3 id="org4d4e566">Role of teacher</h3>
+<div class="outline-text-3" id="text-org4d4e566">
+<p>
+While there are some courses that bring in contemporary music, the relationship with the instrumental teacher is perhaps the most important. The master sets the stage for learning technique, but also artistic value.
+</p>
+</div>
+</div>
+<div id="outline-container-orgeb3a617" class="outline-3">
+<h3 id="orgeb3a617">Performance Materials</h3>
+<div class="outline-text-3" id="text-orgeb3a617">
+<p>
+Contemporary music is likely not found in libraries or stores as more traditional music is.
+There is also a lack of recordings and a performance tradition, so there is more work placed on the performer to learn how to perform a piece. Often this involves just the score, or interacting with the composer directly. It takes a lot more time to acquire a contemporary electroacoustic piece than traditional repertoire. What is on the score often can be unhelfpul. There is often a lack of cues, representation of the electronics, etc. Often you have to start the piece over anytime there is a mistake.
+</p>
+</div>
+</div>
+<div id="outline-container-org6baad73" class="outline-3">
+<h3 id="org6baad73">Gear</h3>
+<div class="outline-text-3" id="text-org6baad73">
+<p>
+Most halls and performance spaces do not have the equipment necessary to perform electroacoustic works. Performers have little training on the equipment, so they don't program the pieces. Spaces don't have them, so you would have to purchase all of your own gear. It's a bit of a circle.
+</p>
+</div>
+</div>
+<div id="outline-container-org2f12fb3" class="outline-3">
+<h3 id="org2f12fb3">Listening</h3>
+<div class="outline-text-3" id="text-org2f12fb3">
+<p>
+Listening to two streams of sound (acoustic and digital) often is disjunct for listeners, especially if the sound is unbalanced as it often is. The directionality of the speakers makes balance tricky. Using multiple high quality speakers often can help this.
+</p>
+</div>
+</div>
+<div id="outline-container-org6c07297" class="outline-3">
+<h3 id="org6c07297">Chamber Music</h3>
+<div class="outline-text-3" id="text-org6c07297">
+<p>
+Electroacoustic music often falls under the umbrella of chamber music, which has survived traditionally by performers wanting to play the music.
+</p>
+</div>
+</div>
+<div id="outline-container-org2595b42" class="outline-3">
+<h3 id="org2595b42">Fusion</h3>
+<div class="outline-text-3" id="text-org2595b42">
+<p>
+The fusion of acoustic chamber music with electroacoustic pop/rock music has rarely worked in the past. They often feel like curiosities instead of serious music
+</p>
+</div>
+</div>
+<div id="outline-container-org2fb192d" class="outline-3">
+<h3 id="org2fb192d">Demands of space</h3>
+<div class="outline-text-3" id="text-org2fb192d">
+<p>
+Many places do not have lots of speakers for multichannel diffuse works. It is also generally technically or financially infeasible for spaces to adopt this. The most appropriate spaces for multi speaker arrays also are not suitable for the acoutsic instruments or voice.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbdb3dca" class="outline-3">
+<h3 id="orgbdb3dca">Overwhelm Audience</h3>
+<div class="outline-text-3" id="text-orgbdb3dca">
+<p>
+In many halls, it has been designed to bring acoustic sounds to the whole space. Putting speakers in to evenly mix everything together often will overwhelm the audience
+</p>
+</div>
+</div>
+<div id="outline-container-orga44c803" class="outline-3">
+<h3 id="orga44c803">On Stage Positioning</h3>
+<div class="outline-text-3" id="text-orga44c803">
+<p>
+On stage positioning with the players can often help with the hall, instead of being on the sides. However this can be expensive
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

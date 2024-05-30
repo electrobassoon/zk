@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>chadabe97_elect_sound</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">chadabe97_elect_sound</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgd984376">Chapter 8: Inputs and Controls</a></li>
+<li><a href="#orgf47f542">Chapter 12: Where Are We Going?</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd984376" class="outline-2">
+<h2 id="orgd984376">Chapter 8: Inputs and Controls</h2>
+<div class="outline-text-2" id="text-orgd984376">
+<p>
+"Traditional instruments are traditional precisely because people have played them through the ages. So, as many composers have thought, why throw away the tradition? Why not use traditional instruments to control electronics and thereby, combine traditional virtuosity with imaginative sounds? And further, why not integrate electronic music into the context and performance practices of traditional music?" p 217
+</p>
+
+<p>
+By 1984 Barry Vercoe could synchronize computer playback to a live performer of a Handel flute sonata (218)
+</p>
+
+<p>
+Subotnick worked with Mark Coniglio to develop Interaktor and wrote some pieces with it in the early 90s (218)
+</p>
+
+<p>
+"Traditional instruments &#x2013; pianos, violins, clarinets, drums, and so on &#x2013; have indeed become traditional largely because they are enjoyable to play, because they are musically rewarding extensions of our physical selves. Keyboards, for example, extend our hands and fingers. Violin bows and drumsticks extend our arms. A clarinet extends its player's voice. Traditional instruments, consequently, have been widely imitated in electronic instruments." (220)
+</p>
+
+<p>
+As John Chowning said, "It would be silly to throw away the keyboard simply because it's related to an older music &#x2013; you can apply people's keyboard facility in new and different ways" (220)
+</p>
+
+<p>
+In generalm these "traditional" electronic instruments appeal to musicians who have instrumental skills. They are comfortable and familiar. And because they typically offer an expanded range of sounds, they are often fun. Dorothy Martirano, for example, plays a Zeta MIDI violin. Asked what she thinks about hearing a nonviolin sound coming out, she answers, "Well it's exciting &#x2013; I like doing it." (222)
+</p>
+
+<p>
+He (Nicolas Collins, maker of a trombone-propelled electronic system) observed: "to the uninitiated there is something baffling about a movement that changes pitch at one time and loudness the next &#x2026; Nonetheless, the apparently quixotic relationship between physical action and sonic response fascinates&#x2026;" (223)
+</p>
+
+<p>
+(Paul DeMarinis) "The process of making interactive art needs to be interactive. When you're making an interactive piece, you have to test it out, to continuously interact with the people who'll be using it interactively. And the process of doing the piece at the Exploratorium was, for me, learning about how technology socializes, and sociology technologizes, and about the human dimension that makes interaction. I started out as Mister Weirdo with people on the staff telling me that my sticks didn't look like guitars. Then I met someone on the staff who had previously worked for Alembic &#x2013; they did guitars for The Grateful Dead &#x2013; and he agreed to make guitar-style bodies for my electronics, patterened after standard electric guitar types. There were five guitars, one was a Gibson, one was a Stratocaster, one a Flying V, and so on, all standard styles, and it was amazing how they played into everyone's musical tfantasies. The reality of the guitar, the weight, the finish, the leather straps, the smell of the tleather affected the way people played together. Suddenly, everybody knew they were making music, and their actions were reinforced by the actual experience they were having. The fantasy of the rock-and-roll guitarist, that was music making. Holding these objects meant music to them. (224)
+</p>
+
+<p>
+(Peter Otto) In his view, "What was lost in digital technology was the gestural, tactile immediacy of the analog world, so here you were with this incredible computing power and just a mouse to control it with." (238-239)
+</p>
+
+<p>
+(Xavier Chabot) "The problem was relating the body, the voice, and the space and the sound, and Noh music was a very particular and effective solution&#x2026; Zeami, the founder of Noh in the 14th century, said the sound comes before the gestures. So I ask: how can I control an electronic process?" In Robert Moog's words, "It's long-term research". (240)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf47f542" class="outline-2">
+<h2 id="orgf47f542">Chapter 12: Where Are We Going?</h2>
+<div class="outline-text-2" id="text-orgf47f542">
+<p>
+As Bruce Pennycook said "The players that we see on a day to day basis out there making music are the players of traditional instruments &#x2013; I'd like to have my pieces played live in the kind of venues that attract music lovers as those venues have for hundreds of years" (324)
+</p>
+
+<p>
+He explored ways in which chamber music performers can trigger and control electronically generated accompaniments. (324)
+</p>
+
+<p>
+(Pennycook) As he remarks, referring to <i>Praescio-IV</i>, "Players that have never enounctered electronic music before are so excited about having truly responsive control over the computer, compared to playing with tape, that they can't stop talking about it." (325)
+</p>
+
+<p>
+(Max Mathews) "I wondered what useful functions computers could serve in live performance. It seemed to me that there were many things that I did <i>not</i> want the computer to do &#x2013; like to limit or interfere with or contribute to the expressive arts of the music &#x2013; because those are the domain of the performer. But it also seemed to me that there were a number of aspects of music where the performer didn't need any freedom of choice. The sequence of notes to be played, for example, was an area in which the computer could legitimately help a performer in making it easier to do things correctly. And this led to the concept of the expressive sequencer, where the predetermined parts of the music were in the computer memory as a sequence of notes or chords or events, but where the performer was controlling everything about the way those notes got played&#x2026;(333-4)
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

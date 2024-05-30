@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>behr14_elect_bassoon</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">behr14_elect_bassoon</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org80fdf44">The electroacoustic bassoon: an exploration of a modern use for the traditional instrument</a>
+<ul>
+<li><a href="#org0fd7c95">Cage</a></li>
+<li><a href="#org50eac31">Effects</a></li>
+<li><a href="#org0a08530">MIDI</a></li>
+<li><a href="#org5487712">MAX</a></li>
+<li><a href="#org0549899">Possibility</a></li>
+<li><a href="#orgd62a531">First piece</a></li>
+<li><a href="#orge927a1c">Early Live pieces</a></li>
+<li><a href="#org1096836">Amplification</a></li>
+<li><a href="#orgf97303d">Mics</a></li>
+<li><a href="#orgfd07ddb">Mic issues</a></li>
+<li><a href="#orgd45c196">Bocal issues</a></li>
+<li><a href="#org385bb3c">Telex</a></li>
+<li><a href="#org6b694fd">Notes for page 26</a></li>
+<li><a href="#orgeb9dbec">LJ</a></li>
+<li><a href="#orgb66e74b">Mix</a></li>
+<li><a href="#org3e7cb4d">PA</a></li>
+<li><a href="#orgba9c7e5">Bassoon sound</a></li>
+<li><a href="#org16c8a46">Distortion</a></li>
+<li><a href="#org9c411ae">Compressor</a></li>
+<li><a href="#orgf324b7d">Pitch Shifting</a></li>
+<li><a href="#org306e5ae">Filters</a></li>
+<li><a href="#org469d978">Modulation</a></li>
+<li><a href="#org8c4924e">Time Based</a></li>
+<li><a href="#org8c453f5">Test</a></li>
+<li><a href="#org86ea256">Pedagogy</a></li>
+<li><a href="#org8f23b32">Performance Issues - Burns</a></li>
+<li><a href="#orge508769">Traveling</a></li>
+<li><a href="#org01d90f1">Difficulty of Looping</a></li>
+<li><a href="#orgaceab8b">Necessity of Familiarity</a></li>
+<li><a href="#org386af8a">Music</a></li>
+<li><a href="#org602b6f3">Volume Pedal</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org80fdf44" class="outline-2">
+<h2 id="org80fdf44">The electroacoustic bassoon: an exploration of a modern use for the traditional instrument</h2>
+<div class="outline-text-2" id="text-org80fdf44">
+</div>
+<div id="outline-container-org0fd7c95" class="outline-3">
+<h3 id="org0fd7c95">Cage</h3>
+<div class="outline-text-3" id="text-org0fd7c95">
+<p>
+Cage perhaps has the first work for live acoustic instruments and recorded sounds. <i>Imaginary Landscape No. 1</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org50eac31" class="outline-3">
+<h3 id="org50eac31">Effects</h3>
+<div class="outline-text-3" id="text-org50eac31">
+<p>
+Effects began in the 1960s, but we had to wait until the 70s and 80s for it to be usable in real time live performance. Filters, flanging, phasing, panning, echo, and delay.
+</p>
+</div>
+</div>
+<div id="outline-container-org0a08530" class="outline-3">
+<h3 id="org0a08530">MIDI</h3>
+<div class="outline-text-3" id="text-org0a08530">
+<p>
+Midi standardized software for electronic communication. 1983
+</p>
+</div>
+</div>
+<div id="outline-container-org5487712" class="outline-3">
+<h3 id="org5487712">MAX</h3>
+<div class="outline-text-3" id="text-org5487712">
+<p>
+max in the late 90s	
+</p>
+</div>
+</div>
+<div id="outline-container-org0549899" class="outline-3">
+<h3 id="org0549899">Possibility</h3>
+<div class="outline-text-3" id="text-org0549899">
+<p>
+Many subgenres within electroacoustic music. 
+Electronics allows the pairing of traditional bassoon with an infinite palette of electroacoustic sounds, as well as greater flexibility by altering bassoon tone.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd62a531" class="outline-3">
+<h3 id="orgd62a531">First piece</h3>
+<div class="outline-text-3" id="text-orgd62a531">
+<p>
+First live with tape would be Dittrich's <i>Kammermusic I</i>, also Schwartz's <i>Aria no 4</i> and Fongarrds works in 1976.
+</p>
+</div>
+</div>
+<div id="outline-container-orge927a1c" class="outline-3">
+<h3 id="orge927a1c">Early Live pieces</h3>
+<div class="outline-text-3" id="text-orge927a1c">
+<p>
+Boush <i>Espace Temps</i> Rothkopf <i>At a Crossroads</i> and Hurdy's <i>Impromptu pour un Monodrame</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org1096836" class="outline-3">
+<h3 id="org1096836">Amplification</h3>
+<div class="outline-text-3" id="text-org1096836">
+<p>
+To be heard in modern ensembles like jazz, rock, etc Amplification is needed. There are usually two options, the electric bocal and traditional microphones.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf97303d" class="outline-3">
+<h3 id="orgf97303d">Mics</h3>
+<div class="outline-text-3" id="text-orgf97303d">
+<p>
+If using one mic, it should be about head level pointing towards the center of the bassoon. Most like to use 2 mics, on at the bell and one by the right hand. Clip on mics make movement easier.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd07ddb" class="outline-3">
+<h3 id="orgfd07ddb">Mic issues</h3>
+<div class="outline-text-3" id="text-orgfd07ddb">
+<p>
+If they are fixed, movement causes a change in amplification. One mic will also have changes becuase of not picking the entire instrument up evenly. Levels may need to be high which affects other instruments, or feedback.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd45c196" class="outline-3">
+<h3 id="orgd45c196">Bocal issues</h3>
+<div class="outline-text-3" id="text-orgd45c196">
+<p>
+The prospect of drilling into bocal can be a deterrent itself. It's almost a leap of faith, as bocals are expensive and you still want a good bocal.
+</p>
+</div>
+</div>
+<div id="outline-container-org385bb3c" class="outline-3">
+<h3 id="org385bb3c">Telex</h3>
+<div class="outline-text-3" id="text-org385bb3c">
+<p>
+Telex discontinued, and is more prone to feedback, emphasizes high frequencies
+</p>
+</div>
+</div>
+<div id="outline-container-org6b694fd" class="outline-3">
+<h3 id="org6b694fd">Notes for page 26</h3>
+<div class="outline-text-3" id="text-org6b694fd">
+</div>
+</div>
+<div id="outline-container-orgeb9dbec" class="outline-3">
+<h3 id="orgeb9dbec">LJ</h3>
+<div class="outline-text-3" id="text-orgeb9dbec">
+<p>
+Little jake need preamp, a couple different setups described.	
+</p>
+</div>
+</div>
+<div id="outline-container-orgb66e74b" class="outline-3">
+<h3 id="orgb66e74b">Mix</h3>
+<div class="outline-text-3" id="text-orgb66e74b">
+<p>
+Mixing both may be the best of both worlds. However it is more complex for setup and blending signals and needs a good technician.
+</p>
+</div>
+</div>
+<div id="outline-container-org3e7cb4d" class="outline-3">
+<h3 id="org3e7cb4d">PA</h3>
+<div class="outline-text-3" id="text-org3e7cb4d">
+<p>
+Most seem to prefer a PA system than an amp.
+</p>
+</div>
+</div>
+<div id="outline-container-orgba9c7e5" class="outline-3">
+<h3 id="orgba9c7e5">Bassoon sound</h3>
+<div class="outline-text-3" id="text-orgba9c7e5">
+<p>
+Bassoon sound is more complex, so effects may behave differently than a guitar or synth.
+</p>
+</div>
+</div>
+<div id="outline-container-org16c8a46" class="outline-3">
+<h3 id="org16c8a46">Distortion</h3>
+<div class="outline-text-3" id="text-org16c8a46">
+<p>
+Frequently used. Boost the signal, clip, and add overtones. However the bassoon already has complex harmonic content, so distortion needs to be chosen carefully or it can be oversaturated and produce mostly white noise. It also creates feedback issues (Jacobs) Overdrive and Fuzz are related.
+</p>
+</div>
+</div>
+<div id="outline-container-org9c411ae" class="outline-3">
+<h3 id="org9c411ae">Compressor</h3>
+<div class="outline-text-3" id="text-org9c411ae">
+<p>
+Louds softer and softs louder. Usually this dampens the notes beginning and boosts sustain.	
+</p>
+</div>
+</div>
+<div id="outline-container-orgf324b7d" class="outline-3">
+<h3 id="orgf324b7d">Pitch Shifting</h3>
+<div class="outline-text-3" id="text-orgf324b7d">
+<p>
+Octaves are most common, but sophisticated options available.
+</p>
+</div>
+</div>
+<div id="outline-container-org306e5ae" class="outline-3">
+<h3 id="org306e5ae">Filters</h3>
+<div class="outline-text-3" id="text-org306e5ae">
+<p>
+Weaken or boost specific freqs or range of freqs. Wah-wah most common. Adjust tone
+</p>
+</div>
+</div>
+<div id="outline-container-org469d978" class="outline-3">
+<h3 id="org469d978">Modulation</h3>
+<div class="outline-text-3" id="text-org469d978">
+<p>
+Flangers, phaser, chorus. Often add depth, dimension, and movement.
+Flanger adds a variable delay. Phaser splits signal and alters phase. Create a vowel shifting or swish. Chorus constant delay very short.
+</p>
+</div>
+</div>
+<div id="outline-container-org8c4924e" class="outline-3">
+<h3 id="org8c4924e">Time Based</h3>
+<div class="outline-text-3" id="text-org8c4924e">
+<p>
+Reverb lots of echoes that gradually fade. Delay and echo duplicate signal and delay. Loopers or phase loopers record and playback verbatim. Overdubbing also possible. Gives options to bassoon as a monophonic instrument.
+</p>
+</div>
+</div>
+<div id="outline-container-org8c453f5" class="outline-3">
+<h3 id="org8c453f5">Test</h3>
+<div class="outline-text-3" id="text-org8c453f5">
+<p>
+Rodgers says test all pedals against full range of the instrument.
+</p>
+</div>
+</div>
+<div id="outline-container-org86ea256" class="outline-3">
+<h3 id="org86ea256">Pedagogy</h3>
+<div class="outline-text-3" id="text-org86ea256">
+<p>
+Using gear was not part of bassoon performance degree. Using feet with pedals needed more coordination than he thought. (Rodgers) Had to get help outside the orchestral world.
+</p>
+</div>
+</div>
+<div id="outline-container-org8f23b32" class="outline-3">
+<h3 id="org8f23b32">Performance Issues - Burns</h3>
+<div class="outline-text-3" id="text-org8f23b32">
+<p>
+Not being able to hear the electronics. A monitor will probably help. Also not being able to read the notation of the electronic part and understand cues.
+Live interactives may have a mind of their own.
+</p>
+</div>
+</div>
+<div id="outline-container-orge508769" class="outline-3">
+<h3 id="orge508769">Traveling</h3>
+<div class="outline-text-3" id="text-orge508769">
+<p>
+You can take your accompanist with you. No worrying about their qualtiy or the instrument. Also interaction with composers, as they are frequently alive.	
+</p>
+</div>
+</div>
+<div id="outline-container-org01d90f1" class="outline-3">
+<h3 id="org01d90f1">Difficulty of Looping</h3>
+<div class="outline-text-3" id="text-org01d90f1">
+<p>
+Rhythm and intonation have to be perfect
+</p>
+</div>
+</div>
+<div id="outline-container-orgaceab8b" class="outline-3">
+<h3 id="orgaceab8b">Necessity of Familiarity</h3>
+<div class="outline-text-3" id="text-orgaceab8b">
+<p>
+When more composers write more pieces for this medium, it will necessitate a familiarity with the medium and the genre. (Rodgers)
+</p>
+</div>
+</div>
+<div id="outline-container-org386af8a" class="outline-3">
+<h3 id="org386af8a">Music</h3>
+<div class="outline-text-3" id="text-org386af8a">
+<p>
+Music is music no matter how you slice it. Tools are just that - tools in order to coax expression and feelings out. (Hanson)
+</p>
+</div>
+</div>
+<div id="outline-container-org602b6f3" class="outline-3">
+<h3 id="org602b6f3">Volume Pedal</h3>
+<div class="outline-text-3" id="text-org602b6f3">
+<p>
+Discussion of dynamics and the need of a volume pedal.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

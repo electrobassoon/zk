@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       314079a7-7383-4cd2-8b5f-2b5e28d87d68
+:END:
+#+title: Acoustics of Performance Spaces
+
+Electroacoustic Performance:
+[[id:3cd23c84-ba1f-4dad-b30f-9e2ec38e91fa][stockhausen96-halls]]
+[[id:5241e1f5-5723-4889-892d-0ea367ff1157][kimura03_acoustics]]

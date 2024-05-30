@@ -48,10 +48,8 @@ Three factors can be combined infinitely, but always have to contirbue 100%. If 
 :NOTER_PAGE: (3 0.40842648323301806 . 0.10485933503836319)
 :END:
 #+BEGIN_QUOTE
-1. THE LARGER A REED, THE MORE RESISTANT (Harder/Stiffer/Heavier) IT
-MUST BE.
-2. THE SMALLER A REED, THE LESS RESISTANT (Softer/Freer/Lighter) IT
-MUST BE.
+1. THE LARGER A REED, THE MORE RESISTANT (Harder/Stiffer/Heavier) IT MUST BE.
+2. THE SMALLER A REED, THE LESS RESISTANT (Softer/Freer/Lighter) IT MUST BE.
 #+END_QUOTE
 ** Damping
 :PROPERTIES:

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cooper91_reed_makin_notes</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">cooper91_reed_makin_notes</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org455cff3">Gouge</a>
+<ul>
+<li><a href="#orge3e0ae8">Time</a></li>
+<li><a href="#org7b56390">Straight Grain</a></li>
+<li><a href="#orge457ebb">Thickness</a></li>
+<li><a href="#org10d6026">Mutated Gouges</a></li>
+<li><a href="#orgaba5b23">Incosistency</a></li>
+<li><a href="#org1fc6397">Color</a></li>
+<li><a href="#orgb609194">Hardness</a></li>
+<li><a href="#org5119240">Maturity</a></li>
+<li><a href="#org5d5150a">Breathes</a></li>
+<li><a href="#orgd0a4e5d">Major imperfections</a></li>
+<li><a href="#orgbb9b6f1">More sophisticated methods</a>
+<ul>
+<li><a href="#org56a88be">Sinking</a></li>
+<li><a href="#org220d38d">Pitch when dropping</a></li>
+<li><a href="#orgf6a212c">Thumbnail test</a></li>
+</ul>
+</li>
+<li><a href="#orge15d393">Ideally Gouge Your Own</a></li>
+<li><a href="#org6c74beb">20 to 25%</a></li>
+<li><a href="#org800346e">Sand inner side of gouge before using</a></li>
+<li><a href="#org429d325">Continuation of fibers</a></li>
+<li><a href="#org7b91c84">Wet the gouged cane</a></li>
+<li><a href="#org126a4b0">Results!</a></li>
+<li><a href="#orgaea5140">Prolonged soaking</a></li>
+<li><a href="#org089bbf1">Convenience</a></li>
+<li><a href="#org4ff28e8">Soaking procedure</a></li>
+<li><a href="#orgdf140b9">Misleading hardening</a></li>
+<li><a href="#orga92bfb1">Testing procedure</a></li>
+<li><a href="#org062f775">Water quality</a></li>
+<li><a href="#orge9f1f6d">Saps and minerals take longer than mineral salts to dissolve</a></li>
+<li><a href="#org06bfeed">Other approaches</a></li>
+<li><a href="#orgb13755a">Don't rush</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org455cff3" class="outline-2">
+<h2 id="org455cff3">Gouge</h2>
+<div class="outline-text-2" id="text-org455cff3">
+</div>
+
+<div id="outline-container-orge3e0ae8" class="outline-3">
+<h3 id="orge3e0ae8">Time</h3>
+<div class="outline-text-3" id="text-orge3e0ae8">
+<p>
+"The most costly element in reed making is time!"
+Discard any pieces of cane that do not show promise of making a good reed.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7b56390" class="outline-3">
+<h3 id="org7b56390">Straight Grain</h3>
+<div class="outline-text-3" id="text-org7b56390">
+<p>
+Gouged surface should run true from end to end.
+Is it straight when you lay the bark on a table? As in does the bark touch the table the entire time.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge457ebb" class="outline-3">
+<h3 id="orge457ebb">Thickness</h3>
+<div class="outline-text-3" id="text-orge457ebb">
+<p>
+Should be symmetric.
+Measure with dial indicator from end to end. Should not vary more than .05mm or .002". Discard if you can't correct with sanding.
+Side to side symmetry as well. Gouge should not be off-center. Both concentric and eccentric gouging is ok. This is more critical than end to end symmetry
+</p>
+</div>
+</div>
+
+<div id="outline-container-org10d6026" class="outline-3">
+<h3 id="org10d6026">Mutated Gouges</h3>
+<div class="outline-text-3" id="text-org10d6026">
+<p>
+Some people apparently intentionally make an asymmetric gouge, Mechler for example. Maybe Skinner's internal gouge things would apply?
+</p>
+</div>
+</div>
+<div id="outline-container-orgaba5b23" class="outline-3">
+<h3 id="orgaba5b23">Incosistency</h3>
+<div class="outline-text-3" id="text-orgaba5b23">
+<p>
+Incosistent goues result in inconsistent reeds!
+So try not to change variables too much.
+</p>
+</div>
+</div>
+<div id="outline-container-org1fc6397" class="outline-3">
+<h3 id="org1fc6397">Color</h3>
+<div class="outline-text-3" id="text-org1fc6397">
+<p>
+Discolorations should be avoided.
+Slightly green can be stored for months to cure longer
+Dark green probably won't cure
+Concentrated green and black spots indicate fungal growth and should be discarded
+Thin dark lines in vascular tubes indicate mold.
+This does not apply to brown flecks in the bark of the cane. This actually shows mature cane because mold grew in the leaves that wrap the cane.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb609194" class="outline-3">
+<h3 id="orgb609194">Hardness</h3>
+<div class="outline-text-3" id="text-orgb609194">
+<p>
+Other color variations can show indications of hardness.
+If it's more brown, there is high mineral or sap content and are usually very hard.
+Very white cane can be excessively soft and pithy
+Rich cream color to light yellow represents the middle ground.
+Experience will show the color that works best for the individual.
+</p>
+</div>
+</div>
+<div id="outline-container-org5119240" class="outline-3">
+<h3 id="org5119240">Maturity</h3>
+<div class="outline-text-3" id="text-org5119240">
+<p>
+Maturity can be judged by the "sap wood" or the dermis right below the bark. It's an intense shade of orangish-gold when you look at the end of the gouged cane.
+</p>
+</div>
+</div>
+<div id="outline-container-org5d5150a" class="outline-3">
+<h3 id="org5d5150a">Breathes</h3>
+<div class="outline-text-3" id="text-org5d5150a">
+<p>
+Mature cane breathes!?
+Air can be drawn through the end grain of gouged cane
+Air can be blown through profiled and shaped cane that show bubbles when immersed in water
+The degree of porosity also shows density of cane.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd0a4e5d" class="outline-3">
+<h3 id="orgd0a4e5d">Major imperfections</h3>
+<div class="outline-text-3" id="text-orgd0a4e5d">
+<p>
+Major imperfections should be disqualifying.
+Grooves turn into cracks after scraping to it.
+Small imperfections can be sanded out, but could go too thin
+Fibers rising above the gouge can be sanded out.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbb9b6f1" class="outline-3">
+<h3 id="orgbb9b6f1">More sophisticated methods</h3>
+<div class="outline-text-3" id="text-orgbb9b6f1">
+<p>
+Flexing the cane can give relative hardness
+When immersing dry cane into water, denser harder cane will sink more than shallow soft cane
+</p>
+</div>
+<div id="outline-container-org56a88be" class="outline-4">
+<h4 id="org56a88be">Sinking</h4>
+<div class="outline-text-4" id="text-org56a88be">
+<p>
+Cane should sink after 1 to 3 hours. Faster means harder, slower means softer
+Sooner than 1 hour is too hard
+Longer than 3 hours are too soft
+</p>
+</div>
+</div>
+<div id="outline-container-org220d38d" class="outline-4">
+<h4 id="org220d38d">Pitch when dropping</h4>
+<div class="outline-text-4" id="text-org220d38d">
+<p>
+Higher pitch is harder, lower pitch is softer
+</p>
+</div>
+</div>
+<div id="outline-container-orgf6a212c" class="outline-4">
+<h4 id="orgf6a212c">Thumbnail test</h4>
+<div class="outline-text-4" id="text-orgf6a212c">
+<p>
+Push with thubmnail in part that will be shaped away. Deep grooves are softer, shallow grooves are harder. If you can mark the bark it's too soft.
+There are hardness testers
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge15d393" class="outline-3">
+<h3 id="orge15d393">Ideally Gouge Your Own</h3>
+<div class="outline-text-3" id="text-orge15d393">
+<p>
+If you get from a vendor, stick with the same vendor. If you like a batch ask if you can get more of the same batch.
+</p>
+</div>
+</div>
+<div id="outline-container-org6c74beb" class="outline-3">
+<h3 id="org6c74beb">20 to 25%</h3>
+<div class="outline-text-3" id="text-org6c74beb">
+<p>
+This is all that Cooper expects to meet all the criteria
+</p>
+</div>
+</div>
+<div id="outline-container-org800346e" class="outline-3">
+<h3 id="org800346e">Sand inner side of gouge before using</h3>
+<div class="outline-text-3" id="text-org800346e">
+<p>
+It corrects minor imperfections in symmetry.
+Use 400 to 600 grit emery cloth to smooth the inner gouge. 600 is brighter sounding than 400.
+Must remove any grooves that become cracks, or any raised fibers.
+</p>
+</div>
+</div>
+<div id="outline-container-org429d325" class="outline-3">
+<h3 id="org429d325">Continuation of fibers</h3>
+<div class="outline-text-3" id="text-org429d325">
+<p>
+Piling up (dark spots) will make vibrations past that point more difficult
+Light pots or depressions will also mess up vabrations past the weak poit.
+Sand until all fibers go from end to end.
+</p>
+</div>
+</div>
+<div id="outline-container-org7b91c84" class="outline-3">
+<h3 id="org7b91c84">Wet the gouged cane</h3>
+<div class="outline-text-3" id="text-org7b91c84">
+<p>
+Run wet finger over cane, wipe off excess moisture.
+Lay under a lamp to dry more quickly.
+After doing 10 to 12 corrective sanding pieces, the first ones will be dry and there will be more raised fibers
+Repeat the sanding, then repeat the wetting process
+Typically it takes three to four times before it stays smooth.
+This should be done before proceeding to form.
+</p>
+</div>
+</div>
+<div id="outline-container-org126a4b0" class="outline-3">
+<h3 id="org126a4b0">Results!</h3>
+<div class="outline-text-3" id="text-org126a4b0">
+<p>
+Being this careful with the gouge is the primary element of the reed tips final contour. 
+</p>
+</div>
+</div>
+<div id="outline-container-orgaea5140" class="outline-3">
+<h3 id="orgaea5140">Prolonged soaking</h3>
+<div class="outline-text-3" id="text-orgaea5140">
+<p>
+Leaches out soluble saps and minerals
+Makes cane less likely to cause allergic reactions
+Minimizes the break in process. Breaking in is the process of removing entrapped vegetable and mineral material. Playing it makes the dissolution very slow.
+Improves the quality and workability of cane. Greater success rate and better final results.
+</p>
+</div>
+</div>
+<div id="outline-container-org089bbf1" class="outline-3">
+<h3 id="org089bbf1">Convenience</h3>
+<div class="outline-text-3" id="text-org089bbf1">
+<p>
+It's conventient to always have soaked cane at a moment's notice.
+</p>
+</div>
+</div>
+<div id="outline-container-org4ff28e8" class="outline-3">
+<h3 id="org4ff28e8">Soaking procedure</h3>
+<div class="outline-text-3" id="text-org4ff28e8">
+<p>
+Can use distilled or hot tap water
+Fill to brim before screwing on the top
+If doing 10 to 20 pieces of cane, probably best to change every 24 hours
+Wait until water is clear after a day or two in water
+Once it remains clear, refill the jar and remove all air, then keep it in a dark place.
+Apparently best quality is after two to three months.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf140b9" class="outline-3">
+<h3 id="orgdf140b9">Misleading hardening</h3>
+<div class="outline-text-3" id="text-orgdf140b9">
+<p>
+During the first two or three weeks it seems the like the cane gets harder, but it's false?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga92bfb1" class="outline-3">
+<h3 id="orga92bfb1">Testing procedure</h3>
+<div class="outline-text-3" id="text-orga92bfb1">
+<p>
+Soak 25-30 pieces of cane, get to the clear stage and go for 3 weeks.
+Then make 2 or 3 reeds.
+Wait a week then make 2 or 3, repeat
+Reeds will get better as it goes.
+Make sure to check the jar for signs of mold or algae. Immediately take corrective actions if it shows up.
+</p>
+</div>
+</div>
+<div id="outline-container-org062f775" class="outline-3">
+<h3 id="org062f775">Water quality</h3>
+<div class="outline-text-3" id="text-org062f775">
+<p>
+Tap water with lots of minerals will probably contribute through reverse osmosis, so use distilled water!
+Especially avoid city water with high potassium permanganate
+</p>
+</div>
+</div>
+<div id="outline-container-orge9f1f6d" class="outline-3">
+<h3 id="orge9f1f6d">Saps and minerals take longer than mineral salts to dissolve</h3>
+<div class="outline-text-3" id="text-orge9f1f6d">
+</div>
+</div>
+<div id="outline-container-org06bfeed" class="outline-3">
+<h3 id="org06bfeed">Other approaches</h3>
+<div class="outline-text-3" id="text-org06bfeed">
+</div>
+</div>
+<div id="outline-container-orgb13755a" class="outline-3">
+<h3 id="orgb13755a">Don't rush</h3>
+<div class="outline-text-3" id="text-orgb13755a">
+<p>
+These minutia are often negleceted to finish reeds quickly. But he claims this will elevate reedmaking to an art
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6792f7fa-fafa-45cd-a85c-1d78fc14f817
+:END:
+#+title: Acoustics
+
+[[id:02d7f51a-7a5d-4db6-834f-1a2ffd1aee7b][Acoustics and Characteristic Bassoon Sound]]
+
+[[id:314079a7-7383-4cd2-8b5f-2b5e28d87d68][Acoustics of Performance Spaces]]
+
+[[id:e68a99e7-02d9-44cb-b59f-fa8a9af71c39][Damping]]

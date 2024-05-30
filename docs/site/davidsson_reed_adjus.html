@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>davidsson_reed_adjus</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">davidsson_reed_adjus</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org357c925">Reed Adjusting</a>
+<ul>
+<li><a href="#org30db244">Resistant</a></li>
+<li><a href="#org677b1ff">Diagnosis</a>
+<ul>
+<li><a href="#org485352b">Too Hard</a></li>
+<li><a href="#orgec4521e">Too Soft</a></li>
+<li><a href="#orgda082e1">Too Heavy in the Low Register</a></li>
+<li><a href="#org84b1791">Too Heavy in the High Register</a></li>
+<li><a href="#orgc97fbde">Too Dark</a></li>
+<li><a href="#org9d052e8">Too bright or sparkling</a></li>
+<li><a href="#org31ceb84">Too hard to tongue</a></li>
+<li><a href="#orgb71b457">Too Easy Tonguing</a></li>
+<li><a href="#org55dd23c">Too Low in High Register</a></li>
+<li><a href="#org317fbab">Too High in Low Register</a></li>
+</ul>
+</li>
+<li><a href="#orgbe5db23">Specific Areas</a>
+<ul>
+<li><a href="#orgbd68f19">Back rails/channels</a></li>
+<li><a href="#org94db0e6">Thumbnail edges</a></li>
+<li><a href="#org3f26c98">Back Third</a></li>
+<li><a href="#org94034b9">Heart</a></li>
+<li><a href="#org9e90056">Tip edge</a></li>
+<li><a href="#org62b287f">Rails</a></li>
+<li><a href="#org5cd82f3">Bowtie</a></li>
+<li><a href="#org682ac11">Whole reed</a></li>
+<li><a href="#orgd3c3082">Front Third</a></li>
+<li><a href="#orge64b9e3">Open first wire</a></li>
+<li><a href="#org1d33b67">Open second wire</a></li>
+<li><a href="#org56be5f9">Close first wire</a></li>
+<li><a href="#org936a6da">Close Second Wire</a></li>
+<li><a href="#orga2b5a00">Side behind first wire</a></li>
+<li><a href="#org4cdf848">Spine</a></li>
+<li><a href="#org0c81f33">Eyes (side of heart)</a></li>
+<li><a href="#orgc1993d7">Front of tip</a></li>
+<li><a href="#org946c43a">Corners</a></li>
+<li><a href="#org8be3f62">Narrow spine</a></li>
+<li><a href="#orge0f38ce">Measurements</a></li>
+<li><a href="#orgf5b8991">Rails in front third</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org357c925" class="outline-2">
+<h2 id="org357c925">Reed Adjusting</h2>
+<div class="outline-text-2" id="text-org357c925">
+</div>
+
+<div id="outline-container-org30db244" class="outline-3">
+<h3 id="org30db244">Resistant</h3>
+<div class="outline-text-3" id="text-org30db244">
+<p>
+Too think in the middle and too thin at the edges is all-through resistant
+</p>
+</div>
+</div>
+
+<div id="outline-container-org677b1ff" class="outline-3">
+<h3 id="org677b1ff">Diagnosis</h3>
+<div class="outline-text-3" id="text-org677b1ff">
+</div>
+<div id="outline-container-org485352b" class="outline-4">
+<h4 id="org485352b">Too Hard</h4>
+<div class="outline-text-4" id="text-org485352b">
+<p>
+Middle isn't too thick compared to edges (the very center of the spine), or too much wood everywhere, then whole reed evenly.
+Check to see if high register becomes light and low becomes heavy. Then stop and target those areas. If cane is very hard, dip the entire reed in boiling water for 10 seconds.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec4521e" class="outline-4">
+<h4 id="orgec4521e">Too Soft</h4>
+<div class="outline-text-4" id="text-orgec4521e">
+<p>
+Try tightening wires first. Pinch sides right behind first wire. If still soft, cut tip 0.5 to 1.0mm
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgda082e1" class="outline-4">
+<h4 id="orgda082e1">Too Heavy in the Low Register</h4>
+<div class="outline-text-4" id="text-orgda082e1">
+<p>
+Scrape back quarter of the reed, close the second wire. Very corners can also make a small difference. This also makes high notes easier. 
+The rails in the back quarter of the reed also can help a little, but tends to free up the whole reed.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org84b1791" class="outline-4">
+<h4 id="org84b1791">Too Heavy in the High Register</h4>
+<div class="outline-text-4" id="text-org84b1791">
+<p>
+Scrape the very edge on the front third of the reed. Open second wire. Scrape the front third in the thumbnail area. Possibly bowtie scrapes and very corners as well
+Reaming or cutting the tip as well.	
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc97fbde" class="outline-4">
+<h4 id="orgc97fbde">Too Dark</h4>
+<div class="outline-text-4" id="text-orgc97fbde">
+<p>
+Scrape front third evenly. Check that the heart  isn't too thick. Scrape carefully! Trading sound and stabiblity for freedom and flexibility.  Bowtie can help too. Open wire 2.
+Last resort make spine more narrow.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9d052e8" class="outline-4">
+<h4 id="org9d052e8">Too bright or sparkling</h4>
+<div class="outline-text-4" id="text-org9d052e8">
+<p>
+Take down rails of both sides. A little more to the channels in the back quarter helps. Pinch sides right behind wire 1. May have to close tip with fingers in front of first wire.
+Close second wire can help too.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org31ceb84" class="outline-4">
+<h4 id="org31ceb84">Too hard to tongue</h4>
+<div class="outline-text-4" id="text-org31ceb84">
+<p>
+Very edge of the tip, also bowtie. The front third in general will make striking easier and have more flexibility. Can also try back channels and the heart.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb71b457" class="outline-4">
+<h4 id="orgb71b457">Too Easy Tonguing</h4>
+<div class="outline-text-4" id="text-orgb71b457">
+<p>
+Pinch reed together and sand the tip edge. or clip reed 0.5mm. Open first wire. Scrape rails at front third more (increase the change from center to edges?). Can also pinch right behind wire 1.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org55dd23c" class="outline-4">
+<h4 id="org55dd23c">Too Low in High Register</h4>
+<div class="outline-text-4" id="text-org55dd23c">
+<p>
+Ream the reed or clip tip. Open second wire. or close first wire.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org317fbab" class="outline-4">
+<h4 id="org317fbab">Too High in Low Register</h4>
+<div class="outline-text-4" id="text-org317fbab">
+<p>
+Open second wire, scrape back channels, maybe even entire back third, the eyes (channels in heart area)
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbe5db23" class="outline-3">
+<h3 id="orgbe5db23">Specific Areas</h3>
+<div class="outline-text-3" id="text-orgbe5db23">
+</div>
+<div id="outline-container-orgbd68f19" class="outline-4">
+<h4 id="orgbd68f19">Back rails/channels</h4>
+<div class="outline-text-4" id="text-orgbd68f19">
+<p>
+Freer reed, darens the sound and increases lows (is that volume or pitch?)
+</p>
+</div>
+</div>
+<div id="outline-container-org94db0e6" class="outline-4">
+<h4 id="org94db0e6">Thumbnail edges</h4>
+<div class="outline-text-4" id="text-org94db0e6">
+<p>
+Tonguing is easier, better flexibbility over whole register. Intruding sounds muted (is that buzziness?, airiness?)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3f26c98" class="outline-4">
+<h4 id="org3f26c98">Back Third</h4>
+<div class="outline-text-4" id="text-org3f26c98">
+<p>
+Low register easier (surprised it doesn't mention too much will kill the reed)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org94034b9" class="outline-4">
+<h4 id="org94034b9">Heart</h4>
+<div class="outline-text-4" id="text-org94034b9">
+<p>
+Core of the tone. Too little and it collapses, too much will make the reed heavy and hard to tongue, and hard to play legato. 
+Try other approaches first, but if you must only do it a little at a time. Tone will get brighter and weaker, but freer.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9e90056" class="outline-4">
+<h4 id="org9e90056">Tip edge</h4>
+<div class="outline-text-4" id="text-org9e90056">
+<p>
+Tonguing easier, pianissimo in upper registers also easier
+</p>
+</div>
+</div>
+
+<div id="outline-container-org62b287f" class="outline-4">
+<h4 id="org62b287f">Rails</h4>
+<div class="outline-text-4" id="text-org62b287f">
+<p>
+Dampens the sound and slightly darkens the tone. Reed becomes more flexible. Too much in comparison to spine makes an imbalance and reed is unstable, stiff, and resistant. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5cd82f3" class="outline-4">
+<h4 id="org5cd82f3">Bowtie</h4>
+<div class="outline-text-4" id="text-org5cd82f3">
+<p>
+Easier high register and tonguing, also brighter sound
+</p>
+</div>
+</div>
+
+<div id="outline-container-org682ac11" class="outline-4">
+<h4 id="org682ac11">Whole reed</h4>
+<div class="outline-text-4" id="text-org682ac11">
+<p>
+Keeps internal relationships and becomes lighter
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd3c3082" class="outline-4">
+<h4 id="orgd3c3082">Front Third</h4>
+<div class="outline-text-4" id="text-orgd3c3082">
+<p>
+High register is easier, better tonguing, brighter sound, more flexibility
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge64b9e3" class="outline-4">
+<h4 id="orge64b9e3">Open first wire</h4>
+<div class="outline-text-4" id="text-orge64b9e3">
+<p>
+Shouldn't be too tight to restrain vibrations. Loosen for a freer sound if it's too tight. Opening gives larger aperture, more resistance, darker sound, and easier low register (didn't think that was true!)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1d33b67" class="outline-4">
+<h4 id="org1d33b67">Open second wire</h4>
+<div class="outline-text-4" id="text-org1d33b67">
+<p>
+Should be firm. Opening creates smaller opening, better stability, and easier high register
+</p>
+</div>
+</div>
+
+<div id="outline-container-org56be5f9" class="outline-4">
+<h4 id="org56be5f9">Close first wire</h4>
+<div class="outline-text-4" id="text-org56be5f9">
+<p>
+Smaller opening, brighter sound, easier high register
+</p>
+</div>
+</div>
+
+<div id="outline-container-org936a6da" class="outline-4">
+<h4 id="org936a6da">Close Second Wire</h4>
+<div class="outline-text-4" id="text-org936a6da">
+<p>
+Larger opening, more volume, easier legato, darker sound, easier low register
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga2b5a00" class="outline-4">
+<h4 id="orga2b5a00">Side behind first wire</h4>
+<div class="outline-text-4" id="text-orga2b5a00">
+<p>
+Darker sound, more resistance and stability
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4cdf848" class="outline-4">
+<h4 id="org4cdf848">Spine</h4>
+<div class="outline-text-4" id="text-org4cdf848">
+<p>
+Too much wood is hard and stubborn, too little will collapse
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0c81f33" class="outline-4">
+<h4 id="org0c81f33">Eyes (side of heart)</h4>
+<div class="outline-text-4" id="text-org0c81f33">
+<p>
+More flexible and vibrant, better high register, brighter sound
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc1993d7" class="outline-4">
+<h4 id="orgc1993d7">Front of tip</h4>
+<div class="outline-text-4" id="text-orgc1993d7">
+<p>
+Pinch together and sand if tonguing too easy
+</p>
+</div>
+</div>
+
+<div id="outline-container-org946c43a" class="outline-4">
+<h4 id="org946c43a">Corners</h4>
+<div class="outline-text-4" id="text-org946c43a">
+<p>
+Improves high register tonguing, freer lows. More towards the middle makes a more dark, flexible, better striking and legato sound
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8be3f62" class="outline-4">
+<h4 id="org8be3f62">Narrow spine</h4>
+<div class="outline-text-4" id="text-org8be3f62">
+<p>
+If it's dead, as last resort narrow the spine once or twice to add more sting to the sound.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge0f38ce" class="outline-4">
+<h4 id="orge0f38ce">Measurements</h4>
+<div class="outline-text-4" id="text-orge0f38ce">
+<p>
+4mm 55, 8 65, 12 70, 16 80, 20 85, 24 90
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf5b8991" class="outline-4">
+<h4 id="orgf5b8991">Rails in front third</h4>
+<div class="outline-text-4" id="text-orgf5b8991">
+<p>
+Hold back the sound, gives more resistance and darker sound. Better upper register
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

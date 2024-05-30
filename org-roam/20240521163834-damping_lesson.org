@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       7b38aff3-96e0-4199-8580-f7bf4e8f63dc
+:END:
+#+title: damping lesson
+
+Cooper describes an approach to introduce all four types of damping in a single lesson. The third Weissenborn lesson descends to low A, which is a typically different note from the C and the B.
+
+1) Have the student finger C, and play a stable B. Then use air pressure to bring it back up to a C. This ensures that the student is relaxed enough in their lips and not an iron-clad jaw.
+2) Have the student slur down to low A several times to notice the difference in timbre
+3) Secretly push the low C# key on the long joint during the A. This mechanically damps the note, and they can hear the difference right away.
+4) Have the student play the A and push inward and upward on their bottom lip. The pitch should vary a lot, which shows vertical by itself is not enough
+5) Do the same and pinch from the sides with thumb and middle finger. Much more stable pitch center
+6) Can also do both torques by moving their head while they play
+
+This teaches the student early on that they are responsible for their sound
+
+[[cite:&cooper09_variab_dampin]]

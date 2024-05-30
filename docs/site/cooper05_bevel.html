@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cooper05_bevel</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">cooper05_bevel</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfcc4632">Beveling</a>
+<ul>
+<li><a href="#org121318c">Functions of the Bevel</a></li>
+<li><a href="#org2083f93">Proportions</a></li>
+<li><a href="#org6fef2eb">Possibilities</a></li>
+<li><a href="#org3c8d827">127mm cane</a></li>
+<li><a href="#org71f9932">Freedom</a></li>
+<li><a href="#orgfd1896d">Cooper Personal Method</a></li>
+<li><a href="#orgc3b034d">Alternate bevel</a></li>
+<li><a href="#orgc2035e8">Narrower Adjustments</a></li>
+<li><a href="#orgfcc218f">Another alternate</a></li>
+<li><a href="#org14fbf70">Bevel Variables</a></li>
+<li><a href="#orgf9e23e7">Length and Depth</a></li>
+<li><a href="#org281a100">Results</a></li>
+<li><a href="#orgd61f3af">Mechanical Function of Wires</a></li>
+<li><a href="#orga8535bf">Symmetric Bevels</a></li>
+<li><a href="#org1727199">Asymmetric Bevels</a></li>
+<li><a href="#org5c1e5ed">Common error</a></li>
+<li><a href="#org4f9ae37">Picture of symmetrical bevel</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfcc4632" class="outline-2">
+<h2 id="orgfcc4632">Beveling</h2>
+<div class="outline-text-2" id="text-orgfcc4632">
+</div>
+<div id="outline-container-org121318c" class="outline-3">
+<h3 id="org121318c">Functions of the Bevel</h3>
+<div class="outline-text-3" id="text-org121318c">
+<ol class="org-ol">
+<li>Modify the shape's contour to correctly position the mechanical fulcrum of the reed. Resisting tips that collapse, and ensuring reverse wire function</li>
+<li>Produce sealed tubes and reed/bocal junctures</li>
+<li>Reduce the interior volume of the tube, equivalent to a narrower shape</li>
+<li>Slightly reinforce degenerative/regenerative tip function by stressing lines of inflection in the blades</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org2083f93" class="outline-3">
+<h3 id="org2083f93">Proportions</h3>
+<div class="outline-text-3" id="text-org2083f93">
+<p>
+How much will depend on making sure the fulcrum is correctly placed at or slightly behind the first wire position
+</p>
+</div>
+</div>
+<div id="outline-container-org6fef2eb" class="outline-3">
+<h3 id="org6fef2eb">Possibilities</h3>
+<div class="outline-text-3" id="text-org6fef2eb">
+<p>
+By knowing how to adjust the bevel length and depth, you can manipulate the contours and get similar results from many shapes, or many results from the same shape.
+</p>
+</div>
+</div>
+<div id="outline-container-org3c8d827" class="outline-3">
+<h3 id="org3c8d827">127mm cane</h3>
+<div class="outline-text-3" id="text-org3c8d827">
+<p>
+claims that using 127mm cane is like owning many shapers because of the extra 1/4" to trim from either end of the reed
+</p>
+</div>
+</div>
+<div id="outline-container-org71f9932" class="outline-3">
+<h3 id="org71f9932">Freedom</h3>
+<div class="outline-text-3" id="text-org71f9932">
+<p>
+Freedom from needing to buy lots of different shapers
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd1896d" class="outline-3">
+<h3 id="orgfd1896d">Cooper Personal Method</h3>
+<div class="outline-text-3" id="text-orgfd1896d">
+<p>
+Based on Knockenhauer parallel scrape reed. Uses 127mm cane, trims 1/4" from the tip end. Any changes to that mean needing to change the bevel&#x2026;
+</p>
+<ol class="org-ol">
+<li>With a penknife or sapphire fingernail file, shallow bevel at the collar with a 30 degree angle to the lower inner edge of the side axis of the shape&#x2026;</li>
+<li>Gradually deepen the 30 degree bevel until full depth is reached at the second wire position</li>
+<li>Continue at 100% depth until the back of the shape</li>
+<li>Repeat on all four sides</li>
+<li>Common error is to be too horizontal on all four sides that gives a leaky tube</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc3b034d" class="outline-3">
+<h3 id="orgc3b034d">Alternate bevel</h3>
+<div class="outline-text-3" id="text-orgc3b034d">
+<p>
+Equally acceptable results is one side of the tube. 30 degrees up or 60 degrees down..
+This produces lap type seams instead of symmetric butt styles. But ensures consistent slippage.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc2035e8" class="outline-3">
+<h3 id="orgc2035e8">Narrower Adjustments</h3>
+<div class="outline-text-3" id="text-orgc2035e8">
+<p>
+A narrower throat or shaper would require starting the bevel closer to the butt end and/or reducing the depth
+</p>
+</div>
+</div>
+<div id="outline-container-orgfcc218f" class="outline-3">
+<h3 id="orgfcc218f">Another alternate</h3>
+<div class="outline-text-3" id="text-orgfcc218f">
+<p>
+Someone uses both approaches, and starts assymetrical and converts to four sided around the third wire
+Someone else takes the wires off and sands all four sides.
+</p>
+</div>
+</div>
+<div id="outline-container-org14fbf70" class="outline-3">
+<h3 id="org14fbf70">Bevel Variables</h3>
+<div class="outline-text-3" id="text-org14fbf70">
+<ol class="org-ol">
+<li>Beveling reduces the oustides diameter, and the inside diameter of the tube at the point of the bevel. This also reduces the size of the shape.</li>
+<li>This amount is 75% the gouge thickness times the depth of the bevel. (Assuming rounded tube, concentric gouge, and 30/60 degree bevels</li>
+<li>Individuals can control the change in the diameters very precisely</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf9e23e7" class="outline-3">
+<h3 id="orgf9e23e7">Length and Depth</h3>
+<div class="outline-text-3" id="text-orgf9e23e7">
+<p>
+Starting a bevel further back towards the butt end has larger reed cavities, stronger fulcrums, improved reverse wire function, and more open tips
+This increases the static volume, the vibratory contribution of the reed, and the damping is reduced.
+This lowers the pitch center, improves the low register, less secure high register, and more projective quality. It can produce flexible timbres, dynamics, and pitch nuances with pro-active emouchre/breath
+</p>
+
+<p>
+Starting the bevel more towards the collar results in smaller reed cavities, weaker fulcrums, less reverse wire function, less open tips.
+The effects are opposite of the ones listed above.
+</p>
+</div>
+</div>
+<div id="outline-container-org281a100" class="outline-3">
+<h3 id="org281a100">Results</h3>
+<div class="outline-text-3" id="text-org281a100">
+<p>
+Mixing the above with wire placements, forward for larger reeds, or back for smaller reeds, allows excellent results from almost any shaper
+This is more flexible than buying a ton of shapers
+</p>
+</div>
+</div>
+<div id="outline-container-orgd61f3af" class="outline-3">
+<h3 id="orgd61f3af">Mechanical Function of Wires</h3>
+<div class="outline-text-3" id="text-orgd61f3af">
+<p>
+Full parallel (all wires same height), partial (1st and second wires same height) and reverse double wedge (3&gt;1&gt;2) seem to have the highest mechanical fulcrum at the first wire. These also are paired with parallel scrapes by cooper.
+</p>
+
+<p>
+Partial wedge (3=2&gt;1) and Full (3&gt;2&gt;1) are weakest fulcrums
+</p>
+</div>
+</div>
+<div id="outline-container-orga8535bf" class="outline-3">
+<h3 id="orga8535bf">Symmetric Bevels</h3>
+<div class="outline-text-3" id="text-orga8535bf">
+<p>
+No bevel is the most unstable tube, basically meeting at the ends
+A 50% beven is stable, but has a medium size tube
+100% is the smallest tube, but also the most stable
+</p>
+</div>
+</div>
+<div id="outline-container-org1727199" class="outline-3">
+<h3 id="org1727199">Asymmetric Bevels</h3>
+<div class="outline-text-3" id="text-org1727199">
+<p>
+No bevel again largest but unstable tube
+50% is a smaller somewhat stable tube
+100% is smallest more stable tube, I guess not quite as stable as symmetric beveling
+</p>
+</div>
+</div>
+<div id="outline-container-org5c1e5ed" class="outline-3">
+<h3 id="org5c1e5ed">Common error</h3>
+<div class="outline-text-3" id="text-org5c1e5ed">
+<p>
+If the angle is too horizontal, then there are unstable leaky tubes
+</p>
+</div>
+</div>
+<div id="outline-container-org4f9ae37" class="outline-3">
+<h3 id="org4f9ae37">Picture of symmetrical bevel</h3>
+<div class="outline-text-3" id="text-org4f9ae37">
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>brown07_comput_music_educat</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">brown07_comput_music_educat</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#brown07_comput_music_educat">Computers in music education: amplifying musicality</a></li>
+<li><a href="#org9378d9f">Preface</a></li>
+<li><a href="#org3cce78d">Chapter 1: Ways of Making Music with Technology</a></li>
+<li><a href="#orgb9ac7da">Chapter 2: Philosophical Consideraitons</a></li>
+<li><a href="#org1f23dd6">Chapter 3: A brief history of music technology</a></li>
+<li><a href="#org376cf0b">Chapter 11: Interactive Computer Music</a></li>
+<li><a href="#org7a0551b">Chapter 23: Intergrating New Technologies</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-brown07_comput_music_educat" class="outline-2">
+<h2 id="brown07_comput_music_educat">Computers in music education: amplifying musicality</h2>
+<div class="outline-text-2" id="text-brown07_comput_music_educat">
+</div>
+</div>
+
+<div id="outline-container-org9378d9f" class="outline-2">
+<h2 id="org9378d9f">Preface</h2>
+<div class="outline-text-2" id="text-org9378d9f">
+<p>
+A computer can participate in music as a tool, medium, or an instrument. They can amplify musicality.
+</p>
+</div>
+</div>
+<div id="outline-container-org3cce78d" class="outline-2">
+<h2 id="org3cce78d">Chapter 1: Ways of Making Music with Technology</h2>
+<div class="outline-text-2" id="text-org3cce78d">
+<p>
+Require a change of curriculum to add skill development (4)
+As recorder to piano makes a shift from monophony to polyphony, so to does piano to computer in the form of timbre, time, space, etc. (6)
+Any musical instrument, including the computer, amplifies musicality (10)
+</p>
+
+<p>
+A difference between acoustic instruments and computers is the realtionship of gestures to results. Acoustic instruments are a one-to-one relationship: one gesture yeilds one sonic result. Computers, however, work with a one-to-many relationship. One parameter change can control many different sonic results. (11)
+</p>
+
+<p>
+The relationship between computer as instrument is more about partnering than controlling. The instrument-player partnership involves deep interaction, understanding, and trust. Just as possible with a computer as with other instruments. A more skilled musician will be able to better use the computer as an instrument (12)
+</p>
+
+<p>
+Learning to use the computer in making music can be rewarding, but requires regular and focused practice. With a positive attitude towards the computer as a musical partner, can develop music that will be enjoyable (13)
+</p>
+
+<p>
+As an instrument, the computer is a sounding board that reflects, shapes, and amplifies our musicality. The approach is musical expressiveness in partnership with the computer. This leads to novel experiences, and new ways of thinking. (15)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb9ac7da" class="outline-2">
+<h2 id="orgb9ac7da">Chapter 2: Philosophical Consideraitons</h2>
+<div class="outline-text-2" id="text-orgb9ac7da">
+<p>
+Technologies extend human capacities (18)
+Being aware of metaphors used in software helps us understand its capabilities and behavior. But understanding what is underneath the metaphor allows us to see what is possible or impossible past the metaphor (22)
+</p>
+
+<p>
+The use of computers in music making makes little change to the intention of a musician. The intention is still to express, communicate, etc. (23)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f23dd6" class="outline-2">
+<h2 id="org1f23dd6">Chapter 3: A brief history of music technology</h2>
+</div>
+
+<div id="outline-container-org376cf0b" class="outline-2">
+<h2 id="org376cf0b">Chapter 11: Interactive Computer Music</h2>
+<div class="outline-text-2" id="text-org376cf0b">
+<p>
+Description of one-to-many relationship of interactive music (133)
+Music can be as simple or complex and challenging or accesible (134)
+Music can be invested with serious social comment and take on cultural issues (134)
+Interactive performance can scaffold a learners' performance. Preparing a piece requires more analysis into musical interaction, which can help understanding the complexity of musical communication (134)
+Different levels of performance and how they can use interactive performance (134-135)
+Computer listens and responds (135)
+Sequenced, transformative, and generative responses (135-136)
+</p>
+
+<p>
+It takes time and pracitce for a performer to learn how to control each piece. (138)
+</p>
+
+<p>
+Computer functions as an instrument, often with an external controller of some type. This creates a relationship between the performer and electronics. Sometimes it is like solo accompaniment, and others and improvisational duet. This can change with each piece as the composer decides which part controls what parameters. (138-139)
+</p>
+
+<p>
+Interaction is a key ingredient in music making, and interacting with a responsive computer music system is a rich area of musical experience to be investigated. (143)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7a0551b" class="outline-2">
+<h2 id="org7a0551b">Chapter 23: Intergrating New Technologies</h2>
+<div class="outline-text-2" id="text-org7a0551b">
+<p>
+Integration of new technology in music education has some implications. It affects more than just the equipment and may disrupt existing practices. (295)
+Computers are an almost ever present part of the new generation's lives. There will be more pressure for students to be able to use computers in the music making process.(295)
+Bringing computer music into the curriculum is not just about new tech, but about a musical culture. (296)
+Access without a positive attitude is a waste of resources, and enthusiasm without access leads to frustration. (296)
+When producing music with a computer, students are not only developing their musical intelligence, but they are gaining transferable technological skills and confidence. (297)
+Resistance to change comes from time and effort to learn new skills, new teaching resources. Change is a threat to existing practices, risk that it will all be for naught and no improvement. However, it may also be wasteful to continue in labor intensive, tedious processes of music making without technology, or being marginalized and irrelevant by focusing on musical practices with less and less audience value (297)
+</p>
+
+<p>
+Pattern of technological advance is it begins by imitating existing metaphors, and then innovates to become a new metaphor. It is part of evolution. Programs can incorporate the new technology and evolve, or be left behind. (298)
+Teachers will likely not be more knowleadgeable than their students in some respects with the new technology. So the teacher will function more as a guide to promote further learning. It challenges the role of the teacher. (299)
+</p>
+
+<p>
+Technology has changed the existing structure of learning. The previous divisions of performer, composer, and audience are blending. Recordings and electronic music blur the line of composer and performer, since technology does the performing. A better framework focuses on the relationship and experience of the student with music. The aim is the development of musical intuition and intelligence. (300)
+</p>
+
+<p>
+Musical meaning can be personal, social, or cultural depending on the nature of the activity (301)
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

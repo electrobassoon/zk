@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Inclusion in Curriculum</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Inclusion in Curriculum</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org9254bf2">Worth of the music</a>
+<ul>
+<li><a href="#org44029b7">Pedagogic (teaching)</a></li>
+<li><a href="#orgb2fced7">Aesthetic (beauty, perception)</a></li>
+<li><a href="#org303d05e">Artistic (creative skill)</a></li>
+</ul>
+</li>
+<li><a href="#org28e8991">Why it needs to be in curriculum</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<div id="outline-container-org9254bf2" class="outline-2">
+<h2 id="org9254bf2">Worth of the music</h2>
+<div class="outline-text-2" id="text-org9254bf2">
+</div>
+<div id="outline-container-org44029b7" class="outline-3">
+<h3 id="org44029b7">Pedagogic (teaching)</h3>
+<div class="outline-text-3" id="text-org44029b7">
+<p>
+Interactive electroacoustic music can be even more important, as fixed media compositions subject the performer to the prison of the tape, <a href="20210513093800-mcnutt03_prisoner.html#ID-b9eaeb1c-4855-4b14-9825-8679ae296c03">mcnutt03-prisoner</a>. Tape music is the ultimate museumification of art. <a href="20220418165307-garnett01_tape.html#ID-c2519db6-3bba-41c5-aab0-3fbcafae7b58">garnett01-tape</a> Empowering performers can also be an important part of computer music's future, <a href="20210513092300-mcnutt03_interactivity.html#ID-a3a7f1df-e947-424f-a778-293d4946a1a3">mcnutt03_interactivity</a>. <a href="20220321161525-masone_shifting_roles.html#ID-db7ae985-548c-4932-ab7e-9f3708257982">masone16-shifting-roles</a> 
+</p>
+
+<p>
+Much of this music calls for improvisation, which can connect performers with their audiences again. This is something traditional art music has perhaps lost. <a href="20210528114400-moore92_connecting_audiences.html#ID-b23d1410-5be3-4dfe-8322-4b5a54a68d8b">moore92-connecting-audiences</a>
+</p>
+
+<p>
+Some think it a new form of chamber music. <a href="20220405153358-feron18_chamber.html#ID-a2057c08-05df-4dae-9d82-00ff0e777753">feron18-chamber</a>
+</p>
+
+<p>
+Currently, there is a lack of training in higher education on music technology for performers, <a href="20210511171600-kokoras11_education.html#ID-5a843b2d-9f92-40ca-829b-cb24e6e42e64">kokoras11_education</a>. Composers seem to get it, just not the performers. It takes time to become comfortable with technology, not just a crash course at the dress rehearsal. <a href="20210511162600-bullock13_education.html#ID-2f40baf0-f7b7-4c7a-a4b2-9711df1389e9">bullock13_education</a>
+</p>
+
+<p>
+As more composers write more of this music, people will need to be familiar with it.  <a href="20211013142611-behr14_education.html#ID-810ad76e-6793-4690-811e-949ebcf534b9">behr14-education</a>
+</p>
+
+<p>
+For a traveling musician, it is like taking your accompanist with you. <a href="20211013142513-behr14_benefits.html#ID-6e3d43c3-95e9-4eb9-a186-05ebdc70703f">behr14-benefits</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb2fced7" class="outline-3">
+<h3 id="orgb2fced7">Aesthetic (beauty, perception)</h3>
+<div class="outline-text-3" id="text-orgb2fced7">
+<p>
+One, is that the language of the music could be more familiar and accessible to modern audiences. (My own thoughts)
+</p>
+
+<p>
+Electronic music removed the human presence from music. There seems to be a desire for a human component to music making. Now the speaker can be part of performance instead of a representation of performance. <a href="20220228113243-emmerson16_performance.html#ID-23094d6b-2a56-42f7-9829-f34adab4f00f">emmerson16-performance</a> <a href="20220418165410-garnett01_human_to_computer.html#ID-85e70284-632c-4614-895a-6cc63e3383b4">garnett01-human-to-computer</a>
+</p>
+
+<p>
+Art changes because science changes. Technology certainly has changed, and interactive electroacoustic music changes with it. <a href="20210513142900-bocast12_essential.html#ID-aba93d80-8035-48a3-8593-cca67223fbe6">bocast12-essential</a> A side-effect of recording technology is the removal of interaction. <a href="20210820160500-winkler98_interaction.html#ID-b58b17f7-324d-4238-bf51-2c092422a66c">winkler98_interaction</a> The music can be as simple, complex, challenging, or accessible as desired, including deep social commentary. <a href="20210520151100-brown07_inclusion.html#ID-a39dea80-46d4-46ab-9b20-69715c5b8c89">brown07-inclusion</a> It brings back play to a field that has lost it. <a href="20220517111154-dixon06_play.html#ID-9ba16de3-8825-4f67-8f7a-127bab16121c">dixon06-play</a>
+</p>
+
+<p>
+The human aspect allows for interpretation to keep music relevant as aesthetic values change. <a href="20220418165410-garnett01_human_to_computer.html#ID-85e70284-632c-4614-895a-6cc63e3383b4">garnett01-human-to-computer</a>
+</p>
+
+<p>
+Computer music often lacks a visual component. Performing with tape helps this, but then the performer is in "tape prison." Interactive electronic music helps alleviate this. <a href="20210820160500-winkler98_interaction.html#ID-b58b17f7-324d-4238-bf51-2c092422a66c">winkler98_interaction</a> It is even exciting to performers <a href="20210920092724-chadabe97_elect_sound_human_aspect.html#ID-ed621223-9e79-493c-b851-eb5a75c7b17d">chadabe97_elect_sound:human_aspect</a>
+</p>
+
+<p>
+Sampling allows the comparison of different cultures, and brings layers of possible meanings into music. <a href="20211005110030-waters16_sampling.html#ID-e89ffa1e-6651-4159-9677-3139875f9405">waters16_sampling</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org303d05e" class="outline-3">
+<h3 id="org303d05e">Artistic (creative skill)</h3>
+<div class="outline-text-3" id="text-org303d05e">
+<p>
+Causal relationships have been broken, which can be an opportunity <a href="20210825164828-emmerson16_mechanical_electronic_technology.html#ID-bebf6bcd-41e5-44da-9ae3-2ba12eaab9a4">emmerson16_mechanical_electronic_technology</a>. Not seeing the sound source creates a search for meaning in the listener. <a href="20211012112625-windsor16_meaning.html#ID-e46901c9-83bd-41b5-8597-086aa5040183">windsor16-meaning</a> And this meaning does need to exist <a href="20211012113241-macdonald95_meaning.html#ID-82bd5a6f-9896-4666-8d50-0d3b4a8d8a69">macdonald95-meaning</a> 
+</p>
+
+<p>
+Additionally, the characterstics of absence and presence within live electroacoustic music can create poetic affects in the dramaturgy of performance, especially the uncanny and the sublime. <a href="20210527103300-harries14_absence_presence.html#ID-dcdf66d7-a677-485a-8dc8-1b0a31fdcf17">harries14-absence-presence</a> Other dramas are human vs machine, or time-space transgressions of the instrument. <a href="20220405154143-feron18_concept.html#ID-e3735eff-6b6d-4b71-b188-ceaa10e6aab0">feron18-concept</a>
+</p>
+
+
+<p>
+These interactive systems are not designed to replace human performers, but to enhance their musical performances. <a href="20220328160153-rowe93_human.html#ID-0b987a2d-d3bd-44f2-9dff-64d057f394d4">rowe93-human</a> Electronics are an additive part of music <a href="20220404161525-grew14_additive.html#ID-dea5c56a-7644-4475-883b-c91b51aa3bb1">grew14-additive</a> The intention is still to express ideas and communicate through music. <a href="20210520151100-brown07_inclusion.html#ID-a39dea80-46d4-46ab-9b20-69715c5b8c89">brown07-inclusion</a> The magic is in the composer and performer working together. <a href="20220404213454-freeman11_magic.html#ID-488d0e3b-aa71-4002-8715-b0aef63a5b3c">freeman11-magic</a>
+</p>
+
+<p>
+Interactive electroacoustic music can be even more important, as fixed media compositions subject the performer to the prison of the tape, <a href="20210513093800-mcnutt03_prisoner.html#ID-b9eaeb1c-4855-4b14-9825-8679ae296c03">mcnutt03-prisoner</a>. Tape music is the ultimate museumification of art. <a href="20220418165307-garnett01_tape.html#ID-c2519db6-3bba-41c5-aab0-3fbcafae7b58">garnett01-tape</a> Empowering performers can also be an important part of computer music's future, <a href="20210513092300-mcnutt03_interactivity.html#ID-a3a7f1df-e947-424f-a778-293d4946a1a3">mcnutt03_interactivity</a>. <a href="20220321161525-masone_shifting_roles.html#ID-db7ae985-548c-4932-ab7e-9f3708257982">masone16-shifting-roles</a> 
+</p>
+
+<p>
+Electroacoustic music has the ability to take performers to new heights, impossible through other means, <a href="20210513095700-mcnutt03_benefits.html#ID-dd8f21af-f589-4df9-a35c-aef794472e48">mcnutt03-benefits</a>. Instruments can be created that are impossible in the physical world <a href="20210825165107-emmerson16_representation.html#ID-b3933473-26d8-4e69-8d95-e31e90ed55bb">emmerson16_representation</a>. <a href="20220418165425-garnett01_computer_to_human.html#ID-9b6234ff-457c-48b5-bd72-b30a2501e4f7">garnett01-computer-to-human</a> This music can bring the highest of quality, as well as sound worlds impossible through other means. <a href="20210527154000-stockhausen96_inclusion.html#ID-57937f7d-cd3f-4fa3-a2a4-a1eb80a7ad3e">stockhausen96-inclusion</a> <a href="20220328160317-rowe93_timbre.html#ID-5c5aa091-8325-40e3-b15f-4d40bc6be0d3">rowe93-timbre</a> Other aspects of music that don't get as much attention gain more exposure in this style of music. Part of this comes from the one-to-many relationship that gestures can have with the music, <a href="20210520151100-brown07_inclusion.html#ID-a39dea80-46d4-46ab-9b20-69715c5b8c89">brown07-inclusion</a> Performers become super-performers. <a href="20220405153836-feron18_performer.html#ID-a4669b61-17de-46ec-ab08-b6b2d420ff38">feron18-performer</a>
+</p>
+
+<p>
+It is a new way to use traditional instruments. <a href="20210920093118-chadabe97_elect_sound_traditional_instruments.html#ID-05541cd1-e09a-45a2-b340-4e2b4a53ec3c">chadabe97_elect_sound:traditional_instruments</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org28e8991" class="outline-2">
+<h2 id="org28e8991">Why it needs to be in curriculum</h2>
+<div class="outline-text-2" id="text-org28e8991">
+<p>
+This style of music requires familiarity with technology, and frequent gradual exposure will enable performers to feel more confident with this style of music and program them more. <a href="20210511162600-bullock13_education.html#ID-2f40baf0-f7b7-4c7a-a4b2-9711df1389e9">bullock13_education</a> This exposure is not wasted, as the skills are often transferrable to other areas. <a href="20210520151100-brown07_inclusion.html#ID-a39dea80-46d4-46ab-9b20-69715c5b8c89">brown07-inclusion</a>
+</p>
+
+<p>
+Performers will likely be the ones who will restore older works with obsolete technology. They need technical skills and an understanding of how electroacoustic music works to inform them. This will help them preserve the repertoire. <a href="20210603112800-wetzel06_performer_responsibility.html#ID-87134bed-c60b-419f-8feb-e681a90fb9bb">wetzel06-performer-responsibility</a> Performers are the ambassadors for live electronic music <a href="20220405153836-feron18_performer.html#ID-a4669b61-17de-46ec-ab08-b6b2d420ff38">feron18-performer</a>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

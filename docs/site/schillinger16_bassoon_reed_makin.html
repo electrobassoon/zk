@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>schillinger16_bassoon_reed_makin</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">schillinger16_bassoon_reed_makin</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org2315999">Introduction</a>
+<ul>
+<li><a href="#orga8547f2">Page 10</a></li>
+<li><a href="#orgd64585d">Page 11</a></li>
+</ul>
+</li>
+<li><a href="#org464dedd">Pedagogic Methods 1697-1803</a>
+<ul>
+<li><a href="#org7e80037">Page 14</a></li>
+<li><a href="#orgeef88b6">page 14</a></li>
+<li><a href="#org0a53bd3">page 17</a></li>
+<li><a href="#org15e9194">page 17</a></li>
+<li><a href="#org263b85a">page 20</a></li>
+<li><a href="#org44a2b1f">page 21</a></li>
+<li><a href="#org2c08e97">page 21</a></li>
+</ul>
+</li>
+<li><a href="#org7e6af03">Pedagogic Methods 1803-1887</a>
+<ul>
+<li><a href="#org356a1e4">page 24</a></li>
+<li><a href="#org4afaee5">page 25</a></li>
+<li><a href="#org776c1fd">page 28</a></li>
+<li><a href="#orgbb8a0d7">page 29</a></li>
+<li><a href="#org6f27e7a">page 30</a></li>
+<li><a href="#org6033dc2">page 31</a></li>
+<li><a href="#orgca4291e">page 32</a></li>
+<li><a href="#orgf0ca868">page 35</a></li>
+<li><a href="#orgefc1120">page 35</a></li>
+<li><a href="#org4dc8a07">page 37</a></li>
+</ul>
+</li>
+<li><a href="#org1b64f06">Instrument Maker/Reed Maker</a>
+<ul>
+<li><a href="#org62c41c1">page 39</a></li>
+<li><a href="#org411d6b8">page 40</a></li>
+<li><a href="#org6d9c513">page 40</a></li>
+<li><a href="#orgb4ddf6f">page 41</a></li>
+<li><a href="#org15ab539">page 42</a></li>
+<li><a href="#org740e4b1">page 43</a></li>
+<li><a href="#orgd85d8c3">page 44</a></li>
+<li><a href="#org996f400">page 44</a></li>
+<li><a href="#org6ee480d">page 45</a></li>
+<li><a href="#org73f5422">page 47</a></li>
+</ul>
+</li>
+<li><a href="#org07e586f">Performer/Reed Maker</a>
+<ul>
+<li><a href="#org4cd1801">page 48</a></li>
+<li><a href="#orgecafe07">page 49</a></li>
+<li><a href="#org2045cca">page 50</a></li>
+<li><a href="#org7a32096">page 54</a></li>
+<li><a href="#orgdc0f506">page 55</a></li>
+<li><a href="#org57ac2ae">page 56</a></li>
+</ul>
+</li>
+<li><a href="#org83f31ba">Pedagogic Methods 1697-1787</a>
+<ul>
+<li><a href="#org7457f4b">page 58</a></li>
+<li><a href="#org9bb7059">page 60</a></li>
+<li><a href="#org8bcb575">page 61</a></li>
+</ul>
+</li>
+<li><a href="#org80f9427">The Birth of Reed Making Pedagogy</a>
+<ul>
+<li><a href="#orga1678c5">page 67</a></li>
+</ul>
+</li>
+<li><a href="#org229d967">Pedagogic Methods 1803-1843</a>
+<ul>
+<li><a href="#org73908b2">page 75</a></li>
+<li><a href="#org1d05519">page 77</a></li>
+<li><a href="#org60d0db1">page 79</a></li>
+<li><a href="#org9130f78">page 80</a></li>
+</ul>
+</li>
+<li><a href="#org70f5a72">Pedagogic Methods 1844-1887</a>
+<ul>
+<li><a href="#orgdfd48e8">page 89</a></li>
+<li><a href="#org4e93e96">page 91</a></li>
+</ul>
+</li>
+<li><a href="#org5af7e58">The Modern Era</a>
+<ul>
+<li><a href="#orgb05d0c5">page 93</a></li>
+<li><a href="#orgb0c6468">page 94</a></li>
+<li><a href="#org35ed73d">page 94</a></li>
+<li><a href="#org175e2e6">page 95</a></li>
+<li><a href="#orga125b59">page 96</a></li>
+<li><a href="#org3502861">page 97</a></li>
+</ul>
+</li>
+<li><a href="#orgeac8ca8">Researcher/Pedagogue: Louis Skinner</a>
+<ul>
+<li><a href="#orgbbd31c6">page 98</a></li>
+<li><a href="#org2ae040d">page 99</a></li>
+<li><a href="#orga432a56">page 100</a></li>
+<li><a href="#org80aa62a">page 101</a></li>
+<li><a href="#org9e9b7a8">page 102</a></li>
+<li><a href="#orga6115a1">page 103</a></li>
+<li><a href="#org19312eb">page 105</a></li>
+<li><a href="#orgfd3b04e">page 106</a></li>
+<li><a href="#orgf45d076">page 107</a></li>
+</ul>
+</li>
+<li><a href="#org571102f">Reed Maker/Innovator: Don Christlieb</a>
+<ul>
+<li><a href="#orgf2ae2b0">page 109</a></li>
+<li><a href="#org5c92ec5">page 110</a></li>
+<li><a href="#org295fdc9">page 111</a></li>
+<li><a href="#org6e30cba">page 111</a></li>
+<li><a href="#orgd20fce8">page 114</a></li>
+<li><a href="#org43e79f3">page 116</a></li>
+</ul>
+</li>
+<li><a href="#org1916081">Artist/Scholar I: Norman Herzberg</a>
+<ul>
+<li><a href="#orgf684f94">page 119</a></li>
+<li><a href="#org5580dc8">page 119</a></li>
+<li><a href="#org0423fff">page 120</a></li>
+<li><a href="#orgc5fc75f">page 121</a></li>
+<li><a href="#orgd12ec78">page 122</a></li>
+<li><a href="#org3579a1c">page 122</a></li>
+<li><a href="#orgf615a7b">Herzberg's 4 systems</a>
+<ul>
+<li><a href="#orge5957f4">Shape (121)</a></li>
+<li><a href="#org72d5d23">Wires (122)</a></li>
+<li><a href="#orgf7696cf">Beveling (124)</a></li>
+<li><a href="#org37fd38d">Blade Finishing (124)</a></li>
+</ul>
+</li>
+<li><a href="#org18ee9fd">page 125</a></li>
+</ul>
+</li>
+<li><a href="#orgf1b54dd">Artist/Scholar II: Lewis Hugh Cooper</a>
+<ul>
+<li><a href="#org8f835ae">page 127</a></li>
+<li><a href="#org8735e4b">page 129</a></li>
+<li><a href="#orgf99001d">page 129</a></li>
+<li><a href="#org85b1446">page 130</a></li>
+<li><a href="#org459f689">page 131</a></li>
+<li><a href="#org4ee53fe">page 133</a></li>
+<li><a href="#org32a7c99">page 134</a></li>
+<li><a href="#orgb23575c">page 136</a></li>
+</ul>
+</li>
+<li><a href="#orge593223">Conclusion</a>
+<ul>
+<li><a href="#org75d329e">page 137</a></li>
+<li><a href="#org4594ed6">page 139</a></li>
+<li><a href="#org6ec7fce">page 139</a></li>
+</ul>
+</li>
+<li><a href="#org1307906">Appendix 1: Reed Notes: Don Christlieb (1945)</a>
+<ul>
+<li><a href="#org4753e75">History</a></li>
+<li><a href="#orgdb921f3">Maker</a></li>
+<li><a href="#org2188982">Playing Characterstics</a>
+<ul>
+<li><a href="#org04dd5c7">Tone (for each octave)</a></li>
+<li><a href="#org311a979">Intonation (for each octave)</a></li>
+<li><a href="#org98a3d79">Flexibility (each octave)</a></li>
+<li><a href="#org77f08c3">Volume (each octave)</a></li>
+<li><a href="#orgeb3652d">Attack (each octave)</a></li>
+<li><a href="#orgf5655f5">Vibrato (each octave)</a></li>
+</ul>
+</li>
+<li><a href="#orgbf7be6d">Remarks:</a></li>
+</ul>
+</li>
+<li><a href="#org262148d">Appendix 2 Herzberg Bassoon Reed Exam (1991)</a></li>
+<li><a href="#org96bcff2">Bibliography</a></li>
+</ul>
+</div>
+</div>
+<p>
+Overall impressions: I learned a lot from this book about the history of not just reed making, but also the bassoon and bassoon method books. It makes me want to dive more in to the teachings of Herzberg, Christlieb, and Cooper. And find some scraping wheels to try more of Skinner's gouge variations!
+</p>
+
+<div id="outline-container-org2315999" class="outline-2">
+<h2 id="org2315999">Introduction</h2>
+<div class="outline-text-2" id="text-org2315999">
+</div>
+<div id="outline-container-orga8547f2" class="outline-3">
+<h3 id="orga8547f2">Page 10</h3>
+<div class="outline-text-3" id="text-orga8547f2">
+<p>
+<code>Viewing reed making as an imperfect art paired with a methodical process assists in understanding the difficulty of reed-making pedagogy.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd64585d" class="outline-3">
+<h3 id="orgd64585d">Page 11</h3>
+<div class="outline-text-3" id="text-orgd64585d">
+<p>
+<code>A successful pedagogy of reed making, then, must be a model of flexibility and situational adaptation.</code>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org464dedd" class="outline-2">
+<h2 id="org464dedd">Pedagogic Methods 1697-1803</h2>
+<div class="outline-text-2" id="text-org464dedd">
+</div>
+<div id="outline-container-org7e80037" class="outline-3">
+<h3 id="org7e80037">Page 14</h3>
+<div class="outline-text-3" id="text-org7e80037">
+<p>
+Speer's Grundrichtige, Kurtz-Leicht- und Nothiger jetzt Wolvermehrter Unterricht der Musicalischen Kunst oder Vierfaches Musicalisches Kleeblatt Wortinnen zu ersehen wie man fuglich und in kurzer Zeit (Fundamental Instructions in the art of music &#x2026;) has fingering charts for two keyed dulcian.
+</p>
+</div>
+</div>
+<div id="outline-container-orgeef88b6" class="outline-3">
+<h3 id="orgeef88b6">page 14</h3>
+<div class="outline-text-3" id="text-orgeef88b6">
+<p>
+First instructional book only about bassoon was by an anonymous Englishman. Compleat Instructions for the Bassoon &#x2026;
+</p>
+</div>
+</div>
+<div id="outline-container-org0a53bd3" class="outline-3">
+<h3 id="org0a53bd3">page 17</h3>
+<div class="outline-text-3" id="text-org0a53bd3">
+<p>
+First thing written by a professional bassoonists is "Le Basson" by Pierre Cugnier.
+</p>
+</div>
+</div>
+<div id="outline-container-org15e9194" class="outline-3">
+<h3 id="org15e9194">page 17</h3>
+<div class="outline-text-3" id="text-org15e9194">
+<p>
+Ozi's Methode Novelle (1787) one of the first bassoon methods to have printed exercises
+</p>
+</div>
+</div>
+<div id="outline-container-org263b85a" class="outline-3">
+<h3 id="org263b85a">page 20</h3>
+<div class="outline-text-3" id="text-org263b85a">
+<p>
+Paris conservatory is the birthplace of modern bassoon pedagogy
+</p>
+</div>
+</div>
+<div id="outline-container-org44a2b1f" class="outline-3">
+<h3 id="org44a2b1f">page 21</h3>
+<div class="outline-text-3" id="text-org44a2b1f">
+<p>
+Sarrette and Francois Gossec created the Paris conservatory stemming from training military musicians
+</p>
+</div>
+</div>
+<div id="outline-container-org2c08e97" class="outline-3">
+<h3 id="org2c08e97">page 21</h3>
+<div class="outline-text-3" id="text-org2c08e97">
+<p>
+Beginning of conservatorie trained in solfege (!), composition, and singing in addition to instrumental proficiency
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7e6af03" class="outline-2">
+<h2 id="org7e6af03">Pedagogic Methods 1803-1887</h2>
+<div class="outline-text-2" id="text-org7e6af03">
+</div>
+<div id="outline-container-org356a1e4" class="outline-3">
+<h3 id="org356a1e4">page 24</h3>
+<div class="outline-text-3" id="text-org356a1e4">
+<p>
+Ozi's Novelle Method (1803) has the first extensive instructions about reed making and also included diagrams and measurements
+</p>
+</div>
+</div>
+<div id="outline-container-org4afaee5" class="outline-3">
+<h3 id="org4afaee5">page 25</h3>
+<div class="outline-text-3" id="text-org4afaee5">
+<p>
+Joseph Frohlich's Vollstandige theoretisch-praktische Musikschule is the first instructive German method. Stole a lot from Ozi.
+</p>
+</div>
+</div>
+<div id="outline-container-org776c1fd" class="outline-3">
+<h3 id="org776c1fd">page 28</h3>
+<div class="outline-text-3" id="text-org776c1fd">
+<p>
+Almenraeder new method for his newly designed bassoon.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbb8a0d7" class="outline-3">
+<h3 id="orgbb8a0d7">page 29</h3>
+<div class="outline-text-3" id="text-orgbb8a0d7">
+<p>
+Almenraeder's method the first to discuss slow practice, troubling intervals, looping, in a published method
+</p>
+</div>
+</div>
+<div id="outline-container-org6f27e7a" class="outline-3">
+<h3 id="org6f27e7a">page 30</h3>
+<div class="outline-text-3" id="text-org6f27e7a">
+<p>
+Jancourt's Methode theorique et pratique replaced Ozi's Novelle Method at Paris Consevatorie
+</p>
+</div>
+</div>
+<div id="outline-container-org6033dc2" class="outline-3">
+<h3 id="org6033dc2">page 31</h3>
+<div class="outline-text-3" id="text-org6033dc2">
+<p>
+Jancourt's method also has an article about orchestral etiquette
+</p>
+</div>
+</div>
+<div id="outline-container-orgca4291e" class="outline-3">
+<h3 id="orgca4291e">page 32</h3>
+<div class="outline-text-3" id="text-orgca4291e">
+<p>
+Emmanuele Krakamp metodo por fagotto is apparently still in use
+</p>
+</div>
+</div>
+<div id="outline-container-orgf0ca868" class="outline-3">
+<h3 id="orgf0ca868">page 35</h3>
+<div class="outline-text-3" id="text-orgf0ca868">
+<p>
+Weissenborn suggests bassoon should be studied after piano and violin. Bassoon should be studied after a "somewhat manly development of the body"
+</p>
+</div>
+</div>
+<div id="outline-container-orgefc1120" class="outline-3">
+<h3 id="orgefc1120">page 35</h3>
+<div class="outline-text-3" id="text-orgefc1120">
+<p>
+Weissenborn also is first to talk about practice time. He says an hour daily, 20 minutes at a time, and then little by little make those 20 minutes be 30 minutes. After 3 to 4 months, two hours a day one hour at a time. After a year or so, three hours one at a time. More than that is seldom beneficial.
+</p>
+</div>
+</div>
+<div id="outline-container-org4dc8a07" class="outline-3">
+<h3 id="org4dc8a07">page 37</h3>
+<div class="outline-text-3" id="text-org4dc8a07">
+<p>
+With Weber andante and hungarian rondo, Weissenborn takes a bassoonist from first note to solo debut.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1b64f06" class="outline-2">
+<h2 id="org1b64f06">Instrument Maker/Reed Maker</h2>
+<div class="outline-text-2" id="text-org1b64f06">
+</div>
+<div id="outline-container-org62c41c1" class="outline-3">
+<h3 id="org62c41c1">page 39</h3>
+<div class="outline-text-3" id="text-org62c41c1">
+<p>
+Bassoons came with multiple wing joints and bocals for controlling intonation
+</p>
+</div>
+</div>
+<div id="outline-container-org411d6b8" class="outline-3">
+<h3 id="org411d6b8">page 40</h3>
+<div class="outline-text-3" id="text-org411d6b8">
+<p>
+Instrument makers made the reeds, because there were so many instruments
+</p>
+</div>
+</div>
+<div id="outline-container-org6d9c513" class="outline-3">
+<h3 id="org6d9c513">page 40</h3>
+<div class="outline-text-3" id="text-org6d9c513">
+<p>
+Hand gouging makes much longer-lasting reeds. The gouge was tapered so the blade of the reed was thicker. (Perhaps a side benefit of lateral dampening from Skinner?)
+</p>
+</div>
+</div>
+<div id="outline-container-orgb4ddf6f" class="outline-3">
+<h3 id="orgb4ddf6f">page 41</h3>
+<div class="outline-text-3" id="text-orgb4ddf6f">
+<p>
+Triebert created a mechanical gouger, but many used it for initial work and then hand gouged the middle of the reed
+</p>
+</div>
+</div>
+<div id="outline-container-org15ab539" class="outline-3">
+<h3 id="org15ab539">page 42</h3>
+<div class="outline-text-3" id="text-org15ab539">
+<p>
+Sandpaper makes cane less water proof, which deteriorates quicker. Dutch Rush is what they used to use. Sandpaper also shortens reed lifespan.
+</p>
+</div>
+</div>
+<div id="outline-container-org740e4b1" class="outline-3">
+<h3 id="org740e4b1">page 43</h3>
+<div class="outline-text-3" id="text-org740e4b1">
+<p>
+Quote from Laborde's introduction to Cugnier's article:
+<code>He decided he never wanted to play alone in public, for he is convinced that whatever the talent one has for the bassoon, this instrument can never please as much as the violin, the flute, the oboe, and the cello</code>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd85d8c3" class="outline-3">
+<h3 id="orgd85d8c3">page 44</h3>
+<div class="outline-text-3" id="text-orgd85d8c3">
+<p>
+Haydn's symphonies demonstrate the change for the bassoon as basso continue to be part of the wind choir. This happened around the 1780s.
+</p>
+</div>
+</div>
+<div id="outline-container-org996f400" class="outline-3">
+<h3 id="org996f400">page 44</h3>
+<div class="outline-text-3" id="text-org996f400">
+<p>
+Ozi's goal was singing quality of the bassoon. He also played a German bassoon.
+</p>
+</div>
+</div>
+<div id="outline-container-org6ee480d" class="outline-3">
+<h3 id="org6ee480d">page 45</h3>
+<div class="outline-text-3" id="text-org6ee480d">
+<p>
+After 1780, bassoonists were most popular soloists at Paris Concert Spirtuel (comes from Harold Eugene Griswold, "Changes in the Tonal Character of the Eighteenth Century French Bassoon" Journal of IDRS 17 (1989): 29-34)
+</p>
+</div>
+</div>
+<div id="outline-container-org73f5422" class="outline-3">
+<h3 id="org73f5422">page 47</h3>
+<div class="outline-text-3" id="text-org73f5422">
+<p>
+Narrower throat frees up the tenor and high range
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org07e586f" class="outline-2">
+<h2 id="org07e586f">Performer/Reed Maker</h2>
+<div class="outline-text-2" id="text-org07e586f">
+</div>
+<div id="outline-container-org4cd1801" class="outline-3">
+<h3 id="org4cd1801">page 48</h3>
+<div class="outline-text-3" id="text-org4cd1801">
+<p>
+Ozi studied with Georg Wenzel Ritter (JC Bach Concerto)
+</p>
+</div>
+</div>
+<div id="outline-container-orgecafe07" class="outline-3">
+<h3 id="orgecafe07">page 49</h3>
+<div class="outline-text-3" id="text-orgecafe07">
+<p>
+Ozi's bassoon was incompatible with reeds of French makers
+</p>
+</div>
+</div>
+<div id="outline-container-org2045cca" class="outline-3">
+<h3 id="org2045cca">page 50</h3>
+<div class="outline-text-3" id="text-org2045cca">
+<p>
+Reed making was a necessity, not a convenience.
+</p>
+</div>
+</div>
+<div id="outline-container-org7a32096" class="outline-3">
+<h3 id="org7a32096">page 54</h3>
+<div class="outline-text-3" id="text-org7a32096">
+<p>
+Almenraeder-Heckel bassoon did not spread to France. Jancourt created French basson, instrument maker/reed maker paradigm.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc0f506" class="outline-3">
+<h3 id="orgdc0f506">page 55</h3>
+<div class="outline-text-3" id="text-orgdc0f506">
+<p>
+Wing joint and bocal as a tuning agent changed to reed scraping
+</p>
+</div>
+</div>
+<div id="outline-container-org57ac2ae" class="outline-3">
+<h3 id="org57ac2ae">page 56</h3>
+<div class="outline-text-3" id="text-org57ac2ae">
+<p>
+Simon Kovar is largely responsible for the widespread success of Weissenborn's method for the new Heckel bassoon
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org83f31ba" class="outline-2">
+<h2 id="org83f31ba">Pedagogic Methods 1697-1787</h2>
+<div class="outline-text-2" id="text-org83f31ba">
+</div>
+<div id="outline-container-org7457f4b" class="outline-3">
+<h3 id="org7457f4b">page 58</h3>
+<div class="outline-text-3" id="text-org7457f4b">
+<p>
+Majer's Museum musicum says best double reed players make their own reeds, to their own embouchres. A good reed is half the playing. Physiology of the player is unique and reed making should tailor to that.
+</p>
+</div>
+</div>
+<div id="outline-container-org9bb7059" class="outline-3">
+<h3 id="org9bb7059">page 60</h3>
+<div class="outline-text-3" id="text-org9bb7059">
+<p>
+Garsault's Notionnaire, ou memorial raisonne has first publication of the reed-making process (1761)
+</p>
+</div>
+</div>
+<div id="outline-container-org8bcb575" class="outline-3">
+<h3 id="org8bcb575">page 61</h3>
+<div class="outline-text-3" id="text-org8bcb575">
+<p>
+Cugnier perspective on failure of science in reed making
+<code>There are rules established which determine the proportions which a reed must have to be of the right quality to match the bassoon's tone in its entirety. But in spite of all the precision with which we have tried for a long time to put these rules into effect, we cannot rely on the established principles of this subject. It often happens that the best constructed reed make according to all the proportions is still no good at all; and one that is less well-made will play just fine, or at least be usable.</code>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org80f9427" class="outline-2">
+<h2 id="org80f9427">The Birth of Reed Making Pedagogy</h2>
+<div class="outline-text-2" id="text-org80f9427">
+</div>
+<div id="outline-container-orga1678c5" class="outline-3">
+<h3 id="orga1678c5">page 67</h3>
+<div class="outline-text-3" id="text-orga1678c5">
+<p>
+Ozi's introduction to reed making:
+</p>
+<ol class="org-ol">
+<li>Pedagogic leap for including reed making instructions (remember France was instrument maker/reed maker paradigm)</li>
+<li>It was still common in France to get reeds from instrument makers</li>
+<li>Freedom from learning reed making</li>
+<li>Links reed making with performer's unique physiology</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org229d967" class="outline-2">
+<h2 id="org229d967">Pedagogic Methods 1803-1843</h2>
+<div class="outline-text-2" id="text-org229d967">
+</div>
+<div id="outline-container-org73908b2" class="outline-3">
+<h3 id="org73908b2">page 75</h3>
+<div class="outline-text-3" id="text-org73908b2">
+<p>
+Frohlich's method indicates ancestor of the modern shaper. Also describes the gratoir rond, which seems like a scraping wheel from Skinner.
+</p>
+</div>
+</div>
+<div id="outline-container-org1d05519" class="outline-3">
+<h3 id="org1d05519">page 77</h3>
+<div class="outline-text-3" id="text-org1d05519">
+<p>
+If a reed is old and worn out, clipping it a little shorter can strengthen it again for a while
+</p>
+</div>
+</div>
+<div id="outline-container-org60d0db1" class="outline-3">
+<h3 id="org60d0db1">page 79</h3>
+<div class="outline-text-3" id="text-org60d0db1">
+<p>
+Almenraeder stresses importance of the reed:
+<code>The bassoonist, even when arriving at an advanced stage through study and practice, must nevertheless depend to a great extent upon his reed. He may have one of the finest instruments and may be in a perfect mind for practicing but if his reed is defective he will remain its slave; a slave to whom all freedom of movement is prohibited.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org9130f78" class="outline-3">
+<h3 id="org9130f78">page 80</h3>
+<div class="outline-text-3" id="text-org9130f78">
+<p>
+Almenraeder implies that if a reed process fails for a student, it may not be the student's fault, but a difference in physiology
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org70f5a72" class="outline-2">
+<h2 id="org70f5a72">Pedagogic Methods 1844-1887</h2>
+<div class="outline-text-2" id="text-org70f5a72">
+</div>
+<div id="outline-container-orgdfd48e8" class="outline-3">
+<h3 id="orgdfd48e8">page 89</h3>
+<div class="outline-text-3" id="text-orgdfd48e8">
+<p>
+Weissienborn in method says precise measurements are impossible, because the physical capacity and ability of the player play a big part
+</p>
+</div>
+</div>
+<div id="outline-container-org4e93e96" class="outline-3">
+<h3 id="org4e93e96">page 91</h3>
+<div class="outline-text-3" id="text-org4e93e96">
+<p>
+Weissenborn is the first to talk about needing to break in reeds and not making adjustments too quickly with a new reed. He also suggests a reed making journal (which will be reiterated with almost everyone after him)
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5af7e58" class="outline-2">
+<h2 id="org5af7e58">The Modern Era</h2>
+<div class="outline-text-2" id="text-org5af7e58">
+</div>
+<div id="outline-container-orgb05d0c5" class="outline-3">
+<h3 id="orgb05d0c5">page 93</h3>
+<div class="outline-text-3" id="text-orgb05d0c5">
+<p>
+After world war I, many german bassoonists emigrated to the US, including professional reed makers <b>Carl Mechler</b>, <b>Wilhelm Knochenhauer</b>, Kurt Ludwig, and Hans Weber. There was a lot of secrecy to protect their jobs.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0c6468" class="outline-3">
+<h3 id="orgb0c6468">page 94</h3>
+<div class="outline-text-3" id="text-orgb0c6468">
+<p>
+Mechler's reeds tapered evenly from collar to tip: A balanced distribution of resistance and vibration.
+</p>
+</div>
+</div>
+<div id="outline-container-org35ed73d" class="outline-3">
+<h3 id="org35ed73d">page 94</h3>
+<div class="outline-text-3" id="text-org35ed73d">
+<p>
+Mechler made lots of blanks, and asked client to come in person to finish reeds for them. He played their instrument with one of his reeds and knew the adjustments to make to blanks for their instrument
+</p>
+</div>
+</div>
+<div id="outline-container-org175e2e6" class="outline-3">
+<h3 id="org175e2e6">page 95</h3>
+<div class="outline-text-3" id="text-org175e2e6">
+<p>
+Knochenhauer front third tapers dramatically compared to Mechler. Definitive points of resistance in the vibration of the blades.
+</p>
+</div>
+</div>
+<div id="outline-container-orga125b59" class="outline-3">
+<h3 id="orga125b59">page 96</h3>
+<div class="outline-text-3" id="text-orga125b59">
+<p>
+Secrecy of reed making made reed making pedagogy all but disappear
+</p>
+</div>
+</div>
+<div id="outline-container-org3502861" class="outline-3">
+<h3 id="org3502861">page 97</h3>
+<div class="outline-text-3" id="text-org3502861">
+<p>
+Many players adjust their playing to meet the needs of their reeds, instead of the other way around.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeac8ca8" class="outline-2">
+<h2 id="orgeac8ca8">Researcher/Pedagogue: Louis Skinner</h2>
+<div class="outline-text-2" id="text-orgeac8ca8">
+</div>
+<div id="outline-container-orgbbd31c6" class="outline-3">
+<h3 id="orgbbd31c6">page 98</h3>
+<div class="outline-text-3" id="text-orgbbd31c6">
+<p>
+Schoenbach performed on both Mechler and Knochenhauer reeds.
+</p>
+</div>
+</div>
+<div id="outline-container-org2ae040d" class="outline-3">
+<h3 id="org2ae040d">page 99</h3>
+<div class="outline-text-3" id="text-org2ae040d">
+<p>
+Skinner worked individually with students, made them take notes with two copies. 1 for student and 1 for Skinner. This was for consistency in future questions with large time gaps or distances.
+The written tradition is important in retention and re-creation
+</p>
+</div>
+</div>
+<div id="outline-container-orga432a56" class="outline-3">
+<h3 id="orga432a56">page 100</h3>
+<div class="outline-text-3" id="text-orga432a56">
+<p>
+Sink Method stabilizes individual fibers, removes impurities.
+</p>
+</div>
+</div>
+<div id="outline-container-org80aa62a" class="outline-3">
+<h3 id="org80aa62a">page 101</h3>
+<div class="outline-text-3" id="text-org80aa62a">
+<p>
+Scraping wheels innovative contribution. Draws from the historic pedagogy of historic reed scrapes
+</p>
+</div>
+</div>
+<div id="outline-container-org9e9b7a8" class="outline-3">
+<h3 id="org9e9b7a8">page 102</h3>
+<div class="outline-text-3" id="text-org9e9b7a8">
+<p>
+Eliptical gouge has a more direct sound because the spine is pithier but supported by the hard rails
+</p>
+</div>
+</div>
+<div id="outline-container-orga6115a1" class="outline-3">
+<h3 id="orga6115a1">page 103</h3>
+<div class="outline-text-3" id="text-orga6115a1">
+<p>
+<code>Skinner's customizations encourage creativity and flexibility, but demand accuracy.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org19312eb" class="outline-3">
+<h3 id="org19312eb">page 105</h3>
+<div class="outline-text-3" id="text-org19312eb">
+<p>
+Skinner's pedagogy includes that reed making demands space and materials if it is to be treated with importance
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd3b04e" class="outline-3">
+<h3 id="orgfd3b04e">page 106</h3>
+<div class="outline-text-3" id="text-orgfd3b04e">
+<p>
+Skinner's tip aperture and modern pedagogy link physiology to individual reed styles
+</p>
+</div>
+</div>
+<div id="outline-container-orgf45d076" class="outline-3">
+<h3 id="orgf45d076">page 107</h3>
+<div class="outline-text-3" id="text-orgf45d076">
+<p>
+Exact coordination between reed, player, instrument, and musical demands.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org571102f" class="outline-2">
+<h2 id="org571102f">Reed Maker/Innovator: Don Christlieb</h2>
+<div class="outline-text-2" id="text-org571102f">
+</div>
+<div id="outline-container-orgf2ae2b0" class="outline-3">
+<h3 id="orgf2ae2b0">page 109</h3>
+<div class="outline-text-3" id="text-orgf2ae2b0">
+<p>
+Created the Dial Indicator
+</p>
+</div>
+</div>
+<div id="outline-container-org5c92ec5" class="outline-3">
+<h3 id="org5c92ec5">page 110</h3>
+<div class="outline-text-3" id="text-org5c92ec5">
+<p>
+Dial indicator is not a cure all, but helps avoid lack of symmetry. 
+</p>
+</div>
+</div>
+<div id="outline-container-org295fdc9" class="outline-3">
+<h3 id="org295fdc9">page 111</h3>
+<div class="outline-text-3" id="text-org295fdc9">
+<p>
+Added a dimension of measurement to improve consistency and accuracy
+</p>
+</div>
+</div>
+<div id="outline-container-org6e30cba" class="outline-3">
+<h3 id="org6e30cba">page 111</h3>
+<div class="outline-text-3" id="text-org6e30cba">
+<p>
+Primary fault in reed making is human error
+</p>
+</div>
+</div>
+<div id="outline-container-orgd20fce8" class="outline-3">
+<h3 id="orgd20fce8">page 114</h3>
+<div class="outline-text-3" id="text-orgd20fce8">
+<p>
+Began creating GSP cane for sale
+</p>
+</div>
+</div>
+<div id="outline-container-org43e79f3" class="outline-3">
+<h3 id="org43e79f3">page 116</h3>
+<div class="outline-text-3" id="text-org43e79f3">
+<p>
+This helps pedagogues start at varying points in the reed making process
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1916081" class="outline-2">
+<h2 id="org1916081">Artist/Scholar I: Norman Herzberg</h2>
+<div class="outline-text-2" id="text-org1916081">
+</div>
+<div id="outline-container-orgf684f94" class="outline-3">
+<h3 id="orgf684f94">page 119</h3>
+<div class="outline-text-3" id="text-orgf684f94">
+<p>
+First task is to reduce human error as much as possible
+</p>
+</div>
+</div>
+<div id="outline-container-org5580dc8" class="outline-3">
+<h3 id="org5580dc8">page 119</h3>
+<div class="outline-text-3" id="text-org5580dc8">
+<p>
+Despite innovative machines, no reed can remain untouched. - quote from Herzberg
+</p>
+</div>
+</div>
+<div id="outline-container-org0423fff" class="outline-3">
+<h3 id="org0423fff">page 120</h3>
+<div class="outline-text-3" id="text-org0423fff">
+<p>
+Because of the undependability of cane, quantity and quality of craftsmanship are what can be controlled. Reeds also have shorter lifespans now, so we need more of them.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5fc75f" class="outline-3">
+<h3 id="orgc5fc75f">page 121</h3>
+<div class="outline-text-3" id="text-orgc5fc75f">
+<p>
+Herzberg gave exams to check student's knowledge of reed making. First pedagogic assessment for reed making.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd12ec78" class="outline-3">
+<h3 id="orgd12ec78">page 122</h3>
+<div class="outline-text-3" id="text-orgd12ec78">
+<p>
+Wide shapers make notes in the "money register" too flat (middle C to F)
+</p>
+</div>
+</div>
+<div id="outline-container-org3579a1c" class="outline-3">
+<h3 id="org3579a1c">page 122</h3>
+<div class="outline-text-3" id="text-org3579a1c">
+<p>
+Students were to diagnose deficiencies in a reed so they could personalize their design for their body and instrument
+</p>
+</div>
+</div>
+<div id="outline-container-orgf615a7b" class="outline-3">
+<h3 id="orgf615a7b">Herzberg's 4 systems</h3>
+<div class="outline-text-3" id="text-orgf615a7b">
+</div>
+<div id="outline-container-orge5957f4" class="outline-4">
+<h4 id="orge5957f4">Shape (121)</h4>
+</div>
+<div id="outline-container-org72d5d23" class="outline-4">
+<h4 id="org72d5d23">Wires (122)</h4>
+<div class="outline-text-4" id="text-org72d5d23">
+<p>
+Gave the how and why for wire placement
+</p>
+</div>
+</div>
+<div id="outline-container-orgf7696cf" class="outline-4">
+<h4 id="orgf7696cf">Beveling (124)</h4>
+<div class="outline-text-4" id="text-orgf7696cf">
+<p>
+Vital to tip aperture, blade arch, and tube shape
+</p>
+</div>
+</div>
+<div id="outline-container-org37fd38d" class="outline-4">
+<h4 id="org37fd38d">Blade Finishing (124)</h4>
+</div>
+</div>
+<div id="outline-container-org18ee9fd" class="outline-3">
+<h3 id="org18ee9fd">page 125</h3>
+<div class="outline-text-3" id="text-org18ee9fd">
+<p>
+Weakness of C# and E is a lack of resistance. Sharp, unstable forked Eb indicates resistance
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf1b54dd" class="outline-2">
+<h2 id="orgf1b54dd">Artist/Scholar II: Lewis Hugh Cooper</h2>
+<div class="outline-text-2" id="text-orgf1b54dd">
+</div>
+<div id="outline-container-org8f835ae" class="outline-3">
+<h3 id="org8f835ae">page 127</h3>
+<div class="outline-text-3" id="text-org8f835ae">
+<p>
+Cane selection was very rigorous
+</p>
+</div>
+</div>
+<div id="outline-container-org8735e4b" class="outline-3">
+<h3 id="org8735e4b">page 129</h3>
+<div class="outline-text-3" id="text-org8735e4b">
+<p>
+Used dial indicator to check the gouge before forming. It affects the function fo the reed's mechanical fulcrum
+</p>
+</div>
+</div>
+<div id="outline-container-orgf99001d" class="outline-3">
+<h3 id="orgf99001d">page 129</h3>
+<div class="outline-text-3" id="text-orgf99001d">
+<p>
+Would soak and let dry and recheck gouge accuracy. repeated until stability was achieved.
+</p>
+</div>
+</div>
+<div id="outline-container-org85b1446" class="outline-3">
+<h3 id="org85b1446">page 130</h3>
+<div class="outline-text-3" id="text-org85b1446">
+<p>
+Cooper exchanges time in cane preparation instead of cane finishing
+</p>
+</div>
+</div>
+<div id="outline-container-org459f689" class="outline-3">
+<h3 id="org459f689">page 131</h3>
+<div class="outline-text-3" id="text-org459f689">
+<p>
+Tip apertures that can't be fixed are failed reeds
+</p>
+</div>
+</div>
+<div id="outline-container-org4ee53fe" class="outline-3">
+<h3 id="org4ee53fe">page 133</h3>
+<div class="outline-text-3" id="text-org4ee53fe">
+<p>
+Cooper quote:
+<code>Progress beyond [reed finishing] involves a creative procedure that, if successful, elevates the mechanical craft of reed making to the level of an art form. Suffice to say that only those individuals willing to risk losing a few second stage reeds can hope to aspire to this higher standard of excellence.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org32a7c99" class="outline-3">
+<h3 id="org32a7c99">page 134</h3>
+<div class="outline-text-3" id="text-org32a7c99">
+<p>
+Dilemma of art vs science remains the same after 200 years of reed making
+</p>
+</div>
+</div>
+<div id="outline-container-orgb23575c" class="outline-3">
+<h3 id="orgb23575c">page 136</h3>
+<div class="outline-text-3" id="text-orgb23575c">
+<p>
+Cooper's pedagogy is spread through many publications, so it's easy to only be adhering to part of his pedagogy, or ignore it alltogether
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge593223" class="outline-2">
+<h2 id="orge593223">Conclusion</h2>
+<div class="outline-text-2" id="text-orge593223">
+</div>
+<div id="outline-container-org75d329e" class="outline-3">
+<h3 id="org75d329e">page 137</h3>
+<div class="outline-text-3" id="text-org75d329e">
+<p>
+<code>Reed pedagogy was born of and is still driven by need.</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org4594ed6" class="outline-3">
+<h3 id="org4594ed6">page 139</h3>
+<div class="outline-text-3" id="text-org4594ed6">
+<p>
+<code>There is no gaurantee in reed making</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org6ec7fce" class="outline-3">
+<h3 id="org6ec7fce">page 139</h3>
+<div class="outline-text-3" id="text-org6ec7fce">
+<p>
+<code>Consistency is developed from practice: quantity yields quality</code>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1307906" class="outline-2">
+<h2 id="org1307906">Appendix 1: Reed Notes: Don Christlieb (1945)</h2>
+<div class="outline-text-2" id="text-org1307906">
+<p>
+Descriptions for how to assess reeds? No explanation given about why this is here or what it is.
+</p>
+</div>
+<div id="outline-container-org4753e75" class="outline-3">
+<h3 id="org4753e75">History</h3>
+</div>
+<div id="outline-container-orgdb921f3" class="outline-3">
+<h3 id="orgdb921f3">Maker</h3>
+</div>
+<div id="outline-container-org2188982" class="outline-3">
+<h3 id="org2188982">Playing Characterstics</h3>
+<div class="outline-text-3" id="text-org2188982">
+</div>
+<div id="outline-container-org04dd5c7" class="outline-4">
+<h4 id="org04dd5c7">Tone (for each octave)</h4>
+<div class="outline-text-4" id="text-org04dd5c7">
+<ul class="org-ul">
+<li>Hard</li>
+<li>Unresonant</li>
+<li>Light, reedy</li>
+<li>Brilliant</li>
+<li>Mellow</li>
+<li>Soft</li>
+<li>Muffled</li>
+<li>With Edge</li>
+<li>Improved</li>
+<li>Deteriorated</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org311a979" class="outline-4">
+<h4 id="org311a979">Intonation (for each octave)</h4>
+<div class="outline-text-4" id="text-org311a979">
+<ul class="org-ul">
+<li>Excellent</li>
+<li>Fair</li>
+<li>Controllable</li>
+<li>Poor</li>
+<li>Uncontrollable</li>
+<li>Improved</li>
+<li>Deteriorated</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org98a3d79" class="outline-4">
+<h4 id="org98a3d79">Flexibility (each octave)</h4>
+<div class="outline-text-4" id="text-org98a3d79">
+<ul class="org-ul">
+<li>Excellent</li>
+<li>Good</li>
+<li>Fiar</li>
+<li>Poor</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org77f08c3" class="outline-4">
+<h4 id="org77f08c3">Volume (each octave)</h4>
+<div class="outline-text-4" id="text-org77f08c3">
+<ul class="org-ul">
+<li>Strong</li>
+<li>Effortless</li>
+<li>With Effort</li>
+<li>Average</li>
+<li>Limited</li>
+<li>Weak</li>
+<li>Quality Change</li>
+<li>Tone Collapses</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeb3652d" class="outline-4">
+<h4 id="orgeb3652d">Attack (each octave)</h4>
+<div class="outline-text-4" id="text-orgeb3652d">
+<ul class="org-ul">
+<li>Excellent</li>
+<li>Good</li>
+<li>Fair</li>
+<li>Poor</li>
+<li>Impossible</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf5655f5" class="outline-4">
+<h4 id="orgf5655f5">Vibrato (each octave)</h4>
+<div class="outline-text-4" id="text-orgf5655f5">
+<ul class="org-ul">
+<li>Excellent</li>
+<li>Good</li>
+<li>Fiar</li>
+<li>Poor</li>
+<li>Impossible</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbf7be6d" class="outline-3">
+<h3 id="orgbf7be6d">Remarks:</h3>
+</div>
+</div>
+<div id="outline-container-org262148d" class="outline-2">
+<h2 id="org262148d">Appendix 2 Herzberg Bassoon Reed Exam (1991)</h2>
+<div class="outline-text-2" id="text-org262148d">
+<ol class="org-ol">
+<li>State the Four Systems employed in trimming and adjusting reeds.</li>
+<li>Give an example of how you would use each system to correct or adjust the fault in the reed with which you are working.</li>
+<li>If you were to carry each system to its furthest extent, what would the reed look like?</li>
+<li>Can you recognize a good reed by looking at it? What qualities in its appearance would encourage you?</li>
+<li>In order of importance, state the qualities necessary in a reed.</li>
+<li>Define by means of analogy the parenchyma and the sclerenchyma</li>
+<li>Describe the example Heinrich uses in heavy clarinet reeds</li>
+<li>Which side of the reed is played up and why?</li>
+<li>Are there any advantages to a flat shaper over a foldover shaper? If so explaing them.</li>
+<li>How do you attenuate the efefcts produced in the folding of a shaped piece of cane?</li>
+<li>According to Heinrich, describe (draw) the opening of a brilliant reed and a dark reed.</li>
+<li>How can you condemn a reed before you make it?</li>
+<li>Give three ways to make a reed brighter.</li>
+<li>Give two ways to darken a reed.</li>
+<li>Describe each system in constructing an ideal reed for the following solos: Bolero; Peter and the Wolf; Marriage of Figaro; Tchaikovsky 6th.</li>
+<li>What effect does the trimming of the top half of a reed have? What effect does trimming the back half of a reed have?</li>
+<li>How long should a reed blank dry? Why? What example does Heinrich use?</li>
+<li>Prescribe the reed remedies for playing too sharp. What reed remedies can you use for playing too flat?</li>
+<li>Draw the optimum shape of the first two wires of a reed before you trim it. Explain why they are optimum shapes. Give and describe the two different methods that will insure that the wires are the optimum shapes.</li>
+<li>When you trim a reed, which side should be trimmed first?</li>
+<li>What decides the length of the tube? What decides the length of the blade?</li>
+<li>Where should the first wire be placed? Why? Where should the second wire be placed? Why? Where should the third wire be placed? Why?</li>
+<li>Draw the shape of the optimum opening of a reed during the finishing stage. Why is this considered the optimum opening?</li>
+<li>Define a good piece of cane.</li>
+<li>Wires on a reed sometimes get loose when the reed dries. Do you tighten them? If so which ones?</li>
+<li>In trimming the blades of a reed during the final trial period, which general areas are trimmed first and why?</li>
+<li>Which system in reed making is the one of preference in trimming? Why?</li>
+<li>Give an example of one system enhancing another. Give an example of one system negating the other.</li>
+<li>Suppose your playing reeds consistenlty have the second wire crushed so that it is below the level of the first wire. Give two ways that this condition can be avoided.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org96bcff2" class="outline-2">
+<h2 id="org96bcff2">Bibliography</h2>
+<div class="outline-text-2" id="text-org96bcff2">
+<p>
+These are some sources that look like good follow up reading.
+</p>
+
+<p>
+Christlieb, Don. "Notes on the Bassoon Reed: Machinery, Measurement, Analysis." Published by the author, 1966. (may have to actually purchase this from Christlieb directly
+</p>
+
+<p>
+Christlieb, Don. "The Reed Problem." <i>Journal of IDRS</i> 25 (1997): 83-84.
+</p>
+
+<p>
+Cooper, Lewis Hugh. "Beveling: The Magic of Insignificant Splinters," ed. Mark Avery and Mark Clague. <i>The Double Reed</i> 28, no. 4 (2005):77-84.
+</p>
+
+<p>
+Cooper, Lewis Hugh. "Reed Contribution," ed. Mark Avery. <i>The Double Reed</i> 13, no. 3 (1990):59-68.
+</p>
+
+<p>
+Cooper, Lewis Hugh. "Reed Making Notes: Selection and Preparation of Gouged Cane," ed. Mark Avery. <i>Journal of IDRS</i> 19 (1991): 43-49.
+</p>
+
+<p>
+Cooper, Lewis Hugh. "Reed Making Notes Two: Cooper's Cubist Reed Concept." <i>The Double Reed</i> 31, no. 4 (2008): 79-94.
+</p>
+
+<p>
+Cooper, Lewis Hugh, Mark Avery, and Mark Clague. "Slippage: Reed Making's Most Benevolent Fault." <i>The Double Reed</i> 32, no. 2 (2009): 85-90.
+</p>
+
+<p>
+&#x2014; . "Variable Damping: Window of Expressive Opportunity." <i>The Double Reed</i> 32, no. 4 (2009): 105-112.
+</p>
+
+<p>
+Corey, Gerald E. "On the Making of Bassoon Reeds: Karl Almenraeder." <i>Journal of the IDRS</i> 8 (1980): 1-6.
+</p>
+
+<p>
+Eifert, Otto, ed. "Memoirs and Homage to Lou Skinner." <i>The Double Reed</i> 17, no. 1 (1994): 1-4.
+</p>
+
+<p>
+Heinrich, J. M. "The Bassoon Reed," translated by Joelle Amar. <i>Journal of IDRS</i> 7 (1979): 17-43.
+</p>
+
+<p>
+Herzberg, Norman. "Reedmaking." <i>The Double Reed</i> 24, no. 1 (2001): 41-42.
+</p>
+
+<p>
+Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Speaker Key Use on the Bassoon." <i>The Double Reed</i> 18, no. 3 (1995): 53-63.
+</p>
+
+<p>
+Intravaia, Lawrence and Gerald Corey. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." <i>Journal of IDRS</i> 6 (1978): 30-46.
+</p>
+
+<p>
+Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA diss., University of North Carolina, Greensboro, 2008.
+</p>
+
+<p>
+Lyman Jeffrey, and Mark Clague. "Tributes to Lewis Hugh Cooper." <i>The Double Reed</i> 30, no. 3 (2007): 29-39.
+</p>
+
+<p>
+Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise, Florida State University, 2005.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ba0f3f90-0d4e-4ed3-a86e-bc6b7451a14b
+:END:
+#+title: bassoon damping
+
+There are four modes of damping: vertical cushioning, horizontal cushioning, horizontal torquing, and rotary torquing. Players are often familiar with vertical cushioning, and use it almost exclusively. However, this doesn't bring great results in musical nuance and leads to the stereotype of not being able to play dynamics. Horizontal cushioning helps to offset the pitch change in vertical dampening. Torquing horizontally is achieved by moving the head in a no-no motion, or looking to the players to the right or left of the player (right and clockwise is most common). Additionally, cocking the head to the side gives rotary torque. Twisting the body of the bassoon the opposite direction of the head will increase the effect as well. Make sure the torque matches the slippage of the reed (which should be clockwise for most).
+
+Essentially damping is achieved by more lip contact with the reed. Cushioning is done with embouchre changes. Torquing brings one or both rails into more contact with the soft inner-lips.
+
+[[id:7b38aff3-96e0-4199-8580-f7bf4e8f63dc][damping lesson]]
+
+[[cite:&cooper09_variab_dampin]]

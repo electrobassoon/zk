@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>garnett01_aesth_inter_comput_music</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">garnett01_aesth_inter_comput_music</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgde5eadc">The Aesthetics of Interactive Computer Music</a>
+<ul>
+<li><a href="#org00a8a1a">Performance Oriented Music</a></li>
+<li><a href="#orgd3c50cc">Aesthetic</a></li>
+<li><a href="#org53b5383">Interaction</a></li>
+<li><a href="#org20af436">Domain</a></li>
+<li><a href="#org9d0c3cf">Transparency</a></li>
+<li><a href="#orgc9c81fc">Reconnecting with past traditions</a></li>
+<li><a href="#orgf13216a">What the Human Performer Brings to Computer Music</a></li>
+<li><a href="#orgd0c0d7a">Gestural Nuance</a></li>
+<li><a href="#orga0a5452">Physical and Cognitive Constraints</a></li>
+<li><a href="#orgbce5f6a">Interpretation</a></li>
+<li><a href="#orgccba6ee">Change</a></li>
+<li><a href="#orgb5412ca">Flexibility and survivability</a></li>
+<li><a href="#org162e243">Modernism and Humanism</a></li>
+<li><a href="#orgbeafcbc">Algorithmic Tape Music</a></li>
+<li><a href="#orgda22d7f">Lost in tape music</a></li>
+<li><a href="#org93961d7">De-museumize</a></li>
+<li><a href="#orga7a4897">What the Computer Brings to Human Performance</a></li>
+<li><a href="#org8f1ebaf">Music performance as shared human endeavor</a></li>
+<li><a href="#orga8d4a5e">Uniting with the past</a></li>
+<li><a href="#org5817402">Human vs tech</a></li>
+<li><a href="#orgbeed145">Ignore Tech</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgde5eadc" class="outline-2">
+<h2 id="orgde5eadc">The Aesthetics of Interactive Computer Music</h2>
+<div class="outline-text-2" id="text-orgde5eadc">
+</div>
+
+<div id="outline-container-org00a8a1a" class="outline-3">
+<h3 id="org00a8a1a">Performance Oriented Music</h3>
+<div class="outline-text-3" id="text-org00a8a1a">
+<p>
+Interactive computer music a sub-genre of performance-oriented computer music. This genre requires at least one live performer joined with electronics.
+</p>
+
+<p>
+The interactive in this article is narrowed to the performer having some kind of control over the electronics or electronics that affect the performer's sound
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd3c50cc" class="outline-3">
+<h3 id="orgd3c50cc">Aesthetic</h3>
+<div class="outline-text-3" id="text-orgd3c50cc">
+<p>
+An aesthetic is the artistic valorization in a work of art.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org53b5383" class="outline-3">
+<h3 id="org53b5383">Interaction</h3>
+<div class="outline-text-3" id="text-org53b5383">
+<p>
+Either the performer affects the computer's output, or the computer affects the performer's output.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org20af436" class="outline-3">
+<h3 id="org20af436">Domain</h3>
+<div class="outline-text-3" id="text-org20af436">
+<p>
+At least requires that the performer has some control over timing, (which basically excludes things like pushing play to start a recording)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9d0c3cf" class="outline-3">
+<h3 id="org9d0c3cf">Transparency</h3>
+<div class="outline-text-3" id="text-org9d0c3cf">
+<p>
+As software and hardware advance one will feel less like one is working with a computer and just simply working.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc9c81fc" class="outline-3">
+<h3 id="orgc9c81fc">Reconnecting with past traditions</h3>
+<div class="outline-text-3" id="text-orgc9c81fc">
+<p>
+This will be a theme through the article.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf13216a" class="outline-3">
+<h3 id="orgf13216a">What the Human Performer Brings to Computer Music</h3>
+<div class="outline-text-3" id="text-orgf13216a">
+<p>
+Inclusion of a live performer re-introduces into computer music elements that had been almost entirely removed from computer music in recent past.
+</p>
+
+<p>
+One of these is the element of human performance and human cognition. Computer music has tended towards abstraction and objectivity instead of the human.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd0c0d7a" class="outline-3">
+<h3 id="orgd0c0d7a">Gestural Nuance</h3>
+<div class="outline-text-3" id="text-orgd0c0d7a">
+<p>
+Rubato, subtleties of articulation and phrasing and dynamics come with the human performer. It is difficult in non interactive computer music to achieve these things. Instead the focus has been on extreme contrast gestures, or timbral development. It's not impossible to have these, but because of the difficulty to create them there is a tendency to avoid them.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga0a5452" class="outline-3">
+<h3 id="orga0a5452">Physical and Cognitive Constraints</h3>
+<div class="outline-text-3" id="text-orga0a5452">
+<p>
+Constraint that a work be performable. It means the performance gestures must be cognizable.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbce5f6a" class="outline-3">
+<h3 id="orgbce5f6a">Interpretation</h3>
+<div class="outline-text-3" id="text-orgbce5f6a">
+<p>
+Invariability of a human performer brings about interpretation.
+</p>
+
+<p>
+Each performance is a version of the work, not the work itself
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgccba6ee" class="outline-3">
+<h3 id="orgccba6ee">Change</h3>
+<div class="outline-text-3" id="text-orgccba6ee">
+<p>
+This interpretation allows a work to grow and change to meet changing aesthetic values
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb5412ca" class="outline-3">
+<h3 id="orgb5412ca">Flexibility and survivability</h3>
+<div class="outline-text-3" id="text-orgb5412ca">
+<p>
+The flexibility of performance has perhaps allowed classical music to survive for over 250 years. 
+</p>
+
+<p>
+Recordings and mass marketing start performers works against this.
+</p>
+
+<p>
+The ability of interactive computer music to evolve to cultural changes is a strength not a weakness.
+</p>
+
+<p>
+These come just by the nature of introducing a human performer to a work.
+</p>
+</div>
+</div>
+<div id="outline-container-org162e243" class="outline-3">
+<h3 id="org162e243">Modernism and Humanism</h3>
+<div class="outline-text-3" id="text-org162e243">
+<p>
+Obsession with "making it new"
+Constant building systems, because it is taboo to do something someone else has already done.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbeafcbc" class="outline-3">
+<h3 id="orgbeafcbc">Algorithmic Tape Music</h3>
+<div class="outline-text-3" id="text-orgbeafcbc">
+<p>
+Most objectivist performance. No human performer or composer conveying anything.
+</p>
+
+<p>
+A bit of an ideological extreme
+</p>
+
+<p>
+The counter to the extreme precision and formalism is that it tends to be further and further from what people want to endure in a concert. It does not advance knowledge, it is too simplistic to stand alone as art.
+</p>
+
+<p>
+Tape music with a composer has been more successful but is still missing something.
+</p>
+
+<p>
+In his opinion, the gains of new material, timbre, and modes of listening don't compensate for what is lost.
+</p>
+</div>
+</div>
+<div id="outline-container-orgda22d7f" class="outline-3">
+<h3 id="orgda22d7f">Lost in tape music</h3>
+<div class="outline-text-3" id="text-orgda22d7f">
+<p>
+Over-emphasis on precision, that precision is and end not a means to an end.
+</p>
+
+<p>
+Complexity without import, detail without result
+</p>
+
+<p>
+Loss of dynamic life. Even listening to the same recording of Beethoven's 9th, there is a possibility of a new performance or new recording bring life to it. Not so in electronic music
+</p>
+
+<p>
+Fixed in so many ways you can't give a significant new interpretation
+</p>
+
+<p>
+The ultimate museumification of art.
+</p>
+
+<p>
+It is out of touch with what is needed to rejuvinate art, of being harmonious with the needs of the times
+</p>
+
+<p>
+The time to objectify and formalize is past. We need a new aesthetic goal.
+</p>
+</div>
+</div>
+<div id="outline-container-org93961d7" class="outline-3">
+<h3 id="org93961d7">De-museumize</h3>
+<div class="outline-text-3" id="text-org93961d7">
+<p>
+It is time to popularize music again. That doesn't mean dumb it down to the banal of popular music, but to bring true artistic achievment to present culture. Otherwise we risk the death of art music.
+</p>
+
+<p>
+Bringing humans into computer music can help break the paradigm of formalism	
+</p>
+</div>
+</div>
+<div id="outline-container-orga7a4897" class="outline-3">
+<h3 id="orga7a4897">What the Computer Brings to Human Performance</h3>
+<div class="outline-text-3" id="text-orga7a4897">
+<p>
+Computer becomes extension of performer as a "cyber performer"
+</p>
+
+<p>
+It extends the performers skills that they already have to create a whole new instrument.
+</p>
+
+<p>
+Physical gestures of the performer can now effect the sound
+</p>
+
+<p>
+Possibilities are endless for different kinds of music
+</p>
+</div>
+</div>
+<div id="outline-container-org8f1ebaf" class="outline-3">
+<h3 id="org8f1ebaf">Music performance as shared human endeavor</h3>
+<div class="outline-text-3" id="text-org8f1ebaf">
+<p>
+Describes an electroacoustic music concert where the hall was darkened. Audience closed eyes or stared at the mixer LEDs. The audience became detached, isolated, and emotionally removed. When was the last standing ovation for electroacoustic music? It loses the aspect of the audience experiencing an event together, a shared cultural community.
+</p>
+</div>
+</div>
+<div id="outline-container-orga8d4a5e" class="outline-3">
+<h3 id="orga8d4a5e">Uniting with the past</h3>
+<div class="outline-text-3" id="text-orga8d4a5e">
+<p>
+Just like opera in 1600 was a result of reawakened interest in the ancient world, interactive electroacoustic music takes advantage of the ideas and technology of today and unites them with the past.
+</p>
+</div>
+</div>
+<div id="outline-container-org5817402" class="outline-3">
+<h3 id="org5817402">Human vs tech</h3>
+<div class="outline-text-3" id="text-org5817402">
+<p>
+Instead of human vs tech where we know the tech is faster, louder, etc., use it without the dichotomy to join the power of the machine to the nuance and subjective control of the human performer.
+</p>
+
+<p>
+Invent more human, more organic music instead of the sound of the machine. Instead of it being the inhuman other, let it be an extension to performance. 
+</p>
+</div>
+</div>
+<div id="outline-container-orgbeed145" class="outline-3">
+<h3 id="orgbeed145">Ignore Tech</h3>
+<div class="outline-text-3" id="text-orgbeed145">
+<p>
+<code>One cannot turn one's back on the most significant technological breakthrough in history without risking irrelevance to that history. One cannot avoid taking advantage of the ubiquity of this technological marvel because that very ubiquity renders all other technologies in some sense less significant. One must take computers into account, and take them to task, because it is a response to the technology of our time, to the situation of our time. To make music with the technology of our time, and specifically the computer, poses a tremendous challenge for the artist. To address this challenge, in itself, will help keep music alive and significant.</code>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

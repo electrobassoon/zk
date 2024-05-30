@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>rowe93_inter_music_system</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">rowe93_inter_music_system</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgc35e4a2">Interactive music systems: machine listening and composing</a>
+<ul>
+<li><a href="#org288972b">Chapter 1: Interactive Music Systems</a>
+<ul>
+<li><a href="#org4810c3a">page 1</a></li>
+<li><a href="#org78e1977">page 1-2</a></li>
+<li><a href="#org185b959">page 2</a></li>
+<li><a href="#org137d9d7">page 3</a></li>
+<li><a href="#org78d5732">page 4</a></li>
+<li><a href="#org8f2c361">page 5</a></li>
+<li><a href="#org69399b6">page 7</a></li>
+<li><a href="#org3103a26">page 8</a></li>
+</ul>
+</li>
+<li><a href="#org21c1ff7">Chapter 2: Fundamentals</a>
+<ul>
+<li><a href="#orge6c50a5">page 9</a></li>
+<li><a href="#org25c2788">page 10 Sensing</a></li>
+<li><a href="#orgcdd2776">page 11</a></li>
+<li><a href="#orgff578ca">page 12</a></li>
+<li><a href="#org1f6ca5d">page 13</a></li>
+<li><a href="#orgc6bd260">page 14</a></li>
+<li><a href="#org5c381fc">page 15</a></li>
+<li><a href="#org21bfe02">page 16</a></li>
+<li><a href="#org54e7337">page 17 2.2 Processing</a></li>
+<li><a href="#org427bf5b">page 18</a></li>
+<li><a href="#org5949292">page 21 Response</a></li>
+<li><a href="#org6439cbc">page 23</a></li>
+<li><a href="#org4eeafe7">2.4 Commercial Interactive Systems</a></li>
+<li><a href="#orgfe6a1d8">page 25</a></li>
+<li><a href="#orgce62c87">page 26</a></li>
+<li><a href="#orgbdba5da">page 27</a></li>
+</ul>
+</li>
+<li><a href="#org3f0b574">Chapter 3 Live Computer Music</a></li>
+<li><a href="#org2101484">Chapter 4 Music Theory, Music Cognition</a>
+<ul>
+<li><a href="#org5fb14ff">page 95</a></li>
+</ul>
+</li>
+<li><a href="#org9fbdc73">Chapter 8 Conclusion</a>
+<ul>
+<li><a href="#org6df95bb">page 262</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc35e4a2" class="outline-2">
+<h2 id="orgc35e4a2">Interactive music systems: machine listening and composing</h2>
+<div class="outline-text-2" id="text-orgc35e4a2">
+</div>
+<div id="outline-container-org288972b" class="outline-3">
+<h3 id="org288972b">Chapter 1: Interactive Music Systems</h3>
+<div class="outline-text-3" id="text-org288972b">
+</div>
+<div id="outline-container-org4810c3a" class="outline-4">
+<h4 id="org4810c3a">page 1</h4>
+<div class="outline-text-4" id="text-org4810c3a">
+<p>
+Interactive computer music systems are those whose behavior changes in response to musical input. This allows them to be used in live performance.
+</p>
+</div>
+</div>
+<div id="outline-container-org78e1977" class="outline-4">
+<h4 id="org78e1977">page 1-2</h4>
+<div class="outline-text-4" id="text-org78e1977">
+<p>
+The use of computers has expanded musical thought in two farreaching directions, the first of which concerns the composition of timbre.
+</p>
+</div>
+</div>
+<div id="outline-container-org185b959" class="outline-4">
+<h4 id="org185b959">page 2</h4>
+<div class="outline-text-4" id="text-org185b959">
+<p>
+Digital computers afford the composer or sound designer unprecedented levels of control over the evolution and combination of sonic events. The second expansion stems from the computer's ability to implement algorithmic methods for generating musical material.
+</p>
+
+<p>
+What musical purpose does this serve?
+</p>
+
+<p>
+The responsiveness of interactive systems requires making interpretations on input.
+</p>
+</div>
+</div>
+<div id="outline-container-org137d9d7" class="outline-4">
+<h4 id="org137d9d7">page 3</h4>
+<div class="outline-text-4" id="text-org137d9d7">
+<p>
+computers emulate human musical understanding
+</p>
+
+<p>
+This is not always easy to accomplish.
+</p>
+</div>
+</div>
+<div id="outline-container-org78d5732" class="outline-4">
+<h4 id="org78d5732">page 4</h4>
+<div class="outline-text-4" id="text-org78d5732">
+<p>
+Software does not share the concepts and experiences from musical discourse. For example a computer can't broaden a phrase if it doesn't know how to tell what a phrase is.
+</p>
+
+<p>
+Should computers strive to approach human peformance practice? As early as 1920 Stravinsky and other famous composers wrote for pianola to take advantage of removing the performer from the equation.
+</p>
+</div>
+</div>
+<div id="outline-container-org8f2c361" class="outline-4">
+<h4 id="org8f2c361">page 5</h4>
+<div class="outline-text-4" id="text-org8f2c361">
+<p>
+Computer music has made some great compositions that remove the performer entirely. But this is not a desirable outcome. There are social reasons, but human players also understand what music is and can communicate it.
+</p>
+</div>
+</div>
+<div id="outline-container-org69399b6" class="outline-4">
+<h4 id="org69399b6">page 7</h4>
+<div class="outline-text-4" id="text-org69399b6">
+<p>
+score-driven vs performance driven
+Score-driven programs use predetermined event collections, or stored music fragments, to match against music arriving at the input. They are likely to organize events using the traditional categories of beat, meter, and tempo. Such categories allow the composer to preserve and employ familiar ways of thinking about temporal flow, such as specifying some events to occur on the downbeat of the next measure or at the end of every fourth bar.
+Performance-driven programs do not anticipate the realization of any particular score. In other words, they do not have a stored representation of the music they expect to find at the input. Further, performance-driven programs tend not to employ traditional metric categories but often use more general parameters, involving perceptual measures such as a density and regularity, to describe the temporal behavior of music coming in.
+</p>
+
+<p>
+transformative, generative, or sequenced
+Transformative methods take some existing musical material and apply transformations to it to produce variants. According to the technique, these variants may or may not be recognizeably related to the original. For transformative algorithms, the source material is complete musical input. This material need not be stored, however - often such transformations are applied to live input as it arrives.
+For generative algorithms, on the other hand, what source material there is will be elementary or fragmentary - for example, stored scales or duration sets. Generative methods use sets of rules to produce complete musical output from the stored fundamental material, taking pitch structures from basic scalar patterns according to random distributions, for instance, or applying serial procedures to sets of allowed duration values.
+Sequenced techniques use prerecorded music fragments in response to some real-time input. Some aspects of these fragments may be varied in performance, such as the tempo of playback, dynamic shape, slight rhythmic variations, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3103a26" class="outline-4">
+<h4 id="org3103a26">page 8</h4>
+<div class="outline-text-4" id="text-org3103a26">
+<p>
+instrument vs player paradigms
+Instrument paragidm systems are concerned with constructing an extended musical instruemnt: performance gestures from a human player are analyzed by the computer and guide an elaborated output exceeding normal instrumental response. Imagining such a system being played by a single performer, the musical result would be thought of as a solo.
+Systems following a player paradigm try to construct an artificial player, a musical presence with a personality and behavior of its own, though it may vary in the degree to which it follows the lead of a human partner. A player paradigm system played by a single human would produce an output more like a duet.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org21c1ff7" class="outline-3">
+<h3 id="org21c1ff7">Chapter 2: Fundamentals</h3>
+<div class="outline-text-3" id="text-org21c1ff7">
+</div>
+<div id="outline-container-orge6c50a5" class="outline-4">
+<h4 id="orge6c50a5">page 9</h4>
+<div class="outline-text-4" id="text-orge6c50a5">
+<p>
+Two basic pillars are MIDI handling and scheduling. Almost all systems have to send massages and be able to perform tasks at specific points in time, since music is a temporal art.
+</p>
+
+<p>
+Interactive computer systems can be conceptualized in three stages: the sensing stage, the processing stage, and the response stage. These stages usually have machine boundaries between each stage. 
+</p>
+</div>
+</div>
+<div id="outline-container-org25c2788" class="outline-4">
+<h4 id="org25c2788">page 10 Sensing</h4>
+<div class="outline-text-4" id="text-org25c2788">
+<p>
+Recent fast growth in IMS is partly due to the MIDI standard. It breaks up acoustic information into representation based on notes. It works especially well for keyboard style instruments.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcdd2776" class="outline-4">
+<h4 id="orgcdd2776">page 11</h4>
+<div class="outline-text-4" id="text-orgcdd2776">
+<p>
+One limitation of MIDI is the inability to standardize timbre. Each machine does this differently.
+</p>
+
+<p>
+Note On messages trigger complex reactions in the synthesizer.
+</p>
+
+<p>
+MIDI takes about a milisecond to transmit a note on message. This is not a lot, but can be noticeable if many messages are going.
+</p>
+</div>
+</div>
+<div id="outline-container-orgff578ca" class="outline-4">
+<h4 id="orgff578ca">page 12</h4>
+<div class="outline-text-4" id="text-orgff578ca">
+<p>
+Thus, the synthesis gear has to take care of processing the sound. This is one machine boundary, between sending a message and responding to it.
+Despite all of this, most IMS couldn't have been acheived without MIDI.
+</p>
+
+<p>
+Sound samples can also be input. They generally require more processing power as CD quality is at least 44.1k samples per second.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f6ca5d" class="outline-4">
+<h4 id="org1f6ca5d">page 13</h4>
+<div class="outline-text-4" id="text-org1f6ca5d">
+<p>
+Controllers capture keyboards fairly well, but the gestures of a wind, string, or voice performance is not captured very well in controllers (yet)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc6bd260" class="outline-4">
+<h4 id="orgc6bd260">page 14</h4>
+<div class="outline-text-4" id="text-orgc6bd260">
+<p>
+Space performance was a novelty introduced with the Theremin. Not touching the instrument at all creates a sort of magic to the music. Many new controllers are being created to do this.
+</p>
+</div>
+</div>
+<div id="outline-container-org5c381fc" class="outline-4">
+<h4 id="org5c381fc">page 15</h4>
+<div class="outline-text-4" id="text-org5c381fc">
+<p>
+Solutions geared toward one instrument do not always map to another family of instruments, or even different players of the same instrument. One issue is pitch tracking, which is problematic. FFT are not fast enough or fail to get the correct pitch (now it seems to be fast enough) But usually two cycles of a wave are required , also the attack of a note is the least regular part of it.
+</p>
+</div>
+</div>
+<div id="outline-container-org21bfe02" class="outline-4">
+<h4 id="org21bfe02">page 16</h4>
+<div class="outline-text-4" id="text-org21bfe02">
+<p>
+One attempt to solve this has been attaching sensors to keys, e.g. for woodwinds, to minimize the work of a FFT. Wind controllers have been made to try and make this easier.
+Most instruments have had a MIDI version created. The underlying message is that the expanded capabilities of computer-based instruments is compelling for performers and builders. The general principles of exisiting orchestral instruments is maintained to capitalize on years of professional training.
+</p>
+</div>
+</div>
+<div id="outline-container-org54e7337" class="outline-4">
+<h4 id="org54e7337">page 17 2.2 Processing</h4>
+<div class="outline-text-4" id="text-org54e7337">
+<p>
+Most common protocol between sensing and processing is MIDI.
+</p>
+</div>
+</div>
+<div id="outline-container-org427bf5b" class="outline-4">
+<h4 id="org427bf5b">page 18</h4>
+<div class="outline-text-4" id="text-org427bf5b">
+<p>
+Real-time schedulers delay actions until a certain time has arrived. These are pretty important in interactive systems. Some lengthy discussion of an implementation of a rts follows.
+</p>
+</div>
+</div>
+<div id="outline-container-org5949292" class="outline-4">
+<h4 id="org5949292">page 21 Response</h4>
+<div class="outline-text-4" id="text-org5949292">
+<p>
+The response is similar to the sensing. MIDI is often used to communicate between devices.
+</p>
+
+<p>
+Real-Time Digital Signal Processing:
+Before MIDI special hardware was used for the sensing and response phases. IRCAM did a lot of work with this.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org4668f02"></a>page 22<br />
+<div class="outline-text-5" id="text-org4668f02">
+<p>
+MIDI took over lots of IRCAM's 4X machine capabilities. As computer chips evolved it became more feasible to have real time digital processing.
+</p>
+
+<p>
+Then IRCAM created the IRCAM Signal Processing Workstation
+</p>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="outline-container-org6439cbc" class="outline-4">
+<h4 id="org6439cbc">page 23</h4>
+<div class="outline-text-4" id="text-org6439cbc">
+<p>
+After this, a new version of Max was written to have signal objects. The combination of Max's midi processing and the signal processing made interactive systems much easier.
+</p>
+
+<p>
+FFT and inverse FFTs could now be done in real time. A single machine can now do all of the phases of the system
+</p>
+</div>
+</div>
+<div id="outline-container-org4eeafe7" class="outline-4">
+<h4 id="org4eeafe7">2.4 Commercial Interactive Systems</h4>
+<div class="outline-text-4" id="text-org4eeafe7">
+<p>
+Some of the big ones before Max were M and Jam Factory
+M was designed by Chadabe.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe6a1d8" class="outline-4">
+<h4 id="orgfe6a1d8">page 25</h4>
+<div class="outline-text-4" id="text-orgfe6a1d8">
+<p>
+Both M and Jam Factory are performance-driven systems. There is no score following or anything like that.
+</p>
+
+<p>
+Max came around as a commercial product in 1990. It is an object oriented programming language that works by manipulating graphic objects and making connections between them. It makes things easier for musicians with no prior technical training.
+</p>
+</div>
+</div>
+<div id="outline-container-orgce62c87" class="outline-4">
+<h4 id="orgce62c87">page 26</h4>
+<div class="outline-text-4" id="text-orgce62c87">
+<p>
+Although max is normally used for interactive systems, it is still a programming language and different from sequencers or patch editors.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbdba5da" class="outline-4">
+<h4 id="orgbdba5da">page 27</h4>
+<div class="outline-text-4" id="text-orgbdba5da">
+<p>
+Other languages exist, but the ease of use, docs, and optimization of Max put it ahead of others.
+</p>
+
+<p>
+Then follows some breif discussion of how Max does sensing, processing, and response. Then two examples of using max for some generative algorithms.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3f0b574" class="outline-3">
+<h3 id="org3f0b574">Chapter 3 Live Computer Music</h3>
+<div class="outline-text-3" id="text-org3f0b574">
+<p>
+Seems to be a lengthy discussion about his program Cypher and some pieces that have used it
+</p>
+</div>
+</div>
+<div id="outline-container-org2101484" class="outline-3">
+<h3 id="org2101484">Chapter 4 Music Theory, Music Cognition</h3>
+<div class="outline-text-3" id="text-org2101484">
+</div>
+<div id="outline-container-org5fb14ff" class="outline-4">
+<h4 id="org5fb14ff">page 95</h4>
+<div class="outline-text-4" id="text-org5fb14ff">
+<p>
+Computer emulations represent applied music theory, taking theoretical concepts and putting them in live performance
+</p>
+
+<p>
+Following chapters I think are using theory to justify the decisions he made in building Cypher.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9fbdc73" class="outline-3">
+<h3 id="org9fbdc73">Chapter 8 Conclusion</h3>
+<div class="outline-text-3" id="text-org9fbdc73">
+</div>
+<div id="outline-container-org6df95bb" class="outline-4">
+<h4 id="org6df95bb">page 262</h4>
+<div class="outline-text-4" id="text-org6df95bb">
+<p>
+"If I wanted flawlessness, I'd stay home with the album. The spontaneity, uncerainty and ensemble coordination that automation eliminates are exactly what I go to concerts to see; the risk brings the suspense, and the sense of triumph, to live pop."
+</p>
+
+<p>
+Interactive systems are not concerned with replacing human players but with enriching the performance situations in which humans work. The goal of incorporation humanlike music intelligence grows out of the desire to fashion computer performers able to play music with humans, not for them. A program able to understand and play along with other musicians ranging from the awkward neophyte to the most accomplished professional should encourage more people to play music, not discourage those who already do.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

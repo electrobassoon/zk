@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>mcdermott13_shoul_music_inter_be_easy: Should Music Interaction Be Easy?</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">mcdermott13_shoul_music_inter_be_easy: Should Music Interaction Be Easy?</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#mcdermott13_shoul_music_inter_be_easy">Should Music Interaction Be Easy?</a>
+<ul>
+<li><a href="#orgb107522">2.1 Introduction</a></li>
+<li><a href="#org07bfda7">2.2 Dimensions of Difficulty</a></li>
+<li><a href="#org6fb1b40">2.4 Where Musical Interaction Must Be Difficult</a></li>
+<li><a href="#org77d8dd6">2.5 Where Musical Interaction Could Be Easier</a></li>
+<li><a href="#org125b5ba">2.6 Conclusions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-mcdermott13_shoul_music_inter_be_easy" class="outline-2">
+<h2 id="mcdermott13_shoul_music_inter_be_easy">Should Music Interaction Be Easy?</h2>
+<div class="outline-text-2" id="text-mcdermott13_shoul_music_inter_be_easy">
+<p>
+The subject of ease of use in Music Interaction is complex with social, technical, artistic, and psychological resasons why difficulty can be a good thing. Sometimes though it is a necessary evil. (29)
+</p>
+</div>
+
+<div id="outline-container-orgb107522" class="outline-3">
+<h3 id="orgb107522">2.1 Introduction</h3>
+<div class="outline-text-3" id="text-orgb107522">
+<p>
+In music, what may seem like imperfections as far as tool design goes give personality to an instrument (30)
+</p>
+
+<p>
+There is a trade off between ease of use and long term power. The long term power often makes things difficult for the beginner, but this is common in music. Instrumental performance, theory, notation, recording, etc. all take a long time to master. Long term power is favored over ease of use(30)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org07bfda7" class="outline-3">
+<h3 id="org07bfda7">2.2 Dimensions of Difficulty</h3>
+<div class="outline-text-3" id="text-org07bfda7">
+<p>
+There is already a lot of difficulty in playing an instrument. There are physical demands like air pressure, span of fingers, weight of the instrument, etc. There is also coordination difficulty such as technical fingering passages, circular breathing, and more. There are discontinuities and nonlinearities in fingering systems. There is the difficulty of hearing what needs to be changed. Handling multiple streams of music, regardless if the isntrument is polyphonic or not. There can also be multiple ways to do the same thing, like multiple strings or fingerings. Basically, there are many aspects of difficulty in music that perhaps cannot be simplified without losing musical things we enjoy. (32-35)
+</p>
+</div>
+</div>
+<div id="outline-container-org6fb1b40" class="outline-3">
+<h3 id="org6fb1b40">2.4 Where Musical Interaction Must Be Difficult</h3>
+<div class="outline-text-3" id="text-org6fb1b40">
+<p>
+Playing the instrument or piece of music is often the goal itself, not a means to a different goal. The satisfaction comes from achieving something difficult. (37)
+Long term engagement, if we could all master our instruments in a few weeks, none of us would continue playing music. Part of the enjoyment, and difficulty, is that there is always something to do next. Guitar Hero is an example of short term engagement. Once the game is done it is done, the skills don't transfer necessarily to anything else.
+There is also a seemingly universal appeal for open-endedness in activities. (38)
+Things that are easy to use often are restrictive. They don't allow for expression or doing things it wasn't designed to do. In music, this could very much be a problem (38-39)
+Virtuosity is often appreciated in music, and this requires difficulty as well. However with digital music much of the virtousity is unseen or unrecognized by the audience (39)
+Physical effort and difficulty at times is useful to communicate intense moments to the audience, this is also hard to do on a digital instrument. (40)
+</p>
+</div>
+</div>
+<div id="outline-container-org77d8dd6" class="outline-3">
+<h3 id="org77d8dd6">2.5 Where Musical Interaction Could Be Easier</h3>
+<div class="outline-text-3" id="text-org77d8dd6">
+<p>
+Transient or frivolous music (41)
+Technical tasks like adjusting parameters for FM or Granular synthesis can be an obstacle to musicians. (41)
+Layered affordance - ability to remove restrictions in layers
+Adaptive affordance - System gauges when user is ready for more (42)
+</p>
+</div>
+</div>
+<div id="outline-container-org125b5ba" class="outline-3">
+<h3 id="org125b5ba">2.6 Conclusions</h3>
+<div class="outline-text-3" id="text-org125b5ba">
+<p>
+Sometimes users find interfaces frustrating, productivity not optimal, etc. But in music this is a good thing. Musicians need frustrations to grow. Playing music for the love of music is different than evaluating software.(43-44)
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-29 Wed 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>winkler98_compos_inter_music</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">winkler98_compos_inter_music</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#winkler98_compos_inter_music">Composing interactive music: techniques and ideas using max</a>
+<ul>
+<li><a href="#org2ed128d">Chapter 1: Introduction and Background</a>
+<ul>
+<li><a href="#org91c8380">page 4</a></li>
+<li><a href="#org3872312">page 6&#xa0;&#xa0;&#xa0;<span class="tag"><span class="inter">inter</span></span></a></li>
+<li><a href="#org4689f8b">page 7&#xa0;&#xa0;&#xa0;<span class="tag"><span class="performance">performance</span></span></a></li>
+<li><a href="#orgdea07b8">page 8&#xa0;&#xa0;&#xa0;<span class="tag"><span class="performance">performance</span>&#xa0;<span class="inter">inter</span></span></a></li>
+<li><a href="#org31e931a">page 9-19&#xa0;&#xa0;&#xa0;<span class="tag"><span class="history">history</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org3190822">Chapter 2: Interaction: Defining Relationships between Computers and Performers</a>
+<ul>
+<li><a href="#org8eb2f12">Performance Models</a></li>
+</ul>
+</li>
+<li><a href="#org97ecd04">Chapter 3: Graphic Programming with Max</a>
+<ul>
+<li><a href="#org15fdb9f">page 63&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></a></li>
+<li><a href="#orgcd70e4e">page 65&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></a></li>
+<li><a href="#orgaa69098">page 66</a></li>
+<li><a href="#orgd9bd925">page 67&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></a></li>
+<li><a href="#org0524f26">page 68&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></a></li>
+<li><a href="#org937830f">page 69&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org76eaf57">Chapter 6: The Computer as Listener: Analyzing and Storing Performance Data</a>
+<ul>
+<li><a href="#org27327aa">page 135</a></li>
+<li><a href="#org1722d40">page 136</a></li>
+<li><a href="#orgfa394ae">page 137</a></li>
+<li><a href="#org4ac7ced">page 138</a></li>
+<li><a href="#orgdb65ac6">page 140</a></li>
+<li><a href="#org5b997e8">page 142</a></li>
+<li><a href="#orgc7fbb1c">page 145</a></li>
+<li><a href="#org90ef6b9">page 151</a></li>
+<li><a href="#orgf377b55">page 155</a></li>
+<li><a href="#orgac70c8b">page 156</a></li>
+<li><a href="#orgc08d640">page 157</a></li>
+<li><a href="#orgb0e7896">page 161</a></li>
+<li><a href="#orga5e9525">page 164</a></li>
+<li><a href="#orgd55dfa8">page 165+</a></li>
+<li><a href="#org3e6e1ae">page 172</a></li>
+</ul>
+</li>
+<li><a href="#org14b677b">Chapter 7: Composer Objects</a>
+<ul>
+<li><a href="#org926e47b">page 174</a></li>
+<li><a href="#org8a28b5c">page 175</a></li>
+<li><a href="#orge1845a0">page 176</a></li>
+<li><a href="#org5721d2c">page 176</a></li>
+<li><a href="#org30edcf2">page 178</a></li>
+<li><a href="#orge7911f7">pages 179-186</a></li>
+<li><a href="#org4bfc3b4">pages 187- 190</a></li>
+<li><a href="#org95723ac">page 191</a></li>
+<li><a href="#org842f289">page 210</a></li>
+</ul>
+</li>
+<li><a href="#org4f313a5">Chapter 8: Sound Design</a>
+<ul>
+<li><a href="#org107ae9d">page 221</a></li>
+<li><a href="#orgb057455">page 225</a></li>
+<li><a href="#orgf355d50">page 257</a></li>
+</ul>
+</li>
+<li><a href="#org5a33327">Chapter 9: Score Objects: Compositional Strategies, Structures, and Timing Mechanisms</a>
+<ul>
+<li><a href="#org09d3da2">page 259</a></li>
+<li><a href="#orgfbad3f3">page 260</a></li>
+<li><a href="#orgcbcf244">page 261</a></li>
+<li><a href="#org144a326">page 264</a></li>
+<li><a href="#org921bed9">page 266</a></li>
+<li><a href="#org863d2e5">page 269</a></li>
+<li><a href="#org6909277">page 275</a></li>
+<li><a href="#org4365cb5">page 284</a></li>
+<li><a href="#org0073023">page 291</a></li>
+<li><a href="#org86f1c9c">page 292</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-winkler98_compos_inter_music" class="outline-2">
+<h2 id="winkler98_compos_inter_music">Composing interactive music: techniques and ideas using max</h2>
+<div class="outline-text-2" id="text-winkler98_compos_inter_music">
+</div>
+
+<div id="outline-container-org2ed128d" class="outline-3">
+<h3 id="org2ed128d">Chapter 1: Introduction and Background</h3>
+<div class="outline-text-3" id="text-org2ed128d">
+</div>
+<div id="outline-container-org91c8380" class="outline-4">
+<h4 id="org91c8380">page 4</h4>
+<div class="outline-text-4" id="text-org91c8380">
+<p>
+<code>Interactive music is defined as music composition or improvisation where software interprets a live performance to affect music generated or modified by computers. Usually this involves a performer playing an instrument while a computer creates music that is in some way shaped by the performance.</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3872312" class="outline-4">
+<h4 id="org3872312">page 6&#xa0;&#xa0;&#xa0;<span class="tag"><span class="inter">inter</span></span></h4>
+<div class="outline-text-4" id="text-org3872312">
+<p>
+Look at Rowe 1993 source
+</p>
+
+<p>
+Five steps to creating an interactive piece:
+</p>
+
+<ol class="org-ol">
+<li>Human input, instruments - Human activity is translated into digital information and sent to the computer.</li>
+<li>Computer listening, performance analysis - The computer receives the human input and analyzes the performance information for timing, pitch, dynamics, or other musical characteristics.</li>
+<li>Interpretation - The software interprets the computer listener information, generating data that will influence the composition.</li>
+<li>Computer composition - Computer processes, responsible for all aspects of the computer generated music, are based on the results of the computer's interpretation of the performance.</li>
+<li>Sound generation and output, performance - The computer plays the music, using sounds created internally, or by sending musical information to devices that generate sound.</li>
+</ol>
+
+<p>
+following pages contain history and possibly philosophy
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4689f8b" class="outline-4">
+<h4 id="org4689f8b">page 7&#xa0;&#xa0;&#xa0;<span class="tag"><span class="performance">performance</span></span></h4>
+<div class="outline-text-4" id="text-org4689f8b">
+<p>
+Traditional notation only gives a loose sense of how to perform music. Much is left to the sensibilities of the performer. Programs have done a lot to add musicality to computers, but they are still far from the expressive capabilities of a human performer.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdea07b8" class="outline-4">
+<h4 id="orgdea07b8">page 8&#xa0;&#xa0;&#xa0;<span class="tag"><span class="performance">performance</span>&#xa0;<span class="inter">inter</span></span></h4>
+<div class="outline-text-4" id="text-orgdea07b8">
+<p>
+In live performance, a computer can take on elements of human musicality, and the computer can give the performer the ability to surpass the physical limitations of their instrument.
+</p>
+</div>
+</div>
+<div id="outline-container-org31e931a" class="outline-4">
+<h4 id="org31e931a">page 9-19&#xa0;&#xa0;&#xa0;<span class="tag"><span class="history">history</span></span></h4>
+<div class="outline-text-4" id="text-org31e931a">
+<p>
+Interaction was originally in music, and has been on the decline. Recordings took away the interaction of performer and audience. Multitrack recording took away the interaction of performers with each other, as they could be layered on top of each other. Pop concerts may even have the performers lip singing so the performance sounds as close to the recording as possible. Computer music did not begin interactively, as the computers could not process calculations fast enough for live performance. However when the programming was done, some people didn't like the lack of a visual component of the music. Putting a performer next to them helped, but then it became hard for the performer because there was no interaction on their end. Thus began the experiments in interactive electronic music.
+</p>
+
+<p>
+Early experiments were forms of taking acoustic signals and delaying them or using other simple effects. As microphones became available, it became much easier to use traditional instruments with the computer.
+</p>
+
+<p>
+In the 80s, personal computers were more affordable, more powerful, and enabled many musicians to create music without needing to be at a large institution. Instrument manufacturers agreed on the Musical Instrument Digital Interface as a universal standard. Composers figured out how to get computers to do things in real time, follow scores, or recognize musical input.
+</p>
+
+<p>
+Joel Chadabe formed a company called Intelligent Music that designed some of the first peformance software, M and Jam Factory. This software was successfully used in performance as well. Others created other software like Cypher, Kyma, and Dmix. They all worked with MIDI data, although Kyma added some sythesis and processing capabilities. Max is by far the most used of this kind of software.
+</p>
+
+<p>
+Max was developed by Miller Puckette and others at IRCAM in Paris. The goal was synthesis and signal processing. It was relatively simple to create interactive works for keyboard instruments, since each key is its own switch and trigger, but it took a great deal longer for other instruments. Pitch detectors were unreliable at first. It took 3 years to make the first pieces for a flute and max with score following techniques.
+</p>
+
+<p>
+Max split in two directions, one focused on being available for consumers, and one on better interaction with IRCAM hardware. This second direction became obsolete because the computer system it relied on became extinct.
+</p>
+
+<p>
+Miller then merged the two systems and created Pure Data, adding video processing as well. 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3190822" class="outline-3">
+<h3 id="org3190822">Chapter 2: Interaction: Defining Relationships between Computers and Performers</h3>
+<div class="outline-text-3" id="text-org3190822">
+</div>
+<div id="outline-container-org8eb2f12" class="outline-4">
+<h4 id="org8eb2f12">Performance Models</h4>
+<div class="outline-text-4" id="text-org8eb2f12">
+</div>
+<ul class="org-ul">
+<li><a id="org96cfb68"></a>Page 22<br />
+<div class="outline-text-5" id="text-org96cfb68">
+<p>
+Interactive pieces can create improvisational responses because of their flexible structures based on musical input. The composer relinquishes some control to increase the performer's engagement and spontaneity.
+</p>
+
+<p>
+Part of the appeal of live performance is the drama of who is in charge, and the balance of roles. Composers create the role the computer and performer have in this balance.
+</p>
+</div>
+</li>
+<li><a id="orgcebfbfd"></a>Conductor Model - Symphony Orchestra (23)<br />
+<div class="outline-text-5" id="text-orgcebfbfd">
+<p>
+The conductor is in charge, but has to listen to the orchestra as well.
+Many of the first interactive pieces were based on this model, allowing real time control of the tempo through a glove, or baton, or following one players music
+</p>
+</div>
+</li>
+<li><a id="org6d11deb"></a>Chamber Music Model - String Quartet (25)<br />
+<div class="outline-text-5" id="text-org6d11deb">
+<p>
+While there is a leader, usually control is shared by everyone in the group. This passing of control adds to the drama.
+Some early pieces have dynamic controls and parts where the computer is more important and parts where the performer is more important.
+</p>
+</div>
+</li>
+<li><a id="org1545caf"></a>Improvisation Model - Jazz Combo (25)<br />
+<div class="outline-text-5" id="text-org1545caf">
+<p>
+There is a basic structure that allows nearly unlimited freedom within it. Through many years of experience there are certain licks or styles that are more appropriate to the style.
+Computers can recognize patterns, scales, chord progressions, tempi, etc. Then it can generate new music based on those features.
+</p>
+</div>
+</li>
+<li><a id="orge1ad40f"></a>Free Improvisation<br />
+<div class="outline-text-5" id="text-orge1ad40f">
+<p>
+Sometimes no one is in control. All involved have influence on what the others say, but no one has the final say.
+</p>
+</div>
+</li>
+<li><a id="orga8d426c"></a>Indeterminacy (29)<br />
+<div class="outline-text-5" id="text-orga8d426c">
+<p>
+Indeterminate actions create more spontaneity, expressiveness, and interactivity
+</p>
+</div>
+</li>
+<li><a id="org4628768"></a>The rest of the chapter deals with opposite extremes of musical structure, like linear vs non linear, etc.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org97ecd04" class="outline-3">
+<h3 id="org97ecd04">Chapter 3: Graphic Programming with Max</h3>
+<div class="outline-text-3" id="text-org97ecd04">
+</div>
+<div id="outline-container-org15fdb9f" class="outline-4">
+<h4 id="org15fdb9f">page 63&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></h4>
+<div class="outline-text-4" id="text-org15fdb9f">
+<p>
+How Max Handles MIDI
+</p>
+
+<p>
+detailed description of midi messages and bits and bytes, also why 127
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgcd70e4e" class="outline-4">
+<h4 id="orgcd70e4e">page 65&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></h4>
+<div class="outline-text-4" id="text-orgcd70e4e">
+<p>
+notein and noteout
+note on and note off
+</p>
+</div>
+</div>
+<div id="outline-container-orgaa69098" class="outline-4">
+<h4 id="orgaa69098">page 66</h4>
+<div class="outline-text-4" id="text-orgaa69098">
+<p>
+stripnote
+makenote
+</p>
+</div>
+</div>
+<div id="outline-container-orgd9bd925" class="outline-4">
+<h4 id="orgd9bd925">page 67&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></h4>
+<div class="outline-text-4" id="text-orgd9bd925">
+<p>
+continuous controllers
+ctlin ctlout
+</p>
+</div>
+</div>
+<div id="outline-container-org0524f26" class="outline-4">
+<h4 id="org0524f26">page 68&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></h4>
+<div class="outline-text-4" id="text-org0524f26">
+<p>
+can be remapped for lots of things
+</p>
+
+<p>
+program change
+"voice" or banks
+</p>
+</div>
+</div>
+<div id="outline-container-org937830f" class="outline-4">
+<h4 id="org937830f">page 69&#xa0;&#xa0;&#xa0;<span class="tag"><span class="midi">midi</span></span></h4>
+<div class="outline-text-4" id="text-org937830f">
+<p>
+pgmin pgmout
+complete midi info with midiin midiparse midiout seq
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org76eaf57" class="outline-3">
+<h3 id="org76eaf57">Chapter 6: The Computer as Listener: Analyzing and Storing Performance Data</h3>
+<div class="outline-text-3" id="text-org76eaf57">
+</div>
+<div id="outline-container-org27327aa" class="outline-4">
+<h4 id="org27327aa">page 135</h4>
+<div class="outline-text-4" id="text-org27327aa">
+<p>
+A listener's understanding of music is shaped by past memories and associations triggered by the music as well as the listener's general concept of music. A computer does not have emotions, but it can still compare an on-going performance to previous music that is has stored. This could be patterns of pitches and dynamics, or much more complex patterns like keys, chord types, transpositions, etc.
+</p>
+</div>
+</div>
+<div id="outline-container-org1722d40" class="outline-4">
+<h4 id="org1722d40">page 136</h4>
+<div class="outline-text-4" id="text-org1722d40">
+<p>
+What can a computer hear? When dealing with MIDI there is pitch, velocity, and time. Timbre perhaps can be mapped to continuous controllers, but is not explicitly defined in MIDI
+</p>
+</div>
+</div>
+<div id="outline-container-orgfa394ae" class="outline-4">
+<h4 id="orgfa394ae">page 137</h4>
+<div class="outline-text-4" id="text-orgfa394ae">
+<p>
+The first step is establishing what performance data is needed, and how they can be separated and understood by the computer.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org4ac7ced" class="outline-4">
+<h4 id="org4ac7ced">page 138</h4>
+<div class="outline-text-4" id="text-org4ac7ced">
+<p>
+Flexible timing between performer and computer is an important part of simulating musical interaction.
+<b>Metro</b> and <b>Tempo</b> are max objects that output bangs at a specific rate, usually the tempo of the music
+<b>Timer</b> and <b>Clocker</b> count miliseconds. Bang the timer starts it, the next bang outputs the time it took. This tells you the time in between events. Clocker outputs it's elapsed time at a specific rate.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdb65ac6" class="outline-4">
+<h4 id="orgdb65ac6">page 140</h4>
+<div class="outline-text-4" id="text-orgdb65ac6">
+<p>
+Analysis is "delta time" - the time between events, and "note duration" - the time from a key press to its release, even if sound continues past that. You can use note on and off messages to trigger timers that will give each parameter (at least for MIDI instruments)
+</p>
+</div>
+</div>
+<div id="outline-container-org5b997e8" class="outline-4">
+<h4 id="org5b997e8">page 142</h4>
+<div class="outline-text-4" id="text-org5b997e8">
+<p>
+A MIDI sustain pedal can be used to tap the tempo and not be affected by the rhythms of other notes
+</p>
+</div>
+</div>
+<div id="outline-container-orgc7fbb1c" class="outline-4">
+<h4 id="orgc7fbb1c">page 145</h4>
+<div class="outline-text-4" id="text-orgc7fbb1c">
+<p>
+borax is the swiss army knife of timing midi messages from notein, there are several other models receiving MIDI input and looking at deltas to control tempo, and adjust for small errors
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Rhythm Analysis</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org90ef6b9" class="outline-4">
+<h4 id="org90ef6b9">page 151</h4>
+<div class="outline-text-4" id="text-org90ef6b9">
+<p>
+There are many human errors that need extra programming for max to handle correctly. There could be a double trigger by hitting two keys at once, weird finger combinations on other instruments, etc. Double tonguing for unlcear attack etc. Pitch to midi converters struggle with unstable pitch, strong overtones, vibrato, etc. One option to help is <b>speedlim</b> that only outputs data at specified intervals
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Pitch</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgf377b55" class="outline-4">
+<h4 id="orgf377b55">page 155</h4>
+<div class="outline-text-4" id="text-orgf377b55">
+<p>
+The modulo operator can be used to analyze pitch class to perhaps look at themes.
+</p>
+</div>
+</div>
+<div id="outline-container-orgac70c8b" class="outline-4">
+<h4 id="orgac70c8b">page 156</h4>
+<div class="outline-text-4" id="text-orgac70c8b">
+<p>
+Intervals are used by subtracting midi note values from the previous note. The sign gives the direction. <b>abs</b> takes the absolute value if direction doesn't matter. Register can be found by dividing by 12 and subtracting an offset.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc08d640" class="outline-4">
+<h4 id="orgc08d640">page 157</h4>
+<div class="outline-text-4" id="text-orgc08d640">
+<p>
+Harmonies can be analyzed by grouping notes played closely enough together as a chord instead of individual notes. <b>tresh</b> groups items into a list if they happen close together, then you can sort the list, compare intervals, and then compare those chords to a collection of known chords.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0e7896" class="outline-4">
+<h4 id="orgb0e7896">page 161</h4>
+<div class="outline-text-4" id="text-orgb0e7896">
+<p>
+<b>select</b> and <b>match</b> look for patterns. <b>past</b> and <b>peak</b> trigger when something gets too high, or remembers the highest respectively. The opposite of peak is <b>trough</b>
+</p>
+</div>
+</div>
+<div id="outline-container-orga5e9525" class="outline-4">
+<h4 id="orga5e9525">page 164</h4>
+<div class="outline-text-4" id="text-orga5e9525">
+<p>
+<b>histo</b> keeps track of certain numbers, and can be used to keep counts of pitches, or velocities, or whatever.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd55dfa8" class="outline-4">
+<h4 id="orgd55dfa8">page 165+</h4>
+<div class="outline-text-4" id="text-orgd55dfa8">
+<p>
+Caluclating a running average and comparing it to the previous average allows for tracking things like crescendo, diminuendo (via note velocity), ritardando, accelerando (via delta notes), articulation (comparing duration to delta notes)
+</p>
+</div>
+</div>
+<div id="outline-container-org3e6e1ae" class="outline-4">
+<h4 id="org3e6e1ae">page 172</h4>
+<div class="outline-text-4" id="text-org3e6e1ae">
+<p>
+Listener objects can be very simple. It is then up to the composer to determine what the computer will do in response
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org14b677b" class="outline-3">
+<h3 id="org14b677b">Chapter 7: Composer Objects</h3>
+<div class="outline-text-3" id="text-org14b677b">
+</div>
+<div id="outline-container-org926e47b" class="outline-4">
+<h4 id="org926e47b">page 174</h4>
+<div class="outline-text-4" id="text-org926e47b">
+<p>
+composer objects embody the thought process, taste, and skill of a composer
+</p>
+</div>
+</div>
+<div id="outline-container-org8a28b5c" class="outline-4">
+<h4 id="org8a28b5c">page 175</h4>
+<div class="outline-text-4" id="text-org8a28b5c">
+<p>
+The logic in creating an algorithm does not make a composer's talents secondary. The rules of the system are no different than the rules of music theory and history. It is the imagination of the composer and interaction with a performer that can make the music interesting
+</p>
+</div>
+</div>
+<div id="outline-container-orge1845a0" class="outline-4">
+<h4 id="orge1845a0">page 176</h4>
+<div class="outline-text-4" id="text-orge1845a0">
+<p>
+Again, it is not necessarily a one-to-one relationship with performer input and compositional outcomes. There could be a chain reaction, or effect data storage, or who knows!
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Data</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org5721d2c" class="outline-4">
+<h4 id="org5721d2c">page 176</h4>
+<div class="outline-text-4" id="text-org5721d2c">
+<p>
+Listener objects can provide real-time data, often via midi. This can also be stored. Storage objects can also have predetermined data. Objects like <b>seq</b>, <b>table</b>, <b>coll</b>, and <b>detonate</b> can be used for this.
+There is also generated data produced by algorithms
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Rowe's Types of Algorithms</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org30edcf2" class="outline-4">
+<h4 id="org30edcf2">page 178</h4>
+<div class="outline-text-4" id="text-org30edcf2">
+<p>
+Generative, Sequenced, and Transformative.
+</p>
+<dl class="org-dl">
+<dt>Generative</dt><dd>methods that create music from stored fundamental material</dd>
+<dt>Sequenced</dt><dd>Use prerecorded fragments in response to real-time input</dd>
+<dt>Transformative</dt><dd>methods to take existing material and transform into variants, which may or may not be recognizable as coming from the original</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orge7911f7" class="outline-4">
+<h4 id="orge7911f7">pages 179-186</h4>
+<div class="outline-text-4" id="text-orge7911f7">
+<p>
+Various objects to transform data:
+<b>split</b> <b>select</b> <b>range</b> <b>gate</b> <b>speedlim</b>
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Automation and Delay</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org4bfc3b4" class="outline-4">
+<h4 id="org4bfc3b4">pages 187- 190</h4>
+<div class="outline-text-4" id="text-org4bfc3b4">
+<p>
+<b>delay</b> <b>line</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org95723ac" class="outline-4">
+<h4 id="org95723ac">page 191</h4>
+<div class="outline-text-4" id="text-org95723ac">
+<p>
+Mapping can be useful to connect different aspects of performance to other aspects
+</p>
+</div>
+</div>
+<div id="outline-container-org842f289" class="outline-4">
+<h4 id="org842f289">page 210</h4>
+<div class="outline-text-4" id="text-org842f289">
+<p>
+Humanizing algorithms: by using constrained random values, improvisation will be different each time, but have a consistent style
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4f313a5" class="outline-3">
+<h3 id="org4f313a5">Chapter 8: Sound Design</h3>
+<div class="outline-text-3" id="text-org4f313a5">
+</div>
+<div id="outline-container-org107ae9d" class="outline-4">
+<h4 id="org107ae9d">page 221</h4>
+<div class="outline-text-4" id="text-org107ae9d">
+<p>
+Finding unique sounds, new ways to organize them or control them is the goal of computer music
+</p>
+</div>
+</div>
+<div id="outline-container-orgb057455" class="outline-4">
+<h4 id="orgb057455">page 225</h4>
+<div class="outline-text-4" id="text-orgb057455">
+<p>
+Timbre analysis not available in Max (in 1998 that is&#x2026; not sure now)
+</p>
+</div>
+</div>
+<div id="outline-container-orgf355d50" class="outline-4">
+<h4 id="orgf355d50">page 257</h4>
+<div class="outline-text-4" id="text-orgf355d50">
+<p>
+The addition of FFTs allow for more interactive options and looking at timbre
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a33327" class="outline-3">
+<h3 id="org5a33327">Chapter 9: Score Objects: Compositional Strategies, Structures, and Timing Mechanisms</h3>
+<div class="outline-text-3" id="text-org5a33327">
+</div>
+<div id="outline-container-org09d3da2" class="outline-4">
+<h4 id="org09d3da2">page 259</h4>
+<div class="outline-text-4" id="text-org09d3da2">
+<p>
+Multitude of options for interactive music makes composing difficult. Technical possibilities are overwhelming
+What is needed is a strong aesthetic concept or voice that defines the purpose, mood, limits, and scope of the work
+</p>
+</div>
+</div>
+<div id="outline-container-orgfbad3f3" class="outline-4">
+<h4 id="orgfbad3f3">page 260</h4>
+<div class="outline-text-4" id="text-orgfbad3f3">
+<p>
+The central question and difference from other modes of composition is what is the relationship between the computer and the performer? Who is following who?
+</p>
+</div>
+</div>
+<div id="outline-container-orgcbcf244" class="outline-4">
+<h4 id="orgcbcf244">page 261</h4>
+<div class="outline-text-4" id="text-orgcbcf244">
+<p>
+Interactive works have many objects that need to be linked, enabled, disabled, reset, and reconfigured during a performance.
+Score objects allow changing many different parameters all at once that would be cumbersome otherwise
+</p>
+</div>
+</div>
+<div id="outline-container-org144a326" class="outline-4">
+<h4 id="org144a326">page 264</h4>
+<div class="outline-text-4" id="text-org144a326">
+<p>
+Number boxes can be useful to jump to a certain part of the score
+<b>switch</b> will wait for a certain event, then goes on to wait for the next one, and the next until all the events have happened.
+</p>
+</div>
+</div>
+<div id="outline-container-org921bed9" class="outline-4">
+<h4 id="org921bed9">page 266</h4>
+<div class="outline-text-4" id="text-org921bed9">
+<p>
+<b>match</b> is order specific, so it matches motives very well, but it has to be perfect
+</p>
+</div>
+</div>
+<div id="outline-container-org863d2e5" class="outline-4">
+<h4 id="org863d2e5">page 269</h4>
+<div class="outline-text-4" id="text-org863d2e5">
+<p>
+objects that can trigger based on time are <b>timer</b>, <b>delay</b>, <b>pipe</b>, <b>clocker</b>, and <b>timeline</b> (perhaps replaced by transport?)
+</p>
+</div>
+</div>
+<div id="outline-container-org6909277" class="outline-4">
+<h4 id="org6909277">page 275</h4>
+<div class="outline-text-4" id="text-org6909277">
+<p>
+<b>preset</b> does a lot for storing parameters and changing them quickly
+</p>
+</div>
+</div>
+<div id="outline-container-org4365cb5" class="outline-4">
+<h4 id="org4365cb5">page 284</h4>
+<div class="outline-text-4" id="text-org4365cb5">
+<p>
+<b>follow</b> can be used to match a series of pitches that can then trigger other objects
+</p>
+</div>
+</div>
+<div id="outline-container-org0073023" class="outline-4">
+<h4 id="org0073023">page 291</h4>
+<div class="outline-text-4" id="text-org0073023">
+<p>
+predetermined scores and algorithms allow for highly detailed, polished, and dependable works.
+indeterminacy offers freedom, spontaneity, dialog, and excitement of the unexpected
+</p>
+</div>
+</div>
+<div id="outline-container-org86f1c9c" class="outline-4">
+<h4 id="org86f1c9c">page 292</h4>
+<div class="outline-text-4" id="text-org86f1c9c">
+<ul class="org-ul">
+<li>Predetermined score and predetermined computer sequences
+least interactive, perhaps should be performer and tape instead. Can be used to give the peformer more freedom in tempo</li>
+<li>Predetermined score and indeterminant computer actions</li>
+<li>Performer improvisation and Predetermined Computer sequences</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

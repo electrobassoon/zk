@@ -4,3 +4,132 @@
 :END:
 #+title: morris05_teach_method_lewis_hugh_cooper
 
+* Lewis Hugh Cooper
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/morris05_teach_method_lewis_hugh_cooper.pdf
+:END:
+** Chapter 1 Bio
+:PROPERTIES:
+:NOTER_PAGE: (11 0.19672131147540983 . 0.11028632025450692)
+:END:
+*** Self Taught
+:PROPERTIES:
+:NOTER_PAGE: (13 0.39344262295081966 . 0.11770943796394488)
+:END:
+Largely self taught, as there was no bassoon faculty at University of Michigan. Got advice from Hugo Fox, Sol Schoenbach, and SImon Kovar from visiting orchestras 
+*** Puchner influence
+:PROPERTIES:
+:NOTER_PAGE: (15 0.7081967213114754 . 0.13255567338282082)
+:END:
+Lots of influence with Puchner bassoons
+*** Bassoon Clinic Series
+:PROPERTIES:
+:NOTER_PAGE: (16 0.419672131147541 . 0.12513255567338286)
+:END:
+Seems these were published in the Etude Magazine. In 2005 the book referenced in the articles seems to not have materialized.
+** Chapter 2 Pedagogy
+:PROPERTIES:
+:NOTER_PAGE: (17 0.18360655737704917 . 0.19194061505832452)
+:END:
+** Educated Students
+:PROPERTIES:
+:NOTER_PAGE: (17 0.2901639344262295 . 0.23117709437963946)
+:END:
+#+BEGIN_QUOTE
+My approach to teaching is one that recognizes the analytical capabilities
+unique to the human species. There are two kinds of musicians, those who
+perform primarily by rote, and those who maintain intellectual control
+over their performance. Rote response represents man’s lowest form of
+learning, the way we teach animals tricks. Certainly, university students
+are deserving of a more intellectual basis for their music making,
+especially in view of the superior results achieved. Intellectual players,
+because they are capable of adjusting to an ever-changing environment,
+will always triumph over animalistic responses, no matter how adept a rote
+player. If all subject matter were taught like most music performance,
+mankind would not yet have invented the wheel.1 What is happening and
+why? The power of observation and intellectual curiosity – the two
+necessary attributes of any truly educated individual.
+#+END_QUOTE
+** Breath Builder
+:PROPERTIES:
+:NOTER_PAGE: (20 0.13114754098360656 . 0.1770943796394486)
+:END:
+The cytinder with the ping-pong ball. Doesn't say which holes to use or anything like that (at least not here)
+** Hissing
+:PROPERTIES:
+:NOTER_PAGE: (20 0.28852459016393445 . 0.19194061505832452)
+:END:
+Clenched teeth, and blocking the space between upper and lower teeth. This is like an athlete adding weights to a movement, it creates extra resistance
+** Soft cushion
+:PROPERTIES:
+:NOTER_PAGE: (21 0.24918032786885247 . 0.19936373276776248)
+:END:
+Pronounce the word "cue", or whistling
+** Embouchure technique
+:PROPERTIES:
+:NOTER_PAGE: (22 0.5114754098360655 . 0.22905620360551432)
+:END:
+1) Whistle the lowest pitch you can produce
+2) Whistle that pitch up one octave, noting the tightening of muscles to get higher. This is similar to the muscles used when playing bassoon.
+3) Tighten those muscles until the whistle is lost. This is the basis of the embouchure.
+4) Yawn to feel the pivoting motion of the jaw's hinge
+5) With the jaw somewhat down and back, use that embouchure and blow as if blowing out candles on a birthday cake, this should get the crow
+** Tone Production
+:PROPERTIES:
+:NOTER_PAGE: (23 0.6819672131147541 . 0.19194061505832452)
+:END:
+Breath control *is* the basic foundation for all tone production
+** Prep student for first sounds on the bassoon
+:PROPERTIES:
+:NOTER_PAGE: (23 0.7213114754098361 . 0.19194061505832452)
+:END:
+1) Crow the reed several times
+2) Place the reed on the bocal alone, getting the four semi-tone range of the bocal, special attention to getting the B (see reed criteria in chapter 3)
+3) Assemble the bassoon
+4) Crow again several times
+5) Get ready to play
+Then we get the first sounds
+1) Finger C, ,and blow exactly how the crow was no matter how bad it sounds
+2) Get the embouchure so that it sounds a B
+3) If it isn't flat enough, they need to relax the embouchure, go back to reed or just reed and bocal
+Then we bring it up
+1) Add breath support to raise it to a C. Not by biting!!!!!
+2) Repeat until a full resonant in tune sound can be produced with just breath support.
+3) Recognize pitch level is primarily maintained by breath support
+This gets a charactersitci bassoon sound in a minimum legnth of time (usually within the first lesson)
+** Tone Color
+:PROPERTIES:
+:NOTER_PAGE: (25 0.2754098360655738 . 0.16967126193001061)
+:END:
+There is a mix of vibrancy (or edge) and resonance (core) in the bassoon sound. There are two subdivisions of the tone. The performer's concept, or what we hear as we are playing, and the listener's concept. The performer's concept is always more vibrant, edgy, reediers, and louder than the listener's concept, which is always darker, smoother, softer, and less vibrant that the performer's. The closer that the performer's concept is to the ideal listener's concept, the further he/she is from their goal. The desired smooth, dark, in-tune concept is achieved by a vibrant, somewhat reedy, free full-blown performer's concept. 15 to 20 feet is about the point where the reediness dissipates and is absorbed into the core of resonance
+** Internal Pitch
+:PROPERTIES:
+:NOTER_PAGE: (26 0.3016393442622951 . 0.18451749734888656)
+:END:
+Internal pitch is the most important element of good intonation. The finest reed, bocal, instrument, breath control will still present tuning problems
+** Acoustic training
+:PROPERTIES:
+:NOTER_PAGE: (26 0.4065573770491803 . 0.2142099681866384)
+:END:
+Cooper suggests some form of acoustic being introduced into the traditional theory/ear training sequence, adding exercises to develop tuning acuity. Tuners are not good enough.
+** Tuner deficiencies
+:PROPERTIES:
+:NOTER_PAGE: (26 0.46229508196721314 . 0.23435843054082717)
+:END:
+#+BEGIN_QUOTE
+“Equal tempered tuners guarantee being out of tune on everything but the
+fundamental and its various octaves, in comparison to the frequency requirements of our
+non-linear hearing mechanism which is the final arbiter of the harmonic nature of man's
+system (the natural overtone series).”
+#+END_QUOTE
+** Table of comparisons
+:PROPERTIES:
+:NOTER_PAGE: (27 0.2360655737704918 . 0.16967126193001061)
+:END:
+Shows what each pitch should be within the natural major scale, and the difference of what equal tempered gives
+** Combating tuning acuity
+:PROPERTIES:
+:NOTER_PAGE: (28 0.4065573770491803 . 0.19194061505832452)
+:END:
+Use three glasses filled with water. The first galss is the goal pitch. Then add or pour out water from the second glass to the third glass to match the tap pitch
+Have two students play the same pitch. One student moves pitch up and down to hear the beats. Switch roles. Do it with octaves, fifths, fourths, and thirds and sixths. Note that the tuner will be "out of tune", or when it is in tune, there will be beats because it is in fact not in tune

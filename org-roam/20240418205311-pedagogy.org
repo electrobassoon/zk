@@ -4,3 +4,9 @@
 #+title: Pedagogy
 
 [[id:5caedef6-ec40-4069-b491-8fa4f4e103bc][Practicing]]
+
+[[id:ef2ccb2c-0b5c-496a-b17e-dff69db533c9][First sounds]]
+
+[[id:c412bb8c-3f53-4494-96da-39d14be7fe06][Tonal accuity]]
+
+[[id:a28be241-e2bf-4c62-892a-71308ee296f7][Tone difference]]
