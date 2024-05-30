@@ -18,3 +18,6 @@ Increased bevel depths create more stable tubes and smaller tubes.
 [[cite:&cooper05_bevel]]
 
 Briefly summarized in [[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_makin_notes_two]]
+
+
+Christlieb's defense of symmetrical beveling [[id:aa72bcc7-96b8-4314-84cc-346daf257b41][christlieb beveling]]

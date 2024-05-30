@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a3c8810e-b1f9-4df5-9058-d34682cf7a6a
+:END:
+#+title: christlieb measuring
+
+The dial indicator is not a cure all, you can still make bad reeds with "perfect" measurements. But it does help to deal with lack of symmetry and carelessness in scraping.
+
+But it is also a danger to try and make measurements perfect and ignore everything else. He shows a really good reed that didn't have perfect measurements, and said he had to discard reeds that had better measurements. The dial indicator is an aid, not a substitute, to the ears and eyes.
+
+[[cite:&christlieb66_notes_bassoon_reed]]

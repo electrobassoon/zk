@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       fce04dc4-a84b-47aa-8734-ab1956563bff
 :END:
-#+title: christlieb
+#+title: Don Christlieb
 
 Created the dial indicator, but recognized it wasn't a cure all. It helps avoid lack of symmetry and adds a dimension of measurement for consistency and accuracy.
 
@@ -11,3 +11,11 @@ Created GSP cane for sale, which helps reed pedagogues start at various stages o
 
 [[cite:&schillinger16_bassoon_reed_makin]] 109-116
 
+
+[[id:aa72bcc7-96b8-4314-84cc-346daf257b41][christlieb beveling]]
+
+[[id:a3c8810e-b1f9-4df5-9058-d34682cf7a6a][christlieb measuring]]
+
+[[id:18a380d2-e446-4695-bdb4-1b9dc15490c9][christlieb differences]]
+
+[[id:70b3d43f-a577-4189-8e62-85381b995e7c][christlieb reed]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1eedd261-766f-402d-a491-ac276ee7e89f
+:END:
+#+title: pitfall of the front third
+
+Christlieb teaches that a common fault is to take too much out of the front third. This is because getting the reed to vibrate happens more in the front third initially. So we keep taking cane out to get better response. But at some point it's become too thin, and the rest of the reed is too thick. 
+
+[[cite:&christlieb66_notes_bassoon_reed]]

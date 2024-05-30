@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       aa72bcc7-96b8-4314-84cc-346daf257b41
+:END:
+#+title: christlieb beveling
+
+Symmetric beveling like [[id:3648cfb6-9e7a-420f-ade3-70e54aae2cbe][cooper05_bevel]] helps to not have to open the reed tip after playing a while. The fulcrum works better.
+
+[[cite:&christlieb66_notes_bassoon_reed]]

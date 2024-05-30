@@ -1,0 +1,117 @@
+:PROPERTIES:
+:ID:       e36a0f96-741a-46c7-bd68-8c5168b7c167
+:ROAM_REFS: cite:christlieb66_notes_bassoon_reed
+:END:
+#+title: christlieb66_notes_bassoon_reed
+
+
+* Notes on the Bassoon Reed
+
+** Discrepancies between blades and sides
+Page 3
+Differences in the back of the reed(between the two blades)  of 5 thousandths of an inch (which is .127 mm) are not too noticeable. This is usually because the tip is the same so by the middle of the reed it's only 2.5 thousandths (or .063mm)
+However, readings 10 thousandths are very noticeable in the performance of the reed (.25 mm) and any adjustment bringing them closer together is usually good.
+
+Laterally, an error of 4 or 5 thousandths (.10 to .127) from one side to the other is more critical, and more important the closer to the tip it is.
+
+
+** Pitfall of front third
+page 6
+Easy to take too much out of the front third because that's where the results are noticed at first. But eventually the response isn't good enough but the front third is too thin because there's too much cane on the rest of the reed.
+
+** Beveling
+page  6
+States that a bevel very similar to Cooper's symmetric beveling helps to keep the reed tip open and avoids having to periodically squish the sides of the reed to reopen the tip.
+
+** Helping not straight cane
+page 7
+You can save some cane not worth processing by soaking it and then binding it to a 1" dowel to dry. This can help to straighten it out a bit
+
+** Lots of diagrams and discussion about the mechanization of gouger, profiler, shaper, etc.
+
+** Dial Indicator
+page 19
+"The indicator is not a cure all. You can still make failures, however, erros of carelessness and lack of symmetry can be avoided."
+
+** Secrecy
+page 21
+Reed journals are often private affairs, and we would be much closer to solving our common reed problem if we were more open about helping each other around pitfalls.
+
+He is interested in professional progress and common knowledge, not the advantage of singularity
+
+** Danger of measurement
+page 23
+Dial indicator is an aid, but not a substitute, to the eyes and the ears. Being too absorbed with the measurements can mess things up.
+His reed 2, that was excellent, didn't have the perfect measurements and balance. And he's had some reeds that fit the measurements better that he had to throw out because they didn't sound good.
+** Measurements for Reed 2
+page 24
+*** Length 2 5/32" (54.76mm)
+*** Blade length 1 1/16" (26.99mm)
+*** Length of blade including the shoulder 1 3/32" (27.78mm)
+*** Length of tube 1 1/16" (I assume butt to first wire?) (26.99mm)
+*** Width at tip 9/16" (14.28mm)
+*** Width of collar .305 (7.75mm)
+*** Width of throat between wires .275 (6.99mm)
+*** Thickness of blade before shoulders .207 (5.26mm) - this is distance from one blade to next
+*** Thickness of throat between wires .265 (6.73mm)
+*** Thickness of gouge .056 (1.42mm)
+*** Depth of crook penetration 1/4" (6.35mm)
+*** Side A up or down - up 
+*** 22 Guage wire
+*** Distance of wire 2 to wire 1 middle to middle 5/32" (3.97mm)
+*** Distance of wire 3 to wire 2 middle to middle 27/64" (10.72mm)
+
+** Measuring thicknesses of blades
+page 26
+He measures every eighth of an inch, but adds a sixteenth and a thirtysecond near the tip.
+He only measures an inch deep into the blade, which is most of the way. He says that the arch of the blade makes accurate measurements hard on the sides. About the half inch mark this becomes easier.
+
+** Reed No 2 Measurements
+page 27
+*** In Thousandths of an inch
+B is wire 1 twisted side (top) A is wire 1 smooth side (bottom)
+
+|------+-----+------+------+-----+-------+-----+----+------+----+-----|
+|  BLL |  BL |    B |   BR | BRR | INCH  | ALL | AL |    A | AR | ARR |
+|------+-----+------+------+-----+-------+-----+----+------+----+-----|
+|      |  35 |   35 |   36 |     | 8/8"  |     | 34 | 33.5 | 35 |     |
+|      |  29 |   32 |   34 |     | 7/8"  |     | 33 |   31 | 32 |     |
+|      |  26 |   31 |   33 |     | 6/8"  |     | 32 | 30.5 | 30 |     |
+|   25 |  25 |   28 | 30.5 |  25 | 5/8"  |     | 30 |   30 | 29 |  25 |
+|   22 |  24 |   26 |   27 |  22 | 4/8"  |  26 | 29 | 28.5 | 27 |  22 |
+| 17.5 |  22 | 24.5 |   25 |  18 | 3/8"  |  20 | 25 |   26 | 25 |  19 |
+|   15 |  18 |   19 |   19 |  15 | 2/8"  |  13 | 19 |   22 | 20 |  14 |
+|      |     |   17 |      |     | 3/16" |     |    |   19 |    |     |
+|   10 |  12 | 12.5 |   12 |  10 | 1/8"  |   8 | 12 |   15 | 11 |   8 |
+|      |     |   10 |      |     | 3/32" |     |    |   12 |    |     |
+|    5 | 7.5 |    8 |  7.5 |   5 | 2/32" |   5 |  7 |  8.5 |  8 |   6 |
+|      |     |    5 |      |     | 1/32" |     |    |    5 |    |     |
+|    3 |   3 |    4 |    3 |   3 | Tip   |   3 |  4 |    4 |  4 |   3 |
+|------+-----+------+------+-----+-------+-----+----+------+----+-----|
+
+
+*** In Hundredths of a milimeter
+
+|-----+----+----+----+-----+-------+-----+----+----+----+-----|
+| BLL | BL |  B | BR | BRR | INCH  | ALL | AL |  A | AR | ARR |
+|-----+----+----+----+-----+-------+-----+----+----+----+-----|
+|     | 89 | 89 | 91 |     | 8/8"  |     | 86 | 85 | 89 |     |
+|     | 74 | 81 | 86 |     | 7/8"  |     | 83 | 79 | 81 |     |
+|     | 66 | 79 | 83 |     | 6/8"  |     | 81 | 77 | 76 |     |
+|  64 | 64 | 71 | 77 |  64 | 5/8"  |     | 76 | 76 | 74 |  64 |
+|  56 | 61 | 66 | 69 |  56 | 4/8"  |  66 | 74 | 72 | 69 |  56 |
+|  44 | 56 | 62 | 64 |  46 | 3/8"  |  51 | 64 | 66 | 64 |  48 |
+|  38 | 46 | 48 | 48 |  38 | 2/8"  |  33 | 48 | 56 | 51 |  36 |
+|     |    | 43 |    |     | 3/16" |     |    | 48 |    |     |
+|  25 | 30 | 32 | 30 |  25 | 1/8"  |  20 | 30 | 38 | 28 |  20 |
+|     |    | 25 |    |     | 3/32" |     |    | 30 |    |     |
+|  12 | 19 | 20 | 19 |  12 | 2/32" |  12 | 18 | 22 | 20 |  15 |
+|     |    | 12 |    |     | 1/32" |     |    | 12 |    |     |
+|   8 |  8 | 10 |  8 |   8 | Tip   |   8 | 10 | 10 | 10 |   8 |
+|-----+----+----+----+-----+-------+-----+----+----+----+-----|
+
+** A blade is an entity unto itself as well as half a reed
+page 30
+** Proposes laboratory tests of various kinds
+** Diagrams of various reeds and measurements
+His diagrams take about a third of a page, with a reed viewed from the side pointing down. Then in a > or < formation has the five measurements for the middle, channels, and rails.

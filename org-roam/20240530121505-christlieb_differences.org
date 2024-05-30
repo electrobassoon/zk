@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       18a380d2-e446-4695-bdb4-1b9dc15490c9
+:END:
+#+title: christlieb differences
+
+Differences from side to side are more noticeable than top to bottom. Top to bottom differences of .010mm are acceptable. Differences of .025mm are very noticeable. However side to side, differences of .010 - .012 can be more noticeable, and are more critical the closer it is to the tip.
+
+[[cite:&christlieb66_notes_bassoon_reed]] 
