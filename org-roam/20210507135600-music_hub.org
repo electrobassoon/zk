@@ -5,8 +5,13 @@
 
 
 [[id:edf7afd4-a938-48c7-a5a2-4400a2136b33][Electroacoustic Music]]
+
 [[id:71c2818a-8ac3-48a8-9c9e-d8d8d268bfba][Popular Music]]
+
 [[id:acafeca7-283e-4d6f-a3b2-b728123207ef][Music Notation]]
+
 [[id:8e634c91-e8da-43ea-8912-792c21d22cce][Bassoon]]
+
 [[id:559d2e4e-1ca5-40b2-881d-2a5bd5a9880c][Music Pedagogy]]
+
 [[id:6792f7fa-fafa-45cd-a85c-1d78fc14f817][Acoustics]]
