@@ -7,6 +7,6 @@
 
 Christlieb notes the greater effect of lateral symmetry to vertical symmetry [[id:18a380d2-e446-4695-bdb4-1b9dc15490c9][christlieb differences]]
 
-[[id:70b3d43f-a577-4189-8e62-85381b995e7c][christlieb reed]]
-
 For a diagnosis of problems and testing procedures, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
+
+[[id:d7a91174-7334-49b4-a787-4daba4a46379][reed measurements]]

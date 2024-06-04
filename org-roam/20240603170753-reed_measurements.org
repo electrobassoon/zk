@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d7a91174-7334-49b4-a787-4daba4a46379
+:END:
+#+title: reed measurements
+
+[[id:70b3d43f-a577-4189-8e62-85381b995e7c][christlieb reed]]
+
+[[id:c537e724-f66b-4453-ade2-775637d2b44f][measurements cooper]]

@@ -217,6 +217,7 @@
 - [[file:20240420180937-reed_construction.org][reed construction]]
 - [[file:20240520145826-reed_contribution.org][reed contribution]]
 - [[file:20240504150246-reed_journal.org][reed journal]]
+- [[file:20240603170753-reed_measurements.org][reed measurements]]
 - [[file:20240504150420-reed_pedagogy.org][reed pedagogy]]
 - [[file:20240508125410-reed_room_quotes.org][reed room quotes]]
 - [[file:20240420180914-reed_test.org][reed test]]
