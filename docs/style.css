@@ -19,6 +19,11 @@ background-color: #f9faca;
 font-size: 20px;
 padding: 10px;
 }
+h4 {
+background-color: #f9a2ca;
+font-size: 18px;
+padding: 10px;
+}
 
 p {
 font-family: sans-serif;

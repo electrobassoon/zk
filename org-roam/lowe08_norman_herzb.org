@@ -4,4 +4,739 @@
 :END:
 #+title: lowe08_norman_herzb
 
-* 
+* Norman Herzberg: An Icon of Bassoon Pedagogy
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/lowe08_norman_herzb.pdf
+:END:
+* Chapter 1 - Life and Career
+Skipping for now
+* Chapter 2 - Pedagogical Philosophy
+:PROPERTIES:
+:NOTER_PAGE: (32 0.21311475409836064 . 0.18899204244031828)
+:END:
+** Strict Curriculum
+:PROPERTIES:
+:NOTER_PAGE: (32 0.2786885245901639 . 0.17042440318302385)
+:END:
+Had a set series of etudes and exercises, but tailored his comments to the needs of each individual student. He did this in spite of using the exact same teaching material
+** Bad former teachers
+:PROPERTIES:
+:NOTER_PAGE: (33 0.2786885245901639 . 0.18899204244031828)
+:END:
+Herzberg quickly learned Pezzi would let him get away with anything. Am I that way? Do my students know they can get away with anything and give me excuses and I let them get away with it?
+Kovar had no system, meaning he just taught whatever he felt like that day. There was no sense of progression. I feel like that also describes me a bit.
+** Frustration with contemporaries
+:PROPERTIES:
+:NOTER_PAGE: (33 0.6229508196721312 . 0.17970822281167106)
+:END:
+He was frustrated by how many teachers are only teaching phrasing, or "music"
+** Qualities of the bassoon
+:PROPERTIES:
+:NOTER_PAGE: (34 0.49385245901639346 . 0.3381962864721485)
+:END:
+#+BEGIN_QUOTE
+“It’s three and a half octaves of
+anything people want. You have to play pianissimo in the lowest register and the highest
+register. You have to have technique from the bottom b-flat up to god knows where.”51
+For him the ingratiating qualities of the bassoon outweighed its difficulties, “It’s like a
+human voice. We can sing! The bassoon handles vibrato beautifully and it homogenizes
+with any instrument.”
+#+END_QUOTE
+** Audition advice
+:PROPERTIES:
+:NOTER_PAGE: (35 0.5409836065573771 . 0.17970822281167106)
+:END:
+"Play everything the best you can and be done with it." 
+He hated that string players, and conductors would judge auditions because they know nothing about the instrument. He says there is no formula to win an audition because of this. Just play the best you can.
+** Keep Coming Back
+:PROPERTIES:
+:NOTER_PAGE: (36 0.1434426229508197 . 0.22015915119363394)
+:END:
+#+BEGIN_QUOTE
+“You must keep trying. You must, because I don’t have a
+formula, nobody has a formula, and there’s no telling when that day that choice will be
+you.”
+#+END_QUOTE
+** Studio class
+:PROPERTIES:
+:NOTER_PAGE: (36 0.45901639344262296 . 0.17042440318302385)
+:END:
+Studio class should be used to further education and not be a waste of time. He gave a cumulative written exam every semester on what they covered.
+** No to band
+:PROPERTIES:
+:NOTER_PAGE: (37 0.22950819672131148 . 0.23474801061007958)
+:END:
+#+BEGIN_QUOTE
+I have yet to be convinced they have any place in the curriculum for a
+career in music. My experience teaches me that bands have become
+ensembles for the usual overflow of clarinets, saxophones, brass players,
+and other instrumentalists who cannot be accommodated in the orchestras.
+Requiring serious bassoon students to devote school time to band playing
+wastes time far better spent studying the literature central to their future
+careers. I have yet to encounter anyone who wants to play in band.
+#+END_QUOTE
+** Rotation
+:PROPERTIES:
+:NOTER_PAGE: (37 0.39344262295081966 . 0.16114058355437663)
+:END:
+Herzberg strongly believed in rotation. Having the best always play prinicpal doesn't further the education of all involved.
+** Etudes
+:PROPERTIES:
+:NOTER_PAGE: (38 0.39344262295081966 . 0.17970822281167106)
+:END:
+Used a standard progression of etudes, no skipping allowed. Everyone played the same things. He used etudes to teach music instead of excerpts, which must have been the common practice of the time. He says that etudes are more challenging musically and technically than many excerpts
+** Rep
+:PROPERTIES:
+:NOTER_PAGE: (38 0.6229508196721312 . 0.16114058355437663)
+:END:
+Students had choice in their rep. Herzberg learned lots of music this way. He refused the Hindemith sonata though.
+** Practicing for Problems
+:PROPERTIES:
+:NOTER_PAGE: (39 0.5655737704918034 . 0.24137931034482757)
+:END:
+#+BEGIN_QUOTE
+Students must be trained to understand that the most important
+requirement for learning is practicing primarily for the purpose of
+detecting shortcomings and finding remedies for those shortcomings.
+When a student learns how to solve problems, a teacher is no longer
+necessary.
+#+END_QUOTE
+** Lessons
+:PROPERTIES:
+:NOTER_PAGE: (39 0.6885245901639344 . 0.17970822281167106)
+:END:
+Assigned three etudes a week, and if one didn't pass then it stayed in the next week ( I think he is implying that there would be 4 the next weeK?) He moved lessons around so people didn't always have him at the end of the day, for instance. If he thought the student wasn't practicing he asked for a week of practicing tapes.
+** Reed Making Instruction
+:PROPERTIES:
+:NOTER_PAGE: (40 0.6700819672131147 . 0.23607427055702918)
+:END:
+#+BEGIN_QUOTE
+Instruction in reed-making skills must be the teacher’s responsibility and
+must never be delegated. Of course teaching bassoon is much more than
+teaching reed-making, but I think this essential part of a bassoonist’s
+education deserves special mention. Reeds are the link through which one
+breathes life into the instrument. They are each performer’s personally
+designed connection between the manufactured instrument and the
+realization of the physical, mental, and musical capabilities exercised in
+performance. As any performer improves, more demands are made on 
+this critical element. A bassoon teacher, during the course of lessons,
+must know whether reeds are the cause of difficulties.
+#+END_QUOTE
+** Command before expression
+:PROPERTIES:
+:NOTER_PAGE: (41 0.39344262295081966 . 0.17970822281167106)
+:END:
+Performers need to be in complete mastery of the instrument before musical expression. Part of this is because we are often at the whims of conductors and other colleagues, so we must be able to meet any demands.
+** Self reflection
+:PROPERTIES:
+:NOTER_PAGE: (42 0.13729508196721313 . 0.24270557029177717)
+:END:
+#+BEGIN_QUOTE
+We must learn to take advantage of the assets of our instrument and reeds,
+and must acquire skills to compensate for their liabilities. To execute
+what we aspire to as performers requires in daily practice, systematic,
+conscientious, and expert appraisal of our abilities and disabilities,
+emphasizing always a disciplined and focused diligence in overcoming
+our weaknesses.
+#+END_QUOTE
+** State of incoming students
+:PROPERTIES:
+:NOTER_PAGE: (42 0.7213114754098361 . 0.17042440318302385)
+:END:
+Often instruction on the basic elements of playing were disregarded to help learn repertoire. This describes my work with Kloie I think, really all of my students. Learning the rep for the jury or the recital etc.
+** Herzberg Scales
+:PROPERTIES:
+:NOTER_PAGE: (43 0.36065573770491804 . 0.17042440318302385)
+:END:
+Memorized patterns that were full range scales. Idea was to focus on an aural analysis of the execution.
+** Practice areas
+:PROPERTIES:
+:NOTER_PAGE: (44 0.43852459016393447 . 0.22281167108753314)
+:END:
+#+BEGIN_QUOTE
+The essentials of practice fall into three categories: scales, long notes and
+intervals. During practicing of these essentials, sensitivity to and skill
+with reed correction develops. Reeds must be improved and not blamed.
+I believe that reeds must closely approach or be equal to the tasks you
+demand of them. Your playing skills must fill in the gaps that reeds leave
+open.
+#+END_QUOTE
+** Speaker keys are important
+:PROPERTIES:
+:NOTER_PAGE: (47 0.6229508196721312 . 0.15185676392572942)
+:END:
+Went through a cycle of innocence, ignorance, neglect, and denial. ([[id:57c03c4a-4d0d-4e66-a6bd-050c088abc8e][herzberg95_years_ignor_neglec_denial]])
+** Tone
+:PROPERTIES:
+:NOTER_PAGE: (49 0.3114754098360656 . 0.17970822281167106)
+:END:
+There are no measurements for tone, it is all based on taste. And tastes vary. Tone has to be beautiful even without vibrato
+** Can't duplicate tone
+:PROPERTIES:
+:NOTER_PAGE: (50 0.36065573770491804 . 0.17970822281167106)
+:END:
+Tone is primarily created by an individual's unique physical characteristics, so each person's tone is more or less unique.
+** Variances in vibrato
+:PROPERTIES:
+:NOTER_PAGE: (51 0.3463114754098361 . 0.23209549071618035)
+:END:
+#+BEGIN_QUOTE
+One very important factor is the resistance you are blowing against. The
+higher the resistance the less the undulations are, and justifiably so. In the
+low register, where there is no/very little resistance, the vibrato is slower
+which is natural. And the higher you went with resistance the vibrato
+becomes much more subtle. I also involve my reeds with it too because
+resistance also has to do with reeds.
+#+END_QUOTE
+** Don't kill natural vibrato
+:PROPERTIES:
+:NOTER_PAGE: (52 0.5030737704918034 . 0.23209549071618035)
+:END:
+#+BEGIN_QUOTE
+If you come upon a student who is really a beginner and starts playing for
+you with a lovely vibrato, SHUT UP about it because it’s a gift. I don’t
+know how they do it. I struggled with vibrato that I wanted all my life.
+But, there were times when it would just come right and it pleased me no
+end.
+#+END_QUOTE
+** Long tones and tuners and metronomes
+:PROPERTIES:
+:NOTER_PAGE: (53 0.4067622950819672 . 0.23474801061007958)
+:END:
+Tuner use wasn't to play perfectly in tune, but to be very familiar with the tendencies of every note
+#+BEGIN_QUOTE
+When you combine a metronome with the long tone practice, it introduces
+an essential impersonal discipline to the exercise. In working on long
+tones you should not just play when you want to, at the dynamics you
+want to, without checking on your intonation.
+#+END_QUOTE
+** Don't trust students
+:PROPERTIES:
+:NOTER_PAGE: (54 0.5819672131147541 . 0.22811671087533156)
+:END:
+#+BEGIN_QUOTE
+Recently, in a conversation with one of my former pupils who is in one of
+the major symphonies, he remarked that during their studies with me, I
+kept my students honest. I do have a great deal of affection for my
+students, but I don’t trust them without checking. I have found that it
+requires attention to their assignments, a constant listening to their practice
+of the fundamentals, and use of many “tools” to develop integrity in their
+playing. One of the most important teaching tools, in my opinion, is the
+tuner.
+#+END_QUOTE
+** Testing bocals
+:PROPERTIES:
+:NOTER_PAGE: (55 0.6721311475409836 . 0.17970822281167106)
+:END:
+1) Any marks, letters, brands, etc. need to be covered
+2) Performer must make the decision - no input from others during testing
+3) Use current bocal as a standard for comparison
+4) Same test notes on each bocal
+5) No prior warming up or additional notes at all
+6) Try to test only once, maybe twice. More than that and you get used to it
+7) As soon as a better one is found, that is the new standard
+8) Used a b flat arpeggio from Bb to high D, slurred, at mf. Focus could be on the sound not the music
+9) After the best is found, a direct comparison of current bocal and new with excerpts. He did Tchaik 4, Firebird, and Bolero, but said 2nd movements of Mozart or Weber would work as well
+** Old vs new bassoons
+:PROPERTIES:
+:NOTER_PAGE: (60 0.3770491803278688 . 0.16114058355437663)
+:END:
+Playing an old bassoon is wasting the effort of instrument makers to solve issues from prominent bassoonists
+** Projection
+:PROPERTIES:
+:NOTER_PAGE: (61 0.3862704918032787 . 0.4522546419098143)
+:END:
+#+BEGIN_QUOTE
+“One great virtue of the bassoon is its compatibility
+with other instruments.” He continued, “The virtue of compatibility becomes its curse
+in the case of Allard’s reference to the Brahms Symphonies.”
+#+END_QUOTE
+from a list-serve email
+* Chapter 3 The curriculum
+:PROPERTIES:
+:NOTER_PAGE: (62 0.19672131147540983 . 0.21684350132625993)
+:END:
+** Lesson proportions
+:PROPERTIES:
+:NOTER_PAGE: (62 0.39344262295081966 . 0.17042440318302385)
+:END:
+Only the most advanced students didn't spend half the lesson on fundamentals
+** Etudes vs solos and excerpts
+:PROPERTIES:
+:NOTER_PAGE: (62 0.5901639344262295 . 0.17970822281167106)
+:END:
+Development happens faster with challenging etudes than solos and excerpts. They are usually a challenge from start to finish
+** Milde always first
+:PROPERTIES:
+:NOTER_PAGE: (63 0.32854209445585214 . 0.17885638297872342)
+:END:
+Always, regardless of level. I guess he may have had on average better students than normal? Or required more dedication and so they did well
+** Making Milde even harder
+:PROPERTIES:
+:NOTER_PAGE: (64 0.22950819672131148 . 0.18899204244031828)
+:END:
+Used articulation patterns made Milde even  harder
+** Piard was next
+:PROPERTIES:
+:NOTER_PAGE: (64 0.4271047227926078 . 0.1881648936170213)
+:END:
+And using Allard's tempos... but the description doesn't seem to match my familiarity with Piard. All based on scale patterns in a single key. Quatre Vingt Dix Etudes is the title. Two volumes. Volume two is arpeggios and disjointed intervals in a single key.
+** Next Orefici melodies
+:PROPERTIES:
+:NOTER_PAGE: (64 0.6570841889117043 . 0.16954787234042554)
+:END:
+** Then Jacobi
+:PROPERTIES:
+:NOTER_PAGE: (65 0.13141683778234087 . 0.1881648936170213)
+:END:
+Six Bassoon Etudes op. 15, later published as Six Caprices, but he discouraged the new version by International Music. The changes simplified some of the harder parts
+** Next Jancourt 26 Melodious Studies
+:PROPERTIES:
+:NOTER_PAGE: (65 0.3942505133470226 . 0.16023936170212766)
+:END:
+No skips. Used to see how well students were applying in the first half hour of the lesson and what their own musicality would supply. (meaning after they've gotten through everything see what they can do?)
+** Next 18 Studies by Giovanni Battista Gambaro
+:PROPERTIES:
+:NOTER_PAGE: (65 0.5585215605749486 . 0.16023936170212766)
+:END:
+Students had to create their own markings because thematic material was trite. Read along to make sure they followed their markings.
+** Next Orefici Bravuras
+:PROPERTIES:
+:NOTER_PAGE: (66 0.13141683778234087 . 0.19747340425531915)
+:END:
+Wonderful but difficult. Claimed some took his breath away when students played them
+** Paul Pierne next
+:PROPERTIES:
+:NOTER_PAGE: (66 0.37782340862423 . 0.1881648936170213)
+:END:
+20 Etudes in volume II of Nouvelle Technique du Bassoon by Gustave Dherin and Pierne. 
+Infamously made Number 13 be in one breath at 80.
+** Bertoni and Bitsch next
+:PROPERTIES:
+:NOTER_PAGE: (66 0.7063655030800822 . 0.17885638297872342)
+:END:
+Bertoni atonal etudes. Bitsch are just hard
+** Penultimate is Dubois
+:PROPERTIES:
+:NOTER_PAGE: (67 0.37782340862423 . 0.17885638297872342)
+:END:
+Technical control beyond all but the most dedicated of bassoonists
+Sounds like he couldn't even do it at tempo, but he had some students who did
+** Last is Milde concert studies !?
+:PROPERTIES:
+:NOTER_PAGE: (67 0.6735112936344969 . 0.1881648936170213)
+:END:
+He thought they were the "epitome of bassoon music" and that most studied them too soon.
+Best romantic music around for bassoon
+* Chapter 4 - The Exercises
+:PROPERTIES:
+:NOTER_PAGE: (69 0.1971252566735113 . 0.26263297872340424)
+:END:
+** Central to pedagogy
+:PROPERTIES:
+:NOTER_PAGE: (69 0.32854209445585214 . 0.16023936170212766)
+:END:
+Taken very seriously, with attention to detail. Clarity, accuracy, and evenness of tone across entire range
+*** First 20-25 minutes
+:PROPERTIES:
+:NOTER_PAGE: (69 0.6242299794661191 . 0.17885638297872342)
+:END:
+Every lesson started with these. The goal was mastery of the instrument.
+*** Memory
+:PROPERTIES:
+:NOTER_PAGE: (70 0.14784394250513347 . 0.1881648936170213)
+:END:
+Must be done from memory. This puts the focus on listening
+** Herzberg Scales
+:PROPERTIES:
+:NOTER_PAGE: (71 0.13141683778234087 . 0.1881648936170213)
+:END:
+Full range scales, repeated three times. Top of range was dependent on metric position so it would begin on the strong beat. First time is slowly and full volume, second time somewhat faster and mezzo forte. Third as fast and soft as possible
+Puts pressure on player and reed response. 
+*** First Scale
+Start on lowest note in the key.  All staccato 16ths
+#+begin_src lilypond :file hscale.png export: results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\repeat volta 2 {b16-. c-. d-. e-. f-. g-. a-. b-. c-. d-. e-. f-. g-. a-. b-. c-. 
+\clef tenor
+d-. e-. f-. g-. a-. b-. c-. d-. e-. d-. c-. b-. a-. g-. f-. e-. 
+\clef bass
+d-. c-. b-. a-. g-. f-. e-. d-. c-. b-. a-. g-. f-. e-. d-. c-.}
+}
+#+end_src
+
+#+RESULTS[34561fa5f7a0844190aee1181351705c5407e211]:
+[[file:hscale.png]]
+
+
+*** Second Scale
+Begins on lowest note within the key, or one note within the key higher than the first excercise...
+Slur three tongue 1
+#+begin_src lilypond :file hscale2.png export:results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\repeat volta 2 {c16( d e) f-. g( a b) c-. d( e f) g-. a( b c) d-.
+\clef tenor
+ e( f g) a-. b( c d)  c-. b( a g) f-. e( d c) b-. 
+\clef bass
+\time 3/4 a( g f) e-. d( c b) a-. g( f e) d-.}
+}
+#+end_src
+
+#+RESULTS[567466c444795698f682e790e2d4df50e60dc907]:
+[[file:hscale2.png]]
+
+*** Third Scale
+Begins on third lowest note within the key (so likely D something). Slur 2 tongue 2 articulation. Have to loop the bottom notes back up
+*** Fourth Scale
+Slur in 4s. Begins one note higher within the key than the third, and leaves room for lower notes at the end.
+*** Fifth Scale
+Switch to triplets, start one note higher. 8. ( ) Equal division in the pulse. Articulations of first and second must match and dynamic of third must match.
+*** Sixth scale
+Starts a note higher, still triplets. 8( ) . Match everything. Make sure third eighth note doesn't bump
+*** Seventh Scale
+All slurred from top to bottom and back. One note higher again. Dynamics and tone quality should match
+*** Eighth Scale
+duple eighth notes, slur 2 slur 2. No diminuendo, no clipping ends of slurs
+** Herzberg Intervals
+:PROPERTIES:
+:NOTER_PAGE: (77 0.13141683778234087 . 0.17885638297872342)
+:END:
+All under one slur, maybe repeat a pitch at top or bottom for rhyhtm purposes. Thirds includes seconds, fourths includes thirds, fifths includes fourths, etc.
+All should have evenness of tone and not show any groupings. Seems fifths is the limit.
+*** Mistakes
+:PROPERTIES:
+:NOTER_PAGE: (79 0.131551901336074 . 0.16023936170212766)
+:END:
+if there is a mistake during one of these exercises, create a small loop from notes surrounding the error. That loop should be repeated to correct the error. Then continue the exercise to its conclusion.
+*** Herzberg Long Tones
+:PROPERTIES:
+:NOTER_PAGE: (79 0.3617677286742035 . 0.16023936170212766)
+:END:
+Reason for long tones is consistency over a long period of time. Usually done on "bad" notes. Practicing something that is already easy is "doodling" instead of actual practice. Reed is not involved in this (ie response of a note is the reed, seemed to be more geared towards intonation or tone quality)
+#+begin_src lilypond
+\relative c'{
+\clef bass
+\time 4/4
+\tempo 4=60
+fis4\ppp r fis r |
+fis r fis r |
+fis r fis r |
+fis r fis r 
+#+end_src
+Focus is on pianissimo attack at correct pitch. Metronome functions as conductor.
+Exercise 2 adds a crescendo and diminuendo after two bars at pianissimo.
+Exercise 3 is more connected.
+#+begin_src lilypond
+\relative c'{
+\clef bass
+\time 4/4
+\tempo 4=60
+fis4\ppp(-. 4-. 4-. 4-.) |
+4(-. 4-. 4-. 4-.) |
+4(-. 4-. 4-. 4-.) |
+4(-. 4-. 4-. 4-.) |
+#+end_src
+Exercise 4 adds a dynamic swell
+Exercise 5 is longer, exactly two counts on the metronome alternate ppp and fff
+Exercise 6 is a long sustained note, like 4 measures of 6/4 middle neasures with a swell
+Exercise 7 starts fff and diminuendos, then builds up in last bar.
+*** Tuner use
+:PROPERTIES:
+:NOTER_PAGE: (84 0.328879753340185 . 0.2440159574468085)
+:END:
+Tuner is a reference, don't stare at it the whole time. Training the ear to be in tune.
+*** One note exercises
+:PROPERTIES:
+:NOTER_PAGE: (84 0.47687564234326824 . 0.19747340425531915)
+:END:
+Two patterns, pattern A is quarter notes at 60 played slowly. twice at pp twice at ff. 
+Pattern B is alternating eighth notes at quarter = 60 and increase tempo and decrease in dynamic until at limits. Start with a half step from the problem note and expand to further notes up to an octave.
+*** 3 note exercises
+:PROPERTIES:
+:NOTER_PAGE: (87 0.7399794450154162 . 0.17885638297872342)
+:END:
+focus on problem notes. First primary note is unstable in pitch, second is higher or lower, but a difficult slur from problem note. Third note is a difficult slur from the second note. Then assign arrows, don't give up to highest notes or down to lowest notes. The goal is to be as difficult as possible.
+Add secondary ynotes based on the arrows' direction. Use similar repetition patterns as one note exercises. Progress out to octaves from target notes
+*** Exercise Design
+:PROPERTIES:
+:NOTER_PAGE: (92 0.789311408016444 . 0.17885638297872342)
+:END:
+Designed to address all areas of difficulty. Player must diligently address intonation, evenness of tone, steadiness of dynamic, and clarity of articulation in every moment
+* Chapter 5: Reeds
+:PROPERTIES:
+:NOTER_PAGE: (94 0.18088386433710174 . 0.28125)
+:END:
+** Priority
+:PROPERTIES:
+:NOTER_PAGE: (94 0.5377049180327869 . 0.19194061505832452)
+:END:
+Good reeds are very important, but nothing is more important than practice
+** Problem with hand-making
+:PROPERTIES:
+:NOTER_PAGE: (95 0.32786885245901637 . 0.19194061505832452)
+:END:
+Without machines, the riddles of good cane cannot be solved or predicted, and symmetrical reeds cannot be done consistently
+** Donati
+:PROPERTIES:
+:NOTER_PAGE: (95 0.6295081967213115 . 0.1770943796394486)
+:END:
+Herzberg's favorite and he had boxes of many different years of cane
+** Bad Cane
+:PROPERTIES:
+:NOTER_PAGE: (96 0.18032786885245902 . 0.17042440318302385)
+:END:
+No time to "rescue" a poor specimen of cane. A good piece of cane is one that can be trimmed and adjusted with predictable results and that "keeps" its trimming and adjusting. Poor cane must constantly be worked on until there is no longer any trimming or adjusting possible.
+** Cane Splitting
+:PROPERTIES:
+:NOTER_PAGE: (96 0.6557377049180327 . 0.17042440318302385)
+:END:
+Very influenced by [[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]] . Cane doesn't grow really round. We should try and split cane where there is a constant curve. A radius gage can really help with selecting where to cut it.
+** Exam
+:PROPERTIES:
+:NOTER_PAGE: (97 0.45901639344262296 . 0.1982758620689655)
+:END:
+Diagrams of a piece of cane and where you should split it.
+** Four Systems
+:PROPERTIES:
+:NOTER_PAGE: (98 0.13114754098360656 . 0.1982758620689655)
+:END:
+1) Shape
+2) Wire Placement
+3) Bevel
+4) Thickness of the trim
+
+These are the only ways to adjust reeds, as we can't choose cane composition
+*** Shape
+:PROPERTIES:
+:NOTER_PAGE: (98 0.5409836065573771 . 0.18899204244031828)
+:END:
+Preferred flat shapers instead of fold-over shapers for accuracy (interestingly enough, Cooper says the same thing about fold-over shapers)
+**** Foldover flaws
+:PROPERTIES:
+:NOTER_PAGE: (99 0.21311475409836064 . 0.18899204244031828)
+:END:
+clamping the cane forces the natural curve of the cane to hug the face of the shaper. And assumes that faces match each other to close tolerances
+Cane tends to curl or buckle when folded over. The knife also has to be perfectly perpendicular to the tip of the shaper. Any angle starts cutting into the reed
+**** Herzberg's shaper
+:PROPERTIES:
+:NOTER_PAGE: (99 0.5901639344262295 . 0.18899204244031828)
+:END:
+Flat shaper that has the interior matching the gouge of the cane (I assume matching his gouge, other gouges wouldn't quite match but probably better than a fold-over?)
+Yoshi Ishikawa said the Herzberg flat shaper is the only one with symmetrical precision out of 30 shapers at the school. Within .002 of an inch!
+**** Shape and Intonation
+:PROPERTIES:
+:NOTER_PAGE: (100 0.39344262295081966 . 0.1982758620689655)
+:END:
+Knew many liked a wider shape, but thought they would enjoy the benefits of a wider shape.
+Wide shapes do well with the lower half of the bassoon, but have to be careful about E sagging, and the money register (middle C to F above)
+Wire adjustments can help, but the greater arch puts more pressure on the sides of the blade. (not sure what that does exactly, deadens the vibrations?) 
+High register is also difficult.
+Can't brighten the tone by trimming the middle of the tip because E and C# will collapse. Narrow shapes eliminate these faults (within reason obviously)
+** Wires
+:PROPERTIES:
+:NOTER_PAGE: (101 0.2786885245901639 . 0.18899204244031828)
+:END:
+The wires control the opening of the tip, the arch of the blades, and the shape of the tube.
+Tip is response, arch of blades is resistance, shape of tube is intonation and tone quality.
+Wires should be tight. Tight wires keep their adjustments. Loose wires don't control things as well and are inconsistent.
+"Choking" can easily be removed with appropriate trimming of the blade, which improves attach and tone. (so far no indication like Cooper of a semi loose first wire)
+** Wire shape
+:PROPERTIES:
+:NOTER_PAGE: (102 0.14754098360655737 . 0.17970822281167106)
+:END:
+Second and third wires should always be round. First is more oval, but could be more round if that was the preference.
+A round second wire gave strength to the blades, which gives the resistance to blow against with an easy attacking reed. It helps with a full tone and having the *pitch high enough in the money register*.
+The sharpness of the lower register with a round 2nd wire could be fixed with relaxing the embouchure and or scraping the bottom half of the reed. A slight flattening may be needed. (I think Cooper might like a more oval second wire?)
+** Wire Placement
+:PROPERTIES:
+:NOTER_PAGE: (102 0.5245901639344263 . 0.1982758620689655)
+:END:
+good placement optimizes the adjustment effects
+The first wire should be based on the spot on the shaper where the blade begins to flare outwards. The first wire should be 1/16th of an inch above that flare.
+The second wire should be 5/16ths of an inch below the first wire (so 1/16th of an inch behind the flare)
+Third wire should be in the center of the legs of the "V" created by the bevel. (to be explained hopefully)
+So a short bevel (3/8ths from the bottom of the reed) the third wire would be 3/16ths from the bottom.
+** Collar and scoring
+:PROPERTIES:
+:NOTER_PAGE: (103 0.3442622950819672 . 0.17042440318302385)
+:END:
+His shoulders were .036 and .037 inches thick. This should be cut in before the cane is folded. Scoring begins 3/16ths of an inch below the collar and should be evenly spaced across each half of the tube. (no real mention of where the collar should be. Probably because his profiler did it)
+** Forming
+:PROPERTIES:
+:NOTER_PAGE: (103 0.5573770491803278 . 0.17970822281167106)
+:END:
+A temporary first wire an inch from the bottom of the tube. Then wrap it in wet butcher's twine down the length of the tube. Heat the forming mandrel and insert into the end. No twisting because it would slip blades (which Cooper says happens anyways)
+After the mandrel is in as far as it will go, start squeezing the sides of the tube and pushing the mandrel until the correct point. Continue squeezing until the sides of the tube come together.
+** "Seasoning" the blank
+:PROPERTIES:
+:NOTER_PAGE: (104 0.36065573770491804 . 0.1982758620689655)
+:END:
+Let it sit in its cocoon for at least two weeks. An analogy of rolling up a paper and immediately letting it go vs keeping it in rubber bands for a few days.
+** Resting
+:PROPERTIES:
+:NOTER_PAGE: (105 0.5573770491803278 . 0.1982758620689655)
+:END:
+With all of the things we've done to the cane, it needs time to "get used to its new form". After two weeks the tube will remain stable.
+** Bevel
+:PROPERTIES:
+:NOTER_PAGE: (106 0.13114754098360656 . 0.18899204244031828)
+:END:
+After the reed is dry, remove the string and the temporary first wire and open it up. 
+Short bevel is a pencil mark at 3/8ths of an inch from the bottom on each rail. He would use a file to remove the sharp points down to the end. Care was taken to not remove any bark. That would make a tube too small to fit on a bocal.
+If the tip separates in this procedure, he bevels and then lines the blades back up at the shoulder (perhaps reason to make it before hand) and wind up string to the second wire. Then puts on the second wire and then third and then first.
+Longer bevel starts higher up the tube. Can be anywhere up to the second wire. Higher than that brings leaks. 
+** non-Herzberg Shapes
+:PROPERTIES:
+:NOTER_PAGE: (107 0.2459016393442623 . 0.17970822281167106)
+:END:
+The flare of the Herzberg shape means there's enough bark to make a good tube after beveling. Matthew Harvel says 
+** non flared shapes
+:PROPERTIES:
+:NOTER_PAGE: (107 0.4743852459016394 . 0.43899204244031825)
+:END:
+#+BEGIN_QUOTE
+Most shapers (especially any of the standard
+Rieger shapers) do not have anywhere near enough flare to do it properly.
+However, in showing several others this procedure I have found that if one
+is very, very careful it can be done by ever so slightly beveling the very
+end of the tube beyond the pulp and into the bark. One can then place the
+third wire more toward the butt than we who use your shaper need in order
+to enhance the bevel even further. As you mention, great care is then
+required in reaming the reed as the tube wall can be quite thin (about a
+32nd or so after reaming) but with a proper wrap and good coating of Duco
+over the wrap I have never seen anyone have problems. Of course a
+thicker gouge would also help by providing more of a fulcrum against
+which the bevel can work.
+#+END_QUOTE
+** How the Bevel Effects the other systems
+:PROPERTIES:
+:NOTER_PAGE: (108 0.13114754098360656 . 0.18899204244031828)
+:END:
+*** Wires
+3rd stays round regardless of the bevel. 
+2nd wire stays round for both short and long bevels unless a slight flattening is needed for the bottom octave. We want the strength of tone that comes with the round 2nd wire.
+1st wire needs to be flattened slightly for comfort with a short bevel. This eases the response and lessens the lip pressure needed. If it closes after playing it may need to be rounded slightly.
+As the bevel increases, the first wire needs to be more round. This gives a strong arch that makes the resistance we want. But there needs to be more trimming in the front half.
+*** Trimming
+The round second wire in the short bevel (and long bevel?) will raise the lowest octave. Trimming the back half helps to lower these notes.
+*** Shape
+Short bevel is good for a shape with a wide flare. The wide flare keeps the pitch low in the bottom register and helps with low note response. The short bevel also raises the pitch in the middle register, which is typically flat on a wide shape, and eases high note response (also a challenge with a wide reed).
+** Noticeable results of the bevel
+:PROPERTIES:
+:NOTER_PAGE: (109 0.6065573770491803 . 0.1982758620689655)
+:END:
+*** Tip opening
+Short bevel creates large tip openings. First wire thus needs to be flattened. Short bevel creates less pressure between the two blades and reduces the need to scrape tip for response. Short bevel reeds have a lower pitch because of the flattened first wire.
+The long bevel creates a smaller tip opening. The first wire needs to be rounded as a result. The long bevel has the blades press more strongly against each other and has a higher pitch because of the round first wire.
+** Blade slippage
+:PROPERTIES:
+:NOTER_PAGE: (110 0.3770491803278688 . 0.18899204244031828)
+:END:
+After beveling would take fine sandpaper (400 to 600) and lighlty sand the sharp edge inside the tube rails. From beginning of bevel up to mark for the first wire (is this like Cooper's gradual bevel?) The slightly flattened surface made more contact area for the rails and helped minimize blade slippage (which Cooper says still happens)
+** Scraping
+:PROPERTIES:
+:NOTER_PAGE: (110 0.6557377049180327 . 0.18899204244031828)
+:END:
+"I make reeds from the front to the back.. The heavier in the front the lesser sensitivity but you've got to really slap it." To correct you thin the tip. If it isn't responding by halfway down the blade it probably never will.
+** Testing the reed
+:PROPERTIES:
+:NOTER_PAGE: (111 0.39344262295081966 . 0.18899204244031828)
+:END:
+** Practicing still
+:PROPERTIES:
+:NOTER_PAGE: (111 0.5993852459016393 . 0.24005305039787797)
+:END:
+#+BEGIN_QUOTE
+I would be remiss if I did not emphasize that proper bassoon practice is
+necessary in order to be an accomplished reed maker. Your reeds will be
+better only when you make demands on them and those demands are
+defined by your playing deficiencies. Practicing reveals shortcomings and
+knowledge of reed making can help eliminate difficulties. As you become
+a better performer your reeds must improve. Proper practice must include
+disciplined routines for scales, intervals, and long tones. Trying a reed by
+random playing does not define it as much as scales with different
+articulations over the whole range of the bassoon, long tones on
+problematic pitches and slurred intervals over the range of the
+instrument.”
+#+END_QUOTE
+** General thoughts
+:PROPERTIES:
+:NOTER_PAGE: (112 0.13114754098360656 . 0.1982758620689655)
+:END:
+Reeds don't have to crow to be good.
+All wires must be tight
+Second wire must be round
+Trimming should be done in the upper half of the blade.
+Thickness at the shoulder should be .036 to .037 inches (.91-.93 mm)
+Start bevel at 3/8ths of an inch
+Security is knowing that you have a large reserve,, over 100, ,of seasoned blanks to choose from. (That's a lot!!)
+** Measurements of a Herzberg reed
+:PROPERTIES:
+:NOTER_PAGE: (112 0.4918032786885246 . 0.17970822281167106)
+:END:
+Height in front of first wire .220" (5.588mm)
+.038" at shoulder .96 mm
+Tip to middle of first wire 1 5/32" or 29.37mm
+Distance between wires 11/32" (.344") 8.73mm (middle to middle)
+Distance from 2nd to 3rd wire 15/32" (.469") 11.91mm
+Distance from 3rd to Butt 1/8" (.125") 3.18mm
+Butt to 1st wire 1"
+Blade length from collar to tip 1 1/16" (1.063") 26.99mm
+1st wire to collar 3/32" 2.38mm
+tube length 1 3/32" (1.094") 27.79mm
+Overall length 2 5/32" (2.156') 54.77mm
+Width at tip .577" 14.66mm
+Width at collar .333" 8.46mm
+* Chapter 6: Shaper and Profiler
+:PROPERTIES:
+:NOTER_PAGE: (117 0.18032786885245902 . 0.2818302387267904)
+:END:
+Highly coveted machines but they have all been sold. Also expensive. Very accurate.
+** Alignment
+:PROPERTIES:
+:NOTER_PAGE: (119 0.2459016393442623 . 0.17970822281167106)
+:END:
+Made so that the shaper and profiler matched perfectly with each other.
+** Variety
+:PROPERTIES:
+:NOTER_PAGE: (120 0.47540983606557374 . 0.18899204244031828)
+:END:
+3 patterns on the master cam. Each pattern can be used independently or in combination for 7 patterns. Can put pattern on 20 different blade lengths and produce 140 trim variations.
+* Chapter 7: Conclusions
+:PROPERTIES:
+:NOTER_PAGE: (122 0.19672131147540983 . 0.40251989389920423)
+:END:
+
+** Lesson structure
+:PROPERTIES:
+:NOTER_PAGE: (123 0.4098360655737705 . 0.18899204244031828)
+:END:
+first 20-25 minutes on etudes and exercises. 3-4 etudes a week. rest of the time on excerpts or solos
