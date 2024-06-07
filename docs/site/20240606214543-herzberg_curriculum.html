@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-06-06 Thu 22:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Herzberg Curriculum</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Herzberg Curriculum</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgcceebb9">Herzberg's Curriculum</a>
+<ul>
+<li><a href="#orgfd5572f">The Etudes</a></li>
+<li><a href="#orgcc76017">The Exercises</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcceebb9" class="outline-2">
+<h2 id="orgcceebb9">Herzberg's Curriculum</h2>
+<div class="outline-text-2" id="text-orgcceebb9">
+<p>
+Herzberg was very strict about teaching how to play the bassoon, and not just phrasing or "music". He had a set order of etudes that would not be skipped. He also had certain scale, interval, and long tone exercises that took up nearly half of each lesson. He believed that etudes were far more challenging than excerpts were, and etudes should be the base of musical study. He would even use them for juries. He assigned three etudes every week, and if something wasn't ready, it was added to the next week. It seems that if a student got too far behind, they would likely quit or Herzberg would drop them. 
+</p>
+
+<p>
+Performers need complete mastery of their instrument before musical expression. We often are at the whims of conductors, colleagues, etc., and so we need to be able to meet any demands.
+</p>
+</div>
+<div id="outline-container-orgfd5572f" class="outline-3">
+<h3 id="orgfd5572f">The Etudes</h3>
+<div class="outline-text-3" id="text-orgfd5572f">
+<p>
+The etude curriculum started with the Milde Scale Studies, which he added articulation patterns to to make it harder. After Milde came the first two volumes of Piard's 90 etudes. Volume 1 is scalar in nature and Volume 2 is more of arpeggios. After Piard came the Orefici melodic studies. Then came Jacobi's Six Bassoon Etudes op.15, which he preferred to the later version Six Caprices. Next was the Jancourt 26 melodious studies. This was the point where he would see if students could apply the fundamentals and what their musicality was like. Next came 18 studies by Giovanni Battista Gambaro, then Orefici's Bravura studies. He says some students took his breath away when they would perform these. Next came Paul Pierne's etudes from the Nouvelle Technique du Basson by Dherin and Pierne. Number 13 was famous for him demanding it be done in one breath. Next were Bertoni and Bitsch, Bertoni having more of an atonal character. Dubois came next, which is beyond all but the most dedicated bassoonists. Herzberg himself couldn't do all of them at tempo, but some of his students did. Finally, he concludes with Mildes concert studies, which he thought were the "epitome of bassoon music." The best romantic music around.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcc76017" class="outline-3">
+<h3 id="orgcc76017">The Exercises</h3>
+<div class="outline-text-3" id="text-orgcc76017">
+<p>
+Herzberg's scales were full range scales that were demanding in various articulation and dynamics. The first repetition was slow and full volume, the next was somewhat faster and mezzo forte, and the last was as fast and soft as possible. These were all to be memorized, so that focus could be given to the sounds of the instrument.
+<img src="hscale.png" alt="hscale.png" />
+<img src="hscale2.png" alt="hscale2.png" />
+<img src="hscale3.png" alt="hscale3.png" />
+<img src="hscale4.png" alt="hscale4.png" />
+<img src="hscale5.png" alt="hscale5.png" />
+<img src="hscale6.png" alt="hscale6.png" />
+<img src="hscale7.png" alt="hscale7.png" />
+<img src="hscale8.png" alt="hscale8.png" />
+</p>
+
+<p>
+His interval exercises were scales in thirds, fourths, and fifths.
+<img src="hint1.png" alt="hint1.png" />
+<img src="hint2.png" alt="hint2.png" />
+<img src="hint3.png" alt="hint3.png" />
+</p>
+
+<p>
+His long tone exercises were reserved only for problem notes. There was no point in practicing a long tone that you were already good at. Otherwise it isn't practice. 
+<img src="hlt1.png" alt="hlt1.png" />
+<img src="hlt2.png" alt="hlt2.png" />
+<img src="hlt3.png" alt="hlt3.png" />
+<img src="hlt4.png" alt="hlt4.png" />
+<img src="hlt5.png" alt="hlt5.png" />
+<img src="hlt6.png" alt="hlt6.png" />
+<img src="hlt7.png" alt="hlt7.png" />
+</p>
+
+<p>
+Tuners should be used with these exercises as a reference only.
+</p>
+
+<p>
+In adition to these long tone exercises, he also had one note and three note exercises. These also practiced intervals. The concept was to start with a problem note and do intervals starting with a minor second, growing to an octave. You also could use three problem notes and create the three note exercises.
+<img src="h1n.png" alt="h1n.png" />
+<img src="h1n2.png" alt="h1n2.png" />
+<img src="h1n3.png" alt="h1n3.png" />
+</p>
+
+<p>
+Three note exercises involved selecting three notes, and a direction to go for each note, and then growing in intervals.
+<img src="h3n.png" alt="h3n.png" />
+<img src="h3na.png" alt="h3na.png" />
+<img src="h3nb.png" alt="h3nb.png" />
+</p>
+
+<p>
+These exercises were designed to address all areas of difficulty. Players must be diligently listening to intonation, tone, dynamics, and articulations in all exercises.
+<a href="&amp;lowe08_norman_herzb">&amp;lowe08_norman_herzb</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

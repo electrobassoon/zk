@@ -3,6 +3,8 @@
 :END:
 #+title: Norman Herzberg
 
+[[id:bd8d19b9-bd23-41b2-b158-ac82e5fc449a][Herzberg Curriculum]]
+
 First task is to reduce human error as much as posisble.
 
 Even with innovative machines, no reed comes out perfect.
@@ -15,6 +17,37 @@ Gave exams to check student's knowledge of reed making. [[id:7db7d28a-23c8-42be-
 
 Discouraged too wide of a shape for tenor register intonation.
 
-Had 4 systems: shape, wires, bevel, and blade. [[cite:&herzberg01_reedm]] All had the how and the why.
+He prefered a [[id:1df253b6-88ea-450e-8b6f-a262c94e870b][straight shaper]]
+
+Had [[id:4bebec71-e45a-418c-94e5-2c996dc6ccb4][4 systems]]: shape, wires, bevel, and blade. [[cite:&herzberg01_reedm]] All had the how and the why.
+
+[[id:f89245a4-9112-4729-8391-42007aaca05b][forming herzberg]]
+
+His overall reeds making thoughts are:
+1) Reeds don't have to crow to be good
+2) All wires must be tight
+3) Second wire must be round
+4) Trimming should be done in the upper half of the blade (he had a really good profiler)
+5) Thickness at the shoulder should be 0.36 to 0.37 inches, or .91 to .93 mm
+6) Start the bevel at 3/8"
+7) Security is knowing you have a large reserve of over 100 seasoned blanks to choose from
+
+[[id:e9f005e7-ec57-4ea2-bc47-e2a015222219][measurements herzberg]]
+
+[[id:326f19ee-86a6-4227-b3f6-bc89af025c26][testing bocals]]
+
+Recently, in a conversation with one of my former pupils who is in one of the major symphonies, he remarked that during their studies with me, I kept my students honest. I do have a great deal of affection for my students, but I don’t trust them without checking. I have found that it requires attention to their assignments, a constant listening to their practice of the fundamentals, and use of many “tools” to develop integrity in their playing. One of the most important teaching tools, in my opinion, is the tuner.
+no
+
+I have yet to be convinced they have any place in the curriculum for a career in music. My experience teaches me that bands have become ensembles for the usual overflow of clarinets, saxophones, brass players, and other instrumentalists who cannot be accommodated in the orchestras. Requiring serious bassoon students to devote school time to band playing wastes time far better spent studying the literature central to their future careers. I have yet to encounter anyone who wants to play in band.
+
+"Play everything the best you can and be done with it." 
+“You must keep trying. You must, because I don’t have a formula, nobody has a formula, and there’s no telling when that day that choice will be you.”
+
+“It’s three and a half octaves of anything people want. You have to play pianissimo in the lowest register and the highest register. You have to have technique from the bottom b-flat up to god knows where.” For him the ingratiating qualities of the bassoon outweighed its difficulties, “It’s like a human voice. We can sing! The bassoon handles vibrato beautifully and it homogenizes with any instrument.”
+
+[[cite:&lowe08_norman_herzb]]
+
+
 
 [[cite:&schillinger16_bassoon_reed_makin]]

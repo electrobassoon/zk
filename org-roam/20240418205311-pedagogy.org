@@ -10,3 +10,9 @@
 [[id:c412bb8c-3f53-4494-96da-39d14be7fe06][Tonal accuity]]
 
 [[id:a28be241-e2bf-4c62-892a-71308ee296f7][Tone difference]]
+
+[[id:bd8d19b9-bd23-41b2-b158-ac82e5fc449a][Herzberg Curriculum]]
+
+[[id:95a1ddc8-0b72-411e-ae58-f0332a83fef4][Vibrato]]
+
+[[id:b8134d54-ffeb-441a-8ec6-9c88e01ef904][reeds and pedagogy]]

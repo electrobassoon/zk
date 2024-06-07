@@ -21,3 +21,5 @@ Briefly summarized in [[id:97ffc43a-0074-4618-9403-cc56de1219de][cooper08_reed_m
 
 
 Christlieb's defense of symmetrical beveling [[id:aa72bcc7-96b8-4314-84cc-346daf257b41][christlieb beveling]]
+
+Herzberg I think used a symmetric bevel, but has more to say about it's length and the effects on the reed in his [[id:4bebec71-e45a-418c-94e5-2c996dc6ccb4][4 systems]]

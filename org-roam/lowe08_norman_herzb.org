@@ -355,7 +355,7 @@ Full range scales, repeated three times. Top of range was dependent on metric po
 Puts pressure on player and reed response. 
 *** First Scale
 Start on lowest note in the key.  All staccato 16ths
-#+begin_src lilypond :file hscale.png export: results
+#+begin_src lilypond :file hscale.png :export results
 \version "2.24.3"
 
 \header{
@@ -386,7 +386,7 @@ d-. c-. b-. a-. g-. f-. e-. d-. c-. b-. a-. g-. f-. e-. d-. c-.}
 *** Second Scale
 Begins on lowest note within the key, or one note within the key higher than the first excercise...
 Slur three tongue 1
-#+begin_src lilypond :file hscale2.png export:results
+#+begin_src lilypond :file hscale2.png :export results
 \version "2.24.3"
 
 \header{
@@ -415,22 +415,271 @@ indent = 0
 
 *** Third Scale
 Begins on third lowest note within the key (so likely D something). Slur 2 tongue 2 articulation. Have to loop the bottom notes back up
+
+#+begin_src lilypond :file hscale3.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\repeat volta 2 {d16( e) f-. g-. a( b) c-. d-. e( f) g-. a-. b( c) d-.  e-. \clef tenor f( g) a-. b-. c( d)  e-. d-. c( b) a-. g-. f(  e) d-. c-. 
+\clef bass
+b( a) g-. f-. e( d) c-. b-. a( g) f-. e-. d( c) b-. c-.}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale3.png]]
+
 *** Fourth Scale
 Slur in 4s. Begins one note higher within the key than the third, and leaves room for lower notes at the end.
+#+begin_src lilypond :file hscale4.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\repeat volta 2 {e16( f g a)  b(  c d e)  f(  g a b)  c(  d  e  f)
+\clef tenor
+  g(  a b c)  d(  c  b  a) g( f e d) c( b  a  g)
+\clef bass \time 3/4
+ f( e  d  c) b( a  g  f) e( d  c  d)}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale4.png]]
+
 *** Fifth Scale
-Switch to triplets, start one note higher. 8. ( ) Equal division in the pulse. Articulations of first and second must match and dynamic of third must match.
+Switch to triplets, start one note higher. Equal division in the pulse. Articulations of first and second must match and dynamic of third must match.
+#+begin_src lilypond :file hscale5.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\repeat volta 2 { \tuplet 3/2 {f8-. g( a)} \tuplet 3/2 { b-.   c( d)} \tuplet 3/2 {e-.  f(   g)} \tuplet 3/2 { a-. b(   c)} 
+\clef tenor
+ \tuplet 3/2 { d-.  e(  f)} \tuplet 3/2 { g-. a( b)} \tuplet 3/2 { c-. d( e)} \tuplet 3/2 { d-. c( b)} \tuplet 3/2 { a-. g( f)}\tuplet 3/2 { e-. d( c)} \clef bass 
+\tuplet 3/2 {b-.  a(  g) }  \tuplet 3/2 {f-. e( d)} \tuplet 3/2 { c-.  b(  a) }  \tuplet 3/2 {g-.  f(  e) }  \tuplet 3/2 {d-.  c(  b)} \tuplet 3/2 {  c-.  d ( e)} }
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale5.png]]
+
 *** Sixth scale
-Starts a note higher, still triplets. 8( ) . Match everything. Make sure third eighth note doesn't bump
+Starts a note higher, still triplets. Match everything. Make sure third eighth note doesn't bump
+#+begin_src lilypond :file hscale6.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c {
+\clef bass
+\repeat volta 2 { \tuplet 3/2 {g8( a) b-. } \tuplet 3/2 { c( d) e-. } \tuplet 3/2 {f( g) a-. } \tuplet 3/2 { b( c) d-. } 
+\clef tenor
+ \tuplet 3/2 { e( f) g-. } \tuplet 3/2 { a( b) c-. } \tuplet 3/2 { d( e) d-. } \tuplet 3/2 { c( b) a-. } \tuplet 3/2 { g( f) e-. }\tuplet 3/2 { d( c) b-. } \clef bass 
+\tuplet 3/2 {a( g) f-. }  \tuplet 3/2 {e( d) c-. } \tuplet 3/2 { b( a) g-. }  \tuplet 3/2 {f( e) d-. }  \tuplet 3/2 {c( b) c-. } \tuplet 3/2 {  d( e) f-. } }
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale6.png]]
+
 *** Seventh Scale
 All slurred from top to bottom and back. One note higher again. Dynamics and tone quality should match
+#+begin_src lilypond :file hscale7.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c {
+\clef bass
+\repeat volta 2 { \tuplet 3/2 {a8( b c } \tuplet 3/2 { d e f} \tuplet 3/2 {g a b} \tuplet 3/2 {c d e} 
+\clef tenor
+ \tuplet 3/2 {f g a} \tuplet 3/2 {b c d} \tuplet 3/2 {e d c} \tuplet 3/2 {b a g} \tuplet 3/2 {f e d}\tuplet 3/2 {c b a} \clef bass 
+\tuplet 3/2 {g f e}  \tuplet 3/2 {d c b} \tuplet 3/2 {a g f}  \tuplet 3/2 {e d c}  \tuplet 3/2 {b c d} \tuplet 3/2 {e f g)} }
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale7.png]]
+
 *** Eighth Scale
 duple eighth notes, slur 2 slur 2. No diminuendo, no clipping ends of slurs
+
+#+begin_src lilypond :file hscale8.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c{
+\clef bass
+\repeat volta 2 { b8(  c) d( e)  f(  g) a( b) 
+\clef tenor
+ c(  d)  e(  f) g(  a) b( c)  d( e) d(  c)  b(  a) g( f) 
+\clef bass
+e( d) c( b)  a(  g)  f( e)  d(  c) b( a)  g(  f) e( d)  c( b) c(  d) e( f) g( a)}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hscale8.png]]
+
 ** Herzberg Intervals
 :PROPERTIES:
 :NOTER_PAGE: (77 0.13141683778234087 . 0.17885638297872342)
 :END:
 All under one slur, maybe repeat a pitch at top or bottom for rhyhtm purposes. Thirds includes seconds, fourths includes thirds, fifths includes fourths, etc.
 All should have evenness of tone and not show any groupings. Seems fifths is the limit.
+*** Thirds
+#+begin_src lilypond :file hint1.png :export results
+  \version "2.24.3"
+
+  \header{
+  tagline = ""
+  }
+
+  \paper{
+  indent = 0
+  }
+
+  #(ly:set-option 'use-paper-size-for-page #f)
+  #(ly:set-option 'tall-page-formats 'png)
+
+  \relative c, {
+  \clef bass
+  \repeat volta 2 {b16( d c e d f e g f a g b a c b d c e d f e g f a g b a c b d c e 
+  \clef tenor
+  d f e g f a g b a c b d c e) e( c d b c a b g a f g e f d e c d b 
+  \clef bass 
+c a b g a f g e f d e c d b c a \time 3/4 b g a f g e f d e c d b)
+		 }
+  }
+#+end_src
+
+#+RESULTS:
+[[file:hint1.png]]]
+
+*** Fourths
+#+begin_src lilypond :file hint2.png :export results
+    \version "2.24.3"
+
+    \header{
+    tagline = ""
+    }
+
+    \paper{
+    indent = 0
+    }
+
+    #(ly:set-option 'use-paper-size-for-page #f)
+    #(ly:set-option 'tall-page-formats 'png)
+
+    \relative c, {
+    \clef bass
+    \repeat volta 2 {
+  b16( e c f d g e a f b g c a d b e c f d g e a f b
+    \clef tenor
+  g c a d b e c f d g e a f b g c a d b e c g b f a e g d f c e b d a c g
+  \clef bass
+b f a e g d f c e b d a c g b f a e g d f c e b)
+}
+    }
+#+end_src
+
+#+RESULTS:
+[[file:hint2.png]]
+
+*** Fifths
+#+begin_src lilypond :file hint3.png :export results
+\version "2.24.3"
+
+\header{
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c, {
+\clef bass
+\time 3/4
+\repeat volta 2 {
+b16( f' c g' d a' e b' f c' g d' a e' b f' c g' d a' e b' f c'
+\clef tenor
+g d' a e' b f' c g' d a' e b' f c' g d' a e' b d g, c f, b e, a d, g c, f b, e a, d g, c
+\clef bass
+f, b e, a d, g c, f b, e a, d g, c f, b e, a d, g c, f b, c)
+}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hint3.png]]
+
 *** Mistakes
 :PROPERTIES:
 :NOTER_PAGE: (79 0.131551901336074 . 0.16023936170212766)
@@ -441,33 +690,217 @@ if there is a mistake during one of these exercises, create a small loop from no
 :NOTER_PAGE: (79 0.3617677286742035 . 0.16023936170212766)
 :END:
 Reason for long tones is consistency over a long period of time. Usually done on "bad" notes. Practicing something that is already easy is "doodling" instead of actual practice. Reed is not involved in this (ie response of a note is the reed, seemed to be more geared towards intonation or tone quality)
-#+begin_src lilypond
+#+begin_src lilypond :file hlt1.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
 \relative c'{
 \clef bass
+\key g \major
+\time 4/4
+\tempo 4=60
+\repeat volta 2 {fis4\ppp r fis r |
+fis_\markup{simile} r fis r |
+fis r fis r |
+fis r fis r 
+}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hlt1.png]]
+
+Focus is on pianissimo attack at correct pitch. Metronome functions as conductor.
+Exercise 2 adds a crescendo and diminuendo after two bars at pianissimo.
+#+begin_src lilypond :file hlt2.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+\relative c'{
+\clef bass
+\key g \major
 \time 4/4
 \tempo 4=60
 fis4\ppp r fis r |
 fis r fis r |
+fis\< r fis r |
 fis r fis r |
-fis r fis r 
+fis\> r fis r |
+fis r fis r |
+fis\! r fis r |
+fis r fis r \bar "|."
+
+}
 #+end_src
-Focus is on pianissimo attack at correct pitch. Metronome functions as conductor.
-Exercise 2 adds a crescendo and diminuendo after two bars at pianissimo.
+
+#+RESULTS:
+[[file:hlt2.png]]
+
+
 Exercise 3 is more connected.
-#+begin_src lilypond
+#+begin_src lilypond :file hlt3.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
 \relative c'{
 \clef bass
+\key g \major
 \time 4/4
 \tempo 4=60
-fis4\ppp(-. 4-. 4-. 4-.) |
+\repeat volta 2 {fis4\ppp(-. 4-. 4-. 4-.) |
 4(-. 4-. 4-. 4-.) |
 4(-. 4-. 4-. 4-.) |
 4(-. 4-. 4-. 4-.) |
+}
+}
 #+end_src
+
+#+RESULTS:
+[[file:hlt3.png]]
+
 Exercise 4 adds a dynamic swell
+#+begin_src lilypond :file hlt4.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c'{
+\clef bass
+\key g \major
+\time 4/4
+\tempo 4=60
+\repeat volta 2 {fis4\ppp(-. 4-. 4-. 4-.) |
+4(-.\< 4-. 4-. 4-.) |
+4(-.\> 4-. 4-. 4-.) |
+4(-.\! 4-. 4-. 4-.) |
+}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hlt4.png]]
+
 Exercise 5 is longer, exactly two counts on the metronome alternate ppp and fff
+#+begin_src lilypond :file hlt5.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c'{
+\clef bass
+\key g \major
+\time 4/4
+\tempo 4=60
+\repeat volta 2 {fis2\ppp r fis\fff r fis\ppp r fis\fff r fis\ppp r fis\fff r
+}
+}
+#+end_src
+
+#+RESULTS:
+[[file:hlt5.png]]
+
 Exercise 6 is a long sustained note, like 4 measures of 6/4 middle neasures with a swell
+#+begin_src lilypond :file hlt6.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c'{
+\clef bass
+\key g \major
+\time 6/4
+\tempo 4=60
+fis1.\ppp~ ~1.\< ~1.\> ~1.\ppp
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:hlt6.png]]
+
 Exercise 7 starts fff and diminuendos, then builds up in last bar.
+#+begin_src lilypond :file hlt7.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c'{
+\clef bass
+\key g \major
+\time 6/4
+\tempo 4=60 \textLengthOn
+fis1.\fff\>~ 1.\ppp~ 1.~ \override DynamicText.extra-spacing-width = #'(-2 . 2)  \after 1\fff  1.\ppp\<
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:hlt7.png]]
+
 *** Tuner use
 :PROPERTIES:
 :NOTER_PAGE: (84 0.328879753340185 . 0.2440159574468085)
@@ -479,12 +912,184 @@ Tuner is a reference, don't stare at it the whole time. Training the ear to be i
 :END:
 Two patterns, pattern A is quarter notes at 60 played slowly. twice at pp twice at ff. 
 Pattern B is alternating eighth notes at quarter = 60 and increase tempo and decrease in dynamic until at limits. Start with a half step from the problem note and expand to further notes up to an octave.
+#+begin_src lilypond :file h1n.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c{
+\clef bass
+\key g \major
+\tempo 4=60 
+\repeat volta 2 {d4^\markup{A.}\pp( cis c cis)}\repeat volta 2 {d4\ff( cis c cis)}
+\repeat volta 2 {d8^\markup{B.}\f\>( cis c cis d^\markup{\italic{accel to maximum}} cis c cis d cis c cis d\ppp cis c cis)}
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:h1n.png]]
+#+begin_src lilypond :file h1n2.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c{
+\clef bass
+\key g \major
+\tempo 4=60 
+\repeat volta 2 {dis4^\markup{A.}\pp( cis b cis)}\repeat volta 2 {dis4\ff( cis b cis)}
+\repeat volta 2 {dis8^\markup{B.}\f\>( cis b cis dis^\markup{\italic{accel to maximum}} cis b cis dis cis b cis dis\ppp cis b cis)}
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:h1n2.png]]
+
+#+begin_src lilypond :file h1n3.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c{
+\clef bass
+\key g \major
+\tempo 4=60 
+\repeat volta 2 {e4^\markup{A.}\pp( cis ais cis)}\repeat volta 2 {e4\ff( cis ais cis)}
+\repeat volta 2 {e8^\markup{B.}\f\>( cis ais cis e^\markup{\italic{accel to maximum}} cis ais cis e cis ais cis e\ppp cis ais cis)}
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:h1n3.png]]
+
+All the way out to an octave (kovar influence maybe?)
 *** 3 note exercises
 :PROPERTIES:
 :NOTER_PAGE: (87 0.7399794450154162 . 0.17885638297872342)
 :END:
-focus on problem notes. First primary note is unstable in pitch, second is higher or lower, but a difficult slur from problem note. Third note is a difficult slur from the second note. Then assign arrows, don't give up to highest notes or down to lowest notes. The goal is to be as difficult as possible.
-Add secondary ynotes based on the arrows' direction. Use similar repetition patterns as one note exercises. Progress out to octaves from target notes
+focus on problem notes. First primary note is unstable in pitch, second is higher or lower, but a difficult slur from problem note. Third note is a difficult slur from the second note. 
+#+begin_src lilypond :file h3n.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c{
+\clef bass
+\key g \major
+\tempo 4=60 
+aes1 e' f'
+\bar "|."
+}
+#+end_src
+
+#+RESULTS:
+[[file:h3n.png]]
+
+Then assign arrows, don't give up to highest notes or down to lowest notes. The goal is to be as difficult as possible.
+#+begin_src lilypond :file h3na.png :export results
+      \version "2.24.3"
+
+      \header {
+      tagline = ""
+      }
+
+      \paper{
+      indent = 0
+      }
+      #(ly:set-option 'use-paper-size-for-page #f)
+      #(ly:set-option 'tall-page-formats 'png)
+
+      down-arrow = \markup{
+	\combine
+	\center-align
+	\draw-line #'(0 . 2)
+	\arrow-head #Y #DOWN ##f
+    }
+    up-arrow = \markup{
+      \combine
+      \draw-line #'(0 . -2)
+      \arrow-head #Y #UP ##f
+  }
+      \relative c{
+      \clef bass
+      \key g \major
+      \tempo 4=60 
+      aes1\tweak X-offset #1 ^\up-arrow e'\tweak X-offset #1 ^\down-arrow f'\tweak X-offset #1 ^\down-arrow
+      \bar "|."
+      }
+#+end_src
+
+#+RESULTS:
+[[file:h3na.png]]
+
+Add secondary notes based on the arrows' direction. Use similar repetition patterns as one note exercises. Progress out to octaves from target notes
+#+begin_src lilypond :file h3nb.png :export results
+\version "2.24.3"
+
+\header {
+tagline = ""
+}
+
+\paper{
+indent = 0
+}
+#(ly:set-option 'use-paper-size-for-page #f)
+#(ly:set-option 'tall-page-formats 'png)
+
+
+\relative c{
+\clef bass
+\key g \major
+\time 3/4
+\tempo 4=60 
+\repeat volta 2 {aes(^\markup{A.}\tweak self-alignment-X #1 _\markup{\column{\line{1st time \dynamic ppp} \line {2nd time \dynamic fff}}} a aes e' ees e f' e f)} \break
+\repeat volta 2 {\tuplet 3/2 {aes,,8^\markup{B.}_\markup{"*begin slowly; introduce gradual accelerando with each repetition"}( a aes} \tuplet 3/2 {e' ees e} \tuplet 3/2 {f' e f)}
+\bar "|."
+}}
+#+end_src
+
+#+RESULTS:
+[[file:h3nb.png]]
+Then widen intervals out to an octaveno
 *** Exercise Design
 :PROPERTIES:
 :NOTER_PAGE: (92 0.789311408016444 . 0.17885638297872342)
@@ -555,7 +1160,7 @@ Yoshi Ishikawa said the Herzberg flat shaper is the only one with symmetrical pr
 :PROPERTIES:
 :NOTER_PAGE: (100 0.39344262295081966 . 0.1982758620689655)
 :END:
-Knew many liked a wider shape, but thought they would enjoy the benefits of a wider shape.
+Knew many liked a wider shape, but thought they would enjoy the benefits of a narrower shape.
 Wide shapes do well with the lower half of the bassoon, but have to be careful about E sagging, and the money register (middle C to F above)
 Wire adjustments can help, but the greater arch puts more pressure on the sides of the blade. (not sure what that does exactly, deadens the vibrations?) 
 High register is also difficult.

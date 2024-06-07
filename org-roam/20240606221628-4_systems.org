@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       4bebec71-e45a-418c-94e5-2c996dc6ccb4
+:END:
+#+title: 4 systems
+
+Herzberg had four systems for adjusting reeds: shape, wires, bevel, and the trim of the blade.
+
+* Shape
+
+Wide shapes do well with low notes, but tend to have more troubles with E and C# sagging. The "money register" (middle C to F) also struggles being flat. This can be adjusted with wire changes, but the greater arch puts more pressure on the sides of the blade. The high register is also difficult with a wide shape. But you can't brighten the tone my trimming the middle of the tip because you deal with the E and C# sagging. He thought many would enjoy the benefits of a narrower shape.
+
+* Wires
+
+Wires control the opening of the tip, the arch of the blades, and the shape of the tube. The tip effects the response, the arch effects the resistance, and the shape of tube controls intonation and tone quality. Wires should be tight, this helps them keep their adjustments. The choking of wires being too tight can be removed with appropriate trimming.
+** Wire shape
+The third and second wires should always be round. The first is more oval, but could be more round depending on preferences. The round second wire gives strength to the blades, and gives a resistance to blow against with an easy attacking reed. It helps have a full tone and keeping the pitch high enough in the money register. Usually the sharper lower register can be fixed with trimming the back half of the blade, but sometimes it can be flattened a little bit to help with the pitch.
+** Wire placement
+The wires should be placed based on the shape. The first wire should go 1/4" above where the shape begins to flare from the narrowest point. The second wire should go 5/16" behind the first wire, which probably means the top of the second wire is right at the narrowest point. The third wire should be halfway through the bevel, so a 3/8" bevel means the wires are at 3/16".
+
+* Bevel
+He did his beveling after the reed was formed and dried. He would then open the whole reed up and take out the sharp edges, but not bark, from a certain point to the end. The short bevel is 3/8", and the long bevel is anything longer than that up to the second wire. Any higher than that and you have issues with leaks. He used a wide flare at the bottom of his shape to accomodate this bevel and still create a strong tube.
+** Bevel effects
+The bevel effects the other systems in the following ways. The wire placement of the third wire is dependent on the bevel length. The third and second wires should be round regardless. The first wire may need to be flattened a bit with a short bevel to ease the response of the reed and lessen the required lip pressure. As the bevel increases, the wire needs to be more round. This gives it the strong arch to add resistance, but this also means more trimming of the blades in the first half.
+
+A short bevel is good for a shape with a wide flare. This flare keeps the pitch low in the bottom register and helps with low note response. The short bevel also brings up the pitch of the middle register, and eases high note response. 
+
+The short bevel also creates larger tip openings, this is why the first wire needs to be flattened. It creates less pressure between the blades and reduces the need to scrape for response. This also gives them a lower pitch because of the first wire. Longer bevels have smaller tip openings, and require a rounder first wire. These have more pressure between the blades and tend to have a higher pitch because of the first wire.
+
+[[cite:&lowe08_norman_herzb]]
