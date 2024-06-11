@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d7dee4d9-763a-4db1-9a9e-51e3fb0750f0
+:END:
+#+title: inflection points
+
+Inflection points allow for different aperture sizes depending on pressure. It controls how much of the reed is vibrating for different circumstances. High note reed like this because the center of the reed is what is needed for high notes. Pianissimo reeds like them because it cuts off part of the reed that is vibrating. Concerto reeds prefer to not have inflection points as this produces max volume. More pressure does not mean narrower aperture.
+
+[[cite:&ewell10_pedag_finis_reeds_german_system]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       cc6eb529-07fe-478d-ae2f-f1e26860044c
+:END:
+#+title: Easily Forgotten Tricks
+
+=M-x customize-face= will auto jump to whatever face the cursor is on. I should probably use this more instead of searching for new themes all the time
+
+You can append =C-h= to a prefix argument to see all the options, like =C-x 8 C-h=
+
+=C-x 8 Return= can be used for all sorts of special characters, including search names like an em dash — © 

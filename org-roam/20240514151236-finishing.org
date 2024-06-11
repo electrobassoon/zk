@@ -7,6 +7,16 @@
 
 Christlieb notes the greater effect of lateral symmetry to vertical symmetry [[id:18a380d2-e446-4695-bdb4-1b9dc15490c9][christlieb differences]]
 
+Ewell's [[id:714b0cf3-19d2-4235-86e9-ddc78574757c][finishing approaches]]
+
+Ewell's [[id:35f02bf6-4497-4faf-b7af-be858111cd72][4 reed types]]
+
+Ewell discusses [[id:d7dee4d9-763a-4db1-9a9e-51e3fb0750f0][inflection points]]
+
+[[id:97ca13b3-c7fa-49d7-90db-556153cc67c5][wires]]
+
+[[id:d0800868-c991-4554-a454-b04417dbbe9d][tip]]
+
 For a diagnosis of problems and testing procedures, see [[id:af880b0c-5077-4bd5-9317-4ee9d769fc40][diagnosis]].
 
 [[id:d7a91174-7334-49b4-a787-4daba4a46379][reed measurements]]

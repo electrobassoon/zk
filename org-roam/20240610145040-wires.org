@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       97ca13b3-c7fa-49d7-90db-556153cc67c5
+:END:
+#+title: wires
+
+Ewell describes changes to the wires. Opening the first wire by itself creates a larger aperture height and width, and lets more air into the reed. But rounding both wires creates a darker sound and raises the pitch, flattening both wires brightens the sound and lowers the pitch. Also don't overtighten the first wire.
+
+| *Adjustment*       | *Tip Opening* | *Timbre (Tone)*                  | *Pitch Tendencies* |
+|------------------+-------------+--------------------------------+------------------|
+| Round 1st wire   | Opened      | Mostly darker (less vibrant)   | Varies           |
+| Flatten 1st wire | Closed      | Mostly brighter (more vibrant) | Varies           |
+| Round 2nd wire   | Closed      | Darker                         | Higher Pitch     |
+| Flatten 2nd wire | Opened      | Brighter                       | Lower Pitch      |
+
+[[cite:&ewell10_pedag_finis_reeds_german_system]]

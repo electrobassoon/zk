@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       714b0cf3-19d2-4235-86e9-ddc78574757c
+:END:
+#+title: finishing approaches
+
+Terry Ewell distinguishes between the objective and subjective approaches. Objective approaches are things like measureable widths, lengths, thicknesses, etc. Subjective approaches seek for goals like a darker reed, or louder low notes, etc. Both are necessary in reed making. Objective is used to get to the point where the subjective can take over depeding on the goals of the reed.
+
+Observation and balancing are important parts of the process. Symmetry of grains on the blade, aperture bubble test, finger test, and plaque test help to find imbalances.
+
+[[cite:&ewell10_pedag_finis_reeds_german_system]]

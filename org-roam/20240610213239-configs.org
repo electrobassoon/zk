@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1fd1b391-bb3b-46e1-8ddd-cd3f4d90eb99
+:END:
+#+title: Configs
+
+** Publishing Org-Roam Database
+#+begin_src elisp
+
+#+end_src

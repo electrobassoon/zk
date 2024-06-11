@@ -31,6 +31,27 @@ Open second wire, scrape back channels, maybe entire back third, narrow the hear
 ** Reed is stuffy
 Too hard or too thin. May be leaking, or too long. Corners could be too thin, which is unfixable.[[cite:&barber_healt_reed_check]]
 
+* Ewell's ratios
+
+** Heart is too heavy
+Forked E flat, G, and F sharp are too sharp
+Low register sharp and unresponsive
+** Heart is too thin
+C# and E sag
+High register flat
+Reed collapses at loud dynamics
+** Wings are too heavy
+Reed not responsive at pianissimo
+** Wings are too light
+Corners break off with tonguing
+Corners totally collapsed and don't contribute to reed vibration
+** Low spine to rails ratio with thick spine and rails
+Vibrant or bright reed favoring low register and louder dynamics
+** Low spine to rails ratio with thin spine and rails
+Nasal or bright reed favoring low registers and quieter dynamics
+** High spine to rails ratio (thick spin thin rails)
+Dark reed favoring upper register. If rails too thin low notes difficult.
+[[cite:&ewell10_pedag_finis_reeds_german_system]]
 * Tests
 
 ** Crow

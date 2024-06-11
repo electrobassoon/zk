@@ -4,3 +4,179 @@
 :END:
 #+title: ewell10_pedag_finis_reeds_german_system
 
+* Pedagogy 
+:PROPERTIES:
+:NOTER_DOCUMENT: ../PDFs/ewell10_pedag_finis_reeds_german_system.pdf
+:END:
+** Objective vs Subjective approaches
+:PROPERTIES:
+:NOTER_PAGE: (1 0.5163934426229508 . 0.11028632025450692)
+:END:
+Objective is more of a step by step process, heavily based on measurements etc. The subjective approach is more of an aural approach, and has less quantiiable goals, like a louder low register, or darker sound.
+** Both needed
+:PROPERTIES:
+:NOTER_PAGE: (1 0.6213114754098361 . 0.11770943796394488)
+:END:
+Often uses things like length, width, thickness to get to the point of "fine tuning" which is more subjective
+** Four Reed Types
+:PROPERTIES:
+:NOTER_PAGE: (4 0.10491803278688525 . 0.08059384941675506)
+:END:
+Normal - which is in the middle of the three extremes
+High note
+Low note or pianissimo
+Concerto
+Normal accounts for 95% of our playing requirements.
+The extremes are also conceptual counterpoises, or concepts that counterbalance and define the reed type
+** Using the extreme concepts
+:PROPERTIES:
+:NOTER_PAGE: (5 0.06557377049180328 . 0.09544008483563099)
+:END:
+Understanding the features of the high note reed, or the low note reed, etc. will help make adjustments towards the desired part of the triangle
+** Normal reed
+:PROPERTIES:
+:NOTER_PAGE: (5 0.28852459016393445 . 0.11028632025450692)
+:END:
+Best possible compromise of the three extremes. Stable intonation, pleasing tone, good enunciation of all registers at all dynamics. It will feature points of inflection in the aperture.
+** High Note Reed
+:PROPERTIES:
+:NOTER_PAGE: (5 0.419672131147541 . 0.09544008483563099)
+:END:
+In comparison to the normal reed, the high note reed features:
+1) A narrower shape (especially in the throat)
+2) A shorter blade
+3) Rounded first and second wires
+4) Greater heart to wings ratio
+5) Greater spine to rail ratio
+
+It also has points of inflection, especially when a wide dynamic range is needed. Often parallel scrape reeds work best for this type.
+The aperture tends to be higher than normal
+** Low Note/Pianissimo Reed
+:PROPERTIES:
+:NOTER_PAGE: (5 0.6950819672131148 . 0.09544008483563099)
+:END:
+In comparison this has:
+1) A wider shape (especially the blade)
+2) A longer blade
+3) Flattened first and second wires
+4) Lesser heart to wings ratio
+5) Lesser spine to rail ratio and a thinner spine
+6) Thinner tip
+
+The low note reed does not need to have inflection in the tip, but a pianissimo reed should. Sloping scrape works best. Aperture tends to be smaller
+** Concerto Reed
+:PROPERTIES:
+:NOTER_PAGE: (6 0.18360655737704917 . 0.09544008483563099)
+:END:
+Emphasizes louder dynamics with a pleasing sound and good articulation in all registers
+
+In comparison it has
+1) A wider shape (especially the throat)
+2) No points of inflection ( or very slight at the wings)
+3) Lesser spine to rails ratio with thicker rails
+4) Larger aperture height and width (the result of a rounder first wire and or a wider shape)
+
+It may also have a wider shape and shorter blade
+** Ingredients
+:PROPERTIES:
+:NOTER_PAGE: (6 0.5114754098360655 . 0.09544008483563099)
+:END:
+These extremes are like ingredients in a stew, more of one should be added if there's less of another. Each player has to find their own recipe.
+** Inflection
+:PROPERTIES:
+:NOTER_PAGE: (6 0.5770491803278689 . 0.10286320254506895)
+:END:
+Inflection allows for multiple aperture shapes. With minimal pressure there is a wider aperture. More pressure progresses to a smaller aperture.
+High note reeds like inflection because the center of the reed is the part used for extreme high notes.
+Low note reeds may or may not need inflection, because the wider portions of the reed are used in the low notes
+Pianissimo reeds benefit from inflection because portions of the reeds are not vibrating
+** No inflection
+:PROPERTIES:
+:NOTER_PAGE: (8 0.32786885245901637 . 0.10286320254506895)
+:END:
+All or nothing aperture. More pressure reduces the height, but the width remains the same.
+This is good for max volume, e.g. concertos. 
+** Shifting mark
+:PROPERTIES:
+:NOTER_PAGE: (8 0.6868852459016394 . 0.10286320254506895)
+:END:
+Students that struggle consistently with high notes, may have a normal reed too much towards the low extreme. Narrowing the shape in the throat, or rounding the wires, or a shorter blade. All or one may be needed. 
+** Practical finishing suggestions
+:PROPERTIES:
+:NOTER_PAGE: (9 0.36721311475409835 . 0.08801696712619303)
+:END:
+Observation and balancing are critical. Four principal methods.
+1) Symmetry of blade
+   - look at the grains, is one side going further than the other?
+2) Aperture or "bubble" test
+   - If offcenter, then it needs to be balanced
+   - Think of it like arm wrestling. The stronger blade pushes the weaker blade away
+3) Pinch the reed all over, the fingers are very sensitive and will catch areas that are thinner than the rest
+4) Plaque test for rail thickness, it should be the same, but also have an even taper to the tip
+** Wire Adjustment
+:PROPERTIES:
+:NOTER_PAGE: (11 0.6295081967213115 . 0.08801696712619303)
+:END:
+Rounding or flattening the first wire alone varies the pitch depending on profile type, blade length, etc. Opening the wire creates a larger aperture height and often width, and lets more air through the reed.
+Rounding both wires together gives a darker sound and raises the overall pitch
+Flattening both wires will brighten the sound and lower the pitch.
+An overly round first wire indicates other methods of darkening or opening the tip should be used in the future.
+Also avoid overtightening the first wire, should be moveable with fingernails.
+
+| *Adjustment*       | *Tip Opening* | *Timbre (Tone)*                  | *Pitch Tendencies* |
+|------------------+-------------+--------------------------------+------------------|
+| Round 1st wire   | Opened      | Mostly darker (less vibrant)   | Varies           |
+| Flatten 1st wire | Closed      | Mostly brighter (more vibrant) | Varies           |
+| Round 2nd wire   | Closed      | Darker                         | Higher Pitch     |
+| Flatten 2nd wire | Opened      | Brighter                       | Lower Pitch      |
+** Ratios
+:PROPERTIES:
+:NOTER_PAGE: (12 0.45901639344262296 . 0.10286320254506895)
+:END:
+Heart to wing and spine to rails ratios have much in common. Higher ratios give a darker sound, lower brighter.
+** Problems of ratio issues
+:PROPERTIES:
+:NOTER_PAGE: (12 0.760655737704918 . 0.09544008483563099)
+:END:
++ Heart is too heavy (large heart to wings ratio)
+  * Forked Eflat, G, and Fsharp are too sharp
+  * Low register is sharp and unresponsive
++ Heart is too thin (small heart to wings ratio)
+  * C# and E sag
+  * High register is flat
+  * Reed collapses at loud dynamics
++ Wings are too heavy (small heart to wings ratio)
+  * Reed not responsive at pianissimo
++ Wings are too light (large heart to wings ratio)
+  * Corners break off with tonguing
+  * Corners totally collapsed and don't contribute to vibartion of reed
++ Low spine to rails ratio with thick spine and thick rails
+  * Vibrant or bright reed favoring low register and louder dynamics
++ Low spine to rails ration with thin spine and thin rails
+  * Nasal or bright reed favoring low register and quieter dynamics
++ High spine to rails ratio (thick spine, thin rails)
+  * Dark reed favoring upper register. If rails too thin, low register will be dificult
+** Brightness and Darkness factors
+:PROPERTIES:
+:NOTER_PAGE: (13 0.39344262295081966 . 0.11770943796394488)
+:END:
+These are methods past wire adjustments
+One is the edginess created from the tip area. Drawing fine sandpaper (400-600 grit) across tip will reduce brightness generated from the tip
+Tip undercut reduced brightness from tip and some of the back areas
+Increasing the spine to rails raito by taking from rails draws from the middle portion of the reed. File is best. Clipping the tip or narrowing shape if the reed is flat and extremely bright
+
+To increase the brightness, decrease the heart to wings ratio or spine to rails. This is usually from taking out of spine and heart. Thinner tip also adds more edginess
+** Tip adjustments
+:PROPERTIES:
+:NOTER_PAGE: (14 0.26229508196721313 . 0.10286320254506895)
+:END:
+Usually first, since its the spark plug of the reed
+Concerto reeds have a thicker tip
+Thinning the channels encourages points of inflection. It weakens the reed so the aperture width contracts when squeezed by the embouchure. It allows greater dynamic control.
+Curved blade knives are better for this.
+It's a reed tenderizer, making the tone and response more appealing. To the extreme you get mush.
+** Time
+:PROPERTIES:
+:NOTER_PAGE: (14 0.6950819672131148 . 0.11028632025450692)
+:END:
+Novice until the first 100 reeds. After 1000 begin to understand the intricacies. No short cuts. Scrape try, sand try, adjust try, etc.

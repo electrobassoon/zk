@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4ba2d9c9-a9a0-4f76-9a5f-a316149afdb7
+:END:
+#+title: novice
+
+You are a novice until you've made at least 100 reeds. After 1,000 you really start to understand the intricacies. There are no shortcuts in the process. [[cite:&ewell10_pedag_finis_reeds_german_system]]

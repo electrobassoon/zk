@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a8ba54ef-2568-4609-88f0-17ed24b6bdcf
+:END:
+#+title: Tech Hub
+
+[[id:d216e575-1066-4c15-b509-7a6f77abdc8b][Emacs]]

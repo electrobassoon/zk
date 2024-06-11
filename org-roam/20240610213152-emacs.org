@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d216e575-1066-4c15-b509-7a6f77abdc8b
+:END:
+#+title: Emacs
+
+[[id:cc6eb529-07fe-478d-ae2f-f1e26860044c][Easily Forgotten Tricks]]
+
+[[id:1fd1b391-bb3b-46e1-8ddd-cd3f4d90eb99][Configs]]

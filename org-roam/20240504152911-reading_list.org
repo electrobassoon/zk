@@ -8,7 +8,6 @@
 - TODO Popkin Book
 - TODO Weaitt Book
 - TODO Tuning Book
-- TODO Ewell Pedagogy [[id:5d19e409-e35b-499c-8026-ac166a56e6f6][ewell10_pedag_finis_reeds_german_system]]
 - TODO Massol Winstead article [[id:be5a8fcb-5d04-4b00-999b-fefbe68c9b7c][massol10_william_winst_bassoon_reed_method]]
 - TODO Heinrich Geometry [[id:f89ea539-b31e-4dea-b7a3-f61796a81943][heinrich79_bassoon_reed]]
 - TODO Kopp Tube Tip Aperture [[id:3bd499aa-8b63-4458-94b7-82ea6917b7ae][kopp13_tube_tip_apert]]
@@ -27,9 +26,6 @@ Herzberg, Norman. "Years of Ignorance, Neglect and Denial: The Importance of Spe
 
 Intravaia, Lawrence. "The Effects of Hardness and Stiffness of Bassoon Cane upon Performance of the Reed." /Journal of IDRS/ 6 (1978): 30-46.
 [[id:534e791b-b6ce-40cc-b7d6-2293c536eb6b][intravaia78_effec_hardn_stiff_bassoon_cane]]
-
-Lowe, Carol Loraine Cope. "Norman Herzberg: An Icon of Bassoon Pedagogy." DMA diss., University of North Carolina, Greensboro, 2008.
-[[id:6e0d2d50-8d9f-4aba-9a13-6b6854c75630][lowe08_norman_herzb]]
 
 Lyman Jeffrey, and Mark Clague. "Tributes to Lewis Hugh Cooper." /The Double Reed/ 30, no. 3 (2007): 29-39.
 

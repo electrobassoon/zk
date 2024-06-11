@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       35f02bf6-4497-4faf-b7af-be858111cd72
+:END:
+#+title: 4 reed types
+
+Ewell describes the normal reed, high note reed, low note or pianissimo reed, and concerto reed. The normal reed is a compromise of the three extremes.
+
+High note reeds have narrower shapes, especially at the throat, shorter blades, more rounded wires, and greater heart to wing and spine to rail ratios. They also tend to have points of inflection in the tip. 
+
+Low note reeds have wider shapes, especially at the tip, longer blades, flatter wires, and lower heart to wing and spine to rail ratios. They may or may not have inflection points in the tip. Pianissimo reeds need those inflection points, low reeds not as much.
+
+Concerto reeds have wider shapes, especially the throat, no points of inflection (or very little) lesser spine to rails ratio with thick rails, and a larger aperture height and width (rounder first wire or wider shape). It may also be a wider shape and a shorter blade.
+
+These are like ingredients in a stew, if you have less of one, you have more of another. Every player has to find their own recipe.
+
+[[cite:&ewell10_pedag_finis_reeds_german_system]]

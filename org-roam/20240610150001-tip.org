@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d0800868-c991-4554-a454-b04417dbbe9d
+:END:
+#+title: tip
+
+It's the spark plug of the reed, so start with adjusting this.
+
+Concerto reeds have thicker tips.
+
+Inflection points come from the channels being thinned. It's like a reed tenderizer. [[cite:&ewell10_pedag_finis_reeds_german_system]]
