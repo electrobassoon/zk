@@ -3,7 +3,77 @@
 :END:
 #+title: Configs
 
+** Org-roam adjustments
+Here are my capture templates. Just two, one for normal notes and one for a bibliography note that connects with bibtex for the citation key.
+#+begin_src elisp :export code
+ (setq org-roam-capture-templates
+   '(("d" "default" plain "%?" :if-new
+      (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}")
+      :unnarrowed t)
+     ("r" "bibliography reference" plain "%?" :if-new
+      (file+head "${citekey}.org" "#+title: ${citekey}")
+      :unnarrowed t)))
+#+end_src
+Also, I make the org-roam-buffer into a side window so that it doesn't get overwritten with constant jumping around buffers.
+#+begin_src elisp :export code
+(add-to-list 'display-buffer-alist
+             '("\\*org-roam\\*"
+               (display-buffer-in-side-window)
+               (side . right)
+               (slot . 0)
+               (window-width . 0.33)
+               (window-parameters . ((no-delete-other-windows . t)))))
+#+end_src
 ** Publishing Org-Roam Database
-#+begin_src elisp
 
+I use the org-publish function to publish my zk. There are two projects, roam and lilypond images. Lilypond images uses org-publish-attachment to just copy any pngs (which at the moment should only be coming from lilypond src blocks) to the publishing directory. The roam project uses the roam-publication-wrapper function to get everything. The org-roam-custom-link-builder tries to make backlinks work, and gets called when the org-roam-graph-link-builder gets called.
+
+#+begin_src elisp :export code
+(defun roam-sitemap (title list)
+  (concat "#+OPTIONS: ^:nil author:nil html-postamble:nil\n"
+          "#+TITLE: " title "\n\n"
+          (org-list-to-org list) "\nfile:sitemap.svg"))
+
+(setq my-publish-time 0)   ; see the next section for context
+(defun roam-publication-wrapper (plist filename pubdir)
+;;  (org-roam-graph)  
+(org-html-publish-to-html plist filename pubdir)
+  (setq my-publish-time (cadr (current-time))))
+
+(setq org-publish-project-alist
+      '(("roam"
+	 :base-directory "~/zk/org-roam"
+	 :auto-sitemap t
+	 :sitemap-function roam-sitemap
+	 :sitemap-title "My ZK"
+	 :publishing-function roam-publication-wrapper
+	 :publishing-directory "~/zk/docs/site"
+	 :section-numbers nil
+	 :with-todo-keywords nil
+	 :healine-levels 5
+	 :exclude "exclude/*"
+	 :html-head "<link rel=\"stylesheet\" href=\"../style.css\" type=\"text/css\">"
+	 :html-postamble "<p><a href=\"sitemap.html\">Site Map</a></p>"
+	 )
+	("lilypond images"
+	 :base-directory "~/zk/org-roam"
+	 :base-extension "png"
+	 :publishing-directory "~/zk/docs/site"
+	 :publishing-function org-publish-attachment
+	 )
+	))
+
+(setq org-id-extra-files (directory-files-recursively "~/zk/org-roam" "org"))
+
+(defun org-roam-custom-link-builder (node)
+  (let ((file (org-roam-node-file node)))
+    (concat (file-name-base file) ".html")))
+
+(setq org-roam-graph-link-builder 'org-roam-custom-link-builder)
+
+(add-hook 'org-roam-graph-generation-hook
+          (lambda (dot svg) (if (< (- (cadr (current-time)) my-publish-time) 5)
+                                (progn (copy-file svg "~/zk/docs/site/sitemap.svg" 't)
+                                       (kill-buffer (file-name-nondirectory svg))
+                                       (setq my-publish-time 0)))))
 #+end_src
