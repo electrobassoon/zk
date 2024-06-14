@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-10 Mon 22:17 -->
+<!-- 2024-06-14 Fri 11:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Easily Forgotten Tricks</title>
@@ -197,6 +197,52 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Easily Forgotten Tricks</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org59494af">Movement</a></li>
+<li><a href="#orgdec8396">Others</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org59494af" class="outline-2">
+<h2 id="org59494af">Movement</h2>
+<div class="outline-text-2" id="text-org59494af">
+<p>
+Remember that <code>C-M-- M-- and C--</code> are negative arguments that change the direction of movement. Note this is especially useful for scrolling the other buffer. <code>C-M-- C-M-v</code> is easier than <code>C-M-S-v</code> most likely.
+</p>
+
+<p>
+<code>M-m</code> moves to the first whitespace character. I need to <b>stop using the arrow keys to get to the indented places.</b> Also note that visual-line-mode doesn't interfere with it, so it kind of works as a better <code>C-a</code> with line wrapping.
+</p>
+
+<p>
+Remember <code>C-M-f and C-M-b</code> for moving by sexp. I think if I alter the lilypond syntax table this could work really well. LaTeX maybe as well. <code>C-M-d</code> will jump into the next sexp, and <code>C-M-u</code> will jump up (backwards) to the nearest sexp. These are only bracket sexps, not strings. <code>C-M-u</code> inside a string may jump to the opening quote. Combine these with <code>C-M-k</code> will allow you to jump into a sexp and kill it with just two keys really. Quite powerful that I am NOT using.
+</p>
+
+<p>
+<code>C-M-n and C-M-p</code> move forward and backward to the next sexp. Note this is only at the same structural level. Combining with <code>C-M-u</code> will get you up a level to keep going.
+</p>
+
+<p>
+There's subword-mode for splitting CamelCase as words, and a superword-mode that treats words_ like_ this as one word,
+</p>
+
+<p>
+Paragraph moving commands are <code>M-{ and M-}</code>. This can mean different things depending on the mode. <code>M-a and M-e</code> move by sentence. Note that you may have to edit sentence-end-double-space for it to work like you want. I did.
+</p>
+
+<p>
+<code>C-M-a and C-M-e</code> move by defuns, which may be classes, functions, or other things.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdec8396" class="outline-2">
+<h2 id="orgdec8396">Others</h2>
+<div class="outline-text-2" id="text-orgdec8396">
 <p>
 <code>M-x customize-face</code> will auto jump to whatever face the cursor is on. I should probably use this more instead of searching for new themes all the time
 </p>
@@ -208,6 +254,84 @@ You can append <code>C-h</code> to a prefix argument to see all the options, lik
 <p>
 <code>C-x 8 Return</code> can be used for all sorts of special characters, including search names like an em dash — © 
 </p>
+
+<p>
+Info Manual Bindings
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Key</td>
+<td class="org-left">Purpose</td>
+</tr>
+
+<tr>
+<td class="org-left">[ and ]</td>
+<td class="org-left">Previous/next node</td>
+</tr>
+
+<tr>
+<td class="org-left">l and r</td>
+<td class="org-left">Go back/forward in history</td>
+</tr>
+
+<tr>
+<td class="org-left">n and p</td>
+<td class="org-left">Previous/next sibling node</td>
+</tr>
+
+<tr>
+<td class="org-left">u</td>
+<td class="org-left">Goes up one level</td>
+</tr>
+
+<tr>
+<td class="org-left">SPC</td>
+<td class="org-left">Scroll one screen at a time</td>
+</tr>
+
+<tr>
+<td class="org-left">TAB</td>
+<td class="org-left">Cycles through cross-references and links</td>
+</tr>
+
+<tr>
+<td class="org-left">RET</td>
+<td class="org-left">Opens the active link</td>
+</tr>
+
+<tr>
+<td class="org-left">m</td>
+<td class="org-left">Prompts for a menu item name and opens it</td>
+</tr>
+
+<tr>
+<td class="org-left">q</td>
+<td class="org-left">Closes the info browser</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<code>C-h a</code> is apropos-command, which is handy when you don't quite know the command you are looking for. There's also an apropos overall, apropos-documentation, apropos-library, apropos-value. There's also the describe functions, variables, and mode. <code>C-h m</code> is a pretty important one.
+</p>
+
+<p>
+<code>C-x s</code> will prompt to save all buffers instead of having to go through all of them
+</p>
+
+<p>
+<code>C-x 4</code> prefix does things to the other window. One that I feel like would save me tempo is <code>C-x 4 C-o</code> that displays a buffer in the other window. I feel like I tend to change to the other window, then visit the buffer, then go back to the buffer I'm on. Realted is <code>C-x 4 b</code> that does the same thing but also switches to that new buffer. <code>C-x 5</code> does similar things with frames. I think a little less useful, but occasionally with both monitors it could be useful.
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p><a href="sitemap.html">Site Map</a></p>

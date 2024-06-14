@@ -3,8 +3,45 @@
 :END:
 #+title: Easily Forgotten Tricks
 
+* Movement
+
+Remember that =C-M-- M-- and C--= are negative arguments that change the direction of movement. Note this is especially useful for scrolling the other buffer. =C-M-- C-M-v= is easier than =C-M-S-v= most likely.
+
+=M-m= moves to the first whitespace character. I need to *stop using the arrow keys to get to the indented places.* Also note that visual-line-mode doesn't interfere with it, so it kind of works as a better =C-a= with line wrapping.
+
+Remember =C-M-f and C-M-b= for moving by sexp. I think if I alter the lilypond syntax table this could work really well. LaTeX maybe as well. =C-M-d= will jump into the next sexp, and =C-M-u= will jump up (backwards) to the nearest sexp. These are only bracket sexps, not strings. =C-M-u= inside a string may jump to the opening quote. Combine these with =C-M-k= will allow you to jump into a sexp and kill it with just two keys really. Quite powerful that I am NOT using.
+
+=C-M-n and C-M-p= move forward and backward to the next sexp. Note this is only at the same structural level. Combining with =C-M-u= will get you up a level to keep going.
+
+There's subword-mode for splitting CamelCase as words, and a superword-mode that treats words_ like_ this as one word,
+
+Paragraph moving commands are =M-{ and M-}=. This can mean different things depending on the mode. =M-a and M-e= move by sentence. Note that you may have to edit sentence-end-double-space for it to work like you want. I did.
+
+=C-M-a and C-M-e= move by defuns, which may be classes, functions, or other things.
+
+* Others
 =M-x customize-face= will auto jump to whatever face the cursor is on. I should probably use this more instead of searching for new themes all the time
 
 You can append =C-h= to a prefix argument to see all the options, like =C-x 8 C-h=
 
 =C-x 8 Return= can be used for all sorts of special characters, including search names like an em dash — © 
+
+Info Manual Bindings
+| Key     | Purpose                                   |
+| [ and ] | Previous/next node                        |
+| l and r | Go back/forward in history                |
+| n and p | Previous/next sibling node                |
+| u       | Goes up one level                         |
+| SPC     | Scroll one screen at a time               |
+| TAB     | Cycles through cross-references and links |
+| RET     | Opens the active link                     |
+| m       | Prompts for a menu item name and opens it |
+| q       | Closes the info browser                   |
+
+=C-h a= is apropos-command, which is handy when you don't quite know the command you are looking for. There's also an apropos overall, apropos-documentation, apropos-library, apropos-value. There's also the describe functions, variables, and mode. =C-h m= is a pretty important one.
+
+=C-x s= will prompt to save all buffers instead of having to go through all of them
+
+=C-x 4= prefix does things to the other window. One that I feel like would save me tempo is =C-x 4 C-o= that displays a buffer in the other window. I feel like I tend to change to the other window, then visit the buffer, then go back to the buffer I'm on. Realted is =C-x 4 b= that does the same thing but also switches to that new buffer. =C-x 5= does similar things with frames. I think a little less useful, but occasionally with both monitors it could be useful.
+
+

@@ -15,3 +15,5 @@
 [[id:559d2e4e-1ca5-40b2-881d-2a5bd5a9880c][Music Pedagogy]]
 
 [[id:6792f7fa-fafa-45cd-a85c-1d78fc14f817][Acoustics]]
+
+[[id:4ce849d1-6f0d-41f2-a5db-a6cd2964e0fd][Music Theory]]

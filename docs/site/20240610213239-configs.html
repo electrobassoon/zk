@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-10 Mon 22:17 -->
+<!-- 2024-06-14 Fri 11:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Configs</title>
@@ -201,12 +201,68 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
+<li><a href="#org8e4a14e">Prettifying Org-mode</a></li>
+<li><a href="#org77a70f5">Rainbow Delimiters</a></li>
+<li><a href="#org99f7720">Lilypond config</a></li>
 <li><a href="#orgaba057c">Org-roam adjustments</a></li>
 <li><a href="#orgd18f675">Publishing Org-Roam Database</a></li>
+<li><a href="#orga96e090">Freezing Stuff?</a></li>
 </ul>
 </div>
 </div>
+<p>
+Here are various things in my emacs init files, mostly so I don't lose them at some point.
+</p>
 
+<div id="outline-container-org8e4a14e" class="outline-2">
+<h2 id="org8e4a14e">Prettifying Org-mode</h2>
+<div class="outline-text-2" id="text-org8e4a14e">
+<p>
+These are some adjustments to make org-mode files look nicer.
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-hide-emphasis-markers t<span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">require</span> '<span style="color: #7FC1CA;">org-bullets</span><span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">lambda</span> <span style="color: #F2C38F;">()</span> <span style="color: #F2C38F;">(</span>org-bullets-mode 1<span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+
+<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook 'visual-line-mode<span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook 'variable-pitch-mode<span style="color: #9A93E1;">)</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org77a70f5" class="outline-2">
+<h2 id="org77a70f5">Rainbow Delimiters</h2>
+<div class="outline-text-2" id="text-org77a70f5">
+<p>
+Just makes dealing with parenthesis and things a little nicer.
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">use-package</span> <span style="color: #7FC1CA;">rainbow-delimiters</span>
+  <span style="color: #83AFE5;">:hook</span> <span style="color: #83AFE5;">(</span>prog-mode . rainbow-delimiters-mode<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org99f7720" class="outline-2">
+<h2 id="org99f7720">Lilypond config</h2>
+<div class="outline-text-2" id="text-org99f7720">
+<p>
+This is so that lilypond and lyi files will automatically get the correct major mode.
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #9A93E1;">(</span>autoload 'LilyPond-mode <span style="color: #7FC1CA;">"lilypond-mode"</span><span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-mode-alist
+      <span style="color: #83AFE5;">(</span>cons '<span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"\\.ly$"</span> . LilyPond-mode<span style="color: #F2C38F;">)</span> auto-mode-alist<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-mode-alist
+      <span style="color: #83AFE5;">(</span>cons '<span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"\\.lyi$"</span> . LilyPond-mode<span style="color: #F2C38F;">)</span> auto-mode-alist<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+
+<span style="color: #9A93E1;">(</span>add-hook 'LilyPond-mode-hook <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">lambda</span> <span style="color: #F2C38F;">()</span> <span style="color: #F2C38F;">(</span>turn-on-font-lock<span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+</pre>
+</div>
+</div>
+</div>
 <div id="outline-container-orgaba057c" class="outline-2">
 <h2 id="orgaba057c">Org-roam adjustments</h2>
 <div class="outline-text-2" id="text-orgaba057c">
@@ -293,6 +349,21 @@ I use the org-publish function to publish my zk. There are two projects, roam an
                                 <span style="color: #A8CE93;">(</span><span style="color: #9A93E1;">progn</span> <span style="color: #D18EC2;">(</span>copy-file svg <span style="color: #7FC1CA;">"~/zk/docs/site/sitemap.svg"</span> 't<span style="color: #D18EC2;">)</span>
                                        <span style="color: #D18EC2;">(</span>kill-buffer <span style="color: #DADA93;">(</span>file-name-nondirectory svg<span style="color: #DADA93;">)</span><span style="color: #D18EC2;">)</span>
                                        <span style="color: #D18EC2;">(</span><span style="color: #9A93E1;">setq</span> my-publish-time 0<span style="color: #D18EC2;">)</span><span style="color: #A8CE93;">)</span><span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orga96e090" class="outline-2">
+<h2 id="orga96e090">Freezing Stuff?</h2>
+<div class="outline-text-2" id="text-orga96e090">
+<p>
+I can't remember exactly what this is, but apparently emacs was hanging on me occasionally and this is the fix I have.
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> history-length 100<span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span>put 'minibuffer-history 'history-length 50<span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span>put 'kill-ring 'history-length 25<span style="color: #9A93E1;">)</span>
+<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-window-vscroll nil<span style="color: #9A93E1;">)</span>
 </pre>
 </div>
 </div>

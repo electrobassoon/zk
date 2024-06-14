@@ -3,6 +3,36 @@
 :END:
 #+title: Configs
 
+Here are various things in my emacs init files, mostly so I don't lose them at some point.
+
+** Prettifying Org-mode
+These are some adjustments to make org-mode files look nicer.
+#+begin_src  elisp :export code
+(setq org-hide-emphasis-markers t)
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+(add-hook 'org-mode-hook 'visual-line-mode)
+(add-hook 'org-mode-hook 'variable-pitch-mode)
+#+end_src
+** Rainbow Delimiters
+Just makes dealing with parenthesis and things a little nicer.
+#+begin_src elisp :export code
+(use-package rainbow-delimiters
+  :hook (prog-mode . rainbow-delimiters-mode))
+#+end_src
+
+** Lilypond config
+This is so that lilypond and lyi files will automatically get the correct major mode.
+#+begin_src elisp :export code
+(autoload 'LilyPond-mode "lilypond-mode")
+(setq auto-mode-alist
+      (cons '("\\.ly$" . LilyPond-mode) auto-mode-alist))
+(setq auto-mode-alist
+      (cons '("\\.lyi$" . LilyPond-mode) auto-mode-alist))
+	     
+(add-hook 'LilyPond-mode-hook (lambda () (turn-on-font-lock)))
+#+end_src
 ** Org-roam adjustments
 Here are my capture templates. Just two, one for normal notes and one for a bibliography note that connects with bibtex for the citation key.
 #+begin_src elisp :export code
@@ -76,4 +106,12 @@ I use the org-publish function to publish my zk. There are two projects, roam an
                                 (progn (copy-file svg "~/zk/docs/site/sitemap.svg" 't)
                                        (kill-buffer (file-name-nondirectory svg))
                                        (setq my-publish-time 0)))))
+#+end_src
+** Freezing Stuff?
+I can't remember exactly what this is, but apparently emacs was hanging on me occasionally and this is the fix I have.
+#+begin_src elisp :export code
+(setq history-length 100)
+(put 'minibuffer-history 'history-length 50)
+(put 'kill-ring 'history-length 25)
+(setq auto-window-vscroll nil)
 #+end_src
