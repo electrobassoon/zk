@@ -1,0 +1,712 @@
+:PROPERTIES:
+:ID:       d05175c7-91e4-4661-967f-b5db40538ca5
+:ROAM_REFS: cite:mckay93_bassoon_reed_manual
+:END:
+#+title: mckay93_bassoon_reed_manual
+
+* The Bassoon Reed Manual
+* Chapter 1 Theoretical Principles and Concepts
+** Terms
+From figure 1.1 on page 4
+
++ Blade Length :: Length from tip edge to collar
++ Bahn Length :: Tip edge to front of first wire
++ Full Fundamental Length :: Tip to front of second wire
++ Capo D Astro :: Wire 1
++ Fulcrum :: Wire 2
++ 50mm :: 6 mm behind the tip, also about 1/4 down the blade (not sure what is the more important observation)
++ 43mm :: The midpoint of the blade, or 13mm from the tip (I think the midpoint of the blade is more important
+
+** Two basic reeds 
+page 3
+1) Carl Mechler style reed, or the straight taper reed. It is primarily linearly dampened, which means the greatest degree of dampening, or closing of the aperture by the embouchure, is done longitudinally — meaning along the direction of the fibers, from the collar to the tip edge.
+2) Wilhelm Knockenhauer style reed, or the tip taper reed. It is primarily laterally or horizontally dampened. This means the greatest dampening is achieved across the direction of the fibers from side to side.
+** Linear and Horizontal Dampening
+page 3
+Generally, changes to the inside of the blades are linear dampening, and changes to the outside of the blades are horizontal dampening. Both reeds have HD, but apparently only straight taper reeds have LD.
+** Pyramiding fibers
+page 3
+Dampening can also be done by having a slope through the layers of fibres. This sloping can be inside or outside the reed. The tip undercut creates dampening through pyramiding fibers inside the reed
+** Wires
+page 4
+Dampening can also be controlled by wires. Tightening wire 1 will dampen the reed. Making the tube rounder will also dampen the reed.
+** Crow
+page 4
+The natural sound of the reed is determined by the crow. It has three pitches, an upper pitch and two lower pitches that are an octave apart. The blade and bahn lengths determine these pitches. To drop the upper pitch take cane from the spine. To drop the lower pitches take from the sides from the collar to blade midpoint.
+** Size of the reed
+page 4
+The size of the reed is determined by several factors:
+1) The pitch the instrument was built for
+2) The bocal
+3) The orchestral pitch required
+** 56mm reeds
+page 5
+Always assumed a 56mm reed. He also expected a bahn length of 30mm to produce a C as the natural pitch. If the bassoon plays flat, then you can go to 55mm. It seems 54 and 57 were not options.
+** FFL of Reeds
+page 5
+To raise the pitch of the reed, the FFL needs to be shortened (this usually means clipping the tip, although I suppose moving wire 2 closer to the tip would also accomplish this) In the context of clipping the tip, this means the bahn length has been shortened, which raises the pitch of the fundamental (not sure what happens if you shorten the FFL but keep the Bahn length the same) If the reed has a very short FFL (blades shorter than 25mm and natural pitches higher than F) cannot be tuned with wire 1. The capo d'astro is not needed, so the first wire should be loose and not tightened. (This aligns with Cooper's statement about the first wire of short blade reeds)
+** Wire 2 as fulcrum
+page 5
+Wire 2 is the fulcrum. If you make the tube smaller by taking off the flare of the shape or a tube taper (which is a thinner gouge starting at the second wire I think) will cause the aperture to stay open instead of closing with playing. ( I wonder if the tube taper acts as a short bevel from Herzberg's terminology. I think in both cases the principle is a smaller tube at the back that pushes the tip open) Leaving the flare makes the tube larger and thus creates smaller tip openings (Herzbreg would say this is because of a long bevel and not the flare? Or the short bevel is a way to keep the benefits of the flare without the closing aperture?)
+** Wire 1 as tuning
+page 5
+Tightening wire 1 raises the pitch fresh after clipping. Opening the wire with a #9 mandrel lowers the pitch
+** Fundamental pitch of the reed
+page 5
+The reed has a fundamental pitch that must be made compatible with the fundamental pitch of the instrument. Embouchure or air pressure changes this. (I'm guessing you can also alter the fundamental pitch of the reed if you know your instrument is extra sharp or flat) High pitches can be adjusted by the point of embouchure. The pitch is goverened by:
+1) Overall dimensions of the reed
+2) Elevation of wires 1 and 2, which determine the depth of the air chamber inside the reed
+3) The size of the blades
+4) Placement of the wires *with respect to the tip edge*
+5) Capo d'astro effect of wire 1
+6) Aperture of the reed. Closer tip edges are faster and therefore higher in pitch
+** Table of Natural pitches of the crow with respect to blade and bahn length
+page 6
+This assumes a reed that is 8.75mm wide at the collar, and 14.5 to 15.5mm at the tip
+| Highs/Lows | Blade Length | Bahn Length |
+|------------+--------------+-------------|
+| F/C        | 25mm         | 30mm        |
+| E/C        | 26mm         | 30mm        |
+| E flat/C   | 27mm         | 30mm        |
+| D/C        | 28mm         | 30mm        |
+| E/E flat   | 26mm         | 27mm        |
+| E/D        | 26mm         | 28mm        |
+| E/C Sharp  | 26mm         | 29mm        |
+| E/C        | 26mm         | 30mm        |
+| E/B        | 26mm         | 31mm        |
+** Apertures
+page 7
+Two types of apertures, dampened and undampened. By using embouchure pressure, the most open is low F and below. There up to high C is half opened, and above that is nearly closed. This uses just the center of the reed (esp in dampened apertures) The player is dampening out the mid and low register areas of the blades
+** Reed Pitch
+page 7
+The highs are controlled by the length and density of the backbone. It is the most stable of the crow pitches. The low pitch is controlled by the width, length, and density of the wings. The mid range is controlled by what is in between. This can cause the lows to vary in pitch ("No Man's Land") The capo d'astro effect applies to all of the pitches of the reed. Tip taper reeds have very thin edges at the back to get the low pitches low enough. Skinner's model has a 26mm blade length and 27mm bahn length (wire 1 is very close to the collar) which made an E/E Flat pitch. No Man's Land was reduced to get the second pitch down to an acceptable B or C. (This hasn't worked for me yet btw, but maybe I'm doing it wrong)
+** Resiliency of Cane and Fibers
+page 8
+There are two types of fibers: pyramided fibers that are resistant to vibration (hence the darkening of the tip undercut) and parallel fibers that like to vibrate. Also less resilient. 
+
+In a tip taper reed, there are lots of pyramided fibers closer to the tip with parallel fibers in the back of the reed. Resistance to vibration is more in the tip of the reed. Straight taper reeds tend to be pyramided more evenly from collar to tip, this makes the resistance more or less evenly distributed over the blades.
+
+The larger the diameter of the original cane, the weaker the resiliency. The converse is true as well. The resiliency determines the correct size of the aperture
+** Gouges
+page 9
+There are two types: Concentric and Eccentric, with many variations between them. Eccentric takes more cane out of the sides of the gouge. The greater the eccentricity, the less the resiliency because of thinner wings and mid-range areas. The concentric gouge also has less resiliency the thinner it is gouged. The gouge affects the sound of the reed because it determines the size of the air space inside the reed. Eccentric gouges have smaller insides. Thus there is less depth. However, it gives a harder outline (silhouette) to the sound. The lows of the reed are in the harder texture of the cane because of the thinner sides from gouging. The concentric gouge has the sides at the same hardness as the highs, so the sound is more homogenous. McKay says the preferred gouge for a tip taper reed is concentric ( I guess because so much is taken from the sides of the cane to lower the pitch that you need the softer sides? Or could be that the harder edge isn't needed because of the parallel fibers in the back? Not sure) while the straight taper reed should be eccentric. (I believe that Cooper likes some eccentricity in his tip taper reeds)
+** Aperture, Trim, and Voicing
+page 10
+Can enhance the linear resiliency by:
+1) Fulcrum setting (the wire placements and elevations)
+2) Shape (the built-in cone)
+3) Inner (linear) enhancements to the gouge and the texture of the tip, and length of the support. (like the tip undercut pyramiding the inside of the tip edge
+
+If the embouchure is at the back of the reed near the collar, than the wings need to be longer. That weakens the aperture so that it is sensitive to a much lighter pressure of the embouchure. If the embouchure is towards the tip, then the wings should be shorter and a stronger embouchure is used.
+
+For a darker sound, move the embouchure closer to the collar and make the blades longer. For a brighter sound with similar placement, shorten the blades. Another way to say this is brighter sounds are embouchures closer to the tip
+** Two styles with Bright and Dark
+page 11
+*** Straight Taper Reed
+Linearly enhanced with an eccentric gouge, and other trim taken from the inside of the reed. The sound is bright, and the embouchure is more towards the tip.
+*** Tip Taper Reed
+Laterally enhanced by taking out the mids and lows from the outside of the blades with a concentric gouge. Since the back is less resilient, the embouchure is closer to the collar, the reed is swallowed, and the color is dark. If the sides have been taken out for the low pitch, then it increases the effect of the vibrating surfaces and maes the sound dark as well.
+** Definition of bright and dark
+Bright is more nasal and reedier, dark is less nasal and less reedy (from Chris Weait) The author describes dark as more covered and dampened that emphasizes the lower overtones, while bright is a more open and carrying sound with an emphasis on higher overtones.
+* Chapter 2 Essentail Tools for Reed Making
+** Scraping Wheels
+page 12
+Central to his philosophy of building a world inside a reed. Not sure how to get these now. The Custom Cane Inc. by William Woodward is not found online. Perhaps at IDRS I can find them? Or use my sandpaper PVC pipe constructions. Wheels were made in radius sizes 16/32, 20/32, 24/32, 28/32, 30/32, 32/32, 36/32, 40/32, and 48/32. Also a special 56/32 and 64/32 for some special reasons I don't know yet. These are all in inches, so 16/32" which is half an inch in radius.
+
+If I ever happen to get some of these, there's a video by James McKay about linear enhancement that he shows the process. He says you hold it like a pencil and drag it backwards.
+** Pin Mandrels
+page 13
+He had 4 pin mandrels, #9 (9/64"), #10 (10/64"), #11 (11/64"), and #13 (13/64").
+Some clues to their use:
+#9 is used for Straight Taper reeds to open up the first wire as it is more oval.
+#10 and #11 are for Tip Taper reeds with *rounder tubes*
+#13 is for Contra reeds
+
+Forming mandrels are different because they are tapered.
+10/12 mandrel starts at a 12/64" and tapers to 10/12" over 3/4". Then a short pointed tip. The insert mark is 1 inch from the point. He used this mandrel when the flare was removed.
+He used the #11 or #10 parallel forming mandrels when the flare was not removed.
+You should also have a holding mandrel that doesn't matter as much in dimensions. (This really makes me curious what my mandrels are)
+** Reamers
+page 14
+First reaming was a 3/16" drill bit mounted in a handle. It's inserted 18mm. Then used a conical file reamer made from a rattail file mounted to a handle (also 3/16") this only was inserted 17mm. A slightly larger reamer could be used if it leaks on the bocal. You can also use a #9 machinists drill if the flare was left on the shape
+** Shapers
+page 14
+He had lots of shapers. Fox 1, 2, and 3. Pisano shapers, and a Prestini Knochenhauer shaper. Fox 2 is the most common in the book.
+** Knives and Plaques
+pages 14-15
+At least 3 knives.  A "regular knife" for post-final trim work that can scrape the blades and not chatter. A knife with a heavy spine for the parallel sides pre trim and hand profiling. It's heavey enough to not chatter when removing bark. Exacto with #11 blades for shaping, center-panel scoring, and lots of other tasks.
+** Files and Sandpaper
+page 15-16
+Three 5inch exacto file types. Flat bastard, knife edge, and rattail. The flat bastard is an alternative to knife for blades. Knife edge is for wire and collar marks on the cane. Rattail is to clean the tube. A large flat bastard file can be used for evening the butt end of the reed. A sapphire file or metal emery board can do fine work on the blade or enhancing the tube with a take-out variation.
+Sandpaper shoudl be in five grades. 120 Dry, 200 Dry, 220 WD, 320 WD, and 400 WD. Cut them in strips of 15mm by 5cm.Then make folds and put the finger in between the folds
+** Pliers and End-nipper
+page 16
+5 inch pliers are needed, ideally with parallel jaws for wire adjustemntes. Needle nose parallel jaws are also recommended for between wires 2 and 3. 5 inch jewler's end nippers are recommended for cutting the tip.
+** Rulers, Dividers, and Compasses
+page 17
+Basic 6 inch metal ruler is good. Had lots of machine dividers and pencil compasses. There are so many measurements that it makes sense to have lots of dividers to have each one devoted to a certain measurement. Caliper rulers are also good for measuring widths of tubes.
+** Wire String and Glue
+page 19
+22 guage soft brass wire. Apparently also used 21 at some points in his life. Blueberry thread is what he used, but cotton crochet thread is also good. He always used duco for first coat on the wrapping. Used model airplane dope for final layer, but can also use fingernail polish.
+** Other tools
+page 19
+Dial indicator to measure thickness of the blades.
+6 inches of 1 1/14" dowels to dry gouged cane. Sometimes 1 inch dowels are needed. An easel for working on the cane before folding is also good. A desk lamp for shining light on the reed is necessary as well.
+* Chapter 3: The Straight Taper Reed: Lou Skinner's Interpretation of Carl Mechler's Reed
+** 3.1 Preparation of Tubes, Gouging, and Profiling
+*** 3.1.1 Split the Cane
+Tube should be 150mm long, straight, and 26-24mm in outside diameter. Split the cane in half and then quarters. If the cane is less than 24mm in diameter, only cut it into thirds.
+*** 3.1.2 Soak the cane (the sink method)
+Soak the cane until it sinks (five days according to him)Change the water every day and keep the cane covered. This softens the cane, and removes some impurities (Cooper would agree, but seems to do it after gouging) After five days drain the water and leave the cane in covered jar for two more days (What? Isn't that going to cause mold? I'm not sure what's going on here)
+*** 3.1.3 Cut the cane
+Cut it to 120mm, or 1mm shorter than the gouger bed
+*** 3.1.4 Cut off sharp edges (fillier)
+Cut off edges of each side, making it flat on the inside. This should be done along the whole edge of both sides. Then the sides should align with the gouger bed. ( I think this is a hand form of pre-gouging?)
+*** 3.1.5 Gouge the cane
+Cane must be wet. Should be eccentric, approximately 1.25mm in center and .80mm at the sides. Harder cane should use a thicker gouge like 1.35 to 1.4 and have a deeper profile. Gouge cane in both directions to account for lack of symmetry in the tubes. If ordering pre-gouged cane, ask for 1.25 to 1.3 in the center and .8 at the edges.
+*** 3.1.5a Dry cane on 1 1/4inch dowel for two to three days
+Should be able to attach four or five pieces of cane on these dowels with rubber bands. 
+*** 3.1.5b Soak cane again and dry again
+This double-soaking method has grain that will not rise when soaked later (this is an alternative to Cooper's wetting and resanding. Cooper's seems a bit faster)
+*** 3.1.6 Profile cane
+Machine profiling should be done when wet. If it's dry, soak in warm water for 2 hours before profiling. Thicknesses (on dry cane, .03mm thicker for wet cane) should be .9mm at the collar, .68 at "43" .57 at "50" and .4 at the center. Smooth the blades with 220wd and finish with 400 wd. Then mark the center and gently score it with a knife edge file. Since the parallel sides pretrim will take out more, the measurements can actually be .95, .73, .61, and .4
+
+The critical point is the "50" mark (again not sure if that's strictly 50 from the butt, 6 from the tip, or 1/4 of the blade
+*** 3.1.7 Dry profiled cane on dowel
+Takes about 12 hours at room temp and 6 hours in a warming oven or gas oven with pilot light, or 20 minutes under 60 watt lamp. Cane should be dry for next steps since drying causes shrinkage.
+** 3.2 Pre-trim
+*** 3.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper
+*** 3.2.2 Shape Cane
+Uses a Fox #2, Knochenhuaer shape, or Pisano #2. Make sure the cane is 120mm long so it fits. Center the cane. Use a sharp #11 blade to shape. Hold the blade handle in a fist (in case is slips into you) Cut in 2mm to 3mm chunks. Stop cutting at the narrowest point, not all the way to the butt. This is to copy the flair of the shaper onto the butt ( I think so you don't have stuff tear inside the shaper?). After getting all the way down, flip it around and do the same from the butt end. Repeat on all quadrants.
+
+Interestingly links to a way to shape without shapers. Basically making a template out of brass shim strips, and then using masking tape to cover the cane in that shape and cutting it on an easel. Certainly less accurate, but much cheaper! Probably not worth the savings though.
+*** 3.2.3 Mark collar and wire positions 2 and 3
+Use dividers for measurements. Collar is at 30mm, wire 2 is at 18mm (which I believe is about the narrowest point in the shape of a Fox 2 shaper) and wire 3 at 8mm. Use a knife-edge file if needed to enlarge the marks.
+** 3.3 Enhancement of the inside of the tube (Windsor Mill Process)
+Originally taught as an alternative to the sink method. It can be left out entirely if the sink method was used. Both methods were designed to minimize cracking in the tube. The windsor mill process has the added benefit of disconnecting the fibers of the tube from the blade. This allows the blades to vibrate more freely, especially at lower frequencies.
+*** 3.3.1 With compass mark the inside of the gouge 32mm from the butt end
+This would be 2mm in front of the collar
+*** 3.3.2 Pilot cut
+Measure the thickness and decrease it by .1mm (.2 in original method) but don't go thinner than 1.1mm using the smallest scraper wheel
+*** 3.3.3 Superimpose cut
+Draw a sawtooth linefrom the butt to the 32mm mark Use scraper 32 over the original until the pencil is all removed (Basically letting you know that you have gone far enough
+*** 3.3.4 Sand entire inside butt with 200 DRY and 400WD
+Smooth the transition into the blades as well
+*** 3.3.5 Define the collar
+But don't chip out the bur yet! This bur comes from profiling machine
+** 3.4 Center-panel scoring
+This way of scoring is preferred but not required if the sink method was used.
+1) Mark with dividers two marks about 5mm long on the bark parallel to the sides about 3mm from the outside.
+2) Score along that 3mm mark to the end of the butt. Just needs to break the bark. Use the exacto knife
+3) Do two more lines parallel to the first between the edge and the 3mm lines
+4) In the final 1mm press the blade through the cane
+5) Chip out the burr in front of the collar. Make sure the thickness continues exactly. Smooth with a file.
+** 3.5 Parallel-sides Pre-trim
+This preps the wings to vibrate freely as soon as the tip is cut.
+Minimum thicknesses after pre-trim
+| at collar      | .95 to .85 thick (measure 2mm in front of collar if Windsor Mill is used) |
+| at 43          | .73 to .68                                                                |
+| at 50          | .62 to .56                                                                |
+| at 60 (center) | .45 to .4                                                                 |
+*** 3.5.1 Mark blades and decrease thickness of profile
+1) With compass mark 43mm and 50mm from butt ends on top and underside of each blade
+2) Use heavy knife with blade at right angle to surface of cane, reduce thickness of center portion of profile from collar to 43. Should end at .90 at collar and .7 at 43.
+3) If cane is especially brittle thin another .03mm
+*** 3.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge
+1) Set compass to 3mm and mark along blades from collar to reed tip
+2) Determine thickness of blades
+3) Use heavy knife, pull from collar to 50 mark ( i think this may mean start at far collar and pull towards you until you get to the 50mm mark on the far side?) Goal is sides that are around .40mm and slope upward to the 3mm marks. Ensure that the thickness at the 50mm mark of the blade, halfway between the center and the edge, doesn't go below .5mm
+*** 3.5.3 Remove mid-range bump
+Should be a ridge along the 3mm mark that parallels the shape. Gently pull the knife from the collar to the 50 mark parallel with the fibers, not the sides of the shape. This also establishes the wings
+*** 3.5.4 Pretrim
+1) With cane on easel, pull heavy knife from collar to fold and back. Start around 3mm from the edge, and gradually move towards the side to make 8 strokes
+2) Retrace the 8 stokes and keep going towards the center with 3 more strokes
+3) Repeat in each quadrant
+*** 3.5.5 Sand entire surface with 120 DRY
+Helps to smooth knife work and establish a gentle curvature from center to sides
+*** 3.5.6 Establish the wings
+Remark the 43. Using 120 DRY, sand the wing areas (in front of 43 to edge) into a thin edge, but not too thin. Also start to blend the tongue in near the tip. *Note: The tendency is take out too much cane at this stage!*
+*** 3.5.7 Eliminate pyramided fibers
+Use the heavy knife and smooth the pyramided fibers just in front of the 43 mark. The pyramided fibers prevent the low pitches from responding.
+*** 3.5.8 Sand pyramided fibers
+Use 120 dry to remove bumps from knife work and sand overall with 220WD
+*** 3.5.9 Reestablish the fold line with knife-edge file
+*** 3.5.10 Soak cane for 10 to 12 hours or until it sinks
+Maybe this would be the stage for Cooper's indefinite soaking? Not quite sure how to mesh those two together
+** 3.6 Forming and Drying
+The note here talks about beveling as not required when the flare is removed. I guess meaning that removing the flare is it's own form of beveling?
+*** 3.6.1 Fold and remove flare
+Fold the cane over. Using the #11 exacto knife, remove the flare after the second wire (confirms here that the second wire is at the narrowest point of the shape) This removes the need for beveling, but it can still be done.
+*** 3.6.2 Side-slip top blade to left at butt by 1 to 2mm
+Slides to the left, like Cooper would say. Claims that turning the forming mandrel clockwise will lessen the slip.
+*** 3.6.3 Wrap reed in twine
+This helps the tube to form evenly. Wrap from collar to butt. Make it tight, no overlaps in thread
+*** 3.6.4 Place in hot water for 20 minutes
+Heat the 10/12 mandrel in the water for the last 30 seconds
+*** 3.6.5 Insert forming mandrel
+Go straight, some cracking is almost inevitable
+*** 3.6.6 Partially unwrap string from butt and put on wire 3
+*** 3.6.7 Remove string and soak string in water
+Soaking the string will help it when it dries to hold the cane in shape
+*** 3.6.8 Mark the FFL on the blade at 38mm past wire 2
+*** 3.6.9 Put on wire 2
+*** 3.6.10 Butt molding
+Squish the butt around the mandrel on all sides
+*** 3.6.11 Center-panel molding
+Gently mold the center (not sides) of the tube between wires 2 and 3
+*** 3.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar
+This allows wire 1 to hug as much as possible
+*** 3.6.13 Narrow tip to 15mm if needed
+Can be left at 15.5mm to be narrowed later. 
+*** 3.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides
+*** 3.6.15 While reed and string are wet, put binding on reed
+Description of wrapping process:
+"... the author begins by looping the cotton string onto the upturned twist of wire III. The string is then pulled tightly and laid beside the blade side of wire III for 1-1/4 revolutions. The string is then cossed diagonally over wire III to the butt side. A string is laid down for a half-revolution beside wire III and is then brought diagonally back to the blade side for another half-revolution. When the first diagonla cross-over is reached, the string is laid just beyond and beside (not on top of) this cross-over, and returned to the butt side of wire III. The author continues this process until wire III is no longer visible. At this point, 2 complete revoluitions of string are made around the tube on the butt side of the wrapping. A third revolution overlaps the 2 and returns the string to the ball for the last diagonal cross-over. The last diagonal cross-over on teh blade side begins a single layer of tightly wrapped string around the reed tube, filling in the space between the wrapping ball and wire II. The author finishes the tube wrapping with a half-hitch, ,which is buried tightly under wire II. The string is then cut flush to wire II."
+*** 3.6.16 File butt end of reed to be flat
+*** 3.6.17 Ream with drill and file reamers
+Use tape to make sure they only go 18mm for drill and 17mm for file reamer
+*** 3.6.18 Straighten sides
+In case reaming caused the sides to slip apart, twist wire III or straighten sides with sapphire file
+*** 3.6.19 Cut reed
+Knife on cutting block, 5-inch jewellers end-nippers, or tip cutter. Cut at FFL 38mm from wire 2, or 56mm from butt
+*** 3.6.20 Adjust side-slipping
+*** 3.6.21 Clip corners of reed
+45 degree angle, no more than 1mm
+*** 3.6.22 Smooth tip edge if needed
+Use fine side of sapphire file to bring tip down to .3mm. Move with grain of the reed. Angle of file is almost parallel to blade
+*** 3.6.23 Put wire 1 and slide it 30mm from tip edge
+Fixing the bahn length at this point
+*** 3.6.24 Tune the reed
+Should blow at A 440, if it's higher, the aperture is too closed, so use pin mandrel 9 to open the tube. If it's lower, tighten wire 1
+*** 3.6.25 Apply 2 coats of glue
+20 minutes in between coats
+*** 3.6.26 Let reed dry
+48 hours naturally, 12 hours in electric oven at warming temperature, or gas oven with pilot light
+** 3.7 Final stage
+*** 3.7.1 Tighten wire 2
+Should be done on a 10/12 mandrel, but 2mm up from the forming mark. Clip wires 2 and 3 to appropriate places
+*** 3.7.2 Tighten wire 1
+Make sure bahn length is still where it should be. Claims wire shouldn't move when dry, which is against what Cooper says. But acknowleges it can't be too tight
+*** 3.7.3 Reream tube
+Both drill and file reamers. Use rattail file to clean
+*** 3.7.4 Correct side-slipping
+Uses Cooper's twisting technique aka don't glue the wrapping to the tube!
+*** 3.7.5 Straighten sides, renew corners, and polish tip edge
+Use 400WD for the tip, pinch it closed and drag it across
+** 3.8 Final Trim
+*** 3.8.1 Tip undercut
+1) Use 320 WD paper cut to .9cm x 5 cm (also can use 220WD it just goes faster)
+2) Aim is to reduce tip edge by half
+3) Put strips straight as far as it will go. Press down firmly
+4) Pull the sand paper out. Then do the same on the sides. Don't go outside the blades. Repeat 2 or 3 times
+5) Repeat on the other blade
+*** 3.8.2 Blades
+After the final trim, thicknesses should be
+30mm .90mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+
+Five double strokes at a time seems to be the goal
+
+1) With metal plaque in, use 220WD to blend tip into 43mm. Or 50mm if 43 is thin enough. This will create a V that gets smoothed out next. Count your strokes (apologies to Ben Kamins)
+2) Repeat on the sides of the blade, use the same number of strokes
+3) Without the plaque in, sand wings with 220WD. Make sure no pyramids at 43mm
+4) Without plaque, use 220WD to sand from 43 to collar, five double strokes at a time
+5) Use 400WD on both blades and polish with back
+6) Check under light and dial indicator for balance
+*** 3.8.3 Use cement or binding to reseal wire II
+*** 3.8.4 When dry, soak for three to four minutes
+Promotes capillary soaking, only up to collar. Doesn't mention how to know when it's done
+*** Finishing is in chapter 7
+* Chapter 4: The Tip Taper Reed: Lou Skinner's Interpretation of Wilhelm Knochenhauer's Reed
+** 4.1 Preparation of Tubes, Gouging, and Profiling
+*** 4.1.1 Split the Cane
+Tube should be 150mm long, straight, and 26-24mm in outside diameter. Split the cane in half and then quarters. If the cane is less than 24mm in diameter, only cut it into thirds.
+*** 4.1.2 Soak the cane (the sink method)
+Soak the cane until it sinks (five days according to him)Change the water every day and keep the cane covered. This softens the cane, and removes some impurities (Cooper would agree, but seems to do it after gouging) After five days drain the water and leave the cane in covered jar for two more days (What? Isn't that going to cause mold? I'm not sure what's going on here)
+*** 4.1.3 Cut the cane
+Cut it to 120mm, or 1mm shorter than the gouger bed
+*** 4.1.4 Cut off sharp edges (fillier)
+Cut off edges of each side, making it flat on the inside. This should be done along the whole edge of both sides. Then the sides should align with the gouger bed. ( I think this is a hand form of pre-gouging?)
+*** 4.1.5 Gouge the cane
+Cane must be wet. Should be eccentric, approximately 1.25mm in center and .80mm at the sides. Harder cane should use a thicker gouge like 1.35 to 1.4 and have a deeper profile. Gouge cane in both directions to account for lack of symmetry in the tubes. If ordering pre-gouged cane, ask for 1.25 to 1.3 in the center and .8 at the edges.
+*** 4.1.5a Dry cane on 1 1/4inch dowel for two to three days
+Should be able to attach four or five pieces of cane on these dowels with rubber bands. 
+*** 4.1.5b Soak cane again and dry again
+This double-soaking method has grain that will not rise when soaked later (this is an alternative to Cooper's wetting and resanding. Cooper's seems a bit faster)
+*** 4.1.6 Profile cane
+Machine profiling should be done when wet. If it's dry, soak in warm water for 2 hours before profiling. Thicknesses (on dry cane, .03mm thicker for wet cane) should be .9mm at the collar, .68 at "43" .57 at "50" and .4 at the center. Smooth the blades with 220wd and finish with 400 wd. Then mark the center and gently score it with a knife edge file. Since the parallel sides pretrim will take out more, the measurements can actually be .95, .73, .61, and .4
+
+The critical point is the "50" mark (again not sure if that's strictly 50 from the butt, 6 from the tip, or 1/4 of the blade
+*** 4.1.6b Hand Profiling
+1) Partially dry cane under lamp for 20 minutes
+2) With dividers, mark collar in bark at 30mm from each butt
+3) Score collar marks from one side of cane to other with knife edge file
+4) Place cane on easel, use a sharp heavy knife. Heavier and wider the spine the less likely it will chatter
+5) Draw it back and forth between collar marks in the center. Take center to .85mm
+6) Remove bark on either side of center strip and blend so it is even under the light. Smooth with 220WD
+7) Mark 50 from each butt, then reduce
+   1) Profile between 50mm marks down to .5
+   2) Mark 55 from butt.. Using 220WD go down to .35
+8) Smooth center portion with 220WD and entire blade with 300
+9) Add center mark and score with knife edge file
+
+Another little gem from James McKay's youtube video was a comment from Andrew Burn was that cutting in a profile is better for straight taper reed, while scraping back and forth is easier for the tip taper reed.
+
+*** 4.1.7 Dry profiled cane on dowel
+Takes about 12 hours at room temp and 6 hours in a warming oven or gas oven with pilot light, or 20 minutes under 60 watt lamp. Cane should be dry for next steps since drying causes shrinkage.
+** 4.2 Pre-trim
+*** 4.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper
+*** 4.2.2 Shape Cane
+Uses a Fox #2, Knochenhuaer shape, or Pisano #2. Make sure the cane is 120mm long so it fits. Center the cane. Use a sharp #11 blade to shape. Hold the blade handle in a fist (in case is slips into you) Cut in 2mm to 3mm chunks. Stop cutting at the narrowest point, not all the way to the butt. This is to copy the flair of the shaper onto the butt ( I think so you don't have stuff tear inside the shaper?). After getting all the way down, flip it around and do the same from the butt end. Repeat on all quadrants.
+
+Interestingly links to a way to shape without shapers. Basically making a template out of brass shim strips, and then using masking tape to cover the cane in that shape and cutting it on an easel. Certainly less accurate, but much cheaper! Probably not worth the savings though.
+*** 4.2.3 Mark collar and wire positions 2 and 3
+Use dividers for measurements. Collar is at 30mm, wire 2 is at 18mm (which I believe is about the narrowest point in the shape of a Fox 2 shaper) and wire 3 at 8mm. Use a knife-edge file if needed to enlarge the marks.
+
+Note that sometimes he did a Del Negro model with wire 1 at 29mm, or a bahn length of 27mm. Special reeds chapter for details
+** 4.3 Enhancement of the inside of the tube (Windsor Mill Process)
+Originally taught as an alternative to the sink method. It can be left out entirely if the sink method was used. Both methods were designed to minimize cracking in the tube. The windsor mill process has the added benefit of disconnecting the fibers of the tube from the blade. This allows the blades to vibrate more freely, especially at lower frequencies.
+*** 4.3.1 With compass mark the inside of the gouge 32mm from the butt end
+This would be 2mm in front of the collar
+*** 4.3.2 Pilot cut
+Measure the thickness and decrease it by .1mm (.2 in original method) but don't go thinner than 1.1mm using the smallest scraper wheel
+*** 4.3.3 Superimpose cut
+Draw a sawtooth linefrom the butt to the 32mm mark Use scraper 32 over the original until the pencil is all removed (Basically letting you know that you have gone far enough
+*** 4.3.4 Sand entire inside butt with 200 DRY and 400WD
+Smooth the transition into the blades as well
+*** 4.3.5 Define the collar
+But don't chip out the bur yet! This bur comes from profiling machine
+** 4.4 Center-panel scoring
+This way of scoring is preferred but not required if the sink method was used.
+1) Mark with dividers two marks about 5mm long on the bark parallel to the sides about 3mm from the outside.
+2) Score along that 3mm mark to the end of the butt. Just needs to break the bark. Use the exacto knife
+3) Do two more lines parallel to the first between the edge and the 3mm lines
+4) In the final 1mm press the blade through the cane
+5) Chip out the burr in front of the collar. Make sure the thickness continues exactly. Smooth with a file.
+** 4.5 Parallel-sides Pre-trim
+This preps the wings to vibrate freely as soon as the tip is cut.
+Minimum thicknesses after pre-trim
+| at collar      | .90 to .80 thick (measure 2mm in front of collar if Windsor Mill is used) |
+| at 43          | .7 to .80                                                                 |
+| at 50          | .65 to .8                                                                 |
+| at 60 (center) | .35 to .4                                                                 |
+*** 4.5.1 Mark blades and decrease thickness of profile
+1) With compass mark 43mm and 50mm from butt ends on top and underside of each blade
+2) Use heavy knife with blade at right angle to surface of cane, reduce thickness of center portion of profile from collar to 43. Should end at .80 at collar and .8 at 43.
+   - Or slope thickness so that collar is .8 and 43 is at .65. Pretrim will be lighter later
+3) If cane is especially brittle thin another .03mm
+*** 4.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge
+1) Set compass to 3mm and mark along blades from collar to reed tip
+2) Determine thickness of blades
+3) Use heavy knife, pull from collar to 50 mark ( i think this may mean start at far collar and pull towards you until you get to the 50mm mark on the far side?) Goal is sides that are around .40mm and slope upward to the 3mm marks. Ensure that the thickness at the 50mm mark of the blade, halfway between the center and the edge, doesn't go below .5mm
+*** 4.5.3 Remove mid-range bump
+Should be a ridge along the 3mm mark that parallels the shape. Gently pull the knife from the collar to the 50 mark parallel with the fibers, not the sides of the shape. This also establishes the wings
+*** 4.5.4 Pretrim
+1) With cane on easel, pull heavy knife from collar to fold and back. Start around 3mm from the edge, and gradually move towards the side to make 8 strokes
+2) Retrace the 8 stokes and keep going towards the center with 3 more strokes
+3) Repeat in each quadrant
+*** 4.5.5 Sand entire surface with 120 DRY
+Helps to smooth knife work and establish a gentle curvature from center to sides
+*** 4.5.6 Establish the wings
+Remark the 43. Using 120 DRY, sand the wing areas (in front of 43 to edge) into a thin edge, but not too thin. Also start to blend the tongue in near the tip. *Note: The tendency is take out too much cane at this stage!*
+*** 4.5.7 Eliminate pyramided fibers
+Use the heavy knife and smooth the pyramided fibers just in front of the 43 mark. The pyramided fibers prevent the low pitches from responding.
+*** 4.5.8 Sand pyramided fibers
+Use 120 dry to remove bumps from knife work and sand overall with 220WD
+*** 4.5.9 Reestablish the fold line with knife-edge file
+*** 4.5.10 Soak cane for 10 to 12 hours or until it sinks
+Maybe this would be the stage for Cooper's indefinite soaking? Not quite sure how to mesh those two together
+** 4.6 Forming and Drying
+The note here talks about beveling as not required when the flare is removed. I guess meaning that removing the flare is it's own form of beveling?
+*** 4.6.1 Fold and remove flare
+Fold the cane over. Using the #11 exacto knife, remove the flare after the second wire (confirms here that the second wire is at the narrowest point of the shape) This removes the need for beveling, but it can still be done.
+*** 4.6.2 Side-slip top blade to left at butt by 1 to 2mm
+Slides to the left, like Cooper would say. Claims that turning the forming mandrel clockwise will lessen the slip.
+*** 4.6.3 Wrap reed in twine
+This helps the tube to form evenly. Wrap from collar to butt. Make it tight, no overlaps in thread
+*** 4.6.4 Place in hot water for 20 minutes
+Heat the 10/12 mandrel in the water for the last 30 seconds
+*** 4.6.5 Insert forming mandrel
+Go straight, some cracking is almost inevitable
+*** 4.6.6 Partially unwrap string from butt and put on wire 3
+*** 4.6.7 Remove string and soak string in water
+Soaking the string will help it when it dries to hold the cane in shape
+*** 4.6.8 Mark the FFL on the blade at 38mm past wire 2
+*** 4.6.9 Put on wire 2
+*** 4.6.10 Butt molding
+Squish the butt around the mandrel on all sides
+*** 4.6.11 Center-panel molding
+Gently mold the center (not sides) of the tube between wires 2 and 3
+*** 4.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar
+This allows wire 1 to hug as much as possible
+*** 4.6.13 Narrow tip to 15mm if needed
+Can be left at 15.5mm to be narrowed later. 
+*** 4.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides
+*** 4.6.15 While reed and string are wet, put binding on reed
+Description of wrapping process:
+"... the author begins by looping the cotton string onto the upturned twist of wire III. The string is then pulled tightly and laid beside the blade side of wire III for 1-1/4 revolutions. The string is then cossed diagonally over wire III to the butt side. A string is laid down for a half-revolution beside wire III and is then brought diagonally back to the blade side for another half-revolution. When the first diagonla cross-over is reached, the string is laid just beyond and beside (not on top of) this cross-over, and returned to the butt side of wire III. The author continues this process until wire III is no longer visible. At this point, 2 complete revoluitions of string are made around the tube on the butt side of the wrapping. A third revolution overlaps the 2 and returns the string to the ball for the last diagonal cross-over. The last diagonal cross-over on teh blade side begins a single layer of tightly wrapped string around the reed tube, filling in the space between the wrapping ball and wire II. The author finishes the tube wrapping with a half-hitch, ,which is buried tightly under wire II. The string is then cut flush to wire II."
+*** 4.6.16 File butt end of reed to be flat
+*** 4.6.17 Ream with drill and file reamers
+Use tape to make sure they only go 18mm for drill and 17mm for file reamer
+*** 4.6.18 Straighten sides
+In case reaming caused the sides to slip apart, twist wire III or straighten sides with sapphire file
+*** 4.6.19 Cut reed
+Knife on cutting block, 5-inch jewellers end-nippers, or tip cutter. Cut at FFL 38mm from wire 2, or 56mm from butt
+*** 4.6.20 Adjust side-slipping
+*** 4.6.21 Clip corners of reed
+45 degree angle, no more than 1mm
+*** 4.6.22 Smooth tip edge if needed
+Use fine side of sapphire file to bring tip down to .3mm. Move with grain of the reed. Angle of file is almost parallel to blade
+*** 4.6.23 Put wire 1 and slide it 30mm from tip edge
+Fixing the bahn length at this point
+Note this could be a Del Negro model with a 27mm bahn length
+*** 4.6.24 Tune the reed
+Should blow at A 440, if it's higher, the aperture is too closed, so use pin mandrel 9 to open the tube. If it's lower, tighten wire 1
+*** 4.6.25 Apply 2 coats of glue
+20 minutes in between coats
+*** 4.6.26 Let reed dry
+48 hours naturally, 12 hours in electric oven at warming temperature, or gas oven with pilot light
+** 4.7 Final stage
+*** 4.7.1 Tighten wire 2
+Should be done on a 10/12 mandrel, but 2mm up from the forming mark. Clip wires 2 and 3 to appropriate places
+*** 4.7.2 Tighten wire 1
+Make sure bahn length is still where it should be. Claims wire shouldn't move when dry, which is against what Cooper says. But acknowleges it can't be too tight
+*** 4.7.3 Reream tube
+Both drill and file reamers. Use rattail file to clean
+*** 4.7.4 Correct side-slipping
+Uses Cooper's twisting technique aka don't glue the wrapping to the tube!
+*** 4.7.5 Straighten sides, renew corners, and polish tip edge
+Use 400WD for the tip, pinch it closed and drag it across
+** 4.8 Final Trim
+*** 4.8.1 Tip undercut omitted on this model (because it's already dark enough?)
+*** 4.8.2 Blades
+After the final trim, thicknesses should be
+30mm .90mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+
+Five double strokes at a time seems to be the goal
+
+1) With metal plaque in, use 220WD to blend tip into 43mm. Or 50mm if 43 is thin enough. This will create a V that gets smoothed out next. Count your strokes (apologies to Ben Kamins)
+2) Repeat on the sides of the blade, use the same number of strokes
+3) Without the plaque in, sand wings with 220WD. Make sure no pyramids at 43mm
+4) Without plaque, use 220WD to sand from 43 to collar, five double strokes at a time
+5) Use 400WD on both blades and polish with back
+6) Check under light and dial indicator for balance
+*** 4.8.3 Use cement or binding to reseal wire II
+*** 4.8.4 When dry, soak for three to four minutes
+Promotes capillary soaking, only up to collar. Doesn't mention how to know when it's done
+*** Finishing is in chapter 7
+** Chapter 5: Variations to the Tube
+*** Windsor Mill Process Original
+Originally used to prevent cracks from going into the blade, and as an alternative to the sink method. It also has the affect of undampening the reed linearly, making it easier to blow. The fibers vibrate more freely inside the reed because they are shorter (for they get cut off near the collar). The more cane taken out of the tube, the greater the effect. It also allows for slightly more space inside the reed. This also drops the overall pitch of the crows. It is even more noticeable the further into the blades it is done.
+
+Process:
+1) Mark 32mm from the butt on each side
+2) Make a pilot cut that decreases gouge thickness .20mm (but not less than 1.10mm) Use the smallest scraping wheel. Each stroke removes about .01mm so count strokes and measure frequently
+3) Draw a sawtooth line along the tube, then use a 32 scraper (or 1 inch) onto the original cut until the pencil is gone
+4) Sand inside with 400WD, including some transition into the blades
+*** Reverse Corona Variation
+This variation thins the sides, which allows the sides of the tube to be pulled together more. It enables the blades to bury in front of the collar more, making a rounder tube. The overall effect dampens the reed, and gives it a darker quality and rounder tube. Thus it compliments the tip taper reed more than the straight taper reed. It is done at the same point as windsor mill, after GSP, but before forming.
+
+Method:
+1) Mark the collar 30mm from the butt
+2) Using a scraper larger than the diameter of the cane (like a #40) scrape from the collar to the butt end ten times on both sides
+3) From 3 to 5mm into the blade, scrape a transitional slope to the tube following the shape (unclear if this is with the same scraper wheel or something else)
+4) Draw the same sawtooth pattern and use a 32 scraper until the pencil is gone. This reestablishes the inside diameter of the tube after step 1
+*** Four Flats with Take-out Variation
+This process takes the edges of the tube out. It leaves stronger sides than the reverse corona. The effect is to free up the vibrations of the blades, giving a brighter timbre and easily blowing reed. It is done at the same GSP point as the last variations.
+
+Method:
+1) Mark the collar at 30mm and another mark at 35mm
+2) With a sapphire file, flatten the edges of the tube and 5mm into the blades. The flat sides should be between 1 and 1.5mm wide and taper to nothing at the 5mm mark.
+3) Using a small scraper like 16 or 20, take out the bump or shoulder from the inside of the flattened edge
+4) Re-establish a 2.54mm radius (32 scraper wheel) from collar to butt. Smooth with 200 DRY and 400WD
+
+There is a figure comparing the reverse corona with the four flats and take out. Basically, the reverse corona leaves thin sides and less space inside the tube. The four flats has a stronger tube that resists being pulled together and has more space inside the tube from the take-out variation
+
+*** Tube Taper
+This is an alternative to removing the flare from the shape. This variation thins the tube, which lets wire 3 be tighter that then uses the fulcrum of wire 2 to push the tip open. It is also done at the same stage as windsor mill.
+
+Method:
+1) mark 18mm (wire 2) from butt end on inside of each side of cane
+2) Take tape measuring 9mm x 20mm x .3 or .32mm (three pieces of masking tape) at the far end of the gouger bed. This bumps the end of the cane up at an angle
+3) Re gouge from the 18mm to the butt end and drop the thickness of the butt by .4mm
+
+Note this could also be done using a 24 scraper wheel.
+Also note that if you do this, you should use a #13 mandrel since the tube is bigger at the end
+
+*** Beveling Variation
+It is required if the flare is not removed, but it can be done to any reed. (looks to be an asymmetrical bevel)
+
+Method:
+1) Use an exacto knife and start 18mm from the butt, take out the right inside edge of the tube, increasing the amount as you near the butt. The angle should be 30 degrees
+
+There is a note about the /right champfer/ that takes cane out at a 45 degree angle from the bark side. This replaces the reverse corona. Since it doesn't change the inside radius, more space is left giving the reed a deeper sound.
+
+** Chapter 6: Variations to the inside of the blades and tubes
+These variations are done on the inside of the reed, usually before profiling. An eccentric gouge is assumed with center at least 1.25mm thick
+
+*** 6.1 Linear Enhancements (LE)
+The cane on the inside of the tube is taken out from around the collar to the tip. These are dampening procedures because they create pyramided fibers inside the blades. When it is profiled, the cane towards the tip will be closer to the bark and therefore be harder than the cane closer to the collar. This means the tip can be very thin and will pop open easily. An easy example is the tip undercut of the straight taper reed. It can be used on any reed to dampen general buzziness.
+
+Since these work by pyramiding fibers, they are most effective on straight taper reeds that matches with pyramided fibers on the outside of the blades. in effect it is a double pyramidding. Conversely fluting is a double paralleling and works best on tip taper reeds
+
+**** LE 22 Reed
+This reed often had a 2mm brevis, which made his 24mm mark become now 22mm from the butt. The reason for the brevis is to use a wider part of the shaper, having wider blades and tips.
+
+Method: Done before profiling
+1) Mark 24mm, 36mm, 48mm, and 60mm from the butt ends
+2) Using a scraper that matches the inside of the tube (30, 32 or 36) scrape ten times in each direction between the 48mm marks over the center. This should reduce the thickness by .1mm in the center. *Note:* If you use a scraper that matches, you will take a little less from the sides (because of the eccentric gouge) so the sides will be from a bit softer cane after profiling. If you use a scraper that is slightly bigger you will take more from the sides and have harder cane after profiling. Softer cane means you need to take less off in the parallel side pre trim, while harder cane means you can take more out.
+3) Repeat the procedure between the 36mm marks, making it now .2 thinner in the center and .1 thinner between 36 and 48. Then repeat again between the 24s, giving the center now a total .3mm reduction.
+4) Sand the inside of the tube with 220WD. Then profile the cane
+
+Then you have to add a brevis at 3.2.2 or 4.2.2 step right after shaping. Also don't enhance the inside of the tube with any of the other processes.
+
+**** LE 43-50 (Charleston or Loonie) variation
+Essentially a smaller version of the LE 22 reed. It is easy blowing, and has a lighter sound with more overtones. Again do it before profiling
+
+Method:
+1) Mark 43 and 50 from the end
+2) Use a scraper that matches the inside of the cane and scrape between the 50 marks three times, reducing it by .05mm
+3) Repeat this between the 43mm marks
+4) Sand everything with 220WD
+
+No brevis is required. On a straight taper reed when combined with a tip undercut, you get a very flexible articulation and wide dynamic control.
+
+**** LE 22-45 variation
+This variation is designed to work with tip taper reeds (!!) but also works with straight taper reeds. A slope is created between wires 2 and 3 to the point where the outside tip taper starts on the finished reed (45mm). It gives a slightly softer tip than the LE 22 reed, but harder than a tip taper with no LE. It also uses a 2mm brevis, and again before profiling.
+
+Method:
+1) mark 24mm and 47mm from the butt end
+2) Using a scraper that matches the inside of the cane, reduce the thickness between the 47s by .2mm (about 20 in each direction)
+3) Scrape from the 47 mark to the 24mm, using less pressure as you get to the 24 mark. This should produce a slope with no reduction at 24mm to a .2mm reduction at 47mm
+4) Smooth with 220 WD
+
+Add the brevis after shaping, omit enhancing inside the tube steps
+
+*** The Dip Tip Variation
+This is kind of the opposite of the linear enhancements. The tip is going to be thicker (before profiling) than the back. This gives a hard back and a soft tip, which gives a very dampened and dark sound that excels at very soft dynamics, especially the low register (Sounds like a good tchaik 6 reed to me!) Apparently this is also like a reverse corona that extends into the blades? It should be done on a Tip Taper reed
+
+Method:
+1) You need a thicker gouge for this. Ideally 1.5mm that eccentrically is 1.25mm at the edges
+2) Skip profiling, dry the cane
+3) Pre Trim
+   1) Smooth the inside with 400WD
+   2) Shape the cane, and do a 2mm brevis
+   3) Mark collar and wire positions
+4) Mark at 28 and 45 from the ends
+5) Using a scraper that matches, scrape from the 45 mark toward the butt and stop at 28. Reduce by about .25mm
+6) Blend the shoulders into the blade area with 220WD (I think this is where it's like the reverse corona?)
+7) Profile the cane (can be done dry) Then go to WIndsor mill, as it is required for the dip tip
+*** Flute Gouge Variations
+In these variations cane si taken out paralel to the bark and generally from the center. It increases the eccentricity of the gouge, heading more towards eliptical or inverted. Flutes utilize harder cane in the spine of the reed. There are no pyramiding fibers and so no dampening. The flutes allow the blades to vibrate more freely. Skinner described it as having more direction and center. He sometimes called them resonance cuts because they also increase the space inside the reed. Resonance cuts seems to refer more to the Vivaldi reed
+**** Center flute with eccentric gouge
+This is most effective with the tip taper reed. The inside of the tube will be bigger at the tube and smaller at the blades. Don't shape the cane first!!!
+
+Method: To be done before profiling or shaping
+1) Mark 30 and 22 from the butt ends. Using a 16 or 20 scraper, reduce the thickness between the 30s by .10mm in the center. About 10 scrapes in each direction. Blend the scrapes into the tube area, but no farther than the 22 marks
+2) Remove the shoulders of the scrape with a 16 or 20 scraper or with 220WD. Blend the scrape into the sides of the tube
+3) WIth a 32 scraper, reduce the thickness of the tube area from 30  mark to the end by .1mm. This step is essentially a Windsor mill, so skip that. Or, if you keep the flare you can do a reverse corona or tube taper.
+4) Profile cane
+5) smooth and polish inside of gouge
+6) Shape cane
+7) Continue
+**** Center Flute with Inverted Gouge
+By default an inverted gouge is using a center flute variation. It is essentially the same variation but without steps 1 and 2. It is still necessary to return the tube area to the 2.54mm radius using a windor mill, reverse corona, or tube taper (not quite sure what this measn)
+**** Vivaldi reed
+This reed has weaker sides and is more open on the inside than the Center flute reed. Skinner thought it gave the depth, resonance, and responsiveness to play a Vivaldi concerto, complete with resonance cuts. He also preferred the collar to be at 29mm and blades to be 27mm long
+
+Method: Start with shaped but not profiled cane
+1) Mark 30 and 22 from each butt. With a 16 or 20 scraper, make pilot cut down the middle between the 22 marks, reducint the thickness by .15mm or .2mm (15 or 20 strokes in each direction). If the cane is hard, do another 10 strokes.
+2) Make a pencil mark down the length of the pilot cut. With a 28 scraper, remove cane until the pencil is gone
+3) With a 24 scraper, smooth the transition from 30 to 22. Sand with 220WD
+4) With a 16 or 20 scraper, add resonance cuts .10mm deep around the bahn and into the tube. Smooth ridge with 220WD
+5) Profile cane
+**** Flat or elliptical flute
+He preferred the Straight Taper reed for this. Don't profile yet!
+
+Method: Start with shaped cane
+1) With a 16 scraper, reduce thickness by .10mm from butt to butt in 2 straight ribbons, so that the outside of the ribbon touches the shape at its narrowest point
+2) Between the two 30mm marks, remove the bump in the middle of the cane with 220WD until the center of the cane is fla
+3) Return the tube to a radius of 2.54cm with WIndsor mill
+4) Profile cane
+*** The Sandboard Reed
+The purpose of this reed is to put the wings and flare at the butt all in the same plane. The result is making the sides very thin from the inside of the reed. It is best used with a tip taper profile and eccentric gouge. Skinner suspected that Knochenhauer and Del Negro did this to most of their reeds.
+
+Method: Start with shaped but not profiled cane
+1) Put 200DRY or 220WD of at least a 15cm square on a flat surface. Hole the cane gouged side down so one butt and the center of the cane are flat on the surface. The other end will be slightly elevated. Sand the butt and wing so that the shoulders created on the sides of the gouge touch each other atht the narrowest point in the shape. Repeat on the other side.
+2) With a 32 scraper, remove the border of the shoulder from the full length of the cane, and restore the tube to 2.54cm radius (replacing the Windsor mill process) OR with a 24 scraper remoe the border of the shoulder in the blade area parallel to the shape (see EDAS that follows)
+3) Profile the cane. Note, keep the flare on the shape and bevel this reed
+*** Even Down About Shape (EDAS)
+This variation could be applied to almost any tip taper reed. Opening up the inside of the blades undampens the sound. This is a simpler version of the 1001 Scheherezade Reed later. The radius of the scraper affects the sound of the reed. The larger the scraper, the more the highs in the reed will be emphasized.
+
+Method: Shape cane
+1) Mark 30mm from each end. With a 24 or larger scraper, reduce the thickness of the cane parallel to the shape from the center to just beyond the 30mm mark
+2) Remove the shoulders with 220WD
+3) Profile cane. Note Skinner preffered to keep the flare on this and use a reverse corona or tube taper
+
+I am very unsure what this actually is. Is it like a LE just in the blade area? Not sure what parallel to the shape means in this context if you start in the center...
+** Chapter 7: Variations to the Outside of the Blades (AKA Finishing)
+Process is basically voicing and troubleshooting.
+"All reeds need an inside and outside trim. After thoroughly drying the reed, I retighten the wires. Then I take the tip edge down to 0.25mm with the plaque in. Then I take the plaque out and take the wings down over the tip edge. Then I dampen it to remove cane from the spine as much as it needs from the collar to 43mm. I check the ppep first to see what it needs. This is called /tuning/ the reed. I consider this to be the final peep. If I need to dampen the reed more, I take out cane from the very edge of the reed from the collar to 23mm (53mm from the butt or 3mm from the tip edge). This drops the lows and makes them have a /direct sound./
+
+For the inside trim, I start by pulling sandpaper once in the middle [of the tip edge] and once obliquely on either side. Then, if you want to dampen more, or if you want to make the sides more flexible, do it from 43mm to the tip  edge.
+
+The only time that you touch the backbone is if the peep is too high. When you do the inside trim you raise the upper crow. The oustide trim darkens or dampens the reed."
+*** Aperture
+Aperture requirements vary from reed to reed and player to player, but all must be able to vibrate. 
+**** Size
+Center of the blades should be between 1.5mm and 2.5mm apart. Adjust using wire 1. Flattening closes, and opening opens
+**** Thickness
+Tip thickness should be around .25mm across the whole reed. To thin use either 220, 320, or 400WD or a sapphire file
+**** Dampening
+Should be partially dampened.
+*** Voicing
+He was refering to the actual pitches of the crow, and the sound that the reed produces on the instrument (resonance and presence). He tuned to the pitches based on bahn and blade lengths. He adjusted the height of wire 1 mostly to control the color of the sound, not so much the pitch. But he did use the position as the capo d'astro, borrow from the guitar. The closer the wire is to the tip, the higher the low pitch of the reed. The farther, the lower.
+**** Tuning the reed
+This is all based on a 55mm to 56mm reed, 14.5 to 15.5mm tip, collar width of 8mm to 8.75mm. (No idea how a departure from this effects the natural pitches of the reed)
+
+| Natural High Pitch of the Reed |         | Natural Low Pitch of the Reed |         |
+|--------------------------------+---------+-------------------------------+---------|
+| Blade Length                   | Pitch   | Bahn Length                   | Pitch   |
+|--------------------------------+---------+-------------------------------+---------|
+| 25mm                           | F       | 31mm                          | B       |
+| 26mm                           | E       | 30mm                          | C       |
+| 27mm                           | E flat  | 29mm                          | C sharp |
+| 28mm                           | D       | 28mm                          | D       |
+| 29mm                           | C sharp | 27mm                          | E flat  |
+(An interesting note is that Cooper thinks the high pitch should be a fifth above the low pitch, which should b an e flat. I don't see a way to get a high b flat pitch here)
+
+The high pitch is controlled by the length and density of the backbone, and is the most stable of the pitches. This should be tuned first, especially if it is too sharp.
+
+Check the pitch by peeping, which is accomplished by placing the embouchure at the collar or over wire 1. Start blowing gently, keeping embouchure pressure to a minimum, but don't try for sound. Gradually increase air pressure until there is a soft sustainable high pitch.
+
+If the peep is too high, check if the aperture is too closed. If it is open it using a #9 mandrel or by squeezing the wire from the sides. You can also scrape the backbone and on the sides of the reed from 5mm in front of collar to 43 mark.
+If the peep is too low, then too much has likely been taken out. You can try to raise it by closing the aperture, repeat tip undercut, or clip the tip.
+
+For tuning the lows, loosen the embouchure as much as possible and blow hard at the collar. These are less stable and less critical. If they are too high, check if the cane is too thick in the heart. If those are correct, remove the spine 5mm to 8mm in front of the collar and create a little window in the spine. Tread carefully here though.
+**** Adjusting the resonance
+A rounder first wire will produce a darker, more covered sound that is inside the reed. A flatter oval 1st wire will not allow as many partials through. It has more presence and sounds outside the instrument.
+**** Mechler vs Knochenhauer
+Basically says that the flattened first wire of Mechler gives him presence. His darkness comes from dampening. They were heavy on the sides and dampened at the tip (with tip undercut?) The rounder wire of Knochenhauer it doesn't carry well. It sounds good by itself, but doesn't pierce through the orchestra. It is dead in comparison.
+*** Troubleshooting: the 5 tests
+1) Low F should be free and as if it could make a continuous crescendo. Should not collapse when pushed.
+   - if it's stuffy, the aperture could be too open, tip too thick, or too much cane in the heart
+   - if it collapses, there's usually to little in the heart, so clip the tip.
+   - If it's too buzzy, cane is too heavy in the wings or tip is too heavy. Use the tip undercut if its the tip
+2) Open F and E
+   - if it can only be forced down with difficulty, should be good
+   - if it falls too easily, thickness at 50mm is too thin, clip the tip.
+   - if it can't be forced down, heart has too much cane
+3) Forked e flat without blocking
+   - if it shoots up in pitch with loud and softs, too much cane on the sides of the heart, or heart's channels
+   - If they fall,, too much is taken from the sides of the heart. Clip the tip of take some from the middle of the heart to lessen the ratio.
+4) High and lowe tonguing
+   - tonguing in high register is good but not low, then tip is too thick. if buzzy do an undercut
+   - if lows are good but highs collapse, then tip is too thin have to clip
+*** Additional test
+Pop the corners - if everything is good but low tonguing is still a little hard, pop corners by squeezing side of tube between wires 2 and 3. Hold for 5 seconds before releasing pliers. Closing wire 2 also pops the corners but effects everything else as well.
+Stuffy low D - find the sides of the wings where there is pyramiding and reduce thickness there
+** Chapter 8: Special Reeds and Processes 
