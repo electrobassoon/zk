@@ -710,3 +710,87 @@ Basically says that the flattened first wire of Mechler gives him presence. His 
 Pop the corners - if everything is good but low tonguing is still a little hard, pop corners by squeezing side of tube between wires 2 and 3. Hold for 5 seconds before releasing pliers. Closing wire 2 also pops the corners but effects everything else as well.
 Stuffy low D - find the sides of the wings where there is pyramiding and reduce thickness there
 ** Chapter 8: Special Reeds and Processes 
+Had hundreds of models, but decided to present two contrasting models with variations. Here are some reeds that are more specific models
+*** Del Negro Model
+Built onto the tip taper reed.
+Change in Bahn length, the first wire should be 27mm from the tip edge
+Use 220WD to sand down sides to be knife-edge thin, and blended at least 3mm into the spine. This is to get the crow down to a C. Also remember the wire can be rounder with a tip taper reed to lower the pitches
+*** Offset shape
+Should not do this if you are doing any gouge enhancements, as it's hard to offset the scraper wheel when crossing the middle. When you shape the cane, shape one end and then move it over .5mm before shaping the other side. This gives a wider shape. For the offset, take opposite corners off in one quadrant. This pre slips the cane by .5mm
+*** The 1001 Sheherezade Reed
+It's a radical version of EDAS, which basically creates the trim on the inside of the reed instead of the outside. This is best used with the tip taper reed, and can use the 2mm brevis. After shaping, do the four flats variation so there is a 1mm ledge. Then use a 28 30 or 32 wheel to take out the shoulder on the inside edge. Then establish the radius of 28/32 by going up to but not beyond the outside edge of the reed. Special care in the wing area. Also don't extend the new radius into the mid-range area of the blades. Smooth with 220WD. You can use 220WD for the whole process, but it is slower. Then profile as normal. Use the four flats take out for butt enhancement instead of windsor mill (I thought that's what we just did? I guess that variation isn't for the whole reed) In the final trim, collar was .80mm thick and should stay that way until the taper started 45mm from the end
+*** The 2001 Space Oddity Reed
+This is built onto the Straight Taper. and is a center flute with an inverted gouge in the blades. Mark 30 from each butt and use a 24 scraper to do a center flute of .10mm in between the 30s. Take out the shoulder by blending with a 24 or 220WD. Then profile and shape cane. Put collar at 29mm, wires at 8 and 18mm. Add a reverse corona to the tubes. In finishing make the edges knife thin to the 43mm mark.
+*** Regular Oboe Trim
+Skinner had two trims from oboe reeds.Start with 1mm gouged cane. Do a parallel profile with thickness .85mm until 44mm from the butt. Tip should be .4mm in the center tapering from 44mm. The overall length is 58mm. The key notes are forked E flat, B flat, and low D
+*** Tabuteau Trim
+This reed is 56mm long, collar in the middle at 28mm. Tip taper profile. It needs a wider shape than fox 2, like a 3 or a 2 with offset shaping. Width at wire 1 is 12mm or 12.5mm. A convex Bavarian shape is also good for this reed. Tip should be 15 to 15.5mm wide. The heart is left heavy. Tube at wire 1 is rounded, and spine from collar to 43 is taken out to compensate. Sides are thin.
+*** Keeping flare on the shape
+Not sure what is different here.
+*** Additional sink method
+Unnecessary if gouged with the sink method.
+1) Let reed dry for three days or until wires are loose again
+2) Put reed back on the 10/12 mandrel but 2mm above the mark, or if it was formed on the 11 mandrel put on the 10 mandrel for tightening. Retighten wires 2 and 3
+3) Straighten sides with sapphire file
+4) Put on wire 1 at 26mm or wherever is appropriate
+5) Soak reed until it sinks
+6) Dry for 3 more days
+7) Retighten wires
+
+There's a random comment about how the greatest friction known to man is a cylinder going onto a cone. We have the cylindrical tube going onto a conical bocal it will fit perfectly.
+** Chapter 9 A Comparison of Mechler and Knochenhauer Reeds
+Skinner used Knochenhauer collar and wire measurements for both straight and tip taper reeds. His recommended shape is also very close to Knochenhauer.
+THe main difference is the slope of the spines. Mechler reeds slope down .53mm from collar to midpoint. The Knochenhauer reeds only slope 0.18mm. Both have a similar slope from midpoint to tip edge.
+Mechler's reeds were gouged thickly because the south american cane was hard. He also made reeds with no collar.
+Sherman Walt reed is very similar to the Striaght taper model.
+Del Negro reed had oknife thin sides so the tip undercut wasn't as necessary
+The main differences between Skinner's Walt and Del models is the placement of wire 1 and the profile. He used a brevis on the tip taper reed
+Using the four flats, or even down around shape seemed to help the overtones of the tip taper reeds
+
+
+| Comparison of Mechler and Knochenhauer Reeds      | Mechler Model | Mechler Average | Knochenhauer Model | Knochenhauer Average |
+|---------------------------------------------------+---------------+-----------------+--------------------+----------------------|
+| Length                                            |          59mm |                 |               56mm |                      |
+| Collar position                                   |            31 |                 |                 30 |                      |
+| Wire 1                                            |            30 |                 |                 26 |                      |
+| Wire 2                                            |            22 |                 |                 20 |                      |
+| Width of tip                                      |            14 |                 |                 16 |                      |
+| Width at collar                                   |             8 |                 |                9.5 |                      |
+| Width at wire 1                                   |             8 |                 |                  8 |                      |
+| Width at wire 2                                   |             7 |                 |                  7 |                      |
+| BLADE LENGTH                                      |         28(D) |                 |              26(E) |                      |
+| BAHN LENGTH                                       |        29(C#) |                 |              30(C) |                      |
+| THICKNESS                                         |               |                 |                    |                      |
+| Collar                                            |          1.09 |           1.055 |               0.75 |                0.747 |
+| 35 from butt                                      |          0.95 |           0.836 |               0.69 |                0.663 |
+| 43mm (blade midpoint on Knochenhauer              |          0.62 |            0.65 |               0.57 |                0.586 |
+| 45mm (blade midpoint on Mechler                   |          0.56 |            0.54 |                    |                      |
+| 50mm (6mm from tip on Knochenhauer                |          0.47 |           0.527 |               0.45 |                0.444 |
+| 53mm (6mm from tip on Mechler                     |          0.36 |           0.465 |                    |                      |
+| tip edge (estimated)                              |          0.25 |            0.25 |               0.25 |                 0.25 |
+| Slope of spines from collar to midpoint of blades |         -0.53 |                 |              -0.18 |                      |
+| Slope of spines from midpoint to tip edge         |         -0.31 |                 |              -0.32 |                      |
+
+| Comparison of Straight Taper and Tip Taper |                           |                           |
+| Characteristic                             | Straight Taper Walt Model | Tip Taper Del Negro Model |
+|--------------------------------------------+---------------------------+---------------------------|
+| Length                                     |                      56mm |                      56mm |
+| Collar Position                            |                        30 |                        30 |
+| Wire 1                                     |                        26 |                        29 |
+| Wire 2                                     |                        18 |                        18 |
+| Width of tip                               |                        15 |                        15 |
+| Width at collar                            |                         8 |                         8 |
+| Width at wire 1                            |                       7.5 |                         7 |
+| Width at wire 2                            |                         7 |                         7 |
+| Width at butt                              |                         7 |                         7 |
+| BLADE LENGTH                               |                     26(E) |                     26(E) |
+| BAHN LENGTH                                |                     30(C) |                    27(Eb) |
+| Thickness                                  |                           |                           |
+| collar                                     |                 0.90/0.88 |                   0.8/0.8 |
+| 35mm                                       |                   0.7/0.7 |                 0.76/0.76 |
+| 43mm                                       |                 0.66/0.62 |                 0.65/0.64 |
+| 50mm                                       |                  0.5/0.48 |                 0.51/0.51 |
+| tip                                        |                 0.25/0.25 |                 0.25/0.25 |
+| slope from collar to midpoint              |                 0.24/0.26 |                 0.15/0.15 |
+* Chapter 10 The Contrabassoon Reed
+May come back to if it's ever needed
