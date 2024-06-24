@@ -1,0 +1,3082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-06-24 Mon 16:19 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>mckay93_bassoon_reed_manual</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">mckay93_bassoon_reed_manual</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgc88e7b9">The Bassoon Reed Manual</a></li>
+<li><a href="#orge66afbc">Chapter 1 Theoretical Principles and Concepts</a>
+<ul>
+<li><a href="#org7c18bdf">Terms</a></li>
+<li><a href="#org432eb59">Two basic reeds</a></li>
+<li><a href="#org9de26f9">Linear and Horizontal Dampening</a></li>
+<li><a href="#orgbaf8901">Pyramiding fibers</a></li>
+<li><a href="#org75e51ed">Wires</a></li>
+<li><a href="#orgf1d21ba">Crow</a></li>
+<li><a href="#org39156a6">Size of the reed</a></li>
+<li><a href="#orge4fb219">56mm reeds</a></li>
+<li><a href="#org61fd9d6">FFL of Reeds</a></li>
+<li><a href="#org6a08f25">Wire 2 as fulcrum</a></li>
+<li><a href="#org958376b">Wire 1 as tuning</a></li>
+<li><a href="#org8bb43d4">Fundamental pitch of the reed</a></li>
+<li><a href="#org9cf2d2d">Table of Natural pitches of the crow with respect to blade and bahn length</a></li>
+<li><a href="#org75e39b1">Apertures</a></li>
+<li><a href="#org31b8380">Reed Pitch</a></li>
+<li><a href="#org6233b08">Resiliency of Cane and Fibers</a></li>
+<li><a href="#orgcbdd09c">Gouges</a></li>
+<li><a href="#org12e3282">Aperture, Trim, and Voicing</a></li>
+<li><a href="#org33f5d8d">Two styles with Bright and Dark</a>
+<ul>
+<li><a href="#org1a2da0b">Straight Taper Reed</a></li>
+<li><a href="#org040bfaa">Tip Taper Reed</a></li>
+</ul>
+</li>
+<li><a href="#orgbe6175d">Definition of bright and dark</a></li>
+</ul>
+</li>
+<li><a href="#orgcaed275">Chapter 2 Essentail Tools for Reed Making</a>
+<ul>
+<li><a href="#org60cfaa6">Scraping Wheels</a></li>
+<li><a href="#orgc4a9648">Pin Mandrels</a></li>
+<li><a href="#orgec302a4">Reamers</a></li>
+<li><a href="#org1b80045">Shapers</a></li>
+<li><a href="#orgdc2e744">Knives and Plaques</a></li>
+<li><a href="#org8b2b85d">Files and Sandpaper</a></li>
+<li><a href="#orgb579077">Pliers and End-nipper</a></li>
+<li><a href="#orgfca7324">Rulers, Dividers, and Compasses</a></li>
+<li><a href="#org281e983">Wire String and Glue</a></li>
+<li><a href="#org17d5d8a">Other tools</a></li>
+</ul>
+</li>
+<li><a href="#org83c05ba">Chapter 3: The Straight Taper Reed: Lou Skinner's Interpretation of Carl Mechler's Reed</a>
+<ul>
+<li><a href="#orgc7b5ebb">3.1 Preparation of Tubes, Gouging, and Profiling</a>
+<ul>
+<li><a href="#orgc2e179d">3.1.1 Split the Cane</a></li>
+<li><a href="#org293b277">3.1.2 Soak the cane (the sink method)</a></li>
+<li><a href="#org271cb1d">3.1.3 Cut the cane</a></li>
+<li><a href="#org4f4bddc">3.1.4 Cut off sharp edges (fillier)</a></li>
+<li><a href="#org5bd3fe8">3.1.5 Gouge the cane</a></li>
+<li><a href="#org13f6e8a">3.1.5a Dry cane on 1 1/4inch dowel for two to three days</a></li>
+<li><a href="#org39a1804">3.1.5b Soak cane again and dry again</a></li>
+<li><a href="#orgd40aa43">3.1.6 Profile cane</a></li>
+<li><a href="#org1f8ff86">3.1.7 Dry profiled cane on dowel</a></li>
+</ul>
+</li>
+<li><a href="#org54bc975">3.2 Pre-trim</a>
+<ul>
+<li><a href="#org19b671a">3.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper</a></li>
+<li><a href="#org3f6fcbf">3.2.2 Shape Cane</a></li>
+<li><a href="#orgc5ec233">3.2.3 Mark collar and wire positions 2 and 3</a></li>
+</ul>
+</li>
+<li><a href="#org7dad56b">3.3 Enhancement of the inside of the tube (Windsor Mill Process)</a>
+<ul>
+<li><a href="#orgf1ac186">3.3.1 With compass mark the inside of the gouge 32mm from the butt end</a></li>
+<li><a href="#orgd22ed66">3.3.2 Pilot cut</a></li>
+<li><a href="#orgfdd5a80">3.3.3 Superimpose cut</a></li>
+<li><a href="#orgdf31384">3.3.4 Sand entire inside butt with 200 DRY and 400WD</a></li>
+<li><a href="#org7a646ea">3.3.5 Define the collar</a></li>
+</ul>
+</li>
+<li><a href="#org7f3db93">3.4 Center-panel scoring</a></li>
+<li><a href="#orgace798f">3.5 Parallel-sides Pre-trim</a>
+<ul>
+<li><a href="#org0fe28d9">3.5.1 Mark blades and decrease thickness of profile</a></li>
+<li><a href="#org8598646">3.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge</a></li>
+<li><a href="#orgd941c41">3.5.3 Remove mid-range bump</a></li>
+<li><a href="#orgd3e9389">3.5.4 Pretrim</a></li>
+<li><a href="#orgbe6b38b">3.5.5 Sand entire surface with 120 DRY</a></li>
+<li><a href="#orgaac414f">3.5.6 Establish the wings</a></li>
+<li><a href="#org228234a">3.5.7 Eliminate pyramided fibers</a></li>
+<li><a href="#org62a5b31">3.5.8 Sand pyramided fibers</a></li>
+<li><a href="#org4478127">3.5.9 Reestablish the fold line with knife-edge file</a></li>
+<li><a href="#orgfa8b63b">3.5.10 Soak cane for 10 to 12 hours or until it sinks</a></li>
+</ul>
+</li>
+<li><a href="#org2863a60">3.6 Forming and Drying</a>
+<ul>
+<li><a href="#org833918a">3.6.1 Fold and remove flare</a></li>
+<li><a href="#org8d7b3db">3.6.2 Side-slip top blade to left at butt by 1 to 2mm</a></li>
+<li><a href="#orgb654343">3.6.3 Wrap reed in twine</a></li>
+<li><a href="#org1eb5ce9">3.6.4 Place in hot water for 20 minutes</a></li>
+<li><a href="#org519b3e0">3.6.5 Insert forming mandrel</a></li>
+<li><a href="#orgd78920e">3.6.6 Partially unwrap string from butt and put on wire 3</a></li>
+<li><a href="#org20fec8f">3.6.7 Remove string and soak string in water</a></li>
+<li><a href="#org9819790">3.6.8 Mark the FFL on the blade at 38mm past wire 2</a></li>
+<li><a href="#orgf6bdfa6">3.6.9 Put on wire 2</a></li>
+<li><a href="#org976b733">3.6.10 Butt molding</a></li>
+<li><a href="#org7e7d2b0">3.6.11 Center-panel molding</a></li>
+<li><a href="#org33c8381">3.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar</a></li>
+<li><a href="#orgff7a940">3.6.13 Narrow tip to 15mm if needed</a></li>
+<li><a href="#org98100f6">3.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides</a></li>
+<li><a href="#org0fcea66">3.6.15 While reed and string are wet, put binding on reed</a></li>
+<li><a href="#orgf672ab6">3.6.16 File butt end of reed to be flat</a></li>
+<li><a href="#org1280476">3.6.17 Ream with drill and file reamers</a></li>
+<li><a href="#org4d116e8">3.6.18 Straighten sides</a></li>
+<li><a href="#org51396fa">3.6.19 Cut reed</a></li>
+<li><a href="#org819e21d">3.6.20 Adjust side-slipping</a></li>
+<li><a href="#orgdf9b5a3">3.6.21 Clip corners of reed</a></li>
+<li><a href="#orgcca487f">3.6.22 Smooth tip edge if needed</a></li>
+<li><a href="#org43fba70">3.6.23 Put wire 1 and slide it 30mm from tip edge</a></li>
+<li><a href="#orgc1a1504">3.6.24 Tune the reed</a></li>
+<li><a href="#org19fc0d7">3.6.25 Apply 2 coats of glue</a></li>
+<li><a href="#orgd393875">3.6.26 Let reed dry</a></li>
+</ul>
+</li>
+<li><a href="#org1bedc3f">3.7 Final stage</a>
+<ul>
+<li><a href="#org59afff8">3.7.1 Tighten wire 2</a></li>
+<li><a href="#org591fe87">3.7.2 Tighten wire 1</a></li>
+<li><a href="#orgf048846">3.7.3 Reream tube</a></li>
+<li><a href="#org62a5a3c">3.7.4 Correct side-slipping</a></li>
+<li><a href="#org675ed0f">3.7.5 Straighten sides, renew corners, and polish tip edge</a></li>
+</ul>
+</li>
+<li><a href="#orga7a2caa">3.8 Final Trim</a>
+<ul>
+<li><a href="#orgf1af96e">3.8.1 Tip undercut</a></li>
+<li><a href="#orgda0908e">3.8.2 Blades</a></li>
+<li><a href="#orga8a3278">3.8.3 Use cement or binding to reseal wire II</a></li>
+<li><a href="#orga031fa1">3.8.4 When dry, soak for three to four minutes</a></li>
+<li><a href="#org14842e6">Finishing is in chapter 7</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org80ebcdc">Chapter 4: The Tip Taper Reed: Lou Skinner's Interpretation of Wilhelm Knochenhauer's Reed</a>
+<ul>
+<li><a href="#org041db62">4.1 Preparation of Tubes, Gouging, and Profiling</a>
+<ul>
+<li><a href="#org38be7a4">4.1.1 Split the Cane</a></li>
+<li><a href="#orgb45bd70">4.1.2 Soak the cane (the sink method)</a></li>
+<li><a href="#orgf84518d">4.1.3 Cut the cane</a></li>
+<li><a href="#org3bd7a4d">4.1.4 Cut off sharp edges (fillier)</a></li>
+<li><a href="#org8f76bc1">4.1.5 Gouge the cane</a></li>
+<li><a href="#org83c07a3">4.1.5a Dry cane on 1 1/4inch dowel for two to three days</a></li>
+<li><a href="#org4a0a02a">4.1.5b Soak cane again and dry again</a></li>
+<li><a href="#orgbc67483">4.1.6 Profile cane</a></li>
+<li><a href="#orgfafb39a">4.1.6b Hand Profiling</a></li>
+<li><a href="#orgafa736b">4.1.7 Dry profiled cane on dowel</a></li>
+</ul>
+</li>
+<li><a href="#orgdd90078">4.2 Pre-trim</a>
+<ul>
+<li><a href="#orga34f497">4.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper</a></li>
+<li><a href="#orge15272c">4.2.2 Shape Cane</a></li>
+<li><a href="#org107905e">4.2.3 Mark collar and wire positions 2 and 3</a></li>
+</ul>
+</li>
+<li><a href="#org239edd7">4.3 Enhancement of the inside of the tube (Windsor Mill Process)</a>
+<ul>
+<li><a href="#org09acdf9">4.3.1 With compass mark the inside of the gouge 32mm from the butt end</a></li>
+<li><a href="#org6b7d27e">4.3.2 Pilot cut</a></li>
+<li><a href="#orgf096b1c">4.3.3 Superimpose cut</a></li>
+<li><a href="#org46384cb">4.3.4 Sand entire inside butt with 200 DRY and 400WD</a></li>
+<li><a href="#orgcb54b84">4.3.5 Define the collar</a></li>
+</ul>
+</li>
+<li><a href="#orgc09059b">4.4 Center-panel scoring</a></li>
+<li><a href="#orge845693">4.5 Parallel-sides Pre-trim</a>
+<ul>
+<li><a href="#org51df2e2">4.5.1 Mark blades and decrease thickness of profile</a></li>
+<li><a href="#orgb84f469">4.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge</a></li>
+<li><a href="#orgf654927">4.5.3 Remove mid-range bump</a></li>
+<li><a href="#org61b2658">4.5.4 Pretrim</a></li>
+<li><a href="#org404583a">4.5.5 Sand entire surface with 120 DRY</a></li>
+<li><a href="#org47ff130">4.5.6 Establish the wings</a></li>
+<li><a href="#org42b44aa">4.5.7 Eliminate pyramided fibers</a></li>
+<li><a href="#orga71b733">4.5.8 Sand pyramided fibers</a></li>
+<li><a href="#orgb861664">4.5.9 Reestablish the fold line with knife-edge file</a></li>
+<li><a href="#org7566760">4.5.10 Soak cane for 10 to 12 hours or until it sinks</a></li>
+</ul>
+</li>
+<li><a href="#org8b9ca02">4.6 Forming and Drying</a>
+<ul>
+<li><a href="#org8f4d737">4.6.1 Fold and remove flare</a></li>
+<li><a href="#orgcc48148">4.6.2 Side-slip top blade to left at butt by 1 to 2mm</a></li>
+<li><a href="#org8154b36">4.6.3 Wrap reed in twine</a></li>
+<li><a href="#org4298a44">4.6.4 Place in hot water for 20 minutes</a></li>
+<li><a href="#org510ab3a">4.6.5 Insert forming mandrel</a></li>
+<li><a href="#org09882a6">4.6.6 Partially unwrap string from butt and put on wire 3</a></li>
+<li><a href="#org9eafaea">4.6.7 Remove string and soak string in water</a></li>
+<li><a href="#org2bb7826">4.6.8 Mark the FFL on the blade at 38mm past wire 2</a></li>
+<li><a href="#org46b21ef">4.6.9 Put on wire 2</a></li>
+<li><a href="#org26ead7b">4.6.10 Butt molding</a></li>
+<li><a href="#org8ea29ec">4.6.11 Center-panel molding</a></li>
+<li><a href="#orgb76462e">4.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar</a></li>
+<li><a href="#org81f22f9">4.6.13 Narrow tip to 15mm if needed</a></li>
+<li><a href="#orgede147e">4.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides</a></li>
+<li><a href="#org2980112">4.6.15 While reed and string are wet, put binding on reed</a></li>
+<li><a href="#org9634ccb">4.6.16 File butt end of reed to be flat</a></li>
+<li><a href="#orgbce0787">4.6.17 Ream with drill and file reamers</a></li>
+<li><a href="#orgb822e40">4.6.18 Straighten sides</a></li>
+<li><a href="#orgf63c7de">4.6.19 Cut reed</a></li>
+<li><a href="#org5684778">4.6.20 Adjust side-slipping</a></li>
+<li><a href="#orgede0969">4.6.21 Clip corners of reed</a></li>
+<li><a href="#org185883b">4.6.22 Smooth tip edge if needed</a></li>
+<li><a href="#orgb541bc8">4.6.23 Put wire 1 and slide it 30mm from tip edge</a></li>
+<li><a href="#org4688b04">4.6.24 Tune the reed</a></li>
+<li><a href="#org95770a8">4.6.25 Apply 2 coats of glue</a></li>
+<li><a href="#orgafd0945">4.6.26 Let reed dry</a></li>
+</ul>
+</li>
+<li><a href="#orga64f095">4.7 Final stage</a>
+<ul>
+<li><a href="#org49c1ca8">4.7.1 Tighten wire 2</a></li>
+<li><a href="#orgc389450">4.7.2 Tighten wire 1</a></li>
+<li><a href="#org788859c">4.7.3 Reream tube</a></li>
+<li><a href="#orge6c0e2e">4.7.4 Correct side-slipping</a></li>
+<li><a href="#orgabdcaa9">4.7.5 Straighten sides, renew corners, and polish tip edge</a></li>
+</ul>
+</li>
+<li><a href="#orgccb7e0a">4.8 Final Trim</a>
+<ul>
+<li><a href="#org06f0652">4.8.1 Tip undercut omitted on this model (because it's already dark enough?)</a></li>
+<li><a href="#org00b1984">4.8.2 Blades</a></li>
+<li><a href="#org89f16f6">4.8.3 Use cement or binding to reseal wire II</a></li>
+<li><a href="#org9122acc">4.8.4 When dry, soak for three to four minutes</a></li>
+<li><a href="#org92f6128">Finishing is in chapter 7</a></li>
+</ul>
+</li>
+<li><a href="#orgb24892e">Chapter 5: Variations to the Tube</a>
+<ul>
+<li><a href="#orgdd1c163">Windsor Mill Process Original</a></li>
+<li><a href="#org0f010d6">Reverse Corona Variation</a></li>
+<li><a href="#orge7ec579">Four Flats with Take-out Variation</a></li>
+<li><a href="#orga7449d6">Tube Taper</a></li>
+<li><a href="#org47c44de">Beveling Variation</a></li>
+</ul>
+</li>
+<li><a href="#orgd915de6">Chapter 6: Variations to the inside of the blades and tubes</a>
+<ul>
+<li><a href="#org3f7c8bf">6.1 Linear Enhancements (LE)</a></li>
+<li><a href="#org50e3988">The Dip Tip Variation</a></li>
+<li><a href="#orgda4b173">Flute Gouge Variations</a></li>
+<li><a href="#orgf564dcd">The Sandboard Reed</a></li>
+<li><a href="#org739126d">Even Down About Shape (EDAS)</a></li>
+</ul>
+</li>
+<li><a href="#org77f7b9a">Chapter 7: Variations to the Outside of the Blades (AKA Finishing)</a>
+<ul>
+<li><a href="#org35179f2">Aperture</a></li>
+<li><a href="#orgac2660a">Voicing</a></li>
+<li><a href="#org8a19b1e">Troubleshooting: the 5 tests</a></li>
+<li><a href="#org55345c7">Additional test</a></li>
+</ul>
+</li>
+<li><a href="#orge91c916">Chapter 8: Special Reeds and Processes</a>
+<ul>
+<li><a href="#orgf6955f9">Del Negro Model</a></li>
+<li><a href="#org105c026">Offset shape</a></li>
+<li><a href="#org49d6780">The 1001 Sheherezade Reed</a></li>
+<li><a href="#orgd205a41">The 2001 Space Oddity Reed</a></li>
+<li><a href="#org55b2882">Regular Oboe Trim</a></li>
+<li><a href="#orgbca9f73">Tabuteau Trim</a></li>
+<li><a href="#orga15fe5c">Keeping flare on the shape</a></li>
+<li><a href="#orga57ea4c">Additional sink method</a></li>
+</ul>
+</li>
+<li><a href="#org785ee7b">Chapter 9 A Comparison of Mechler and Knochenhauer Reeds</a></li>
+</ul>
+</li>
+<li><a href="#orgc84ef41">Chapter 10 The Contrabassoon Reed</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc88e7b9" class="outline-2">
+<h2 id="orgc88e7b9">The Bassoon Reed Manual</h2>
+</div>
+<div id="outline-container-orge66afbc" class="outline-2">
+<h2 id="orge66afbc">Chapter 1 Theoretical Principles and Concepts</h2>
+<div class="outline-text-2" id="text-orge66afbc">
+</div>
+<div id="outline-container-org7c18bdf" class="outline-3">
+<h3 id="org7c18bdf">Terms</h3>
+<div class="outline-text-3" id="text-org7c18bdf">
+<p>
+From figure 1.1 on page 4
+</p>
+
+<dl class="org-dl">
+<dt>Blade Length</dt><dd>Length from tip edge to collar</dd>
+<dt>Bahn Length</dt><dd>Tip edge to front of first wire</dd>
+<dt>Full Fundamental Length</dt><dd>Tip to front of second wire</dd>
+<dt>Capo D Astro</dt><dd>Wire 1</dd>
+<dt>Fulcrum</dt><dd>Wire 2</dd>
+<dt>50mm</dt><dd>6 mm behind the tip, also about 1/4 down the blade (not sure what is the more important observation)</dd>
+<dt>43mm</dt><dd>The midpoint of the blade, or 13mm from the tip (I think the midpoint of the blade is more important</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org432eb59" class="outline-3">
+<h3 id="org432eb59">Two basic reeds</h3>
+<div class="outline-text-3" id="text-org432eb59">
+<p>
+page 3
+</p>
+<ol class="org-ol">
+<li>Carl Mechler style reed, or the straight taper reed. It is primarily linearly dampened, which means the greatest degree of dampening, or closing of the aperture by the embouchure, is done longitudinally — meaning along the direction of the fibers, from the collar to the tip edge.</li>
+<li>Wilhelm Knockenhauer style reed, or the tip taper reed. It is primarily laterally or horizontally dampened. This means the greatest dampening is achieved across the direction of the fibers from side to side.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org9de26f9" class="outline-3">
+<h3 id="org9de26f9">Linear and Horizontal Dampening</h3>
+<div class="outline-text-3" id="text-org9de26f9">
+<p>
+page 3
+Generally, changes to the inside of the blades are linear dampening, and changes to the outside of the blades are horizontal dampening. Both reeds have HD, but apparently only straight taper reeds have LD.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbaf8901" class="outline-3">
+<h3 id="orgbaf8901">Pyramiding fibers</h3>
+<div class="outline-text-3" id="text-orgbaf8901">
+<p>
+page 3
+Dampening can also be done by having a slope through the layers of fibres. This sloping can be inside or outside the reed. The tip undercut creates dampening through pyramiding fibers inside the reed
+</p>
+</div>
+</div>
+<div id="outline-container-org75e51ed" class="outline-3">
+<h3 id="org75e51ed">Wires</h3>
+<div class="outline-text-3" id="text-org75e51ed">
+<p>
+page 4
+Dampening can also be controlled by wires. Tightening wire 1 will dampen the reed. Making the tube rounder will also dampen the reed.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf1d21ba" class="outline-3">
+<h3 id="orgf1d21ba">Crow</h3>
+<div class="outline-text-3" id="text-orgf1d21ba">
+<p>
+page 4
+The natural sound of the reed is determined by the crow. It has three pitches, an upper pitch and two lower pitches that are an octave apart. The blade and bahn lengths determine these pitches. To drop the upper pitch take cane from the spine. To drop the lower pitches take from the sides from the collar to blade midpoint.
+</p>
+</div>
+</div>
+<div id="outline-container-org39156a6" class="outline-3">
+<h3 id="org39156a6">Size of the reed</h3>
+<div class="outline-text-3" id="text-org39156a6">
+<p>
+page 4
+The size of the reed is determined by several factors:
+</p>
+<ol class="org-ol">
+<li>The pitch the instrument was built for</li>
+<li>The bocal</li>
+<li>The orchestral pitch required</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge4fb219" class="outline-3">
+<h3 id="orge4fb219">56mm reeds</h3>
+<div class="outline-text-3" id="text-orge4fb219">
+<p>
+page 5
+Always assumed a 56mm reed. He also expected a bahn length of 30mm to produce a C as the natural pitch. If the bassoon plays flat, then you can go to 55mm. It seems 54 and 57 were not options.
+</p>
+</div>
+</div>
+<div id="outline-container-org61fd9d6" class="outline-3">
+<h3 id="org61fd9d6">FFL of Reeds</h3>
+<div class="outline-text-3" id="text-org61fd9d6">
+<p>
+page 5
+To raise the pitch of the reed, the FFL needs to be shortened (this usually means clipping the tip, although I suppose moving wire 2 closer to the tip would also accomplish this) In the context of clipping the tip, this means the bahn length has been shortened, which raises the pitch of the fundamental (not sure what happens if you shorten the FFL but keep the Bahn length the same) If the reed has a very short FFL (blades shorter than 25mm and natural pitches higher than F) cannot be tuned with wire 1. The capo d'astro is not needed, so the first wire should be loose and not tightened. (This aligns with Cooper's statement about the first wire of short blade reeds)
+</p>
+</div>
+</div>
+<div id="outline-container-org6a08f25" class="outline-3">
+<h3 id="org6a08f25">Wire 2 as fulcrum</h3>
+<div class="outline-text-3" id="text-org6a08f25">
+<p>
+page 5
+Wire 2 is the fulcrum. If you make the tube smaller by taking off the flare of the shape or a tube taper (which is a thinner gouge starting at the second wire I think) will cause the aperture to stay open instead of closing with playing. ( I wonder if the tube taper acts as a short bevel from Herzberg's terminology. I think in both cases the principle is a smaller tube at the back that pushes the tip open) Leaving the flare makes the tube larger and thus creates smaller tip openings (Herzbreg would say this is because of a long bevel and not the flare? Or the short bevel is a way to keep the benefits of the flare without the closing aperture?)
+</p>
+</div>
+</div>
+<div id="outline-container-org958376b" class="outline-3">
+<h3 id="org958376b">Wire 1 as tuning</h3>
+<div class="outline-text-3" id="text-org958376b">
+<p>
+page 5
+Tightening wire 1 raises the pitch fresh after clipping. Opening the wire with a #9 mandrel lowers the pitch
+</p>
+</div>
+</div>
+<div id="outline-container-org8bb43d4" class="outline-3">
+<h3 id="org8bb43d4">Fundamental pitch of the reed</h3>
+<div class="outline-text-3" id="text-org8bb43d4">
+<p>
+page 5
+The reed has a fundamental pitch that must be made compatible with the fundamental pitch of the instrument. Embouchure or air pressure changes this. (I'm guessing you can also alter the fundamental pitch of the reed if you know your instrument is extra sharp or flat) High pitches can be adjusted by the point of embouchure. The pitch is goverened by:
+</p>
+<ol class="org-ol">
+<li>Overall dimensions of the reed</li>
+<li>Elevation of wires 1 and 2, which determine the depth of the air chamber inside the reed</li>
+<li>The size of the blades</li>
+<li>Placement of the wires <b>with respect to the tip edge</b></li>
+<li>Capo d'astro effect of wire 1</li>
+<li>Aperture of the reed. Closer tip edges are faster and therefore higher in pitch</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org9cf2d2d" class="outline-3">
+<h3 id="org9cf2d2d">Table of Natural pitches of the crow with respect to blade and bahn length</h3>
+<div class="outline-text-3" id="text-org9cf2d2d">
+<p>
+page 6
+This assumes a reed that is 8.75mm wide at the collar, and 14.5 to 15.5mm at the tip
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Highs/Lows</th>
+<th scope="col" class="org-left">Blade Length</th>
+<th scope="col" class="org-left">Bahn Length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">F/C</td>
+<td class="org-left">25mm</td>
+<td class="org-left">30mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/C</td>
+<td class="org-left">26mm</td>
+<td class="org-left">30mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E flat/C</td>
+<td class="org-left">27mm</td>
+<td class="org-left">30mm</td>
+</tr>
+
+<tr>
+<td class="org-left">D/C</td>
+<td class="org-left">28mm</td>
+<td class="org-left">30mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/E flat</td>
+<td class="org-left">26mm</td>
+<td class="org-left">27mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/D</td>
+<td class="org-left">26mm</td>
+<td class="org-left">28mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/C Sharp</td>
+<td class="org-left">26mm</td>
+<td class="org-left">29mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/C</td>
+<td class="org-left">26mm</td>
+<td class="org-left">30mm</td>
+</tr>
+
+<tr>
+<td class="org-left">E/B</td>
+<td class="org-left">26mm</td>
+<td class="org-left">31mm</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org75e39b1" class="outline-3">
+<h3 id="org75e39b1">Apertures</h3>
+<div class="outline-text-3" id="text-org75e39b1">
+<p>
+page 7
+Two types of apertures, dampened and undampened. By using embouchure pressure, the most open is low F and below. There up to high C is half opened, and above that is nearly closed. This uses just the center of the reed (esp in dampened apertures) The player is dampening out the mid and low register areas of the blades
+</p>
+</div>
+</div>
+<div id="outline-container-org31b8380" class="outline-3">
+<h3 id="org31b8380">Reed Pitch</h3>
+<div class="outline-text-3" id="text-org31b8380">
+<p>
+page 7
+The highs are controlled by the length and density of the backbone. It is the most stable of the crow pitches. The low pitch is controlled by the width, length, and density of the wings. The mid range is controlled by what is in between. This can cause the lows to vary in pitch ("No Man's Land") The capo d'astro effect applies to all of the pitches of the reed. Tip taper reeds have very thin edges at the back to get the low pitches low enough. Skinner's model has a 26mm blade length and 27mm bahn length (wire 1 is very close to the collar) which made an E/E Flat pitch. No Man's Land was reduced to get the second pitch down to an acceptable B or C. (This hasn't worked for me yet btw, but maybe I'm doing it wrong)
+</p>
+</div>
+</div>
+<div id="outline-container-org6233b08" class="outline-3">
+<h3 id="org6233b08">Resiliency of Cane and Fibers</h3>
+<div class="outline-text-3" id="text-org6233b08">
+<p>
+page 8
+There are two types of fibers: pyramided fibers that are resistant to vibration (hence the darkening of the tip undercut) and parallel fibers that like to vibrate. Also less resilient. 
+</p>
+
+<p>
+In a tip taper reed, there are lots of pyramided fibers closer to the tip with parallel fibers in the back of the reed. Resistance to vibration is more in the tip of the reed. Straight taper reeds tend to be pyramided more evenly from collar to tip, this makes the resistance more or less evenly distributed over the blades.
+</p>
+
+<p>
+The larger the diameter of the original cane, the weaker the resiliency. The converse is true as well. The resiliency determines the correct size of the aperture
+</p>
+</div>
+</div>
+<div id="outline-container-orgcbdd09c" class="outline-3">
+<h3 id="orgcbdd09c">Gouges</h3>
+<div class="outline-text-3" id="text-orgcbdd09c">
+<p>
+page 9
+There are two types: Concentric and Eccentric, with many variations between them. Eccentric takes more cane out of the sides of the gouge. The greater the eccentricity, the less the resiliency because of thinner wings and mid-range areas. The concentric gouge also has less resiliency the thinner it is gouged. The gouge affects the sound of the reed because it determines the size of the air space inside the reed. Eccentric gouges have smaller insides. Thus there is less depth. However, it gives a harder outline (silhouette) to the sound. The lows of the reed are in the harder texture of the cane because of the thinner sides from gouging. The concentric gouge has the sides at the same hardness as the highs, so the sound is more homogenous. McKay says the preferred gouge for a tip taper reed is concentric ( I guess because so much is taken from the sides of the cane to lower the pitch that you need the softer sides? Or could be that the harder edge isn't needed because of the parallel fibers in the back? Not sure) while the straight taper reed should be eccentric. (I believe that Cooper likes some eccentricity in his tip taper reeds)
+</p>
+</div>
+</div>
+<div id="outline-container-org12e3282" class="outline-3">
+<h3 id="org12e3282">Aperture, Trim, and Voicing</h3>
+<div class="outline-text-3" id="text-org12e3282">
+<p>
+page 10
+Can enhance the linear resiliency by:
+</p>
+<ol class="org-ol">
+<li>Fulcrum setting (the wire placements and elevations)</li>
+<li>Shape (the built-in cone)</li>
+<li>Inner (linear) enhancements to the gouge and the texture of the tip, and length of the support. (like the tip undercut pyramiding the inside of the tip edge</li>
+</ol>
+
+<p>
+If the embouchure is at the back of the reed near the collar, than the wings need to be longer. That weakens the aperture so that it is sensitive to a much lighter pressure of the embouchure. If the embouchure is towards the tip, then the wings should be shorter and a stronger embouchure is used.
+</p>
+
+<p>
+For a darker sound, move the embouchure closer to the collar and make the blades longer. For a brighter sound with similar placement, shorten the blades. Another way to say this is brighter sounds are embouchures closer to the tip
+</p>
+</div>
+</div>
+<div id="outline-container-org33f5d8d" class="outline-3">
+<h3 id="org33f5d8d">Two styles with Bright and Dark</h3>
+<div class="outline-text-3" id="text-org33f5d8d">
+<p>
+page 11
+</p>
+</div>
+<div id="outline-container-org1a2da0b" class="outline-4">
+<h4 id="org1a2da0b">Straight Taper Reed</h4>
+<div class="outline-text-4" id="text-org1a2da0b">
+<p>
+Linearly enhanced with an eccentric gouge, and other trim taken from the inside of the reed. The sound is bright, and the embouchure is more towards the tip.
+</p>
+</div>
+</div>
+<div id="outline-container-org040bfaa" class="outline-4">
+<h4 id="org040bfaa">Tip Taper Reed</h4>
+<div class="outline-text-4" id="text-org040bfaa">
+<p>
+Laterally enhanced by taking out the mids and lows from the outside of the blades with a concentric gouge. Since the back is less resilient, the embouchure is closer to the collar, the reed is swallowed, and the color is dark. If the sides have been taken out for the low pitch, then it increases the effect of the vibrating surfaces and maes the sound dark as well.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbe6175d" class="outline-3">
+<h3 id="orgbe6175d">Definition of bright and dark</h3>
+<div class="outline-text-3" id="text-orgbe6175d">
+<p>
+Bright is more nasal and reedier, dark is less nasal and less reedy (from Chris Weait) The author describes dark as more covered and dampened that emphasizes the lower overtones, while bright is a more open and carrying sound with an emphasis on higher overtones.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcaed275" class="outline-2">
+<h2 id="orgcaed275">Chapter 2 Essentail Tools for Reed Making</h2>
+<div class="outline-text-2" id="text-orgcaed275">
+</div>
+<div id="outline-container-org60cfaa6" class="outline-3">
+<h3 id="org60cfaa6">Scraping Wheels</h3>
+<div class="outline-text-3" id="text-org60cfaa6">
+<p>
+page 12
+Central to his philosophy of building a world inside a reed. Not sure how to get these now. The Custom Cane Inc. by William Woodward is not found online. Perhaps at IDRS I can find them? Or use my sandpaper PVC pipe constructions. Wheels were made in radius sizes 16/32, 20/32, 24/32, 28/32, 30/32, 32/32, 36/32, 40/32, and 48/32. Also a special 56/32 and 64/32 for some special reasons I don't know yet. These are all in inches, so 16/32" which is half an inch in radius.
+</p>
+
+<p>
+If I ever happen to get some of these, there's a video by James McKay about linear enhancement that he shows the process. He says you hold it like a pencil and drag it backwards.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc4a9648" class="outline-3">
+<h3 id="orgc4a9648">Pin Mandrels</h3>
+<div class="outline-text-3" id="text-orgc4a9648">
+<p>
+page 13
+He had 4 pin mandrels, #9 (9/64"), #10 (10/64"), #11 (11/64"), and #13 (13/64").
+Some clues to their use:
+#9 is used for Straight Taper reeds to open up the first wire as it is more oval.
+#10 and #11 are for Tip Taper reeds with <b>rounder tubes</b>
+#13 is for Contra reeds
+</p>
+
+<p>
+Forming mandrels are different because they are tapered.
+10/12 mandrel starts at a 12/64" and tapers to 10/12" over 3/4". Then a short pointed tip. The insert mark is 1 inch from the point. He used this mandrel when the flare was removed.
+He used the #11 or #10 parallel forming mandrels when the flare was not removed.
+You should also have a holding mandrel that doesn't matter as much in dimensions. (This really makes me curious what my mandrels are)
+</p>
+</div>
+</div>
+<div id="outline-container-orgec302a4" class="outline-3">
+<h3 id="orgec302a4">Reamers</h3>
+<div class="outline-text-3" id="text-orgec302a4">
+<p>
+page 14
+First reaming was a 3/16" drill bit mounted in a handle. It's inserted 18mm. Then used a conical file reamer made from a rattail file mounted to a handle (also 3/16") this only was inserted 17mm. A slightly larger reamer could be used if it leaks on the bocal. You can also use a #9 machinists drill if the flare was left on the shape
+</p>
+</div>
+</div>
+<div id="outline-container-org1b80045" class="outline-3">
+<h3 id="org1b80045">Shapers</h3>
+<div class="outline-text-3" id="text-org1b80045">
+<p>
+page 14
+He had lots of shapers. Fox 1, 2, and 3. Pisano shapers, and a Prestini Knochenhauer shaper. Fox 2 is the most common in the book.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdc2e744" class="outline-3">
+<h3 id="orgdc2e744">Knives and Plaques</h3>
+<div class="outline-text-3" id="text-orgdc2e744">
+<p>
+pages 14-15
+At least 3 knives.  A "regular knife" for post-final trim work that can scrape the blades and not chatter. A knife with a heavy spine for the parallel sides pre trim and hand profiling. It's heavey enough to not chatter when removing bark. Exacto with #11 blades for shaping, center-panel scoring, and lots of other tasks.
+</p>
+</div>
+</div>
+<div id="outline-container-org8b2b85d" class="outline-3">
+<h3 id="org8b2b85d">Files and Sandpaper</h3>
+<div class="outline-text-3" id="text-org8b2b85d">
+<p>
+page 15-16
+Three 5inch exacto file types. Flat bastard, knife edge, and rattail. The flat bastard is an alternative to knife for blades. Knife edge is for wire and collar marks on the cane. Rattail is to clean the tube. A large flat bastard file can be used for evening the butt end of the reed. A sapphire file or metal emery board can do fine work on the blade or enhancing the tube with a take-out variation.
+Sandpaper shoudl be in five grades. 120 Dry, 200 Dry, 220 WD, 320 WD, and 400 WD. Cut them in strips of 15mm by 5cm.Then make folds and put the finger in between the folds
+</p>
+</div>
+</div>
+<div id="outline-container-orgb579077" class="outline-3">
+<h3 id="orgb579077">Pliers and End-nipper</h3>
+<div class="outline-text-3" id="text-orgb579077">
+<p>
+page 16
+5 inch pliers are needed, ideally with parallel jaws for wire adjustemntes. Needle nose parallel jaws are also recommended for between wires 2 and 3. 5 inch jewler's end nippers are recommended for cutting the tip.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfca7324" class="outline-3">
+<h3 id="orgfca7324">Rulers, Dividers, and Compasses</h3>
+<div class="outline-text-3" id="text-orgfca7324">
+<p>
+page 17
+Basic 6 inch metal ruler is good. Had lots of machine dividers and pencil compasses. There are so many measurements that it makes sense to have lots of dividers to have each one devoted to a certain measurement. Caliper rulers are also good for measuring widths of tubes.
+</p>
+</div>
+</div>
+<div id="outline-container-org281e983" class="outline-3">
+<h3 id="org281e983">Wire String and Glue</h3>
+<div class="outline-text-3" id="text-org281e983">
+<p>
+page 19
+22 guage soft brass wire. Apparently also used 21 at some points in his life. Blueberry thread is what he used, but cotton crochet thread is also good. He always used duco for first coat on the wrapping. Used model airplane dope for final layer, but can also use fingernail polish.
+</p>
+</div>
+</div>
+<div id="outline-container-org17d5d8a" class="outline-3">
+<h3 id="org17d5d8a">Other tools</h3>
+<div class="outline-text-3" id="text-org17d5d8a">
+<p>
+page 19
+Dial indicator to measure thickness of the blades.
+6 inches of 1 1/14" dowels to dry gouged cane. Sometimes 1 inch dowels are needed. An easel for working on the cane before folding is also good. A desk lamp for shining light on the reed is necessary as well.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org83c05ba" class="outline-2">
+<h2 id="org83c05ba">Chapter 3: The Straight Taper Reed: Lou Skinner's Interpretation of Carl Mechler's Reed</h2>
+<div class="outline-text-2" id="text-org83c05ba">
+</div>
+<div id="outline-container-orgc7b5ebb" class="outline-3">
+<h3 id="orgc7b5ebb">3.1 Preparation of Tubes, Gouging, and Profiling</h3>
+<div class="outline-text-3" id="text-orgc7b5ebb">
+</div>
+<div id="outline-container-orgc2e179d" class="outline-4">
+<h4 id="orgc2e179d">3.1.1 Split the Cane</h4>
+<div class="outline-text-4" id="text-orgc2e179d">
+<p>
+Tube should be 150mm long, straight, and 26-24mm in outside diameter. Split the cane in half and then quarters. If the cane is less than 24mm in diameter, only cut it into thirds.
+</p>
+</div>
+</div>
+<div id="outline-container-org293b277" class="outline-4">
+<h4 id="org293b277">3.1.2 Soak the cane (the sink method)</h4>
+<div class="outline-text-4" id="text-org293b277">
+<p>
+Soak the cane until it sinks (five days according to him)Change the water every day and keep the cane covered. This softens the cane, and removes some impurities (Cooper would agree, but seems to do it after gouging) After five days drain the water and leave the cane in covered jar for two more days (What? Isn't that going to cause mold? I'm not sure what's going on here)
+</p>
+</div>
+</div>
+<div id="outline-container-org271cb1d" class="outline-4">
+<h4 id="org271cb1d">3.1.3 Cut the cane</h4>
+<div class="outline-text-4" id="text-org271cb1d">
+<p>
+Cut it to 120mm, or 1mm shorter than the gouger bed
+</p>
+</div>
+</div>
+<div id="outline-container-org4f4bddc" class="outline-4">
+<h4 id="org4f4bddc">3.1.4 Cut off sharp edges (fillier)</h4>
+<div class="outline-text-4" id="text-org4f4bddc">
+<p>
+Cut off edges of each side, making it flat on the inside. This should be done along the whole edge of both sides. Then the sides should align with the gouger bed. ( I think this is a hand form of pre-gouging?)
+</p>
+</div>
+</div>
+<div id="outline-container-org5bd3fe8" class="outline-4">
+<h4 id="org5bd3fe8">3.1.5 Gouge the cane</h4>
+<div class="outline-text-4" id="text-org5bd3fe8">
+<p>
+Cane must be wet. Should be eccentric, approximately 1.25mm in center and .80mm at the sides. Harder cane should use a thicker gouge like 1.35 to 1.4 and have a deeper profile. Gouge cane in both directions to account for lack of symmetry in the tubes. If ordering pre-gouged cane, ask for 1.25 to 1.3 in the center and .8 at the edges.
+</p>
+</div>
+</div>
+<div id="outline-container-org13f6e8a" class="outline-4">
+<h4 id="org13f6e8a">3.1.5a Dry cane on 1 1/4inch dowel for two to three days</h4>
+<div class="outline-text-4" id="text-org13f6e8a">
+<p>
+Should be able to attach four or five pieces of cane on these dowels with rubber bands. 
+</p>
+</div>
+</div>
+<div id="outline-container-org39a1804" class="outline-4">
+<h4 id="org39a1804">3.1.5b Soak cane again and dry again</h4>
+<div class="outline-text-4" id="text-org39a1804">
+<p>
+This double-soaking method has grain that will not rise when soaked later (this is an alternative to Cooper's wetting and resanding. Cooper's seems a bit faster)
+</p>
+</div>
+</div>
+<div id="outline-container-orgd40aa43" class="outline-4">
+<h4 id="orgd40aa43">3.1.6 Profile cane</h4>
+<div class="outline-text-4" id="text-orgd40aa43">
+<p>
+Machine profiling should be done when wet. If it's dry, soak in warm water for 2 hours before profiling. Thicknesses (on dry cane, .03mm thicker for wet cane) should be .9mm at the collar, .68 at "43" .57 at "50" and .4 at the center. Smooth the blades with 220wd and finish with 400 wd. Then mark the center and gently score it with a knife edge file. Since the parallel sides pretrim will take out more, the measurements can actually be .95, .73, .61, and .4
+</p>
+
+<p>
+The critical point is the "50" mark (again not sure if that's strictly 50 from the butt, 6 from the tip, or 1/4 of the blade
+</p>
+</div>
+</div>
+<div id="outline-container-org1f8ff86" class="outline-4">
+<h4 id="org1f8ff86">3.1.7 Dry profiled cane on dowel</h4>
+<div class="outline-text-4" id="text-org1f8ff86">
+<p>
+Takes about 12 hours at room temp and 6 hours in a warming oven or gas oven with pilot light, or 20 minutes under 60 watt lamp. Cane should be dry for next steps since drying causes shrinkage.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org54bc975" class="outline-3">
+<h3 id="org54bc975">3.2 Pre-trim</h3>
+<div class="outline-text-3" id="text-org54bc975">
+</div>
+<div id="outline-container-org19b671a" class="outline-4">
+<h4 id="org19b671a">3.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper</h4>
+</div>
+<div id="outline-container-org3f6fcbf" class="outline-4">
+<h4 id="org3f6fcbf">3.2.2 Shape Cane</h4>
+<div class="outline-text-4" id="text-org3f6fcbf">
+<p>
+Uses a Fox #2, Knochenhuaer shape, or Pisano #2. Make sure the cane is 120mm long so it fits. Center the cane. Use a sharp #11 blade to shape. Hold the blade handle in a fist (in case is slips into you) Cut in 2mm to 3mm chunks. Stop cutting at the narrowest point, not all the way to the butt. This is to copy the flair of the shaper onto the butt ( I think so you don't have stuff tear inside the shaper?). After getting all the way down, flip it around and do the same from the butt end. Repeat on all quadrants.
+</p>
+
+<p>
+Interestingly links to a way to shape without shapers. Basically making a template out of brass shim strips, and then using masking tape to cover the cane in that shape and cutting it on an easel. Certainly less accurate, but much cheaper! Probably not worth the savings though.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5ec233" class="outline-4">
+<h4 id="orgc5ec233">3.2.3 Mark collar and wire positions 2 and 3</h4>
+<div class="outline-text-4" id="text-orgc5ec233">
+<p>
+Use dividers for measurements. Collar is at 30mm, wire 2 is at 18mm (which I believe is about the narrowest point in the shape of a Fox 2 shaper) and wire 3 at 8mm. Use a knife-edge file if needed to enlarge the marks.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7dad56b" class="outline-3">
+<h3 id="org7dad56b">3.3 Enhancement of the inside of the tube (Windsor Mill Process)</h3>
+<div class="outline-text-3" id="text-org7dad56b">
+<p>
+Originally taught as an alternative to the sink method. It can be left out entirely if the sink method was used. Both methods were designed to minimize cracking in the tube. The windsor mill process has the added benefit of disconnecting the fibers of the tube from the blade. This allows the blades to vibrate more freely, especially at lower frequencies.
+</p>
+</div>
+<div id="outline-container-orgf1ac186" class="outline-4">
+<h4 id="orgf1ac186">3.3.1 With compass mark the inside of the gouge 32mm from the butt end</h4>
+<div class="outline-text-4" id="text-orgf1ac186">
+<p>
+This would be 2mm in front of the collar
+</p>
+</div>
+</div>
+<div id="outline-container-orgd22ed66" class="outline-4">
+<h4 id="orgd22ed66">3.3.2 Pilot cut</h4>
+<div class="outline-text-4" id="text-orgd22ed66">
+<p>
+Measure the thickness and decrease it by .1mm (.2 in original method) but don't go thinner than 1.1mm using the smallest scraper wheel
+</p>
+</div>
+</div>
+<div id="outline-container-orgfdd5a80" class="outline-4">
+<h4 id="orgfdd5a80">3.3.3 Superimpose cut</h4>
+<div class="outline-text-4" id="text-orgfdd5a80">
+<p>
+Draw a sawtooth linefrom the butt to the 32mm mark Use scraper 32 over the original until the pencil is all removed (Basically letting you know that you have gone far enough
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf31384" class="outline-4">
+<h4 id="orgdf31384">3.3.4 Sand entire inside butt with 200 DRY and 400WD</h4>
+<div class="outline-text-4" id="text-orgdf31384">
+<p>
+Smooth the transition into the blades as well
+</p>
+</div>
+</div>
+<div id="outline-container-org7a646ea" class="outline-4">
+<h4 id="org7a646ea">3.3.5 Define the collar</h4>
+<div class="outline-text-4" id="text-org7a646ea">
+<p>
+But don't chip out the bur yet! This bur comes from profiling machine
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7f3db93" class="outline-3">
+<h3 id="org7f3db93">3.4 Center-panel scoring</h3>
+<div class="outline-text-3" id="text-org7f3db93">
+<p>
+This way of scoring is preferred but not required if the sink method was used.
+</p>
+<ol class="org-ol">
+<li>Mark with dividers two marks about 5mm long on the bark parallel to the sides about 3mm from the outside.</li>
+<li>Score along that 3mm mark to the end of the butt. Just needs to break the bark. Use the exacto knife</li>
+<li>Do two more lines parallel to the first between the edge and the 3mm lines</li>
+<li>In the final 1mm press the blade through the cane</li>
+<li>Chip out the burr in front of the collar. Make sure the thickness continues exactly. Smooth with a file.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgace798f" class="outline-3">
+<h3 id="orgace798f">3.5 Parallel-sides Pre-trim</h3>
+<div class="outline-text-3" id="text-orgace798f">
+<p>
+This preps the wings to vibrate freely as soon as the tip is cut.
+Minimum thicknesses after pre-trim
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">at collar</td>
+<td class="org-left">.95 to .85 thick (measure 2mm in front of collar if Windsor Mill is used)</td>
+</tr>
+
+<tr>
+<td class="org-left">at 43</td>
+<td class="org-left">.73 to .68</td>
+</tr>
+
+<tr>
+<td class="org-left">at 50</td>
+<td class="org-left">.62 to .56</td>
+</tr>
+
+<tr>
+<td class="org-left">at 60 (center)</td>
+<td class="org-left">.45 to .4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org0fe28d9" class="outline-4">
+<h4 id="org0fe28d9">3.5.1 Mark blades and decrease thickness of profile</h4>
+<div class="outline-text-4" id="text-org0fe28d9">
+<ol class="org-ol">
+<li>With compass mark 43mm and 50mm from butt ends on top and underside of each blade</li>
+<li>Use heavy knife with blade at right angle to surface of cane, reduce thickness of center portion of profile from collar to 43. Should end at .90 at collar and .7 at 43.</li>
+<li>If cane is especially brittle thin another .03mm</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8598646" class="outline-4">
+<h4 id="org8598646">3.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge</h4>
+<div class="outline-text-4" id="text-org8598646">
+<ol class="org-ol">
+<li>Set compass to 3mm and mark along blades from collar to reed tip</li>
+<li>Determine thickness of blades</li>
+<li>Use heavy knife, pull from collar to 50 mark ( i think this may mean start at far collar and pull towards you until you get to the 50mm mark on the far side?) Goal is sides that are around .40mm and slope upward to the 3mm marks. Ensure that the thickness at the 50mm mark of the blade, halfway between the center and the edge, doesn't go below .5mm</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd941c41" class="outline-4">
+<h4 id="orgd941c41">3.5.3 Remove mid-range bump</h4>
+<div class="outline-text-4" id="text-orgd941c41">
+<p>
+Should be a ridge along the 3mm mark that parallels the shape. Gently pull the knife from the collar to the 50 mark parallel with the fibers, not the sides of the shape. This also establishes the wings
+</p>
+</div>
+</div>
+<div id="outline-container-orgd3e9389" class="outline-4">
+<h4 id="orgd3e9389">3.5.4 Pretrim</h4>
+<div class="outline-text-4" id="text-orgd3e9389">
+<ol class="org-ol">
+<li>With cane on easel, pull heavy knife from collar to fold and back. Start around 3mm from the edge, and gradually move towards the side to make 8 strokes</li>
+<li>Retrace the 8 stokes and keep going towards the center with 3 more strokes</li>
+<li>Repeat in each quadrant</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgbe6b38b" class="outline-4">
+<h4 id="orgbe6b38b">3.5.5 Sand entire surface with 120 DRY</h4>
+<div class="outline-text-4" id="text-orgbe6b38b">
+<p>
+Helps to smooth knife work and establish a gentle curvature from center to sides
+</p>
+</div>
+</div>
+<div id="outline-container-orgaac414f" class="outline-4">
+<h4 id="orgaac414f">3.5.6 Establish the wings</h4>
+<div class="outline-text-4" id="text-orgaac414f">
+<p>
+Remark the 43. Using 120 DRY, sand the wing areas (in front of 43 to edge) into a thin edge, but not too thin. Also start to blend the tongue in near the tip. <b>Note: The tendency is take out too much cane at this stage!</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org228234a" class="outline-4">
+<h4 id="org228234a">3.5.7 Eliminate pyramided fibers</h4>
+<div class="outline-text-4" id="text-org228234a">
+<p>
+Use the heavy knife and smooth the pyramided fibers just in front of the 43 mark. The pyramided fibers prevent the low pitches from responding.
+</p>
+</div>
+</div>
+<div id="outline-container-org62a5b31" class="outline-4">
+<h4 id="org62a5b31">3.5.8 Sand pyramided fibers</h4>
+<div class="outline-text-4" id="text-org62a5b31">
+<p>
+Use 120 dry to remove bumps from knife work and sand overall with 220WD
+</p>
+</div>
+</div>
+<div id="outline-container-org4478127" class="outline-4">
+<h4 id="org4478127">3.5.9 Reestablish the fold line with knife-edge file</h4>
+</div>
+<div id="outline-container-orgfa8b63b" class="outline-4">
+<h4 id="orgfa8b63b">3.5.10 Soak cane for 10 to 12 hours or until it sinks</h4>
+<div class="outline-text-4" id="text-orgfa8b63b">
+<p>
+Maybe this would be the stage for Cooper's indefinite soaking? Not quite sure how to mesh those two together
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2863a60" class="outline-3">
+<h3 id="org2863a60">3.6 Forming and Drying</h3>
+<div class="outline-text-3" id="text-org2863a60">
+<p>
+The note here talks about beveling as not required when the flare is removed. I guess meaning that removing the flare is it's own form of beveling?
+</p>
+</div>
+<div id="outline-container-org833918a" class="outline-4">
+<h4 id="org833918a">3.6.1 Fold and remove flare</h4>
+<div class="outline-text-4" id="text-org833918a">
+<p>
+Fold the cane over. Using the #11 exacto knife, remove the flare after the second wire (confirms here that the second wire is at the narrowest point of the shape) This removes the need for beveling, but it can still be done.
+</p>
+</div>
+</div>
+<div id="outline-container-org8d7b3db" class="outline-4">
+<h4 id="org8d7b3db">3.6.2 Side-slip top blade to left at butt by 1 to 2mm</h4>
+<div class="outline-text-4" id="text-org8d7b3db">
+<p>
+Slides to the left, like Cooper would say. Claims that turning the forming mandrel clockwise will lessen the slip.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb654343" class="outline-4">
+<h4 id="orgb654343">3.6.3 Wrap reed in twine</h4>
+<div class="outline-text-4" id="text-orgb654343">
+<p>
+This helps the tube to form evenly. Wrap from collar to butt. Make it tight, no overlaps in thread
+</p>
+</div>
+</div>
+<div id="outline-container-org1eb5ce9" class="outline-4">
+<h4 id="org1eb5ce9">3.6.4 Place in hot water for 20 minutes</h4>
+<div class="outline-text-4" id="text-org1eb5ce9">
+<p>
+Heat the 10/12 mandrel in the water for the last 30 seconds
+</p>
+</div>
+</div>
+<div id="outline-container-org519b3e0" class="outline-4">
+<h4 id="org519b3e0">3.6.5 Insert forming mandrel</h4>
+<div class="outline-text-4" id="text-org519b3e0">
+<p>
+Go straight, some cracking is almost inevitable
+</p>
+</div>
+</div>
+<div id="outline-container-orgd78920e" class="outline-4">
+<h4 id="orgd78920e">3.6.6 Partially unwrap string from butt and put on wire 3</h4>
+</div>
+<div id="outline-container-org20fec8f" class="outline-4">
+<h4 id="org20fec8f">3.6.7 Remove string and soak string in water</h4>
+<div class="outline-text-4" id="text-org20fec8f">
+<p>
+Soaking the string will help it when it dries to hold the cane in shape
+</p>
+</div>
+</div>
+<div id="outline-container-org9819790" class="outline-4">
+<h4 id="org9819790">3.6.8 Mark the FFL on the blade at 38mm past wire 2</h4>
+</div>
+<div id="outline-container-orgf6bdfa6" class="outline-4">
+<h4 id="orgf6bdfa6">3.6.9 Put on wire 2</h4>
+</div>
+<div id="outline-container-org976b733" class="outline-4">
+<h4 id="org976b733">3.6.10 Butt molding</h4>
+<div class="outline-text-4" id="text-org976b733">
+<p>
+Squish the butt around the mandrel on all sides
+</p>
+</div>
+</div>
+<div id="outline-container-org7e7d2b0" class="outline-4">
+<h4 id="org7e7d2b0">3.6.11 Center-panel molding</h4>
+<div class="outline-text-4" id="text-org7e7d2b0">
+<p>
+Gently mold the center (not sides) of the tube between wires 2 and 3
+</p>
+</div>
+</div>
+<div id="outline-container-org33c8381" class="outline-4">
+<h4 id="org33c8381">3.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar</h4>
+<div class="outline-text-4" id="text-org33c8381">
+<p>
+This allows wire 1 to hug as much as possible
+</p>
+</div>
+</div>
+<div id="outline-container-orgff7a940" class="outline-4">
+<h4 id="orgff7a940">3.6.13 Narrow tip to 15mm if needed</h4>
+<div class="outline-text-4" id="text-orgff7a940">
+<p>
+Can be left at 15.5mm to be narrowed later. 
+</p>
+</div>
+</div>
+<div id="outline-container-org98100f6" class="outline-4">
+<h4 id="org98100f6">3.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides</h4>
+</div>
+<div id="outline-container-org0fcea66" class="outline-4">
+<h4 id="org0fcea66">3.6.15 While reed and string are wet, put binding on reed</h4>
+<div class="outline-text-4" id="text-org0fcea66">
+<p>
+Description of wrapping process:
+"&#x2026; the author begins by looping the cotton string onto the upturned twist of wire III. The string is then pulled tightly and laid beside the blade side of wire III for 1-1/4 revolutions. The string is then cossed diagonally over wire III to the butt side. A string is laid down for a half-revolution beside wire III and is then brought diagonally back to the blade side for another half-revolution. When the first diagonla cross-over is reached, the string is laid just beyond and beside (not on top of) this cross-over, and returned to the butt side of wire III. The author continues this process until wire III is no longer visible. At this point, 2 complete revoluitions of string are made around the tube on the butt side of the wrapping. A third revolution overlaps the 2 and returns the string to the ball for the last diagonal cross-over. The last diagonal cross-over on teh blade side begins a single layer of tightly wrapped string around the reed tube, filling in the space between the wrapping ball and wire II. The author finishes the tube wrapping with a half-hitch, ,which is buried tightly under wire II. The string is then cut flush to wire II."
+</p>
+</div>
+</div>
+<div id="outline-container-orgf672ab6" class="outline-4">
+<h4 id="orgf672ab6">3.6.16 File butt end of reed to be flat</h4>
+</div>
+<div id="outline-container-org1280476" class="outline-4">
+<h4 id="org1280476">3.6.17 Ream with drill and file reamers</h4>
+<div class="outline-text-4" id="text-org1280476">
+<p>
+Use tape to make sure they only go 18mm for drill and 17mm for file reamer
+</p>
+</div>
+</div>
+<div id="outline-container-org4d116e8" class="outline-4">
+<h4 id="org4d116e8">3.6.18 Straighten sides</h4>
+<div class="outline-text-4" id="text-org4d116e8">
+<p>
+In case reaming caused the sides to slip apart, twist wire III or straighten sides with sapphire file
+</p>
+</div>
+</div>
+<div id="outline-container-org51396fa" class="outline-4">
+<h4 id="org51396fa">3.6.19 Cut reed</h4>
+<div class="outline-text-4" id="text-org51396fa">
+<p>
+Knife on cutting block, 5-inch jewellers end-nippers, or tip cutter. Cut at FFL 38mm from wire 2, or 56mm from butt
+</p>
+</div>
+</div>
+<div id="outline-container-org819e21d" class="outline-4">
+<h4 id="org819e21d">3.6.20 Adjust side-slipping</h4>
+</div>
+<div id="outline-container-orgdf9b5a3" class="outline-4">
+<h4 id="orgdf9b5a3">3.6.21 Clip corners of reed</h4>
+<div class="outline-text-4" id="text-orgdf9b5a3">
+<p>
+45 degree angle, no more than 1mm
+</p>
+</div>
+</div>
+<div id="outline-container-orgcca487f" class="outline-4">
+<h4 id="orgcca487f">3.6.22 Smooth tip edge if needed</h4>
+<div class="outline-text-4" id="text-orgcca487f">
+<p>
+Use fine side of sapphire file to bring tip down to .3mm. Move with grain of the reed. Angle of file is almost parallel to blade
+</p>
+</div>
+</div>
+<div id="outline-container-org43fba70" class="outline-4">
+<h4 id="org43fba70">3.6.23 Put wire 1 and slide it 30mm from tip edge</h4>
+<div class="outline-text-4" id="text-org43fba70">
+<p>
+Fixing the bahn length at this point
+</p>
+</div>
+</div>
+<div id="outline-container-orgc1a1504" class="outline-4">
+<h4 id="orgc1a1504">3.6.24 Tune the reed</h4>
+<div class="outline-text-4" id="text-orgc1a1504">
+<p>
+Should blow at A 440, if it's higher, the aperture is too closed, so use pin mandrel 9 to open the tube. If it's lower, tighten wire 1
+</p>
+</div>
+</div>
+<div id="outline-container-org19fc0d7" class="outline-4">
+<h4 id="org19fc0d7">3.6.25 Apply 2 coats of glue</h4>
+<div class="outline-text-4" id="text-org19fc0d7">
+<p>
+20 minutes in between coats
+</p>
+</div>
+</div>
+<div id="outline-container-orgd393875" class="outline-4">
+<h4 id="orgd393875">3.6.26 Let reed dry</h4>
+<div class="outline-text-4" id="text-orgd393875">
+<p>
+48 hours naturally, 12 hours in electric oven at warming temperature, or gas oven with pilot light
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1bedc3f" class="outline-3">
+<h3 id="org1bedc3f">3.7 Final stage</h3>
+<div class="outline-text-3" id="text-org1bedc3f">
+</div>
+<div id="outline-container-org59afff8" class="outline-4">
+<h4 id="org59afff8">3.7.1 Tighten wire 2</h4>
+<div class="outline-text-4" id="text-org59afff8">
+<p>
+Should be done on a 10/12 mandrel, but 2mm up from the forming mark. Clip wires 2 and 3 to appropriate places
+</p>
+</div>
+</div>
+<div id="outline-container-org591fe87" class="outline-4">
+<h4 id="org591fe87">3.7.2 Tighten wire 1</h4>
+<div class="outline-text-4" id="text-org591fe87">
+<p>
+Make sure bahn length is still where it should be. Claims wire shouldn't move when dry, which is against what Cooper says. But acknowleges it can't be too tight
+</p>
+</div>
+</div>
+<div id="outline-container-orgf048846" class="outline-4">
+<h4 id="orgf048846">3.7.3 Reream tube</h4>
+<div class="outline-text-4" id="text-orgf048846">
+<p>
+Both drill and file reamers. Use rattail file to clean
+</p>
+</div>
+</div>
+<div id="outline-container-org62a5a3c" class="outline-4">
+<h4 id="org62a5a3c">3.7.4 Correct side-slipping</h4>
+<div class="outline-text-4" id="text-org62a5a3c">
+<p>
+Uses Cooper's twisting technique aka don't glue the wrapping to the tube!
+</p>
+</div>
+</div>
+<div id="outline-container-org675ed0f" class="outline-4">
+<h4 id="org675ed0f">3.7.5 Straighten sides, renew corners, and polish tip edge</h4>
+<div class="outline-text-4" id="text-org675ed0f">
+<p>
+Use 400WD for the tip, pinch it closed and drag it across
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga7a2caa" class="outline-3">
+<h3 id="orga7a2caa">3.8 Final Trim</h3>
+<div class="outline-text-3" id="text-orga7a2caa">
+</div>
+<div id="outline-container-orgf1af96e" class="outline-4">
+<h4 id="orgf1af96e">3.8.1 Tip undercut</h4>
+<div class="outline-text-4" id="text-orgf1af96e">
+<ol class="org-ol">
+<li>Use 320 WD paper cut to .9cm x 5 cm (also can use 220WD it just goes faster)</li>
+<li>Aim is to reduce tip edge by half</li>
+<li>Put strips straight as far as it will go. Press down firmly</li>
+<li>Pull the sand paper out. Then do the same on the sides. Don't go outside the blades. Repeat 2 or 3 times</li>
+<li>Repeat on the other blade</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgda0908e" class="outline-4">
+<h4 id="orgda0908e">3.8.2 Blades</h4>
+<div class="outline-text-4" id="text-orgda0908e">
+<p>
+After the final trim, thicknesses should be
+30mm .90mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+</p>
+
+<p>
+Five double strokes at a time seems to be the goal
+</p>
+
+<ol class="org-ol">
+<li>With metal plaque in, use 220WD to blend tip into 43mm. Or 50mm if 43 is thin enough. This will create a V that gets smoothed out next. Count your strokes (apologies to Ben Kamins)</li>
+<li>Repeat on the sides of the blade, use the same number of strokes</li>
+<li>Without the plaque in, sand wings with 220WD. Make sure no pyramids at 43mm</li>
+<li>Without plaque, use 220WD to sand from 43 to collar, five double strokes at a time</li>
+<li>Use 400WD on both blades and polish with back</li>
+<li>Check under light and dial indicator for balance</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orga8a3278" class="outline-4">
+<h4 id="orga8a3278">3.8.3 Use cement or binding to reseal wire II</h4>
+</div>
+<div id="outline-container-orga031fa1" class="outline-4">
+<h4 id="orga031fa1">3.8.4 When dry, soak for three to four minutes</h4>
+<div class="outline-text-4" id="text-orga031fa1">
+<p>
+Promotes capillary soaking, only up to collar. Doesn't mention how to know when it's done
+</p>
+</div>
+</div>
+<div id="outline-container-org14842e6" class="outline-4">
+<h4 id="org14842e6">Finishing is in chapter 7</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org80ebcdc" class="outline-2">
+<h2 id="org80ebcdc">Chapter 4: The Tip Taper Reed: Lou Skinner's Interpretation of Wilhelm Knochenhauer's Reed</h2>
+<div class="outline-text-2" id="text-org80ebcdc">
+</div>
+<div id="outline-container-org041db62" class="outline-3">
+<h3 id="org041db62">4.1 Preparation of Tubes, Gouging, and Profiling</h3>
+<div class="outline-text-3" id="text-org041db62">
+</div>
+<div id="outline-container-org38be7a4" class="outline-4">
+<h4 id="org38be7a4">4.1.1 Split the Cane</h4>
+<div class="outline-text-4" id="text-org38be7a4">
+<p>
+Tube should be 150mm long, straight, and 26-24mm in outside diameter. Split the cane in half and then quarters. If the cane is less than 24mm in diameter, only cut it into thirds.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb45bd70" class="outline-4">
+<h4 id="orgb45bd70">4.1.2 Soak the cane (the sink method)</h4>
+<div class="outline-text-4" id="text-orgb45bd70">
+<p>
+Soak the cane until it sinks (five days according to him)Change the water every day and keep the cane covered. This softens the cane, and removes some impurities (Cooper would agree, but seems to do it after gouging) After five days drain the water and leave the cane in covered jar for two more days (What? Isn't that going to cause mold? I'm not sure what's going on here)
+</p>
+</div>
+</div>
+<div id="outline-container-orgf84518d" class="outline-4">
+<h4 id="orgf84518d">4.1.3 Cut the cane</h4>
+<div class="outline-text-4" id="text-orgf84518d">
+<p>
+Cut it to 120mm, or 1mm shorter than the gouger bed
+</p>
+</div>
+</div>
+<div id="outline-container-org3bd7a4d" class="outline-4">
+<h4 id="org3bd7a4d">4.1.4 Cut off sharp edges (fillier)</h4>
+<div class="outline-text-4" id="text-org3bd7a4d">
+<p>
+Cut off edges of each side, making it flat on the inside. This should be done along the whole edge of both sides. Then the sides should align with the gouger bed. ( I think this is a hand form of pre-gouging?)
+</p>
+</div>
+</div>
+<div id="outline-container-org8f76bc1" class="outline-4">
+<h4 id="org8f76bc1">4.1.5 Gouge the cane</h4>
+<div class="outline-text-4" id="text-org8f76bc1">
+<p>
+Cane must be wet. Should be eccentric, approximately 1.25mm in center and .80mm at the sides. Harder cane should use a thicker gouge like 1.35 to 1.4 and have a deeper profile. Gouge cane in both directions to account for lack of symmetry in the tubes. If ordering pre-gouged cane, ask for 1.25 to 1.3 in the center and .8 at the edges.
+</p>
+</div>
+</div>
+<div id="outline-container-org83c07a3" class="outline-4">
+<h4 id="org83c07a3">4.1.5a Dry cane on 1 1/4inch dowel for two to three days</h4>
+<div class="outline-text-4" id="text-org83c07a3">
+<p>
+Should be able to attach four or five pieces of cane on these dowels with rubber bands. 
+</p>
+</div>
+</div>
+<div id="outline-container-org4a0a02a" class="outline-4">
+<h4 id="org4a0a02a">4.1.5b Soak cane again and dry again</h4>
+<div class="outline-text-4" id="text-org4a0a02a">
+<p>
+This double-soaking method has grain that will not rise when soaked later (this is an alternative to Cooper's wetting and resanding. Cooper's seems a bit faster)
+</p>
+</div>
+</div>
+<div id="outline-container-orgbc67483" class="outline-4">
+<h4 id="orgbc67483">4.1.6 Profile cane</h4>
+<div class="outline-text-4" id="text-orgbc67483">
+<p>
+Machine profiling should be done when wet. If it's dry, soak in warm water for 2 hours before profiling. Thicknesses (on dry cane, .03mm thicker for wet cane) should be .9mm at the collar, .68 at "43" .57 at "50" and .4 at the center. Smooth the blades with 220wd and finish with 400 wd. Then mark the center and gently score it with a knife edge file. Since the parallel sides pretrim will take out more, the measurements can actually be .95, .73, .61, and .4
+</p>
+
+<p>
+The critical point is the "50" mark (again not sure if that's strictly 50 from the butt, 6 from the tip, or 1/4 of the blade
+</p>
+</div>
+</div>
+<div id="outline-container-orgfafb39a" class="outline-4">
+<h4 id="orgfafb39a">4.1.6b Hand Profiling</h4>
+<div class="outline-text-4" id="text-orgfafb39a">
+<ol class="org-ol">
+<li>Partially dry cane under lamp for 20 minutes</li>
+<li>With dividers, mark collar in bark at 30mm from each butt</li>
+<li>Score collar marks from one side of cane to other with knife edge file</li>
+<li>Place cane on easel, use a sharp heavy knife. Heavier and wider the spine the less likely it will chatter</li>
+<li>Draw it back and forth between collar marks in the center. Take center to .85mm</li>
+<li>Remove bark on either side of center strip and blend so it is even under the light. Smooth with 220WD</li>
+<li>Mark 50 from each butt, then reduce
+<ol class="org-ol">
+<li>Profile between 50mm marks down to .5</li>
+<li>Mark 55 from butt.. Using 220WD go down to .35</li>
+</ol></li>
+<li>Smooth center portion with 220WD and entire blade with 300</li>
+<li>Add center mark and score with knife edge file</li>
+</ol>
+
+<p>
+Another little gem from James McKay's youtube video was a comment from Andrew Burn was that cutting in a profile is better for straight taper reed, while scraping back and forth is easier for the tip taper reed.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgafa736b" class="outline-4">
+<h4 id="orgafa736b">4.1.7 Dry profiled cane on dowel</h4>
+<div class="outline-text-4" id="text-orgafa736b">
+<p>
+Takes about 12 hours at room temp and 6 hours in a warming oven or gas oven with pilot light, or 20 minutes under 60 watt lamp. Cane should be dry for next steps since drying causes shrinkage.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdd90078" class="outline-3">
+<h3 id="orgdd90078">4.2 Pre-trim</h3>
+<div class="outline-text-3" id="text-orgdd90078">
+</div>
+<div id="outline-container-orga34f497" class="outline-4">
+<h4 id="orga34f497">4.2.1 Smooth and polish inside with 400WD, leave dust, and polish with back of paper</h4>
+</div>
+<div id="outline-container-orge15272c" class="outline-4">
+<h4 id="orge15272c">4.2.2 Shape Cane</h4>
+<div class="outline-text-4" id="text-orge15272c">
+<p>
+Uses a Fox #2, Knochenhuaer shape, or Pisano #2. Make sure the cane is 120mm long so it fits. Center the cane. Use a sharp #11 blade to shape. Hold the blade handle in a fist (in case is slips into you) Cut in 2mm to 3mm chunks. Stop cutting at the narrowest point, not all the way to the butt. This is to copy the flair of the shaper onto the butt ( I think so you don't have stuff tear inside the shaper?). After getting all the way down, flip it around and do the same from the butt end. Repeat on all quadrants.
+</p>
+
+<p>
+Interestingly links to a way to shape without shapers. Basically making a template out of brass shim strips, and then using masking tape to cover the cane in that shape and cutting it on an easel. Certainly less accurate, but much cheaper! Probably not worth the savings though.
+</p>
+</div>
+</div>
+<div id="outline-container-org107905e" class="outline-4">
+<h4 id="org107905e">4.2.3 Mark collar and wire positions 2 and 3</h4>
+<div class="outline-text-4" id="text-org107905e">
+<p>
+Use dividers for measurements. Collar is at 30mm, wire 2 is at 18mm (which I believe is about the narrowest point in the shape of a Fox 2 shaper) and wire 3 at 8mm. Use a knife-edge file if needed to enlarge the marks.
+</p>
+
+<p>
+Note that sometimes he did a Del Negro model with wire 1 at 29mm, or a bahn length of 27mm. Special reeds chapter for details
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org239edd7" class="outline-3">
+<h3 id="org239edd7">4.3 Enhancement of the inside of the tube (Windsor Mill Process)</h3>
+<div class="outline-text-3" id="text-org239edd7">
+<p>
+Originally taught as an alternative to the sink method. It can be left out entirely if the sink method was used. Both methods were designed to minimize cracking in the tube. The windsor mill process has the added benefit of disconnecting the fibers of the tube from the blade. This allows the blades to vibrate more freely, especially at lower frequencies.
+</p>
+</div>
+<div id="outline-container-org09acdf9" class="outline-4">
+<h4 id="org09acdf9">4.3.1 With compass mark the inside of the gouge 32mm from the butt end</h4>
+<div class="outline-text-4" id="text-org09acdf9">
+<p>
+This would be 2mm in front of the collar
+</p>
+</div>
+</div>
+<div id="outline-container-org6b7d27e" class="outline-4">
+<h4 id="org6b7d27e">4.3.2 Pilot cut</h4>
+<div class="outline-text-4" id="text-org6b7d27e">
+<p>
+Measure the thickness and decrease it by .1mm (.2 in original method) but don't go thinner than 1.1mm using the smallest scraper wheel
+</p>
+</div>
+</div>
+<div id="outline-container-orgf096b1c" class="outline-4">
+<h4 id="orgf096b1c">4.3.3 Superimpose cut</h4>
+<div class="outline-text-4" id="text-orgf096b1c">
+<p>
+Draw a sawtooth linefrom the butt to the 32mm mark Use scraper 32 over the original until the pencil is all removed (Basically letting you know that you have gone far enough
+</p>
+</div>
+</div>
+<div id="outline-container-org46384cb" class="outline-4">
+<h4 id="org46384cb">4.3.4 Sand entire inside butt with 200 DRY and 400WD</h4>
+<div class="outline-text-4" id="text-org46384cb">
+<p>
+Smooth the transition into the blades as well
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb54b84" class="outline-4">
+<h4 id="orgcb54b84">4.3.5 Define the collar</h4>
+<div class="outline-text-4" id="text-orgcb54b84">
+<p>
+But don't chip out the bur yet! This bur comes from profiling machine
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc09059b" class="outline-3">
+<h3 id="orgc09059b">4.4 Center-panel scoring</h3>
+<div class="outline-text-3" id="text-orgc09059b">
+<p>
+This way of scoring is preferred but not required if the sink method was used.
+</p>
+<ol class="org-ol">
+<li>Mark with dividers two marks about 5mm long on the bark parallel to the sides about 3mm from the outside.</li>
+<li>Score along that 3mm mark to the end of the butt. Just needs to break the bark. Use the exacto knife</li>
+<li>Do two more lines parallel to the first between the edge and the 3mm lines</li>
+<li>In the final 1mm press the blade through the cane</li>
+<li>Chip out the burr in front of the collar. Make sure the thickness continues exactly. Smooth with a file.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge845693" class="outline-3">
+<h3 id="orge845693">4.5 Parallel-sides Pre-trim</h3>
+<div class="outline-text-3" id="text-orge845693">
+<p>
+This preps the wings to vibrate freely as soon as the tip is cut.
+Minimum thicknesses after pre-trim
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">at collar</td>
+<td class="org-left">.90 to .80 thick (measure 2mm in front of collar if Windsor Mill is used)</td>
+</tr>
+
+<tr>
+<td class="org-left">at 43</td>
+<td class="org-left">.7 to .80</td>
+</tr>
+
+<tr>
+<td class="org-left">at 50</td>
+<td class="org-left">.65 to .8</td>
+</tr>
+
+<tr>
+<td class="org-left">at 60 (center)</td>
+<td class="org-left">.35 to .4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outline-container-org51df2e2" class="outline-4">
+<h4 id="org51df2e2">4.5.1 Mark blades and decrease thickness of profile</h4>
+<div class="outline-text-4" id="text-org51df2e2">
+<ol class="org-ol">
+<li>With compass mark 43mm and 50mm from butt ends on top and underside of each blade</li>
+<li>Use heavy knife with blade at right angle to surface of cane, reduce thickness of center portion of profile from collar to 43. Should end at .80 at collar and .8 at 43.
+<ul class="org-ul">
+<li>Or slope thickness so that collar is .8 and 43 is at .65. Pretrim will be lighter later</li>
+</ul></li>
+<li>If cane is especially brittle thin another .03mm</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb84f469" class="outline-4">
+<h4 id="orgb84f469">4.5.2 Decrease thickness of blade sides by one half to no thinner than .4 at edge</h4>
+<div class="outline-text-4" id="text-orgb84f469">
+<ol class="org-ol">
+<li>Set compass to 3mm and mark along blades from collar to reed tip</li>
+<li>Determine thickness of blades</li>
+<li>Use heavy knife, pull from collar to 50 mark ( i think this may mean start at far collar and pull towards you until you get to the 50mm mark on the far side?) Goal is sides that are around .40mm and slope upward to the 3mm marks. Ensure that the thickness at the 50mm mark of the blade, halfway between the center and the edge, doesn't go below .5mm</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf654927" class="outline-4">
+<h4 id="orgf654927">4.5.3 Remove mid-range bump</h4>
+<div class="outline-text-4" id="text-orgf654927">
+<p>
+Should be a ridge along the 3mm mark that parallels the shape. Gently pull the knife from the collar to the 50 mark parallel with the fibers, not the sides of the shape. This also establishes the wings
+</p>
+</div>
+</div>
+<div id="outline-container-org61b2658" class="outline-4">
+<h4 id="org61b2658">4.5.4 Pretrim</h4>
+<div class="outline-text-4" id="text-org61b2658">
+<ol class="org-ol">
+<li>With cane on easel, pull heavy knife from collar to fold and back. Start around 3mm from the edge, and gradually move towards the side to make 8 strokes</li>
+<li>Retrace the 8 stokes and keep going towards the center with 3 more strokes</li>
+<li>Repeat in each quadrant</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org404583a" class="outline-4">
+<h4 id="org404583a">4.5.5 Sand entire surface with 120 DRY</h4>
+<div class="outline-text-4" id="text-org404583a">
+<p>
+Helps to smooth knife work and establish a gentle curvature from center to sides
+</p>
+</div>
+</div>
+<div id="outline-container-org47ff130" class="outline-4">
+<h4 id="org47ff130">4.5.6 Establish the wings</h4>
+<div class="outline-text-4" id="text-org47ff130">
+<p>
+Remark the 43. Using 120 DRY, sand the wing areas (in front of 43 to edge) into a thin edge, but not too thin. Also start to blend the tongue in near the tip. <b>Note: The tendency is take out too much cane at this stage!</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org42b44aa" class="outline-4">
+<h4 id="org42b44aa">4.5.7 Eliminate pyramided fibers</h4>
+<div class="outline-text-4" id="text-org42b44aa">
+<p>
+Use the heavy knife and smooth the pyramided fibers just in front of the 43 mark. The pyramided fibers prevent the low pitches from responding.
+</p>
+</div>
+</div>
+<div id="outline-container-orga71b733" class="outline-4">
+<h4 id="orga71b733">4.5.8 Sand pyramided fibers</h4>
+<div class="outline-text-4" id="text-orga71b733">
+<p>
+Use 120 dry to remove bumps from knife work and sand overall with 220WD
+</p>
+</div>
+</div>
+<div id="outline-container-orgb861664" class="outline-4">
+<h4 id="orgb861664">4.5.9 Reestablish the fold line with knife-edge file</h4>
+</div>
+<div id="outline-container-org7566760" class="outline-4">
+<h4 id="org7566760">4.5.10 Soak cane for 10 to 12 hours or until it sinks</h4>
+<div class="outline-text-4" id="text-org7566760">
+<p>
+Maybe this would be the stage for Cooper's indefinite soaking? Not quite sure how to mesh those two together
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8b9ca02" class="outline-3">
+<h3 id="org8b9ca02">4.6 Forming and Drying</h3>
+<div class="outline-text-3" id="text-org8b9ca02">
+<p>
+The note here talks about beveling as not required when the flare is removed. I guess meaning that removing the flare is it's own form of beveling?
+</p>
+</div>
+<div id="outline-container-org8f4d737" class="outline-4">
+<h4 id="org8f4d737">4.6.1 Fold and remove flare</h4>
+<div class="outline-text-4" id="text-org8f4d737">
+<p>
+Fold the cane over. Using the #11 exacto knife, remove the flare after the second wire (confirms here that the second wire is at the narrowest point of the shape) This removes the need for beveling, but it can still be done.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcc48148" class="outline-4">
+<h4 id="orgcc48148">4.6.2 Side-slip top blade to left at butt by 1 to 2mm</h4>
+<div class="outline-text-4" id="text-orgcc48148">
+<p>
+Slides to the left, like Cooper would say. Claims that turning the forming mandrel clockwise will lessen the slip.
+</p>
+</div>
+</div>
+<div id="outline-container-org8154b36" class="outline-4">
+<h4 id="org8154b36">4.6.3 Wrap reed in twine</h4>
+<div class="outline-text-4" id="text-org8154b36">
+<p>
+This helps the tube to form evenly. Wrap from collar to butt. Make it tight, no overlaps in thread
+</p>
+</div>
+</div>
+<div id="outline-container-org4298a44" class="outline-4">
+<h4 id="org4298a44">4.6.4 Place in hot water for 20 minutes</h4>
+<div class="outline-text-4" id="text-org4298a44">
+<p>
+Heat the 10/12 mandrel in the water for the last 30 seconds
+</p>
+</div>
+</div>
+<div id="outline-container-org510ab3a" class="outline-4">
+<h4 id="org510ab3a">4.6.5 Insert forming mandrel</h4>
+<div class="outline-text-4" id="text-org510ab3a">
+<p>
+Go straight, some cracking is almost inevitable
+</p>
+</div>
+</div>
+<div id="outline-container-org09882a6" class="outline-4">
+<h4 id="org09882a6">4.6.6 Partially unwrap string from butt and put on wire 3</h4>
+</div>
+<div id="outline-container-org9eafaea" class="outline-4">
+<h4 id="org9eafaea">4.6.7 Remove string and soak string in water</h4>
+<div class="outline-text-4" id="text-org9eafaea">
+<p>
+Soaking the string will help it when it dries to hold the cane in shape
+</p>
+</div>
+</div>
+<div id="outline-container-org2bb7826" class="outline-4">
+<h4 id="org2bb7826">4.6.8 Mark the FFL on the blade at 38mm past wire 2</h4>
+</div>
+<div id="outline-container-org46b21ef" class="outline-4">
+<h4 id="org46b21ef">4.6.9 Put on wire 2</h4>
+</div>
+<div id="outline-container-org26ead7b" class="outline-4">
+<h4 id="org26ead7b">4.6.10 Butt molding</h4>
+<div class="outline-text-4" id="text-org26ead7b">
+<p>
+Squish the butt around the mandrel on all sides
+</p>
+</div>
+</div>
+<div id="outline-container-org8ea29ec" class="outline-4">
+<h4 id="org8ea29ec">4.6.11 Center-panel molding</h4>
+<div class="outline-text-4" id="text-org8ea29ec">
+<p>
+Gently mold the center (not sides) of the tube between wires 2 and 3
+</p>
+</div>
+</div>
+<div id="outline-container-orgb76462e" class="outline-4">
+<h4 id="orgb76462e">4.6.12 Retighten wires 2 and 3 and remove overlap between wire 2 and collar</h4>
+<div class="outline-text-4" id="text-orgb76462e">
+<p>
+This allows wire 1 to hug as much as possible
+</p>
+</div>
+</div>
+<div id="outline-container-org81f22f9" class="outline-4">
+<h4 id="org81f22f9">4.6.13 Narrow tip to 15mm if needed</h4>
+<div class="outline-text-4" id="text-org81f22f9">
+<p>
+Can be left at 15.5mm to be narrowed later. 
+</p>
+</div>
+</div>
+<div id="outline-container-orgede147e" class="outline-4">
+<h4 id="orgede147e">4.6.14 With knife-edge file, cut in adjustment notches between wires 2 and 3 on center and sides</h4>
+</div>
+<div id="outline-container-org2980112" class="outline-4">
+<h4 id="org2980112">4.6.15 While reed and string are wet, put binding on reed</h4>
+<div class="outline-text-4" id="text-org2980112">
+<p>
+Description of wrapping process:
+"&#x2026; the author begins by looping the cotton string onto the upturned twist of wire III. The string is then pulled tightly and laid beside the blade side of wire III for 1-1/4 revolutions. The string is then cossed diagonally over wire III to the butt side. A string is laid down for a half-revolution beside wire III and is then brought diagonally back to the blade side for another half-revolution. When the first diagonla cross-over is reached, the string is laid just beyond and beside (not on top of) this cross-over, and returned to the butt side of wire III. The author continues this process until wire III is no longer visible. At this point, 2 complete revoluitions of string are made around the tube on the butt side of the wrapping. A third revolution overlaps the 2 and returns the string to the ball for the last diagonal cross-over. The last diagonal cross-over on teh blade side begins a single layer of tightly wrapped string around the reed tube, filling in the space between the wrapping ball and wire II. The author finishes the tube wrapping with a half-hitch, ,which is buried tightly under wire II. The string is then cut flush to wire II."
+</p>
+</div>
+</div>
+<div id="outline-container-org9634ccb" class="outline-4">
+<h4 id="org9634ccb">4.6.16 File butt end of reed to be flat</h4>
+</div>
+<div id="outline-container-orgbce0787" class="outline-4">
+<h4 id="orgbce0787">4.6.17 Ream with drill and file reamers</h4>
+<div class="outline-text-4" id="text-orgbce0787">
+<p>
+Use tape to make sure they only go 18mm for drill and 17mm for file reamer
+</p>
+</div>
+</div>
+<div id="outline-container-orgb822e40" class="outline-4">
+<h4 id="orgb822e40">4.6.18 Straighten sides</h4>
+<div class="outline-text-4" id="text-orgb822e40">
+<p>
+In case reaming caused the sides to slip apart, twist wire III or straighten sides with sapphire file
+</p>
+</div>
+</div>
+<div id="outline-container-orgf63c7de" class="outline-4">
+<h4 id="orgf63c7de">4.6.19 Cut reed</h4>
+<div class="outline-text-4" id="text-orgf63c7de">
+<p>
+Knife on cutting block, 5-inch jewellers end-nippers, or tip cutter. Cut at FFL 38mm from wire 2, or 56mm from butt
+</p>
+</div>
+</div>
+<div id="outline-container-org5684778" class="outline-4">
+<h4 id="org5684778">4.6.20 Adjust side-slipping</h4>
+</div>
+<div id="outline-container-orgede0969" class="outline-4">
+<h4 id="orgede0969">4.6.21 Clip corners of reed</h4>
+<div class="outline-text-4" id="text-orgede0969">
+<p>
+45 degree angle, no more than 1mm
+</p>
+</div>
+</div>
+<div id="outline-container-org185883b" class="outline-4">
+<h4 id="org185883b">4.6.22 Smooth tip edge if needed</h4>
+<div class="outline-text-4" id="text-org185883b">
+<p>
+Use fine side of sapphire file to bring tip down to .3mm. Move with grain of the reed. Angle of file is almost parallel to blade
+</p>
+</div>
+</div>
+<div id="outline-container-orgb541bc8" class="outline-4">
+<h4 id="orgb541bc8">4.6.23 Put wire 1 and slide it 30mm from tip edge</h4>
+<div class="outline-text-4" id="text-orgb541bc8">
+<p>
+Fixing the bahn length at this point
+Note this could be a Del Negro model with a 27mm bahn length
+</p>
+</div>
+</div>
+<div id="outline-container-org4688b04" class="outline-4">
+<h4 id="org4688b04">4.6.24 Tune the reed</h4>
+<div class="outline-text-4" id="text-org4688b04">
+<p>
+Should blow at A 440, if it's higher, the aperture is too closed, so use pin mandrel 9 to open the tube. If it's lower, tighten wire 1
+</p>
+</div>
+</div>
+<div id="outline-container-org95770a8" class="outline-4">
+<h4 id="org95770a8">4.6.25 Apply 2 coats of glue</h4>
+<div class="outline-text-4" id="text-org95770a8">
+<p>
+20 minutes in between coats
+</p>
+</div>
+</div>
+<div id="outline-container-orgafd0945" class="outline-4">
+<h4 id="orgafd0945">4.6.26 Let reed dry</h4>
+<div class="outline-text-4" id="text-orgafd0945">
+<p>
+48 hours naturally, 12 hours in electric oven at warming temperature, or gas oven with pilot light
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga64f095" class="outline-3">
+<h3 id="orga64f095">4.7 Final stage</h3>
+<div class="outline-text-3" id="text-orga64f095">
+</div>
+<div id="outline-container-org49c1ca8" class="outline-4">
+<h4 id="org49c1ca8">4.7.1 Tighten wire 2</h4>
+<div class="outline-text-4" id="text-org49c1ca8">
+<p>
+Should be done on a 10/12 mandrel, but 2mm up from the forming mark. Clip wires 2 and 3 to appropriate places
+</p>
+</div>
+</div>
+<div id="outline-container-orgc389450" class="outline-4">
+<h4 id="orgc389450">4.7.2 Tighten wire 1</h4>
+<div class="outline-text-4" id="text-orgc389450">
+<p>
+Make sure bahn length is still where it should be. Claims wire shouldn't move when dry, which is against what Cooper says. But acknowleges it can't be too tight
+</p>
+</div>
+</div>
+<div id="outline-container-org788859c" class="outline-4">
+<h4 id="org788859c">4.7.3 Reream tube</h4>
+<div class="outline-text-4" id="text-org788859c">
+<p>
+Both drill and file reamers. Use rattail file to clean
+</p>
+</div>
+</div>
+<div id="outline-container-orge6c0e2e" class="outline-4">
+<h4 id="orge6c0e2e">4.7.4 Correct side-slipping</h4>
+<div class="outline-text-4" id="text-orge6c0e2e">
+<p>
+Uses Cooper's twisting technique aka don't glue the wrapping to the tube!
+</p>
+</div>
+</div>
+<div id="outline-container-orgabdcaa9" class="outline-4">
+<h4 id="orgabdcaa9">4.7.5 Straighten sides, renew corners, and polish tip edge</h4>
+<div class="outline-text-4" id="text-orgabdcaa9">
+<p>
+Use 400WD for the tip, pinch it closed and drag it across
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgccb7e0a" class="outline-3">
+<h3 id="orgccb7e0a">4.8 Final Trim</h3>
+<div class="outline-text-3" id="text-orgccb7e0a">
+</div>
+<div id="outline-container-org06f0652" class="outline-4">
+<h4 id="org06f0652">4.8.1 Tip undercut omitted on this model (because it's already dark enough?)</h4>
+</div>
+<div id="outline-container-org00b1984" class="outline-4">
+<h4 id="org00b1984">4.8.2 Blades</h4>
+<div class="outline-text-4" id="text-org00b1984">
+<p>
+After the final trim, thicknesses should be
+30mm .90mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+</p>
+
+<p>
+Five double strokes at a time seems to be the goal
+</p>
+
+<ol class="org-ol">
+<li>With metal plaque in, use 220WD to blend tip into 43mm. Or 50mm if 43 is thin enough. This will create a V that gets smoothed out next. Count your strokes (apologies to Ben Kamins)</li>
+<li>Repeat on the sides of the blade, use the same number of strokes</li>
+<li>Without the plaque in, sand wings with 220WD. Make sure no pyramids at 43mm</li>
+<li>Without plaque, use 220WD to sand from 43 to collar, five double strokes at a time</li>
+<li>Use 400WD on both blades and polish with back</li>
+<li>Check under light and dial indicator for balance</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org89f16f6" class="outline-4">
+<h4 id="org89f16f6">4.8.3 Use cement or binding to reseal wire II</h4>
+</div>
+<div id="outline-container-org9122acc" class="outline-4">
+<h4 id="org9122acc">4.8.4 When dry, soak for three to four minutes</h4>
+<div class="outline-text-4" id="text-org9122acc">
+<p>
+Promotes capillary soaking, only up to collar. Doesn't mention how to know when it's done
+</p>
+</div>
+</div>
+<div id="outline-container-org92f6128" class="outline-4">
+<h4 id="org92f6128">Finishing is in chapter 7</h4>
+</div>
+</div>
+<div id="outline-container-orgb24892e" class="outline-3">
+<h3 id="orgb24892e">Chapter 5: Variations to the Tube</h3>
+<div class="outline-text-3" id="text-orgb24892e">
+</div>
+<div id="outline-container-orgdd1c163" class="outline-4">
+<h4 id="orgdd1c163">Windsor Mill Process Original</h4>
+<div class="outline-text-4" id="text-orgdd1c163">
+<p>
+Originally used to prevent cracks from going into the blade, and as an alternative to the sink method. It also has the affect of undampening the reed linearly, making it easier to blow. The fibers vibrate more freely inside the reed because they are shorter (for they get cut off near the collar). The more cane taken out of the tube, the greater the effect. It also allows for slightly more space inside the reed. This also drops the overall pitch of the crows. It is even more noticeable the further into the blades it is done.
+</p>
+
+<p>
+Process:
+</p>
+<ol class="org-ol">
+<li>Mark 32mm from the butt on each side</li>
+<li>Make a pilot cut that decreases gouge thickness .20mm (but not less than 1.10mm) Use the smallest scraping wheel. Each stroke removes about .01mm so count strokes and measure frequently</li>
+<li>Draw a sawtooth line along the tube, then use a 32 scraper (or 1 inch) onto the original cut until the pencil is gone</li>
+<li>Sand inside with 400WD, including some transition into the blades</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0f010d6" class="outline-4">
+<h4 id="org0f010d6">Reverse Corona Variation</h4>
+<div class="outline-text-4" id="text-org0f010d6">
+<p>
+This variation thins the sides, which allows the sides of the tube to be pulled together more. It enables the blades to bury in front of the collar more, making a rounder tube. The overall effect dampens the reed, and gives it a darker quality and rounder tube. Thus it compliments the tip taper reed more than the straight taper reed. It is done at the same point as windsor mill, after GSP, but before forming.
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>Mark the collar 30mm from the butt</li>
+<li>Using a scraper larger than the diameter of the cane (like a #40) scrape from the collar to the butt end ten times on both sides</li>
+<li>From 3 to 5mm into the blade, scrape a transitional slope to the tube following the shape (unclear if this is with the same scraper wheel or something else)</li>
+<li>Draw the same sawtooth pattern and use a 32 scraper until the pencil is gone. This reestablishes the inside diameter of the tube after step 1</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge7ec579" class="outline-4">
+<h4 id="orge7ec579">Four Flats with Take-out Variation</h4>
+<div class="outline-text-4" id="text-orge7ec579">
+<p>
+This process takes the edges of the tube out. It leaves stronger sides than the reverse corona. The effect is to free up the vibrations of the blades, giving a brighter timbre and easily blowing reed. It is done at the same GSP point as the last variations.
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>Mark the collar at 30mm and another mark at 35mm</li>
+<li>With a sapphire file, flatten the edges of the tube and 5mm into the blades. The flat sides should be between 1 and 1.5mm wide and taper to nothing at the 5mm mark.</li>
+<li>Using a small scraper like 16 or 20, take out the bump or shoulder from the inside of the flattened edge</li>
+<li>Re-establish a 2.54mm radius (32 scraper wheel) from collar to butt. Smooth with 200 DRY and 400WD</li>
+</ol>
+
+<p>
+There is a figure comparing the reverse corona with the four flats and take out. Basically, the reverse corona leaves thin sides and less space inside the tube. The four flats has a stronger tube that resists being pulled together and has more space inside the tube from the take-out variation
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga7449d6" class="outline-4">
+<h4 id="orga7449d6">Tube Taper</h4>
+<div class="outline-text-4" id="text-orga7449d6">
+<p>
+This is an alternative to removing the flare from the shape. This variation thins the tube, which lets wire 3 be tighter that then uses the fulcrum of wire 2 to push the tip open. It is also done at the same stage as windsor mill.
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>mark 18mm (wire 2) from butt end on inside of each side of cane</li>
+<li>Take tape measuring 9mm x 20mm x .3 or .32mm (three pieces of masking tape) at the far end of the gouger bed. This bumps the end of the cane up at an angle</li>
+<li>Re gouge from the 18mm to the butt end and drop the thickness of the butt by .4mm</li>
+</ol>
+
+<p>
+Note this could also be done using a 24 scraper wheel.
+Also note that if you do this, you should use a #13 mandrel since the tube is bigger at the end
+</p>
+</div>
+</div>
+
+<div id="outline-container-org47c44de" class="outline-4">
+<h4 id="org47c44de">Beveling Variation</h4>
+<div class="outline-text-4" id="text-org47c44de">
+<p>
+It is required if the flare is not removed, but it can be done to any reed. (looks to be an asymmetrical bevel)
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>Use an exacto knife and start 18mm from the butt, take out the right inside edge of the tube, increasing the amount as you near the butt. The angle should be 30 degrees</li>
+</ol>
+
+<p>
+There is a note about the <i>right champfer</i> that takes cane out at a 45 degree angle from the bark side. This replaces the reverse corona. Since it doesn't change the inside radius, more space is left giving the reed a deeper sound.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd915de6" class="outline-3">
+<h3 id="orgd915de6">Chapter 6: Variations to the inside of the blades and tubes</h3>
+<div class="outline-text-3" id="text-orgd915de6">
+<p>
+These variations are done on the inside of the reed, usually before profiling. An eccentric gouge is assumed with center at least 1.25mm thick
+</p>
+</div>
+
+<div id="outline-container-org3f7c8bf" class="outline-4">
+<h4 id="org3f7c8bf">6.1 Linear Enhancements (LE)</h4>
+<div class="outline-text-4" id="text-org3f7c8bf">
+<p>
+The cane on the inside of the tube is taken out from around the collar to the tip. These are dampening procedures because they create pyramided fibers inside the blades. When it is profiled, the cane towards the tip will be closer to the bark and therefore be harder than the cane closer to the collar. This means the tip can be very thin and will pop open easily. An easy example is the tip undercut of the straight taper reed. It can be used on any reed to dampen general buzziness.
+</p>
+
+<p>
+Since these work by pyramiding fibers, they are most effective on straight taper reeds that matches with pyramided fibers on the outside of the blades. in effect it is a double pyramidding. Conversely fluting is a double paralleling and works best on tip taper reeds
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="orge53d985"></a>LE 22 Reed<br />
+<div class="outline-text-5" id="text-orge53d985">
+<p>
+This reed often had a 2mm brevis, which made his 24mm mark become now 22mm from the butt. The reason for the brevis is to use a wider part of the shaper, having wider blades and tips.
+</p>
+
+<p>
+Method: Done before profiling
+</p>
+<ol class="org-ol">
+<li>Mark 24mm, 36mm, 48mm, and 60mm from the butt ends</li>
+<li>Using a scraper that matches the inside of the tube (30, 32 or 36) scrape ten times in each direction between the 48mm marks over the center. This should reduce the thickness by .1mm in the center. <b>Note:</b> If you use a scraper that matches, you will take a little less from the sides (because of the eccentric gouge) so the sides will be from a bit softer cane after profiling. If you use a scraper that is slightly bigger you will take more from the sides and have harder cane after profiling. Softer cane means you need to take less off in the parallel side pre trim, while harder cane means you can take more out.</li>
+<li>Repeat the procedure between the 36mm marks, making it now .2 thinner in the center and .1 thinner between 36 and 48. Then repeat again between the 24s, giving the center now a total .3mm reduction.</li>
+<li>Sand the inside of the tube with 220WD. Then profile the cane</li>
+</ol>
+
+<p>
+Then you have to add a brevis at 3.2.2 or 4.2.2 step right after shaping. Also don't enhance the inside of the tube with any of the other processes.
+</p>
+</div>
+</li>
+
+<li><a id="org75fc514"></a>LE 43-50 (Charleston or Loonie) variation<br />
+<div class="outline-text-5" id="text-org75fc514">
+<p>
+Essentially a smaller version of the LE 22 reed. It is easy blowing, and has a lighter sound with more overtones. Again do it before profiling
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>Mark 43 and 50 from the end</li>
+<li>Use a scraper that matches the inside of the cane and scrape between the 50 marks three times, reducing it by .05mm</li>
+<li>Repeat this between the 43mm marks</li>
+<li>Sand everything with 220WD</li>
+</ol>
+
+<p>
+No brevis is required. On a straight taper reed when combined with a tip undercut, you get a very flexible articulation and wide dynamic control.
+</p>
+</div>
+</li>
+
+<li><a id="orgd57c918"></a>LE 22-45 variation<br />
+<div class="outline-text-5" id="text-orgd57c918">
+<p>
+This variation is designed to work with tip taper reeds (!!) but also works with straight taper reeds. A slope is created between wires 2 and 3 to the point where the outside tip taper starts on the finished reed (45mm). It gives a slightly softer tip than the LE 22 reed, but harder than a tip taper with no LE. It also uses a 2mm brevis, and again before profiling.
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>mark 24mm and 47mm from the butt end</li>
+<li>Using a scraper that matches the inside of the cane, reduce the thickness between the 47s by .2mm (about 20 in each direction)</li>
+<li>Scrape from the 47 mark to the 24mm, using less pressure as you get to the 24 mark. This should produce a slope with no reduction at 24mm to a .2mm reduction at 47mm</li>
+<li>Smooth with 220 WD</li>
+</ol>
+
+<p>
+Add the brevis after shaping, omit enhancing inside the tube steps
+</p>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="outline-container-org50e3988" class="outline-4">
+<h4 id="org50e3988">The Dip Tip Variation</h4>
+<div class="outline-text-4" id="text-org50e3988">
+<p>
+This is kind of the opposite of the linear enhancements. The tip is going to be thicker (before profiling) than the back. This gives a hard back and a soft tip, which gives a very dampened and dark sound that excels at very soft dynamics, especially the low register (Sounds like a good tchaik 6 reed to me!) Apparently this is also like a reverse corona that extends into the blades? It should be done on a Tip Taper reed
+</p>
+
+<p>
+Method:
+</p>
+<ol class="org-ol">
+<li>You need a thicker gouge for this. Ideally 1.5mm that eccentrically is 1.25mm at the edges</li>
+<li>Skip profiling, dry the cane</li>
+<li>Pre Trim
+<ol class="org-ol">
+<li>Smooth the inside with 400WD</li>
+<li>Shape the cane, and do a 2mm brevis</li>
+<li>Mark collar and wire positions</li>
+</ol></li>
+<li>Mark at 28 and 45 from the ends</li>
+<li>Using a scraper that matches, scrape from the 45 mark toward the butt and stop at 28. Reduce by about .25mm</li>
+<li>Blend the shoulders into the blade area with 220WD (I think this is where it's like the reverse corona?)</li>
+<li>Profile the cane (can be done dry) Then go to WIndsor mill, as it is required for the dip tip</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgda4b173" class="outline-4">
+<h4 id="orgda4b173">Flute Gouge Variations</h4>
+<div class="outline-text-4" id="text-orgda4b173">
+<p>
+In these variations cane si taken out paralel to the bark and generally from the center. It increases the eccentricity of the gouge, heading more towards eliptical or inverted. Flutes utilize harder cane in the spine of the reed. There are no pyramiding fibers and so no dampening. The flutes allow the blades to vibrate more freely. Skinner described it as having more direction and center. He sometimes called them resonance cuts because they also increase the space inside the reed. Resonance cuts seems to refer more to the Vivaldi reed
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org986ac7d"></a>Center flute with eccentric gouge<br />
+<div class="outline-text-5" id="text-org986ac7d">
+<p>
+This is most effective with the tip taper reed. The inside of the tube will be bigger at the tube and smaller at the blades. Don't shape the cane first!!!
+</p>
+
+<p>
+Method: To be done before profiling or shaping
+</p>
+<ol class="org-ol">
+<li>Mark 30 and 22 from the butt ends. Using a 16 or 20 scraper, reduce the thickness between the 30s by .10mm in the center. About 10 scrapes in each direction. Blend the scrapes into the tube area, but no farther than the 22 marks</li>
+<li>Remove the shoulders of the scrape with a 16 or 20 scraper or with 220WD. Blend the scrape into the sides of the tube</li>
+<li>WIth a 32 scraper, reduce the thickness of the tube area from 30  mark to the end by .1mm. This step is essentially a Windsor mill, so skip that. Or, if you keep the flare you can do a reverse corona or tube taper.</li>
+<li>Profile cane</li>
+<li>smooth and polish inside of gouge</li>
+<li>Shape cane</li>
+<li>Continue</li>
+</ol>
+</div>
+</li>
+<li><a id="org363442a"></a>Center Flute with Inverted Gouge<br />
+<div class="outline-text-5" id="text-org363442a">
+<p>
+By default an inverted gouge is using a center flute variation. It is essentially the same variation but without steps 1 and 2. It is still necessary to return the tube area to the 2.54mm radius using a windor mill, reverse corona, or tube taper (not quite sure what this measn)
+</p>
+</div>
+</li>
+<li><a id="orge623a3b"></a>Vivaldi reed<br />
+<div class="outline-text-5" id="text-orge623a3b">
+<p>
+This reed has weaker sides and is more open on the inside than the Center flute reed. Skinner thought it gave the depth, resonance, and responsiveness to play a Vivaldi concerto, complete with resonance cuts. He also preferred the collar to be at 29mm and blades to be 27mm long
+</p>
+
+<p>
+Method: Start with shaped but not profiled cane
+</p>
+<ol class="org-ol">
+<li>Mark 30 and 22 from each butt. With a 16 or 20 scraper, make pilot cut down the middle between the 22 marks, reducint the thickness by .15mm or .2mm (15 or 20 strokes in each direction). If the cane is hard, do another 10 strokes.</li>
+<li>Make a pencil mark down the length of the pilot cut. With a 28 scraper, remove cane until the pencil is gone</li>
+<li>With a 24 scraper, smooth the transition from 30 to 22. Sand with 220WD</li>
+<li>With a 16 or 20 scraper, add resonance cuts .10mm deep around the bahn and into the tube. Smooth ridge with 220WD</li>
+<li>Profile cane</li>
+</ol>
+</div>
+</li>
+<li><a id="org4a0d174"></a>Flat or elliptical flute<br />
+<div class="outline-text-5" id="text-org4a0d174">
+<p>
+He preferred the Straight Taper reed for this. Don't profile yet!
+</p>
+
+<p>
+Method: Start with shaped cane
+</p>
+<ol class="org-ol">
+<li>With a 16 scraper, reduce thickness by .10mm from butt to butt in 2 straight ribbons, so that the outside of the ribbon touches the shape at its narrowest point</li>
+<li>Between the two 30mm marks, remove the bump in the middle of the cane with 220WD until the center of the cane is fla</li>
+<li>Return the tube to a radius of 2.54cm with WIndsor mill</li>
+<li>Profile cane</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgf564dcd" class="outline-4">
+<h4 id="orgf564dcd">The Sandboard Reed</h4>
+<div class="outline-text-4" id="text-orgf564dcd">
+<p>
+The purpose of this reed is to put the wings and flare at the butt all in the same plane. The result is making the sides very thin from the inside of the reed. It is best used with a tip taper profile and eccentric gouge. Skinner suspected that Knochenhauer and Del Negro did this to most of their reeds.
+</p>
+
+<p>
+Method: Start with shaped but not profiled cane
+</p>
+<ol class="org-ol">
+<li>Put 200DRY or 220WD of at least a 15cm square on a flat surface. Hole the cane gouged side down so one butt and the center of the cane are flat on the surface. The other end will be slightly elevated. Sand the butt and wing so that the shoulders created on the sides of the gouge touch each other atht the narrowest point in the shape. Repeat on the other side.</li>
+<li>With a 32 scraper, remove the border of the shoulder from the full length of the cane, and restore the tube to 2.54cm radius (replacing the Windsor mill process) OR with a 24 scraper remoe the border of the shoulder in the blade area parallel to the shape (see EDAS that follows)</li>
+<li>Profile the cane. Note, keep the flare on the shape and bevel this reed</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org739126d" class="outline-4">
+<h4 id="org739126d">Even Down About Shape (EDAS)</h4>
+<div class="outline-text-4" id="text-org739126d">
+<p>
+This variation could be applied to almost any tip taper reed. Opening up the inside of the blades undampens the sound. This is a simpler version of the 1001 Scheherezade Reed later. The radius of the scraper affects the sound of the reed. The larger the scraper, the more the highs in the reed will be emphasized.
+</p>
+
+<p>
+Method: Shape cane
+</p>
+<ol class="org-ol">
+<li>Mark 30mm from each end. With a 24 or larger scraper, reduce the thickness of the cane parallel to the shape from the center to just beyond the 30mm mark</li>
+<li>Remove the shoulders with 220WD</li>
+<li>Profile cane. Note Skinner preffered to keep the flare on this and use a reverse corona or tube taper</li>
+</ol>
+
+<p>
+I am very unsure what this actually is. Is it like a LE just in the blade area? Not sure what parallel to the shape means in this context if you start in the center&#x2026;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org77f7b9a" class="outline-3">
+<h3 id="org77f7b9a">Chapter 7: Variations to the Outside of the Blades (AKA Finishing)</h3>
+<div class="outline-text-3" id="text-org77f7b9a">
+<p>
+Process is basically voicing and troubleshooting.
+"All reeds need an inside and outside trim. After thoroughly drying the reed, I retighten the wires. Then I take the tip edge down to 0.25mm with the plaque in. Then I take the plaque out and take the wings down over the tip edge. Then I dampen it to remove cane from the spine as much as it needs from the collar to 43mm. I check the ppep first to see what it needs. This is called <i>tuning</i> the reed. I consider this to be the final peep. If I need to dampen the reed more, I take out cane from the very edge of the reed from the collar to 23mm (53mm from the butt or 3mm from the tip edge). This drops the lows and makes them have a <i>direct sound.</i>
+</p>
+
+<p>
+For the inside trim, I start by pulling sandpaper once in the middle [of the tip edge] and once obliquely on either side. Then, if you want to dampen more, or if you want to make the sides more flexible, do it from 43mm to the tip  edge.
+</p>
+
+<p>
+The only time that you touch the backbone is if the peep is too high. When you do the inside trim you raise the upper crow. The oustide trim darkens or dampens the reed."
+</p>
+</div>
+<div id="outline-container-org35179f2" class="outline-4">
+<h4 id="org35179f2">Aperture</h4>
+<div class="outline-text-4" id="text-org35179f2">
+<p>
+Aperture requirements vary from reed to reed and player to player, but all must be able to vibrate. 
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orgd491ce2"></a>Size<br />
+<div class="outline-text-5" id="text-orgd491ce2">
+<p>
+Center of the blades should be between 1.5mm and 2.5mm apart. Adjust using wire 1. Flattening closes, and opening opens
+</p>
+</div>
+</li>
+<li><a id="org10476e6"></a>Thickness<br />
+<div class="outline-text-5" id="text-org10476e6">
+<p>
+Tip thickness should be around .25mm across the whole reed. To thin use either 220, 320, or 400WD or a sapphire file
+</p>
+</div>
+</li>
+<li><a id="org0a27a35"></a>Dampening<br />
+<div class="outline-text-5" id="text-org0a27a35">
+<p>
+Should be partially dampened.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgac2660a" class="outline-4">
+<h4 id="orgac2660a">Voicing</h4>
+<div class="outline-text-4" id="text-orgac2660a">
+<p>
+He was refering to the actual pitches of the crow, and the sound that the reed produces on the instrument (resonance and presence). He tuned to the pitches based on bahn and blade lengths. He adjusted the height of wire 1 mostly to control the color of the sound, not so much the pitch. But he did use the position as the capo d'astro, borrow from the guitar. The closer the wire is to the tip, the higher the low pitch of the reed. The farther, the lower.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org7c3c2d6"></a>Tuning the reed<br />
+<div class="outline-text-5" id="text-org7c3c2d6">
+<p>
+This is all based on a 55mm to 56mm reed, 14.5 to 15.5mm tip, collar width of 8mm to 8.75mm. (No idea how a departure from this effects the natural pitches of the reed)
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Natural High Pitch of the Reed</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Natural Low Pitch of the Reed</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Blade Length</td>
+<td class="org-left">Pitch</td>
+<td class="org-left">Bahn Length</td>
+<td class="org-left">Pitch</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">25mm</td>
+<td class="org-left">F</td>
+<td class="org-left">31mm</td>
+<td class="org-left">B</td>
+</tr>
+
+<tr>
+<td class="org-left">26mm</td>
+<td class="org-left">E</td>
+<td class="org-left">30mm</td>
+<td class="org-left">C</td>
+</tr>
+
+<tr>
+<td class="org-left">27mm</td>
+<td class="org-left">E flat</td>
+<td class="org-left">29mm</td>
+<td class="org-left">C sharp</td>
+</tr>
+
+<tr>
+<td class="org-left">28mm</td>
+<td class="org-left">D</td>
+<td class="org-left">28mm</td>
+<td class="org-left">D</td>
+</tr>
+
+<tr>
+<td class="org-left">29mm</td>
+<td class="org-left">C sharp</td>
+<td class="org-left">27mm</td>
+<td class="org-left">E flat</td>
+</tr>
+</tbody>
+</table>
+<p>
+(An interesting note is that Cooper thinks the high pitch should be a fifth above the low pitch, which should b an e flat. I don't see a way to get a high b flat pitch here)
+</p>
+
+<p>
+The high pitch is controlled by the length and density of the backbone, and is the most stable of the pitches. This should be tuned first, especially if it is too sharp.
+</p>
+
+<p>
+Check the pitch by peeping, which is accomplished by placing the embouchure at the collar or over wire 1. Start blowing gently, keeping embouchure pressure to a minimum, but don't try for sound. Gradually increase air pressure until there is a soft sustainable high pitch.
+</p>
+
+<p>
+If the peep is too high, check if the aperture is too closed. If it is open it using a #9 mandrel or by squeezing the wire from the sides. You can also scrape the backbone and on the sides of the reed from 5mm in front of collar to 43 mark.
+If the peep is too low, then too much has likely been taken out. You can try to raise it by closing the aperture, repeat tip undercut, or clip the tip.
+</p>
+
+<p>
+For tuning the lows, loosen the embouchure as much as possible and blow hard at the collar. These are less stable and less critical. If they are too high, check if the cane is too thick in the heart. If those are correct, remove the spine 5mm to 8mm in front of the collar and create a little window in the spine. Tread carefully here though.
+</p>
+</div>
+</li>
+<li><a id="org33edf86"></a>Adjusting the resonance<br />
+<div class="outline-text-5" id="text-org33edf86">
+<p>
+A rounder first wire will produce a darker, more covered sound that is inside the reed. A flatter oval 1st wire will not allow as many partials through. It has more presence and sounds outside the instrument.
+</p>
+</div>
+</li>
+<li><a id="org8dc0ab6"></a>Mechler vs Knochenhauer<br />
+<div class="outline-text-5" id="text-org8dc0ab6">
+<p>
+Basically says that the flattened first wire of Mechler gives him presence. His darkness comes from dampening. They were heavy on the sides and dampened at the tip (with tip undercut?) The rounder wire of Knochenhauer it doesn't carry well. It sounds good by itself, but doesn't pierce through the orchestra. It is dead in comparison.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org8a19b1e" class="outline-4">
+<h4 id="org8a19b1e">Troubleshooting: the 5 tests</h4>
+<div class="outline-text-4" id="text-org8a19b1e">
+<ol class="org-ol">
+<li>Low F should be free and as if it could make a continuous crescendo. Should not collapse when pushed.
+<ul class="org-ul">
+<li>if it's stuffy, the aperture could be too open, tip too thick, or too much cane in the heart</li>
+<li>if it collapses, there's usually to little in the heart, so clip the tip.</li>
+<li>If it's too buzzy, cane is too heavy in the wings or tip is too heavy. Use the tip undercut if its the tip</li>
+</ul></li>
+<li>Open F and E
+<ul class="org-ul">
+<li>if it can only be forced down with difficulty, should be good</li>
+<li>if it falls too easily, thickness at 50mm is too thin, clip the tip.</li>
+<li>if it can't be forced down, heart has too much cane</li>
+</ul></li>
+<li>Forked e flat without blocking
+<ul class="org-ul">
+<li>if it shoots up in pitch with loud and softs, too much cane on the sides of the heart, or heart's channels</li>
+<li>If they fall,, too much is taken from the sides of the heart. Clip the tip of take some from the middle of the heart to lessen the ratio.</li>
+</ul></li>
+<li>High and lowe tonguing
+<ul class="org-ul">
+<li>tonguing in high register is good but not low, then tip is too thick. if buzzy do an undercut</li>
+<li>if lows are good but highs collapse, then tip is too thin have to clip</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org55345c7" class="outline-4">
+<h4 id="org55345c7">Additional test</h4>
+<div class="outline-text-4" id="text-org55345c7">
+<p>
+Pop the corners - if everything is good but low tonguing is still a little hard, pop corners by squeezing side of tube between wires 2 and 3. Hold for 5 seconds before releasing pliers. Closing wire 2 also pops the corners but effects everything else as well.
+Stuffy low D - find the sides of the wings where there is pyramiding and reduce thickness there
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge91c916" class="outline-3">
+<h3 id="orge91c916">Chapter 8: Special Reeds and Processes</h3>
+<div class="outline-text-3" id="text-orge91c916">
+<p>
+Had hundreds of models, but decided to present two contrasting models with variations. Here are some reeds that are more specific models
+</p>
+</div>
+<div id="outline-container-orgf6955f9" class="outline-4">
+<h4 id="orgf6955f9">Del Negro Model</h4>
+<div class="outline-text-4" id="text-orgf6955f9">
+<p>
+Built onto the tip taper reed.
+Change in Bahn length, the first wire should be 27mm from the tip edge
+Use 220WD to sand down sides to be knife-edge thin, and blended at least 3mm into the spine. This is to get the crow down to a C. Also remember the wire can be rounder with a tip taper reed to lower the pitches
+</p>
+</div>
+</div>
+<div id="outline-container-org105c026" class="outline-4">
+<h4 id="org105c026">Offset shape</h4>
+<div class="outline-text-4" id="text-org105c026">
+<p>
+Should not do this if you are doing any gouge enhancements, as it's hard to offset the scraper wheel when crossing the middle. When you shape the cane, shape one end and then move it over .5mm before shaping the other side. This gives a wider shape. For the offset, take opposite corners off in one quadrant. This pre slips the cane by .5mm
+</p>
+</div>
+</div>
+<div id="outline-container-org49d6780" class="outline-4">
+<h4 id="org49d6780">The 1001 Sheherezade Reed</h4>
+<div class="outline-text-4" id="text-org49d6780">
+<p>
+It's a radical version of EDAS, which basically creates the trim on the inside of the reed instead of the outside. This is best used with the tip taper reed, and can use the 2mm brevis. After shaping, do the four flats variation so there is a 1mm ledge. Then use a 28 30 or 32 wheel to take out the shoulder on the inside edge. Then establish the radius of 28/32 by going up to but not beyond the outside edge of the reed. Special care in the wing area. Also don't extend the new radius into the mid-range area of the blades. Smooth with 220WD. You can use 220WD for the whole process, but it is slower. Then profile as normal. Use the four flats take out for butt enhancement instead of windsor mill (I thought that's what we just did? I guess that variation isn't for the whole reed) In the final trim, collar was .80mm thick and should stay that way until the taper started 45mm from the end
+</p>
+</div>
+</div>
+<div id="outline-container-orgd205a41" class="outline-4">
+<h4 id="orgd205a41">The 2001 Space Oddity Reed</h4>
+<div class="outline-text-4" id="text-orgd205a41">
+<p>
+This is built onto the Straight Taper. and is a center flute with an inverted gouge in the blades. Mark 30 from each butt and use a 24 scraper to do a center flute of .10mm in between the 30s. Take out the shoulder by blending with a 24 or 220WD. Then profile and shape cane. Put collar at 29mm, wires at 8 and 18mm. Add a reverse corona to the tubes. In finishing make the edges knife thin to the 43mm mark.
+</p>
+</div>
+</div>
+<div id="outline-container-org55b2882" class="outline-4">
+<h4 id="org55b2882">Regular Oboe Trim</h4>
+<div class="outline-text-4" id="text-org55b2882">
+<p>
+Skinner had two trims from oboe reeds.Start with 1mm gouged cane. Do a parallel profile with thickness .85mm until 44mm from the butt. Tip should be .4mm in the center tapering from 44mm. The overall length is 58mm. The key notes are forked E flat, B flat, and low D
+</p>
+</div>
+</div>
+<div id="outline-container-orgbca9f73" class="outline-4">
+<h4 id="orgbca9f73">Tabuteau Trim</h4>
+<div class="outline-text-4" id="text-orgbca9f73">
+<p>
+This reed is 56mm long, collar in the middle at 28mm. Tip taper profile. It needs a wider shape than fox 2, like a 3 or a 2 with offset shaping. Width at wire 1 is 12mm or 12.5mm. A convex Bavarian shape is also good for this reed. Tip should be 15 to 15.5mm wide. The heart is left heavy. Tube at wire 1 is rounded, and spine from collar to 43 is taken out to compensate. Sides are thin.
+</p>
+</div>
+</div>
+<div id="outline-container-orga15fe5c" class="outline-4">
+<h4 id="orga15fe5c">Keeping flare on the shape</h4>
+<div class="outline-text-4" id="text-orga15fe5c">
+<p>
+Not sure what is different here.
+</p>
+</div>
+</div>
+<div id="outline-container-orga57ea4c" class="outline-4">
+<h4 id="orga57ea4c">Additional sink method</h4>
+<div class="outline-text-4" id="text-orga57ea4c">
+<p>
+Unnecessary if gouged with the sink method.
+</p>
+<ol class="org-ol">
+<li>Let reed dry for three days or until wires are loose again</li>
+<li>Put reed back on the 10/12 mandrel but 2mm above the mark, or if it was formed on the 11 mandrel put on the 10 mandrel for tightening. Retighten wires 2 and 3</li>
+<li>Straighten sides with sapphire file</li>
+<li>Put on wire 1 at 26mm or wherever is appropriate</li>
+<li>Soak reed until it sinks</li>
+<li>Dry for 3 more days</li>
+<li>Retighten wires</li>
+</ol>
+
+<p>
+There's a random comment about how the greatest friction known to man is a cylinder going onto a cone. We have the cylindrical tube going onto a conical bocal it will fit perfectly.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org785ee7b" class="outline-3">
+<h3 id="org785ee7b">Chapter 9 A Comparison of Mechler and Knochenhauer Reeds</h3>
+<div class="outline-text-3" id="text-org785ee7b">
+<p>
+Skinner used Knochenhauer collar and wire measurements for both straight and tip taper reeds. His recommended shape is also very close to Knochenhauer.
+THe main difference is the slope of the spines. Mechler reeds slope down .53mm from collar to midpoint. The Knochenhauer reeds only slope 0.18mm. Both have a similar slope from midpoint to tip edge.
+Mechler's reeds were gouged thickly because the south american cane was hard. He also made reeds with no collar.
+Sherman Walt reed is very similar to the Striaght taper model.
+Del Negro reed had oknife thin sides so the tip undercut wasn't as necessary
+The main differences between Skinner's Walt and Del models is the placement of wire 1 and the profile. He used a brevis on the tip taper reed
+Using the four flats, or even down around shape seemed to help the overtones of the tip taper reeds
+</p>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Comparison of Mechler and Knochenhauer Reeds</th>
+<th scope="col" class="org-right">Mechler Model</th>
+<th scope="col" class="org-left">Mechler Average</th>
+<th scope="col" class="org-right">Knochenhauer Model</th>
+<th scope="col" class="org-left">Knochenhauer Average</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Length</td>
+<td class="org-right">59mm</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">56mm</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Collar position</td>
+<td class="org-right">31</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">30</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Wire 1</td>
+<td class="org-right">30</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">26</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Wire 2</td>
+<td class="org-right">22</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">20</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Width of tip</td>
+<td class="org-right">14</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">16</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at collar</td>
+<td class="org-right">8</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">9.5</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at wire 1</td>
+<td class="org-right">8</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">8</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at wire 2</td>
+<td class="org-right">7</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">7</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BLADE LENGTH</td>
+<td class="org-right">28(D)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">26(E)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">BAHN LENGTH</td>
+<td class="org-right">29(C#)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">30(C)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">THICKNESS</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Collar</td>
+<td class="org-right">1.09</td>
+<td class="org-left">1.055</td>
+<td class="org-right">0.75</td>
+<td class="org-left">0.747</td>
+</tr>
+
+<tr>
+<td class="org-left">35 from butt</td>
+<td class="org-right">0.95</td>
+<td class="org-left">0.836</td>
+<td class="org-right">0.69</td>
+<td class="org-left">0.663</td>
+</tr>
+
+<tr>
+<td class="org-left">43mm (blade midpoint on Knochenhauer</td>
+<td class="org-right">0.62</td>
+<td class="org-left">0.65</td>
+<td class="org-right">0.57</td>
+<td class="org-left">0.586</td>
+</tr>
+
+<tr>
+<td class="org-left">45mm (blade midpoint on Mechler</td>
+<td class="org-right">0.56</td>
+<td class="org-left">0.54</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">50mm (6mm from tip on Knochenhauer</td>
+<td class="org-right">0.47</td>
+<td class="org-left">0.527</td>
+<td class="org-right">0.45</td>
+<td class="org-left">0.444</td>
+</tr>
+
+<tr>
+<td class="org-left">53mm (6mm from tip on Mechler</td>
+<td class="org-right">0.36</td>
+<td class="org-left">0.465</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">tip edge (estimated)</td>
+<td class="org-right">0.25</td>
+<td class="org-left">0.25</td>
+<td class="org-right">0.25</td>
+<td class="org-left">0.25</td>
+</tr>
+
+<tr>
+<td class="org-left">Slope of spines from collar to midpoint of blades</td>
+<td class="org-right">-0.53</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-0.18</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Slope of spines from midpoint to tip edge</td>
+<td class="org-right">-0.31</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">-0.32</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Comparison of Straight Taper and Tip Taper</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Characteristic</th>
+<th scope="col" class="org-left">Straight Taper Walt Model</th>
+<th scope="col" class="org-left">Tip Taper Del Negro Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Length</td>
+<td class="org-left">56mm</td>
+<td class="org-left">56mm</td>
+</tr>
+
+<tr>
+<td class="org-left">Collar Position</td>
+<td class="org-left">30</td>
+<td class="org-left">30</td>
+</tr>
+
+<tr>
+<td class="org-left">Wire 1</td>
+<td class="org-left">26</td>
+<td class="org-left">29</td>
+</tr>
+
+<tr>
+<td class="org-left">Wire 2</td>
+<td class="org-left">18</td>
+<td class="org-left">18</td>
+</tr>
+
+<tr>
+<td class="org-left">Width of tip</td>
+<td class="org-left">15</td>
+<td class="org-left">15</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at collar</td>
+<td class="org-left">8</td>
+<td class="org-left">8</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at wire 1</td>
+<td class="org-left">7.5</td>
+<td class="org-left">7</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at wire 2</td>
+<td class="org-left">7</td>
+<td class="org-left">7</td>
+</tr>
+
+<tr>
+<td class="org-left">Width at butt</td>
+<td class="org-left">7</td>
+<td class="org-left">7</td>
+</tr>
+
+<tr>
+<td class="org-left">BLADE LENGTH</td>
+<td class="org-left">26(E)</td>
+<td class="org-left">26(E)</td>
+</tr>
+
+<tr>
+<td class="org-left">BAHN LENGTH</td>
+<td class="org-left">30(C)</td>
+<td class="org-left">27(Eb)</td>
+</tr>
+
+<tr>
+<td class="org-left">Thickness</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">collar</td>
+<td class="org-left">0.90/0.88</td>
+<td class="org-left">0.8/0.8</td>
+</tr>
+
+<tr>
+<td class="org-left">35mm</td>
+<td class="org-left">0.7/0.7</td>
+<td class="org-left">0.76/0.76</td>
+</tr>
+
+<tr>
+<td class="org-left">43mm</td>
+<td class="org-left">0.66/0.62</td>
+<td class="org-left">0.65/0.64</td>
+</tr>
+
+<tr>
+<td class="org-left">50mm</td>
+<td class="org-left">0.5/0.48</td>
+<td class="org-left">0.51/0.51</td>
+</tr>
+
+<tr>
+<td class="org-left">tip</td>
+<td class="org-left">0.25/0.25</td>
+<td class="org-left">0.25/0.25</td>
+</tr>
+
+<tr>
+<td class="org-left">slope from collar to midpoint</td>
+<td class="org-left">0.24/0.26</td>
+<td class="org-left">0.15/0.15</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc84ef41" class="outline-2">
+<h2 id="orgc84ef41">Chapter 10 The Contrabassoon Reed</h2>
+<div class="outline-text-2" id="text-orgc84ef41">
+<p>
+May come back to if it's ever needed
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>
