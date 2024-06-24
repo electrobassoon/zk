@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       98dcc46e-d954-4809-98f1-f8ee9dcb5bd7
+:END:
+#+title: skinner crow
+
+The crow of the reed has three pitches, the high crow, and then the mid and low crow that are an octave apart from each other. The high pitch is the most stable. The ideal pitches (which Millard says seem too low to be in tune for most people) are based on the blade and bahn length of the reed. This pitch is also governed by the overall dimensions of the reed, the height of the wires, the size of the blades, the placement of the wires, the capo d'astro effect of wire 1, and the aperture. 
+
+Assuming a reed that is 8.75mm wide at the collar, and 14.5 to 15.5mm at the tip, the pitches should be as follows.
+
+| Highs/Lows | Blade Length | Bahn Length |
+|------------+--------------+-------------|
+| F/C        | 25mm         | 30mm        |
+| E/C        | 26mm         | 30mm        |
+| E flat/C   | 27mm         | 30mm        |
+| D/C        | 28mm         | 30mm        |
+| E/E flat   | 26mm         | 27mm        |
+| E/D        | 26mm         | 28mm        |
+| E/C Sharp  | 26mm         | 29mm        |
+| E/C        | 26mm         | 30mm        |
+| E/B        | 26mm         | 31mm        |
+
+or 
+
+| Natural High Pitch of the Reed |         | Natural Low Pitch of the Reed |         |
+|--------------------------------+---------+-------------------------------+---------|
+| Blade Length                   | Pitch   | Bahn Length                   | Pitch   |
+|--------------------------------+---------+-------------------------------+---------|
+| 25mm                           | F       | 31mm                          | B       |
+| 26mm                           | E       | 30mm                          | C       |
+| 27mm                           | E flat  | 29mm                          | C sharp |
+| 28mm                           | D       | 28mm                          | D       |
+| 29mm                           | C sharp | 27mm                          | E flat  |
+
+To adjust the high pitch, take out cane from the spine to 43mm if it is too high. If it's too low you can try and cut the tip.
+The low pitches are controlled by the sides of the reed in the back.
+
+[[cite:&mckay93_bassoon_reed_manual]]

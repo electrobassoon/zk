@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1508db50-8be5-4155-a514-d2f52995f731
+:END:
+#+title: skinner terms
+
+* Measurements
+Blade Length: Length from tip edge to collar
+Bahn Length: Length from tip edge to beginning of first wire
+Full Fundamental Length: Length from tip edge to beginning of second wire
+Capo d'astro: Wire 1 and it's tuning effect by sliding around
+Flucrum: Wire 2
+50mm : Mark that is 6mm behind the tip (actually 50mm if the reed is 56mm long)
+43mm: Mark 43mm from the but with a 30mm collar. With a brevis reduce this by the brevis ammount
+
+* Concepts
+Linearly Dampened: The greatest degree of dampening is done longitudinally—meaning along the fibers, from collar to tip edge
+Laterally or Horizontally dampened: The greatest degree of dampening is done from side to side
+Pyramiding Fibers: Having a slope through layers of fibers. It can be inside or outside the reed
+Brevis: Cutting the tube to have wider blades with the same length of reed
+
+[[cite:&mckay93_bassoon_reed_manual]]

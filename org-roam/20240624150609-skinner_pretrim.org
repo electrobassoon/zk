@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       fb89d253-92ac-418d-a83a-82c1113394bf
+:END:
+#+title: skinner pretrim
+
+After shaping the cane, Skinner advocates marking the collar positions with a knife-edge file. The second wire went at 18mm (which is the narrowest point on a fox #2 shaper) and the third wire was at 8mm ( a bit higher than most I think). At this point, any [[id:f7a6944a-8b9b-41d3-8587-352a210ac62a][alterations to the tube]], like the Windsor Mill process, would be done. 
+
+Then he scores the center panel with a #11 exacto blade. Make some pencil marks 3mm in from the edges near the collar and 5mm long. Score along those lines to the end of the butt. It just needs to break the bark. Then do two more parallel to the first between the edge and the 3mm lines. In the final 1mm, press the blade all the way through the cane. Then chip out the burr in front of the collar.
+
+Then Skinner does his parallel-sides pre-trim. First, ensure that the center profile is correct, especially at the 43mm and 50mm points(see [[id:1508db50-8be5-4155-a514-d2f52995f731][skinner terms]]). Use a heavy bladed knife so it doesn't chatter (remember cane is dry). Then makes a 3mm parallel to the shape on  both sides. He reduces the thickness here to be about .40mm from the collar to the 50mm marks by pulling the knife parallel to the shape, but making sure that the 50mm mark in between the side and center isn't dropping below .5mm. This creates a bump in the midrange of the profile. To remove pull the knife the same way, but go parallel to the fibers instead of the shape. After this, make 8 strokes starting from about 3mm from the edge and making diagonal lines towards the edge. Then come back in those same strokes and do three more heading towards the center. Smooth the entire reed with 120DRY.
+
+Then using 120DRY, establigh the wing area into a thin edge, and begin to blend it into the thumbnail shape near the tip. The tendency is to do too much here, so be careful! Just in front of the 43mm mark, there will likely be pyramided fibers that stop low pitches from responding. Use the heavy knife to smooth out those fibers, then sand with 120DRY.
+
+Finally, sand the whole reed with 220WD. Reestablish the center fold line with a knife-edge file, and soak the cane until it sinks.
+
+[[cite:&mckay93_bassoon_reed_manual]]

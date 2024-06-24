@@ -15,6 +15,10 @@ High Altitude Adjustments [[cite:&klimko91_bassoon_reedm_at_higher_altit]]
 
 [[id:58b324ad-39b1-479d-a59a-7a4c01f50f0d][Shaping]]
 
+[[id:fb89d253-92ac-418d-a83a-82c1113394bf][skinner pretrim]]
+
+[[id:f7a6944a-8b9b-41d3-8587-352a210ac62a][alterations to the tube]]
+
 [[id:a2247901-6409-4042-84b9-81117044660a][Forming]]
 
 [[id:c821c2eb-2ae1-43b1-9e38-f9e5bafa6a68][Finishing]]

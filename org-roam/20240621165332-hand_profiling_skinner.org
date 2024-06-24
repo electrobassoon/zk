@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7cd5a33b-5f2a-45e1-b34f-bc4e06a3ebc7
+:END:
+#+title: hand profiling skinner
+
+Here is Skinner's method for hand profiling.
+1) Partially dry cane under lamp for 20 minutes
+2) With dividers, mark collar in bark at 30mm from each butt
+3) Score collar marks from one side of cane to other with knife edge file
+4) Place cane on easel, use a sharp heavy knife. Heavier and wider the spine the less likely it will chatter
+5) Draw it back and forth between collar marks in the center. Take center to .85mm
+6) Remove bark on either side of center strip and blend so it is even under the light. Smooth with 220WD
+7) Mark 50 from each butt, then reduce
+   1) Profile between 50mm marks down to .5
+   2) Mark 55 from butt.. Using 220WD go down to .35
+8) Smooth center portion with 220WD and entire blade with 300
+9) Add center mark and score with knife edge file
+
+
+
+[[cite:&mckay93_bassoon_reed_manual]]

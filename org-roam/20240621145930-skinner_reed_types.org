@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a5ebada2-22eb-4faa-b9e8-8b8ba3e85552
+:END:
+#+title: skinner reed types
+[[id:98dcc46e-d954-4809-98f1-f8ee9dcb5bd7][skinner crow]]
+
+Two basic reed types are the straight taper reed and the tip taper reed. The straight taper reed is modelled after Carl Mechler and the tip taper reed is modelled after Wilhelm Knochenhauer. The main difference between the two is the slope from the collar to the 43mm mark. Straight taper reeds have a general slope from collar to tip, while the tip taper reed is mostly parallel in the back, and then tapers at the 43-45mm mark. The straight taper reed is primarily linearly dampened, while the tip taper reed is primarily laterally or horizontally dampened.
+
+Skinner describes the straight taper reed as having presence, or brightness of tone. The sound is outside the instrument and penetrates. The tip-taper reed is dark, and the sound is inside the instrument. It sound good by itself, but doesn't cut through other instruments as well.
+
+
+[[cite:&mckay93_bassoon_reed_manual]]

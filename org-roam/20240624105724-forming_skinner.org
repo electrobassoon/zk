@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       caa78355-66c7-4205-8ef0-6aa4991e3174
+:END:
+#+title: forming skinner
+
+Fold the reed over.
+
+Skinner's first step was to decide whether to remove the flare of the shape or not. Skinner often did. If you don't, then you need to bevel. Removing the flare seems to have the same effect as beveling, meaning to keep the tip open. Removing the flare is from the second wire (the narrowest point in the shape) all the way to the butt. He used a #11 exacto blade for this.
+
+Then Skinner side slipped the top blade to the left a mm or two (matching Cooper's recommendations). He wrapped the reed in soaked twine from collar to butt. Make it tight and make sure there are no overlaps in the twine. Then he places the wrapped reed in hot water (194 degrees) for 20 minutes. In the last 30 seconds, he also soaks the forming mandrel. Then insert the mandrel straight, doing some clockwise turns. Some cracking is inevitable, but this process should minimize it. 
+
+Then unwrap the bottom of the twine a bit until you can put on wire 3. Then take off the rest of the string and put wire 2 on. Mark the blade 38mm higher than the second wire for the full fundamental length of the reed. At this point, mold the butt end of the reed on all sides with pliers. Then mold the center, not sides, between wires 2 and 3. Then retighten wires 2 and 3.
+
+Use an exacto blade or sapphire file to remove the overlap in the tube between wire 2 and the collar. This allows wire 1 to hug the cane as much as possible.
+
+Narrow the tip to be 15mm if needed. It can be left at 15.5mm to be narrowed more later.
+
+Make adjustment knotches with the knife-edge file between wires 2 and 3 on the center and the sides.
+
+Bind the reed (he uses the same cotton string he formed with) when it is wet. 
+
+File the butt end of the reed to be flat. Ream with the two reamers (see [[id:5f69f4b4-88e4-4a0b-99e6-5494e651ac4e][skinner tools]]), and cut the tip at the FFL.
+
+Clip the corners of the reed at a 45 degree angle, no more than 1mm.
+
+Put wire 1 on the reed and slide it to 30mm from the tip edge (or the desired bahn length)
+
+Tune the reed, and use mandrel #9 if needed to open the tube if it's too high. If it's lower, tighten wire 1.
+
+Apply two coars of glue on the binding and let the reed dry.
+
+After it dries, retighten wire 2 on the 10/12 mandrel, but 2mm up from the forming mark. Clip the wires to appropriate lengths. Reream the tube, correct side-slipping, straighten the sides, renew the corners, and polish the tip edge. For the tip edge he uses 400WD and pinches the tip closed and drags it across the sandpaper.
+
+Then he does the tip undercut, using 320 or 220 sandpaper cut into .9cm x 5cm strips. Put a strip in the center as far as it will go, then pinch the reed closed and pull out the sandpaper. Only do this 2 times (maybe 3 with 320). Then do the same on the sides of the reed, but not through the sides. 
+
+Then he works on the on the blades, using 220WD to go from the middle of the reed to create a V, then smooth it out by doing the sides. Then check pyramids at 43, and then do 43 to collar. After this, the points should be:
+
+Straight Taper Reed:
+30mm .90mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+
+Tip Taper Reed:
+30mm .90 to .80mm
+43mm .68 to .65mm
+50mm .55 to .53mm
+
+[[cite:&mckay93_bassoon_reed_manual]]
