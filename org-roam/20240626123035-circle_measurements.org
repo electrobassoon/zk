@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       8db223f6-5391-4657-8858-e0d50f321454
+:END:
+#+title: circle measurements
+
+This is mostly in case I need to make more diagrams for scraper wheels and cane.
+
+If you have two intersecting circles, you can find various measurements.
+
+Let R=radius of the bigger circle (usually the cane diameter dried to a dowel at 1.25" or 15.875mm) and r be the radius of the smaller circle (the scraping wheel of various sizes)
+
+Let d= distance between the two centers of the circles (usually R+cutting depth - r)
+
+We can then find things by drawing a line between the two intersecting points of the circles.
+
+Then x is the distance from the center of the big circle to the line that goes through the two intersects and is given by:
+
+x=(d^2-r^2+R^2)/2d
+
+from this, you can also get the vertical distance between the two intersecting points, a=2y, where a is:
+
+a=1/d*sqrt(4d^2 R^2 - (d^2-r^2+R^2)^2) so then half of that is the vertical distance y. 
+
+Then, you can use x, y, R, r etc. to create right triangles that you can use trig functions for. Like, 
+
+cos (ø) = x/R for the bisected angle where the intersections are
+
+sin (ø) = y/r to get the angle to then do tan (ø) = y/x to get the length offset of r so you can do a similar formula as above to get the angle points on the smaller circle.
+
+Hopefully I'll never have to figure all of that out again now
+

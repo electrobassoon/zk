@@ -9,7 +9,7 @@
 :Custom_ID: romine13_elect
 :URL: 
 :AUTHOR: Romine, R. D.
- :NOTER_DOCUMENT: ~/dissertation/PDFs/romine13_elect.pdf
+ :NOTER_DOCUMENT: ~/zk/PDFs/romine13_elect.pdf
 :NOTER_PAGE:
 :END:
 ** Microphones by Rachel Elliot
