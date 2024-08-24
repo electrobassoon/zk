@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       b8bec225-f5f7-48c8-ab86-80a42f3c66fb
 :END:
-#+title: skinner
+#+title: Lou Skinner
 
 Sink method stabilizes fibers, and removes impurities
 
@@ -16,3 +16,28 @@ Reed making should have its own space and tools.
 Tip aperture pedagogy links to individual physiology and styles
 
  [[cite:&schillinger16_bassoon_reed_makin]] 100-107
+
+[[id:1508db50-8be5-4155-a514-d2f52995f731][skinner terms]]
+
+[[id:5f69f4b4-88e4-4a0b-99e6-5494e651ac4e][skinner tools]]
+
+[[id:a5ebada2-22eb-4faa-b9e8-8b8ba3e85552][skinner reed types]]
+
+[[id:7cd5a33b-5f2a-45e1-b34f-bc4e06a3ebc7][hand profiling skinner]]
+
+[[id:7e8136a9-60ff-4cd5-bc4b-5d71e98d3abb][shaping skinner]]
+
+[[id:fb89d253-92ac-418d-a83a-82c1113394bf][skinner pretrim]]
+
+[[id:caa78355-66c7-4205-8ef0-6aa4991e3174][forming skinner]]
+
+[[id:f7a6944a-8b9b-41d3-8587-352a210ac62a][alterations to the tube]]
+
+[[id:de0dffb7-8d3e-4f83-a1b0-ad30f4ec5a14][alterations to the inside of the blades]]
+
+[[id:98dcc46e-d954-4809-98f1-f8ee9dcb5bd7][skinner crow]]
+
+[[id:a8bd054f-4ee0-4b2d-a036-f4c47525f11c][skinner finishing]]
+
+[[id:901d84e6-8ca8-49fb-bc96-a99dacd726eb][skinner special reeds]]
+

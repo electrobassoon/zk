@@ -1,0 +1,86 @@
+:PROPERTIES:
+:ID:       a8bd054f-4ee0-4b2d-a036-f4c47525f11c
+:END:
+#+title: skinner finishing
+
+"All reeds need an inside and outside trim. After thoroughly drying the reed, I retighten the wires. Then I take the tip edge down to 0.25mm with the plaque in. Then I take the plaque out and take the wings down over the tip edge. Then I dampen it to remove cane from the spine as much as it needs from the collar to 43mm. I check the peep first to see what it needs. This is called /tuning/ the reed. I consider this to be the final peep. If I need to dampen the reed more, I take out cane from the very edge of the reed from the collar to 23mm (53mm from the butt or 3mm from the tip edge). This drops the lows and makes them have a /direct sound./
+
+For the inside trim, I start by pulling sandpaper once in the middle [of the tip edge] and once obliquely on either side. Then, if you want to dampen more, or if you want to make the sides more flexible, do it from 43mm to the tip  edge.
+
+The only time that you touch the backbone is if the peep is too high. When you do the inside trim you raise the upper crow. The oustide trim darkens or dampens the reed."
+
+* Aperture
+The center of the blades should be between 1.5mm and 2.5mm apart. Adjust using wire 1. Flattening the wire closes the aperture, and opening the wire opens the aperture. The tip edge should be around .25mm thick across the whole reed. Use 220, 320, or 400WD or a sapphire file.
+* Peep Pitches
+[[id:98dcc46e-d954-4809-98f1-f8ee9dcb5bd7][skinner crow]]
+Tune the high pitch first, as it is the most stable. If it's too high, check if the aperture is too closed. Open with a #9 mandrel or squeezing wire 1 from the sides. You can also scrape from 5mm in front of the collar to the 43 mark. If the peep is too low, then too much has been taken out. You can try and raise it by closing the aperture, repeat the tip undercut, or clipping the tip.
+
+To tune the low pitches check the cane in the heart. Too sharp is too much in heart.
+
+* Troubleshooting: The 5 Tests
+1) Low F should be free and as if it could make a continuous crescendo. Should not collapse when pushed.
+   - if it's stuffy, the aperture could be too open, tip too thick, or too much cane in the heart
+   - if it collapses, there's usually to little in the heart, so clip the tip.
+   - If it's too buzzy, cane is too heavy in the wings or tip is too heavy. Use the tip undercut if its the tip
+2) Open F and E
+   - if it can only be forced down with difficulty, should be good
+   - if it falls too easily, thickness at 50mm is too thin, clip the tip.
+   - if it can't be forced down, heart has too much cane
+3) Forked e flat without blocking
+   - if it shoots up in pitch with loud and softs, too much cane on the sides of the heart, or heart's channels
+   - If they fall,, too much is taken from the sides of the heart. Clip the tip of take some from the middle of the heart to lessen the ratio.
+4) High and lowe tonguing
+   - tonguing in high register is good but not low, then tip is too thick. if buzzy do an undercut
+   - if lows are good but highs collapse, then tip is too thin have to clip
+
+If everything is good but low tonguing is still a little hard, pop the corners by squeezing the side of the tube between wires 2 and 3. Hold for 5 seconds before releasing pliers. Closing wire 2 also pops the corners but effects everything else as well. If low D is stuffy, find where the pyramiding fibers are in the sides of the wings and reduce the thickness there.
+
+* Comparison of Mechler and Knockenhauer Reeds
+| Comparison of Mechler and Knochenhauer Reeds      | Mechler Model | Mechler Average | Knochenhauer Model | Knochenhauer Average |
+|---------------------------------------------------+---------------+-----------------+--------------------+----------------------|
+| Length                                            |          59mm |                 |               56mm |                      |
+| Collar position                                   |            31 |                 |                 30 |                      |
+| Wire 1                                            |            30 |                 |                 26 |                      |
+| Wire 2                                            |            22 |                 |                 20 |                      |
+| Width of tip                                      |            14 |                 |                 16 |                      |
+| Width at collar                                   |             8 |                 |                9.5 |                      |
+| Width at wire 1                                   |             8 |                 |                  8 |                      |
+| Width at wire 2                                   |             7 |                 |                  7 |                      |
+| BLADE LENGTH                                      |         28(D) |                 |              26(E) |                      |
+| BAHN LENGTH                                       |        29(C#) |                 |              30(C) |                      |
+| THICKNESS                                         |               |                 |                    |                      |
+| Collar                                            |          1.09 |           1.055 |               0.75 |                0.747 |
+| 35 from butt                                      |          0.95 |           0.836 |               0.69 |                0.663 |
+| 43mm (blade midpoint on Knochenhauer              |          0.62 |            0.65 |               0.57 |                0.586 |
+| 45mm (blade midpoint on Mechler                   |          0.56 |            0.54 |                    |                      |
+| 50mm (6mm from tip on Knochenhauer                |          0.47 |           0.527 |               0.45 |                0.444 |
+| 53mm (6mm from tip on Mechler                     |          0.36 |           0.465 |                    |                      |
+| tip edge (estimated)                              |          0.25 |            0.25 |               0.25 |                 0.25 |
+| Slope of spines from collar to midpoint of blades |         -0.53 |                 |              -0.18 |                      |
+| Slope of spines from midpoint to tip edge         |         -0.31 |                 |              -0.32 |                      |
+
+* Comparison of Skinner's Straight Taper and Tip Taper
+| Comparison of Straight Taper and Tip Taper |                           |                           |
+| Characteristic                             | Straight Taper Walt Model | Tip Taper Del Negro Model |
+|--------------------------------------------+---------------------------+---------------------------|
+| Length                                     |                      56mm |                      56mm |
+| Collar Position                            |                        30 |                        30 |
+| Wire 1                                     |                        26 |                        29 |
+| Wire 2                                     |                        18 |                        18 |
+| Width of tip                               |                        15 |                        15 |
+| Width at collar                            |                         8 |                         8 |
+| Width at wire 1                            |                       7.5 |                         7 |
+| Width at wire 2                            |                         7 |                         7 |
+| Width at butt                              |                         7 |                         7 |
+| BLADE LENGTH                               |                     26(E) |                     26(E) |
+| BAHN LENGTH                                |                     30(C) |                    27(Eb) |
+| Thickness                                  |                           |                           |
+| collar                                     |                 0.90/0.88 |                   0.8/0.8 |
+| 35mm                                       |                   0.7/0.7 |                 0.76/0.76 |
+| 43mm                                       |                 0.66/0.62 |                 0.65/0.64 |
+| 50mm                                       |                  0.5/0.48 |                 0.51/0.51 |
+| tip                                        |                 0.25/0.25 |                 0.25/0.25 |
+| slope from collar to midpoint              |                 0.24/0.26 |                 0.15/0.15 |
+
+
+[[cite:&mckay93_bassoon_reed_manual]]

@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       de0dffb7-8d3e-4f83-a1b0-ad30f4ec5a14
+:END:
+#+title: alterations to the inside of the blades
+
+These variations are done on the inside of the reed, usually before profiling. An eccentric gouge is assumed with the center at least 1.25mm thick.
+* Linear Enhancements
+Linear enhancements are dampening procedures because they create pyramided fibers inside the blades. When it is profiled, the cane towards the tip will be closer to the bark and therefore be harder than the cane closer to the collar. This means the tip can be very thin and will pop open easily. An easy example is the tip undercut of the straight taper reed. It can be used on any reed to dampen general buzziness.
+
+Since these are creating pyramided fibers, they are most effective on straight taper reeds that match the pyramided fibers on the outside of the blades. In effect it is a double pyramiding. Conversely, fluting is a double paralleling and works best on tip taper reeds.
+** LE 22 Reed
+This reed often had a 2mm brevis, which made the 24mm mark become 22mm from the butt. The reason for the brevis is to use a wider part of the shaper, having wider blades and tips.
+*** Method (before profiling)
+1) Mark 24mm, 36mm, 48mm, and 60mm from the butt ends
+2) Using a scraper that matches the inside of the tube (30, 32, or 36) scrape ten times in each direction between the 48mm marks over the center. This should reduce the thickness by .1mm in the center. Note that if you use a scraper that matches, you will take a little less from the sides (because of the eccentric gouge) so the sides will be from a bit softer cane after profiling. If you use a scraper slightly bigger, you will take more from the sides and have harder cane after profiling. Softer cane means you need to take less off in the paralllel side pre trim, whil harder means you can take more out.
+3) Repeat the procedure between the 36mm marks, making it now .2 thinner in the center and .1 thinner between 36 and 48. Then repeat again between the 24s, giving the center now a total .3mm reduction.
+4) Sand the inside of the tube with 220WD. Then profile the cane.
+
+The brevis will happen right after shaping. Don't use any other enhancements inside the tube.
+** LE 43-50 (Charleston or Loonie) Variation
+This is essentially a smaller version of the LE 22 reed. It is easy blowing, and has a lighter sound with more overtones. Again, done before profiling.
+*** Method
+1) Mark 43 and 50 from the end
+2) Use a scraper that matches the inside of the cane and scrape between the 50 marks three times, reducing it by .05mm
+3) Repeat this between the 43mm marks
+4) Sand everything with 220WD
+
+No brevis is required. On a straight taper reed when combined with a tip undercut, you get a very flexible articulation and wide dynamic control.
+** LE 22-45 Variation
+This variation is designed to work with the tip taper reeds, but also works with straight taper reeds. A slope is created between wires 2 and 3 to the point where the outside tip taper starts on the finished reed (45mm). It gives a slightly softer tip than the LE 22 reed, but harder than a tip taper with no LE.. It also uses a 2mm brevis, and again before profiling.
+*** Method
+1) Mark 24mm and 47mm from the butt ends
+2) Using a scraper that matches the inside of the cane, reduce the thickness between the 47s by .2mm (about 20 in each direction)
+3) Scrape from the 47 mark to the 24mm using less pressure as you get to the 24 mark. This should produce a slope with no reduction at 24mm to a .2mm recduction at 47mm
+4) Smooth with 220 WD
+
+Add the brevis after shaping, omit enhancing inside the tube steps
+** The Dip Tip Variation
+This is the opposite of linear enhancements. The tip is going to be thicker (before profiling) than the back. This gives a hard back and a soft tip, which gives a very dampened and dark sound that excels at very soft dynamics, especially with the low register (sounds like a good tchaik 6 reed!). Apparently this is also like a reverse corona that extends into the blades? Should be done on a tip taper reed.
+*** Method
+1) A thicker gouge is required for this. Ideally 1.5mm that is eccentrically 1.25mm at the edges
+2) Skip profiling and dry the cane
+3) Pre trim
+   1) Smooth the inside of the cane with 400WD
+   2) Shape the cane, and do a 2mm brevis
+   3) Mark the collar and wire positions
+4) Mark at 28 and 45mm from the ends
+5) Use a scraper that matches, scrape from 45 towards the butt and stop at 28mm. Reduce by about .25mm
+6) Blend the shoulders into the blade area with 220WD (I think this is the similarity to reverse corona?)
+7) Profile the cane, then do a windsor mill (required for dip tip)
+* Flute Gouge Variations
+In these variations cane is taken out parallel to the bark and generally from the center. It increases the eccentricity of the gouge,, heading more towards eliptical or inverted. Flutes utilize harder cane in the spine of the reed. There are no pyramiding fibers and so no dampening. The flutes allow the blades to vibrate more freely. Skinner described it as having more direction and center. He sometimes called them resonance cuts because they also increase the space inside the reed. Resonance cuts seem to refer more to the Vivaldi reed.
+** Center Flute with Eccentric gouge
+This is most effective with the tip taper reed. The inside of the tube will be bigger at the tube and smaller at the blades. Don't shape before this!
+*** Method
+1) Mark 30 and 22mm from the butt ends. Using a 16 or 20 scraper, reduce the thickness between the 30s by .1mm in the center, about 10 scrapes in each direction. Blend the scrapes into the tube area, but no farther than the 22 marks.
+2) Remove the shoulders of the scrape with a 16 or 20 scraper or with 220WD. Blend the scrape into the sides of the tube.
+3) With a 32 scraper, reduce the thickness of the tube area from the 30 mark to the end by .1mm This is essentially the Windsor Mill process. Or if you keep the flare you can do a reverse corona or tube taper.
+4) Profile the cane
+5) Smooth and polish the inside of the gouge
+6) Shape the cane
+7) Continue
+** Center Flute with Inverted Gouge
+By default an inverted gouge is using a center flute variation. It is essentially the same variation but without steps 1 and 2. It is still necessary to return the tube are to 2.54mm radius using a windsor mill, reverse corona, or tube taper.
+** Vivaldi Reed
+This reed has weaker sides and is more open on the inside than the center flute reed. Skinner thought it gave the depth, resonance, and responsiveness to play a Vivaldi concerto, complete with resonance cuts. He also preferred the collar to be at 29mm and the blades to be 27mm long.
+*** Method
+1) Start with shaped but not profiled cane
+2) Mark 30 and 22 from each butt. With a #16 or #20 scraper, make a pilot cut down the middle between the 22 marks, reducing the thickness by .15mm or .2mm (15-20 strokes). If the cane is hard, do another 10 strokes.
+3) Make a pencil mark down the length of the pilot cut. With a #28 scraper, remove cane until the pencil is gone.
+4) With a #24 scraper, smooth the transition from 30mm to 22mm. Sand with 220WD
+5) With a #16 or #20 scraper, add resonance cuts .1mm deep around the bahn and into the tube. Smooth ridge with 220WD
+6) Profile the cane
+** Flat or eliptical flute
+A straight taper reed is preferred, don't profile yet!
+*** Method
+1) Start with shaped cane.
+2) With a #16 scraper, reduce the thickness by .1mm from butt to butt in 2 straight ribbons so that the outside of the ribbon touches the shape at its narrowest point
+3) Between the two 30mm marks, remove the bump in the middle of the cane with 220WD until the center of the cane is flat.
+4) Return the radius of the tube to 2.54cm with Windsor mill
+5) Profile cane
+* Sandboard Reed
+The purpose of this reed is to put the wings, flare, and butt all in the same plane. The result is making the sides very thin from the inside of the reed. It is best used with a tip taper profile and eccentric gouge. Skinner suspected that Knochenhauer and Del Negro did this to most of their reeds.
+** Method
+1) Start with shaped but not profiled cane.
+2) Put 200DRY or 220WD that is at least 15cm square on a flat surface. Hold the cane gouged side down so one butt and the center of the cane are flat on the surface. The other end will be slightly elevated. Sand the butt and wing so that the shoulders created on the sides of the gouge touch each other at the narrowest point in the shape. Repeat on the other side
+3) With a #32 scraper remove the border of the shoulder from the full length of the cane and restore the tube to a 2.54cm radius (replacing Windsor Mill) OR with a #24 scraper remove the border of the shoulder in the blade area parallel to the shape
+4) Profile the cane. Note, keep the flare on the shape and bevel this reed.
+* Even Down About Shape (EDAS)
+This variation could be applied to almost any tip taper reed. Opening up the inside of the blades undampens the sound. This is a simpler version of the 1001 Scheherezade Reed. The radius of the scraper affects the sound of the reed. The larger the scraper, the more the highs in the reed will be emphasized.
+** Method
+1) Mark 30mm from each end. With a 24 or larger scraper, reduce the thickness of the cane parallel to the shape from the center to just beyond the 30mm mark
+2) Remove the shoulders with 220WD
+3) Profile the cane. Note Skinner preferred to keep the flare on this and use a reverse coronoa or tube taper
+
+Note I'm unsure what this actually means. Where is the scraping actually happening?
+
+
+[[cite:&mckay93_bassoon_reed_manual]]

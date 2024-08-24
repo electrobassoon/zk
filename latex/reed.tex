@@ -28,14 +28,14 @@
 \newcommand{\scrapersixteen}{\pscircle*[linecolor=gray](0,-12.8){6.35}}
 
 \newcommand{\pilotcut}{\pscustom[fillstyle=vlines,hatchcolor=red,hatchsep=1pt,hatchangle=45]{
-      \psarc(0,0){19.05}{264.219}{275.781}
-      \psarcn(0,-12.9){6.35}{287.59}{252.41}
+      \psarc(0,13){12.7}{262.889}{277.111}
+      \psarcn(0,6.55){6.35}{284.334}{255.666}
       \closepath
     }}
 
 \newcommand{\secondcut}{\pscustom[fillstyle=vlines,hatchcolor=blue,hatchsep=1pt]{
-  \psarc(0,0){19.05}{258.465}{281.535}
-  \psarcn(0,-6.55){12.7}{287.454}{252.546}
+  \psarc(0,13){12.7}{180.226}{359.774}
+  \psarcn(0,12.9){12.7}{359.774}{180.226}
 }}
 \newcommand{\windsormill}{\secondcut \pilotcut}
 
@@ -43,16 +43,21 @@
 \pspolygon[linecolor=red,fillstyle=vlines,hatchcolor=red](1.3685,120) (1.3685,88) (-1.3685,88) (-1.3685,120)}
 
 \newcommand{\gouged}{  \pscustom{
-    \psarc(0,0){19.05}{236.8}{303.2}
-    \psarcn(0,0){20.25}{303.2}{236.8}
+    \psarc(0,20){19.05}{236.8}{303.2}
+    \psarcn(0,20){20.25}{303.2}{236.8}
     \closepath
   }}
+
 \newcommand{\gougedshaped}{ \pscustom{
-    \psarc(0,0){19.05}{255.41}{284.59}
-    \psarcn(0,0){20.25}{284.59}{255.41}
+    \psarc(0,13){12.7}{248.764}{291.236}
+    \psarcn(0,11.8){12.7}{291.236}{248.764}
     \closepath
 }}
-
+\newcommand{\egougedshaped}{ \pscustom{
+    \psarc(0,13){14.2875}{251.358}{288.642}
+    \psarcn(0,11.8){12.7}{291.236}{248.764}
+    \closepath
+}}
 
 \psset{unit=4mm}
   \psset{linewidth=0.25pt}

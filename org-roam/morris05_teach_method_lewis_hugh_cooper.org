@@ -133,3 +133,140 @@ Shows what each pitch should be within the natural major scale, and the differen
 :END:
 Use three glasses filled with water. The first galss is the goal pitch. Then add or pour out water from the second glass to the third glass to match the tap pitch
 Have two students play the same pitch. One student moves pitch up and down to hear the beats. Switch roles. Do it with octaves, fifths, fourths, and thirds and sixths. Note that the tuner will be "out of tune", or when it is in tune, there will be beats because it is in fact not in tune
+** Chapter 3: The Reed
+:PROPERTIES:
+:NOTER_PAGE: (47 0.19672131147540983 . 0.10286320254506895)
+:END:
+** Cooper used a slightly eccentric gouge
+:PROPERTIES:
+:NOTER_PAGE: (47 0.4065573770491803 . 0.14740190880169673)
+:END:
+But both can achieve good results. A change in gouge requires a compensatory change in other design areas.
+** Beginning of the process
+:PROPERTIES:
+:NOTER_PAGE: (48 0.10491803278688525 . 0.13997879109225878)
+:END:
+Visual inspection of cane. Is the cane straight? When you lay it down is it convex or concave? Color of the cane. Then measures the gouge for consistency
+** Gouge consistency
+:PROPERTIES:
+:NOTER_PAGE: (49 0.5 . 0.16012725344644752)
+:END:
+#+BEGIN_QUOTE
+“End to end inaccuracies profoundly affect the reed's mechanical fulcrum, causing a
+functional imbalance between the two blades.”
+#+END_QUOTE
+** Porosity
+:PROPERTIES:
+:NOTER_PAGE: (50 0.28852459016393445 . 0.1548250265111347)
+:END:
+You can blow or draw air through dry mature cane
+You can blow air through dry gsp and produce bubbles when you put the cane under water
+** Preparation of Cane
+:PROPERTIES:
+:NOTER_PAGE: (51 0.36721311475409835 . 0.11770943796394488)
+:END:
+Corrective sanding for the gouge of anything that's over .05mm difference
+Also smooths the inside of the gouge. 600 grit gives a brighter less dampes sound, 400 is more covered
+Then he wets the surface with his finger, wiping off the excess. Let it dry, then sand the raised stuff out. Then do it again until it stays smooth.
+** Soaking
+:PROPERTIES:
+:NOTER_PAGE: (52 0.659016393442623 . 0.14740190880169673)
+:END:
+Prolonged soaking. Leaches out the saps and minerals. This minimizes the break in period. Greater homogeneity and more consistency across pieces of cane. Better quality of cane
+
+Fill a jar of distilled water and soak the cane for 24 hours. Then pour out the discolored water, rinse the cane, and refill the jar with fresh water. Let it go a day or two and change water again. After water stops discoloring, get fresh water and keep in the dark.
+** Profiling
+:PROPERTIES:
+:NOTER_PAGE: (54 0.7344262295081967 . 0.14740190880169673)
+:END:
+Feels that hand profiling is superior.
+Make score marks for the center line and the outer limits of the blades. Those marks are just barely through the collar. The center is pretty deep.
+Starts by stripping away the bark starting from an outer mark towards the center. Then imagines 9 strips to make an arrowhead configuration. Makes a cut from closer to the shoulder to the tip. It gets deeper as it goes to the tip.
+Not discussed, but in Figure 3.4, is the step of finding where along the profile the desired back of the reed is, and mark it along both blades. If they aren't in the same place, sand to get them in the same place. This will be the point to make the parallel back later.
+** Shaping
+:PROPERTIES:
+:NOTER_PAGE: (56 0.6426229508196721 . 0.14740190880169673)
+:END:
+Prefers the foldover shaper. Claims you get better results and that folding the cane over begins to pre-establish the de/regenerative tip aperture.
+He also narrows the cane before putting it on the shaper to help with cracking.
+** Forming the Tube
+:PROPERTIES:
+:NOTER_PAGE: (57 0.31475409836065577 . 0.16967126193001061)
+:END:
+** Beveling
+:PROPERTIES:
+:NOTER_PAGE: (57 0.32786885245901637 . 0.16967126193001061)
+:END:
+Beveling helps put the mechanical fulcrum in the correct place. It ensures the stability of the tube, and that it seals well, and helps reinforce degerative-regerative tip function
+** Scoring
+:PROPERTIES:
+:NOTER_PAGE: (59 0.18360655737704917 . 0.14740190880169673)
+:END:
+7 score marks, one in the center and 3 on each side of center. He starts at the collar.
+** Slippage
+:PROPERTIES:
+:NOTER_PAGE: (59 0.3442622950819672 . 0.13997879109225878)
+:END:
+Slippage is a moveable shackle that helps lateral expansion of the blades necessary for vertical oscillatory motion
+Easier to match an edge to a plain
+Damping of low noise
+Smaller static volume
+Set slippage before putting wires on.
+** Rest of forming
+:PROPERTIES:
+:NOTER_PAGE: (59 0.8163934426229508 . 0.13255567338282082)
+:END:
+Puts on wires 1 and 2. No slack or it will permit cracks. Insert needle nose pliers and grasp the sections and twists them until they crack. Then he opens the second wire and inserts the mandrel. When it's enough, add the third wire and mash the tube from butt to second wire.
+Then he pulls the third wire to tension and rotates 360 and locks it. Then he does the same to the second wire. This should cause the sides to neck in and close. The first wire is slightly tightened. Remove from mandrel and inspect for roundness. Sand the butt until it's level, then dry on a board for several days.
+
+After it is dried, reinsert the mandrel. The seams should open up again. He reworks the tube between wires 2 and 3 again and tightens and locks those wires.
+
+Don't duco the tube! He also makes four herring bone notches between the 2nd and 3rd wires.
+
+Apply three or four coats of cement or lacquer. File the butt if there's anything on it. Set aside for a year ;)
+** Finishing
+:PROPERTIES:
+:NOTER_PAGE: (61 0.10491803278688525 . 0.16224814422057265)
+:END:
+Soak up to first wire until the water wicks through to the butt-end. Clip tip. Establish the collar line carefully. Then work in 5 ribbons. 
+Start in the middle at the desired thickness mark established earlier. Then in a parallel scrape take it back all the way to the collar. Then do a strip a little closer to the tip on each side that is pretty much the whole collar region. The last two regions are closer to the tip and covers the taper in the shape. He uses a contoured plaque for this step
+
+Then work on the corners with a flat plaque (actually a trianulgar guitar pick) and then the center of the tip. He uses a jack knife. Then he does a lateral scrape of the wings beginning about 2/3 of the way back.
+
+Remove all ridges with a sapphire file. Check the tip for a balanced opening with the wings. Crow for the pitch center, which should ideally be e flat. The reed should now be playable but lacking refinement. More vibrant and lower in pitch that a finished reed. This is a first stage reed.
+** Parallel scrape
+:PROPERTIES:
+:NOTER_PAGE: (62 0.3540983606557377 . 0.13997879109225878)
+:END:
+Knochenhauer vs Mechler
+From a handout "Basic Reed dynamics"
+Back third contributes to structural strength
+mid third to one or both areas
+Front third contributes to partial mix
+** Seven Finishing procedures
+:PROPERTIES:
+:NOTER_PAGE: (63 0.6557377049180327 . 0.14740190880169673)
+:END:
+Redefines the 5 longitudinal bands
+Procedures are 
+1) middle\
+2) rails
+3) channels
+4) wings
+5) corners
+6) tip
+7) fine file to smooth and blend other work
+** Seven Acoustic Criteria
+:PROPERTIES:
+:NOTER_PAGE: (64 0.7344262295081967 . 0.1548250265111347)
+:END:
+1) Reed crows:
+   + dominant pitch of e flat for a #2 bocal
+   + dominant crow of D for a #1 bocal
+   + dominant crow of E for a #3 bocal
+2) Reed plus bocal slighlty flat C
+3) Relaxed embouchure it drops to a stable B
+4) Trying to lower it further you get a crow at a lower octave. If it's out of tune, the registers will be distorted in a similar way.
+5) Minimum range of reed plus bocal should be a minor 3rd (B to slightly flat D) B is lows, C primary register, C# second register, D is high register
+6) Cut off frequency of reed alone is minimum a perfect fifth above dominant crow.
+7) Range of an octave for the reed alone.

@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       74676c0f-d80c-48df-888f-cf0421d9d019
+:END:
+#+title: measurements skinner
+
+
+* Comparison of Mechler and Knockenhauer Reeds
+| Comparison of Mechler and Knochenhauer Reeds      | Mechler Model | Mechler Average | Knochenhauer Model | Knochenhauer Average |
+|---------------------------------------------------+---------------+-----------------+--------------------+----------------------|
+| Length                                            |          59mm |                 |               56mm |                      |
+| Collar position                                   |            31 |                 |                 30 |                      |
+| Wire 1                                            |            30 |                 |                 26 |                      |
+| Wire 2                                            |            22 |                 |                 20 |                      |
+| Width of tip                                      |            14 |                 |                 16 |                      |
+| Width at collar                                   |             8 |                 |                9.5 |                      |
+| Width at wire 1                                   |             8 |                 |                  8 |                      |
+| Width at wire 2                                   |             7 |                 |                  7 |                      |
+| BLADE LENGTH                                      |         28(D) |                 |              26(E) |                      |
+| BAHN LENGTH                                       |        29(C#) |                 |              30(C) |                      |
+| THICKNESS                                         |               |                 |                    |                      |
+| Collar                                            |          1.09 |           1.055 |               0.75 |                0.747 |
+| 35 from butt                                      |          0.95 |           0.836 |               0.69 |                0.663 |
+| 43mm (blade midpoint on Knochenhauer              |          0.62 |            0.65 |               0.57 |                0.586 |
+| 45mm (blade midpoint on Mechler                   |          0.56 |            0.54 |                    |                      |
+| 50mm (6mm from tip on Knochenhauer                |          0.47 |           0.527 |               0.45 |                0.444 |
+| 53mm (6mm from tip on Mechler                     |          0.36 |           0.465 |                    |                      |
+| tip edge (estimated)                              |          0.25 |            0.25 |               0.25 |                 0.25 |
+| Slope of spines from collar to midpoint of blades |         -0.53 |                 |              -0.18 |                      |
+| Slope of spines from midpoint to tip edge         |         -0.31 |                 |              -0.32 |                      |
+
+* Comparison of Skinner's Straight Taper and Tip Taper
+| Comparison of Straight Taper and Tip Taper |                           |                           |
+| Characteristic                             | Straight Taper Walt Model | Tip Taper Del Negro Model |
+|--------------------------------------------+---------------------------+---------------------------|
+| Length                                     |                      56mm |                      56mm |
+| Collar Position                            |                        30 |                        30 |
+| Wire 1                                     |                        26 |                        29 |
+| Wire 2                                     |                        18 |                        18 |
+| Width of tip                               |                        15 |                        15 |
+| Width at collar                            |                         8 |                         8 |
+| Width at wire 1                            |                       7.5 |                         7 |
+| Width at wire 2                            |                         7 |                         7 |
+| Width at butt                              |                         7 |                         7 |
+| BLADE LENGTH                               |                     26(E) |                     26(E) |
+| BAHN LENGTH                                |                     30(C) |                    27(Eb) |
+| Thickness                                  |                           |                           |
+| collar                                     |                 0.90/0.88 |                   0.8/0.8 |
+| 35mm                                       |                   0.7/0.7 |                 0.76/0.76 |
+| 43mm                                       |                 0.66/0.62 |                 0.65/0.64 |
+| 50mm                                       |                  0.5/0.48 |                 0.51/0.51 |
+| tip                                        |                 0.25/0.25 |                 0.25/0.25 |
+| slope from collar to midpoint              |                 0.24/0.26 |                 0.15/0.15 |
+
+[[cite:&mckay93_bassoon_reed_manual]]

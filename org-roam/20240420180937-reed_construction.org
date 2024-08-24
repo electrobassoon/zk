@@ -11,6 +11,8 @@ High Altitude Adjustments [[cite:&klimko91_bassoon_reedm_at_higher_altit]]
 
 [[id:a8df25eb-7453-4398-aa98-ce835c896d54][Preparing gouged cane]]
 
+[[id:de0dffb7-8d3e-4f83-a1b0-ad30f4ec5a14][alterations to the inside of the blades]]
+
 [[id:e9e1fb87-5d18-4021-918a-b5bbdcfe5dbd][Profiling]]
 
 [[id:58b324ad-39b1-479d-a59a-7a4c01f50f0d][Shaping]]
@@ -20,5 +22,6 @@ High Altitude Adjustments [[cite:&klimko91_bassoon_reedm_at_higher_altit]]
 [[id:f7a6944a-8b9b-41d3-8587-352a210ac62a][alterations to the tube]]
 
 [[id:a2247901-6409-4042-84b9-81117044660a][Forming]]
+
 
 [[id:c821c2eb-2ae1-43b1-9e38-f9e5bafa6a68][Finishing]]

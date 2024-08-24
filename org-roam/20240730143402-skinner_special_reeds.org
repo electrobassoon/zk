@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       901d84e6-8ca8-49fb-bc96-a99dacd726eb
+:END:
+#+title: skinner special reeds
+
+** Del Negro Model
+Built onto the tip taper reed.
+Change in Bahn length, the first wire should be 27mm from the tip edge
+Use 220WD to sand down sides to be knife-edge thin, and blended at least 3mm into the spine. This is to get the crow down to a C. Also remember the wire can be rounder with a tip taper reed to lower the pitches
+** Offset shape
+Should not do this if you are doing any gouge enhancements, as it's hard to offset the scraper wheel when crossing the middle. When you shape the cane, shape one end and then move it over .5mm before shaping the other side. This gives a wider shape. For the offset, take opposite corners off in one quadrant. This pre slips the cane by .5mm
+** The 1001 Sheherezade Reed
+It's a radical version of EDAS, which basically creates the trim on the inside of the reed instead of the outside. This is best used with the tip taper reed, and can use the 2mm brevis. After shaping, do the four flats variation so there is a 1mm ledge. Then use a 28 30 or 32 wheel to take out the shoulder on the inside edge. Then establish the radius of 28/32 by going up to but not beyond the outside edge of the reed. Special care in the wing area. Also don't extend the new radius into the mid-range area of the blades. Smooth with 220WD. You can use 220WD for the whole process, but it is slower. Then profile as normal. Use the four flats take out for butt enhancement instead of windsor mill (I thought that's what we just did? I guess that variation isn't for the whole reed) In the final trim, collar was .80mm thick and should stay that way until the taper started 45mm from the end
+** The 2001 Space Oddity Reed
+This is built onto the Straight Taper. and is a center flute with an inverted gouge in the blades. Mark 30 from each butt and use a 24 scraper to do a center flute of .10mm in between the 30s. Take out the shoulder by blending with a 24 or 220WD. Then profile and shape cane. Put collar at 29mm, wires at 8 and 18mm. Add a reverse corona to the tubes. In finishing make the edges knife thin to the 43mm mark.
+** Regular Oboe Trim
+Skinner had two trims from oboe reeds.Start with 1mm gouged cane. Do a parallel profile with thickness .85mm until 44mm from the butt. Tip should be .4mm in the center tapering from 44mm. The overall length is 58mm. The key notes are forked E flat, B flat, and low D
+** Tabuteau Trim
+This reed is 56mm long, collar in the middle at 28mm. Tip taper profile. It needs a wider shape than fox 2, like a 3 or a 2 with offset shaping. Width at wire 1 is 12mm or 12.5mm. A convex Bavarian shape is also good for this reed. Tip should be 15 to 15.5mm wide. The heart is left heavy. Tube at wire 1 is rounded, and spine from collar to 43 is taken out to compensate. Sides are thin.
+** Additional sink method
+Unnecessary if gouged with the sink method.
+1) Let reed dry for three days or until wires are loose again
+2) Put reed back on the 10/12 mandrel but 2mm above the mark, or if it was formed on the 11 mandrel put on the 10 mandrel for tightening. Retighten wires 2 and 3
+3) Straighten sides with sapphire file
+4) Put on wire 1 at 26mm or wherever is appropriate
+5) Soak reed until it sinks
+6) Dry for 3 more days
+7) Retighten wires
+
+[[cite:&mckay93_bassoon_reed_manual]]

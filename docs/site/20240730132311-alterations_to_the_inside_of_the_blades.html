@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-08-23 Fri 20:38 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>alterations to the inside of the blades</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">alterations to the inside of the blades</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb1eb3d8">Linear Enhancements</a>
+<ul>
+<li><a href="#org023bd62">LE 22 Reed</a>
+<ul>
+<li><a href="#org6941185">Method (before profiling)</a></li>
+</ul>
+</li>
+<li><a href="#org2f2761c">LE 43-50 (Charleston or Loonie) Variation</a>
+<ul>
+<li><a href="#org1b40306">Method</a></li>
+</ul>
+</li>
+<li><a href="#org7ef99e6">LE 22-45 Variation</a>
+<ul>
+<li><a href="#orgb1eba35">Method</a></li>
+</ul>
+</li>
+<li><a href="#org9cf7b5a">The Dip Tip Variation</a>
+<ul>
+<li><a href="#org059eda8">Method</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org336146f">Flute Gouge Variations</a>
+<ul>
+<li><a href="#org3990b40">Center Flute with Eccentric gouge</a>
+<ul>
+<li><a href="#org5fc736b">Method</a></li>
+</ul>
+</li>
+<li><a href="#orgb7eb6e6">Center Flute with Inverted Gouge</a></li>
+<li><a href="#orgf9b0bbf">Vivaldi Reed</a>
+<ul>
+<li><a href="#orgb71a894">Method</a></li>
+</ul>
+</li>
+<li><a href="#orgdca8cbe">Flat or eliptical flute</a>
+<ul>
+<li><a href="#orgb33e507">Method</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org3a5a46c">Sandboard Reed</a>
+<ul>
+<li><a href="#orga66c883">Method</a></li>
+</ul>
+</li>
+<li><a href="#org99d46fd">Even Down About Shape (EDAS)</a>
+<ul>
+<li><a href="#org4e15e44">Method</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+These variations are done on the inside of the reed, usually before profiling. An eccentric gouge is assumed with the center at least 1.25mm thick.
+</p>
+<div id="outline-container-orgb1eb3d8" class="outline-2">
+<h2 id="orgb1eb3d8">Linear Enhancements</h2>
+<div class="outline-text-2" id="text-orgb1eb3d8">
+<p>
+Linear enhancements are dampening procedures because they create pyramided fibers inside the blades. When it is profiled, the cane towards the tip will be closer to the bark and therefore be harder than the cane closer to the collar. This means the tip can be very thin and will pop open easily. An easy example is the tip undercut of the straight taper reed. It can be used on any reed to dampen general buzziness.
+</p>
+
+<p>
+Since these are creating pyramided fibers, they are most effective on straight taper reeds that match the pyramided fibers on the outside of the blades. In effect it is a double pyramiding. Conversely, fluting is a double paralleling and works best on tip taper reeds.
+</p>
+</div>
+<div id="outline-container-org023bd62" class="outline-3">
+<h3 id="org023bd62">LE 22 Reed</h3>
+<div class="outline-text-3" id="text-org023bd62">
+<p>
+This reed often had a 2mm brevis, which made the 24mm mark become 22mm from the butt. The reason for the brevis is to use a wider part of the shaper, having wider blades and tips.
+</p>
+</div>
+<div id="outline-container-org6941185" class="outline-4">
+<h4 id="org6941185">Method (before profiling)</h4>
+<div class="outline-text-4" id="text-org6941185">
+<ol class="org-ol">
+<li>Mark 24mm, 36mm, 48mm, and 60mm from the butt ends</li>
+<li>Using a scraper that matches the inside of the tube (30, 32, or 36) scrape ten times in each direction between the 48mm marks over the center. This should reduce the thickness by .1mm in the center. Note that if you use a scraper that matches, you will take a little less from the sides (because of the eccentric gouge) so the sides will be from a bit softer cane after profiling. If you use a scraper slightly bigger, you will take more from the sides and have harder cane after profiling. Softer cane means you need to take less off in the paralllel side pre trim, whil harder means you can take more out.</li>
+<li>Repeat the procedure between the 36mm marks, making it now .2 thinner in the center and .1 thinner between 36 and 48. Then repeat again between the 24s, giving the center now a total .3mm reduction.</li>
+<li>Sand the inside of the tube with 220WD. Then profile the cane.</li>
+</ol>
+
+<p>
+The brevis will happen right after shaping. Don't use any other enhancements inside the tube.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2f2761c" class="outline-3">
+<h3 id="org2f2761c">LE 43-50 (Charleston or Loonie) Variation</h3>
+<div class="outline-text-3" id="text-org2f2761c">
+<p>
+This is essentially a smaller version of the LE 22 reed. It is easy blowing, and has a lighter sound with more overtones. Again, done before profiling.
+</p>
+</div>
+<div id="outline-container-org1b40306" class="outline-4">
+<h4 id="org1b40306">Method</h4>
+<div class="outline-text-4" id="text-org1b40306">
+<ol class="org-ol">
+<li>Mark 43 and 50 from the end</li>
+<li>Use a scraper that matches the inside of the cane and scrape between the 50 marks three times, reducing it by .05mm</li>
+<li>Repeat this between the 43mm marks</li>
+<li>Sand everything with 220WD</li>
+</ol>
+
+<p>
+No brevis is required. On a straight taper reed when combined with a tip undercut, you get a very flexible articulation and wide dynamic control.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7ef99e6" class="outline-3">
+<h3 id="org7ef99e6">LE 22-45 Variation</h3>
+<div class="outline-text-3" id="text-org7ef99e6">
+<p>
+This variation is designed to work with the tip taper reeds, but also works with straight taper reeds. A slope is created between wires 2 and 3 to the point where the outside tip taper starts on the finished reed (45mm). It gives a slightly softer tip than the LE 22 reed, but harder than a tip taper with no LE.. It also uses a 2mm brevis, and again before profiling.
+</p>
+</div>
+<div id="outline-container-orgb1eba35" class="outline-4">
+<h4 id="orgb1eba35">Method</h4>
+<div class="outline-text-4" id="text-orgb1eba35">
+<ol class="org-ol">
+<li>Mark 24mm and 47mm from the butt ends</li>
+<li>Using a scraper that matches the inside of the cane, reduce the thickness between the 47s by .2mm (about 20 in each direction)</li>
+<li>Scrape from the 47 mark to the 24mm using less pressure as you get to the 24 mark. This should produce a slope with no reduction at 24mm to a .2mm recduction at 47mm</li>
+<li>Smooth with 220 WD</li>
+</ol>
+
+<p>
+Add the brevis after shaping, omit enhancing inside the tube steps
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9cf7b5a" class="outline-3">
+<h3 id="org9cf7b5a">The Dip Tip Variation</h3>
+<div class="outline-text-3" id="text-org9cf7b5a">
+<p>
+This is the opposite of linear enhancements. The tip is going to be thicker (before profiling) than the back. This gives a hard back and a soft tip, which gives a very dampened and dark sound that excels at very soft dynamics, especially with the low register (sounds like a good tchaik 6 reed!). Apparently this is also like a reverse corona that extends into the blades? Should be done on a tip taper reed.
+</p>
+</div>
+<div id="outline-container-org059eda8" class="outline-4">
+<h4 id="org059eda8">Method</h4>
+<div class="outline-text-4" id="text-org059eda8">
+<ol class="org-ol">
+<li>A thicker gouge is required for this. Ideally 1.5mm that is eccentrically 1.25mm at the edges</li>
+<li>Skip profiling and dry the cane</li>
+<li>Pre trim
+<ol class="org-ol">
+<li>Smooth the inside of the cane with 400WD</li>
+<li>Shape the cane, and do a 2mm brevis</li>
+<li>Mark the collar and wire positions</li>
+</ol></li>
+<li>Mark at 28 and 45mm from the ends</li>
+<li>Use a scraper that matches, scrape from 45 towards the butt and stop at 28mm. Reduce by about .25mm</li>
+<li>Blend the shoulders into the blade area with 220WD (I think this is the similarity to reverse corona?)</li>
+<li>Profile the cane, then do a windsor mill (required for dip tip)</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org336146f" class="outline-2">
+<h2 id="org336146f">Flute Gouge Variations</h2>
+<div class="outline-text-2" id="text-org336146f">
+<p>
+In these variations cane is taken out parallel to the bark and generally from the center. It increases the eccentricity of the gouge,, heading more towards eliptical or inverted. Flutes utilize harder cane in the spine of the reed. There are no pyramiding fibers and so no dampening. The flutes allow the blades to vibrate more freely. Skinner described it as having more direction and center. He sometimes called them resonance cuts because they also increase the space inside the reed. Resonance cuts seem to refer more to the Vivaldi reed.
+</p>
+</div>
+<div id="outline-container-org3990b40" class="outline-3">
+<h3 id="org3990b40">Center Flute with Eccentric gouge</h3>
+<div class="outline-text-3" id="text-org3990b40">
+<p>
+This is most effective with the tip taper reed. The inside of the tube will be bigger at the tube and smaller at the blades. Don't shape before this!
+</p>
+</div>
+<div id="outline-container-org5fc736b" class="outline-4">
+<h4 id="org5fc736b">Method</h4>
+<div class="outline-text-4" id="text-org5fc736b">
+<ol class="org-ol">
+<li>Mark 30 and 22mm from the butt ends. Using a 16 or 20 scraper, reduce the thickness between the 30s by .1mm in the center, about 10 scrapes in each direction. Blend the scrapes into the tube area, but no farther than the 22 marks.</li>
+<li>Remove the shoulders of the scrape with a 16 or 20 scraper or with 220WD. Blend the scrape into the sides of the tube.</li>
+<li>With a 32 scraper, reduce the thickness of the tube area from the 30 mark to the end by .1mm This is essentially the Windsor Mill process. Or if you keep the flare you can do a reverse corona or tube taper.</li>
+<li>Profile the cane</li>
+<li>Smooth and polish the inside of the gouge</li>
+<li>Shape the cane</li>
+<li>Continue</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb7eb6e6" class="outline-3">
+<h3 id="orgb7eb6e6">Center Flute with Inverted Gouge</h3>
+<div class="outline-text-3" id="text-orgb7eb6e6">
+<p>
+By default an inverted gouge is using a center flute variation. It is essentially the same variation but without steps 1 and 2. It is still necessary to return the tube are to 2.54mm radius using a windsor mill, reverse corona, or tube taper.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf9b0bbf" class="outline-3">
+<h3 id="orgf9b0bbf">Vivaldi Reed</h3>
+<div class="outline-text-3" id="text-orgf9b0bbf">
+<p>
+This reed has weaker sides and is more open on the inside than the center flute reed. Skinner thought it gave the depth, resonance, and responsiveness to play a Vivaldi concerto, complete with resonance cuts. He also preferred the collar to be at 29mm and the blades to be 27mm long.
+</p>
+</div>
+<div id="outline-container-orgb71a894" class="outline-4">
+<h4 id="orgb71a894">Method</h4>
+<div class="outline-text-4" id="text-orgb71a894">
+<ol class="org-ol">
+<li>Start with shaped but not profiled cane</li>
+<li>Mark 30 and 22 from each butt. With a #16 or #20 scraper, make a pilot cut down the middle between the 22 marks, reducing the thickness by .15mm or .2mm (15-20 strokes). If the cane is hard, do another 10 strokes.</li>
+<li>Make a pencil mark down the length of the pilot cut. With a #28 scraper, remove cane until the pencil is gone.</li>
+<li>With a #24 scraper, smooth the transition from 30mm to 22mm. Sand with 220WD</li>
+<li>With a #16 or #20 scraper, add resonance cuts .1mm deep around the bahn and into the tube. Smooth ridge with 220WD</li>
+<li>Profile the cane</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdca8cbe" class="outline-3">
+<h3 id="orgdca8cbe">Flat or eliptical flute</h3>
+<div class="outline-text-3" id="text-orgdca8cbe">
+<p>
+A straight taper reed is preferred, don't profile yet!
+</p>
+</div>
+<div id="outline-container-orgb33e507" class="outline-4">
+<h4 id="orgb33e507">Method</h4>
+<div class="outline-text-4" id="text-orgb33e507">
+<ol class="org-ol">
+<li>Start with shaped cane.</li>
+<li>With a #16 scraper, reduce the thickness by .1mm from butt to butt in 2 straight ribbons so that the outside of the ribbon touches the shape at its narrowest point</li>
+<li>Between the two 30mm marks, remove the bump in the middle of the cane with 220WD until the center of the cane is flat.</li>
+<li>Return the radius of the tube to 2.54cm with Windsor mill</li>
+<li>Profile cane</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3a5a46c" class="outline-2">
+<h2 id="org3a5a46c">Sandboard Reed</h2>
+<div class="outline-text-2" id="text-org3a5a46c">
+<p>
+The purpose of this reed is to put the wings, flare, and butt all in the same plane. The result is making the sides very thin from the inside of the reed. It is best used with a tip taper profile and eccentric gouge. Skinner suspected that Knochenhauer and Del Negro did this to most of their reeds.
+</p>
+</div>
+<div id="outline-container-orga66c883" class="outline-3">
+<h3 id="orga66c883">Method</h3>
+<div class="outline-text-3" id="text-orga66c883">
+<ol class="org-ol">
+<li>Start with shaped but not profiled cane.</li>
+<li>Put 200DRY or 220WD that is at least 15cm square on a flat surface. Hold the cane gouged side down so one butt and the center of the cane are flat on the surface. The other end will be slightly elevated. Sand the butt and wing so that the shoulders created on the sides of the gouge touch each other at the narrowest point in the shape. Repeat on the other side</li>
+<li>With a #32 scraper remove the border of the shoulder from the full length of the cane and restore the tube to a 2.54cm radius (replacing Windsor Mill) OR with a #24 scraper remove the border of the shoulder in the blade area parallel to the shape</li>
+<li>Profile the cane. Note, keep the flare on the shape and bevel this reed.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org99d46fd" class="outline-2">
+<h2 id="org99d46fd">Even Down About Shape (EDAS)</h2>
+<div class="outline-text-2" id="text-org99d46fd">
+<p>
+This variation could be applied to almost any tip taper reed. Opening up the inside of the blades undampens the sound. This is a simpler version of the 1001 Scheherezade Reed. The radius of the scraper affects the sound of the reed. The larger the scraper, the more the highs in the reed will be emphasized.
+</p>
+</div>
+<div id="outline-container-org4e15e44" class="outline-3">
+<h3 id="org4e15e44">Method</h3>
+<div class="outline-text-3" id="text-org4e15e44">
+<ol class="org-ol">
+<li>Mark 30mm from each end. With a 24 or larger scraper, reduce the thickness of the cane parallel to the shape from the center to just beyond the 30mm mark</li>
+<li>Remove the shoulders with 220WD</li>
+<li>Profile the cane. Note Skinner preferred to keep the flare on this and use a reverse coronoa or tube taper</li>
+</ol>
+
+<p>
+Note I'm unsure what this actually means. Where is the scraping actually happening?
+</p>
+
+
+<p>
+<a href="&amp;mckay93_bassoon_reed_manual">&amp;mckay93_bassoon_reed_manual</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

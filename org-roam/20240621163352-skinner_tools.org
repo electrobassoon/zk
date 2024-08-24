@@ -4,7 +4,7 @@
 #+title: skinner tools
 
 * Scraping wheels
-Wheels used to alter the inside of the gouge. He had wheels in various sizes; the radius of the wheels he used were 16/32 (of an inch), 20/32, 24/32, 28/32, 30/32, 32/32, 36/32, 40/32, 48/32, and occasionally a 56/32 and 64/32. James McKay demonstrated their use in a video where you hold it like a pencil and drag it backwards in the scraping direcion.
+Wheels used to alter the inside of the gouge. He had wheels in various sizes; the radius of the wheels he used were 16/32 (of an inch), 20/32, 24/32, 28/32, 30/32, 32/32, 36/32, 40/32, 48/32, and occasionally a 56/32 and 64/32. James McKay demonstrated their use in a video where you hold it like a pencil and drag it backwards in the scraping direcion. I'm hoping that taping sand paper to various socket wrenches will allow the same alterations.
 * Mandrels
 He used 4 pin mandrels, a #9 (9/64"), #10 (10/64"), #11 (11/64") and #13 (13/64" mostly used for contra reeds). The #9 was used for opening the first wire in straight taper reeds and to make the first wire more oval. #10 and #11 were for straight taper reeds because of the rounder tubes. 
 

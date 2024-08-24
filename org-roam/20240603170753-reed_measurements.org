@@ -8,3 +8,5 @@
 [[id:c537e724-f66b-4453-ade2-775637d2b44f][measurements cooper]]
 
 [[id:e9f005e7-ec57-4ea2-bc47-e2a015222219][measurements herzberg]]
+
+[[id:74676c0f-d80c-48df-888f-cf0421d9d019][measurements skinner]]
