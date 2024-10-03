@@ -1,0 +1,94 @@
+1:PROPERTIES:
+:ID:       3b1adf16-aaf1-42c2-a2a0-b1f5c9003d1d
+:END:
+#+title: MuseScore
+
+* Module 1: Beginnings
+1) Open MuseScore
+2) New Score
+   1) Choose from scratch or from template
+      - Use scratch for education purposes
+   2) Order of voices
+   3) Click Next not done to pick time signatures, key signatures, measures, etc
+   4) Pick starting values
+   5) Input Title and Arranger text
+   6) Click Done
+3) Structure setup
+   1) Key changes
+      1) Select the measure to start, then go to key change palette and click the appropriate key signature
+      2) Need to add double barline!
+	 1) Click the barline
+	 2) Go to barlines palette and click on the double barline icon
+   2) Clef
+      1) Change starting clef
+	 1) Click the clef you want to change, then the corresponding clef
+	 2) OR drag the clef where you want it
+	 3) Possibly note that if you have a selection of measures it will change the clef at end of selection
+   3) Time Signatures
+      1) Changing starting time signature
+   4) Adding Measures
+   5) Text Adjustments
+      1) Properties tab to make /arranged by/ italic
+      2) Delete Subtitle
+      3) Size of title to 18pt for small caps
+4) Note input
+   1) N to enter, Escape twice to exit
+   2) Click the first measure
+      1) Note least efficient
+      2) For ties when you click T the next duration needs to be set already
+      3) Accidentals
+      4) Use arrow keys to chromatically change a selected pitch
+	 - can copy and paste lots of times and adjust with this
+      5) Voices Ctrl+Alt+Num or toolbar
+	 - Make sure in note input mode before clicking voice button
+      6) Slurs input the note, then S or toolbar. Repeat action to stop the slur
+   3) Type into score
+      1) Octave shortcuts
+	 1) Ctrl up and down for octaves
+      2) Chords use shift letter to go up, or alt number to go up interval (below exists, but only with custom keybindings. Start with the bottom)
+      3) Rests are 0 on keypad
+      4) Slurs hit S or toolbar, repeat to stop
+      5) Ties
+	 1) When you hit T, the duration needs to already be set
+   4) MIDI keyboard
+      1) Pitch is last
+      2) Chords do all at once
+      3) Rests with 0
+      4) Slurs same
+      5) Ties same
+   5) Copy and paste the first measures (use r)
+5) Adding marks later
+   1) Slurs
+      1) select first note and last note (with ctrl) hit S
+      2) select first note hit S, then shift arrow key to move around
+      3) select first note, shift last note to add slurs to all voices (also for cross staff voices)
+   2) Fermatas
+      1) Need to add the Breahes and Pauses palette
+	 1) Click add palettes
+	 2) Click the plus sign by breathes and pauses
+	 3) Escape to close the add palettes button
+      2) Select note (or notes, esp end)
+	 1) click the fermata
+   3) Lyrics
+      1) Select a note, then Ctrl or Alt L to enter lyric mode
+	 1) Can also double click on an existing lyric
+      2) Type a syllable at a time, and advance with space or -
+      3) If you need an actual space or hyphen or underscore, use Ctrl space or Ctrl -
+      4) For an extension line, use the _ (musescore does not put these in automatically!)
+      5) You can add verses by going into lyric mode again where there are already lyrics.
+	 - You can switch verses with up or down in lyirc mode
+
+* Module 2
+   1) Hairpins
+      1) Dynamics palette
+      2) Select note, then select hairpin
+      3) Shift arrow key will adjust length
+   2) Dynamics
+      1) Same as above without number 3
+      2) Sometimes inputting dynamics results in collisions as musescore tries to align them.
+
+
+
+
+
+
