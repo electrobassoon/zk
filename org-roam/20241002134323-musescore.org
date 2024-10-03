@@ -1,4 +1,4 @@
-1:PROPERTIES:
+:PROPERTIES:
 :ID:       3b1adf16-aaf1-42c2-a2a0-b1f5c9003d1d
 :END:
 #+title: MuseScore

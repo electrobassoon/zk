@@ -200,6 +200,7 @@
 - [[file:morrill81_louds_perfor.org][morrill81_louds_perfor]]
 - [[file:20210511170400-morrill81_setup.org][morrill81_setup]]
 - [[file:morris05_teach_method_lewis_hugh_cooper.org][morris05_teach_method_lewis_hugh_cooper]]
+- [[file:20241002134323-musescore.org][MuseScore]]
 - [[file:20210507135600-music_hub.org][Music Hub]]
 - [[file:20230711155026-music_notation.org][Music Notation]]
 - [[file:20240504145301-music_pedagogy.org][Music Pedagogy]]
