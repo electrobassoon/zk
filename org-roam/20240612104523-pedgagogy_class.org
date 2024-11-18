@@ -68,7 +68,7 @@ Inversions are often more on the embellishing chord side of the spectrum
 #+end_src
 
 #+RESULTS:
-[[file:v7.png]]y
+[[file:v7.png]]
 
 Note the 7th goes down by step (always!), leading tone is raised, and you have a tripled root.
 
@@ -774,5 +774,6 @@ A great example of this from Sonata no. 8, op. 13 "Pathetique" II. Adagio Cantab
 #+end_src
 
 #+RESULTS:
+
 [[file:beethoven.png]]
 
