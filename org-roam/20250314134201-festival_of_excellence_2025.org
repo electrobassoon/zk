@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:       ce4984c2-55cc-4303-8b43-f9cb8abd391d
+:END:
+#+title: festival of excellence 2025
+
+* Historical Overview
+** Music Pre-1870s
+Music is performed by humans, using mechanical instruments, and the only way to consume this music is to play it or listen to someone playing it live.
+** Invention of the phonograph
+Phonograph and recorded sound is invented in 1870s. Music making process is ruptured: At first, it is just the timing aspect that is ruptured. You can listen to humans playing mechanical instruments whenever you want. It also creates the quest for perfection.
+** Synthesis and electronic instruments
+As technology develops, synthesis ruptures the causality aspect of performance. Composers can create the perfect version of music that is synthesized with exactness. However, many audience members find they don't want to sit in a concert hall and listen to a recording. Despite the creation by a human composer, the lack of a human performer is distrubing some. Electronic instruments also contribute to this, as the sounds created by synthesis are not always reproducible by acoustic instruments.
+** Emergence of performers with tape 
+In the 1960s, in an effort to bring back the human element of music performance, composers begin writing pieces for human performers with "tape" or fixed media. This brings back a lot of what was missing in electronic music. There is still something about a human performer that appeals to a human audience.
+
+The problem is that the human performer is often put in very stressful performance situations. "Tape prison" or the inability for a human to interpret the performance because of synchronization with the tape still is missing part of the human element of music performance. 
+
+** Real Time Synthesis
+The invention of synthesizers allows for some more real time synthesis and interaction between the human and the electronic.
+** Computers and MIDI
+In the 1980s as computers come into play, and the MIDI language for communication, performers are able to break out of the tape prison. Some elements can be controlled in real time in performance and be different in every performance. 
+** Programming Languages
+Languages like Max, Pure Data, SuperCollider, and other languages emerge for easy audio programming, signal processing, and algorithmic composition.
+** Quote of definition
+=Interactive composition offers the combination of the best human qualities of a live performer (gestural nuance, stage presence, character) with the best machine qualities of a computer (infinite sound possibilities, instant processing, rapid calculations).=
+
+=Electronics can extend the sound world of the live performer, while the performer can communicate musical understanding to an audience, eliminating the detachment and isolation of the typical electroacoustic performance.= (Yoder but quote is from garnett?)
+
+* Differing Defintions of Interactivity
+
+** Mcnutt
+Composers it's about input from a perfomer
+Performers it's interaction with interfaces, instruments, microphones, etc. Also interacting with composers and audiences. And the invisible chamber music partner
+
+* Interactive Music Systems
+** Winkler
+ 1. Human input, instruments - Human activity is translated into digital information and sent to the computer.
+ 2. Computer listening, performance analysis - The computer receives the human input and analyzes the performance information for timing, pitch, dynamics, or other musical characteristics.
+ 3. Interpretation - The software interprets the computer listener information, generating data that will influence the composition.
+ 4. Computer composition - Computer processes, responsible for all aspects of the computer generated music, are based on the results of the computer's interpretation of the performance.
+ 5. Sound generation and output, performance - The computer plays the music, using sounds created internally, or by sending musical information to devices that generate sound.
+** Rowe 
+*** Dimensions
+**** Score Driven
+Stored fragments and predetermined event collections. 
+**** Performance Driven
+No predetermined fragments, stored representations
+*** Response
+**** Transformative
+Existing material that is transformed to create variants. May not be recognizeable. 
+**** Generative
+Creating music from algorithms. 
+**** Sequenced
+Prerecorded fragments in response to real-time input. 
+*** Paradigms
+**** Instrument Paradigm
+Extending the musical instrument. 
+**** Player Paradigm
+An artificial player, musical presence with own personality. 
+** Conceptualizations (feron - probably redundant)
+*** Human vs machine
+*** Time-space transgressions. Impossible Instrument
+*** Chamber Music Interaction
+* Examples
+** Concatenation by Rand Steiger (13 min)
+This is score driven (, I believe completely transformative, and an instrument paradigm
+** Manteia by Peter Van Zandt Lane (10 min for Pyro and Chrono)
+Score driven, sequenced, player paradigm (pyromancer closer to instrument)
+** Ripped Up Maps by Andrew May (Whatever it needs to be)
+Performance driven, transformative, generative, and possibly sequenced, player paradigm
+
+** Table
+Score Based
+|             | Instrument        | Player                                     |
+| Transformative | Concatenation     | Shoot the Well, Bassoonification                 |
+| Generative    |                 | Obsessed Again? Brown Velvet, Reaction Reflection? |
+| Sequenced   | MANTEIA (pyro esp) | MANTEIA, Gnarkill, Mask                       |
+
+Player Based
+|             | Instrument             | Player |
+| Transformative | Effects Pedal Improv Sim? | RUM  |
+| Generative    | N/A?                  | RUM  |
+| Sequenced   | N/A?                  | RUM  |

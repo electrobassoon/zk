@@ -105,6 +105,12 @@ Other languages exist, but the ease of use, docs, and optimization of Max put it
 Then follows some breif discussion of how Max does sensing, processing, and response. Then two examples of using max for some generative algorithms.
 ** Chapter 3 Live Computer Music
 Seems to be a lengthy discussion about his program Cypher and some pieces that have used it
+*** page 53
+Score followers are score driven, sequenced, player paradigm systems.
+*** page 53-54
+The musical implications of score following in its simplest form are modest: they are essentially tempo sensitive music minus one machines, where the computer is able to follow the human performer rather than the other way around. In most compositional settings, however, score following is used to coordinate a number of other techniques rather than to derive the tempo of a fixed accompaniment. In many of the compositions recently produced at IRCAM, for example, the computer part realizes a sophisticated network of real time signal processing and algorithmic composition, guided throughout the performance by a basic score following synchronization system. 
+*** page 74
+As the name would suggest, hyperinstruments follow an instrument paradigm. Applications are usually score driven, and the generation technique can best be described as a hybrid of generative and sequenced styles. Hyperinstrument compositions can be thought of as score driven, even though full blown score following is generally not employed. The music to be played by the human performers is notated quite precisely, allowing latitude in expressive performance but not, generally, in the improvisation of notes and rhythms. Coordination with the computer is accomplished through a cueing system, where cues are sometimes taken from the MIDI representation of a performance and sometimes from the intervention of a computer operator.
 ** Chapter 4 Music Theory, Music Cognition
 *** page 95
 Computer emulations represent applied music theory, taking theoretical concepts and putting them in live performance
