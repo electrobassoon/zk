@@ -19,3 +19,7 @@
 [[id:49b9324e-151d-4df1-a824-a7a9ba7a3757][Education for Electroacoustic Music]]
 
 [[id:667c4672-1735-4fc3-bb86-1dfa96b41242][Dissertation]]
+
+[[id:bfc736a7-58cc-4256-a576-735e29c35a7f][idrs lecture 2025]]
+
+[[id:ce4984c2-55cc-4303-8b43-f9cb8abd391d][festival of excellence 2025]]
