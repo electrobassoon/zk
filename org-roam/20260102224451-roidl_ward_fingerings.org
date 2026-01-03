@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       415acb4b-2608-488f-ab28-f95460cd044b
+:END:
+#+title: roidl-ward fingerings
+#+filetags: :idrs:2025:fingering:
+
+Presentation given at IDRS 2025 by Ben Roidl-Ward
+
+** Acoustical complexities of the bassoon
+- Conical bore that doubles back
+- Oblique tone holes
+- open holes and keys
+- Thumbs and Pinkies
+- Octave mechanisms / techniques
+- Varies from instrument
+
+we seek evenness of intonation, response, and resonance
+Standard fingerings are the best combination
+
+** Reasons to alter standard fingerings
+- Technical combinations
+- Trills
+- Extreme dynamics
+- Tuning in a chord
+- Awkward slurs
+- Tone color
+- Unexoected Situations
+- Extended Techniques
+
+** When using altered fingerings:
+- Fingerings are only part of the solution (still use embouchure, air, etc)
+- Good to have options
+- Awareness of fingerings and its tendencies
+- Seamless introduction - audience can't tell
+- Sometimes no time to experiment
+** Tenor C#
+French without the C# key?
+trill third finger for a D?
+right trill key even sneakier than short?
+
+SPEAR for audio analysis (mac only)
+
+** Open F
+Low d, 1, 2, | 2, 3 all options to change
+
+** Fingering Maps
+Manipulation options from standard fingerings
+muted.io/note-frequencies
+Slur Ab - Eb  -- Ab with pinky f# alone in RH or flick C#

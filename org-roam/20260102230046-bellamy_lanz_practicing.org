@@ -1,0 +1,125 @@
+:PROPERTIES:
+:ID:       f39aba59-af9e-4150-8e07-34047f749173
+:END:
+#+title: bellamy-lanz practicing
+#+filetags: :idrs:2025:practicing:training:atheltics:frameworks:
+
+Notes from lecture given at IDRS 2025 Butler
+
+How to Practice: Frameworks from Atheltic Training
+
+Music Performance is an athletic pursuit
+- Physical Demands
+  - Endurance
+  - Strength
+  - Speed
+  - Coordination
+  - Risks of injuries
+- Long Term Planning
+  - Goals
+  - Concerts
+  - Auditions
+  - Degrees
+- Event Specific Skills
+  - Double Tonguing
+  - Tapers to niente
+  - Double tongue at 140 on D from Figaro
+  - Rite of Spring in tune from nothing
+
+Session Types
+- Speed/Power -- about 50%
+- Cross Train: complimentary skills, muscles, or systems -- about 10%
+- Active Recovery: stretch, shake out -- about 10%
+- Endurance: exhaustion or simulate performance -- about 25%
+- Rest -- about 5%
+
+Endurance: 3-4 per week, not running pieces half the time
+- Long tones
+- Reed making
+- Slow etudes
+- run through / reps
+- Double tonguing
+- Standing
+- Anything to exhaustion
+
+Speed/Power: 5-6 per week
+- Scales (fast)
+- "sprints" small unit getting faster and faster
+- modifier - jumping jacks or trampoline before techincal passages, metronome work
+- long tones
+- tonguing drills
+- vibrato exercises
+- targeted scales/etudes
+
+Cross train: 1-2 per week
+- Sight reading
+- Improv
+- Score study
+- Reference listening
+- Contextual research
+
+Active Recovery: 1-2 per week
+- fun run
+- jam session
+- arrangement/transcription/composition
+- discovery listening
+
+Prehab/Rehab: daily
+- reed making
+- stretching
+- breath work
+
+Race Specific: as needed near event
+- Dress rehearsal
+- Run throughs
+- Mock audition
+
+Periodized Training: Athletics
+
+Race                           |  Macrocycle                                           | 
+Development Goals |Mesocycle| |Base| |Build| |Specialize|  
+Heart Rate                  
+Power Zones            |--| |--| |--| |--| .... 
+                                   microcycles
+Workouts                   ||||| ||||| ||||| |||||  ...
+                                   Individual workouts
+
+Session Goal
+
+Focus blocks         Mesocycle  | Fundamentals | Develop | Perform |
+Skill Types            |---| |---| |---|
+Practice Sessions ||||| ||||| |||||
+
+Macrocycles:
+| All State Audition | College Audition   | Spring Recital  |
+|--------------------+--------------------+-----------------|
+| May-November       | September-February | January-April   |
+|--------------------+--------------------+-----------------|
+| Lyrical Etude      | Lyrical Solo       | Solo Repertoire |
+| Tech Etude         | Tech Solo          |                 |
+| Major Scale        | Etude Selection    |                 |
+| Minor Scale        | Excerpts           |                 |
+| Chromatic Scale    | Maj Scales         |                 |
+|                    | Min Scales         |                 |
+|                    | Sight Reading      |                 |
+|--------------------+--------------------+-----------------|
+
+Mesocycles:
+Base Training - Tone, Intonation, all registers
+Build Period - Range, Fluency
+Specializations - Extended Techniques, Extreme Registers
+Performance - Mock Performance, Performance Psychology
+
+Microcycle for Recital
+| August     | Sept             | Nov               | Jan                 | March                      |
+|------------+------------------+-------------------+---------------------+----------------------------|
+| Base       | Extreme Range LT | Extracted Tech    | Special Skills LT   | Applicable Warm up Routine |
+| LT         | Related Scales   | Metronome         | Reference Listening | Masterclasses              |
+| Scales     | Related Etudes   | Score Study       | Collab Rehearsals   | Recorded Runs              |
+| Etudes     | D.T. (etc)       | Design Unit Exerc |                     | Dress Rehearsals           |
+| Sight Read |                  |                   |                     |                            |
+
+Speed Power Session:
+15 min fundamentals, 5 minute sightreading, 5 break, 25 etudes
+
+**Need slides from Cayla Bellamy**
