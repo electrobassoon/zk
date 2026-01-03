@@ -16,3 +16,7 @@
 [[id:95a1ddc8-0b72-411e-ae58-f0332a83fef4][Vibrato]]
 
 [[id:b8134d54-ffeb-441a-8ec6-9c88e01ef904][reeds and pedagogy]]
+
+[[id:25ec5b80-a11f-4ec5-8647-47a7a5fb9b97][keating applied music theory]]
+
+[[id:415acb4b-2608-488f-ab28-f95460cd044b][roidl-ward fingerings]]

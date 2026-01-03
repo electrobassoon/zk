@@ -17,3 +17,7 @@
 [[id:6792f7fa-fafa-45cd-a85c-1d78fc14f817][Acoustics]]
 
 [[id:4ce849d1-6f0d-41f2-a5db-a6cd2964e0fd][Music Theory]]
+
+[[id:c822d5dd-1c64-48ee-b1b8-13458afc106a][Music History]]
+
+[[id:fe02d17b-3dc0-413d-ae7b-7b206088e811][Music Misc]]

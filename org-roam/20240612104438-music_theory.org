@@ -4,3 +4,5 @@
 #+title: Music Theory
 
 [[id:1c704382-8b5d-44dc-938b-1a974ad6ea15][Pedgagogy Class]]
+
+[[id:25ec5b80-a11f-4ec5-8647-47a7a5fb9b97][keating applied music theory]]
