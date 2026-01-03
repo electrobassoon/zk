@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       F11B56CB-A5B6-4860-9294-C9F2A0AB4499
-:END:
-#+title: Class 2 Notation
-

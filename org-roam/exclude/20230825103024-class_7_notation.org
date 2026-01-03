@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       280F0D7E-AF1E-4416-956F-41DCC85650F3
-:END:
-#+title: Class 7 Notation
-

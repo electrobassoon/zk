@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       0C7F91A6-34F7-4032-8987-41FB197DD2EC
-:END:
-#+title: Class 6 Notations
-
-
-

@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       5C5ADBCC-A208-4D8F-81D0-03FA8297A08D
-:END:
-#+title: Class 4 Notation
-

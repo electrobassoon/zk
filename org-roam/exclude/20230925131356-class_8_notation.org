@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       dc68db78-af8c-43fa-8601-c7871a900a9f
-:END:
-#+title: Class 8 Notation
-

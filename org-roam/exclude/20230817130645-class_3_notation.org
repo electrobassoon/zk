@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       1E6856B4-C7F1-4FC1-9366-6CADBD40DCAF
-:END:
-#+title: Class 3 Notation
-
-
