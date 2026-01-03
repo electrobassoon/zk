@@ -1,0 +1,254 @@
+:PROPERTIES:
+:ID:       32615c01-9bad-4232-b95c-c138ce02511f
+:END:
+#+title: Marius Piard
+
+* Genealogical Records
+** DONE Birth Feb 3, 1886 at 6am                                  :confirmed:
+*** French
+S' An Mil huit Cent quatre Vingt Six, le trois du mois de Fevrier a' neuf heuses du matin, Pardavant Nous Martial Hennet de Courtefroy Maire et officier de l' Stat Civil de la Ville de Bavay, Chef lieu de Canton Arrondissement d Avesnes, Departement der Nord, a comparu: Piard Auguste, age de quarante un ans, Imprimeur Libraire, ne' a Cambrai, domicilie' a Bavay, leguel nous a presente un enfant du sexe masculine ne' ce jour, a six heuses du matin, en une maison sise an cette Ville Giano Rue, de 
+lui compasant et de Bruneau Maria Virginie, age de Trente quatre ans, son ipotesa, sans filo fillion, domicilioe andis Bavay et anguel il declare donner le prenom de Marius. Les dites declaration et presentation faites en prisance des siens Lienard Dolphe, age de Trente deus ans, Boulanger et Lefebres Dinond, age de Vingt neuf ans, memisie tous dear domicilies a Bavay, et ans le fiere et les temoins Signe avec nous, le prisent acte, apises lecture.
+*** English
+In the year eighteen hundred and eighty-six, on the third day of February at nine o'clock in the morning, Before Us, Martial Hennet de Courtefroy, Mayor and Civil Status Officer of the City of Bavay, Chief Town of the Canton, District of Avesnes, Department of the North, appeared: Piard Auguste, aged forty-one, Printer and Bookseller, born in Cambrai, residing in Bavay, he presented to us a male child born this day, at six o'clock in the morning, in a house located in this City, Grand Street, to him, his companion, and to Bruneau Maria Virginie, aged thirty-four, his principal, without a daughter, residing in Bavay and to whom he declares to give the first name of Marius. The said declaration and presentation made in the presence of his relatives Lienard Dolphe, aged thirty-two, Boulanger and Lefebres Dinond, aged twenty-nine, all domiciled in Bavay, and in the presence of the witnesses Signed with us, the present act, after reading.
+*** Citation
+Citation: France. Nord. Avesnes. Bavay. États-civil, 1882-1896, 1 Mi EC 053 R 002. Archives Départementales de Nord. /Archives Départementales/. https://archivesdepartementales.lenord.fr/page/registres-paroissiaux-et-d-etat-civil 1886
+Reference: Bavay, Avesnes, Nord, "États-civil 1882-1896", naissance, Marius Piard, February 3, 1886, 1 Mi EC 053 R 002, leaflet 3, number 7.
+
+** Census (Paris didn't do a census until 1926-1946)
+*** DONE 1872 (Nord is not online, where Marie Virginie likely lives)
+Auguste lives in Boulogne-sur-Mer, which might explain the family's move in 1911
+*** DONE 1886 (not online)
+*** DONE 1891 (not online)
+*** DONE 1896 (not online)
+*** DONE 1901 (seems to not be online for Nord)
+*** DONE 1906
+Found his family, Auguste and Virginia still live in Bavay on Grand Rue. Marcel, Marie, Marcie, Margueritte live with them, but not Marius. Paris didn't start until 1926, so presumably he is at the paris conservatoire as he is 20 years old. He also wins the concours in 1907 and 1908.
+Citation: France. Nord. Avesnes. Bavay. 1906 census of France, M 474/053. Archives Départementales de Nord. /Archives Départementales/. [[https://archivesdepartementales.lenord.fr/page/recensements-de-population][https://archivesdepartementales.lenord.fr/page/recensements-de-population]] 1906
+Reference: 1906 census of France, Bavay, arrondissement Avesnes, Nord, M 474/053, p. 11, family 61, Auguste Piard.
+*** DONE 1911
+Auguste and Maria Virginia have moved to Boulogne-sur-Mer, Pas-de-Calais. Marguerite and Maria are still with them. We know that Marius lived in Piard from military records. The family moved there at least in 1908.
+Citation: France. Pas-de-Calais. Boulogne-sur-Mer. 1911 census of France, M 3607. Archives Départementales de Pas-de-Calais. /Archives Départementales/. [[https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&p=formulaire_recensement][https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&p=formulaire_recensement]] 1911
+Reference: 1911 census of France, Boulogne-sur-Mer, Pas-de-Calais, M 3607, p. 60, family 2, Auguste Piard.
+*** DONE 1916 (Skipped WWI)
+But we know he was in active military duty on a campaign
+*** DONE 1921 (Paris not started yet)
+Military records show he was in Paris
+*** DONE 1926
+Lived at 28 Rue d'Orsel in Paris. Living with his wife Madeleine, who was born in 93 in P (Paris?). He was born in Nord. He is listed as a musician by profession. They have 4 children Michel, Claude, Jean Marie, Yves. There's another person living with them, possibly Andira Gomy, that works as a domestique
+Citation: France. Île-de-France. Paris. Clignancourt. 1926 census of France, D2M8 295. Archives de Paris. /Archives: Le site des Archives de Paris/. [[https://archives.paris.fr/s/11/denombrements-de-population/][https://archives.paris.fr/s/11/denombrements-de-population/]] 1926
+Reference: 1926 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 295, p. 2907,  family 10, Marius Piard.
+*** DONE 1931
+Still living at 28 Rue d'Orsel in Paris. Living with his wife Madeleine, born in 93 in Seine (old department for northern Paris). He was born in Nord and is a musician. Children Michel, Claude were born in Seine. But Jean (marie) looks to have been born in 1918 in Aisne. Yves and now Francois were born in Seine again. So it seems that in 1918 they moved to Aisne somewhere for a bit. But came back to paris.
+Citation: France. Île-de-France. Paris. Clignancourt. 1931 census of France, D2M8 446. Archives de Paris. /Archives: Le site des Archives de Paris/. [[https://archives.paris.fr/s/11/denombrements-de-population/][https://archives.paris.fr/s/11/denombrements-de-population/]] 1931
+Reference: 1931 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 446, p. 2484,  row 1, Marius Piard.
+*** DONE 1936
+About the same info. Still at 28 rue d'orsel in paris with madeliene. Now only Jean (marie), Yves and Francois are home. Jean is born in Aisne, confirming a move at some point. Marius is listed as an artistic musician (i think)
+Citation: France. Île-de-France. Paris. Clignancourt. 1936 census of France, D2M8 674. Archives de Paris. /Archives: Le site des Archives de Paris/. [[https://archives.paris.fr/s/11/denombrements-de-population/][https://archives.paris.fr/s/11/denombrements-de-population/]] 1936
+Reference: 1936 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 674, digital p. 88,  family 41, Marius Piard.
+*** DONE 1946 (page 195... lots of work to find as its not indexed)
+Still lives at 28 rue d'orsel in paris with madeliene. Now only Francois lives with them. He is listed as a musician still.
+Citation: France. Île-de-France. Paris. Clignancourt. 1946 census of France, D2M8 926. Archives de Paris. /Archives: Le site des Archives de Paris/. [[https://archives.paris.fr/s/11/denombrements-de-population/][https://archives.paris.fr/s/11/denombrements-de-population/]] 1946
+Reference: 1946 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 926, digital p. 195,  family 9540, Marius Piard.
+** DONE Marriage Record
+*** Newspaper announcement in Nord
+**** French
+on nous annonce le prochain mariage de M. Marius Piard, de Bavay, avec Mlle Madeleine Baumann, de Crouttes (Aisne).
+La ceremonie aura lieu le 26, aout, a 11 heures 1/2 du matin, en l'eglise de Crouttes
+**** English
+We have been informed of the upcoming marriage of Mr. Marius Piard, from Bavay, to Miss Madeleine Baumann, from Crouttes (Aisne).
+The ceremony will take place on August 26th, at 11:30 a.m., in the church of Crouttes.
+**** Citation
+"Gazette du Nord." /La Croix du Nord: Supplément régional à la Croix de Paris/, August 25, 1911. [[https://gallica.bnf.fr/ark:/12148/bpt6k2010251n][https://gallica.bnf.fr/ark:/12148/bpt6k2010251n]] page 3, column 3.
+** DONE Military Draft form 1906
+
+Citation: France. Nord. Avesnes. Registres numérisés des matricules militaires 1906, 1R 2827. Archives Départementales de Nord. /Archives Départementales/.https://archivesdepartementales.lenord.fr/page/matricules-militaires 1906
+Reference: 1906 registres numérisés matricules militaires, Avesnes, Nord, 1R 2827, p. 42, Marius Piard.
+
+Registered for the draft in Avesnes office in Nord, so perhaps this was just before heading to Paris?
+Profession is musician
+Eye color is blue
+Har color is et to combine with eybrows for brown?
+Nose wide
+Chin round
+Eyebrows - brown hair
+Ordinary forehead
+Mouth medium?
+Face slim?
+Height 1.7m or 5'7"
+
+Says he volunteered for 3 years for the Seine 1st regiment on 6-10-1906. was a soldier musician.  He went to the reserves in 6-8-1908.
+
+It looks like he was part of a campaign to germany during world war I from 2.8.14 to 11.11.18, as well as something 12.11.18 to 2.4.19
+
+Cleared from all military obligations on 15.10.1935
+
+He was appointed a corporal on 16.3.1917 and a seargant on 29.10.1917
+
+Appointed to garde republicaine 21.3.1929 as corroborated by journal officiel de la republique francaise
+
+In the active army the Garde Republicaine
+Reserves for the Aerostation
+*** DONE Localities of addresses!
+|       date | commune                                                     | subdivision de region |
+|------------+-------------------------------------------------------------+-----------------------|
+|   9-8-1908 | Boulogne sur mer? (this is his parents home)                | L'Omer                |
+|            | 120 rue de la Paix                                          |                       |
+|  22-1-1909 | Versailles 4 bis can't read                                 | Versailles            |
+|  10-9-1909 | Paris 52 rue d'Orsel                                        | Seine                 |
+| 21?-7-1911 | Paris 52 Blvd Rochechourt                                   | Seine                 |
+|   9-4-1919 | 28 rue d'Orsel                                              | Seine                 |
+|   3-7-1919 | Deauville 48 rue de Victor Hugo                             | Lisieux               |
+|  28-8-1919 | 28 rue d'Orsel                                              | Seine                 |
+|   0-5-1948 | idem                                                        |                       |
+can't quite make out the next two rows. one is in 12/?/42, possibly mentioning combat? The next row mentions 3/6/48 can't read the rest.
+
+noting that he isn't stationed anywhere else in 1911 when he got married, so they really must have left paris to go get married there
+
+Time to move to reserves of active army 6-8-1908, territorial army 1-8-1918, reserves of territorial army 1-8-1825, discharge of military service 6-8-1935?
+** Annuaire de la Federacion des Artistes Musiciens de France
+*** 1904
+Bassoonists in Lille:
+ - Depoorter
+*** 1905
+Bassoonists in Lille:
+ - Depoorter
+*** 1906
+Basoonists in Lille:
+ - Leon Dannette and Depoorter
+*** DONE 1912
+Lived at 52 Boulevard Rochechouart
+Citation: "Noms et adresses des artistes musiciens: Membres de la fédération au 1er Janvier 1912" /Annuiare de la fédération des artistes musiciens de France/, 1912. [[https://gallica.bnf.fr/ark:/12148/bpt6k11639359][https://gallica.bnf.fr/ark:/12148/bpt6k11639359]] page 426.
+*** DONE 1913
+Lived at 52 Boulevard Rochechouart
+Citation: "Noms et adresses des artistes musiciens: Membres de la fédération au 1er Janvier 1913" /Annuiare de la fédération des artistes musiciens de France/, 1913. [[https://gallica.bnf.fr/ark:/12148/bpt6k1163936q][https://gallica.bnf.fr/ark:/12148/bpt6k1163936q]] page 426.
+** DONE Les Ondes: Weekly radio magazine
+Performance on Friday, September 18 1942 with a group doing old popular songs 
+Simliar (likely identical) performance on Friday, December 18 1942
+Citation: "Radio du 13 au 20 Septembre" /Les Ondes/, September 13, 1942.https://gallica.bnf.fr/ark:/12148/bpt6k98159688 page 11
+Citation: "ici Radio-Paris" /Les Ondes/, December 13, 1942. https://gallica.bnf.fr/ark:/12148/bpt6k9815955n page 9
+** DONE International Directory of Letters and Arts of French Language or Culture
+**** DONE 1921
+Lists a Marius Piard at 28 rue d'Orsel, but lists him as an organ player
+- only two bassoonists, one is Bourdeau. Not sure how trustworthy this is.
+Citation: "Compositeurs de musique et artistes" /Annuaire international des lettres et des arts de langue ou de culture française/, 1921.  [[https://en.geneanet.org/library/viewer/37930][https://en.geneanet.org/library/viewer/37930]] page 276.
+**** DONE 1922
+Says the exact same thing
+Citation: "Compositeurs de musique et artistes" /Annuaire international des lettres et des arts de langue ou de culture française/, 1922.  https://gallica.bnf.fr/ark:/12148/bpt6k6572821w page 267.
+** DONE Journal Officiel de la Republique Francaise
+*** DONE 1929-03-22
+Says March 21, 1929 that Piard was admitted as a student guard to the garde republicaine
+Citation: "Ministère de la guerre." /Journal Officiel de la Republique Française. Lois et décrets/, March 22, 1929. [[https://gallica.bnf.fr/ark:/12148/bpt6k2028527s][https://gallica.bnf.fr/ark:/12148/bpt6k2028527s]] page 3350
+*** DONE 1931-02-01
+Says that he is assigned  a musician of the garde republicaine in Paris
+Citation: "Ministère de l'instruction publique et des beaux-arts." /Journal Officiel de la Republique Française. Lois et décrets/, February 1, 1931. [[https://gallica.bnf.fr/ark:/12148/bpt6k2029099v][https://gallica.bnf.fr/ark:/12148/bpt6k2029099v]] page 1188
+*** DONE 1934-04-09
+Musician of the 3rd class in the garde republicaine
+Citation: "Tableau de concours pour la médallie militaire." /Journal Officiel de la Republique Française. Lois et décrets/, April 10, 1934. https://gallica.bnf.fr/ark:/12148/bpt6k2030077r page 3711
+It seems this is a nomination for a military medal, and he gets it a few months later
+*** DONE 1934-07-08
+Musician of the 3rd class in garde republicaine, 23 years of services and 5 campaigns
+Citation: "Médallie militaire." /Journal Officiel de la Republique Française. Lois et décrets/, July 8, 1934. [[https://gallica.bnf.fr/ark:/12148/bpt6k2030153p][https://gallica.bnf.fr/ark:/12148/bpt6k2030153p]] page 6895
+Receiving the medal from april nomination
+*** DONE 1938-02-13
+Still a musician of the garde republicaine in Paris, but says he's a soliste (soloist). Actually this may be his promotion to soloist instead of a 3rd class musician?
+Citation: "Ministère de l'éducation nationale" /Journal Officiel de la Republique Française. Lois et décrets/, February 13, 1938. [[https://gallica.bnf.fr/ark:/12148/bpt6k6551214t][https://gallica.bnf.fr/ark:/12148/bpt6k6551214t]]  page 1813
+*** DONE 1939-04-24
+Says he's married to Marie Baumann in Paris and has 5 kids
+This maybe when he leaves the military? Getting a bronze medal for famille franciase - it seems this is given to the wife?
+Citation: "Médallie de la famille française." /Journal Officiel de la Republique Française. Lois et décrets/, April 24, 1939. [[https://gallica.bnf.fr/ark:/12148/bpt6k6577429c][https://gallica.bnf.fr/ark:/12148/bpt6k6577429c]] page 10660
+
+** DONE Death of Wife October 1, 1958
+Citation: Bibliothèque Généalogique et d’Histoire Sociale de France. Funeral announcement for Madeleine Baumann. 1958. Geneanet.org.
+Reference: Funeral announcement for Madeleine Baumann, 1958, Geneatnet.org
+** DONE Death Certificate Sep 2, 1975 at 9:30 am
+*** French
+ACTE DE DECES N 124
+
+L'an mil neuf cent septante-cinq, le deux septembre a seize heures, apres constation, Nous Pierre Rouelle, Bourgmestre, Officier de l'etat civil de la commune de La Hulpe, arrondissement judiciaire de Nivelles, Province de Brabant, dressons l'acte de deces de :PIARD, Marius, pensionne, de nationalite francaise, decede le deux septembre mil neuf cent septante-cinq a neuf heures trente minutes, en cette commune, Chaussee de La Hulpe, 737 domicilie a Paris 18e, rue d'Orsel, n 28, ne a Bavai (Nord-France) le trois fevrier mil huit cent quatre-vingt-six, veuf de BAUMANN, Marie, Madeleine decedee a Paris 18e le premier octobre mil neuf cent cinquante-huit, file des conjoints decedes PIARD, Auguste et de BRUNEAU, Maria, Virginie.
+Sur declaration de VAN GOSSUM, Pierre, age de cinquante-trois ans, Directeur de Societe, domicilie a Ixelles et de GAMBY, Marie-Jose, agee de quarante-sept ans, employee, domiciliee a La Hulpe.
+Duquel acte fait en double, il leur a ete donne lecture et qu'ils ont signe avec Nous.
+*** English
+DEATH CERTIFICATE NO. 124
+
+In the year one thousand nine hundred and seventy-five, on September 2nd at four o'clock in the afternoon, after verification, We, Pierre Rouelle, Mayor, Civil Registrar of the commune of La Hulpe, judicial district of Nivelles, Province of Brabant, draw up the death certificate of: PIARD, Marius, pensioner, of French nationality, died on September 2nd, one thousand nine hundred and seventy-five at nine thirty minutes in the afternoon, in this commune, Chaussee de La Hulpe, 737, residing in Paris 18th, rue d'Orsel, no. 28, born in Bavai (Nord-France) on February 3rd, one thousand eight hundred and eighty-six, widower of BAUMANN, Marie, Madeleine, deceased in Paris 18th on October 1st, one thousand nine hundred and fifty-eight, daughter of the deceased spouses PIARD, Auguste and BRUNEAU, Maria, Virginie.
+Upon the declaration of VAN GOSSUM, Pierre, age fifty-three, Company Director, residing in Ixelles, and of GAMBY, Marie-Jose, age forty-seven, employee, residing in La Hulpe.
+Which deed, drawn up in duplicate, was read to them and signed with Us.
+
+Not the address is a nursing home
+*** Citation
+Citation: Belgium. Brabant. Nivelles. La Hulpe. Death Certificates. 
+Reference: La Hulpe, Nivelles, Brabant, Belgium, death certificate no. 124 (1975), Marius Piard.
+* Career
+ + Concours in Paris Conservatoire in 1908 and 1909
+   - Student of Bourdeau 1906?
+ + Band de Garde Republician 1931-1939?
+ + Orchestra Lamoreaux unsure of dates, possibly recording Bolero under Ravel
+ + Recording in 1932 of Stravinsky Octet
+* Publications
++ 90 Etudes in 3 volumes 1946
+  1) Scales
+  2) Arpeggios
+  3) Style - out of print
++ 16 Characteristic Etudes 1950
++ Contrabassoon Etude with Excerpts 1952
+*** Foreword to vol 3
+**** French
+Avant-Propos (3me Recueil)
+
+Le style! Partie la plus delicate, la plus difficile des etudes de l'instrumentiste. Peut-on apprendre aux eleves l'interpretation des ouvres musicales au moyen d'un traite? Des auteurs qualifies l'on tente et reussi...en parite; mais leurs conseils, si precieux et judicieuxqu'ils soient ne peuvent dispenser l'instrumentiste d'avoir recours a un professeur. En definitive c'est a celui-ci qu'appartient la tache redoutable de former le gout de l'eleve, de le guider, et surtout de l'aider a developper sa personnalite.
+D'autre part, les meilleurs conseils, les meilleures explications ne serviront a rien si l'eleve n'est pas doue, s'il ne comprend pas, s'il ne "sent" pas ce qu'il doit interpreter.
+En reunissant ce chois de transcriptions, deux solutions s'offraient a l'autenr:1o Analyzer non seulement chaque morceau dans son ensemble, mais aussi dans tous ses elements, afin d'aider l'instrumentiste a comprendre ce qu'il doit jouer; ensuite, donner les conseils sur l'interpretation d'ensemble et la facon de jouer chaque element.
+2o Grouper avec beaucoup de soin les ouvres composant ce recueil, autant en choisissant les meilleurs auteurs, qu'en recherchant la plus grande variete possible et laisser le gout musical se former et s'ameliorer par le travail, --- aide d'un professeur.
+La premiere solution depassait de beaucoup le cadre de cet ouvrage; pour ces 30 etudes, un seul volume n'eut pas suffit. L'auteur a prefere la seconde solution. Les conseils, les remarques, les rectifications necessaires variant avec chaque instrumentiste, c'est donc au maitre - pour les debutants - que revient la tache de former le gout musical de l'eleve et par consequent de lui inculquer les regles d'un bonstyle. 
+Quand aux instrumentistes "qualifies," l'auteur espere que ce recuil moins aride que les deux premiers pourra les interesser. M.P.
+Nota - A l'exception des extraits des Suites de Bach, presque tous les morceaux de ce recueil peuvent etre accompagnes au piano.
+Bien que conce plus particulierement pour l'etude du style, ce recueil est aussi un cahier d'etudes techniques; l'auteur a donc maintenu le principe de representer toutes les tonalites, y compris les tonalites enharmoniques. Il a choisi, pour les transpositions necessaires, les morceaux qui conviendraient le mieux a ces tonalites peu usitees. En consequence, comme pour les etudes precedentes, il recommande aux eleves de ne pas chercher la facilite, mais bien de s'habituer a lire ces transcriptions telles qu'elles sont ecrites.
+**** English
+Foreword (3rd Collection)
+
+Style! The most delicate, the most difficult part of an instrumentalist's studies. Can students be taught the interpretation of musical works by means of a treatise? Qualified authors have tried and succeeded... in part; but their advice, however valuable and judicious, cannot exempt the instrumentalist from seeking help from a teacher. Ultimately, it is the teacher who has the formidable task of shaping the student's taste, guiding them, and above all, helping them develop their personality.
+On the other hand, the best advice, the best explanations will be of no use if the student is not gifted, if they don't understand, if they don't "feel" what they are supposed to interpret. In assembling this selection of transcriptions, two solutions were available to the author: 1. Analyze not only each piece as a whole, but also all its elements, in order to help the instrumentalist understand what to play; then, provide advice on ensemble interpretation and how to play each element.
+2. Group the works comprising this collection with great care, both by choosing the best authors and by seeking the greatest possible variety, and allowing musical taste to form and improve through practice, with the help of a teacher.
+The first solution went far beyond the scope of this work; for these 30 studies, a single volume would not have been sufficient. The author preferred the second solution. Since the advice, comments, and necessary corrections vary with each instrumentalist, it is therefore up to the teacher—for beginners—to shape the student's musical taste and consequently to instill the rules of a good style.
+As for "qualified" instrumentalists, the author hopes that this collection, less dry than the first two, will be of interest to them. M.P.
+Note: With the exception of excerpts from Bach's Suites, almost all the pieces in this collection can be accompanied on the piano.
+Although designed more specifically for the study of style, this collection is also a technical study book; the author has therefore maintained the principle of representing all keys, including enharmonic keys. For the necessary transpositions, he has chosen the pieces that would be best suited to these less common keys. Therefore, as with the previous studies, he recommends that students do not seek the easy way out, but rather get used to reading these transcriptions as they are written.
+
+* TODO Questions
+Who was his first teacher? Perhaps Depoorter in Lille
+Why did he get married where he did? Was wife's family there? It appears so from newspaper article, but can't find them in the 1911 census
+Do the etudes all line up really nicely within a key? Like one slow, one fast, one legato, one staccato, etc.
+* Etudes
+
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+| Nummber |                          Vol 1                           | Vol 2                              | Vol 3                                    | Characteristic                |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+|       1 |             fast, scalar, slur and tongued,              |  slower, but increasingly faster   |  Fast and challengning, some wide slurs  |      Fast again, jumping      |
+|         |                     varying dynamics                     |       arpeggios, all slurred       | that are very fast. Baroque style (Bach  | all over the place, staccato  |
+|         |                                                          |                                    |           cello) unaccompanied           |       and tenuto mixed.       |         
+|         |                                                          |                                    |                                          | Alternating clefs constantly  |           
+|         |                                                          |                                    |                                          |                               |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+|       2 |            Slower, but lots of octave slurs              |    very similar approach as the 1st| slow romantic piece (Schumann clarinet)  | N/A                           |
+|         |                                                          |one. slow but increasing speed of   |lots of dynamic shading, sudden dynamics, |                               |
+|         |                                                          |arpeggios                           |not too hard technically                  |                               |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+| 3       |lots of dotted rhtyhms, all tongued                       |Sort of similar, more variety       |slower, lyrical. baroque bach suites      |Difficult to play quickly. Lots|
+|         |                                                          |though. Slurs, probably need some   |again. likely lots of phrasing issues to  |of chromatic runs that don't   |
+|         |                                                          |double tonguing                     |teach and unwritten dynamics              |always follow the chromatic    |
+|         |                                                          |                                    |                                          |scale. Lots of whole steps     |
+|         |                                                          |                                    |                                          |mixed in.                      |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+| 4       |Lots of tonguing again, but 8 16 16 rhythms. Some slower  | Starting to add multiple octaves fo| Brings relative major in, lots of similar|N/A                            |
+|         |slurred stuff for contrast                                |thirds so mixing arpeggios. Some    |motives in multiple octaves. Need to match|                               |
+|         |                                                          |good slured wide interval practice  |them. Lyrical with occasional flourishes. |                               |
+|         |                                                          |with emphasis on different notes    |Feeling in 1 instead of 3                 |                               |
+|         |                                                          |                                    |                                          |                               |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+|  5      |Compound meter, lots of resetting the scale on odd parts  |Fairly straightforward. Have to do  | Even more so this is about being able to | Back to fast, but still       |
+|         |of the beat, jumping to odd parts of the scale. A really  |slow subdivisions, eg 32nds at 4=50.|read rhythms to 64th notes. Tempo is      |reading 32nds. Lots of fast    |
+|         |awkward high note part that repeats a bit to make it      |Some wide fast slurs                |16th=112. Bach cello again. Very lyrical, |tonguing, might be better for  |
+|         |harder.                                                   |                                    |but hard to read and may be a good test   |double tonguing practice.      |
+|         |                                                          |                                    |for a student that sees black and panics  |                               |
++---------+----------------------------------------------------------+------------------------------------+------------------------------------------+-------------------------------+
+ 	
