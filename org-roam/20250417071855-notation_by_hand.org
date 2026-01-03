@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       ef814aa2-ff9b-4408-98ca-e20e119a5276
+:END:
+#+title: Notation by Hand
+
+* Exercises
+
+** Give only noteheads and ask to draw stems
+
+** Give notes and ask to draw slurs appropriately
+
+** Draw clefs one staff space away from edge
+
+** Error identification
+
+*** Reverse order of time and key signatures
+
+*** Time signature with numbers reveresed
+
+*** Key signatures with accidentals in the wrong order
+
+*** Stems
+
+**** Stems on wrong sides of notes
+
+**** Stems in wrong direction
+
+**** Stems that are too short or long
+
+**** Flags on wrong side
+
+**** Beams with wrong subdivisions
+
+*** Notes spanning beats
+
+*** Clefs
+
+**** Clefs that center on incorrect lines
+
+**** Changing clefs in poor positions
+
+**** Changing clefs too frequently and not using ledger lines
+
+**** Clef change not 2/3rds size
+
+**** Not having a warning clef change
+
+**** Changing clefs before rests instead of after
