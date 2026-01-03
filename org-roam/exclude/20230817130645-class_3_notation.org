@@ -4,29 +4,3 @@
 #+title: Class 3 Notation
 
 
-** Drumset
-
-*** MIDI vs Score Entry
-
-**** Changing noteheads without step time
-
-**** Mapping of devices
-
-**** How it looks vs how it sounds
-
-** Guitar and TAB
-
-*** Alternate Tunings
-
-*** Fretboard input
-
-*** Chord Diagrams
-
-*** Dynamic vs non dynamic parts
-
-*** Using both
-
-** Keyboard
-
-*** Cross staff
-

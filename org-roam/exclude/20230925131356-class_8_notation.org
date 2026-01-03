@@ -3,23 +3,3 @@
 :END:
 #+title: Class 8 Notation
 
-** Repeats
-
-** Pauses
-
-** Instruments on the side
-
-** System break character by itself?
-
-** Rehearsal Marks
-
-** Brackets
-
-** Figured Bass
-
-** Bar numbers
-
-** Noteheads
-
-** Barlines
-

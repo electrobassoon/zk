@@ -3,160 +3,273 @@
 :END:
 #+title: MUSC3553
 
-* [[id:6D2D56CE-D34F-416B-A63D-F19A18956F31][Class 1 8/31/2023]]
-
-* [[id:F11B56CB-A5B6-4860-9294-C9F2A0AB4499][Class 2 9/5/2023]]
-
-* [[id:1E6856B4-C7F1-4FC1-9366-6CADBD40DCAF][Class 3 9/7/2023]]
-
-* [[id:5C5ADBCC-A208-4D8F-81D0-03FA8297A08D][Class 4 9/12/2023]]
-
-* [[id:D6DC0635-9D2D-4FFC-AF38-1725C1944094][Class 5 9/14/2023]]
-
-* [[id:0C7F91A6-34F7-4032-8987-41FB197DD2EC][Class 6 9/19/2023]]
-
-* [[id:280F0D7E-AF1E-4416-956F-41DCC85650F3][Class 7 9/21/2023]]
-
-* [[id:dc68db78-af8c-43fa-8601-c7871a900a9f][Class 8 9/26/2023]]
-
-* Class 9 9/28/2023
-
-** Page Layout
-
-** Focus On Staffs
-
-** Hiding Staffs
-
-** Spacing, margins, page size
-
-** Magnetic Layout
-
-* Class 10 10/3/2023
-
-** Dynamic Parts
-
-*** When to use which?
-
-** Extracting Parts
-
-** Cues
-
-* Class 11 10/5/2023
-
-** Midterm Projects
-
-* Class 12 10/10/2023
-
-** Midterm Projects
-
-* Class 13 10/12/20232
-
-** Midterm Projects
-
-* Fundamentals of Notation
-
-** Double Stemmed Writing                                                 :2:
-
-*** Rests - 36
-
-*** Articulations - 118
-** Accidentals                                                            :2:
-
-*** Where they apply - 78-79
-
-*** Right after a barline - 81
-
-*** Octave displacement - 82
-
-*** Cautionary accidentals - 83
-
-*** Note spelling - 85
-** Drumset 281                                                            :3:
-** Braces 303                                                             :3:
-** Split beams 314                                                        :3:
-** Pedaling 334                                                           :3:
-** Vocal writing 434                                                      :4:
-** Clef Changes                                                           :5:
-
-*** Ledger Lines  - 7
-
-*** At Beginning of the bar, mid measure, after rests - 8
-** Key Changes                                                            :5:
-
-*** Double bar line - 39
-
-** Tuplets 193                                                            :5:
-** Tempo Marks 182                                                        :5:
-** Meter                                                                  :5:
-
-*** Rests 160
-
-*** Syncopation - 170
-
-*** Simple to Compound - 172
-
-** Articulations                                                          :6:
-
-*** Placement - 117
-
-*** Double stemmed placement - 118
-
-*** Arpeggiated Chords - 131
-** Dynamics                                                               :6:
-
-*** Typefaces - 101
-
-*** Placement - 101-103
-
-*** Hairpins vs words 106
-
-*** subito 107
-
-** Ties                                                                   :7:
-
-*** Only same note - 60
-
-*** Flattening in chords - 61
-
-*** Distance between ties - 66
-** Slurs                                                                  :7:
-
-*** Over a break - 112
-
-*** Chords - 114
-
-** Octave Signs                                                           :8:
-
-*** Where its placed -28
-
-*** Precedence of slurs, octaves, and tuplets, Tempo Markings, pedal instructions - 29
-
-*** Extension Lines - 30
-
-*** Octave signs vs ledger liens - 33
-** Grace Notes - 126                                                      :8:
-** Trills 135                                                             :8:
-
-*** Accidentals with trills - 84
-
-** Glissandi                                                              :8:
-** Pauses                                                                 :9:
-
-*** ' and // 187
-
-*** Fermata 187-188
-
-** Repeats 219                                                            :9:
-
-*** Slash notation 219
-
-*** Tremolos 225
-
-*** Beat repetition 230
-
-*** Repeat barlines 233
-
-*** DC and DS 238
-
-** Page Layout                                                           :10:
-** Extracting Parts                                                      :11:
+[[id:6617d4b4-3042-463d-8b5a-10533ad98537][3553 Fall 2023]]
+
+* Class Counts
+Really 24 if last week is for final projects
+Really 23 because first class is intro
+That's 11 or 12 days of theory and 11 or 12 days of practice
+
+| Class | Theory                                                              | Practice                                |   |   |
+|-------+---------------------------------------------------------------------+-----------------------------------------+---+---|
+|     1 | Ground Rules: key sig, time sig, brackets                           | Terminology, Project Window, Setup Mode |   |   |
+|   2,3 | Notes: including rests, chords, stem direction, beams, tails        | Write Mode, Note Input                  |   |   |
+|     4 | slurs, tuplets, articulations, ornaments,                           |                                         |   |   |
+|     5 | repeats, tremolos, pauses, barlines                                 |                                         |   |   |
+|     6 | Lyrics, Rehearsal Marks, Technique and Expressive Text, Tempo Text1 |                                         |   |   |
+|     7 | meter                                                               |                                         |   |   |
+|     8 | Score Layout, Bar Numbers, Staff Sizes                              | Engrave Mode                            |   |   |
+|     9 |                                                                     |                                         |   |   |
+|    10 | Parts, Cues                                                         |                                         |   |   |
+|    11 |                                                                     | MusicXML, MIDI Import, Exports          |   |   |
+|    12 |                                                                     | Playback                                |   |   |
+|-------+---------------------------------------------------------------------+-----------------------------------------+---+---|
+
+** Possible Midterm (maybe 2/3rds term?) Thuille sextet mvmt 3. 14 pages of score
+ - Transposing Intsruments
+ - Braces
+ - Grace Notes
+ - Arpeggios
+ - Time changes
+ - Expressive Text
+ - Clef changes
+ - Trills with terminations
+ - Tuplets
+ - 8va
+ - Key change
+ - Tempo changes
+ - Hopeful copy and paste / transpose
+ - fernata
+** Topics from Behind Bars in Order
+Ground Rules
+- Stave
+- Clefs
+- Noteheads
+- Stems
+- Tails
+- Beams
+- Ledger Lines
+- Octave Signs
+- Rests
+- Barlines
+- Rhythmic Spacing
+- Spacing Symbols
+Chords
+Dotted Notes
+Ties
+Accidentals
+Key Signatures
+Dynamics
+Articulation
+Grace Notes
+Arpeggiated Chords
+Trills
+Glissandos
+Metre
+Tuplets
+Repeat Signs
+Page layout
+Staff sizes
+
+** Topics from Dorico Manual in Order
+Basic terms:  Projects, Modes, Flows, Players, Instruments, Popovers, Layouts
+Project Window: Toolbar, Tab Bar, Transport, Zones, Panels, Signposts, Toolboxes
+User Interface Customization
+Setup Mode: Players, layouts, flows, ensembles, transposing, instrument changes, percussion, names
+Write Mode: Inputting vs editing, rhythmic grid, filters, instrument filters
+Engrave Mode
+Play Mode
+Print Mode
+Project and File Handling: Auto-save, backups, new projects
+Import and Export: MusicXML, MIDI, tempo tracks
+Note Input
+Notations Input
+Selecting and Editing
+Navigation
+Jump Bar
+Comments
+Proofreading
+Page Formatting
+Flow Headings
+Frames
+Graphic slices
+Properties
+Playback
+Key editor
+Mixer
+Library
+Details on every kind of notation
+
+* Class 1
+** Syllabus
+** why is notation important?
+*** Introduction to Behind Bars
+** Comparison of notation programs
+** maybe intro to Dorico
+* Class 2
+** Lecture
+*** Staff
+**** 5 line
+**** Staff space as measurement unit
+***** Consistent
+**** 1 line
+***** Indefinite pitch
+***** Unpitched sounds on pitched instruments
+***** Unspecified vocal pitches
+***** Cue line of rhythm
+***** Approximate pitch
+***** Pedals
+**** Other numbers
+***** Multiple 1 line staffs in one
+*** Clefs
+**** Treble
+**** Bass
+**** C Clefs
+**** Percussion
+**** Indentation 1 space
+**** Never omit clef
+*** Clef changes
+**** Size
+**** Cautionary
+**** Before barline
+**** Mid-bar
+*** Key Signatures
+**** Design of sharps, flats, and naturals
+**** Design  
+***** Difference in tenor clef sharps
+**** Placement
+**** Changes
+*** Time Signatures
+**** Definition
+**** Placement
+*** Symbol Spacing
+**** Very good tables for homework problems
+*** Beginning Layout
+**** Staff distance at least a staff height (488)
+**** Labels
+***** Numerals for multiple
+***** Transposing
+***** Table p 511
+*** Brackets and Barlines
+**** Brace vs Bracket
+**** Secondary Brackets
+**** Barline through groups
+** Homework Worksheet
+*** Draw a treble, bass, and c clef (no staff lines)
+*** Given a staff, draw a treble clef at the beginning, followed by a bass clef clef change
+*** Given a staff, draw a bass clef at the beginning, followed by a treble clef change
+*** What is the space between the following objects?
+**** Clef and key signature
+**** Clef and note with 2 accidentals
+**** Key signature and time signature
+**** Key signature and first note (no accidental)
+**** Key signature and first note (1 accidental)
+**** Time signature and first note (no accidental)
+**** Time signature and first note (with 2 accidentals)
+*** Given a staff and clef, draw the following key signatures
+**** Treble clef D major
+**** Bass clef Eb major
+*** Big empty space: Create the beginning of a piece for the following scenarios:
+**** wind quintet. The concert D flat major. Time signature 2/4
+**** piano quartet. B major. Use tenor clef for cello. Time signature 6/8
+* Class 3
+** Lecture
+*** Modes
+**** Setup
+**** Write
+**** Engrave
+**** Play
+**** Print
+Note these are more or less in workflow order
+*** Flows
+*** Project Info
+*** Panels on both sides
+*** Popovers
+*** Options
+**** Engraving
+**** Layout
+**** Notation
+*** Views
+**** Page
+**** Galley
+**** Fill
+*** User Interface
+**** Menus, not used much
+**** Options for flow titles, arrangers, etc.
+***** Save as default
+** Assignment
+* Class 4
+** Noteheads
+*** Shapes
+**** Homework question about half notehead vs whole notehead
+*** Diamonds
+**** Uses
+*** Crossed
+**** Uses
+** Stems
+*** Direction
+*** Length
+**** Ledger Lines
+**** Chords
+*** Tails
+**** Length
+**** Direction
+**** Multiple tails
+** Beams
+*** Watch for in the stave
+*** Angle
+**** Outer notes example
+*** Ledger Lines
+*** Opposite stem directions
+** Rests
+*** Vertical placement
+*** Single line
+*** Beams across rests
+*** Double stemmed writing
+Theory: Notes Rests, chords, stem directions, beams, tails, etc
+** Rhythmic spacing
+* Class 5
+Practice: Write Mode and Note Input
+* Class 6
+Practice: Editing and Shortcuts
+* Class 7
+Theory: TAB, Percussion, octaves, Transposition, tuplets, lyrics
+* Class 8
+Practice: Rock Band Input
+* Class 9
+Theory: slurs, articulations, grace notes, fermata, rehearsal marks, Lines
+* Class 10
+Practice: Slurs, Articulations, Grace Notes, Fermata, Rehearsal Marks, Lines
+* Class 11
+Theory: Glissandi, Trills, Tremolos, Arpeggios, Repeats, Pauses, Barlines
+* Class 12
+Practice: Glissandi, Trills, Tremolos, Arpeggios, Repeats, Pauses, Barlines
+* Class 13
+Theory: Technique and Expressive text, Tempo text
+* Class 14
+Practice: Texts
+Midterm Due
+* Class 15
+Theory: Score Layout, Bar Numbers, Staff Sizes, Spacing
+* Class 16
+Practice: Engrave Mode
+* Class 17
+Practice: Master pages, page changes
+* Class 18
+Theory: Parts, Cues
+* Class 19
+Practice: Parts, Cues
+* Class 20 
+Practice: Print Mode (not sure if this will take a whole day)
+* Class 21
+Practice: MIDI, MusicXML, Export
+* Class 22 
+Practice: Playback
+* Class 23
+Theory: Contemporary Notation
+* Class 24
+Practice: Contemporary Notation
+* Class 25
+Final Project Time
+* Class 26
+Final Project Time

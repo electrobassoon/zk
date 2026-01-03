@@ -3,32 +3,3 @@
 :END:
 #+title: Class 4 Notation
 
-** Tuplets
-
-*** locking the triplet with shift option k
-
-*** custom tuplets the slow way
-
-*** nested triplets
-
-*** Triplet ratios
-
-** Lyrics
-
-*** Direct enter
-
-**** Command L and Option Command L for verse 2
-
-**** Non breaking spaces and hyphens
-
-*** Copy and paste
-
-*** From File
-
-*** Plugins
-
-**** Add slurs
-
-**** Traditional Beaming
-
-**** Check lyric hyphenation

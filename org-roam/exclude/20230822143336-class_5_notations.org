@@ -4,38 +4,4 @@
 #+title: Class 6 Notations
 
 
-** Dynamics
-
-*** Hairpins
-
-**** H and Shift H and Shift L during input, alt arrows to select handles
-
-**** Multiple at once
-
-** Text in General
-
-*** Fonts
-
-**** Roman Bold, Italic, Roman Normal
-
-*** One at a time
-
-*** Copy with shift alt click vs alt click
-
-*** Alt click to get same style
-
-*** Multi select (first notes of measures only?)
-
-*** Align in column
-
-** Tempo Marks
-*** System Object Positions in Appearance Tab
-*** Align them
-*** Modulations with = signs
-
-** Expressions and Technique text
-
-*** position (esp with lyrics)
-
-*** Center dynamics, sibelius won't do this for you!!!
 
