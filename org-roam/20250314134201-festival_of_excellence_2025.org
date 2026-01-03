@@ -3,8 +3,8 @@
 :END:
 #+title: festival of excellence 2025
 
-* Historical Overview
-** Music Pre-1870s
+* Historical Overview (7 min)
+** Music Pre-1870s 
 Music is performed by humans, using mechanical instruments, and the only way to consume this music is to play it or listen to someone playing it live.
 ** Invention of the phonograph
 Phonograph and recorded sound is invented in 1870s. Music making process is ruptured: At first, it is just the timing aspect that is ruptured. You can listen to humans playing mechanical instruments whenever you want. It also creates the quest for perfection.
@@ -31,6 +31,11 @@ Languages like Max, Pure Data, SuperCollider, and other languages emerge for eas
 ** Mcnutt
 Composers it's about input from a perfomer
 Performers it's interaction with interfaces, instruments, microphones, etc. Also interacting with composers and audiences. And the invisible chamber music partner
+
+Interactive computer music systems are those whose behavior changes in response to musical input - Rowe
+
+=Interactive music is defined as music composition or improvisation where software interprets a live performance to affect music generated or modified by computers. Usually this involves a performer playing an instrument while a computer creates music that is in some way shaped by the performance.= - Winkler
+
 
 * Interactive Music Systems
 ** Winkler
@@ -61,9 +66,9 @@ An artificial player, musical presence with own personality.
 *** Human vs machine
 *** Time-space transgressions. Impossible Instrument
 *** Chamber Music Interaction
-* Examples
+* Examples (30 min)
 ** Concatenation by Rand Steiger (13 min)
-This is score driven (, I believe completely transformative, and an instrument paradigm
+This is score driven ,  transformative, and an instrument paradigm
 ** Manteia by Peter Van Zandt Lane (10 min for Pyro and Chrono)
 Score driven, sequenced, player paradigm (pyromancer closer to instrument)
 ** Ripped Up Maps by Andrew May (Whatever it needs to be)

@@ -279,6 +279,7 @@ Used articulation patterns made Milde even  harder
 ** Piard was next
 :PROPERTIES:
 :NOTER_PAGE: (64 0.4271047227926078 . 0.1881648936170213)
+:NOTER_DOCUMENT: ../PDFs/lowe08_norman_herzb.pdf
 :END:
 And using Allard's tempos... but the description doesn't seem to match my familiarity with Piard. All based on scale patterns in a single key. Quatre Vingt Dix Etudes is the title. Two volumes. Volume two is arpeggios and disjointed intervals in a single key.
 ** Next Orefici melodies

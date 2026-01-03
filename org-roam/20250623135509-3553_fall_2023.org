@@ -1,0 +1,469 @@
+:PROPERTIES:
+:ID:       6617d4b4-3042-463d-8b5a-10533ad98537
+:END:
+#+title: 3553 Fall 2023
+
+
+* Class 1 8/31/2023
+** Class
+*** Syllabus
+*** Overview of Notation Programs
+
+*** Introduction Reading
+
+*** Comparison of Default Output
+
+*** Sibelius Overview
+
+**** Ribbon
+
+**** Document Setup
+
+***** Pickup Measure
+
+***** Key signatures
+
+***** House Styles
+
+***** Tempos
+
+**** Note Input
+
+***** Panorama View
+
+***** Point and click
+
+***** Type letters
+
+***** Midi
+
+***** Ties - Only to the same note!!!!
+
+** Homework 
+
+Input basic melodies and setup documents for each.
+
+
+* Class 2 9/5/2023
+** Note Input
+*** Voices
+**** Color display in Choose View > Note Colors
+**** Rests
+**** Moving notes to other voices and swapping
+*** Accidentals (demonstrations only, sibelius seems to do really well with this)
+**** Where they apply
+**** Cautionary accidentals
+***** Right after barline
+***** Octaves
+**** Note Spelling
+*** Tricks
+**** Reenter notes keep rhythm
+**** Repeat measures
+**** Transpose
+** Changing Key Signatures, Time Signatures, Clefs
+*** Note double barlines for keys, not times
+*** Ledger lines for clefs (3)
+*** Before barlines
+*** Mid measure clef changes
+**** Between Beats
+**** Between Phrases
+**** Middle of Beats
+*** Changing after rests
+** Homework
+Note entry with lots of changes in key signatures, time signatures, and clefs
+Clef correction exercises
+
+
+* Class 3 9/7/2023
+** Drumset
+
+*** MIDI vs Score Entry
+
+**** Changing noteheads without step time
+
+**** Mapping of devices
+
+**** How it looks vs how it sounds
+
+** Guitar and TAB
+
+*** Alternate Tunings
+
+*** Fretboard input
+
+*** Chord Diagrams
+
+*** Dynamic vs non dynamic parts
+
+*** Using both
+
+** Keyboard
+
+*** Cross staff
+
+
+
+* Class 4 9/12/2023
+** Tuplets
+
+*** locking the triplet with shift option k
+
+*** custom tuplets the slow way
+
+*** nested triplets
+
+*** Triplet ratios
+
+** Lyrics
+
+*** Direct enter
+
+**** Command L and Option Command L for verse 2
+
+**** Non breaking spaces and hyphens
+
+*** Copy and paste
+
+*** From File
+
+*** Plugins
+
+**** Add slurs
+
+**** Traditional Beaming
+
+**** Check lyric hyphenation
+
+
+* Class 5 9/14/2023
+** Slurs
+
+*** Different Meanings
+
+**** Winds and Brass
+
+**** Strings
+
+**** Voice
+*** s or select passage
+
+*** During input S and shift S
+
+*** Flipping with X
+
+*** Adjusting handles
+
+**** Resetting if you mess up
+
+****  Disable magnetic for cross staff
+
+*** Adjusting ends when extending over breaks
+
+** Articulations
+
+*** Except in two stemmed, it goes over the noteheads
+
+**** Or limited space below, and except the marcato (sibelius won't let you flip it)
+
+*** Double stemmed
+
+**** Each voice needs its own articulations, including unisons!
+
+**** Aritculations go to the stem side
+
+***** Don't move it closer than the end of the stem!
+
+*** During input and after input
+
+*** Clearing articulations
+
+*** Flip with X
+
+** Grace Notes
+
+*** Always stem up except double stemmed writing
+
+*** Slurs below notehead (sibelius won't do this automatically!)
+
+*** Independent slurs, even when slur is long
+
+*** Articulations where they are conspicuous (sibelius doesn't do this automatically!)
+
+*** Dynamics tend to go to main note unless there are a lot of grace notes
+
+** Beams
+
+*** Sibelius usually good on secondary beams, but not always (3/8 eg)
+
+*** Manually add a secondary beam for 4 64ths notes
+
+*** Global change
+
+*** Feathered Beams
+
+*** over rests
+
+
+* Class 6 9/19/2023
+** Dynamics
+
+*** Hairpins
+
+**** H and Shift H and Shift L during input, alt arrows to select handles
+
+**** Multiple at once
+
+** Text in General
+
+*** Fonts
+
+**** Roman Bold, Italic, Roman Normal
+
+*** One at a time
+
+*** Copy with shift alt click vs alt click
+
+*** Alt click to get same style
+
+*** Multi select (first notes of measures only?)
+
+*** Align in column
+
+** Tempo Marks
+*** System Object Positions in Appearance Tab
+*** Align them
+*** Modulations with = signs
+
+** Expressions and Technique text
+
+*** position (esp with lyrics)
+
+*** Center dynamics, sibelius won't do this for you!!!
+
+
+* Class 7 9/21/2023
+** Glissandi
+
+*** At least first occurance should have word gliss.
+
+*** Make sure it isn't confused with voice leading lines
+
+*** With accidentals, default is next to, but can also adjust
+
+*** Unisons go in direction of gliss (auto)
+
+*** Avoid clef changes
+
+*** Use ties if gliss delayed
+
+*** Chord glisses only one label (not automatic)
+
+*** Finishing grace note and parenthesis
+
+*** Intermediate notes and parenthesis
+
+** Trills
+
+*** Only long slurs and octave signs go above the trill
+
+*** Line lasts for entire note (sib doesn't follow ties), stops right at next notehead or its accidental (sib won't notice) or to barline
+
+*** Accidental by creating a new symbol and a new line
+
+*** Grace note for a defined pitch in parenthesis with an X shift, hide flag, drag stem down
+
+*** Grace note terminations
+
+** Tremolos
+
+*** input at half value, choose beam numbers
+
+*** tied to next measure with slurs
+
+*** break beams (auto?)
+
+** Arpeggios
+
+*** Extends all notes (not stems)
+
+*** Cross staff if there's an accidental
+
+** Octave Signs
+
+*** Above almost all other notation
+
+*** Slur vs triplet vs octave depend on longest
+
+*** Change style if wanted
+
+*** How long it goes controversy
+
+*** Ledger lines, octave signs, or clef changes?
+
+*** loco to turn back
+
+
+* Class 8 9/26/2023
+** Repeats
+
+** Pauses
+
+** Instruments on the side
+
+** System break character by itself?
+
+** Rehearsal Marks
+
+** Brackets
+
+** Figured Bass
+
+** Bar numbers
+
+** Noteheads
+
+** Barlines
+
+
+
+* Class 9 9/28/2023
+
+** Page Layout
+
+** Focus On Staffs
+
+** Hiding Staffs
+
+** Spacing, margins, page size
+
+** Magnetic Layout
+
+* Class 10 10/3/2023
+
+** Dynamic Parts
+
+*** When to use which?
+
+** Extracting Parts
+
+** Cues
+
+* Class 11 10/5/2023
+
+** Midterm Projects
+
+* Class 12 10/10/2023
+
+** Midterm Projects
+
+* Class 13 10/12/20232
+
+** Midterm Projects
+
+* Fundamentals of Notation
+
+** Double Stemmed Writing                                                 :2:
+
+*** Rests - 36
+
+*** Articulations - 118
+** Accidentals                                                            :2:
+
+*** Where they apply - 78-79
+
+*** Right after a barline - 81
+
+*** Octave displacement - 82
+
+*** Cautionary accidentals - 83
+
+*** Note spelling - 85
+** Drumset 281                                                            :3:
+** Braces 303                                                             :3:
+** Split beams 314                                                        :3:
+** Pedaling 334                                                           :3:
+** Vocal writing 434                                                      :4:
+** Clef Changes                                                           :5:
+
+*** Ledger Lines  - 7
+
+*** At Beginning of the bar, mid measure, after rests - 8
+** Key Changes                                                            :5:
+
+*** Double bar line - 39
+
+** Tuplets 193                                                            :5:
+** Tempo Marks 182                                                        :5:
+** Meter                                                                  :5:
+
+*** Rests 160
+
+*** Syncopation - 170
+
+*** Simple to Compound - 172
+
+** Articulations                                                          :6:
+
+*** Placement - 117
+
+*** Double stemmed placement - 118
+
+*** Arpeggiated Chords - 131
+** Dynamics                                                               :6:
+
+*** Typefaces - 101
+
+*** Placement - 101-103
+
+*** Hairpins vs words 106
+
+*** subito 107
+
+** Ties                                                                   :7:
+
+*** Only same note - 60
+
+*** Flattening in chords - 61
+
+*** Distance between ties - 66
+** Slurs                                                                  :7:
+
+*** Over a break - 112
+
+*** Chords - 114
+
+** Octave Signs                                                           :8:
+
+*** Where its placed -28
+
+*** Precedence of slurs, octaves, and tuplets, Tempo Markings, pedal instructions - 29
+
+*** Extension Lines - 30
+
+*** Octave signs vs ledger liens - 33
+** Grace Notes - 126                                                      :8:
+** Trills 135                                                             :8:
+
+*** Accidentals with trills - 84
+
+** Glissandi                                                              :8:
+** Pauses                                                                 :9:
+
+*** ' and // 187
+
+*** Fermata 187-188
+
+** Repeats 219                                                            :9:
+
+*** Slash notation 219
+
+*** Tremolos 225
+
+*** Beat repetition 230
+
+*** Repeat barlines 233
+
+*** DC and DS 238
+
+** Page Layout                                                           :10:
+** Extracting Parts                                                      :11:

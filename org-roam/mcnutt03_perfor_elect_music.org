@@ -15,6 +15,7 @@
 ** Definition of Interactivity
    :PROPERTIES:
    :NOTER_PAGE: (1 . 0.2604255319148936)
+   :NOTER_DOCUMENT: ../PDFs/mcnutt03_perfor_elect_music.pdf
    :END:
 Different perhaps for composers and performers
 ** Schism
