@@ -33,6 +33,8 @@ Morris, Matthew Blane. "The Teaching Methods of Lewis Hugh Cooper." DMA treatise
 
 Rechtman, Mordechai. The Bassoon Reed "My System"
 
-Cook, Nicholas. /A Guide to Musical Analysis/.
+Cook, Nicholas. /A Guide to Musical Analysis/. - started
 
 Cook, Nicholas. /Beyond the Score/.
+
+Fieldsteel - Supercollider for the Creative Musician
