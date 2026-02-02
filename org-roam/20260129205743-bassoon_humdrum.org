@@ -1,0 +1,97 @@
+:PROPERTIES:
+:ID:       bassoon-humdrum-mozart
+:END:
+#+title: Bassoon Humdrum
+#+filetags: :encoding:analysis:humdrum:
+
+* Project Specs
+  - Root: `~/bassoonhumdrum/classicalConcerti`
+  - Current Work: `~/bassoonhumdrum/classicalConcerti/mozart_k191/`
+  - Format: `**kern` (Target)
+
+* Manual Encoding Cheat Sheet (**kern)
+  - **Durations**: 4 = Quarter, 8 = Eighth, 16 = Sixteenth, 2 = Half.
+  - **Pitches**: 
+    - Middle C = `c`
+    - C above = `cc`
+    - C below = `C`
+    - Flats = `-` (e.g., `e-` for Eb)
+    - Sharps = `#` (e.g., `f#` for F#)
+  - **Barlines**: `=1`, `=2`, etc.
+  - **Slurs**: `(` and `)`
+  - *More*: [[https://doc.verovio.humdrum.org/humdrum/getting_started/][Verovio quickstart]]
+
+* The Encoding Production Line (Fastest Route)
+** *PDF Source*: Clean scan
+*** Script
+#+BEGIN_SRC bash
+  magick -density 300 "mozartscore.pdf" \
+         -deskew 40% \
+         -gaussian-blur 0.05 \
+         -unsharp 0x1 \
+         -threshold 50% \
+         -type Bilevel \
+         -compress none \
+         -depth 8 \
+         "page_%03d.tif"
+#+END_SRC
+*** Adjusting parameters
+| If you see...                    | The Problem                    | The Tweak                                         |
+|----------------------------------+--------------------------------+---------------------------------------------------|
+| Faint/Broken Lines               | The image is too "light"       | Lower the -threshold. Try 40%.                    |
+| Bleeding/Bloated Notes           | The ink is "bleeding" together | Higher the -threshold. Try 60%.                   |
+| Grainy "Sand" in the White Space | High-frequency noise           | Increase -gaussian-blur. Try 1.5 or 2.0.          |
+| Note heads looking like "blobs"  | Too much blur                  | Increase the -unsharp value (e.g., -unsharp 0x2). |
+*** Threshold Script
+#+BEGIN_SRC bash
+#!/bin/bash
+# test_omr.sh <pdf_file> <page_number>
+
+PAGE=$(( $2 - 1 )) # ImageMagick uses 0-based indexing
+
+for THRESH in 35 45 50 55 65
+do
+    echo "Generating test with ${THRESH}% threshold..."
+    magick -density 300 "$1[$PAGE]" \
+        -deskew 40% \
+        -gaussian-blur 0.05 \
+        -unsharp 0x1 \
+        -threshold ${THRESH}% \
+        -type Bilevel \
+        "test_th_${THRESH}.tif"
+done
+
+echo "Done. Open these files to compare clef and staff clarity."
+#+END_SRC
+*** Combine the tifs
+#+BEGIN_SRC bash
+tiffcp page01.tif page02.tif page03.tif output.tiff
+#+END_SRC
+** OMR (Audiveris): Run OMR. 
+*** Initial Processing
+#+BEGIN_SRC bash
+audiveris -batch -step SYMBOLS -save -option org.audiveris.omr.text.Language.defaultSpecification=eng+ita -output ./omr_output/ ./page_*.tif
+#+END_SRC
+*** Edit
+    - *Tip*: Don't aim for perfection in Audiveris. Just get the pitches and rhythms mostly right.
+    - Check clef changes, accidentals, key signatures, brackets for layout.
+*** Run the link and score steps
+Check the red measures, but not too much
+*** Export to musicxml
+** Cleanup (MuseScore): Import XML from Audiveris. 
+     - *Priority*: Correct the "measure math" (ensure barlines add up). Humdrum will crash if the durations in a measure are wrong.
+** Conversion: `xml2hum filename.musicxml > filename.krn`
+** Validation:
+Run humdrum for syntax and proof for rhythm on the file
+
+* Humdrum User Guide Tracker
+  - **Status**: Not started.
+  - **Goal**: Reach Chapter 5 (Basic Analysis) to justify the encoding effort.
+  - [[https://www.humdrum.org/guide/ch01/][Link: Humdrum Guide Chapter 1]]
+
+* Next Session Breadcrumbs
+  - Breadcrumb: Movement 1 is done, movement 2 is in musescore proofing. Movement 3 is probably in original omr file, but it's split into tifs with the above workflow to compare.
+  - *Current Task*: Continue movement 3 processing in audiveris. Needs the editing phase.
+  - Next Step: Clean movement 2 in musescore
+  - *Next Step*: Check if kern.el can help speed up encoding
+  

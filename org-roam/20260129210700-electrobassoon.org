@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       1ea620cb-3bc4-4c0a-9e5f-f20963ce2932
+:END:
+#+title: Electrobassoon
+#+filetags: :bassoon:audio:ardour:gentoo:windows:maxmsp:puredata:
+
+* Web & Socials
+  - Website: [[https://electricbassoon.org][electricbassoon.org]]
+  - Socials (YT/IG): `@electrobassoon`
+
+* Workflow A: Software Processing (Max/MSP)
+  - **OS**: Windows
+  - **Logic**: Use Max/MSP for effects -> Route via **VB Matrix** -> Record in **Pure Data**.
+  - **Recording Specs**:
+    - Track 1: Dry Bassoon Input
+    - Track 2: Max/MSP Wet Output
+  - **Context Note**: Since no Max license, ensure the Pd patch is set to the correct sample rate before starting the Max runtime.
+
+* Workflow B: Hardware Processing (Pedals)
+  - **OS**: Linux (Gentoo)
+  - **Logic**: Physical Pedals -> Interface -> **Ardour**.
+  - **Advantage**: Stays in the native mastering environment. No file transfer needed.
+
+* Visuals: projectM Preset Development
+  - **Status**: Struggling with preset creation.
+
+* Breadcrumbs (Handover)
+  - **Last Action**: Practicing pieces. No recordings yet.
+  - **Stuck Point**: projectM preset isn't showing image. May need a tga.
+  - **Next Step**: Create a "Baseline" projectM preset that only reacts to volume, then iterate.

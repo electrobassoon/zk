@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       8fc8cc43-fcd3-4a25-9798-a70891ded2b0
+:END:
+#+title: Bradshaw Mud
+
+:PROPERTIES:
+:ID:       bradshaw-history-mud-main
+:END:
+#+title: Bradshaw History MUD
+#+filetags: :genealogy:evennia:python:
+
+* Environment & Quickstart
+  - **Project Root**: `~/bradshawmud`
+  - **Activation**: `source venv/bin/activate` (from project root)
+  - **Start Command**: `evennia start` (from `~/bradshawmud/bradshawmud`)
+  - **Database**: Gramps v6 (JSON data structure)
+
+* Data Schema Reference (Gramps v6)
+  - **Core Rule**: Data is stored in nested dictionaries, not lists.
+  - **Census Mapping**: Census entries use the **Forms Gramplet**.
+  - **Key Structure**:
+    #+begin_src python
+    # Reminder: event_ref_list is a list of DICTIONARIES
+    event_ref_list = [
+        {"ref": "handle_id", "role": "Head", "attributes": {...}},
+        {"ref": "handle_id", "role": "Wife", "attributes": {...}}
+    ]
+    #+end_src
+
+* [ACTIVE GOAL] Mapping Census Events to Evennia Objects
+  - **Concept**: How does a "1950 Census Event" in the Bradshaw DB become an object/state in the MUD?
+  - **Current Logic**:
+    | Gramps Attribute | Evennia Equivalent | Logic/Transformation |
+    |------------------|--------------------|----------------------|
+    | Person (Object)  | Character/Account  | Use `gramps_id` as a tag in Evennia. |
+    | Census Event     | Room State/Script  | Dictates where the character "is" in time. |
+    | Attributes       | Attributes (`db.*`) | Map census 'Age', 'Job' to Evennia attributes. |
+
+* Brainstorming / Loose Ends
+  - How to handle the "Bradshaw DB" as a singleton in Evennia?
+  - Need a parser that reads the `json_data` and instantiates Evennia objects.
+  - Need to decide how to unlock decades
+
+* Next Session (Breadcrumbs)
+  - **Status**: Just established the Org-roam dashboard.
+  - **Next Step**: Draft a Python prototype function to read one `event_ref_list` dictionary and print it in the Evennia shell.

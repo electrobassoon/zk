@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       fa95ef84-98cf-4b17-a7dc-c9854a1bc2ad
+:END:
+#+title: SuperCollider
+
+:PROPERTIES:
+:ID:       supercollider-cold-storage
+:END:
+#+title: SuperCollider: Audio Synthesis (ON HOLD)
+#+filetags: :audio:programming:sclang:learning:
+
+* Status: [PAUSED]
+  - Put on hold: [2026-01-28]
+  - Reason: Prioritizing Bradshaw MUD and Mozart Humdrum analysis.
+  - Strategy: Restart from page 1 / Chapter 1 when returning.
+
+* Resources
+  - **The Book**: Eli Fieldsteel's SuperCollider book.
+  - **The Series**: [[https://www.youtube.com/playlist?list=PLPYgvEpxosPHvHpsF8fI6H7G7yI9u8E-c][Eli Fieldsteel YouTube Tutorials]]
+  - **The Environment**: Using Emacs with `scel` or SuperCollider IDE.
+
+* The "Quick Start" (When you return)
+  1. Open SuperCollider.
+  2. Type `s.boot;` and press `Ctrl+Enter`.
+  3. If you hear nothing, run the test code below.
+  4. Open the book to Chapter 1.
+
+* Test Code (Hello World)
+  #+begin_src sclang
+  { SinOsc.ar(440, 0, 0.2) }.play; // Play a 440Hz sine wave
+  // Use Ctrl+. to stop the sound!
+  #+end_src
+
+* Why SuperCollider? (Reminders for Future Self)
+  - Interest in generating procedural audio for the Bradshaw MUD.
+  - Exploring bassoon-like synthesis or live processing.
