@@ -84,14 +84,14 @@ Check the red measures, but not too much
 ** Validation:
 Run humdrum for syntax and proof for rhythm on the file
 
-* Humdrum User Guide Tracker
-  - **Status**: Not started.
-  - **Goal**: Reach Chapter 5 (Basic Analysis) to justify the encoding effort.
-  - [[https://www.humdrum.org/guide/ch01/][Link: Humdrum Guide Chapter 1]]
+
+* Musescore
+ - Combined parts need to be exploded to create their own spines
+ - Dynamics don't transfer, so don't worry about them
 
 * Next Session Breadcrumbs
-  - Breadcrumb: Movement 1 is done, movement 2 is in musescore proofing. Movement 3 is probably in original omr file, but it's split into tifs with the above workflow to compare.
-  - *Current Task*: Continue movement 3 processing in audiveris. Needs the editing phase.
+  - Breadcrumb: Movement 1 is done, movement 2 is in musescore proofing. Movement 3 is ready for proofing.
+  - *Current Task*: Edit movement 2 in musescore. probably at listening stage
   - Next Step: Clean movement 2 in musescore
   - *Next Step*: Check if kern.el can help speed up encoding
   
