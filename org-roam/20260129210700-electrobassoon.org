@@ -9,22 +9,31 @@
   - Socials (YT/IG): `@electrobassoon`
 
 * Workflow A: Software Processing (Max/MSP)
-  - **OS**: Windows
-  - **Logic**: Use Max/MSP for effects -> Route via **VB Matrix** -> Record in **Pure Data**.
-  - **Recording Specs**:
+  - *OS*: Windows
+  - *Logic*: Use Max/MSP for effects -> Route via *VB Matrix* -> Record in *Pure Data*.
+  - *Recording Specs*:
     - Track 1: Dry Bassoon Input
-    - Track 2: Max/MSP Wet Output
-  - **Context Note**: Since no Max license, ensure the Pd patch is set to the correct sample rate before starting the Max runtime.
+    - Track 2: Little Jake Input
+    - Track 3,4: Max/MSP Wet Output
+  - *Context Note*: Since no Max license, ensure the Pd patch is set to the correct sample rate before starting the Max runtime.
+  - Next time try the Little Jake straight into the interface. It sounds a bit tubby and almost unusable.
+** Ardour Process
+  - Reverb bus
+  - The LSP Enhancer helps with the noise floor and not sounding so distant
+  - Output the electronics at the bottom of the strip to a separate bus
+  - Use the *LSP Compressor* with a sidechain to duck the electronics when the bassoon plays. Use the pin in out button to set that up.
+  - Group tracks to try and cut in the same places
 
 * Workflow B: Hardware Processing (Pedals)
-  - **OS**: Linux (Gentoo)
-  - **Logic**: Physical Pedals -> Interface -> **Ardour**.
-  - **Advantage**: Stays in the native mastering environment. No file transfer needed.
+  - *OS*: Linux (Gentoo)
+  - *Logic*: Physical Pedals -> Interface -> *Ardour*.
+  - *Advantage*: Stays in the native mastering environment. No file transfer needed.
 
 * Visuals: projectM Preset Development
-  - **Status**: Struggling with preset creation.
+  - *Status*: Struggling with preset creation.
 
 * Breadcrumbs (Handover)
-  - **Last Action**: Practicing pieces. No recordings yet.
-  - **Stuck Point**: projectM preset isn't showing image. May need a tga.
-  - **Next Step**: Create a "Baseline" projectM preset that only reacts to volume, then iterate.
+  - *Last Action*: Chronomancer first recording done.
+  - *Stuck Point*: projectM preset isn't showing image. May need to give up on a custom preset.
+  - *Next Step*: Redo mixing process that was lost. Add sidechain, redirect tracks, tweak eq, cut and rearrange takes, location markers for those takes, remove redundant max takes
+  - *Next Recording*: See if there's a way to lower the latency in VBMatrix

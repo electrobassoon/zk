@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-14 Fri 11:42 -->
+<!-- 2026-02-21 Sat 11:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Configs</title>
 <meta name="generator" content="Org Mode" />
-<style>
+<style type="text/css">
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -201,120 +201,118 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org8e4a14e">Prettifying Org-mode</a></li>
-<li><a href="#org77a70f5">Rainbow Delimiters</a></li>
-<li><a href="#org99f7720">Lilypond config</a></li>
-<li><a href="#orgaba057c">Org-roam adjustments</a></li>
-<li><a href="#orgd18f675">Publishing Org-Roam Database</a></li>
-<li><a href="#orga96e090">Freezing Stuff?</a></li>
+<li><a href="#orgcc47615">Prettifying Org-mode</a></li>
+<li><a href="#org9a4c2f3">Rainbow Delimiters</a></li>
+<li><a href="#orge2e5d57">Lilypond config</a></li>
+<li><a href="#org1e57c8b">Org-roam adjustments</a></li>
+<li><a href="#orgd00585d">Publishing Org-Roam Database</a></li>
+<li><a href="#orga43cf26">Freezing Stuff?</a></li>
 </ul>
 </div>
 </div>
 <p>
 Here are various things in my emacs init files, mostly so I don't lose them at some point.
 </p>
-
-<div id="outline-container-org8e4a14e" class="outline-2">
-<h2 id="org8e4a14e">Prettifying Org-mode</h2>
-<div class="outline-text-2" id="text-org8e4a14e">
+<div id="outline-container-orgcc47615" class="outline-2">
+<h2 id="orgcc47615">Prettifying Org-mode</h2>
+<div class="outline-text-2" id="text-orgcc47615">
 <p>
 These are some adjustments to make org-mode files look nicer.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-hide-emphasis-markers t<span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">require</span> '<span style="color: #7FC1CA;">org-bullets</span><span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">lambda</span> <span style="color: #F2C38F;">()</span> <span style="color: #F2C38F;">(</span>org-bullets-mode 1<span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(<span style="color: #9A93E1;">setq</span> org-hide-emphasis-markers t)
+(<span style="color: #9A93E1;">require</span> '<span style="color: #7FC1CA;">org-bullets</span>)
+(add-hook 'org-mode-hook (<span style="color: #9A93E1;">lambda</span> () (org-bullets-mode 1)))
 
-<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook 'visual-line-mode<span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span>add-hook 'org-mode-hook 'variable-pitch-mode<span style="color: #9A93E1;">)</span>
+(add-hook 'org-mode-hook 'visual-line-mode)
+(add-hook 'org-mode-hook 'variable-pitch-mode)
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org77a70f5" class="outline-2">
-<h2 id="org77a70f5">Rainbow Delimiters</h2>
-<div class="outline-text-2" id="text-org77a70f5">
+<div id="outline-container-org9a4c2f3" class="outline-2">
+<h2 id="org9a4c2f3">Rainbow Delimiters</h2>
+<div class="outline-text-2" id="text-org9a4c2f3">
 <p>
 Just makes dealing with parenthesis and things a little nicer.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">use-package</span> <span style="color: #7FC1CA;">rainbow-delimiters</span>
-  <span style="color: #83AFE5;">:hook</span> <span style="color: #83AFE5;">(</span>prog-mode . rainbow-delimiters-mode<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(<span style="color: #9A93E1;">use-package</span> rainbow-delimiters
+  <span style="color: #83AFE5;">:hook</span> (prog-mode . rainbow-delimiters-mode))
 </pre>
 </div>
 </div>
 </div>
-
-<div id="outline-container-org99f7720" class="outline-2">
-<h2 id="org99f7720">Lilypond config</h2>
-<div class="outline-text-2" id="text-org99f7720">
+<div id="outline-container-orge2e5d57" class="outline-2">
+<h2 id="orge2e5d57">Lilypond config</h2>
+<div class="outline-text-2" id="text-orge2e5d57">
 <p>
 This is so that lilypond and lyi files will automatically get the correct major mode.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span>autoload 'LilyPond-mode <span style="color: #7FC1CA;">"lilypond-mode"</span><span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-mode-alist
-      <span style="color: #83AFE5;">(</span>cons '<span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"\\.ly$"</span> . LilyPond-mode<span style="color: #F2C38F;">)</span> auto-mode-alist<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-mode-alist
-      <span style="color: #83AFE5;">(</span>cons '<span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"\\.lyi$"</span> . LilyPond-mode<span style="color: #F2C38F;">)</span> auto-mode-alist<span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(autoload 'LilyPond-mode <span style="color: #7FC1CA;">"lilypond-mode"</span>)
+(<span style="color: #9A93E1;">setq</span> auto-mode-alist
+      (cons '(<span style="color: #7FC1CA;">"\\.ly$"</span> . LilyPond-mode) auto-mode-alist))
+(<span style="color: #9A93E1;">setq</span> auto-mode-alist
+      (cons '(<span style="color: #7FC1CA;">"\\.lyi$"</span> . LilyPond-mode) auto-mode-alist))
 
-<span style="color: #9A93E1;">(</span>add-hook 'LilyPond-mode-hook <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">lambda</span> <span style="color: #F2C38F;">()</span> <span style="color: #F2C38F;">(</span>turn-on-font-lock<span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+(add-hook 'LilyPond-mode-hook (<span style="color: #9A93E1;">lambda</span> () (turn-on-font-lock)))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgaba057c" class="outline-2">
-<h2 id="orgaba057c">Org-roam adjustments</h2>
-<div class="outline-text-2" id="text-orgaba057c">
+<div id="outline-container-org1e57c8b" class="outline-2">
+<h2 id="org1e57c8b">Org-roam adjustments</h2>
+<div class="outline-text-2" id="text-org1e57c8b">
 <p>
 Here are my capture templates. Just two, one for normal notes and one for a bibliography note that connects with bibtex for the citation key.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-roam-capture-templates
-  '<span style="color: #83AFE5;">(</span><span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"d"</span> <span style="color: #7FC1CA;">"default"</span> plain <span style="color: #7FC1CA;">"%?"</span> <span style="color: #83AFE5;">:if-new</span>
-     <span style="color: #A8CE93;">(</span>file+head <span style="color: #7FC1CA;">"%&lt;%Y%m%d%H%M%S&gt;-${slug}.org"</span> <span style="color: #7FC1CA;">"#+title: ${title}"</span><span style="color: #A8CE93;">)</span>
-     <span style="color: #83AFE5;">:unnarrowed</span> t<span style="color: #F2C38F;">)</span>
-    <span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"r"</span> <span style="color: #7FC1CA;">"bibliography reference"</span> plain <span style="color: #7FC1CA;">"%?"</span> <span style="color: #83AFE5;">:if-new</span>
-     <span style="color: #A8CE93;">(</span>file+head <span style="color: #7FC1CA;">"${citekey}.org"</span> <span style="color: #7FC1CA;">"#+title: ${citekey}"</span><span style="color: #A8CE93;">)</span>
-     <span style="color: #83AFE5;">:unnarrowed</span> t<span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(<span style="color: #9A93E1;">setq</span> org-roam-capture-templates
+  '((<span style="color: #7FC1CA;">"d"</span> <span style="color: #7FC1CA;">"default"</span> plain <span style="color: #7FC1CA;">"%?"</span> <span style="color: #83AFE5;">:if-new</span>
+     (file+head <span style="color: #7FC1CA;">"%&lt;%Y%m%d%H%M%S&gt;-${slug}.org"</span> <span style="color: #7FC1CA;">"#+title: ${title}"</span>)
+     <span style="color: #83AFE5;">:unnarrowed</span> t)
+    (<span style="color: #7FC1CA;">"r"</span> <span style="color: #7FC1CA;">"bibliography reference"</span> plain <span style="color: #7FC1CA;">"%?"</span> <span style="color: #83AFE5;">:if-new</span>
+     (file+head <span style="color: #7FC1CA;">"${citekey}.org"</span> <span style="color: #7FC1CA;">"#+title: ${citekey}"</span>)
+     <span style="color: #83AFE5;">:unnarrowed</span> t)))
 </pre>
 </div>
 <p>
 Also, I make the org-roam-buffer into a side window so that it doesn't get overwritten with constant jumping around buffers.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span>add-to-list 'display-buffer-alist
-             '<span style="color: #83AFE5;">(</span><span style="color: #7FC1CA;">"\\*org-roam\\*"</span>
-               <span style="color: #F2C38F;">(</span>display-buffer-in-side-window<span style="color: #F2C38F;">)</span>
-               <span style="color: #F2C38F;">(</span>side . right<span style="color: #F2C38F;">)</span>
-               <span style="color: #F2C38F;">(</span>slot . 0<span style="color: #F2C38F;">)</span>
-               <span style="color: #F2C38F;">(</span>window-width . 0.33<span style="color: #F2C38F;">)</span>
-               <span style="color: #F2C38F;">(</span>window-parameters . <span style="color: #A8CE93;">(</span><span style="color: #D18EC2;">(</span>no-delete-other-windows . t<span style="color: #D18EC2;">)</span><span style="color: #A8CE93;">)</span><span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(add-to-list 'display-buffer-alist
+             '(<span style="color: #7FC1CA;">"\\*org-roam\\*"</span>
+               (display-buffer-in-side-window)
+               (side . right)
+               (slot . 0)
+               (window-width . 0.33)
+               (window-parameters . ((no-delete-other-windows . t)))))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgd18f675" class="outline-2">
-<h2 id="orgd18f675">Publishing Org-Roam Database</h2>
-<div class="outline-text-2" id="text-orgd18f675">
+<div id="outline-container-orgd00585d" class="outline-2">
+<h2 id="orgd00585d">Publishing Org-Roam Database</h2>
+<div class="outline-text-2" id="text-orgd00585d">
 <p>
 I use the org-publish function to publish my zk. There are two projects, roam and lilypond images. Lilypond images uses org-publish-attachment to just copy any pngs (which at the moment should only be coming from lilypond src blocks) to the publishing directory. The roam project uses the roam-publication-wrapper function to get everything. The org-roam-custom-link-builder tries to make backlinks work, and gets called when the org-roam-graph-link-builder gets called.
 </p>
 
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">roam-sitemap</span> <span style="color: #83AFE5;">(</span>title list<span style="color: #83AFE5;">)</span>
-  <span style="color: #83AFE5;">(</span>concat <span style="color: #7FC1CA;">"#+OPTIONS: ^:nil author:nil html-postamble:nil\n"</span>
+<pre class="src src-elisp">(<span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">roam-sitemap</span> (title list)
+  (concat <span style="color: #7FC1CA;">"#+OPTIONS: ^:nil author:nil html-postamble:nil\n"</span>
           <span style="color: #7FC1CA;">"#+TITLE: "</span> title <span style="color: #7FC1CA;">"\n\n"</span>
-          <span style="color: #F2C38F;">(</span>org-list-to-org list<span style="color: #F2C38F;">)</span> <span style="color: #7FC1CA;">"\nfile:sitemap.svg"</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+          (org-list-to-org list) <span style="color: #7FC1CA;">"\nfile:sitemap.svg"</span>))
 
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> my-publish-time 0<span style="color: #9A93E1;">)</span>   <span style="color: #899BA6;">; </span><span style="color: #899BA6;">see the next section for context</span>
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">roam-publication-wrapper</span> <span style="color: #83AFE5;">(</span>plist filename pubdir<span style="color: #83AFE5;">)</span>
-<span style="color: #899BA6;">;;  </span><span style="color: #899BA6;">(org-roam-graph)  </span>
-<span style="color: #83AFE5;">(</span>org-html-publish-to-html plist filename pubdir<span style="color: #83AFE5;">)</span>
-  <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">setq</span> my-publish-time <span style="color: #F2C38F;">(</span>cadr <span style="color: #A8CE93;">(</span>current-time<span style="color: #A8CE93;">)</span><span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+(<span style="color: #9A93E1;">setq</span> my-publish-time 0)   <span style="color: #899BA6;">; </span><span style="color: #899BA6;">see the next section for context
+</span>(<span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">roam-publication-wrapper</span> (plist filename pubdir)
+<span style="color: #899BA6;">;;  </span><span style="color: #899BA6;">(org-roam-graph)  
+</span>(org-html-publish-to-html plist filename pubdir)
+  (<span style="color: #9A93E1;">setq</span> my-publish-time (cadr (current-time))))
 
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-publish-project-alist
-      '<span style="color: #83AFE5;">(</span><span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"roam"</span>
+(<span style="color: #9A93E1;">setq</span> org-publish-project-alist
+      '((<span style="color: #7FC1CA;">"roam"</span>
          <span style="color: #83AFE5;">:base-directory</span> <span style="color: #7FC1CA;">"~/zk/org-roam"</span>
          <span style="color: #83AFE5;">:auto-sitemap</span> t
          <span style="color: #83AFE5;">:sitemap-function</span> roam-sitemap
@@ -327,43 +325,43 @@ I use the org-publish function to publish my zk. There are two projects, roam an
          <span style="color: #83AFE5;">:exclude</span> <span style="color: #7FC1CA;">"exclude/*"</span>
          <span style="color: #83AFE5;">:html-head</span> <span style="color: #7FC1CA;">"&lt;link rel=\"stylesheet\" href=\"../style.css\" type=\"text/css\"&gt;"</span>
          <span style="color: #83AFE5;">:html-postamble</span> <span style="color: #7FC1CA;">"&lt;p&gt;&lt;a href=\"sitemap.html\"&gt;Site Map&lt;/a&gt;&lt;/p&gt;"</span>
-         <span style="color: #F2C38F;">)</span>
-        <span style="color: #F2C38F;">(</span><span style="color: #7FC1CA;">"lilypond images"</span>
+         )
+        (<span style="color: #7FC1CA;">"lilypond images"</span>
          <span style="color: #83AFE5;">:base-directory</span> <span style="color: #7FC1CA;">"~/zk/org-roam"</span>
          <span style="color: #83AFE5;">:base-extension</span> <span style="color: #7FC1CA;">"png"</span>
          <span style="color: #83AFE5;">:publishing-directory</span> <span style="color: #7FC1CA;">"~/zk/docs/site"</span>
          <span style="color: #83AFE5;">:publishing-function</span> org-publish-attachment
-         <span style="color: #F2C38F;">)</span>
-        <span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+         )
+        ))
 
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-id-extra-files <span style="color: #83AFE5;">(</span>directory-files-recursively <span style="color: #7FC1CA;">"~/zk/org-roam"</span> <span style="color: #7FC1CA;">"org"</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+(<span style="color: #9A93E1;">setq</span> org-id-extra-files (directory-files-recursively <span style="color: #7FC1CA;">"~/zk/org-roam"</span> <span style="color: #7FC1CA;">"org"</span>))
 
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">org-roam-custom-link-builder</span> <span style="color: #83AFE5;">(</span>node<span style="color: #83AFE5;">)</span>
-  <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">let</span> <span style="color: #F2C38F;">(</span><span style="color: #A8CE93;">(</span>file <span style="color: #D18EC2;">(</span>org-roam-node-file node<span style="color: #D18EC2;">)</span><span style="color: #A8CE93;">)</span><span style="color: #F2C38F;">)</span>
-    <span style="color: #F2C38F;">(</span>concat <span style="color: #A8CE93;">(</span>file-name-base file<span style="color: #A8CE93;">)</span> <span style="color: #7FC1CA;">".html"</span><span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+(<span style="color: #9A93E1;">defun</span> <span style="color: #83AFE5;">org-roam-custom-link-builder</span> (node)
+  (<span style="color: #9A93E1;">let</span> ((file (org-roam-node-file node)))
+    (concat (file-name-base file) <span style="color: #7FC1CA;">".html"</span>)))
 
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> org-roam-graph-link-builder 'org-roam-custom-link-builder<span style="color: #9A93E1;">)</span>
+(<span style="color: #9A93E1;">setq</span> org-roam-graph-link-builder 'org-roam-custom-link-builder)
 
-<span style="color: #9A93E1;">(</span>add-hook 'org-roam-graph-generation-hook
-          <span style="color: #83AFE5;">(</span><span style="color: #9A93E1;">lambda</span> <span style="color: #F2C38F;">(</span>dot svg<span style="color: #F2C38F;">)</span> <span style="color: #F2C38F;">(</span><span style="color: #9A93E1;">if</span> <span style="color: #A8CE93;">(</span>&lt; <span style="color: #D18EC2;">(</span>- <span style="color: #DADA93;">(</span>cadr <span style="color: #95BEBC;">(</span>current-time<span style="color: #95BEBC;">)</span><span style="color: #DADA93;">)</span> my-publish-time<span style="color: #D18EC2;">)</span> 5<span style="color: #A8CE93;">)</span>
-                                <span style="color: #A8CE93;">(</span><span style="color: #9A93E1;">progn</span> <span style="color: #D18EC2;">(</span>copy-file svg <span style="color: #7FC1CA;">"~/zk/docs/site/sitemap.svg"</span> 't<span style="color: #D18EC2;">)</span>
-                                       <span style="color: #D18EC2;">(</span>kill-buffer <span style="color: #DADA93;">(</span>file-name-nondirectory svg<span style="color: #DADA93;">)</span><span style="color: #D18EC2;">)</span>
-                                       <span style="color: #D18EC2;">(</span><span style="color: #9A93E1;">setq</span> my-publish-time 0<span style="color: #D18EC2;">)</span><span style="color: #A8CE93;">)</span><span style="color: #F2C38F;">)</span><span style="color: #83AFE5;">)</span><span style="color: #9A93E1;">)</span>
+(add-hook 'org-roam-graph-generation-hook
+          (<span style="color: #9A93E1;">lambda</span> (dot svg) (<span style="color: #9A93E1;">if</span> (&lt; (- (cadr (current-time)) my-publish-time) 5)
+                                (<span style="color: #9A93E1;">progn</span> (copy-file svg <span style="color: #7FC1CA;">"~/zk/docs/site/sitemap.svg"</span> 't)
+                                       (kill-buffer (file-name-nondirectory svg))
+                                       (<span style="color: #9A93E1;">setq</span> my-publish-time 0)))))
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orga96e090" class="outline-2">
-<h2 id="orga96e090">Freezing Stuff?</h2>
-<div class="outline-text-2" id="text-orga96e090">
+<div id="outline-container-orga43cf26" class="outline-2">
+<h2 id="orga43cf26">Freezing Stuff?</h2>
+<div class="outline-text-2" id="text-orga43cf26">
 <p>
 I can't remember exactly what this is, but apparently emacs was hanging on me occasionally and this is the fix I have.
 </p>
 <div class="org-src-container">
-<pre class="src src-elisp"><span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> history-length 100<span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span>put 'minibuffer-history 'history-length 50<span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span>put 'kill-ring 'history-length 25<span style="color: #9A93E1;">)</span>
-<span style="color: #9A93E1;">(</span><span style="color: #9A93E1;">setq</span> auto-window-vscroll nil<span style="color: #9A93E1;">)</span>
+<pre class="src src-elisp">(<span style="color: #9A93E1;">setq</span> history-length 100)
+(put 'minibuffer-history 'history-length 50)
+(put 'kill-ring 'history-length 25)
+(<span style="color: #9A93E1;">setq</span> auto-window-vscroll nil)
 </pre>
 </div>
 </div>

@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-02-21 Sat 11:04 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Marius Piard</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Marius Piard</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org1396b52">Genealogical Records</a>
+<ul>
+<li><a href="#org7ec5d75">Birth Feb 3, 1886 at 6am&#xa0;&#xa0;&#xa0;<span class="tag"><span class="confirmed">confirmed</span></span></a>
+<ul>
+<li><a href="#org343c173">French</a></li>
+<li><a href="#org1c704a6">English</a></li>
+<li><a href="#orgf3771b9">Citation</a></li>
+</ul>
+</li>
+<li><a href="#orgf331fcd">Census (Paris didn't do a census until 1926-1946)</a>
+<ul>
+<li><a href="#org002dc53">1872 (Nord is not online, where Marie Virginie likely lives)</a></li>
+<li><a href="#org75e4e77">1886 (not online)</a></li>
+<li><a href="#org8a1f7d8">1891 (not online)</a></li>
+<li><a href="#orga4e984c">1896 (not online)</a></li>
+<li><a href="#org811563a">1901 (seems to not be online for Nord)</a></li>
+<li><a href="#org000ba3e">1906</a></li>
+<li><a href="#orgba4d5a8">1911</a></li>
+<li><a href="#orga08e9e6">1916 (Skipped WWI)</a></li>
+<li><a href="#orgfbaefc2">1921 (Paris not started yet)</a></li>
+<li><a href="#orgb060aac">1926</a></li>
+<li><a href="#org28a1559">1931</a></li>
+<li><a href="#org1e02258">1936</a></li>
+<li><a href="#org46b6bc9">1946 (page 195&#x2026; lots of work to find as its not indexed)</a></li>
+</ul>
+</li>
+<li><a href="#orgd63846b">Marriage Record</a>
+<ul>
+<li><a href="#orgdccc896">Newspaper announcement in Nord</a></li>
+</ul>
+</li>
+<li><a href="#org8d90f16">Military Draft form 1906</a>
+<ul>
+<li><a href="#org75144cf">Localities of addresses!</a></li>
+</ul>
+</li>
+<li><a href="#org7150ecb">Annuaire de la Federacion des Artistes Musiciens de France</a>
+<ul>
+<li><a href="#org3a38aa0">1904</a></li>
+<li><a href="#org0396844">1905</a></li>
+<li><a href="#orgb0fe597">1906</a></li>
+<li><a href="#org8b6ab68">1912</a></li>
+<li><a href="#org267efa1">1913</a></li>
+</ul>
+</li>
+<li><a href="#org5a69489">Les Ondes: Weekly radio magazine</a></li>
+<li><a href="#orgeadb6c4">International Directory of Letters and Arts of French Language or Culture</a></li>
+<li><a href="#org6469e59">Journal Officiel de la Republique Francaise</a>
+<ul>
+<li><a href="#org252ea64">1929-03-22</a></li>
+<li><a href="#org4accda0">1931-02-01</a></li>
+<li><a href="#org470ff10">1934-04-09</a></li>
+<li><a href="#org2bd7f06">1934-07-08</a></li>
+<li><a href="#org22d1320">1938-02-13</a></li>
+<li><a href="#org7059103">1939-04-24</a></li>
+</ul>
+</li>
+<li><a href="#orgf684a02">Death of Wife October 1, 1958</a></li>
+<li><a href="#orgd8ef350">Death Certificate Sep 2, 1975 at 9:30 am</a>
+<ul>
+<li><a href="#org2ab3878">French</a></li>
+<li><a href="#orgb4fc69b">English</a></li>
+<li><a href="#org48f0c2e">Citation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7f12568">Career</a></li>
+<li><a href="#org80efb16">Publications</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgfe5b7e2">Foreword to vol 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org1e5ba5b">Questions</a></li>
+<li><a href="#org2859b64">Etudes</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1396b52" class="outline-2">
+<h2 id="org1396b52">Genealogical Records</h2>
+<div class="outline-text-2" id="text-org1396b52">
+</div>
+<div id="outline-container-org7ec5d75" class="outline-3">
+<h3 id="org7ec5d75">Birth Feb 3, 1886 at 6am&#xa0;&#xa0;&#xa0;<span class="tag"><span class="confirmed">confirmed</span></span></h3>
+<div class="outline-text-3" id="text-org7ec5d75">
+</div>
+<div id="outline-container-org343c173" class="outline-4">
+<h4 id="org343c173">French</h4>
+<div class="outline-text-4" id="text-org343c173">
+<p>
+S' An Mil huit Cent quatre Vingt Six, le trois du mois de Fevrier a' neuf heuses du matin, Pardavant Nous Martial Hennet de Courtefroy Maire et officier de l' Stat Civil de la Ville de Bavay, Chef lieu de Canton Arrondissement d Avesnes, Departement der Nord, a comparu: Piard Auguste, age de quarante un ans, Imprimeur Libraire, ne' a Cambrai, domicilie' a Bavay, leguel nous a presente un enfant du sexe masculine ne' ce jour, a six heuses du matin, en une maison sise an cette Ville Giano Rue, de 
+lui compasant et de Bruneau Maria Virginie, age de Trente quatre ans, son ipotesa, sans filo fillion, domicilioe andis Bavay et anguel il declare donner le prenom de Marius. Les dites declaration et presentation faites en prisance des siens Lienard Dolphe, age de Trente deus ans, Boulanger et Lefebres Dinond, age de Vingt neuf ans, memisie tous dear domicilies a Bavay, et ans le fiere et les temoins Signe avec nous, le prisent acte, apises lecture.
+</p>
+</div>
+</div>
+<div id="outline-container-org1c704a6" class="outline-4">
+<h4 id="org1c704a6">English</h4>
+<div class="outline-text-4" id="text-org1c704a6">
+<p>
+In the year eighteen hundred and eighty-six, on the third day of February at nine o'clock in the morning, Before Us, Martial Hennet de Courtefroy, Mayor and Civil Status Officer of the City of Bavay, Chief Town of the Canton, District of Avesnes, Department of the North, appeared: Piard Auguste, aged forty-one, Printer and Bookseller, born in Cambrai, residing in Bavay, he presented to us a male child born this day, at six o'clock in the morning, in a house located in this City, Grand Street, to him, his companion, and to Bruneau Maria Virginie, aged thirty-four, his principal, without a daughter, residing in Bavay and to whom he declares to give the first name of Marius. The said declaration and presentation made in the presence of his relatives Lienard Dolphe, aged thirty-two, Boulanger and Lefebres Dinond, aged twenty-nine, all domiciled in Bavay, and in the presence of the witnesses Signed with us, the present act, after reading.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3771b9" class="outline-4">
+<h4 id="orgf3771b9">Citation</h4>
+<div class="outline-text-4" id="text-orgf3771b9">
+<p>
+Citation: France. Nord. Avesnes. Bavay. États-civil, 1882-1896, 1 Mi EC 053 R 002. Archives Départementales de Nord. <i>Archives Départementales</i>. <a href="https://archivesdepartementales.lenord.fr/page/registres-paroissiaux-et-d-etat-civil">https://archivesdepartementales.lenord.fr/page/registres-paroissiaux-et-d-etat-civil</a> 1886
+Reference: Bavay, Avesnes, Nord, "États-civil 1882-1896", naissance, Marius Piard, February 3, 1886, 1 Mi EC 053 R 002, leaflet 3, number 7.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf331fcd" class="outline-3">
+<h3 id="orgf331fcd">Census (Paris didn't do a census until 1926-1946)</h3>
+<div class="outline-text-3" id="text-orgf331fcd">
+</div>
+<div id="outline-container-org002dc53" class="outline-4">
+<h4 id="org002dc53">1872 (Nord is not online, where Marie Virginie likely lives)</h4>
+<div class="outline-text-4" id="text-org002dc53">
+<p>
+Auguste lives in Boulogne-sur-Mer, which might explain the family's move in 1911
+</p>
+</div>
+</div>
+<div id="outline-container-org75e4e77" class="outline-4">
+<h4 id="org75e4e77">1886 (not online)</h4>
+</div>
+<div id="outline-container-org8a1f7d8" class="outline-4">
+<h4 id="org8a1f7d8">1891 (not online)</h4>
+</div>
+<div id="outline-container-orga4e984c" class="outline-4">
+<h4 id="orga4e984c">1896 (not online)</h4>
+</div>
+<div id="outline-container-org811563a" class="outline-4">
+<h4 id="org811563a">1901 (seems to not be online for Nord)</h4>
+</div>
+<div id="outline-container-org000ba3e" class="outline-4">
+<h4 id="org000ba3e">1906</h4>
+<div class="outline-text-4" id="text-org000ba3e">
+<p>
+Found his family, Auguste and Virginia still live in Bavay on Grand Rue. Marcel, Marie, Marcie, Margueritte live with them, but not Marius. Paris didn't start until 1926, so presumably he is at the paris conservatoire as he is 20 years old. He also wins the concours in 1907 and 1908.
+Citation: France. Nord. Avesnes. Bavay. 1906 census of France, M 474/053. Archives Départementales de Nord. <i>Archives Départementales</i>. <a href="https://archivesdepartementales.lenord.fr/page/recensements-de-population">https://archivesdepartementales.lenord.fr/page/recensements-de-population</a> 1906
+Reference: 1906 census of France, Bavay, arrondissement Avesnes, Nord, M 474/053, p. 11, family 61, Auguste Piard.
+</p>
+</div>
+</div>
+<div id="outline-container-orgba4d5a8" class="outline-4">
+<h4 id="orgba4d5a8">1911</h4>
+<div class="outline-text-4" id="text-orgba4d5a8">
+<p>
+Auguste and Maria Virginia have moved to Boulogne-sur-Mer, Pas-de-Calais. Marguerite and Maria are still with them. We know that Marius lived in Piard from military records. The family moved there at least in 1908.
+Citation: France. Pas-de-Calais. Boulogne-sur-Mer. 1911 census of France, M 3607. Archives Départementales de Pas-de-Calais. <i>Archives Départementales</i>. <a href="https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&amp;p=formulaire_recensement">https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&amp;p=formulaire_recensement</a> 1911
+Reference: 1911 census of France, Boulogne-sur-Mer, Pas-de-Calais, M 3607, p. 60, family 2, Auguste Piard.
+</p>
+</div>
+</div>
+<div id="outline-container-orga08e9e6" class="outline-4">
+<h4 id="orga08e9e6">1916 (Skipped WWI)</h4>
+<div class="outline-text-4" id="text-orga08e9e6">
+<p>
+But we know he was in active military duty on a campaign
+</p>
+</div>
+</div>
+<div id="outline-container-orgfbaefc2" class="outline-4">
+<h4 id="orgfbaefc2">1921 (Paris not started yet)</h4>
+<div class="outline-text-4" id="text-orgfbaefc2">
+<p>
+Military records show he was in Paris
+</p>
+</div>
+</div>
+<div id="outline-container-orgb060aac" class="outline-4">
+<h4 id="orgb060aac">1926</h4>
+<div class="outline-text-4" id="text-orgb060aac">
+<p>
+Lived at 28 Rue d'Orsel in Paris. Living with his wife Madeleine, who was born in 93 in P (Paris?). He was born in Nord. He is listed as a musician by profession. They have 4 children Michel, Claude, Jean Marie, Yves. There's another person living with them, possibly Andira Gomy, that works as a domestique
+Citation: France. Île-de-France. Paris. Clignancourt. 1926 census of France, D2M8 295. Archives de Paris. <i>Archives: Le site des Archives de Paris</i>. <a href="https://archives.paris.fr/s/11/denombrements-de-population/">https://archives.paris.fr/s/11/denombrements-de-population/</a> 1926
+Reference: 1926 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 295, p. 2907,  family 10, Marius Piard.
+</p>
+</div>
+</div>
+<div id="outline-container-org28a1559" class="outline-4">
+<h4 id="org28a1559">1931</h4>
+<div class="outline-text-4" id="text-org28a1559">
+<p>
+Still living at 28 Rue d'Orsel in Paris. Living with his wife Madeleine, born in 93 in Seine (old department for northern Paris). He was born in Nord and is a musician. Children Michel, Claude were born in Seine. But Jean (marie) looks to have been born in 1918 in Aisne. Yves and now Francois were born in Seine again. So it seems that in 1918 they moved to Aisne somewhere for a bit. But came back to paris.
+Citation: France. Île-de-France. Paris. Clignancourt. 1931 census of France, D2M8 446. Archives de Paris. <i>Archives: Le site des Archives de Paris</i>. <a href="https://archives.paris.fr/s/11/denombrements-de-population/">https://archives.paris.fr/s/11/denombrements-de-population/</a> 1931
+Reference: 1931 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 446, p. 2484,  row 1, Marius Piard.
+</p>
+</div>
+</div>
+<div id="outline-container-org1e02258" class="outline-4">
+<h4 id="org1e02258">1936</h4>
+<div class="outline-text-4" id="text-org1e02258">
+<p>
+About the same info. Still at 28 rue d'orsel in paris with madeliene. Now only Jean (marie), Yves and Francois are home. Jean is born in Aisne, confirming a move at some point. Marius is listed as an artistic musician (i think)
+Citation: France. Île-de-France. Paris. Clignancourt. 1936 census of France, D2M8 674. Archives de Paris. <i>Archives: Le site des Archives de Paris</i>. <a href="https://archives.paris.fr/s/11/denombrements-de-population/">https://archives.paris.fr/s/11/denombrements-de-population/</a> 1936
+Reference: 1936 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 674, digital p. 88,  family 41, Marius Piard.
+</p>
+</div>
+</div>
+<div id="outline-container-org46b6bc9" class="outline-4">
+<h4 id="org46b6bc9">1946 (page 195&#x2026; lots of work to find as its not indexed)</h4>
+<div class="outline-text-4" id="text-org46b6bc9">
+<p>
+Still lives at 28 rue d'orsel in paris with madeliene. Now only Francois lives with them. He is listed as a musician still.
+Citation: France. Île-de-France. Paris. Clignancourt. 1946 census of France, D2M8 926. Archives de Paris. <i>Archives: Le site des Archives de Paris</i>. <a href="https://archives.paris.fr/s/11/denombrements-de-population/">https://archives.paris.fr/s/11/denombrements-de-population/</a> 1946
+Reference: 1946 census of France, quartier Clignancourt, arrondissement 18, Paris, Île-de-France, D2M8 926, digital p. 195,  family 9540, Marius Piard.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd63846b" class="outline-3">
+<h3 id="orgd63846b">Marriage Record</h3>
+<div class="outline-text-3" id="text-orgd63846b">
+</div>
+<div id="outline-container-orgdccc896" class="outline-4">
+<h4 id="orgdccc896">Newspaper announcement in Nord</h4>
+<div class="outline-text-4" id="text-orgdccc896">
+</div>
+<ul class="org-ul">
+<li><a id="org06aa1c4"></a>French<br />
+<div class="outline-text-5" id="text-org06aa1c4">
+<p>
+on nous annonce le prochain mariage de M. Marius Piard, de Bavay, avec Mlle Madeleine Baumann, de Crouttes (Aisne).
+La ceremonie aura lieu le 26, aout, a 11 heures 1/2 du matin, en l'eglise de Crouttes
+</p>
+</div>
+</li>
+<li><a id="orgdb34998"></a>English<br />
+<div class="outline-text-5" id="text-orgdb34998">
+<p>
+We have been informed of the upcoming marriage of Mr. Marius Piard, from Bavay, to Miss Madeleine Baumann, from Crouttes (Aisne).
+The ceremony will take place on August 26th, at 11:30 a.m., in the church of Crouttes.
+</p>
+</div>
+</li>
+<li><a id="org8bb5f36"></a>Citation<br />
+<div class="outline-text-5" id="text-org8bb5f36">
+<p>
+"Gazette du Nord." <i>La Croix du Nord: Supplément régional à la Croix de Paris</i>, August 25, 1911. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k2010251n">https://gallica.bnf.fr/ark:/12148/bpt6k2010251n</a> page 3, column 3.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8d90f16" class="outline-3">
+<h3 id="org8d90f16">Military Draft form 1906</h3>
+<div class="outline-text-3" id="text-org8d90f16">
+<p>
+Citation: France. Nord. Avesnes. Registres numérisés des matricules militaires 1906, 1R 2827. Archives Départementales de Nord. <i>Archives Départementales</i>.<a href="https://archivesdepartementales.lenord.fr/page/matricules-militaires">https://archivesdepartementales.lenord.fr/page/matricules-militaires</a> 1906
+Reference: 1906 registres numérisés matricules militaires, Avesnes, Nord, 1R 2827, p. 42, Marius Piard.
+</p>
+
+<p>
+Registered for the draft in Avesnes office in Nord, so perhaps this was just before heading to Paris?
+Profession is musician
+Eye color is blue
+Har color is et to combine with eybrows for brown?
+Nose wide
+Chin round
+Eyebrows - brown hair
+Ordinary forehead
+Mouth medium?
+Face slim?
+Height 1.7m or 5'7"
+</p>
+
+<p>
+Says he volunteered for 3 years for the Seine 1st regiment on 6-10-1906. was a soldier musician.  He went to the reserves in 6-8-1908.
+</p>
+
+<p>
+It looks like he was part of a campaign to germany during world war I from 2.8.14 to 11.11.18, as well as something 12.11.18 to 2.4.19
+</p>
+
+<p>
+Cleared from all military obligations on 15.10.1935
+</p>
+
+<p>
+He was appointed a corporal on 16.3.1917 and a seargant on 29.10.1917
+</p>
+
+<p>
+Appointed to garde republicaine 21.3.1929 as corroborated by journal officiel de la republique francaise
+</p>
+
+<p>
+In the active army the Garde Republicaine
+Reserves for the Aerostation
+</p>
+</div>
+<div id="outline-container-org75144cf" class="outline-4">
+<h4 id="org75144cf">Localities of addresses!</h4>
+<div class="outline-text-4" id="text-org75144cf">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">date</th>
+<th scope="col" class="org-left">commune</th>
+<th scope="col" class="org-left">subdivision de region</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">9-8-1908</td>
+<td class="org-left">Boulogne sur mer? (this is his parents home)</td>
+<td class="org-left">L'Omer</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">120 rue de la Paix</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">22-1-1909</td>
+<td class="org-left">Versailles 4 bis can't read</td>
+<td class="org-left">Versailles</td>
+</tr>
+
+<tr>
+<td class="org-right">10-9-1909</td>
+<td class="org-left">Paris 52 rue d'Orsel</td>
+<td class="org-left">Seine</td>
+</tr>
+
+<tr>
+<td class="org-right">21?-7-1911</td>
+<td class="org-left">Paris 52 Blvd Rochechourt</td>
+<td class="org-left">Seine</td>
+</tr>
+
+<tr>
+<td class="org-right">9-4-1919</td>
+<td class="org-left">28 rue d'Orsel</td>
+<td class="org-left">Seine</td>
+</tr>
+
+<tr>
+<td class="org-right">3-7-1919</td>
+<td class="org-left">Deauville 48 rue de Victor Hugo</td>
+<td class="org-left">Lisieux</td>
+</tr>
+
+<tr>
+<td class="org-right">28-8-1919</td>
+<td class="org-left">28 rue d'Orsel</td>
+<td class="org-left">Seine</td>
+</tr>
+
+<tr>
+<td class="org-right">0-5-1948</td>
+<td class="org-left">idem</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<p>
+can't quite make out the next two rows. one is in 12/?/42, possibly mentioning combat? The next row mentions 3/6/48 can't read the rest.
+</p>
+
+<p>
+noting that he isn't stationed anywhere else in 1911 when he got married, so they really must have left paris to go get married there
+</p>
+
+<p>
+Time to move to reserves of active army 6-8-1908, territorial army 1-8-1918, reserves of territorial army 1-8-1825, discharge of military service 6-8-1935?
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7150ecb" class="outline-3">
+<h3 id="org7150ecb">Annuaire de la Federacion des Artistes Musiciens de France</h3>
+<div class="outline-text-3" id="text-org7150ecb">
+</div>
+<div id="outline-container-org3a38aa0" class="outline-4">
+<h4 id="org3a38aa0">1904</h4>
+<div class="outline-text-4" id="text-org3a38aa0">
+<p>
+Bassoonists in Lille:
+</p>
+<ul class="org-ul">
+<li>Depoorter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0396844" class="outline-4">
+<h4 id="org0396844">1905</h4>
+<div class="outline-text-4" id="text-org0396844">
+<p>
+Bassoonists in Lille:
+</p>
+<ul class="org-ul">
+<li>Depoorter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb0fe597" class="outline-4">
+<h4 id="orgb0fe597">1906</h4>
+<div class="outline-text-4" id="text-orgb0fe597">
+<p>
+Basoonists in Lille:
+</p>
+<ul class="org-ul">
+<li>Leon Dannette and Depoorter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8b6ab68" class="outline-4">
+<h4 id="org8b6ab68">1912</h4>
+<div class="outline-text-4" id="text-org8b6ab68">
+<p>
+Lived at 52 Boulevard Rochechouart
+Citation: "Noms et adresses des artistes musiciens: Membres de la fédération au 1er Janvier 1912" <i>Annuiare de la fédération des artistes musiciens de France</i>, 1912. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k11639359">https://gallica.bnf.fr/ark:/12148/bpt6k11639359</a> page 426.
+</p>
+</div>
+</div>
+<div id="outline-container-org267efa1" class="outline-4">
+<h4 id="org267efa1">1913</h4>
+<div class="outline-text-4" id="text-org267efa1">
+<p>
+Lived at 52 Boulevard Rochechouart
+Citation: "Noms et adresses des artistes musiciens: Membres de la fédération au 1er Janvier 1913" <i>Annuiare de la fédération des artistes musiciens de France</i>, 1913. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k1163936q">https://gallica.bnf.fr/ark:/12148/bpt6k1163936q</a> page 426.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a69489" class="outline-3">
+<h3 id="org5a69489">Les Ondes: Weekly radio magazine</h3>
+<div class="outline-text-3" id="text-org5a69489">
+<p>
+Performance on Friday, September 18 1942 with a group doing old popular songs 
+Simliar (likely identical) performance on Friday, December 18 1942
+Citation: "Radio du 13 au 20 Septembre" <i>Les Ondes</i>, September 13, 1942.<a href="https://gallica.bnf.fr/ark:/12148/bpt6k98159688">https://gallica.bnf.fr/ark:/12148/bpt6k98159688</a> page 11
+Citation: "ici Radio-Paris" <i>Les Ondes</i>, December 13, 1942. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k9815955n">https://gallica.bnf.fr/ark:/12148/bpt6k9815955n</a> page 9
+</p>
+</div>
+</div>
+<div id="outline-container-orgeadb6c4" class="outline-3">
+<h3 id="orgeadb6c4">International Directory of Letters and Arts of French Language or Culture</h3>
+<div class="outline-text-3" id="text-orgeadb6c4">
+</div>
+<ul class="org-ul">
+<li><a id="org12aaccd"></a>1921<br />
+<div class="outline-text-5" id="text-org12aaccd">
+<p>
+Lists a Marius Piard at 28 rue d'Orsel, but lists him as an organ player
+</p>
+<ul class="org-ul">
+<li>only two bassoonists, one is Bourdeau. Not sure how trustworthy this is.</li>
+</ul>
+<p>
+Citation: "Compositeurs de musique et artistes" <i>Annuaire international des lettres et des arts de langue ou de culture française</i>, 1921.  <a href="https://en.geneanet.org/library/viewer/37930">https://en.geneanet.org/library/viewer/37930</a> page 276.
+</p>
+</div>
+</li>
+<li><a id="orgddaff47"></a>1922<br />
+<div class="outline-text-5" id="text-orgddaff47">
+<p>
+Says the exact same thing
+Citation: "Compositeurs de musique et artistes" <i>Annuaire international des lettres et des arts de langue ou de culture française</i>, 1922.  <a href="https://gallica.bnf.fr/ark:/12148/bpt6k6572821w">https://gallica.bnf.fr/ark:/12148/bpt6k6572821w</a> page 267.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org6469e59" class="outline-3">
+<h3 id="org6469e59">Journal Officiel de la Republique Francaise</h3>
+<div class="outline-text-3" id="text-org6469e59">
+</div>
+<div id="outline-container-org252ea64" class="outline-4">
+<h4 id="org252ea64">1929-03-22</h4>
+<div class="outline-text-4" id="text-org252ea64">
+<p>
+Says March 21, 1929 that Piard was admitted as a student guard to the garde republicaine
+Citation: "Ministère de la guerre." <i>Journal Officiel de la Republique Française. Lois et décrets</i>, March 22, 1929. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k2028527s">https://gallica.bnf.fr/ark:/12148/bpt6k2028527s</a> page 3350
+</p>
+</div>
+</div>
+<div id="outline-container-org4accda0" class="outline-4">
+<h4 id="org4accda0">1931-02-01</h4>
+<div class="outline-text-4" id="text-org4accda0">
+<p>
+Says that he is assigned  a musician of the garde republicaine in Paris
+Citation: "Ministère de l'instruction publique et des beaux-arts." <i>Journal Officiel de la Republique Française. Lois et décrets</i>, February 1, 1931. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k2029099v">https://gallica.bnf.fr/ark:/12148/bpt6k2029099v</a> page 1188
+</p>
+</div>
+</div>
+<div id="outline-container-org470ff10" class="outline-4">
+<h4 id="org470ff10">1934-04-09</h4>
+<div class="outline-text-4" id="text-org470ff10">
+<p>
+Musician of the 3rd class in the garde republicaine
+Citation: "Tableau de concours pour la médallie militaire." <i>Journal Officiel de la Republique Française. Lois et décrets</i>, April 10, 1934. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k2030077r">https://gallica.bnf.fr/ark:/12148/bpt6k2030077r</a> page 3711
+It seems this is a nomination for a military medal, and he gets it a few months later
+</p>
+</div>
+</div>
+<div id="outline-container-org2bd7f06" class="outline-4">
+<h4 id="org2bd7f06">1934-07-08</h4>
+<div class="outline-text-4" id="text-org2bd7f06">
+<p>
+Musician of the 3rd class in garde republicaine, 23 years of services and 5 campaigns
+Citation: "Médallie militaire." <i>Journal Officiel de la Republique Française. Lois et décrets</i>, July 8, 1934. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k2030153p">https://gallica.bnf.fr/ark:/12148/bpt6k2030153p</a> page 6895
+Receiving the medal from april nomination
+</p>
+</div>
+</div>
+<div id="outline-container-org22d1320" class="outline-4">
+<h4 id="org22d1320">1938-02-13</h4>
+<div class="outline-text-4" id="text-org22d1320">
+<p>
+Still a musician of the garde republicaine in Paris, but says he's a soliste (soloist). Actually this may be his promotion to soloist instead of a 3rd class musician?
+Citation: "Ministère de l'éducation nationale" <i>Journal Officiel de la Republique Française. Lois et décrets</i>, February 13, 1938. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k6551214t">https://gallica.bnf.fr/ark:/12148/bpt6k6551214t</a>  page 1813
+</p>
+</div>
+</div>
+<div id="outline-container-org7059103" class="outline-4">
+<h4 id="org7059103">1939-04-24</h4>
+<div class="outline-text-4" id="text-org7059103">
+<p>
+Says he's married to Marie Baumann in Paris and has 5 kids
+This maybe when he leaves the military? Getting a bronze medal for famille franciase - it seems this is given to the wife?
+Citation: "Médallie de la famille française." <i>Journal Officiel de la Republique Française. Lois et décrets</i>, April 24, 1939. <a href="https://gallica.bnf.fr/ark:/12148/bpt6k6577429c">https://gallica.bnf.fr/ark:/12148/bpt6k6577429c</a> page 10660
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf684a02" class="outline-3">
+<h3 id="orgf684a02">Death of Wife October 1, 1958</h3>
+<div class="outline-text-3" id="text-orgf684a02">
+<p>
+Citation: Bibliothèque Généalogique et d’Histoire Sociale de France. Funeral announcement for Madeleine Baumann. 1958. Geneanet.org.
+Reference: Funeral announcement for Madeleine Baumann, 1958, Geneatnet.org
+</p>
+</div>
+</div>
+<div id="outline-container-orgd8ef350" class="outline-3">
+<h3 id="orgd8ef350">Death Certificate Sep 2, 1975 at 9:30 am</h3>
+<div class="outline-text-3" id="text-orgd8ef350">
+</div>
+<div id="outline-container-org2ab3878" class="outline-4">
+<h4 id="org2ab3878">French</h4>
+<div class="outline-text-4" id="text-org2ab3878">
+<p>
+ACTE DE DECES N 124
+</p>
+
+<p>
+L'an mil neuf cent septante-cinq, le deux septembre a seize heures, apres constation, Nous Pierre Rouelle, Bourgmestre, Officier de l'etat civil de la commune de La Hulpe, arrondissement judiciaire de Nivelles, Province de Brabant, dressons l'acte de deces de :PIARD, Marius, pensionne, de nationalite francaise, decede le deux septembre mil neuf cent septante-cinq a neuf heures trente minutes, en cette commune, Chaussee de La Hulpe, 737 domicilie a Paris 18e, rue d'Orsel, n 28, ne a Bavai (Nord-France) le trois fevrier mil huit cent quatre-vingt-six, veuf de BAUMANN, Marie, Madeleine decedee a Paris 18e le premier octobre mil neuf cent cinquante-huit, file des conjoints decedes PIARD, Auguste et de BRUNEAU, Maria, Virginie.
+Sur declaration de VAN GOSSUM, Pierre, age de cinquante-trois ans, Directeur de Societe, domicilie a Ixelles et de GAMBY, Marie-Jose, agee de quarante-sept ans, employee, domiciliee a La Hulpe.
+Duquel acte fait en double, il leur a ete donne lecture et qu'ils ont signe avec Nous.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb4fc69b" class="outline-4">
+<h4 id="orgb4fc69b">English</h4>
+<div class="outline-text-4" id="text-orgb4fc69b">
+<p>
+DEATH CERTIFICATE NO. 124
+</p>
+
+<p>
+In the year one thousand nine hundred and seventy-five, on September 2nd at four o'clock in the afternoon, after verification, We, Pierre Rouelle, Mayor, Civil Registrar of the commune of La Hulpe, judicial district of Nivelles, Province of Brabant, draw up the death certificate of: PIARD, Marius, pensioner, of French nationality, died on September 2nd, one thousand nine hundred and seventy-five at nine thirty minutes in the afternoon, in this commune, Chaussee de La Hulpe, 737, residing in Paris 18th, rue d'Orsel, no. 28, born in Bavai (Nord-France) on February 3rd, one thousand eight hundred and eighty-six, widower of BAUMANN, Marie, Madeleine, deceased in Paris 18th on October 1st, one thousand nine hundred and fifty-eight, daughter of the deceased spouses PIARD, Auguste and BRUNEAU, Maria, Virginie.
+Upon the declaration of VAN GOSSUM, Pierre, age fifty-three, Company Director, residing in Ixelles, and of GAMBY, Marie-Jose, age forty-seven, employee, residing in La Hulpe.
+Which deed, drawn up in duplicate, was read to them and signed with Us.
+</p>
+
+<p>
+Not the address is a nursing home
+</p>
+</div>
+</div>
+<div id="outline-container-org48f0c2e" class="outline-4">
+<h4 id="org48f0c2e">Citation</h4>
+<div class="outline-text-4" id="text-org48f0c2e">
+<p>
+Citation: Belgium. Brabant. Nivelles. La Hulpe. Death Certificates. 
+Reference: La Hulpe, Nivelles, Brabant, Belgium, death certificate no. 124 (1975), Marius Piard.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7f12568" class="outline-2">
+<h2 id="org7f12568">Career</h2>
+<div class="outline-text-2" id="text-org7f12568">
+<ul class="org-ul">
+<li>Concours in Paris Conservatoire in 1908 and 1909
+<ul class="org-ul">
+<li>Student of Bourdeau 1906?</li>
+</ul></li>
+<li>Band de Garde Republician 1931-1939?</li>
+<li>Orchestra Lamoreaux unsure of dates, possibly recording Bolero under Ravel</li>
+<li>Recording in 1932 of Stravinsky Octet</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org80efb16" class="outline-2">
+<h2 id="org80efb16">Publications</h2>
+<div class="outline-text-2" id="text-org80efb16">
+<ul class="org-ul">
+<li>90 Etudes in 3 volumes 1946
+<ol class="org-ol">
+<li>Scales</li>
+<li>Arpeggios</li>
+<li>Style - out of print</li>
+</ol></li>
+<li>16 Characteristic Etudes 1950</li>
+<li>Contrabassoon Etude with Excerpts 1952</li>
+</ul>
+</div>
+<div id="outline-container-orgfe5b7e2" class="outline-4">
+<h4 id="orgfe5b7e2">Foreword to vol 3</h4>
+<div class="outline-text-4" id="text-orgfe5b7e2">
+</div>
+<ul class="org-ul">
+<li><a id="org22bdd5f"></a>French<br />
+<div class="outline-text-5" id="text-org22bdd5f">
+<p>
+Avant-Propos (3me Recueil)
+</p>
+
+<p>
+Le style! Partie la plus delicate, la plus difficile des etudes de l'instrumentiste. Peut-on apprendre aux eleves l'interpretation des ouvres musicales au moyen d'un traite? Des auteurs qualifies l'on tente et reussi&#x2026;en parite; mais leurs conseils, si precieux et judicieuxqu'ils soient ne peuvent dispenser l'instrumentiste d'avoir recours a un professeur. En definitive c'est a celui-ci qu'appartient la tache redoutable de former le gout de l'eleve, de le guider, et surtout de l'aider a developper sa personnalite.
+D'autre part, les meilleurs conseils, les meilleures explications ne serviront a rien si l'eleve n'est pas doue, s'il ne comprend pas, s'il ne "sent" pas ce qu'il doit interpreter.
+En reunissant ce chois de transcriptions, deux solutions s'offraient a l'autenr:1o Analyzer non seulement chaque morceau dans son ensemble, mais aussi dans tous ses elements, afin d'aider l'instrumentiste a comprendre ce qu'il doit jouer; ensuite, donner les conseils sur l'interpretation d'ensemble et la facon de jouer chaque element.
+2o Grouper avec beaucoup de soin les ouvres composant ce recueil, autant en choisissant les meilleurs auteurs, qu'en recherchant la plus grande variete possible et laisser le gout musical se former et s'ameliorer par le travail, &#x2014; aide d'un professeur.
+La premiere solution depassait de beaucoup le cadre de cet ouvrage; pour ces 30 etudes, un seul volume n'eut pas suffit. L'auteur a prefere la seconde solution. Les conseils, les remarques, les rectifications necessaires variant avec chaque instrumentiste, c'est donc au maitre - pour les debutants - que revient la tache de former le gout musical de l'eleve et par consequent de lui inculquer les regles d'un bonstyle. 
+Quand aux instrumentistes "qualifies," l'auteur espere que ce recuil moins aride que les deux premiers pourra les interesser. M.P.
+Nota - A l'exception des extraits des Suites de Bach, presque tous les morceaux de ce recueil peuvent etre accompagnes au piano.
+Bien que conce plus particulierement pour l'etude du style, ce recueil est aussi un cahier d'etudes techniques; l'auteur a donc maintenu le principe de representer toutes les tonalites, y compris les tonalites enharmoniques. Il a choisi, pour les transpositions necessaires, les morceaux qui conviendraient le mieux a ces tonalites peu usitees. En consequence, comme pour les etudes precedentes, il recommande aux eleves de ne pas chercher la facilite, mais bien de s'habituer a lire ces transcriptions telles qu'elles sont ecrites.
+</p>
+</div>
+</li>
+<li><a id="org2114697"></a>English<br />
+<div class="outline-text-5" id="text-org2114697">
+<p>
+Foreword (3rd Collection)
+</p>
+
+<p>
+Style! The most delicate, the most difficult part of an instrumentalist's studies. Can students be taught the interpretation of musical works by means of a treatise? Qualified authors have tried and succeeded&#x2026; in part; but their advice, however valuable and judicious, cannot exempt the instrumentalist from seeking help from a teacher. Ultimately, it is the teacher who has the formidable task of shaping the student's taste, guiding them, and above all, helping them develop their personality.
+On the other hand, the best advice, the best explanations will be of no use if the student is not gifted, if they don't understand, if they don't "feel" what they are supposed to interpret. In assembling this selection of transcriptions, two solutions were available to the author: 1. Analyze not only each piece as a whole, but also all its elements, in order to help the instrumentalist understand what to play; then, provide advice on ensemble interpretation and how to play each element.
+</p>
+<ol class="org-ol">
+<li>Group the works comprising this collection with great care, both by choosing the best authors and by seeking the greatest possible variety, and allowing musical taste to form and improve through practice, with the help of a teacher.</li>
+</ol>
+<p>
+The first solution went far beyond the scope of this work; for these 30 studies, a single volume would not have been sufficient. The author preferred the second solution. Since the advice, comments, and necessary corrections vary with each instrumentalist, it is therefore up to the teacher—for beginners—to shape the student's musical taste and consequently to instill the rules of a good style.
+As for "qualified" instrumentalists, the author hopes that this collection, less dry than the first two, will be of interest to them. M.P.
+Note: With the exception of excerpts from Bach's Suites, almost all the pieces in this collection can be accompanied on the piano.
+Although designed more specifically for the study of style, this collection is also a technical study book; the author has therefore maintained the principle of representing all keys, including enharmonic keys. For the necessary transpositions, he has chosen the pieces that would be best suited to these less common keys. Therefore, as with the previous studies, he recommends that students do not seek the easy way out, but rather get used to reading these transcriptions as they are written.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1e5ba5b" class="outline-2">
+<h2 id="org1e5ba5b">Questions</h2>
+<div class="outline-text-2" id="text-org1e5ba5b">
+<p>
+Who was his first teacher? Perhaps Depoorter in Lille
+Why did he get married where he did? Was wife's family there? It appears so from newspaper article, but can't find them in the 1911 census
+Do the etudes all line up really nicely within a key? Like one slow, one fast, one legato, one staccato, etc.
+</p>
+</div>
+</div>
+<div id="outline-container-org2859b64" class="outline-2">
+<h2 id="org2859b64">Etudes</h2>
+<div class="outline-text-2" id="text-org2859b64">
+<!-- This HTML table template is generated by emacs 30.2 -->
+<table border="1">
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;Nummber&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vol&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Vol&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Vol&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Characteristic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fast,&nbsp;scalar,&nbsp;slur&nbsp;and&nbsp;tongued,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;varying&nbsp;dynamics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;slower,&nbsp;but&nbsp;increasingly&nbsp;faster&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arpeggios,&nbsp;all&nbsp;slurred&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;Fast&nbsp;and&nbsp;challengning,&nbsp;some&nbsp;wide&nbsp;slurs&nbsp;&nbsp;<br />
+      &nbsp;that&nbsp;are&nbsp;very&nbsp;fast.&nbsp;Baroque&nbsp;style&nbsp;(Bach&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cello)&nbsp;unaccompanied&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fast&nbsp;again,&nbsp;jumping&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;all&nbsp;over&nbsp;the&nbsp;place,&nbsp;staccato&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;tenuto&nbsp;mixed.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;Alternating&nbsp;clefs&nbsp;constantly&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slower,&nbsp;but&nbsp;lots&nbsp;of&nbsp;octave&nbsp;slurs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;&nbsp;&nbsp;very&nbsp;similar&nbsp;approach&nbsp;as&nbsp;the&nbsp;1st<br />
+      one.&nbsp;slow&nbsp;but&nbsp;increasing&nbsp;speed&nbsp;of&nbsp;&nbsp;&nbsp;<br />
+      arpeggios&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;slow&nbsp;romantic&nbsp;piece&nbsp;(Schumann&nbsp;clarinet)&nbsp;&nbsp;<br />
+      lots&nbsp;of&nbsp;dynamic&nbsp;shading,&nbsp;sudden&nbsp;dynamics,&nbsp;<br />
+      not&nbsp;too&nbsp;hard&nbsp;technically&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;N/A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      lots&nbsp;of&nbsp;dotted&nbsp;rhtyhms,&nbsp;all&nbsp;tongued&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      Sort&nbsp;of&nbsp;similar,&nbsp;more&nbsp;variety&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      though.&nbsp;Slurs,&nbsp;probably&nbsp;need&nbsp;some&nbsp;&nbsp;&nbsp;<br />
+      double&nbsp;tonguing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      slower,&nbsp;lyrical.&nbsp;baroque&nbsp;bach&nbsp;suites&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      again.&nbsp;likely&nbsp;lots&nbsp;of&nbsp;phrasing&nbsp;issues&nbsp;to&nbsp;&nbsp;<br />
+      teach&nbsp;and&nbsp;unwritten&nbsp;dynamics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      Difficult&nbsp;to&nbsp;play&nbsp;quickly.&nbsp;Lots<br />
+      of&nbsp;chromatic&nbsp;runs&nbsp;that&nbsp;don't&nbsp;&nbsp;&nbsp;<br />
+      always&nbsp;follow&nbsp;the&nbsp;chromatic&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      scale.&nbsp;Lots&nbsp;of&nbsp;whole&nbsp;steps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      mixed&nbsp;in.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      Lots&nbsp;of&nbsp;tonguing&nbsp;again,&nbsp;but&nbsp;8&nbsp;16&nbsp;16&nbsp;rhythms.&nbsp;Some&nbsp;slower&nbsp;&nbsp;<br />
+      slurred&nbsp;stuff&nbsp;for&nbsp;contrast&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Starting&nbsp;to&nbsp;add&nbsp;multiple&nbsp;octaves&nbsp;fo<br />
+      thirds&nbsp;so&nbsp;mixing&nbsp;arpeggios.&nbsp;Some&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      good&nbsp;slured&nbsp;wide&nbsp;interval&nbsp;practice&nbsp;&nbsp;<br />
+      with&nbsp;emphasis&nbsp;on&nbsp;different&nbsp;notes&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Brings&nbsp;relative&nbsp;major&nbsp;in,&nbsp;lots&nbsp;of&nbsp;similar<br />
+      motives&nbsp;in&nbsp;multiple&nbsp;octaves.&nbsp;Need&nbsp;to&nbsp;match<br />
+      them.&nbsp;Lyrical&nbsp;with&nbsp;occasional&nbsp;flourishes.&nbsp;<br />
+      Feeling&nbsp;in&nbsp;1&nbsp;instead&nbsp;of&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      N/A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      &nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      Compound&nbsp;meter,&nbsp;lots&nbsp;of&nbsp;resetting&nbsp;the&nbsp;scale&nbsp;on&nbsp;odd&nbsp;parts&nbsp;&nbsp;<br />
+      of&nbsp;the&nbsp;beat,&nbsp;jumping&nbsp;to&nbsp;odd&nbsp;parts&nbsp;of&nbsp;the&nbsp;scale.&nbsp;A&nbsp;really&nbsp;&nbsp;<br />
+      awkward&nbsp;high&nbsp;note&nbsp;part&nbsp;that&nbsp;repeats&nbsp;a&nbsp;bit&nbsp;to&nbsp;make&nbsp;it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      harder.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      Fairly&nbsp;straightforward.&nbsp;Have&nbsp;to&nbsp;do&nbsp;&nbsp;<br />
+      slow&nbsp;subdivisions,&nbsp;eg&nbsp;32nds&nbsp;at&nbsp;4=50.<br />
+      Some&nbsp;wide&nbsp;fast&nbsp;slurs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Even&nbsp;more&nbsp;so&nbsp;this&nbsp;is&nbsp;about&nbsp;being&nbsp;able&nbsp;to&nbsp;<br />
+      read&nbsp;rhythms&nbsp;to&nbsp;64th&nbsp;notes.&nbsp;Tempo&nbsp;is&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      16th=112.&nbsp;Bach&nbsp;cello&nbsp;again.&nbsp;Very&nbsp;lyrical,&nbsp;<br />
+      but&nbsp;hard&nbsp;to&nbsp;read&nbsp;and&nbsp;may&nbsp;be&nbsp;a&nbsp;good&nbsp;test&nbsp;&nbsp;&nbsp;<br />
+      for&nbsp;a&nbsp;student&nbsp;that&nbsp;sees&nbsp;black&nbsp;and&nbsp;panics&nbsp;&nbsp;
+    </td>
+    <td align="left" valign="top">
+      &nbsp;Back&nbsp;to&nbsp;fast,&nbsp;but&nbsp;still&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      reading&nbsp;32nds.&nbsp;Lots&nbsp;of&nbsp;fast&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      tonguing,&nbsp;might&nbsp;be&nbsp;better&nbsp;for&nbsp;&nbsp;<br />
+      double&nbsp;tonguing&nbsp;practice.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>

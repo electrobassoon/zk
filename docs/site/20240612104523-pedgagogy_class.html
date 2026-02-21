@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-14 Fri 11:40 -->
+<!-- 2026-02-21 Sat 11:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Pedgagogy Class</title>
 <meta name="generator" content="Org Mode" />
-<style>
+<style type="text/css">
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -192,6 +192,7 @@
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
 </style>
+<link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body>
 <div id="content" class="content">
@@ -200,50 +201,48 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org98d4efa">1. Why do we have inversions?</a></li>
-<li><a href="#org1d8cb14">2. Review V^7</a></li>
-<li><a href="#org73c708e">3. Inversions of the V^7</a>
+<li><a href="#orgec8999a">Why do we have inversions?</a></li>
+<li><a href="#org01f0e9a">Review V^7</a></li>
+<li><a href="#orgade02f5">Inversions of the V^7</a>
 <ul>
-<li><a href="#org0538725">3.1. V65</a>
+<li><a href="#org3162538">V65</a>
 <ul>
-<li><a href="#org99f4ad9">3.1.1. Major Key</a></li>
-<li><a href="#org2cbd298">3.1.2. Minor Key</a></li>
+<li><a href="#org42be2c7">Major Key</a></li>
+<li><a href="#org2c145b5">Minor Key</a></li>
 </ul>
 </li>
-<li><a href="#org0fdf38e">3.2. V43</a>
+<li><a href="#orgae3d22e">V43</a>
 <ul>
-<li><a href="#org2c87d86">3.2.1. Major Key</a></li>
-<li><a href="#org40e2ce3">3.2.2. Minor Key</a></li>
+<li><a href="#org79b0a36">Major Key</a></li>
+<li><a href="#org7b9d23e">Minor Key</a></li>
 </ul>
 </li>
-<li><a href="#org7857f59">3.3. V42</a>
+<li><a href="#org63cff34">V42</a>
 <ul>
-<li><a href="#org59cc8c7">3.3.1. Major Key</a></li>
-<li><a href="#org52dca30">3.3.2. Minor Key</a></li>
+<li><a href="#org28293c5">Major Key</a></li>
+<li><a href="#org4c72d26">Minor Key</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org127a857">4. Alternate Resolutions</a>
+<li><a href="#org65fcfa8">Alternate Resolutions</a>
 <ul>
-<li><a href="#org33f18bd">4.1. V43 to a I6</a></li>
-<li><a href="#org2d3b10a">4.2. V42 Beethoven</a></li>
+<li><a href="#orgf14fe87">V43 to a I6</a></li>
+<li><a href="#orgbfa879e">V42 Beethoven</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-
-
-<div id="outline-container-org98d4efa" class="outline-2">
-<h2 id="org98d4efa"><span class="section-number-2">1.</span> Why do we have inversions?</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgec8999a" class="outline-2">
+<h2 id="orgec8999a">Why do we have inversions?</h2>
+<div class="outline-text-2" id="text-orgec8999a">
 <p>
 Smooth out the bass line, interplay with upper voices
 </p>
 
 
-<div id="orgbd107a3" class="figure">
+<div id="org2f4a0a7" class="figure">
 <p><img src="spectrum.png" alt="spectrum.png" />
 </p>
 </div>
@@ -253,14 +252,63 @@ Inversions are often more on the embellishing chord side of the spectrum
 </p>
 </div>
 </div>
+<div id="outline-container-org01f0e9a" class="outline-2">
+<h2 id="org01f0e9a">Review V^7</h2>
+<div class="outline-text-2" id="text-org01f0e9a">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="outline-container-org1d8cb14" class="outline-2">
-<h2 id="org1d8cb14"><span class="section-number-2">2.</span> Review V^7</h2>
-<div class="outline-text-2" id="text-2">
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
 
-<div id="org94f39fb" class="figure">
-<p><img src="v7.png" alt="v7.png" />
-</p>
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">f</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">e</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">b</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c,</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 7<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #7FC1CA;">"I"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -268,25 +316,74 @@ Note the 7th goes down by step (always!), leading tone is raised, and you have a
 </p>
 </div>
 </div>
-
-<div id="outline-container-org73c708e" class="outline-2">
-<h2 id="org73c708e"><span class="section-number-2">3.</span> Inversions of the V^7</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-orgade02f5" class="outline-2">
+<h2 id="orgade02f5">Inversions of the V^7</h2>
+<div class="outline-text-2" id="text-orgade02f5">
 <p>
 These are all resolved strictly
 </p>
 </div>
-<div id="outline-container-org0538725" class="outline-3">
-<h3 id="org0538725"><span class="section-number-3">3.1.</span> V65</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-org3162538" class="outline-3">
+<h3 id="org3162538">V65</h3>
+<div class="outline-text-3" id="text-org3162538">
 </div>
-<div id="outline-container-org99f4ad9" class="outline-4">
-<h4 id="org99f4ad9"><span class="section-number-4">3.1.1.</span> Major Key</h4>
-<div class="outline-text-4" id="text-3-1-1">
+<div id="outline-container-org42be2c7" class="outline-4">
+<h4 id="org42be2c7">Major Key</h4>
+<div class="outline-text-4" id="text-org42be2c7">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org6ee6498" class="figure">
-<p><img src="v65.png" alt="v65.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">f</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">e</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">b,</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 6 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 5<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #7FC1CA;">"I"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -294,13 +391,65 @@ Note the figured bass, 3 is implied, 5 is also implied, but if 6 is present 5 ne
 </p>
 </div>
 </div>
-<div id="outline-container-org2cbd298" class="outline-4">
-<h4 id="org2cbd298"><span class="section-number-4">3.1.2.</span> Minor Key</h4>
-<div class="outline-text-4" id="text-3-1-2">
+<div id="outline-container-org2c145b5" class="outline-4">
+<h4 id="org2c145b5">Minor Key</h4>
+<div class="outline-text-4" id="text-org2c145b5">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org5d2eff7" class="figure">
-<p><img src="v65m.png" alt="v65m.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">f</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">ees</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">b,</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 6 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 5<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #7FC1CA;">"i"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -309,17 +458,67 @@ Note there is no change in figured bass because the accidental is in the bass
 </div>
 </div>
 </div>
-<div id="outline-container-org0fdf38e" class="outline-3">
-<h3 id="org0fdf38e"><span class="section-number-3">3.2.</span> V43</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-orgae3d22e" class="outline-3">
+<h3 id="orgae3d22e">V43</h3>
+<div class="outline-text-3" id="text-orgae3d22e">
 </div>
-<div id="outline-container-org2c87d86" class="outline-4">
-<h4 id="org2c87d86"><span class="section-number-4">3.2.1.</span> Major Key</h4>
-<div class="outline-text-4" id="text-3-2-1">
+<div id="outline-container-org79b0a36" class="outline-4">
+<h4 id="org79b0a36">Major Key</h4>
+<div class="outline-text-4" id="text-org79b0a36">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org3a85c2f" class="figure">
-<p><img src="v43a.png" alt="v43a.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d,</span> <span style="color: #A8CE93;">b'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 3<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #7FC1CA;">"I"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -327,13 +526,65 @@ Resolves exactly the same way.
 </p>
 </div>
 </div>
-<div id="outline-container-org40e2ce3" class="outline-4">
-<h4 id="org40e2ce3"><span class="section-number-4">3.2.2.</span> Minor Key</h4>
-<div class="outline-text-4" id="text-3-2-2">
+<div id="outline-container-org7b9d23e" class="outline-4">
+<h4 id="org7b9d23e">Minor Key</h4>
+<div class="outline-text-4" id="text-org7b9d23e">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="orgbe92488" class="figure">
-<p><img src="v43m.png" alt="v43m.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d,</span> <span style="color: #A8CE93;">b'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\slashed-digit</span> <span style="color: #7FC1CA;">#6</span> <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 3<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span> <span style="color: #7FC1CA;">"i"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -342,17 +593,67 @@ Draw attention to the fact that you need the 6 because it has an accidental now
 </div>
 </div>
 </div>
-<div id="outline-container-org7857f59" class="outline-3">
-<h3 id="org7857f59"><span class="section-number-3">3.3.</span> V42</h3>
-<div class="outline-text-3" id="text-3-3">
+<div id="outline-container-org63cff34" class="outline-3">
+<h3 id="org63cff34">V42</h3>
+<div class="outline-text-3" id="text-org63cff34">
 </div>
-<div id="outline-container-org59cc8c7" class="outline-4">
-<h4 id="org59cc8c7"><span class="section-number-4">3.3.1.</span> Major Key</h4>
-<div class="outline-text-4" id="text-3-3-1">
+<div id="outline-container-org28293c5" class="outline-4">
+<h4 id="org28293c5">Major Key</h4>
+<div class="outline-text-4" id="text-org28293c5">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org229b3ad" class="figure">
-<p><img src="v42a.png" alt="v42a.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g'</span> <span style="color: #A8CE93;">b</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">c</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">d'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 2<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -360,14 +661,65 @@ Again, things resolve correctly
 </p>
 </div>
 </div>
+<div id="outline-container-org4c72d26" class="outline-4">
+<h4 id="org4c72d26">Minor Key</h4>
+<div class="outline-text-4" id="text-org4c72d26">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="outline-container-org52dca30" class="outline-4">
-<h4 id="org52dca30"><span class="section-number-4">3.3.2.</span> Minor Key</h4>
-<div class="outline-text-4" id="text-3-3-2">
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
 
-<div id="org9f3535c" class="figure">
-<p><img src="v42m.png" alt="v42m.png" />
-</p>
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g'</span> <span style="color: #A8CE93;">b</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">c</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">c</span> <span style="color: #9A93E1;">\minor</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">d'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\slashed-digit</span> <span style="color: #7FC1CA;">#6</span> <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 2<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"i"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -377,17 +729,67 @@ Again, the raised 6 in the figured bass, 4 is necessary as well
 </div>
 </div>
 </div>
-<div id="outline-container-org127a857" class="outline-2">
-<h2 id="org127a857"><span class="section-number-2">4.</span> Alternate Resolutions</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org65fcfa8" class="outline-2">
+<h2 id="org65fcfa8">Alternate Resolutions</h2>
+<div class="outline-text-2" id="text-org65fcfa8">
 </div>
-<div id="outline-container-org33f18bd" class="outline-3">
-<h3 id="org33f18bd"><span class="section-number-3">4.1.</span> V43 to a I6</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-orgf14fe87" class="outline-3">
+<h3 id="orgf14fe87">V43 to a I6</h3>
+<div class="outline-text-3" id="text-orgf14fe87">
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org4439fc1" class="figure">
-<p><img src="v43b.png" alt="v43b.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d,</span> <span style="color: #A8CE93;">b'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 3<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -395,10 +797,65 @@ You get a doubled third. To avoid this you have to do the next exception.
 </p>
 
 
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="orgc15eaf0" class="figure">
-<p><img src="v43c.png" alt="v43c.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #9A93E1;">\set</span> <span style="color: #DF8C8C;">glissandoMap</span> = <span style="color: #7FC1CA;">#'((1 . 1))</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">e</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #9A93E1;">\glissando</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">b</span> <span style="color: #A8CE93;">f'</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #9A93E1;">\glissando</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #9A93E1;">\set</span> <span style="color: #DF8C8C;">glissandoMap</span> = <span style="color: #7FC1CA;">#'((0 . 0))</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;</span><span style="color: #9A93E1;">\glissando</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #9A93E1;">\glissando</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span><span style="color: #7FC1CA;">}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 3<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -406,28 +863,127 @@ This is the only time you can not resolve the seventh down, because of the paral
 </p>
 </div>
 </div>
-
-<div id="outline-container-org2d3b10a" class="outline-3">
-<h3 id="org2d3b10a"><span class="section-number-3">4.2.</span> V42 Beethoven</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-orgbfa879e" class="outline-3">
+<h3 id="orgbfa879e">V42 Beethoven</h3>
+<div class="outline-text-3" id="text-orgbfa879e">
 <p>
 There are a couple of exceptions because of Beethoven
 </p>
 
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="orgfc1c132" class="figure">
-<p><img src="v42b.png" alt="v42b.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">g</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">c</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">b</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 2<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
 This is only if scale degree 5 is in the soprano, and jumps up to scale degree 8, scale degree 2 will also have to jump up to 5
 </p>
 
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org9f5577a" class="figure">
-<p><img src="v42c.png" alt="v42c.png" />
-</p>
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g'</span> <span style="color: #A8CE93;">d'</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">g'</span><span style="color: #83AFE5;">&gt;1</span><span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">b</span><span style="color: #83AFE5;">&gt;1</span>
+              <span style="color: #83AFE5;">&lt;</span><span style="color: #A8CE93;">e</span> <span style="color: #A8CE93;">c'</span><span style="color: #83AFE5;">&gt;1</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+
+           <span style="color: #83AFE5;">&gt;&gt;</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span> 4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 2<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s1</span><span style="color: #9A93E1;">^\markup</span> <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
 </div>
 
 <p>
@@ -438,8 +994,85 @@ Only if scale degree 2 is in the soprano, and jumps to scale degree 5.
 A great example of this from Sonata no. 8, op. 13 "Pathetique" II. Adagio Cantabile
 </p>
 
+<div class="org-src-container">
+<pre class="src src-lilypond">    <span style="color: #9A93E1;">\version</span> <span style="color: #7FC1CA;">"2.24.3"</span>
 
-<div id="org29013fe" class="figure">
+    <span style="color: #9A93E1;">\header</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">tagline</span> = <span style="color: #7FC1CA;">""</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #9A93E1;">\paper</span><span style="color: #7FC1CA;">{</span>
+    <span style="color: #DF8C8C;">indent</span> = <span style="color: #DF8C8C;">0</span>
+    <span style="color: #7FC1CA;">}</span>
+
+    <span style="color: #7FC1CA;">#(ly:set-option 'use-paper-size-for-page #f)</span>
+    <span style="color: #7FC1CA;">#(ly:set-option 'tall-page-formats 'png)</span>
+<span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Score</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #83AFE5;">&lt;&lt;</span>
+    <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">PianoStaff</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #83AFE5;">&lt;&lt;</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">aes</span> <span style="color: #9A93E1;">\major</span>
+            <span style="color: #9A93E1;">\time</span> 2/4
+            <span style="color: #9A93E1;">\tempo</span> <span style="color: #7FC1CA;">"Adagio cantabile"</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c'</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #83AFE5;">&lt;&lt;</span>
+                <span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+                 <span style="color: #A8CE93;">c4</span><span style="color: #83AFE5;">(</span> <span style="color: #A8CE93;">bes</span> |
+                 <span style="color: #A8CE93;">ees4.</span> <span style="color: #A8CE93;">des8</span> |
+                 <span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">bes</span> |
+                 <span style="color: #A8CE93;">ees,4</span><span style="color: #83AFE5;">)</span> 
+                 <span style="color: #9A93E1;">\bar</span> <span style="color: #7FC1CA;">"|."</span>
+                <span style="color: #7FC1CA;">}</span>
+                <span style="color: #83AFE5;">\\</span>
+                <span style="color: #7FC1CA;">{</span><span style="color: #A8CE93;">aes,16</span><span style="color: #9A93E1;">\p</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">ees</span> |
+                 <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">bes'</span> <span style="color: #A8CE93;">ees,</span> <span style="color: #A8CE93;">bes'</span> <span style="color: #A8CE93;">ees,</span>
+                 <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">ees</span> <span style="color: #A8CE93;">bes'</span> <span style="color: #A8CE93;">ees,</span> <span style="color: #A8CE93;">c'</span> <span style="color: #A8CE93;">aes</span> <span style="color: #A8CE93;">d</span> <span style="color: #A8CE93;">aes</span> |
+                 <span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">bes</span> <span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">bes</span> 
+                <span style="color: #7FC1CA;">}</span>
+              <span style="color: #83AFE5;">&gt;&gt;</span>
+            <span style="color: #7FC1CA;">}</span>
+          <span style="color: #7FC1CA;">}</span>
+          <span style="color: #9A93E1;">\new</span> <span style="color: #DF8C8C;">Staff</span><span style="color: #7FC1CA;">{</span>
+            <span style="color: #9A93E1;">\clef</span> <span style="color: #A8CE93;">b</span>ass
+            <span style="color: #9A93E1;">\time</span> 2/4
+            <span style="color: #9A93E1;">\key</span> <span style="color: #A8CE93;">aes</span> <span style="color: #9A93E1;">\major</span>
+            <span style="color: #9A93E1;">\relative</span> <span style="color: #A8CE93;">c</span> <span style="color: #7FC1CA;">{</span>
+              <span style="color: #A8CE93;">aes4</span><span style="color: #83AFE5;">(</span> <span style="color: #A8CE93;">des</span> |
+              <span style="color: #A8CE93;">c</span> <span style="color: #A8CE93;">g</span> |
+              <span style="color: #A8CE93;">aes8</span> <span style="color: #A8CE93;">g</span> <span style="color: #A8CE93;">f</span> <span style="color: #A8CE93;">f'</span> |
+              <span style="color: #A8CE93;">ees4</span><span style="color: #83AFE5;">)</span> <span style="color: #DF8C8C;">Staff</span> <span style="color: #7FC1CA;">\with</span> <span style="color: #7FC1CA;">{</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Staff_symbol_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Time_signature_engraver"</span>
+        <span style="color: #9A93E1;">\remove</span> <span style="color: #7FC1CA;">"Clef_engraver"</span>
+        <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.default-staff-staff-spacing</span> = <span style="color: #7FC1CA;">#'((basic distance . 100)(padding . 0)(minimum-distance . 1))</span>
+    <span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">{</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span><span style="color: #7FC1CA;">}</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>4 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 2<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span> <span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6 <span style="color: #9A93E1;">\vspace</span> <span style="color: #7FC1CA;">#-0.5</span> 5<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s8</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"I"</span> <span style="color: #7FC1CA;">}</span>
+        <span style="color: #A8CE93;">s8</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span> <span style="color: #9A93E1;">\super</span> <span style="color: #9A93E1;">\column</span> <span style="color: #7FC1CA;">{</span>6<span style="color: #7FC1CA;">}}</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"VI"</span><span style="color: #7FC1CA;">}</span>
+        <span style="color: #A8CE93;">s4</span><span style="color: #9A93E1;">^\markup</span><span style="color: #7FC1CA;">{</span><span style="color: #9A93E1;">\lower</span> <span style="color: #7FC1CA;">#1</span> <span style="color: #7FC1CA;">"V"</span><span style="color: #7FC1CA;">}</span>
+    <span style="color: #7FC1CA;">}</span>
+  <span style="color: #83AFE5;">&gt;&gt;</span>
+<span style="color: #7FC1CA;">}</span>
+<span style="color: #9A93E1;">\layout</span> <span style="color: #7FC1CA;">{</span>
+  <span style="color: #9A93E1;">\context</span> <span style="color: #7FC1CA;">{</span>
+    <span style="color: #7FC1CA;">\Score</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">StaffGrouper.staffgroup-staff-spacing.padding</span> = <span style="color: #7FC1CA;">#0</span>
+    <span style="color: #9A93E1;">\override</span> <span style="color: #DF8C8C;">VerticalAxisGroup.staff-staff-spacing.basic-distance</span> = <span style="color: #7FC1CA;">#0</span>
+  <span style="color: #7FC1CA;">}</span>
+<span style="color: #7FC1CA;">}</span>
+
+</pre>
+</div>
+
+
+<div id="orgbe5484e" class="figure">
 <p><img src="beethoven.png" alt="beethoven.png" />
 </p>
 </div>
@@ -448,8 +1081,7 @@ A great example of this from Sonata no. 8, op. 13 "Pathetique" II. Adagio Cantab
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2024-06-14 Fri 11:40</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p><a href="sitemap.html">Site Map</a></p>
 </div>
 </body>
 </html>

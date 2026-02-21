@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-10 Mon 22:17 -->
+<!-- 2026-02-21 Sat 11:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>rothstein92_midi</title>
 <meta name="generator" content="Org Mode" />
-<style>
+<style type="text/css">
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -203,66 +203,64 @@
 <ul>
 <li><a href="#rothstein92_midi">Midi: a comprehensive introduction</a>
 <ul>
-<li><a href="#org275d31f">page 1 What is MIDI</a></li>
-<li><a href="#orga458e89">page 7 Messages</a></li>
-<li><a href="#org71d23b0">page 8 Note on message for musicians</a></li>
-<li><a href="#orgf041f15">page 11 Limitations of MIDI</a></li>
-<li><a href="#org6ecae22">page 139 Understanding MIDI messages</a></li>
-<li><a href="#org5dba9e4">page 140 Categories of MIDI messages</a></li>
-<li><a href="#org29f83f1">page 142 Channel Voice messages</a></li>
-<li><a href="#org76de744">page 143 Note On/Note Off</a></li>
-<li><a href="#org232580d">page 144 Channel Pressure, Polyphonic Key Pressure</a></li>
-<li><a href="#orgdb7c3fe">page 145 Program Change</a></li>
-<li><a href="#org8045058">page 146 Program Change / Control Change</a></li>
-<li><a href="#orgab5d7ec">page 147</a></li>
-<li><a href="#org9023aff">page 159 A Final Warning</a></li>
+<li><a href="#org5999d9b">page 1 What is MIDI</a></li>
+<li><a href="#org26fd6bc">page 7 Messages</a></li>
+<li><a href="#org64b07e9">page 8 Note on message for musicians</a></li>
+<li><a href="#org81573eb">page 11 Limitations of MIDI</a></li>
+<li><a href="#orge8d419d">page 139 Understanding MIDI messages</a></li>
+<li><a href="#orgdf3b87a">page 140 Categories of MIDI messages</a></li>
+<li><a href="#org6c78c89">page 142 Channel Voice messages</a></li>
+<li><a href="#org9985ffd">page 143 Note On/Note Off</a></li>
+<li><a href="#org93c63d4">page 144 Channel Pressure, Polyphonic Key Pressure</a></li>
+<li><a href="#orga7bce89">page 145 Program Change</a></li>
+<li><a href="#org04a6d19">page 146 Program Change / Control Change</a></li>
+<li><a href="#orgf0a1870">page 147</a></li>
+<li><a href="#org06f596b">page 159 A Final Warning</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-
 <div id="outline-container-rothstein92_midi" class="outline-2">
 <h2 id="rothstein92_midi">Midi: a comprehensive introduction</h2>
 <div class="outline-text-2" id="text-rothstein92_midi">
 </div>
-
-<div id="outline-container-org275d31f" class="outline-3">
-<h3 id="org275d31f">page 1 What is MIDI</h3>
-<div class="outline-text-3" id="text-org275d31f">
+<div id="outline-container-org5999d9b" class="outline-3">
+<h3 id="org5999d9b">page 1 What is MIDI</h3>
+<div class="outline-text-3" id="text-org5999d9b">
 <p>
 MIDI is an acronym for "Musical Instrument Digital Interface." Despite its impact on the world of music, MIDI is not a musical language, nor does it directly describe musical sounds. Rather, it is a data communications protocol, an agreement among manufacturers of music equipment, computers, and software that describes a means for music systems and related equipment to exchange information and control signals.
 </p>
 </div>
 </div>
-<div id="outline-container-orga458e89" class="outline-3">
-<h3 id="orga458e89">page 7 Messages</h3>
-<div class="outline-text-3" id="text-orga458e89">
+<div id="outline-container-org26fd6bc" class="outline-3">
+<h3 id="org26fd6bc">page 7 Messages</h3>
+<div class="outline-text-3" id="text-org26fd6bc">
 <p>
 Each message describes a particular event - the start of a musical note, the change in a switch setting, the motion of a foot pedal, or the selection of a sound 'patch', for example.
 </p>
 </div>
 </div>
-<div id="outline-container-org71d23b0" class="outline-3">
-<h3 id="org71d23b0">page 8 Note on message for musicians</h3>
-<div class="outline-text-3" id="text-org71d23b0">
+<div id="outline-container-org64b07e9" class="outline-3">
+<h3 id="org64b07e9">page 8 Note on message for musicians</h3>
+<div class="outline-text-3" id="text-org64b07e9">
 <p>
 Musicians generally think of music as a series of notes, each one having a particular pitch, amplitude, and timbre. For musicians, then, a note can be considered the most basic of musical messages. Likewise, the most basic MIDI message is the Note On message, though a Note On message differs from our usual understanding of a musical note. Both contain pitch and loudness data, but elements of expresiveness such as vibrato and pitch bend are treated as separate MIDI messages rather than as part and parcel of each note that they affect.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf041f15" class="outline-3">
-<h3 id="orgf041f15">page 11 Limitations of MIDI</h3>
-<div class="outline-text-3" id="text-orgf041f15">
+<div id="outline-container-org81573eb" class="outline-3">
+<h3 id="org81573eb">page 11 Limitations of MIDI</h3>
+<div class="outline-text-3" id="text-org81573eb">
 <p>
 MIDI is not without its shortcomings, however. One is that the MIDI specification does not describe what MIDI devices must do, only how to communicate something if the manufacturer decides to do it. Few MIDI devices will incorporate all the potential power of MIDI, so it is up to the person who buys and uses a MIDI device to find out what ic can and cannot do. Capabilities range from simple one-voice Note On/Note Off generators to complicated systems with touch sensivity, keyboard splits, and modulation control.
 Nor does NUDU specify particular sounds that an instrument must make or the quality of the sounds that it does make. The range and quality of sounds from MIDI synthesizers vary from numerous and wonderful to few and awful, and MIDI itself will not help you determine which synthesizer has which. (ends page 12)
 </p>
 </div>
 </div>
-<div id="outline-container-org6ecae22" class="outline-3">
-<h3 id="org6ecae22">page 139 Understanding MIDI messages</h3>
-<div class="outline-text-3" id="text-org6ecae22">
+<div id="outline-container-orge8d419d" class="outline-3">
+<h3 id="orge8d419d">page 139 Understanding MIDI messages</h3>
+<div class="outline-text-3" id="text-orge8d419d">
 <p>
 MIDI messages are the means by which one MIDI device communicates information to another MIDI device. Each message specifies a musical event - in order to understand why a particular device acts in a particular manner, you must understand what messages it is receiving and transmitting. Most sequenceres, and some other devices, can display MIDI messages (oftern in a variety of formats), allowing sequencer users to examine and alter MIDI messages one by one.
 MIDI messages consist of one or more bytes of digital data.
@@ -270,9 +268,9 @@ Each MIDI message byte begins with a start bit (logical 0), followed by eight me
 </p>
 </div>
 </div>
-<div id="outline-container-org5dba9e4" class="outline-3">
-<h3 id="org5dba9e4">page 140 Categories of MIDI messages</h3>
-<div class="outline-text-3" id="text-org5dba9e4">
+<div id="outline-container-orgdf3b87a" class="outline-3">
+<h3 id="orgdf3b87a">page 140 Categories of MIDI messages</h3>
+<div class="outline-text-3" id="text-orgdf3b87a">
 <p>
 MIDI messages may be grouped into two major categories, channel messages and system messages. Channel messages specify a particular MIDI channel within the message and generally control such aspects of performance as Note On/Note Off, Continuous Controller, and Program Change. 
 Channel messages may themselves be grouped into channel mode messages and channel voice messages, while system messages may be grouped into system real time and system common messages and the single System Exclusive messages
@@ -282,9 +280,9 @@ Channel mode messages are used primarily to select one of the four MIDI modes de
 </p>
 </div>
 </div>
-<div id="outline-container-org29f83f1" class="outline-3">
-<h3 id="org29f83f1">page 142 Channel Voice messages</h3>
-<div class="outline-text-3" id="text-org29f83f1">
+<div id="outline-container-org6c78c89" class="outline-3">
+<h3 id="org6c78c89">page 142 Channel Voice messages</h3>
+<div class="outline-text-3" id="text-org6c78c89">
 <p>
 Channel voice messages specify the nature of sounds produced by the synthesizer that receives the messages, using the channel number embedded in the status byte of the message. The events described by channel voice messages include Note On, Note Off, Channel Pressure, Polyphonic Key Pressure, Program Change, Control Change, and Pitch Bend.
 <b>Note On</b>
@@ -292,9 +290,9 @@ A Note On message signals the device receiving it to begin playing a note. Note 
 </p>
 </div>
 </div>
-<div id="outline-container-org76de744" class="outline-3">
-<h3 id="org76de744">page 143 Note On/Note Off</h3>
-<div class="outline-text-3" id="text-org76de744">
+<div id="outline-container-org9985ffd" class="outline-3">
+<h3 id="org9985ffd">page 143 Note On/Note Off</h3>
+<div class="outline-text-3" id="text-org9985ffd">
 <p>
 Like all MIDI messages, the first byte of the Note On message is its status byte. The four most significant bits of the status byte, 1001, identify the message as a Note On and specify that two additional bytes of MIDI data will follow. The four least significant bits of the Note On status byte indicate which channel the message is intended for - from 0000 for channel 1 to 1111 for channel 16.
 The second byte of the Note On message identifies which note is called for. Since it is a data byte, its most sifnifcant bit is 0. The MIDI specification designates 128 different ntoes, numbered from 0 to 127, indicated by the remaining seven bits of the second Note On byte. A MIDI note number does not designate a particular pitch; rather, the note generated depends on the note mapping and tuning determined by the synthesizer or sampler producing the note, though synthesizers most commonly assign MIDI note 60 to middle C and interpret each higher value as an additional half-step above middle C. Under this typical synthesizer's interpretation of Note On messages, MIDI note 66 would represent the F-sharp above middle C, MIDI note 54 would represent the F-sharp below middle C, and so forth.
@@ -305,9 +303,9 @@ A higher velocity value usually is implemented as a note whose release occurs mo
 </p>
 </div>
 </div>
-<div id="outline-container-org232580d" class="outline-3">
-<h3 id="org232580d">page 144 Channel Pressure, Polyphonic Key Pressure</h3>
-<div class="outline-text-3" id="text-org232580d">
+<div id="outline-container-org93c63d4" class="outline-3">
+<h3 id="org93c63d4">page 144 Channel Pressure, Polyphonic Key Pressure</h3>
+<div class="outline-text-3" id="text-org93c63d4">
 <p>
 Channel Pressure messages are sent by those devices that can sense overall pressure on their keys but are not able to distinguish the pressure put on each indivdual key. That is, whichever key is pressed hardest determines the channel pressure value for the entire keyboard. In the same fashion, certain wind controllers transmit channel pressure information based on increasing breath pressure after the initial attck of a note. Depending upon the device, it may transmit one or, more commonly, a stream of Channel Pressure messages during the duration of a held note.
 How a device receiving a Channel Pressure message responds depends on teh particular device. Some devices use channel pressure for aftertouch volume; that is, pressing a key harder once the note has begun sounding causes the note to become louder. Other devices use channel pressure to control vibrato - harder pressure results in a faster or wider vibrato. Still other devices use channel pressure to control other parameters or allow you to assign the parameter yourself.
@@ -317,9 +315,9 @@ Polyphonic key pressure acts in a manner similar to channel pressure, except tha
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb7c3fe" class="outline-3">
-<h3 id="orgdb7c3fe">page 145 Program Change</h3>
-<div class="outline-text-3" id="text-orgdb7c3fe">
+<div id="outline-container-orga7bce89" class="outline-3">
+<h3 id="orga7bce89">page 145 Program Change</h3>
+<div class="outline-text-3" id="text-orga7bce89">
 <p>
 The terms <i>program, patch,</i> and <i>voice</i> are used to refer to a particular setting of a synthesizer's controls when the setting produces a specific instrumental timbre or other musical sound. The terms may also refer to the settings on some other MIDI device such as a digital reverberator that, for example, produce a particular reverberation patern. ("Program," used in this context, should not be confused wiht a computer program, sa set of instructions that directs a computer to perform a particular task.)
 A Program Change message does not specify the synthesizer settings themselves; rather, the settings are associated with a patch number by the synthesizer, and the Program Change message simply calls up whatever settings the synthesizer associates with that number. Since the settings that produce a sound vary widely from one synthesizer to another, it is much simpler for MIDI just to specify a program number and leave the particulars of what that program number represents to the synthesizer.
@@ -330,9 +328,9 @@ Some synthesizers store fewer than the 128 patches the Program Change message ca
 </p>
 </div>
 </div>
-<div id="outline-container-org8045058" class="outline-3">
-<h3 id="org8045058">page 146 Program Change / Control Change</h3>
-<div class="outline-text-3" id="text-org8045058">
+<div id="outline-container-org04a6d19" class="outline-3">
+<h3 id="org04a6d19">page 146 Program Change / Control Change</h3>
+<div class="outline-text-3" id="text-org04a6d19">
 <p>
 Other synthesiers and MIDI devices can store many more than 128 patches. In such a case, the user can assign 128 of the device's patches to MIDI's 128 patch numbers at any given time; only those 128 patches (sometimes referred to as the MIDI program table) are accesible using Program Change messages.
 Even some synthesizers that cannot store more than 128 patches have a user-defined MIDI Program table. In that way, the user can associate patches on a synthesizer receiving Program Change messages with the same program change numbers used by a transmitting synthesizer or sequencer for similar sounds, but which the receiving synthesizer had previously associated with a different patch number.
@@ -345,9 +343,9 @@ The third byte specifies the setting value for the particular controller specifi
 </p>
 </div>
 </div>
-<div id="outline-container-orgab5d7ec" class="outline-3">
-<h3 id="orgab5d7ec">page 147</h3>
-<div class="outline-text-3" id="text-orgab5d7ec">
+<div id="outline-container-orgf0a1870" class="outline-3">
+<h3 id="orgf0a1870">page 147</h3>
+<div class="outline-text-3" id="text-orgf0a1870">
 <p>
 Controller numbers 0 through 31, as specified by the second byte of a Control Change message, are for continuous controllers - those that generate data over a range of values, such as pedals, levers, wheels, and so forth. Some continous controllers, called bidirectional continuous controllers, are ata  centered position while at rest. Using such a controller involves moving it above or below its centered position. Upon release, a bidirecitonal continuous controller returns once again to its at-rest, centered position.
 If more than 128 steps of resolution is needed, controller numbers 32 through 63 can be used to represent the least signicant byte of a two byte value whose most significant byte is represented by the corresponding controller number 0 to 31.
@@ -356,9 +354,9 @@ By agreement between the MIDI Manufacturers Association and the Japan MIDI Stand
 </p>
 </div>
 </div>
-<div id="outline-container-org9023aff" class="outline-3">
-<h3 id="org9023aff">page 159 A Final Warning</h3>
-<div class="outline-text-3" id="text-org9023aff">
+<div id="outline-container-org06f596b" class="outline-3">
+<h3 id="org06f596b">page 159 A Final Warning</h3>
+<div class="outline-text-3" id="text-org06f596b">
 <p>
 Even if you know and understand all the messages that pass back and forth between MIDI devices, it is easy to overlook this basic principle of MIDI message transmission: Few MIDI devices implement every variety of MIDI message. The MIDI specification does not require that MIDI devices implement any but a very few core features. Unless a device implements a partiuclar feature, it will not respond to incoming messages that call upon that featur. Even if the device does implement a feature, how it implements the feature may be different from how another device omplements it. The only way to be sure is to understand the messages entering a device and observe how the device responds.
 </p>

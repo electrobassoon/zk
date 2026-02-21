@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-02-21 Sat 11:04 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>3553 Fall 2023</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="../style.css" type="text/css">
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">3553 Fall 2023</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org24d12d6">Class 1 8/31/2023</a>
+<ul>
+<li><a href="#org2eea77e">Class</a>
+<ul>
+<li><a href="#org047b483">Syllabus</a></li>
+<li><a href="#orga0b04de">Overview of Notation Programs</a></li>
+<li><a href="#org9c68f1e">Introduction Reading</a></li>
+<li><a href="#org620508a">Comparison of Default Output</a></li>
+<li><a href="#org26d636b">Sibelius Overview</a></li>
+</ul>
+</li>
+<li><a href="#org3c2ee68">Homework</a></li>
+</ul>
+</li>
+<li><a href="#org0790bb6">Class 2 9/5/2023</a>
+<ul>
+<li><a href="#org1b08b8e">Note Input</a>
+<ul>
+<li><a href="#org9265ed5">Voices</a></li>
+<li><a href="#org1399709">Accidentals (demonstrations only, sibelius seems to do really well with this)</a></li>
+<li><a href="#orgbf7248a">Tricks</a></li>
+</ul>
+</li>
+<li><a href="#org1b4393b">Changing Key Signatures, Time Signatures, Clefs</a>
+<ul>
+<li><a href="#org61e7f23">Note double barlines for keys, not times</a></li>
+<li><a href="#org68482a5">Ledger lines for clefs (3)</a></li>
+<li><a href="#orgb14db84">Before barlines</a></li>
+<li><a href="#orgf56bea7">Mid measure clef changes</a></li>
+<li><a href="#orgbe8624c">Changing after rests</a></li>
+</ul>
+</li>
+<li><a href="#orgf6eda1f">Homework</a></li>
+</ul>
+</li>
+<li><a href="#orgb0c1e93">Class 3 9/7/2023</a>
+<ul>
+<li><a href="#org95594e8">Drumset</a>
+<ul>
+<li><a href="#org5c40877">MIDI vs Score Entry</a></li>
+</ul>
+</li>
+<li><a href="#orgb679a65">Guitar and TAB</a>
+<ul>
+<li><a href="#orge4b5561">Alternate Tunings</a></li>
+<li><a href="#org5dfe54f">Fretboard input</a></li>
+<li><a href="#orgc0590c2">Chord Diagrams</a></li>
+<li><a href="#orgb5e2895">Dynamic vs non dynamic parts</a></li>
+<li><a href="#orgb9da85e">Using both</a></li>
+</ul>
+</li>
+<li><a href="#org6ac76b2">Keyboard</a>
+<ul>
+<li><a href="#org2ac0dee">Cross staff</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org055335a">Class 4 9/12/2023</a>
+<ul>
+<li><a href="#org21af861">Tuplets</a>
+<ul>
+<li><a href="#org22548ba">locking the triplet with shift option k</a></li>
+<li><a href="#orge9f16a2">custom tuplets the slow way</a></li>
+<li><a href="#org2fd87fe">nested triplets</a></li>
+<li><a href="#org58c36d0">Triplet ratios</a></li>
+</ul>
+</li>
+<li><a href="#org2ebab4d">Lyrics</a>
+<ul>
+<li><a href="#orga2e32f5">Direct enter</a></li>
+<li><a href="#org875b18c">Copy and paste</a></li>
+<li><a href="#org52d4631">From File</a></li>
+<li><a href="#org217f7bb">Plugins</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org6614da7">Class 5 9/14/2023</a>
+<ul>
+<li><a href="#org2733f04">Slurs</a>
+<ul>
+<li><a href="#orgaa68722">Different Meanings</a></li>
+<li><a href="#org05e9c9d">s or select passage</a></li>
+<li><a href="#orge2c1c04">During input S and shift S</a></li>
+<li><a href="#orge64a28b">Flipping with X</a></li>
+<li><a href="#org5d8ad01">Adjusting handles</a></li>
+<li><a href="#orgf77b23c">Adjusting ends when extending over breaks</a></li>
+</ul>
+</li>
+<li><a href="#org37e2d00">Articulations</a>
+<ul>
+<li><a href="#org1f1e0c2">Except in two stemmed, it goes over the noteheads</a></li>
+<li><a href="#org43f5669">Double stemmed</a></li>
+<li><a href="#org1833886">During input and after input</a></li>
+<li><a href="#org9a5f9e4">Clearing articulations</a></li>
+<li><a href="#org37d74f7">Flip with X</a></li>
+</ul>
+</li>
+<li><a href="#orgd995159">Grace Notes</a>
+<ul>
+<li><a href="#orgf7996c3">Always stem up except double stemmed writing</a></li>
+<li><a href="#orgdd0a84e">Slurs below notehead (sibelius won't do this automatically!)</a></li>
+<li><a href="#org3303151">Independent slurs, even when slur is long</a></li>
+<li><a href="#org03e4f70">Articulations where they are conspicuous (sibelius doesn't do this automatically!)</a></li>
+<li><a href="#org4633f3f">Dynamics tend to go to main note unless there are a lot of grace notes</a></li>
+</ul>
+</li>
+<li><a href="#org7cd4153">Beams</a>
+<ul>
+<li><a href="#orge38c1be">Sibelius usually good on secondary beams, but not always (3/8 eg)</a></li>
+<li><a href="#org99f51a5">Manually add a secondary beam for 4 64ths notes</a></li>
+<li><a href="#orgf67679c">Global change</a></li>
+<li><a href="#org893e6b6">Feathered Beams</a></li>
+<li><a href="#org8007efc">over rests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org099212d">Class 6 9/19/2023</a>
+<ul>
+<li><a href="#org18ffebc">Dynamics</a>
+<ul>
+<li><a href="#orgb8d6c9c">Hairpins</a></li>
+</ul>
+</li>
+<li><a href="#org3b1418d">Text in General</a>
+<ul>
+<li><a href="#org15cc102">Fonts</a></li>
+<li><a href="#orgdd1be1f">One at a time</a></li>
+<li><a href="#org637cf09">Copy with shift alt click vs alt click</a></li>
+<li><a href="#org704e022">Alt click to get same style</a></li>
+<li><a href="#org7f5a89a">Multi select (first notes of measures only?)</a></li>
+<li><a href="#org16a4662">Align in column</a></li>
+</ul>
+</li>
+<li><a href="#orgfa8af95">Tempo Marks</a>
+<ul>
+<li><a href="#orgd9e8a54">System Object Positions in Appearance Tab</a></li>
+<li><a href="#org45b3d66">Align them</a></li>
+<li><a href="#org71faca7">Modulations with = signs</a></li>
+</ul>
+</li>
+<li><a href="#org8e639c0">Expressions and Technique text</a>
+<ul>
+<li><a href="#org05657dc">position (esp with lyrics)</a></li>
+<li><a href="#orgc26b7bf">Center dynamics, sibelius won't do this for you!!!</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org91006a5">Class 7 9/21/2023</a>
+<ul>
+<li><a href="#org5ffb51e">Glissandi</a>
+<ul>
+<li><a href="#orga2bfbe2">At least first occurance should have word gliss.</a></li>
+<li><a href="#org008f5f6">Make sure it isn't confused with voice leading lines</a></li>
+<li><a href="#org342d0f4">With accidentals, default is next to, but can also adjust</a></li>
+<li><a href="#orgccecbc5">Unisons go in direction of gliss (auto)</a></li>
+<li><a href="#org6fbea57">Avoid clef changes</a></li>
+<li><a href="#org2fc63b4">Use ties if gliss delayed</a></li>
+<li><a href="#orgc1309cc">Chord glisses only one label (not automatic)</a></li>
+<li><a href="#org7871709">Finishing grace note and parenthesis</a></li>
+<li><a href="#org7b68880">Intermediate notes and parenthesis</a></li>
+</ul>
+</li>
+<li><a href="#org0e7a68e">Trills</a>
+<ul>
+<li><a href="#org95e1ae3">Only long slurs and octave signs go above the trill</a></li>
+<li><a href="#orge6ca867">Line lasts for entire note (sib doesn't follow ties), stops right at next notehead or its accidental (sib won't notice) or to barline</a></li>
+<li><a href="#orgd0900eb">Accidental by creating a new symbol and a new line</a></li>
+<li><a href="#org1bd1d94">Grace note for a defined pitch in parenthesis with an X shift, hide flag, drag stem down</a></li>
+<li><a href="#orgf95bca4">Grace note terminations</a></li>
+</ul>
+</li>
+<li><a href="#org8290802">Tremolos</a>
+<ul>
+<li><a href="#org29b98ca">input at half value, choose beam numbers</a></li>
+<li><a href="#org81477f8">tied to next measure with slurs</a></li>
+<li><a href="#org661d9c4">break beams (auto?)</a></li>
+</ul>
+</li>
+<li><a href="#org9103aea">Arpeggios</a>
+<ul>
+<li><a href="#orgdfc64ac">Extends all notes (not stems)</a></li>
+<li><a href="#org1ec42c0">Cross staff if there's an accidental</a></li>
+</ul>
+</li>
+<li><a href="#orgc7a5dc1">Octave Signs</a>
+<ul>
+<li><a href="#org22c1601">Above almost all other notation</a></li>
+<li><a href="#orge93d31d">Slur vs triplet vs octave depend on longest</a></li>
+<li><a href="#org752859d">Change style if wanted</a></li>
+<li><a href="#orgedefd73">How long it goes controversy</a></li>
+<li><a href="#org43332e8">Ledger lines, octave signs, or clef changes?</a></li>
+<li><a href="#org16d1870">loco to turn back</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7a2733e">Class 8 9/26/2023</a>
+<ul>
+<li><a href="#org46ddffa">Repeats</a></li>
+<li><a href="#org40a9ea8">Pauses</a></li>
+<li><a href="#org50a4e1a">Instruments on the side</a></li>
+<li><a href="#org05163da">System break character by itself?</a></li>
+<li><a href="#org50aac70">Rehearsal Marks</a></li>
+<li><a href="#orgd6437b6">Brackets</a></li>
+<li><a href="#org30aa2ea">Figured Bass</a></li>
+<li><a href="#org6c53efb">Bar numbers</a></li>
+<li><a href="#org7f79a5d">Noteheads</a></li>
+<li><a href="#org672a97a">Barlines</a></li>
+</ul>
+</li>
+<li><a href="#org5b484b1">Class 9 9/28/2023</a>
+<ul>
+<li><a href="#org7cf7768">Page Layout</a></li>
+<li><a href="#org4810696">Focus On Staffs</a></li>
+<li><a href="#orgea10850">Hiding Staffs</a></li>
+<li><a href="#org50af96c">Spacing, margins, page size</a></li>
+<li><a href="#org571db8b">Magnetic Layout</a></li>
+</ul>
+</li>
+<li><a href="#org72c8627">Class 10 10/3/2023</a>
+<ul>
+<li><a href="#org6853c1c">Dynamic Parts</a>
+<ul>
+<li><a href="#org3d1c642">When to use which?</a></li>
+</ul>
+</li>
+<li><a href="#org0e30181">Extracting Parts</a></li>
+<li><a href="#org68e2a0a">Cues</a></li>
+</ul>
+</li>
+<li><a href="#org2b7a4d8">Class 11 10/5/2023</a>
+<ul>
+<li><a href="#org33f2a83">Midterm Projects</a></li>
+</ul>
+</li>
+<li><a href="#orgbf99a87">Class 12 10/10/2023</a>
+<ul>
+<li><a href="#org1027603">Midterm Projects</a></li>
+</ul>
+</li>
+<li><a href="#org4128a70">Class 13 10/12/20232</a>
+<ul>
+<li><a href="#org07c0e44">Midterm Projects</a></li>
+</ul>
+</li>
+<li><a href="#orgf1481eb">Fundamentals of Notation</a>
+<ul>
+<li><a href="#org7e39416">Double Stemmed Writing&#xa0;&#xa0;&#xa0;<span class="tag"><span class="2">2</span></span></a>
+<ul>
+<li><a href="#org294c4c7">Rests - 36</a></li>
+<li><a href="#org3f4ff63">Articulations - 118</a></li>
+</ul>
+</li>
+<li><a href="#org0247b4c">Accidentals&#xa0;&#xa0;&#xa0;<span class="tag"><span class="2">2</span></span></a>
+<ul>
+<li><a href="#org7dce9b3">Where they apply - 78-79</a></li>
+<li><a href="#orgcf72448">Right after a barline - 81</a></li>
+<li><a href="#orge06ef5f">Octave displacement - 82</a></li>
+<li><a href="#org1d4993e">Cautionary accidentals - 83</a></li>
+<li><a href="#org589a9d3">Note spelling - 85</a></li>
+</ul>
+</li>
+<li><a href="#org241d714">Drumset 281&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></a></li>
+<li><a href="#orgff1bad1">Braces 303&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></a></li>
+<li><a href="#org15cf397">Split beams 314&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></a></li>
+<li><a href="#orgf5e8ba7">Pedaling 334&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></a></li>
+<li><a href="#org45432d8">Vocal writing 434&#xa0;&#xa0;&#xa0;<span class="tag"><span class="4">4</span></span></a></li>
+<li><a href="#org23a5a4a">Clef Changes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></a>
+<ul>
+<li><a href="#org130c6fe">Ledger Lines  - 7</a></li>
+<li><a href="#org6dc95d1">At Beginning of the bar, mid measure, after rests - 8</a></li>
+</ul>
+</li>
+<li><a href="#org664ba8b">Key Changes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></a>
+<ul>
+<li><a href="#orgf115745">Double bar line - 39</a></li>
+</ul>
+</li>
+<li><a href="#org41b4ae8">Tuplets 193&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></a></li>
+<li><a href="#org0faf6a0">Tempo Marks 182&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></a></li>
+<li><a href="#org4913c83">Meter&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></a>
+<ul>
+<li><a href="#orgc7d360a">Rests 160</a></li>
+<li><a href="#org8f5bd7b">Syncopation - 170</a></li>
+<li><a href="#orgfdde232">Simple to Compound - 172</a></li>
+</ul>
+</li>
+<li><a href="#org93d333b">Articulations&#xa0;&#xa0;&#xa0;<span class="tag"><span class="6">6</span></span></a>
+<ul>
+<li><a href="#org7fde161">Placement - 117</a></li>
+<li><a href="#orga51e8c0">Double stemmed placement - 118</a></li>
+<li><a href="#orge7c28e5">Arpeggiated Chords - 131</a></li>
+</ul>
+</li>
+<li><a href="#org488f3d9">Dynamics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="6">6</span></span></a>
+<ul>
+<li><a href="#org3e8fd5e">Typefaces - 101</a></li>
+<li><a href="#org6f5375d">Placement - 101-103</a></li>
+<li><a href="#orgeb54006">Hairpins vs words 106</a></li>
+<li><a href="#org53b81c3">subito 107</a></li>
+</ul>
+</li>
+<li><a href="#orgf40fe56">Ties&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span></span></a>
+<ul>
+<li><a href="#org49f8cff">Only same note - 60</a></li>
+<li><a href="#org578319e">Flattening in chords - 61</a></li>
+<li><a href="#org59554ee">Distance between ties - 66</a></li>
+</ul>
+</li>
+<li><a href="#orga386160">Slurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span></span></a>
+<ul>
+<li><a href="#org80b045a">Over a break - 112</a></li>
+<li><a href="#org2820a05">Chords - 114</a></li>
+</ul>
+</li>
+<li><a href="#orgd4a53fd">Octave Signs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></a>
+<ul>
+<li><a href="#org8d8ef88">Where its placed -28</a></li>
+<li><a href="#orgbdd6a7b">Precedence of slurs, octaves, and tuplets, Tempo Markings, pedal instructions - 29</a></li>
+<li><a href="#org1f84c06">Extension Lines - 30</a></li>
+<li><a href="#org1c4dd7b">Octave signs vs ledger liens - 33</a></li>
+</ul>
+</li>
+<li><a href="#org4bf5a20">Grace Notes - 126&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></a></li>
+<li><a href="#org0638f6b">Trills 135&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></a>
+<ul>
+<li><a href="#orgaf4cf6d">Accidentals with trills - 84</a></li>
+</ul>
+</li>
+<li><a href="#org45cf41b">Glissandi&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></a></li>
+<li><a href="#orged9b970">Pauses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="9">9</span></span></a>
+<ul>
+<li><a href="#orgcbe3836">' and // 187</a></li>
+<li><a href="#orgb26481d">Fermata 187-188</a></li>
+</ul>
+</li>
+<li><a href="#org0c36453">Repeats 219&#xa0;&#xa0;&#xa0;<span class="tag"><span class="9">9</span></span></a>
+<ul>
+<li><a href="#org874048e">Slash notation 219</a></li>
+<li><a href="#org9ba6aae">Tremolos 225</a></li>
+<li><a href="#org75fcd03">Beat repetition 230</a></li>
+<li><a href="#org064b022">Repeat barlines 233</a></li>
+<li><a href="#org97494ae">DC and DS 238</a></li>
+</ul>
+</li>
+<li><a href="#orgef8559c">Page Layout&#xa0;&#xa0;&#xa0;<span class="tag"><span class="10">10</span></span></a></li>
+<li><a href="#org914ef5d">Extracting Parts&#xa0;&#xa0;&#xa0;<span class="tag"><span class="11">11</span></span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org24d12d6" class="outline-2">
+<h2 id="org24d12d6">Class 1 8/31/2023</h2>
+<div class="outline-text-2" id="text-org24d12d6">
+</div>
+<div id="outline-container-org2eea77e" class="outline-3">
+<h3 id="org2eea77e">Class</h3>
+<div class="outline-text-3" id="text-org2eea77e">
+</div>
+<div id="outline-container-org047b483" class="outline-4">
+<h4 id="org047b483">Syllabus</h4>
+</div>
+<div id="outline-container-orga0b04de" class="outline-4">
+<h4 id="orga0b04de">Overview of Notation Programs</h4>
+</div>
+
+<div id="outline-container-org9c68f1e" class="outline-4">
+<h4 id="org9c68f1e">Introduction Reading</h4>
+</div>
+
+<div id="outline-container-org620508a" class="outline-4">
+<h4 id="org620508a">Comparison of Default Output</h4>
+</div>
+
+<div id="outline-container-org26d636b" class="outline-4">
+<h4 id="org26d636b">Sibelius Overview</h4>
+<div class="outline-text-4" id="text-org26d636b">
+</div>
+<ul class="org-ul">
+<li><a id="orgb15a841"></a>Ribbon<br /></li>
+
+<li><a id="org5ebfacb"></a>Document Setup<br />
+<ul class="org-ul">
+<li><a id="org745c85e"></a>Pickup Measure<br /></li>
+
+<li><a id="org58fca2f"></a>Key signatures<br /></li>
+
+<li><a id="org15fea44"></a>House Styles<br /></li>
+
+<li><a id="org6820864"></a>Tempos<br /></li>
+</ul>
+</li>
+<li><a id="org33620b9"></a>Note Input<br />
+<ul class="org-ul">
+<li><a id="org842a225"></a>Panorama View<br /></li>
+
+<li><a id="org75477e6"></a>Point and click<br /></li>
+
+<li><a id="org30eefa1"></a>Type letters<br /></li>
+
+<li><a id="org77cde8c"></a>Midi<br /></li>
+
+<li><a id="org30b0c30"></a>Ties - Only to the same note!!!!<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c2ee68" class="outline-3">
+<h3 id="org3c2ee68">Homework</h3>
+<div class="outline-text-3" id="text-org3c2ee68">
+<p>
+Input basic melodies and setup documents for each.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0790bb6" class="outline-2">
+<h2 id="org0790bb6">Class 2 9/5/2023</h2>
+<div class="outline-text-2" id="text-org0790bb6">
+</div>
+<div id="outline-container-org1b08b8e" class="outline-3">
+<h3 id="org1b08b8e">Note Input</h3>
+<div class="outline-text-3" id="text-org1b08b8e">
+</div>
+<div id="outline-container-org9265ed5" class="outline-4">
+<h4 id="org9265ed5">Voices</h4>
+<div class="outline-text-4" id="text-org9265ed5">
+</div>
+<ul class="org-ul">
+<li><a id="orgb803288"></a>Color display in Choose View &gt; Note Colors<br /></li>
+<li><a id="org317be5e"></a>Rests<br /></li>
+<li><a id="org2ca0874"></a>Moving notes to other voices and swapping<br /></li>
+</ul>
+</div>
+<div id="outline-container-org1399709" class="outline-4">
+<h4 id="org1399709">Accidentals (demonstrations only, sibelius seems to do really well with this)</h4>
+<div class="outline-text-4" id="text-org1399709">
+</div>
+<ul class="org-ul">
+<li><a id="org2a3cc37"></a>Where they apply<br /></li>
+<li><a id="org3da5b0e"></a>Cautionary accidentals<br />
+<ul class="org-ul">
+<li><a id="org602c799"></a>Right after barline<br /></li>
+<li><a id="org9f3d73e"></a>Octaves<br /></li>
+</ul>
+</li>
+<li><a id="org7f5499d"></a>Note Spelling<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgbf7248a" class="outline-4">
+<h4 id="orgbf7248a">Tricks</h4>
+<div class="outline-text-4" id="text-orgbf7248a">
+</div>
+<ul class="org-ul">
+<li><a id="org6c0ac4d"></a>Reenter notes keep rhythm<br /></li>
+<li><a id="org91cbde7"></a>Repeat measures<br /></li>
+<li><a id="org49b4a11"></a>Transpose<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1b4393b" class="outline-3">
+<h3 id="org1b4393b">Changing Key Signatures, Time Signatures, Clefs</h3>
+<div class="outline-text-3" id="text-org1b4393b">
+</div>
+<div id="outline-container-org61e7f23" class="outline-4">
+<h4 id="org61e7f23">Note double barlines for keys, not times</h4>
+</div>
+<div id="outline-container-org68482a5" class="outline-4">
+<h4 id="org68482a5">Ledger lines for clefs (3)</h4>
+</div>
+<div id="outline-container-orgb14db84" class="outline-4">
+<h4 id="orgb14db84">Before barlines</h4>
+</div>
+<div id="outline-container-orgf56bea7" class="outline-4">
+<h4 id="orgf56bea7">Mid measure clef changes</h4>
+<div class="outline-text-4" id="text-orgf56bea7">
+</div>
+<ul class="org-ul">
+<li><a id="org7b0d852"></a>Between Beats<br /></li>
+<li><a id="org5919b66"></a>Between Phrases<br /></li>
+<li><a id="org0039c22"></a>Middle of Beats<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgbe8624c" class="outline-4">
+<h4 id="orgbe8624c">Changing after rests</h4>
+</div>
+</div>
+<div id="outline-container-orgf6eda1f" class="outline-3">
+<h3 id="orgf6eda1f">Homework</h3>
+<div class="outline-text-3" id="text-orgf6eda1f">
+<p>
+Note entry with lots of changes in key signatures, time signatures, and clefs
+Clef correction exercises
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb0c1e93" class="outline-2">
+<h2 id="orgb0c1e93">Class 3 9/7/2023</h2>
+<div class="outline-text-2" id="text-orgb0c1e93">
+</div>
+<div id="outline-container-org95594e8" class="outline-3">
+<h3 id="org95594e8">Drumset</h3>
+<div class="outline-text-3" id="text-org95594e8">
+</div>
+<div id="outline-container-org5c40877" class="outline-4">
+<h4 id="org5c40877">MIDI vs Score Entry</h4>
+<div class="outline-text-4" id="text-org5c40877">
+</div>
+<ul class="org-ul">
+<li><a id="org4153294"></a>Changing noteheads without step time<br /></li>
+
+<li><a id="org43a558e"></a>Mapping of devices<br /></li>
+
+<li><a id="org0399086"></a>How it looks vs how it sounds<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb679a65" class="outline-3">
+<h3 id="orgb679a65">Guitar and TAB</h3>
+<div class="outline-text-3" id="text-orgb679a65">
+</div>
+<div id="outline-container-orge4b5561" class="outline-4">
+<h4 id="orge4b5561">Alternate Tunings</h4>
+</div>
+
+<div id="outline-container-org5dfe54f" class="outline-4">
+<h4 id="org5dfe54f">Fretboard input</h4>
+</div>
+
+<div id="outline-container-orgc0590c2" class="outline-4">
+<h4 id="orgc0590c2">Chord Diagrams</h4>
+</div>
+
+<div id="outline-container-orgb5e2895" class="outline-4">
+<h4 id="orgb5e2895">Dynamic vs non dynamic parts</h4>
+</div>
+
+<div id="outline-container-orgb9da85e" class="outline-4">
+<h4 id="orgb9da85e">Using both</h4>
+</div>
+</div>
+<div id="outline-container-org6ac76b2" class="outline-3">
+<h3 id="org6ac76b2">Keyboard</h3>
+<div class="outline-text-3" id="text-org6ac76b2">
+</div>
+<div id="outline-container-org2ac0dee" class="outline-4">
+<h4 id="org2ac0dee">Cross staff</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org055335a" class="outline-2">
+<h2 id="org055335a">Class 4 9/12/2023</h2>
+<div class="outline-text-2" id="text-org055335a">
+</div>
+<div id="outline-container-org21af861" class="outline-3">
+<h3 id="org21af861">Tuplets</h3>
+<div class="outline-text-3" id="text-org21af861">
+</div>
+<div id="outline-container-org22548ba" class="outline-4">
+<h4 id="org22548ba">locking the triplet with shift option k</h4>
+</div>
+
+<div id="outline-container-orge9f16a2" class="outline-4">
+<h4 id="orge9f16a2">custom tuplets the slow way</h4>
+</div>
+
+<div id="outline-container-org2fd87fe" class="outline-4">
+<h4 id="org2fd87fe">nested triplets</h4>
+</div>
+
+<div id="outline-container-org58c36d0" class="outline-4">
+<h4 id="org58c36d0">Triplet ratios</h4>
+</div>
+</div>
+<div id="outline-container-org2ebab4d" class="outline-3">
+<h3 id="org2ebab4d">Lyrics</h3>
+<div class="outline-text-3" id="text-org2ebab4d">
+</div>
+<div id="outline-container-orga2e32f5" class="outline-4">
+<h4 id="orga2e32f5">Direct enter</h4>
+<div class="outline-text-4" id="text-orga2e32f5">
+</div>
+<ul class="org-ul">
+<li><a id="org189ed42"></a>Command L and Option Command L for verse 2<br /></li>
+
+<li><a id="org53e5497"></a>Non breaking spaces and hyphens<br /></li>
+</ul>
+</div>
+<div id="outline-container-org875b18c" class="outline-4">
+<h4 id="org875b18c">Copy and paste</h4>
+</div>
+
+<div id="outline-container-org52d4631" class="outline-4">
+<h4 id="org52d4631">From File</h4>
+</div>
+
+<div id="outline-container-org217f7bb" class="outline-4">
+<h4 id="org217f7bb">Plugins</h4>
+<div class="outline-text-4" id="text-org217f7bb">
+</div>
+<ul class="org-ul">
+<li><a id="orgd8e240d"></a>Add slurs<br /></li>
+
+<li><a id="org3e76dd5"></a>Traditional Beaming<br /></li>
+
+<li><a id="orgd418420"></a>Check lyric hyphenation<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6614da7" class="outline-2">
+<h2 id="org6614da7">Class 5 9/14/2023</h2>
+<div class="outline-text-2" id="text-org6614da7">
+</div>
+<div id="outline-container-org2733f04" class="outline-3">
+<h3 id="org2733f04">Slurs</h3>
+<div class="outline-text-3" id="text-org2733f04">
+</div>
+<div id="outline-container-orgaa68722" class="outline-4">
+<h4 id="orgaa68722">Different Meanings</h4>
+<div class="outline-text-4" id="text-orgaa68722">
+</div>
+<ul class="org-ul">
+<li><a id="org44a660b"></a>Winds and Brass<br /></li>
+
+<li><a id="org732f9ec"></a>Strings<br /></li>
+
+<li><a id="org31d402c"></a>Voice<br /></li>
+</ul>
+</div>
+<div id="outline-container-org05e9c9d" class="outline-4">
+<h4 id="org05e9c9d">s or select passage</h4>
+</div>
+
+<div id="outline-container-orge2c1c04" class="outline-4">
+<h4 id="orge2c1c04">During input S and shift S</h4>
+</div>
+
+<div id="outline-container-orge64a28b" class="outline-4">
+<h4 id="orge64a28b">Flipping with X</h4>
+</div>
+
+<div id="outline-container-org5d8ad01" class="outline-4">
+<h4 id="org5d8ad01">Adjusting handles</h4>
+<div class="outline-text-4" id="text-org5d8ad01">
+</div>
+<ul class="org-ul">
+<li><a id="org8b38ef0"></a>Resetting if you mess up<br /></li>
+
+<li><a id="orga2318f7"></a>Disable magnetic for cross staff<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf77b23c" class="outline-4">
+<h4 id="orgf77b23c">Adjusting ends when extending over breaks</h4>
+</div>
+</div>
+<div id="outline-container-org37e2d00" class="outline-3">
+<h3 id="org37e2d00">Articulations</h3>
+<div class="outline-text-3" id="text-org37e2d00">
+</div>
+<div id="outline-container-org1f1e0c2" class="outline-4">
+<h4 id="org1f1e0c2">Except in two stemmed, it goes over the noteheads</h4>
+<div class="outline-text-4" id="text-org1f1e0c2">
+</div>
+<ul class="org-ul">
+<li><a id="orga7e4746"></a>Or limited space below, and except the marcato (sibelius won't let you flip it)<br /></li>
+</ul>
+</div>
+<div id="outline-container-org43f5669" class="outline-4">
+<h4 id="org43f5669">Double stemmed</h4>
+<div class="outline-text-4" id="text-org43f5669">
+</div>
+<ul class="org-ul">
+<li><a id="org7018280"></a>Each voice needs its own articulations, including unisons!<br /></li>
+
+<li><a id="org57170d4"></a>Aritculations go to the stem side<br />
+<ul class="org-ul">
+<li><a id="org77e4132"></a>Don't move it closer than the end of the stem!<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org1833886" class="outline-4">
+<h4 id="org1833886">During input and after input</h4>
+</div>
+
+<div id="outline-container-org9a5f9e4" class="outline-4">
+<h4 id="org9a5f9e4">Clearing articulations</h4>
+</div>
+
+<div id="outline-container-org37d74f7" class="outline-4">
+<h4 id="org37d74f7">Flip with X</h4>
+</div>
+</div>
+<div id="outline-container-orgd995159" class="outline-3">
+<h3 id="orgd995159">Grace Notes</h3>
+<div class="outline-text-3" id="text-orgd995159">
+</div>
+<div id="outline-container-orgf7996c3" class="outline-4">
+<h4 id="orgf7996c3">Always stem up except double stemmed writing</h4>
+</div>
+
+<div id="outline-container-orgdd0a84e" class="outline-4">
+<h4 id="orgdd0a84e">Slurs below notehead (sibelius won't do this automatically!)</h4>
+</div>
+
+<div id="outline-container-org3303151" class="outline-4">
+<h4 id="org3303151">Independent slurs, even when slur is long</h4>
+</div>
+
+<div id="outline-container-org03e4f70" class="outline-4">
+<h4 id="org03e4f70">Articulations where they are conspicuous (sibelius doesn't do this automatically!)</h4>
+</div>
+
+<div id="outline-container-org4633f3f" class="outline-4">
+<h4 id="org4633f3f">Dynamics tend to go to main note unless there are a lot of grace notes</h4>
+</div>
+</div>
+<div id="outline-container-org7cd4153" class="outline-3">
+<h3 id="org7cd4153">Beams</h3>
+<div class="outline-text-3" id="text-org7cd4153">
+</div>
+<div id="outline-container-orge38c1be" class="outline-4">
+<h4 id="orge38c1be">Sibelius usually good on secondary beams, but not always (3/8 eg)</h4>
+</div>
+
+<div id="outline-container-org99f51a5" class="outline-4">
+<h4 id="org99f51a5">Manually add a secondary beam for 4 64ths notes</h4>
+</div>
+
+<div id="outline-container-orgf67679c" class="outline-4">
+<h4 id="orgf67679c">Global change</h4>
+</div>
+
+<div id="outline-container-org893e6b6" class="outline-4">
+<h4 id="org893e6b6">Feathered Beams</h4>
+</div>
+
+<div id="outline-container-org8007efc" class="outline-4">
+<h4 id="org8007efc">over rests</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org099212d" class="outline-2">
+<h2 id="org099212d">Class 6 9/19/2023</h2>
+<div class="outline-text-2" id="text-org099212d">
+</div>
+<div id="outline-container-org18ffebc" class="outline-3">
+<h3 id="org18ffebc">Dynamics</h3>
+<div class="outline-text-3" id="text-org18ffebc">
+</div>
+<div id="outline-container-orgb8d6c9c" class="outline-4">
+<h4 id="orgb8d6c9c">Hairpins</h4>
+<div class="outline-text-4" id="text-orgb8d6c9c">
+</div>
+<ul class="org-ul">
+<li><a id="org7e82aec"></a>H and Shift H and Shift L during input, alt arrows to select handles<br /></li>
+
+<li><a id="orgb0f941e"></a>Multiple at once<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3b1418d" class="outline-3">
+<h3 id="org3b1418d">Text in General</h3>
+<div class="outline-text-3" id="text-org3b1418d">
+</div>
+<div id="outline-container-org15cc102" class="outline-4">
+<h4 id="org15cc102">Fonts</h4>
+<div class="outline-text-4" id="text-org15cc102">
+</div>
+<ul class="org-ul">
+<li><a id="orgcbff02f"></a>Roman Bold, Italic, Roman Normal<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgdd1be1f" class="outline-4">
+<h4 id="orgdd1be1f">One at a time</h4>
+</div>
+
+<div id="outline-container-org637cf09" class="outline-4">
+<h4 id="org637cf09">Copy with shift alt click vs alt click</h4>
+</div>
+
+<div id="outline-container-org704e022" class="outline-4">
+<h4 id="org704e022">Alt click to get same style</h4>
+</div>
+
+<div id="outline-container-org7f5a89a" class="outline-4">
+<h4 id="org7f5a89a">Multi select (first notes of measures only?)</h4>
+</div>
+
+<div id="outline-container-org16a4662" class="outline-4">
+<h4 id="org16a4662">Align in column</h4>
+</div>
+</div>
+<div id="outline-container-orgfa8af95" class="outline-3">
+<h3 id="orgfa8af95">Tempo Marks</h3>
+<div class="outline-text-3" id="text-orgfa8af95">
+</div>
+<div id="outline-container-orgd9e8a54" class="outline-4">
+<h4 id="orgd9e8a54">System Object Positions in Appearance Tab</h4>
+</div>
+<div id="outline-container-org45b3d66" class="outline-4">
+<h4 id="org45b3d66">Align them</h4>
+</div>
+<div id="outline-container-org71faca7" class="outline-4">
+<h4 id="org71faca7">Modulations with = signs</h4>
+</div>
+</div>
+<div id="outline-container-org8e639c0" class="outline-3">
+<h3 id="org8e639c0">Expressions and Technique text</h3>
+<div class="outline-text-3" id="text-org8e639c0">
+</div>
+<div id="outline-container-org05657dc" class="outline-4">
+<h4 id="org05657dc">position (esp with lyrics)</h4>
+</div>
+
+<div id="outline-container-orgc26b7bf" class="outline-4">
+<h4 id="orgc26b7bf">Center dynamics, sibelius won't do this for you!!!</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org91006a5" class="outline-2">
+<h2 id="org91006a5">Class 7 9/21/2023</h2>
+<div class="outline-text-2" id="text-org91006a5">
+</div>
+<div id="outline-container-org5ffb51e" class="outline-3">
+<h3 id="org5ffb51e">Glissandi</h3>
+<div class="outline-text-3" id="text-org5ffb51e">
+</div>
+<div id="outline-container-orga2bfbe2" class="outline-4">
+<h4 id="orga2bfbe2">At least first occurance should have word gliss.</h4>
+</div>
+
+<div id="outline-container-org008f5f6" class="outline-4">
+<h4 id="org008f5f6">Make sure it isn't confused with voice leading lines</h4>
+</div>
+
+<div id="outline-container-org342d0f4" class="outline-4">
+<h4 id="org342d0f4">With accidentals, default is next to, but can also adjust</h4>
+</div>
+
+<div id="outline-container-orgccecbc5" class="outline-4">
+<h4 id="orgccecbc5">Unisons go in direction of gliss (auto)</h4>
+</div>
+
+<div id="outline-container-org6fbea57" class="outline-4">
+<h4 id="org6fbea57">Avoid clef changes</h4>
+</div>
+
+<div id="outline-container-org2fc63b4" class="outline-4">
+<h4 id="org2fc63b4">Use ties if gliss delayed</h4>
+</div>
+
+<div id="outline-container-orgc1309cc" class="outline-4">
+<h4 id="orgc1309cc">Chord glisses only one label (not automatic)</h4>
+</div>
+
+<div id="outline-container-org7871709" class="outline-4">
+<h4 id="org7871709">Finishing grace note and parenthesis</h4>
+</div>
+
+<div id="outline-container-org7b68880" class="outline-4">
+<h4 id="org7b68880">Intermediate notes and parenthesis</h4>
+</div>
+</div>
+<div id="outline-container-org0e7a68e" class="outline-3">
+<h3 id="org0e7a68e">Trills</h3>
+<div class="outline-text-3" id="text-org0e7a68e">
+</div>
+<div id="outline-container-org95e1ae3" class="outline-4">
+<h4 id="org95e1ae3">Only long slurs and octave signs go above the trill</h4>
+</div>
+
+<div id="outline-container-orge6ca867" class="outline-4">
+<h4 id="orge6ca867">Line lasts for entire note (sib doesn't follow ties), stops right at next notehead or its accidental (sib won't notice) or to barline</h4>
+</div>
+
+<div id="outline-container-orgd0900eb" class="outline-4">
+<h4 id="orgd0900eb">Accidental by creating a new symbol and a new line</h4>
+</div>
+
+<div id="outline-container-org1bd1d94" class="outline-4">
+<h4 id="org1bd1d94">Grace note for a defined pitch in parenthesis with an X shift, hide flag, drag stem down</h4>
+</div>
+
+<div id="outline-container-orgf95bca4" class="outline-4">
+<h4 id="orgf95bca4">Grace note terminations</h4>
+</div>
+</div>
+<div id="outline-container-org8290802" class="outline-3">
+<h3 id="org8290802">Tremolos</h3>
+<div class="outline-text-3" id="text-org8290802">
+</div>
+<div id="outline-container-org29b98ca" class="outline-4">
+<h4 id="org29b98ca">input at half value, choose beam numbers</h4>
+</div>
+
+<div id="outline-container-org81477f8" class="outline-4">
+<h4 id="org81477f8">tied to next measure with slurs</h4>
+</div>
+
+<div id="outline-container-org661d9c4" class="outline-4">
+<h4 id="org661d9c4">break beams (auto?)</h4>
+</div>
+</div>
+<div id="outline-container-org9103aea" class="outline-3">
+<h3 id="org9103aea">Arpeggios</h3>
+<div class="outline-text-3" id="text-org9103aea">
+</div>
+<div id="outline-container-orgdfc64ac" class="outline-4">
+<h4 id="orgdfc64ac">Extends all notes (not stems)</h4>
+</div>
+
+<div id="outline-container-org1ec42c0" class="outline-4">
+<h4 id="org1ec42c0">Cross staff if there's an accidental</h4>
+</div>
+</div>
+<div id="outline-container-orgc7a5dc1" class="outline-3">
+<h3 id="orgc7a5dc1">Octave Signs</h3>
+<div class="outline-text-3" id="text-orgc7a5dc1">
+</div>
+<div id="outline-container-org22c1601" class="outline-4">
+<h4 id="org22c1601">Above almost all other notation</h4>
+</div>
+
+<div id="outline-container-orge93d31d" class="outline-4">
+<h4 id="orge93d31d">Slur vs triplet vs octave depend on longest</h4>
+</div>
+
+<div id="outline-container-org752859d" class="outline-4">
+<h4 id="org752859d">Change style if wanted</h4>
+</div>
+
+<div id="outline-container-orgedefd73" class="outline-4">
+<h4 id="orgedefd73">How long it goes controversy</h4>
+</div>
+
+<div id="outline-container-org43332e8" class="outline-4">
+<h4 id="org43332e8">Ledger lines, octave signs, or clef changes?</h4>
+</div>
+
+<div id="outline-container-org16d1870" class="outline-4">
+<h4 id="org16d1870">loco to turn back</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org7a2733e" class="outline-2">
+<h2 id="org7a2733e">Class 8 9/26/2023</h2>
+<div class="outline-text-2" id="text-org7a2733e">
+</div>
+<div id="outline-container-org46ddffa" class="outline-3">
+<h3 id="org46ddffa">Repeats</h3>
+</div>
+
+<div id="outline-container-org40a9ea8" class="outline-3">
+<h3 id="org40a9ea8">Pauses</h3>
+</div>
+
+<div id="outline-container-org50a4e1a" class="outline-3">
+<h3 id="org50a4e1a">Instruments on the side</h3>
+</div>
+
+<div id="outline-container-org05163da" class="outline-3">
+<h3 id="org05163da">System break character by itself?</h3>
+</div>
+
+<div id="outline-container-org50aac70" class="outline-3">
+<h3 id="org50aac70">Rehearsal Marks</h3>
+</div>
+
+<div id="outline-container-orgd6437b6" class="outline-3">
+<h3 id="orgd6437b6">Brackets</h3>
+</div>
+
+<div id="outline-container-org30aa2ea" class="outline-3">
+<h3 id="org30aa2ea">Figured Bass</h3>
+</div>
+
+<div id="outline-container-org6c53efb" class="outline-3">
+<h3 id="org6c53efb">Bar numbers</h3>
+</div>
+
+<div id="outline-container-org7f79a5d" class="outline-3">
+<h3 id="org7f79a5d">Noteheads</h3>
+</div>
+
+<div id="outline-container-org672a97a" class="outline-3">
+<h3 id="org672a97a">Barlines</h3>
+</div>
+</div>
+<div id="outline-container-org5b484b1" class="outline-2">
+<h2 id="org5b484b1">Class 9 9/28/2023</h2>
+<div class="outline-text-2" id="text-org5b484b1">
+</div>
+<div id="outline-container-org7cf7768" class="outline-3">
+<h3 id="org7cf7768">Page Layout</h3>
+</div>
+
+<div id="outline-container-org4810696" class="outline-3">
+<h3 id="org4810696">Focus On Staffs</h3>
+</div>
+
+<div id="outline-container-orgea10850" class="outline-3">
+<h3 id="orgea10850">Hiding Staffs</h3>
+</div>
+
+<div id="outline-container-org50af96c" class="outline-3">
+<h3 id="org50af96c">Spacing, margins, page size</h3>
+</div>
+
+<div id="outline-container-org571db8b" class="outline-3">
+<h3 id="org571db8b">Magnetic Layout</h3>
+</div>
+</div>
+<div id="outline-container-org72c8627" class="outline-2">
+<h2 id="org72c8627">Class 10 10/3/2023</h2>
+<div class="outline-text-2" id="text-org72c8627">
+</div>
+<div id="outline-container-org6853c1c" class="outline-3">
+<h3 id="org6853c1c">Dynamic Parts</h3>
+<div class="outline-text-3" id="text-org6853c1c">
+</div>
+<div id="outline-container-org3d1c642" class="outline-4">
+<h4 id="org3d1c642">When to use which?</h4>
+</div>
+</div>
+<div id="outline-container-org0e30181" class="outline-3">
+<h3 id="org0e30181">Extracting Parts</h3>
+</div>
+
+<div id="outline-container-org68e2a0a" class="outline-3">
+<h3 id="org68e2a0a">Cues</h3>
+</div>
+</div>
+<div id="outline-container-org2b7a4d8" class="outline-2">
+<h2 id="org2b7a4d8">Class 11 10/5/2023</h2>
+<div class="outline-text-2" id="text-org2b7a4d8">
+</div>
+<div id="outline-container-org33f2a83" class="outline-3">
+<h3 id="org33f2a83">Midterm Projects</h3>
+</div>
+</div>
+<div id="outline-container-orgbf99a87" class="outline-2">
+<h2 id="orgbf99a87">Class 12 10/10/2023</h2>
+<div class="outline-text-2" id="text-orgbf99a87">
+</div>
+<div id="outline-container-org1027603" class="outline-3">
+<h3 id="org1027603">Midterm Projects</h3>
+</div>
+</div>
+<div id="outline-container-org4128a70" class="outline-2">
+<h2 id="org4128a70">Class 13 10/12/20232</h2>
+<div class="outline-text-2" id="text-org4128a70">
+</div>
+<div id="outline-container-org07c0e44" class="outline-3">
+<h3 id="org07c0e44">Midterm Projects</h3>
+</div>
+</div>
+<div id="outline-container-orgf1481eb" class="outline-2">
+<h2 id="orgf1481eb">Fundamentals of Notation</h2>
+<div class="outline-text-2" id="text-orgf1481eb">
+</div>
+<div id="outline-container-org7e39416" class="outline-3">
+<h3 id="org7e39416">Double Stemmed Writing&#xa0;&#xa0;&#xa0;<span class="tag"><span class="2">2</span></span></h3>
+<div class="outline-text-3" id="text-org7e39416">
+</div>
+<div id="outline-container-org294c4c7" class="outline-4">
+<h4 id="org294c4c7">Rests - 36</h4>
+</div>
+
+<div id="outline-container-org3f4ff63" class="outline-4">
+<h4 id="org3f4ff63">Articulations - 118</h4>
+</div>
+</div>
+<div id="outline-container-org0247b4c" class="outline-3">
+<h3 id="org0247b4c">Accidentals&#xa0;&#xa0;&#xa0;<span class="tag"><span class="2">2</span></span></h3>
+<div class="outline-text-3" id="text-org0247b4c">
+</div>
+<div id="outline-container-org7dce9b3" class="outline-4">
+<h4 id="org7dce9b3">Where they apply - 78-79</h4>
+</div>
+
+<div id="outline-container-orgcf72448" class="outline-4">
+<h4 id="orgcf72448">Right after a barline - 81</h4>
+</div>
+
+<div id="outline-container-orge06ef5f" class="outline-4">
+<h4 id="orge06ef5f">Octave displacement - 82</h4>
+</div>
+
+<div id="outline-container-org1d4993e" class="outline-4">
+<h4 id="org1d4993e">Cautionary accidentals - 83</h4>
+</div>
+
+<div id="outline-container-org589a9d3" class="outline-4">
+<h4 id="org589a9d3">Note spelling - 85</h4>
+</div>
+</div>
+<div id="outline-container-org241d714" class="outline-3">
+<h3 id="org241d714">Drumset 281&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></h3>
+</div>
+<div id="outline-container-orgff1bad1" class="outline-3">
+<h3 id="orgff1bad1">Braces 303&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></h3>
+</div>
+<div id="outline-container-org15cf397" class="outline-3">
+<h3 id="org15cf397">Split beams 314&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></h3>
+</div>
+<div id="outline-container-orgf5e8ba7" class="outline-3">
+<h3 id="orgf5e8ba7">Pedaling 334&#xa0;&#xa0;&#xa0;<span class="tag"><span class="3">3</span></span></h3>
+</div>
+<div id="outline-container-org45432d8" class="outline-3">
+<h3 id="org45432d8">Vocal writing 434&#xa0;&#xa0;&#xa0;<span class="tag"><span class="4">4</span></span></h3>
+</div>
+<div id="outline-container-org23a5a4a" class="outline-3">
+<h3 id="org23a5a4a">Clef Changes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></h3>
+<div class="outline-text-3" id="text-org23a5a4a">
+</div>
+<div id="outline-container-org130c6fe" class="outline-4">
+<h4 id="org130c6fe">Ledger Lines  - 7</h4>
+</div>
+
+<div id="outline-container-org6dc95d1" class="outline-4">
+<h4 id="org6dc95d1">At Beginning of the bar, mid measure, after rests - 8</h4>
+</div>
+</div>
+<div id="outline-container-org664ba8b" class="outline-3">
+<h3 id="org664ba8b">Key Changes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></h3>
+<div class="outline-text-3" id="text-org664ba8b">
+</div>
+<div id="outline-container-orgf115745" class="outline-4">
+<h4 id="orgf115745">Double bar line - 39</h4>
+</div>
+</div>
+<div id="outline-container-org41b4ae8" class="outline-3">
+<h3 id="org41b4ae8">Tuplets 193&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></h3>
+</div>
+<div id="outline-container-org0faf6a0" class="outline-3">
+<h3 id="org0faf6a0">Tempo Marks 182&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></h3>
+</div>
+<div id="outline-container-org4913c83" class="outline-3">
+<h3 id="org4913c83">Meter&#xa0;&#xa0;&#xa0;<span class="tag"><span class="5">5</span></span></h3>
+<div class="outline-text-3" id="text-org4913c83">
+</div>
+<div id="outline-container-orgc7d360a" class="outline-4">
+<h4 id="orgc7d360a">Rests 160</h4>
+</div>
+
+<div id="outline-container-org8f5bd7b" class="outline-4">
+<h4 id="org8f5bd7b">Syncopation - 170</h4>
+</div>
+
+<div id="outline-container-orgfdde232" class="outline-4">
+<h4 id="orgfdde232">Simple to Compound - 172</h4>
+</div>
+</div>
+<div id="outline-container-org93d333b" class="outline-3">
+<h3 id="org93d333b">Articulations&#xa0;&#xa0;&#xa0;<span class="tag"><span class="6">6</span></span></h3>
+<div class="outline-text-3" id="text-org93d333b">
+</div>
+<div id="outline-container-org7fde161" class="outline-4">
+<h4 id="org7fde161">Placement - 117</h4>
+</div>
+
+<div id="outline-container-orga51e8c0" class="outline-4">
+<h4 id="orga51e8c0">Double stemmed placement - 118</h4>
+</div>
+
+<div id="outline-container-orge7c28e5" class="outline-4">
+<h4 id="orge7c28e5">Arpeggiated Chords - 131</h4>
+</div>
+</div>
+<div id="outline-container-org488f3d9" class="outline-3">
+<h3 id="org488f3d9">Dynamics&#xa0;&#xa0;&#xa0;<span class="tag"><span class="6">6</span></span></h3>
+<div class="outline-text-3" id="text-org488f3d9">
+</div>
+<div id="outline-container-org3e8fd5e" class="outline-4">
+<h4 id="org3e8fd5e">Typefaces - 101</h4>
+</div>
+
+<div id="outline-container-org6f5375d" class="outline-4">
+<h4 id="org6f5375d">Placement - 101-103</h4>
+</div>
+
+<div id="outline-container-orgeb54006" class="outline-4">
+<h4 id="orgeb54006">Hairpins vs words 106</h4>
+</div>
+
+<div id="outline-container-org53b81c3" class="outline-4">
+<h4 id="org53b81c3">subito 107</h4>
+</div>
+</div>
+<div id="outline-container-orgf40fe56" class="outline-3">
+<h3 id="orgf40fe56">Ties&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span></span></h3>
+<div class="outline-text-3" id="text-orgf40fe56">
+</div>
+<div id="outline-container-org49f8cff" class="outline-4">
+<h4 id="org49f8cff">Only same note - 60</h4>
+</div>
+
+<div id="outline-container-org578319e" class="outline-4">
+<h4 id="org578319e">Flattening in chords - 61</h4>
+</div>
+
+<div id="outline-container-org59554ee" class="outline-4">
+<h4 id="org59554ee">Distance between ties - 66</h4>
+</div>
+</div>
+<div id="outline-container-orga386160" class="outline-3">
+<h3 id="orga386160">Slurs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="7">7</span></span></h3>
+<div class="outline-text-3" id="text-orga386160">
+</div>
+<div id="outline-container-org80b045a" class="outline-4">
+<h4 id="org80b045a">Over a break - 112</h4>
+</div>
+
+<div id="outline-container-org2820a05" class="outline-4">
+<h4 id="org2820a05">Chords - 114</h4>
+</div>
+</div>
+<div id="outline-container-orgd4a53fd" class="outline-3">
+<h3 id="orgd4a53fd">Octave Signs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></h3>
+<div class="outline-text-3" id="text-orgd4a53fd">
+</div>
+<div id="outline-container-org8d8ef88" class="outline-4">
+<h4 id="org8d8ef88">Where its placed -28</h4>
+</div>
+
+<div id="outline-container-orgbdd6a7b" class="outline-4">
+<h4 id="orgbdd6a7b">Precedence of slurs, octaves, and tuplets, Tempo Markings, pedal instructions - 29</h4>
+</div>
+
+<div id="outline-container-org1f84c06" class="outline-4">
+<h4 id="org1f84c06">Extension Lines - 30</h4>
+</div>
+
+<div id="outline-container-org1c4dd7b" class="outline-4">
+<h4 id="org1c4dd7b">Octave signs vs ledger liens - 33</h4>
+</div>
+</div>
+<div id="outline-container-org4bf5a20" class="outline-3">
+<h3 id="org4bf5a20">Grace Notes - 126&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></h3>
+</div>
+<div id="outline-container-org0638f6b" class="outline-3">
+<h3 id="org0638f6b">Trills 135&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></h3>
+<div class="outline-text-3" id="text-org0638f6b">
+</div>
+<div id="outline-container-orgaf4cf6d" class="outline-4">
+<h4 id="orgaf4cf6d">Accidentals with trills - 84</h4>
+</div>
+</div>
+<div id="outline-container-org45cf41b" class="outline-3">
+<h3 id="org45cf41b">Glissandi&#xa0;&#xa0;&#xa0;<span class="tag"><span class="8">8</span></span></h3>
+</div>
+<div id="outline-container-orged9b970" class="outline-3">
+<h3 id="orged9b970">Pauses&#xa0;&#xa0;&#xa0;<span class="tag"><span class="9">9</span></span></h3>
+<div class="outline-text-3" id="text-orged9b970">
+</div>
+<div id="outline-container-orgcbe3836" class="outline-4">
+<h4 id="orgcbe3836">' and // 187</h4>
+</div>
+
+<div id="outline-container-orgb26481d" class="outline-4">
+<h4 id="orgb26481d">Fermata 187-188</h4>
+</div>
+</div>
+<div id="outline-container-org0c36453" class="outline-3">
+<h3 id="org0c36453">Repeats 219&#xa0;&#xa0;&#xa0;<span class="tag"><span class="9">9</span></span></h3>
+<div class="outline-text-3" id="text-org0c36453">
+</div>
+<div id="outline-container-org874048e" class="outline-4">
+<h4 id="org874048e">Slash notation 219</h4>
+</div>
+
+<div id="outline-container-org9ba6aae" class="outline-4">
+<h4 id="org9ba6aae">Tremolos 225</h4>
+</div>
+
+<div id="outline-container-org75fcd03" class="outline-4">
+<h4 id="org75fcd03">Beat repetition 230</h4>
+</div>
+
+<div id="outline-container-org064b022" class="outline-4">
+<h4 id="org064b022">Repeat barlines 233</h4>
+</div>
+
+<div id="outline-container-org97494ae" class="outline-4">
+<h4 id="org97494ae">DC and DS 238</h4>
+</div>
+</div>
+<div id="outline-container-orgef8559c" class="outline-3">
+<h3 id="orgef8559c">Page Layout&#xa0;&#xa0;&#xa0;<span class="tag"><span class="10">10</span></span></h3>
+</div>
+<div id="outline-container-org914ef5d" class="outline-3">
+<h3 id="org914ef5d">Extracting Parts&#xa0;&#xa0;&#xa0;<span class="tag"><span class="11">11</span></span></h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p><a href="sitemap.html">Site Map</a></p>
+</div>
+</body>
+</html>
