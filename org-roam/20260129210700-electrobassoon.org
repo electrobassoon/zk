@@ -18,11 +18,22 @@
   - *Context Note*: Since no Max license, ensure the Pd patch is set to the correct sample rate before starting the Max runtime.
   - Next time try the Little Jake straight into the interface. It sounds a bit tubby and almost unusable.
 ** Ardour Process
+  - Bassoon Track
+    - The LSP Enhancer helps with the noise floor and not sounding so distant
+      - Pretty low threshold, like -48, and a higher ratio. The point is to reduce background noise and get more present sound
+    - LSP Parametric EQ
+      - Probably need to be better at this, but steep high and low pass filters, a slight mid cut and bass boost
+    - LSP Compressor
+      - Healthy makeup gain and roll off the top, helps again to boost the sound without clipping
   - Reverb bus
-  - The LSP Enhancer helps with the noise floor and not sounding so distant
+    - Dragonfly large dark room
+      - Dry 0%, then 10 10 20?
   - Output the electronics at the bottom of the strip to a separate bus
   - Use the *LSP Compressor* with a sidechain to duck the electronics when the bassoon plays. Use the pin in out button to set that up.
+    - Also make sure the mode in the middle part is set to external
+    - While it's tempting to do a lot with this, probably just a little at the top
   - Group tracks to try and cut in the same places
+  - LSP Limiter on the Master track maybe not a bad idea
 
 * Workflow B: Hardware Processing (Pedals)
   - *OS*: Linux (Gentoo)
@@ -30,10 +41,12 @@
   - *Advantage*: Stays in the native mastering environment. No file transfer needed.
 
 * Visuals: projectM Preset Development
-  - *Status*: Struggling with preset creation.
-
+  - Using projectm-jack for the visuals with default milkdrop presets
+  - Use mpv --ao=jack --keep-open path/to/file
+  - use obs to capture the screen and jack output
+  - use kdenlive to make videos
+    - start with a title screen with the logo, name of piece, and composer. Title is 120 Krypton Semibold. Composer is 53.
+  - use kdenlive to make the instagram post video as well
+  - Remember you need the title page for a thumbnail
 * Breadcrumbs (Handover)
-  - *Last Action*: Chronomancer first recording done.
-  - *Stuck Point*: projectM preset isn't showing image. May need to give up on a custom preset.
-  - *Next Step*: Redo mixing process that was lost. Add sidechain, redirect tracks, tweak eq, cut and rearrange takes, location markers for those takes, remove redundant max takes
-  - *Next Recording*: See if there's a way to lower the latency in VBMatrix
+

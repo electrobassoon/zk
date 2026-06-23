@@ -6,7 +6,7 @@
 
 * Project Specs
   - Root: `~/bassoonhumdrum/classicalConcerti`
-  - Current Work: `~/bassoonhumdrum/classicalConcerti/mozart_k191/`
+  - Current Work: `~/bassoonhumdrum/classicalConcerti/bach-johann-christian/concerto-eb-wc82`
   - Format: `**kern` (Target)
 
 * Manual Encoding Cheat Sheet (**kern)
@@ -24,16 +24,20 @@
 * The Encoding Production Line (Fastest Route)
 ** *PDF Source*: Clean scan
 *** Script
+The edits from claude fixed some errors I had on one, so probably good to keep
 #+BEGIN_SRC bash
   magick -density 300 "mozartscore.pdf" \
+# claude suggests -trim +repage first
          -deskew 40% \
-         -gaussian-blur 0.05 \
-         -unsharp 0x1 \
+#claude suggests +repage after 
+         -gaussian-blur 0.05 #to try and reduce noise not suggested by claude \ 
+         -unsharp 0x1 # claude suggests 0x1+1+0\
          -threshold 50% \
+# claude suggests -morphology Erode Disk:1
          -type Bilevel \
          -compress none \
          -depth 8 \
-         "page_%03d.tif"
+         "page_%03d.tif" #claude suggests -strip TIFF:"page...."
 #+END_SRC
 *** Adjusting parameters
 | If you see...                    | The Problem                    | The Tweak                                         |
@@ -69,6 +73,7 @@ tiffcp page01.tif page02.tif page03.tif output.tiff
 #+END_SRC
 ** OMR (Audiveris): Run OMR. 
 *** Initial Processing
+Note in FreeBSD that audiveris is inside the /compat/ubuntu chroot. I think I may need to chroot into it first.
 #+BEGIN_SRC bash
 audiveris -batch -step SYMBOLS -save -option org.audiveris.omr.text.Language.defaultSpecification=eng+ita -output ./omr_output/ ./page_*.tif
 #+END_SRC
@@ -88,10 +93,9 @@ Run humdrum for syntax and proof for rhythm on the file
 * Musescore
  - Combined parts need to be exploded to create their own spines
  - Dynamics don't transfer, so don't worry about them
+ - I can't remember what we do for transposing instruments and I'm sad that we lost this
 
 * Next Session Breadcrumbs
-  - Breadcrumb: Movement 1 is done, movement 2 is in musescore proofing. Movement 3 is ready for proofing.
-  - *Current Task*: Edit movement 2 in musescore. probably at listening stage
-  - Next Step: Clean movement 2 in musescore
-  - *Next Step*: Check if kern.el can help speed up encoding
+- WC83 is ready for Audiveris
+- WC82 has been split into tifs, but needs the tiffcp done to combine into movements
   
